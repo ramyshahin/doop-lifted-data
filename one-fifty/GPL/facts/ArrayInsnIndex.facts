@@ -1,0 +1,10 @@
+<Graph: int readNumber()>/assign/instruction17	<Graph: int readNumber()>/$i0
+<Graph: int readNumber()>/assign/instruction28	<Graph: int readNumber()>/index_$$A_1#_221
+<Main: void main(java.lang.String[])>/assign/instruction47	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_1#_45
+<Main: void main(java.lang.String[])>/assign/instruction49	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_1#_45
+<Main: void main(java.lang.String[])>/assign/instruction59	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52
+<Main: void main(java.lang.String[])>/assign/instruction62	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52
+<Main: EdgeIfc addEdge(Graph,int)>/assign/instruction5	<Main: EdgeIfc addEdge(Graph,int)>/n#_0
+<Main: EdgeIfc addEdge(Graph,int)>/assign/instruction6	<Main: EdgeIfc addEdge(Graph,int)>/$i0
+<Main: EdgeIfc addEdge(Graph,int)>/assign/instruction9	<Main: EdgeIfc addEdge(Graph,int)>/n#_0
+<Main: EdgeIfc addEdge(Graph,int)>/assign/instruction10	<Main: EdgeIfc addEdge(Graph,int)>/$i1

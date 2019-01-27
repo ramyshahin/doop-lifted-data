@@ -1,0 +1,1271 @@
+\\"<dbin>\\"
+\\"</dbin>\\"
+LN_TX
+LN
+MapLN_TX
+MapLN
+NameLN_TX
+NameLN
+DelDupLN_TX
+DelDupLN
+DupCountLN_TX
+DupCountLN
+FileSummaryLN	@Cleaner
+IN
+BIN
+DIN
+DBIN
+Root
+Commit
+Abort
+CkptStart
+CkptEnd
+INDelete
+BINDelta
+DupBINDelta
+Trace
+FileHeader
+INDupDelete
+Prepare
+<dbin>
+</dbin>
+<lastFullLsn>
+</lastFullLsn>
+<dupkey>
+<<\\"\\">>
+<summary totalCount=\\\"	@Cleaner
+</dupkey>
+\\\" totalSize=\\\"	@Cleaner
+\\\"/>
+\\\" totalINCount=\\\"	@Cleaner
+\\\" totalINSize=\\\"	@Cleaner
+SUCCESS
+FILLED_CACHE
+\\\" totalLNCount=\\\"	@Cleaner
+EXCEEDED_TIME
+\\\" totalLNSize=\\\"	@Cleaner
+\\\" obsoleteINCount=\\\"	@Cleaner
+\\\" obsoleteLNCount=\\\"	@Cleaner
+\\\"/>	@Cleaner
+PreloadStatus.
+\\"daemon\\"
+\\"manual\\"
+\\"critical\\"
+DBIN
+\\\"/>	@(Evictor) /\ (Evictor)
+Evictor.addToQueue should never be called.	@Evictor /\ EvictorDaemon
+daemon	@Evictor /\ EvictorDaemon
+Sequences not supported in databases configured for duplicates
+Minimum sequence value must be less than the maximum
+Initial sequence value is out of range
+<<\\"environmentImpl is null for target db \\">>
+The cache size is larger than the sequence range
+critical	@Evictor /\ Memory_Budget /\ Critical_Eviction
+ExclusiveCreate=true and the sequence record already exists.
+Sequence record removed during openSequence.
+AllowCreate=false and the sequence record does not exist.
+activeTxns=[	@(Transactions /\ Statistics) /\ (Transactions /\ Statistics)
+]\n	@(Transactions /\ Statistics) /\ (Transactions /\ Statistics)
+Evictor: pass=	@Logging_Evictor /\ Evictor /\ Logging_Base
+Sequence delta must be greater than zero
+Sequence delta is larger than the range
+Evictor: pass=	@Logging_Evictor /\ Evictor /\ Logging_Base
+.
+<<\\"Sequence overflow \\">>
+.
+Evictor: pass=	@Logging_Evictor /\ Evictor /\ Logging_Base
+Sequence.get value=	@Logging_Finest /\ Logging_Base
+<<\\"latches held = \\">>	@Evictor
+\\"sun.arch.data.model\\"
+\\"je.forceJVMArch\\"
+1.4 based 64 bit JVM not supported	@Memory_Budget
+The sequence record has been deleted while it is open.
+<DbLsn val=\\\"0x
+<<\\" IN type=\\">>	@Evictor
+0x
+<<\\"Database \\">>	@Evictor
+Mac OS X
+Usage: EnvironmentParams <samplePropertyFile>
+####################################################\n# Example Berkeley DB, Java Edition property file\n# Each parameter is set to its default value\n####################################################\n\n
+#
+NEXT
+PREV
+NEXT_DUP
+PREV_DUP
+NEXT_NODUP
+PREV_NODUP
+.
+.
+.
+.
+<<\\" (\\">>
+)
+\\\"/>	@(Checkpointer_Daemon) /\ (Checkpointer_Daemon)
+daemon	@Checkpointer_Daemon
+\\\"/>
+\n	@(Statistics) /\ (Statistics)
+numBottomInternalNodes=	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+numInternalNodes=	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+READ
+WRITE
+numDuplicateInternalNodes=	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+RANGE_READ
+numDuplicateBottomInternalNodes=	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+RANGE_WRITE
+RANGE_INSERT
+NONE
+RESTART
+\n	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+\n	@(Statistics) /\ (Statistics)
+\\"RootSplit:\\"
+\\"DupRootSplit:\\"
+\\"Mut:\\"
+\\"Ins:\\"
+\\"InsD:\\"
+<<\\" lastCkpt=\\">>	@Logging_Finest
+RootLatch	@(Latches) /\ (Latches)
+<<\\"Shutting down \\">>
+Exiting
+Continuing
+<<\\" lastCkpt=\\">>	@Logging_Finest
+<<\\" lastCkpt=\\">>	@Logging_Finest
+<<\\" lastCkpt=\\">>	@Logging_Finest
+<<\\" lastCkpt=\\">>	@Logging_Finest
+\\"<ln>\\"
+\\"</ln>\\"
+<<\\"prepare() has already been called for Transaction \\">>	@Transactions
+<<\\"Transaction \\">>	@Transactions
+<ln>
+</ln>
+<data>
+</data>
+<<\\"Transaction \\">>	@(Transactions) /\ (Transactions)
+<<\\"Commit of transaction \\">>	@(Transactions) /\ (Transactions /\ Logging_Severe)
+Txn	@(Transactions) /\ (Transactions /\ Logging_Severe)
+commit	@(Transactions) /\ (Transactions /\ Logging_Severe)
+<<\\"Failed while attempting to commit transaction \\">>	@(Transactions) /\ (Transactions)
+getFirstNode passed null root
+<data>
+</data>
+getLastNode passed null root
+<<\\"Failed while attempting to commit transaction \\">>	@(Transactions) /\ (Transactions)
+\\"je.properties\\"
+getParentNode passed null
+envHome
+je.properties
+<<\\"An error occurred when reading \\">>
+<<\\"Abort:id = \\">>	@Transactions /\ Logging_Fine
+<<\\"Transaction \\">>	@Transactions
+This statement would have triggered an Exception: virtualinvoke searchResult#1.<com.sleepycat.je.tree.IN: void releaseLatchIfOwner()>()
+<<\\"There \\">>
+is 1 open Database in the Environment.\n
+<<\\"are \\">>
+<<\\" open Database in the Environment.\n\\">>
+Closing the following databases:\n
+<<\\" \\">>
+<<\\"There \\">>	@Transactions
+is 1 existing transaction opened against	@Transactions
+<<\\" the Environment.\n\\">>	@Transactions
+<<\\"are \\">>	@Transactions
+<<\\" existing transactions opened against\\">>	@Transactions
+<<\\" the Environment.\n\\">>	@Transactions
+Aborting open transactions ...\n	@Transactions
+databaseName
+Environment.open:  name=	@Logging_Finest
+Txn undo for node=	@Transactions
+<<\\"Database \\">>
+<<\\"Database \\">>
+TxnAbort
+<<\\"Attempted to open Database \\">>	@Transactions
+<<\\"Attempted to open Database \\">>
+subtree did not have a BIN for leaf	@Latches
+databaseName	@DeleteOp
+databaseName	@RenameOp
+newName	@RenameOp
+RootSplit:	@Logging_Fine
+databaseName	@TruncateOp
+Transactions can not be used in a non-transactional environment	@Transactions
+Only one may be specified: SerializableIsolation, ReadCommitted or ReadUncommitted	@Transactions
+\\".jdb\\"
+\\".cif\\"
+\\".del\\"
+\\".bad\\"
+\\".lck\\"
+searchSubTree passed key and left/right search
+api
+sync
+<<\\"Couldn\'t find lock for Node \\">>	@Transactions
+.del
+.jdb
+.jdb
+.del
+mutableConfig
+<<\\"Environment home \\">>
+<<\\"Invalid value of searchType: \\">>
+<<\\"Can\'t find \\">>	@Transactions
+<<\\"Can\'t find \\">>	@Transactions
+.jdb
+Attempt to use non-open Environment object().
+<<\\"Transaction \\">>	@Transactions
+<<\\"Transaction \\">>	@Transactions
+.jdb
+<txn id=\\\"	@(Transactions) /\ (Transactions)
+\\\">	@(Transactions) /\ (Transactions)
+</txn>	@(Transactions) /\ (Transactions)
+)	@Latches
+<<\\"<LATCH \\">>	@Latches
+<<\\"] \\">>	@Latches
+<<\\"\\">>
+.
+<<\\"Couldn\'t rename \\">>
+]	@Latches
+<<\\" [waiters: \\">>	@Latches
+<<\\"null buffer given to checksum validation, probably  result of 0\'s in log file. \\">>	@Checksum
+<<\\" \\">>	@Latches
+]	@Latches
+>	@Latches
+<<\\"Couldn\'t delete \\">>
+<<\\"Location \\">>	@Checksum
+<<\\"Location \\">>	@Checksum
+<Transaction id=\\\"	@(Transactions) /\ (Transactions)
+\\\"	@(Transactions) /\ (Transactions)
+<<\\" name=\\\"\\">>	@(Transactions) /\ (Transactions)
+\\\"	@(Transactions) /\ (Transactions)
+>	@(Transactions) /\ (Transactions)
+<<\\"\\">>
+<<\\"Transaction \\">>	@Transactions
+<<\\"Couldn\'t open file \\">>
+<<\\"Couldn\'t open file \\">>
+\\\">
+<ckptStart>
+</ckptStart>
+<root>
+Channel closed, may be due to thread interrupt
+<<\\"IOException caught: \\">>
+</root>
+<firstActive>
+<<\\"File \\">>
+<<\\"Cursor.count: \\">>	@Logging_Finest
+</firstActive>
+</CkptEnd>
+delete
+<<\\"Cursor.delete: \\">>	@Logging_Finest
+key
+data
+put
+<<\\"Cursor.put: \\">>	@Logging_Finest
+key
+data
+putNoOverwrite
+<<\\"Cursor.putNoOverwrite: \\">>	@Logging_Finest
+FileManager would overwrite non-empty file 0x
+generated for testing
+key
+data
+File closed, may be due to thread interrupt
+putNoDupData
+generated for testing	@DiskFullErro
+<<\\"Cursor.putNoDupData: \\">>	@Logging_Finest
+data
+putCurrent
+<<\\"Cursor.putCurrent: \\">>	@Logging_Finest
+<<\\"Cursor.getCurrent: \\">>	@Logging_Finest
+<<\\"Cursor.getFirst: \\">>	@Logging_Finest
+<<\\"Cursor.getLast: \\">>	@Logging_Finest
+<<\\"Cursor.getNext: \\">>	@Logging_Finest
+<<\\"Cursor.getNextDup: \\">>	@Logging_Finest
+<<\\"Cursor.getNextNoDup: \\">>	@Logging_Finest
+<<\\"Cursor.getPrev: \\">>	@Logging_Finest
+<<\\"Cursor.getPrevDup: \\">>	@Logging_Finest
+<<\\"Cursor.getPrevNoDup: \\">>	@Logging_Finest
+key
+data
+<<\\"Cursor.getSearchKey: \\">>	@Logging_Finest
+je.lck	@(Environment_Locking) /\ (Environment_Locking)
+rw	@(Environment_Locking) /\ (Environment_Locking)
+<<\\"A je.lckfile exists in \\">>	@(Environment_Locking) /\ (Environment_Locking)
+key
+shared	@(Environment_Locking) /\ (Environment_Locking)
+single writer	@(Environment_Locking) /\ (Environment_Locking)
+data
+<<\\"Cursor.getSearchKeyRange: \\">>	@Logging_Finest
+A checksum error was found in the log.
+<<\\"Corruption begins at LSN:\n   \\">>
+<<\\"Last known good record before corruption is at LSN:\n   \\">>
+<<\\"Next known good record after corruption is at LSN:\n   \\">>
+<<\\"Cursor.getSearchBoth: \\">>	@Logging_Finest
+<<\\"Cursor.getSearchBothRange: \\">>	@Logging_Finest
+This statement would have triggered an Exception: virtualinvoke dupRoot#4.<com.sleepycat.je.tree.DIN: void releaseLatch()>()
+<<\\"The Environment directory \\">>
+neither LN or DIN found in BIN
+Write after RunRecoveryException
+Randomly generated for testing
+<DatabaseEntry
+>
+DupRootSplit:	@Logging_Fine
+put passed a null DatabaseEntry arg
+put passed a null DatabaseEntry arg
+unknown PutMode
+allowDuplicates passed to insert but database doesn\'t have allow duplicates set.
+NULL_LSN without KnownDeleted
+\\\">
+</ref>
+<<\\"SubtreeRemoval: subtreeRoot = \\">>	@Logging_Fine
+<lsn/>
+<key/>
+<target/>
+TxnPrepare
+<knownDeleted val=\\\"
+\\\"/>
+<pendingDeleted val=\\\"
+<root>
+\\\"/>
+This statement would have triggered an Exception: $stack45 = result#4.<com.sleepycat.je.dbi.CursorImpl$KeyChangeStatus: com.sleepycat.je.OperationStatus status>
+\\\"/>
+</root>
+\\\">
+>
+<tree>
+<in/>
+</tree>
+<<\\"IN \\">>
+<<\\"IN \\">>
+<<\\"IN \\">>
+Mut:	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" existingLn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" newLn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" newLnLsn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" dupCountLN=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" dupRootLsn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" rootdin=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" ddinLsn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" dbin=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" dbinLsn=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" bin=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+All nodes should have been loaded	@Cleaner
+Ins:	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" bin=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" ln=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" lnLsn=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" index=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+----- Event Dump -----
+InsD:	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" dbin=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" bin=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" ln=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" lnLsn=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+txnId=
+delete
+<<\\"SecondaryCursor.delete: \\">>	@Logging_Finest
+<<\\"SecondaryCursor.getCurrent: \\">>	@Logging_Finest
+<<\\"SecondaryCursor.getFirst: \\">>	@Logging_Finest
+<<\\"SecondaryCursor.getLast: \\">>	@Logging_Finest
+<<\\"SecondaryCursor.getNext: \\">>	@Logging_Finest
+<<\\"Environment invalid because of previous exception: \\">>
+\\"DupRootRecover:\\"
+\\"LNRedo:\\"
+\\"LNUndo\\"
+\\"INRecover:\\"
+\\"RootRecover:\\"
+\\"INDelReplay:\\"
+\\"INDupDelReplay:\\"
+\\"RootDelete:\\"
+<<\\"SecondaryCursor.getNextDup: \\">>	@Logging_Finest
+<<\\"SecondaryCursor.getNextNoDup: \\">>	@Logging_Finest
+unknown GetMode
+<
+<<\\" exists = \\\"\\">>
+\\\">
+\\\"/>
+<<\\"SecondaryCursor.getPrev: \\">>	@Logging_Finest
+Recovery underway, found end of log	@Logging_Config
+<<\\"Recovery checkpoint search, \\">>	@Logging_Config
+Recovery w/no files.	@Logging_Config
+<<\\"SecondaryCursor.getPrevDup: \\">>	@Logging_Finest
+<<\\"There are \\">>	@Transactions /\ Logging_Info
+recovery
+RecoveryManager	@Logging_Severe
+recover	@Logging_Severe
+Couldn\'t recover	@Logging_Severe
+<<\\"Couldn\'t recover: \\">>
+<<\\"Recovery finished: \\">>
+<<\\"Recovery finished: \\">>
+<TreeLocation bin=\\\"
+null
+\\\" index=\\\"
+\\\" lnKey=\\\"
+\\\" childLsn=\\\"
+\\\">
+lastUsed=
+<<HASH:-870535562>>
+<<\\"Not Exception or Error: \\">>
+<<\\"SecondaryCursor.getPrevNoDup: \\">>	@Logging_Finest
+key
+pKey
+data
+<<\\"SecondaryCursor.getSearchKey: \\">>	@Logging_Finest
+key
+pKey
+data
+<<\\"SecondaryCursor.getSearchKeyRange: \\">>	@Logging_Finest
+\\\">
+</INDeleteEntry>
+key
+pKey
+data
+<<\\"SecondaryCursor.getSearchBoth: \\">>	@Logging_Finest
+<<\\"usage: \\">>	@Statistics /\ Verifier
+<<\\"usage: \\">>	@(Statistics /\ Verifier) /\ (Statistics /\ Verifier)
+key
+pKey
+data
+<<\\"SecondaryCursor.getSearchBothRange: \\">>	@Logging_Finest
+-h requires an argument	@Statistics /\ Verifier
+-s requires an argument	@Statistics /\ Verifier
+-v requires a positive argument	@Statistics /\ Verifier
+-v requires an argument	@Statistics /\ Verifier
+-h is a required argument	@Statistics /\ Verifier
+-s is a required argument	@Statistics /\ Verifier
+<<\\"DbStat.stats of \\">>	@(Statistics /\ Verifier) /\ (Logging_Info /\ Verifier /\ Statistics)
+<<\\"DbStat.stats of \\">>	@(Statistics /\ Verifier) /\ (Logging_Info /\ Verifier /\ Statistics)
+\\"  File    Size (KB)  % Used\n--------  ---------  ------\\"
+<<\\" TOTALS \\">>	@(Cleaner) /\ (Cleaner)
+<<\\"  \\">>	@(Cleaner) /\ (Cleaner)
+<<\\"     \\">>	@(Cleaner) /\ (Cleaner)
+readMapIns
+key
+<<\\"A transaction was not supplied when opening this cursor: \\">>
+pKey
+data
+key
+data
+r
+key
+rw
+data
+readNonMapIns
+<<\\"Found unfinished prepare record: id: \\">>	@Transactions /\ Logging_Info
+undoLNs
+<key v=\\\"
+<null>
+<null>
+<<\\"\\">>
+\\\"/>
+key=
+\\"je.info\\"
+Non-blocking lock was denied.
+<<\\"Problem parsing parameter \\">>
+lsn=
+redoLns
+<<\\"\\">>
+<Dbg time=\\\"	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
+\\\">	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
+<msg val=\\\"	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
+\\\"/>	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
+</Dbg>	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
+<<\\" lsnFromLog:\\">>	@Logging_Severe
+RecoveryManager	@Logging_Severe
+replaceOrInsert	@Logging_Severe
+lsnFromLog=
+Trace list:
+<<\\"\\">>
+<<\\"failed adding in \\">>	@Memory_Budget
+\\\" gTxnId=\\\"
+null
+\\\" bqual=\\\"
+null
+\\\"/>
+lsnFromLog=
+<<\\"A per-thread transaction was created in \\">>
+RootRecover:	@Logging_Recovery
+Recovery Info
+<<\\" lastUsed=\\">>
+RootRecover:	@Logging_Recovery
+<<\\" nextAvail=\\">>
+<<\\" ckptStart=\\">>
+<<\\" firstActive=\\">>
+<<\\" ckptEnd=\\">>
+<<\\" useRoot=\\">>
+>
+Nested transactions are not supported yet.	@Transactions
+\\"LatchImpl\\"
+<<\\"XA Transaction \\">>	@Transactions
+SUCCESS
+KEYEXIST
+KEYEMPTY
+NOTFOUND
+OperationStatus.
+size=
+<<\\"DatabaseEntry \\">>
+db=
+LatchImpl	@Latches
+<<\\"Data field for DatabaseEntry \\">>
+DupRootRecover:	@Logging_Recovery
+DupRootRecover:	@Logging_Recovery
+A partial key DatabaseEntry is not allowed
+\\"<dupCountLN>\\"
+\\"</dupCountLN>\\"
+<<\\"usage: \\">>
+INRecover:	@Logging_Recovery
+waitTarget.active but not owner	@(Latches) /\ (Latches)
+<dupCountLN>
+</dupCountLN>
+INRecover:	@Logging_Recovery
+INRecover:	@Logging_Recovery
+\\\"/>
+\\"INCompress:\\"
+LNRedo:	@Logging_Recovery
+-f requires an argument
+-h requires an argument
+-d requires an argument
+\\\"/>	@(INCompressor) /\ (INCompressor)
+-s requires an argument
+\\"Delete\\"
+\\"Mod:\\"
+-h is a required argument
+Must supply a database name if -l not supplied.
+INCompressor.addToQueue should never be called.	@INCompressor
+true
+false
+LNRedo:	@Logging_Recovery
+<<\\"DbDump.dump of \\">>	@Logging_Info
+LNRedo:	@Logging_Recovery
+DATA=END
+<<\\"DbDump.dump of \\">>	@Logging_Info
+VERSION=3
+format=print
+format=bytevalue
+type=btree
+dupsort=
+1
+0
+HEADER=END
+<<\\"InCompress.doCompress called, queue size: \\">>	@INCompressor /\ Logging_Fine
+Log statistics:
+LNUndo	@Logging_Recovery /\ Logging_Base
+type
+total
+provisional
+total
+min
+max
+avg
+LNUndo	@Logging_Recovery /\ Logging_Base
+entries
+<<\\"\\">>
+count
+count
+bytes
+bytes
+bytes
+bytes
+as % of log
+key/data
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+(
+<<\\"\nTotal bytes in portion of log read: \\">>
+<<\\"Total number of entries: \\">>
+<<\\" \\">>
+Delete	@Logging_Finer /\ Latches
+\nPer checkpoint interval info:
+lnTxn
+ln
+mapLNTxn
+mapLN
+end-end
+end-start
+start-end
+maxLNReplay
+ckptEnd
+<<\\"Recovery Pass \\">>
+<<\\"Cache percent is not a valid integer: \\">>
+<<\\"Recovery Pass \\">>
+putNoDupData() called, but database is not configured for duplicate data.
+<<\\" node=\\">>	@Logging_Base
+<<\\" lsn=\\">>	@Logging_Base
+<<\\" found=\\">>	@Logging_Base
+<<\\" replaced=\\">>	@Logging_Base
+<<\\" inserted=\\">>	@Logging_Base
+<<\\" replacedLsn=\\">>	@Logging_Base
+<<\\" abortLsn=\\">>	@Logging_Base
+INDupDelReplay:	@(Logging_Recovery) /\ (Logging_Recovery /\ Logging_Base)
+INDelReplay:	@(Logging_Recovery) /\ (Logging_Recovery /\ Logging_Base)
+<<\\"last LSN = \\">>	@Logging_Severe
+RecoveryManager	@Logging_Severe
+last LSN=
+RootDelete:	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+SET
+BOTH
+SET_RANGE
+BOTH_RANGE
+SearchMode.
+\\"CleanIN:\\"
+\\"CleanLN:\\"
+\\"CleanMigrateLN:\\"
+\\"CleanPendingLN:\\"
+Can\'t replace a duplicate with different data.	@Latches
+Mod:	@Logging_Finer /\ Latches
+NEW
+<<\\"Error in \\">>	@Cleaner
+WAIT_NEW
+PROMOTION
+WAIT_PROMOTION
+EXISTING
+DENIED
+WAIT_RESTART
+NONE_NEEDED
+,-	@Cleaner
+,	@Cleaner
+-	@Cleaner
+<<\\"Both \\">>	@Cleaner
+Btree
+Duplicate
+The following DatabaseConfig parameters for the\ncached Database do not match the parameters for the\nrequested Database:\n
+<<\\" Transactional\n\\">>	@Transactions
+<<\\" Read-Only\n\\">>
+<<\\" Sorted Duplicates\n\\">>
+<<\\" Btree Comparator\n\\">>
+<<\\" Duplicate Comparator\n\\">>
+<<\\"\\">>	@Cleaner
+Cannot write file summary in a read-only environment	@Cleaner
+.jdb	@Cleaner
+<<\\"Cleaner has \\">>	@Cleaner /\ Environment_Locking /\ Logging_Severe
+.del	@Cleaner /\ Environment_Locking
+Cleaner deleted file 0x	@Cleaner /\ Environment_Locking /\ Logging_Severe
+<knownDeleted val=\\\"
+true
+false
+\\\"/>
+Log file 0x	@(Cleaner /\ Logging_Severe) /\ (Cleaner /\ Logging_Severe)
+deleted	@Cleaner /\ Logging_Severe
+renamed	@Cleaner /\ Logging_Severe
+Cleaner	@(Cleaner /\ Logging_Severe) /\ (Cleaner /\ Logging_Severe)
+deleteSafeToDeleteFiles	@(Cleaner /\ Logging_Severe) /\ (Cleaner /\ Logging_Severe)
+primaryDatabase
+Can\'t use as primary:
+<<\\"Duplicates must not be allowed for a primary database: \\">>
+Primary and secondary databases must be in the same environment
+secConfig.getKeyCreator() and getMultiKeyCreator() may not both be non-null
+secConfig and getKeyCreator()/getMultiKeyCreator() may be null only if the primary database is read-only
+secConfig.getForeignKeyNullifier() and getForeignMultiKeyNullifier() may not both be non-null
+ForeignKeyNullifier or ForeignMultiKeyNullifier must be non-null when ForeignKeyDeleteAction is NULLIFY
+ForeignKeyNullifier may not be used with SecondaryMultiKeyCreator -- use ForeignMultiKeyNullifier instead
+<<\\"Duplicates must not be allowed for a foreign key  database: \\">>
+CleanPendingLN:	@Cleaner /\ Logging_Cleaner
+CleanPendingLN:	@Cleaner /\ Logging_Cleaner
+CleanPendingLN:	@Cleaner /\ Logging_Cleaner
+<<\\"Secondary is already associated with a different primary: \\">>
+CleanPendingLN:	@Cleaner
+CleanPendingLN:	@Cleaner
+CleanPendingLN:	@Cleaner /\ Logging_Cleaner
+SecondaryDatabase open	@Logging_Finest
+CleanPendingLN:	@Cleaner /\ Logging_Cleaner
+_jeUtilization	@Transactions /\ Cleaner
+_jeUtilization	@Transactions /\ Cleaner
+key
+Can\'t call SecondaryDatabase.delete:
+SecondaryDatabase.delete	@Logging_Finest
+CleanMigrateLN:	@Cleaner
+CleanMigrateLN:	@Cleaner
+CleanMigrateLN:	@Cleaner
+Cleaner duplicate key sequence file=0x	@Cleaner /\ Logging_Base /\ Logging_Severe
+key
+pKey
+data
+Can\'t call SecondaryDatabase.get:
+SecondaryDatabase.get	@Logging_Finest
+key
+pKey
+data
+Can\'t call SecondaryDatabase.getSearchBoth:
+SecondaryDatabase.getSearchBoth	@Logging_Finest
+<<\\"lsn \\">>	@Cleaner /\ Latches
+remaining=
+\\"<node>\\"
+\\"</node>\\"
+matchLNByNodeId called on non DIN/DBIN
+<node>
+</node>
+<<\\"Secondary \\">>
+<
+<node>
+</node>
+TxnCommit
+<<\\"Secondary \\">>
+initialized
+open
+closed
+invalid
+<<\\"Could not insert secondary key in \\">>
+<<\\"Can\'t go from environment state \\">>
+<<\\"usage: \\">>	@(Statistics /\ Verifier) /\ (Statistics /\ Verifier)
+<<\\"Exit status = \\">>	@Statistics /\ Verifier
+<<\\"Exit status = \\">>	@Statistics /\ Verifier
+<<\\"Exit status = \\">>	@Statistics /\ Verifier
+<<\\"Secondary \\">>
+-h requires an argument	@Statistics /\ Verifier
+-s requires an argument	@Statistics /\ Verifier
+-v requires a positive argument	@Statistics /\ Verifier
+-v requires an argument	@Statistics /\ Verifier
+-h is a required argument	@Statistics /\ Verifier
+-s is a required argument	@Statistics /\ Verifier
+<<\\"Secondary \\">>
+Operation not allowed on a secondary
+<<\\"DbVerify.verify of \\">>	@Logging_Info /\ Verifier /\ Statistics
+.	@(Memory_Budget) /\ (Memory_Budget)
+Checking obsolete offsets ...	@Statistics /\ Verifier
+<<\\"DbVerify.verify of \\">>	@Logging_Info /\ Verifier /\ Statistics
+<<\\"DbVerify.verify of \\">>	@Logging_Info /\ Verifier /\ Statistics
+<LockInfo locker=\\\"
+\\\" type=\\\"
+\\\"/>
+<<\\" lock taken at: \\">>
+<<\\"CleanAddPendingDB \\">>	@(Cleaner /\ DeleteOp) /\ (DeleteOp /\ Cleaner /\ Logging_Cleaner)
+<<\\" node=\\">>	@Cleaner /\ Logging_Cleaner /\ Logging_Base
+<<\\" logLsn=\\">>	@Cleaner /\ Logging_Cleaner /\ Logging_Base
+Already closed
+key
+<<\\"JoinCursor.getNext(key): \\">>	@Logging_Finest
+key
+data
+<<\\"JoinCursor.getNext(key,data): \\">>	@Logging_Finest
+BIN cursorSet is inconsistent.	@Verifier
+Cursor Not Initialized.
+Cursor has been closed.
+<<\\"Unknown cursor status: \\">>
+CURSOR_NOT_INITIALIZED
+CURSOR_INITIALIZED
+CURSOR_CLOSED
+UNKNOWN (
+Secondary corrupt
+copy.remaining=
+.
+\\\"
+\\\"
+\\\"
+>\n
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+\n</Cursor>
+true	@Logging_ConsoleHandler
+false	@Logging_DbLogHandler
+false	@Evictor
+1000	@Evictor
+<<\\"Files cleaned: \\">>	@Cleaner
+<<\\"\\">>
+<<\\"\\">>
+<<\\" bin=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" ln=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" lnIdx=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\" oldLnLsn=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\"\nrecovery time = \\">>
+<<\\"action time = \\">>
+<<\\" newLnLsn=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
+<<\\"\nrecovery time = \\">>
+<<\\"action time = \\">>
+<<\\"\nrecovery time = \\">>
+<<\\"action time = \\">>
+<<\\"<LatchWaiter: \\">>	@(Latches) /\ (Latches)
+cleanedCount=	@Cleaner /\ DeleteOp
+<<\\"Remove of \\">>	@DeleteOp
+<<\\"Attempt to \\">>	@DeleteOp
+<<\\"Cannot read backward over cleaned file from \\">>
+\\"<fileSummaryLN>\\"
+\\"</fileSummaryLN>\\"
+<<\\"FileReader read invalid log entry type: \\">>
+Preload starting
+<<\\"Preloaded \\">>
+UTF-8	@Cleaner
+evict time=	@Evictor
+<<\\"Usage: \n \\">>
+<<\\"Error Key \\">>
+UNKNOWN
+<<\\"  -h <environment home> \\">>
+<<\\"  -a <clean|compress|evict|checkpoint|removedb>\\">>
+<<\\"  -ro (read-only - defaults to read-write)\\">>
+<<\\"  -s <dbName> (for preloading of evict or db remove)\\">>
+\\"<din>\\"
+\\"</din>\\"
+<<\\"Error Data \\">>
+UNKNOWN
+<fileSummaryLN>	@(Cleaner) /\ (Cleaner)
+</fileSummaryLN>	@(Cleaner) /\ (Cleaner)
+<<\\"maxBytes parameter to Database.preload() was specified as \\">>	@Memory_Budget
+<database id=\\\"
+\\\"
+<<\\" btc=\\\"\\">>
+\\\"
+<<\\" dupc=\\\"\\">>
+\\\"
+/>
+Txnl access to UP db not allowed	@(Cleaner) /\ (Cleaner)
+Btree
+Duplicate
+couldn\'t instantiate class comparator
+<database>
+\\\"/>
+<btcf name=\\\"
+\\\"/>
+<dupcf name=\\\"
+<<\\"Problem in fillReadBuffer, readBufferFileNum = \\">>	@Latches
+\\\"/>
+</database>
+<<\\"\\">>
+<<\\"Exception while trying to load \\">>
+<<\\"Exception while trying to load \\">>
+\\"<nameLN>\\"
+\\"</nameLN>\\"
+<din>
+<nameLN>
+</din>
+</nameLN>
+\\\">
+<dupkey>
+\\\">
+<<\\"\\">>
+</dupkey>
+<dupCountLN/>
+DIN
+\n
+\\";\\"
+<dbId id=\\\"
+\\\"/>
+<<\\" A configuration parameter name can\'t be null or 0 length\\">>
+<<\\"Lock Table \\">>	@Latches
+<<\\"usage: \\">>	@Cleaner
+A Transaction cannot be used because the environment was opened non-transactionally	@Transactions
+A Transaction cannot be used because the database was opened non-transactionally	@Transactions
+A Transaction cannot be used because the database was opened non-transactionally	@Transactions
+A Transaction cannot be used because the database was opened non-transactionally	@Transactions
+\\"<in>\\"
+\\"</in>\\"
+\\"Split:\\"
+Transaction
+\\"Delete:\\"
+-h requires an argument	@Cleaner
+-h is a required argument	@Cleaner
+Lock
+Transaction
+File 0x	@Cleaner
+<<\\"  File    Size (KB)  % Used\n--------  ---------  ------\\">>	@Cleaner
+<offsets size=\\\"
+\\\">
+0x
+</offsets>
+<offsets size=\\\"0\\\"/>
+<<\\"Obsolete lsns contains valid lsn \\">>	@Verifier
+<<\\"Tree contains obsolete lsn \\">>	@Verifier
+Lsn mismatch	@Verifier
+++++++++++ begin lock table dump ++++++++++
+ABORT
+CASCADE
+NULLIFY
+ForeignKeyDeleteAction.
+++++++++++ end lock table dump ++++++++++
+\\"_jeIdMap\\"
+\\"_jeNameMap\\"
+: waited for lock
+\\"_jeUtilization\\"
+_jeIdMap
+_jeNameMap
+_jeUtilization
+_jeIdMap
+_jeNameMap
+\n
+.
+_jeIdMap
+_jeNameMap
+<<\\"Usage: \\">>
+<<\\"                 -h <environment home>\\">>
+(optional)
+<<\\"                 -f <file number, in hex>\\">>
+<<\\"                 -o <offset, in hex>\\">>
+Log file is truncated at position starting at and inclusive of the offset. Beware, not  for general purpose use yet!
+<<\\"Transfer, lock \\">>
+<<\\"Transfer, lock \\">>
+NULL_LSN without KnownDeleted
+<<\\"fetchTarget of \\">>
+null lsn
+<<\\"-Warning: Out of sync. Should be \\">>	@Memory_Budget
+<<\\"can\'t find database \\">>
+<<\\"Attempted to \\">>
+----\n
+<<\\"Can\'t \\">>
+rename	@RenameOp
+\n
+<<\\" waits for \\">>
+<<\\" nothing\\">>
+<<\\" node \\">>
+\n
+<<\\"Transaction \\">>
+remove	@DeleteOp
+Unexpected interrupt while waiting for fsync	@FSync
+truncate	@TruncateOp
+<<\\"Node \\">>
+\\\" isProvisional=\\\"true
+\\\" prev=\\\"0x
+\\\">
+</entry>
+<<\\"\\">>
+\\\"/>
+idkey is null
+<<\\"Database \\">>	@TruncateOp
+<<\\"Can\'t truncate database \\">>	@TruncateOp
+<DbPrintLog>
+</DbPrintLog>
+.
+\\\">
+</INDupDeleteEntry>
+<<\\"IN \\">>
+OPEN
+CLOSED
+INVALID
+<<\\"IN \\">>
+DatabaseConfig.setReadOnly() must be set to false when creating a Database
+<<\\"Found non-deletable IN \\">>
+<<\\"Usage: \\">>
+<<\\" -h  <envHomeDir>\\">>
+<<\\" -e  <end file number, in hex>\\">>
+<<\\" -k  <binary|text> (format for dumping the key)\\">>
+<<\\" -s  <start file number, in hex>\\">>
+<<\\" -tx <targetted txn ids, comma separated>\\">>
+<<\\" -ty <targetted entry types, comma separated>\\">>
+<<\\" -S  show Summary of log entries\\">>
+<<\\" -q  if specified, concise version is printed\\">>
+<<\\"     Default is verbose version.)\\">>
+All arguments are optional
+<<\\"You can\'t open a Database with a duplicatesAllowed configuration of \\">>
+<<\\"You can\'t open a Database with a transactional configuration of \\">>	@Transactions
+Can\'t close Database:
+Cleaner.addToQueue should never be called.	@Cleaner
+<<\\"Database.close: \\">>	@Logging_Finest
+There are open cursors against the database.\n
+They will be closed.\n
+<<\\"Invalid value of searchType: \\">>
+key
+Can\'t call Database.openSequence:
+openSequence
+Database.openSequence	@Logging_Finest
+Can\'t open a cursor
+Only one may be specified: ReadCommitted or ReadUncommitted
+Database.openCursor	@Logging_Finest
+key
+Can\'t call Database.delete:
+delete
+Database.delete	@Logging_Finest
+_jeIdMap
+_jeNameMap
+<<\\"CleanerRun \\">>	@Cleaner
+UTF-8
+Cleaner	@Cleaner /\ Logging_Severe
+doClean	@Cleaner /\ Logging_Severe
+<<\\"\\">>	@Cleaner /\ Logging_Severe
+<<\\"CleanerRun \\">>	@Cleaner
+<<\\"CleanerRun \\">>	@Cleaner
+key
+data
+Can\'t call Database.get:
+Database.get	@Logging_Finest
+UTF-8
+key
+data
+Can\'t call Database.getSearchBoth:
+Database.getSearchBoth	@Logging_Finest
+<dbtree lastId = \\\"
+\\\">
+key
+<idDb>
+data
+</idDb><nameDb>
+</nameDb>
+Can\'t call Database.put
+</dbtree>
+put
+Database.put	@Logging_Finest
+CleanLN:	@Cleaner /\ Logging_Cleaner
+<dbTree lastDbId =\\\"
+key
+\\\">
+data
+Can\'t call Database.putNoOverWrite
+CleanLN:	@Cleaner /\ Logging_Cleaner
+putNoOverwrite
+Database.putNoOverwrite	@Logging_Finest
+</dbtree>
+CleanLN:	@Cleaner /\ Logging_Cleaner
+,
+CleanLN:	@Cleaner /\ Logging_Cleaner
+,	@Transactions
+CleanLN:	@Cleaner /\ Logging_Cleaner
+key
+data
+Can\'t call Database.putNoDupData
+putNoDupData
+Database.putNoDupData	@Logging_Finest
+<isRoot val=\\\"
+\\\"/>
+<level val=\\\"
+\\\"/>
+<entries numEntries=\\\"
+\\\" length=\\\"
+\\\" baseFileNumber=\\\"
+\\\">
+\\\">
+\\"<bin>\\"
+\\"</bin>\\"
+</ref>
+</entries>
+<in>
+</in>
+Can\'t call Database.join
+cursors
+At least one cursor is required.
+All cursors must use the same transaction.	@Transactions
+CleanLN:	@Cleaner /\ Logging_Cleaner
+All cursors must use the same environment.	@Transactions
+CleanLN:	@Cleaner /\ Logging_Cleaner
+<idkey>
+<<\\"\\">>
+All cursors must use the same transaction.	@Transactions
+</idkey>
+\\\"/>
+\\\"/>
+<level val=\\\"
+\\\"/>
+\\\"/>
+<entries nEntries=\\\"
+\\\">
+<entry id=\\\"
+<lsn/>
+CleanIN:	@Cleaner /\ Logging_Cleaner
+<key/>
+<target/>
+Can\'t call Database.truncate	@TruncateOp
+truncate	@TruncateOp
+CleanIN:	@Cleaner /\ Logging_Cleaner
+Database.truncate: txnId=	@Logging_Finest /\ TruncateOp
+null	@Latches /\ TruncateOp
+CleanIN:	@Cleaner /\ Logging_Cleaner
+\\\"/>
+</entry>
+</entries>
+couldn\'t find database - truncate	@TruncateOp
+truncate	@DeleteOp /\ TruncateOp
+<knownDeleted val=\\\"
+\\\"/>
+<pendingDeleted val=\\\"
+\\\"/>
+nodeId=
+Can\'t call Database.preload
+preload	@DeleteOp
+Can\'t call Database.preload
+preload	@DeleteOp
+IN
+Can\'t call Database.preload
+preload	@DeleteOp
+Can\'t call Database.stat	@Statistics
+stat	@DeleteOp /\ Statistics
+Can\'t call Database.verify	@Statistics /\ Verifier
+verify	@DeleteOp /\ Verifier /\ Statistics
+\\\"/>	@(Cleaner) /\ (Cleaner)
+<<\\"usage: \\">>
+Split:	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" parent=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" child=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" newSibling=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" parentLsn = \\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" childLsn = \\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" newSiblingLsn = \\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" splitIdx=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" idKeyIdx=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\" childIdx=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
+<<\\"Database is Read Only: \\">>
+Delete:	@(Logging_Finest) /\ (Logging_Finest /\ Logging_Base)
+<<\\" index=\\">>	@(Logging_Finest) /\ (Logging_Finest /\ Logging_Base)
+BIN must be latched before evicting LNs	@Evictor /\ Latches
+-f requires an argument
+-h requires an argument
+-s requires an argument
+<<\\"-c: \\">>
+-c requires an argument
+<<\\" name=\\">>	@Logging_Finest /\ Logging_Base
+-h is a required argument
+-v requires -f
+<bin>
+</bin>
+BIN
+\\"    Cache Size      Btree Size  Description\n--------------  --------------  -----------\\"
+exactParentFound=
+<<\\"DbLoad.load of \\">>	@Logging_Info
+\\"usage: java <utility> [options...]\\"
+<<\\"Load start: \\">>
+\\"com.sleepycat.je.util.\\"
+null
+Must supply a database name if -l not supplied.
+<<\\"DbLoad.load of \\">>	@Logging_Info
+Missing utility name
+<<\\"Load end: \\">>
+com.sleepycat.je.util.
+usage: java <utility> [options...]
+<<\\"Invalid header parameter: \\">>
+<<\\"Version \\">>
+fsyncLatch	@FSync /\ Latches
+\'
+<<\\"No data to match key \\">>
+No value after -records	@(Memory_Budget) /\ (Memory_Budget)
+<<\\"Key exists: \\">>
+<<\\"loaded \\">>
+No value after -key	@(Memory_Budget) /\ (Memory_Budget)
+No \\\"DATA=END\\\"
+0000000000000000
+0x
+No value after -data	@(Memory_Budget) /\ (Memory_Budget)
+No value after -nodemax	@(Memory_Budget) /\ (Memory_Budget)
+No value after -density	@(Memory_Budget) /\ (Memory_Budget)
+No value after -overhead	@(Memory_Budget) /\ (Memory_Budget)
+No value after -measure	@(Memory_Budget) /\ (Memory_Budget)
+<<\\"Unknown arg: \\">>	@(Memory_Budget) /\ (Memory_Budget)
+Corrupted file
+Corrupted file
+-records not specified	@(Memory_Budget) /\ (Memory_Budget)
+-key not specified	@(Memory_Budget) /\ (Memory_Budget)
+<<\\"Wrong filenum in header for file \\">>
+DbState.
+<<\\"Expected log version 3 or earlier but found \\">>
+<FileHeader num=\\\"0x
+\\\" lastEntryInPrevFileOffset=\\\"0x
+\\\" logVersion=\\\"0x
+\\\"/>
+<<\\"usage:\njava \\">>	@Memory_Budget
+\\\">
+Inputs: records=	@Memory_Budget
+<<\\"    Cache Size      Btree Size  Description\n--------------  --------------  -----------\\">>	@Memory_Budget
+Minimum, internal nodes only	@Memory_Budget
+Maximum, internal nodes only	@Memory_Budget
+Minimum, internal nodes and leaf nodes	@Memory_Budget
+Maximum, internal nodes and leaf nodes	@Memory_Budget
+\nTo get leaf node sizing specify -data	@Memory_Budget
+<<\\"\nBtree levels: \\">>	@Memory_Budget
+>
+Bad value for timeout:
+<<\\"Directory is not empty: \\">>	@Memory_Budget
+<<\\"\nMeasuring with cache size: \\">>	@Memory_Budget
+Stats for internal and leaf nodes (after insert)	@Memory_Budget /\ Statistics
+<<\\"\nPreloading with cache size: \\">>	@Memory_Budget
+Stats for internal nodes only (after preload)	@Memory_Budget /\ Statistics
+Bad value for timeout:
+<<\\"During close: \\">>	@Memory_Budget
+<<\\"During close: \\">>	@Memory_Budget
+foo	@Memory_Budget
+allowCreate=
+*** Key doesn\'t fit value=	@Memory_Budget
+Random key already exists -- retrying	@Memory_Budget
+<<\\"*** \\">>	@Memory_Budget
+<<\\"*** Ran out of cache memory at record \\">>	@Memory_Budget /\ Statistics
+.	@Memory_Budget
+CacheSize=	@Memory_Budget /\ Statistics
+*** All records did not fit in the cache ***	@Memory_Budget /\ Statistics
+\\"                                                                                                                                \\"
+<<\\"                                                                                                                                \\">>
+Channel closed, may be due to thread interrupt
+<<\\" \\">>
+null
+\\"!\\\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\\"
+!\\\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+false	@Logging_DbLogHandler
+true	@Logging_ConsoleHandler
+SEVERE	@Logging_Base
+false
+<<\\"java { \\">>
+idKey=
+<<\\"No transaction found for \\">>	@Transactions
+<<\\"No transaction found for \\">>	@(Transactions) /\ (Transactions)
+<<\\"No transaction found for \\">>	@(Transactions) /\ (Transactions)
+\\"<mapLN>\\"
+\\"</mapLN>\\"
+<mapLN>
+</mapLN>
+<<\\"locker \\">>
+\\\">
+<<\\"locker \\">>
+<<\\" Owners:\\">>
+<<\\" (none)\\">>
+<<\\" Waiters:\\">>
+<<\\" (none)\\">>
+non LogEntryType passed to LogEntryType.compare
+je.disable.java5.latches	@Latches
+java.util.concurrent.locks.ReentrantLock	@Latches
+java.util.concurrent.locks.ReentrantReadWriteLock	@Latches
+LatchImpl	@Latches
+\\"je.disable.java.adler32\\"
+MapTreeRoot	@Latches
+Can\'t set \'je.env.isNoLocking\' and \'je.env.isTransactional\';	@Transactions
+<<\\"Enviroment creation isn\'t allowed,  but there is no pre-existing  environment in \\">>
+TriggerLatch	@Latches
+Evictor	@Evictor
+Checkpointer	@Checkpointer_Daemon
+INCompressor	@INCompressor
+Cleaner	@Cleaner
+<<\\"Pass 1: \\">>
+<<\\"Pass 2: \\">>
+<<\\"End: \\">>
+<<\\"processing file \\">>
+<<\\".jdb  \\">>
+Attempt to use a Environment that has been closed.
+<<\\"Close of environment \\">>	@Logging_Fine
+<<\\"Already name mapped for dbId: \\">>
+close
+<<\\"\nException shutting down daemon threads: \\">>
+\n
+<<\\"Env \\">>	@Logging_Fine
+<<\\"\nException clearing file manager: \\">>
+\n
+<<\\"\nException clearing file manager: \\">>
+\n
+<<\\"Already saw dupSort entry for dbId: \\">>
+<<\\"Problem: \\">>	@Statistics /\ CheckLeaks
+<<\\"Problem: \\">>	@Transactions /\ CheckLeaks /\ Statistics
+Some latches held at env close.	@CheckLeaks /\ Latches
+Lock, transaction, or latch left behind at environment close
+File Flip	@Logging_FileHandler /\ Logging_Base
+manual	@Evictor
+db
+DATA=END
+beginTransaction called,  but Environment was not opened with transactional cpabilities	@Transactions
+nGets=	@(Statistics) /\ (Statistics)
+foreignKeyDeleteAction
+The SecondaryConfig argument is null.
+The following SecondaryConfig parameters for the\ncached Database do not match the parameters for the\nrequested Database:\n
+<<\\" SecondaryKeyCreator\n\\">>
+<<\\" SecondaryMultiKeyCreator\n\\">>
+<<\\" ForeignKeyDelete\n\\">>
+<<\\" ForeignKeyDeleteAction\n\\">>
+<<\\" ForeignKeyNullifier\n\\">>
+<<\\" ForeignMultiKeyNullifier\n\\">>
+<<\\" ImmutableSecondaryKey\n\\">>
+\n
+<<\\"txnId = \\">>	@(Transactions /\ Statistics) /\ (Transactions /\ Statistics)
+DEFAULT
+READ_UNCOMMITTED
+READ_COMMITTED
+RMW
+LockMode.
+<<\\"Logged item entrySize= \\">>
+<<\\"Read non-valid log entry type: \\">>
+Channel closed, may be due to thread interrupt
+<<\\"Dup Offset \\">>
+.bad
+\n

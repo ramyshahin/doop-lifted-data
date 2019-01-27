@@ -1,0 +1,42 @@
+1.0	var points-to (INS)	998
+1.5	var points-to (SENS)	998
+10.0	reachable variables (INS)	643
+10.5	reachable variables (SENS)	643
+2.0	array index points-to (INS)	6
+2.5	array index points-to (SENS)	6
+6.0	app array index points-to (INS)	5
+6.5	app array index points-to (SENS)	5
+3.0	instance field points-to (INS)	58
+3.5	instance field points-to (SENS)	58
+4.0	static field points-to (INS)	4
+4.5	static field points-to (SENS)	4
+7.0	app instance field points-to (INS)	47
+7.5	app instance field points-to (SENS)	47
+8.0	call graph edges (INS)	247
+8.5	call graph edges (SENS)	247
+9.0	non-reachable app concrete methods	4
+11.0	reachable methods (INS)	150
+11.5	reachable methods (SENS)	150
+12.0	virtual call sites (statically)	230
+13.0	reachable virtual call sites	230
+14.0	polymorphic virtual call sites	1
+15.0	null virtual call sites	13
+15.5	empty virtual call sites	78
+16.0	app virtual call sites (statically)	230
+17.0	app reachable virtual call sites	230
+18.0	app polymorphic virtual call sites	1
+19.0	app null virtual call sites	13
+19.5	app empty virtual call sites	78
+20.0	casts (statically)	28
+21.0	reachable casts	6
+22.0	reachable casts that may fail	6
+23.0	app casts (statically)	28
+24.0	app reachable casts	6
+25.0	app reachable casts that may fail	6
+25.5	app reachable methods	136
+60.0	Entry Points	111
+61.0	Mock Objects	27
+61.1	Mock Objects for Receivers	24
+61.2	Mock Objects for Fields	0
+61.3	Mock Objects for Arrays	1
+61.4	Mock Objects for Formals	9

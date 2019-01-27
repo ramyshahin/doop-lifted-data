@@ -1,0 +1,842 @@
+<org.prevayler.foundation.FileManager: java.io.File produceDirectory(java.lang.String)>
+<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidSnapshotSuffix(java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidJournalSuffix(java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory: long snapshotVersion(java.io.File)>
+<org.prevayler.implementation.PrevaylerDirectory: long journalVersion(java.io.File)>
+<org.prevayler.implementation.PrevaylerDirectory: void renameUnusedFile(java.io.File)>
+<org.prevayler.foundation.Cool: void wait(java.lang.Object)>
+<org.prevayler.foundation.Cool: void sleep(long)>
+<org.prevayler.foundation.Cool: void unexpected(java.lang.Exception)>
+<org.prevayler.foundation.Cool: void startDaemon(java.lang.Runnable)>
+<org.prevayler.demos.demo2.Main: void main(java.lang.String[])>
+<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>	@ Snapshot
+<org.prevayler.demos.demo1.Main: void main(java.lang.String[])>
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object)>
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp fromChunk(org.prevayler.foundation.Chunk)>
+<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>	@ Snapshot
+<org.prevayler.demos.scalability.Main: void main(java.lang.String[])>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.lang.String)>
+<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>
+<org.prevayler.demos.demo2.MainReplica: void main(java.lang.String[])>	@ Replication
+<org.prevayler.demos.demo2.MainTransient: void main(java.lang.String[])>
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable)>
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable,java.lang.String)>
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable)>
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable,java.lang.String)>
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createCheckpointPrevayler(java.io.Serializable,java.lang.String)>
+<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>	@ Replication
+<org.prevayler.foundation.StopWatch: org.prevayler.foundation.StopWatch start()>
+<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn first()>
+<org.prevayler.demos.scalability.Main: void <clinit>()>
+<org.prevayler.foundation.Chunking: void <clinit>()>
+<org.prevayler.foundation.FileManager: void <init>()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>
+<org.prevayler.foundation.monitor.NullMonitor: void <init>()>
+<org.prevayler.foundation.monitor.NullMonitor: void notify(java.lang.Class,java.lang.String,java.io.File,java.lang.Exception)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: java.lang.Object createTestConnection()>
+<org.prevayler.foundation.monitor.NullMonitor: void notify(java.lang.Class,java.lang.String)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void reportResourcesUsed(java.io.PrintStream)>
+<org.prevayler.foundation.monitor.NullMonitor: void notify(java.lang.Class,java.lang.String,java.lang.Exception)>
+<org.prevayler.foundation.monitor.NullMonitor: void notify(java.lang.Class,java.lang.String,java.io.File)>
+<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String toString()>
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void accountChanged()>
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>
+<org.prevayler.foundation.network.BaseNetworkImpl: void <init>()>
+<org.prevayler.demos.demo2.business.Bank$1: int compare(java.lang.Object,java.lang.Object)>
+<org.prevayler.foundation.network.BaseNetworkImpl: void startService(org.prevayler.foundation.network.Service,int)>	@ Replication
+<org.prevayler.foundation.network.BaseNetworkImpl: void stopService(int)>	@ Replication
+<org.prevayler.demos.demo2.gui.TransferFrame$OKAction: void action()>
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.ObjectReceiver findServer(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@ Replication
+<org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String,org.prevayler.foundation.monitor.Monitor)>	@ Monitor
+<org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory$FileFilter1: boolean accept(java.io.File)>
+<org.prevayler.implementation.journal.PersistentJournal: void append(org.prevayler.implementation.TransactionGuide)>
+<org.prevayler.demos.demo2.business.transactions.BankTransaction: void <init>()>
+<org.prevayler.demos.demo2.business.transactions.BankTransaction: java.lang.Object executeAndQuery(java.lang.Object,java.util.Date)>
+<org.prevayler.implementation.PrevaylerDirectory: void <init>(java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory: void <init>(java.io.File)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: java.util.List queryByName(java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory: void produceDirectory()>
+<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.lang.String,int)>	@ Replication
+<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>
+<org.prevayler.foundation.network.ObjectSocketImpl: void writeObject(java.lang.Object)>
+<org.prevayler.foundation.network.ObjectSocketImpl: java.lang.Object readObject()>	@ Replication
+<org.prevayler.foundation.network.ObjectSocketImpl: void close()>	@ Replication
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File snapshotFile(long,java.lang.String)>
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File journalFile(long,java.lang.String)>
+<org.prevayler.implementation.journal.PersistentJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File createTempFile(java.lang.String,java.lang.String)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: void actionPerformed(java.awt.event.ActionEvent)>
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: void replaceAllRecords(org.prevayler.demos.scalability.RecordIterator)>
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: int hashCode()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: java.lang.String name()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<org.prevayler.implementation.journal.PersistentJournal: void close()>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject: java.lang.Object createTestConnection()>
+<org.prevayler.implementation.journal.PersistentJournal: long nextTransaction()>
+<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>
+<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>	@ Replication
+<org.prevayler.foundation.Cool: void <init>()>
+<org.prevayler.implementation.replication.ClientPublisher: void cancelSubscription(org.prevayler.implementation.publishing.TransactionSubscriber)>	@ Replication
+<org.prevayler.implementation.replication.ClientPublisher: void publish(org.prevayler.implementation.Capsule)>	@ Replication
+<org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction: void action()>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1: void run()>	@ Replication
+<org.prevayler.implementation.replication.ServerConnection: void run()>	@ Replication
+<org.prevayler.implementation.replication.ClientPublisher: org.prevayler.Clock clock()>	@ Replication
+<org.prevayler.implementation.replication.ClientPublisher: void close()>	@ Replication
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.StubbornNetwork,java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>
+<org.prevayler.implementation.replication.ServerConnection: void receive(org.prevayler.implementation.TransactionTimestamp)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.Service)>
+<org.prevayler.implementation.clock.BrokenClock: void <init>()>
+<org.prevayler.implementation.clock.BrokenClock: void <init>(java.util.Date)>
+<org.prevayler.implementation.clock.BrokenClock: java.util.Date time()>
+<org.prevayler.implementation.clock.BrokenClock: void advanceTo(java.util.Date)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void receive(java.lang.Object)>	@ Replication
+<org.prevayler.implementation.PrevaylerImpl: void <init>(org.prevayler.implementation.snapshot.GenericSnapshotManager,org.prevayler.implementation.publishing.TransactionPublisher,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.PrevaylerImpl: void <init>(org.prevayler.implementation.publishing.TransactionPublisher,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void close()>	@ Replication
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object prevalentSystem()>	@ Snapshot
+<org.prevayler.implementation.PrevaylerImpl: org.prevayler.Clock clock()>
+<org.prevayler.implementation.PrevaylerImpl: void execute(org.prevayler.Transaction)>
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.Query)>	@ Snapshot
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void run()>	@ Replication
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.TransactionWithQuery)>
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.SureTransactionWithQuery)>
+<org.prevayler.implementation.PrevaylerImpl: void takeSnapshot()>	@ Snapshot
+<org.prevayler.implementation.PrevaylerImpl: void close()>
+<org.prevayler.demos.scalability.jdbc.JDBCQuerySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCQuerySubject: java.lang.Object createTestConnection()>
+<org.prevayler.foundation.network.NetworkSessionId: boolean equals(java.lang.Object)>	@ Replication
+<org.prevayler.implementation.PrevalentSystemGuard: void <init>(java.lang.Object,long,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object prevalentSystem()>
+<org.prevayler.foundation.network.NetworkSessionId: int hashCode()>	@ Replication
+<org.prevayler.foundation.network.NetworkSessionId: java.lang.String toString()>	@ Replication
+<org.prevayler.implementation.PrevalentSystemGuard: void subscribeTo(org.prevayler.implementation.publishing.TransactionPublisher)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void <init>(java.lang.String,java.lang.String)>
+<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.Object createTestConnection()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: boolean isConsistent()>
+<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>
+<org.prevayler.foundation.serialization.SkaringaSerializer: void <init>()>
+<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
+<org.prevayler.implementation.PrevalentSystemGuard: void takeSnapshot(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	@ Snapshot
+<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>
+<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.demos.demo2.business.transactions.Transfer: void <init>(long,long,long)>
+<org.prevayler.demos.demo2.business.transactions.Transfer: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>
+<org.prevayler.foundation.monitor.SimpleMonitor: void <init>()>	@ Monitor
+<org.prevayler.foundation.monitor.SimpleMonitor: void <init>(java.io.PrintStream)>
+<org.prevayler.implementation.replication.ClientPublisher$1: void run()>	@ Replication
+<org.prevayler.foundation.FileLocker: void release()>
+<org.prevayler.foundation.FileLocker: java.io.RandomAccessFile getStream()>
+<org.prevayler.demos.demo2.business.transactions.HolderChange: void <init>(org.prevayler.demos.demo2.business.Account,java.lang.String)>
+<org.prevayler.demos.demo2.business.transactions.HolderChange: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>
+<org.prevayler.demos.demo2.business.Account: long number()>
+<org.prevayler.demos.demo2.business.Account: java.lang.String toString()>
+<org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction: void action()>
+<org.prevayler.demos.demo2.business.Account: java.lang.String numberString()>
+<org.prevayler.foundation.network.ObjectServerSocketImpl: void <init>(int)>
+<org.prevayler.demos.demo2.business.Account: java.lang.String holder()>
+<org.prevayler.demos.demo2.business.Account: void holder(java.lang.String)>
+<org.prevayler.foundation.network.ObjectServerSocketImpl: org.prevayler.foundation.network.ObjectSocket accept()>	@ Replication
+<org.prevayler.demos.demo2.business.Account: long balance()>
+<org.prevayler.foundation.network.ObjectServerSocketImpl: void close()>	@ Replication
+<org.prevayler.demos.demo2.business.Account: void deposit(long,java.util.Date)>
+<org.prevayler.foundation.serialization.JavaSerializer: void <init>()>
+<org.prevayler.demos.demo2.business.Account: void withdraw(long,java.util.Date)>
+<org.prevayler.foundation.serialization.JavaSerializer: void <init>(java.lang.ClassLoader)>
+<org.prevayler.foundation.serialization.JavaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
+<org.prevayler.foundation.serialization.JavaSerializer: java.lang.Object readObject(java.io.InputStream)>
+<org.prevayler.demos.demo2.business.Bank: void <init>()>
+<org.prevayler.demos.demo2.business.Account: java.util.List transactionHistory()>
+<org.prevayler.demos.demo2.business.Account: void addAccountListener(org.prevayler.demos.demo2.business.AccountListener)>
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account createAccount(java.lang.String)>
+<org.prevayler.demos.demo2.business.Account: void removeAccountListener(org.prevayler.demos.demo2.business.AccountListener)>
+<org.prevayler.demos.demo2.business.Bank: void deleteAccount(long)>
+<org.prevayler.demos.demo2.business.Bank: java.util.List accounts()>
+<org.prevayler.demos.demo2.business.Bank: void setBankListener(org.prevayler.demos.demo2.business.BankListener)>
+<org.prevayler.demos.demo2.business.transactions.Withdrawal: void <init>(org.prevayler.demos.demo2.business.Account,long)>
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account findAccount(long)>
+<org.prevayler.demos.demo2.business.transactions.Withdrawal: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>
+<org.prevayler.demos.demo2.business.Bank: void transfer(long,long,long,java.util.Date)>
+<org.prevayler.implementation.TransactionGuide: void <init>(org.prevayler.implementation.TransactionTimestamp,org.prevayler.foundation.Turn)>
+<org.prevayler.implementation.TransactionGuide: org.prevayler.implementation.TransactionTimestamp timestamp()>
+<org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>
+<org.prevayler.demos.demo2.gui.RobustAction: void actionPerformed(java.awt.event.ActionEvent)>
+<org.prevayler.implementation.TransactionGuide: java.util.Date executionTime()>
+<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>
+<org.prevayler.demos.demo2.gui.MatchFrame$1: void actionPerformed(java.awt.event.ActionEvent)>
+<org.prevayler.demos.scalability.RecordIterator: void <init>(int)>
+<org.prevayler.demos.scalability.RecordIterator: boolean hasNext()>
+<org.prevayler.demos.scalability.RecordIterator: org.prevayler.demos.scalability.Record next()>
+<org.prevayler.demos.demo2.Main: void <init>()>
+<org.prevayler.foundation.StopWatch: long millisEllapsed()>
+<org.prevayler.foundation.StopWatch: double secondsEllapsed()>
+<org.prevayler.implementation.replication.ServerConnection$1: void run()>	@ Replication
+<org.prevayler.foundation.monitor.LoggingMonitor: void <init>()>
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String)>	@ Monitor
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.lang.Exception)>	@ Monitor
+<org.prevayler.demos.demo2.MainSkaringa: void <init>()>
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File)>	@ Monitor
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File,java.lang.Exception)>	@ Monitor
+<org.prevayler.foundation.network.StubbornNetworkProxy: void <init>()>
+<org.prevayler.foundation.network.StubbornNetworkProxy: org.prevayler.foundation.network.ObjectReceiver getClient()>	@ Replication
+<org.prevayler.foundation.network.StubbornNetworkProxy: void receive(java.lang.Object)>	@ Replication
+<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void focusLost(java.awt.event.FocusEvent)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: void close()>	@ Replication
+<org.prevayler.foundation.Chunk: void <init>(byte[])>
+<org.prevayler.foundation.Chunk: void <init>(byte[],java.util.Map)>
+<org.prevayler.foundation.Chunk: byte[] getBytes()>
+<org.prevayler.foundation.Chunk: void setParameter(java.lang.String,java.lang.String)>
+<org.prevayler.foundation.Chunk: java.lang.String getParameter(java.lang.String)>
+<org.prevayler.foundation.Chunk: java.util.Map getParameters()>
+<org.prevayler.demos.scalability.prevayler.QuerySystem: java.util.List queryByName(java.lang.String)>
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void replaceAllRecords(org.prevayler.demos.scalability.RecordIterator)>
+<org.prevayler.demos.demo1.Main: void <init>()>
+<org.prevayler.foundation.network.SessionsManagerImpl: void <init>()>	@ Replication
+<org.prevayler.foundation.network.SessionsManagerImpl: org.prevayler.foundation.network.StubbornNetworkProxy find(org.prevayler.foundation.network.NetworkSessionId)>	@ Replication
+<org.prevayler.foundation.network.SessionsManagerImpl: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>	@ Replication
+<org.prevayler.foundation.network.SessionsManagerImpl: void remove(org.prevayler.foundation.network.NetworkSessionId)>	@ Replication
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.lang.String name()>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void replaceAllRecords(int)>
+<org.prevayler.implementation.PrevaylerDirectory$1: int compare(java.lang.Object,java.lang.Object)>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void reportResourcesUsed(java.io.PrintStream)>
+<org.prevayler.foundation.ObjectInputStreamWithClassLoader: void <init>(java.io.InputStream,java.lang.ClassLoader)>
+<org.prevayler.foundation.DeepCopier: void <init>()>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter: boolean accept(java.io.File)>
+<org.prevayler.implementation.TransactionTimestamp: void <init>(org.prevayler.implementation.Capsule,long,java.util.Date)>
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.Capsule capsule()>
+<org.prevayler.implementation.TransactionTimestamp: long systemVersion()>
+<org.prevayler.implementation.TransactionTimestamp: java.util.Date executionTime()>
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp cleanCopy()>
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.foundation.Chunk toChunk()>
+<org.prevayler.foundation.monitor.Log4jMonitor: void <init>()>
+<org.prevayler.demos.demo2.business.transactions.Deposit: void <init>(org.prevayler.demos.demo2.business.Account,long)>
+<org.prevayler.demos.demo2.business.transactions.Deposit: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>
+<org.prevayler.implementation.snapshot.NullSnapshotManager: void <init>(java.lang.Object,java.lang.String)>	@ Snapshot
+<org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void action()>
+<org.prevayler.implementation.snapshot.NullSnapshotManager: void writeSnapshot(java.lang.Object,long)>	@ Snapshot
+<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>
+<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.publishing.censorship.TransactionCensor,org.prevayler.implementation.journal.Journal)>	@ Censor
+<org.prevayler.implementation.publishing.CentralPublisher: void publish(org.prevayler.implementation.Capsule)>
+<org.prevayler.implementation.publishing.AbstractPublisher: void <init>(org.prevayler.Clock)>
+<org.prevayler.implementation.publishing.AbstractPublisher: org.prevayler.Clock clock()>
+<org.prevayler.implementation.publishing.AbstractPublisher: void addSubscriber(org.prevayler.implementation.publishing.TransactionSubscriber)>
+<org.prevayler.implementation.publishing.AbstractPublisher: void cancelSubscription(org.prevayler.implementation.publishing.TransactionSubscriber)>
+<org.prevayler.demos.demo2.MainXStream: void <init>()>
+<org.prevayler.implementation.publishing.CentralPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
+<org.prevayler.implementation.publishing.CentralPublisher: void close()>
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void <init>(java.io.OutputStream)>
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void close()>	@ GZip
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void flush()>	@ GZip
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(int)>	@ GZip
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(byte[])>	@ GZip
+<org.prevayler.demos.demo1.NumberStorageTransaction: void executeOn(java.lang.Object,java.util.Date)>
+<org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(byte[],int,int)>	@ GZip
+<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: void <init>(java.io.InputStream)>	@ GZip
+<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: java.io.InputStream remainingInput()>	@ GZip
+<org.prevayler.demos.scalability.Main: void <init>()>
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void <init>(java.io.OutputStream)>
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(int)>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[])>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[],int,int)>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void flush()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void close()>	@ GZip
+<org.prevayler.implementation.TransactionWithQueryCapsule: void <init>(org.prevayler.TransactionWithQuery,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.TransactionWithQueryCapsule: void <init>(byte[])>
+<org.prevayler.implementation.TransactionWithQueryCapsule: java.lang.Object result()>
+<org.prevayler.implementation.TransactionWithQueryCapsule: org.prevayler.implementation.Capsule cleanCopy()>
+<org.prevayler.foundation.serialization.XStreamSerializer: void <init>()>
+<org.prevayler.foundation.serialization.XStreamSerializer: void <init>(java.lang.String)>
+<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
+<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>
+<org.prevayler.foundation.network.NetworkImpl: void <init>()>
+<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@ Replication
+<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>	@ Replication
+<org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor: void <init>()>
+<org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor: void approve(org.prevayler.implementation.TransactionTimestamp)>	@ Censor
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void <init>(org.prevayler.implementation.snapshot.GenericSnapshotManager)>
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void approve(org.prevayler.implementation.TransactionTimestamp)>	@ Censor
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String getResult()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: double getOperationsPerSecond()>
+<org.prevayler.implementation.replication.ServerListener: void <init>(org.prevayler.implementation.publishing.TransactionPublisher,org.prevayler.foundation.network.OldNetwork,int)>
+<org.prevayler.implementation.replication.ServerListener: void run()>	@ Replication
+<org.prevayler.foundation.network.StubbornNetworkImpl: void <init>()>	@ Replication
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@ Replication
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>	@ Replication
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectSocket newInstance(java.lang.String,int)>	@ Replication
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void <init>()>
+<org.prevayler.implementation.clock.MachineClock: void <init>()>
+<org.prevayler.implementation.clock.MachineClock: java.util.Date time()>
+<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>
+<org.prevayler.implementation.publishing.POBox: void receive(org.prevayler.implementation.TransactionTimestamp)>
+<org.prevayler.implementation.publishing.POBox: void run()>
+<org.prevayler.implementation.publishing.POBox: void waitToEmpty()>
+<org.prevayler.demos.demo2.business.transactions.AccountDeletion: void <init>(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.implementation.Capsule: byte[] serialized()>
+<org.prevayler.implementation.Capsule: java.lang.Object deserialize(org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.foundation.Chunking: void <init>()>
+<org.prevayler.implementation.Capsule: void executeOn(java.lang.Object,java.util.Date,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@ Replication
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.Service)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.ObjectReceiver)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void receive(java.lang.Object)>	@ Replication
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void close()>	@ Replication
+<org.prevayler.implementation.clock.PausableClock: void <init>(org.prevayler.Clock)>
+<org.prevayler.implementation.clock.PausableClock: java.util.Date time()>
+<org.prevayler.demos.demo2.MainReplica: void <init>()>
+<org.prevayler.implementation.clock.PausableClock: void pause()>
+<org.prevayler.implementation.clock.PausableClock: void advanceTo(java.util.Date)>
+<org.prevayler.implementation.clock.PausableClock: void resume()>
+<org.prevayler.foundation.DeepCopier$Receiver: void <init>(java.io.InputStream,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.clock.PausableClock: java.util.Date realTime()>
+<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>
+<org.prevayler.foundation.DeepCopier$Receiver: void run()>
+<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>
+<org.prevayler.foundation.network.OldNetworkImpl: void <init>()>
+<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>	@ Replication
+<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectServerSocket openObjectServerSocket(int)>	@ Replication
+<org.prevayler.demos.demo2.MainTransient: void <init>()>
+<org.prevayler.demos.scalability.prevayler.TestTransaction: void executeOn(java.lang.Object,java.util.Date)>
+<org.prevayler.implementation.journal.TransientJournal: void <init>()>
+<org.prevayler.implementation.journal.TransientJournal: void append(org.prevayler.implementation.TransactionGuide)>
+<org.prevayler.PrevaylerFactory: void <init>()>
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
+<org.prevayler.PrevaylerFactory: void configureMonitor(org.prevayler.foundation.monitor.Monitor)>	@ Monitor
+<org.prevayler.PrevaylerFactory: void configureTransientMode(boolean)>	@ Snapshot
+<org.prevayler.implementation.journal.TransientJournal: void close()>
+<org.prevayler.PrevaylerFactory: void configureClock(org.prevayler.Clock)>
+<org.prevayler.implementation.journal.TransientJournal: long nextTransaction()>
+<org.prevayler.PrevaylerFactory: void configurePrevalenceDirectory(java.lang.String)>
+<org.prevayler.PrevaylerFactory: void configurePrevalentSystem(java.lang.Object)>
+<org.prevayler.PrevaylerFactory: void configureReplicationClient(java.lang.String,int)>	@ Replication
+<org.prevayler.demos.demo2.business.transactions.AccountCreation: void <init>(java.lang.String)>
+<org.prevayler.PrevaylerFactory: void configureReplicationServer(int)>	@ Replication
+<org.prevayler.PrevaylerFactory: void configureTransactionFiltering(boolean)>
+<org.prevayler.PrevaylerFactory: void configureJournalFileSizeThreshold(long)>
+<org.prevayler.PrevaylerFactory: void configureJournalFileAgeThreshold(long)>
+<org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.JavaSerializer)>
+<org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>
+<org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.SkaringaSerializer)>
+<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File,org.prevayler.foundation.monitor.Monitor)>	@ Monitor
+<org.prevayler.PrevaylerFactory: void configureJournalSerializer(java.lang.String,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>
+<org.prevayler.PrevaylerFactory: void configureNetwork(org.prevayler.foundation.network.OldNetwork)>	@ Replication
+<org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(org.prevayler.foundation.serialization.JavaSerializer)>	@ Snapshot
+<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>
+<org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	@ Snapshot
+<org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(org.prevayler.foundation.serialization.SkaringaSerializer)>	@ Snapshot
+<org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(java.lang.String,org.prevayler.foundation.serialization.Serializer)>	@ Snapshot
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>
+<org.prevayler.foundation.DurableInputStream: void close()>
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,int)>	@ Replication
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void run()>	@ Replication
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void shutdown()>	@ Replication
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>
+<org.prevayler.foundation.DurableOutputStream: void sync(org.prevayler.foundation.Guided)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void accountCreated(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void accountDeleted(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void accountChanged()>
+<org.prevayler.foundation.Guided: void startTurn()>
+<org.prevayler.foundation.Guided: void endTurn()>
+<org.prevayler.foundation.DurableOutputStream: void close()>
+<org.prevayler.demos.scalability.prevayler.AllRecordsReplacement: void executeOn(java.lang.Object,java.util.Date)>
+<org.prevayler.foundation.DurableOutputStream: java.io.File file()>
+<org.prevayler.foundation.DurableOutputStream: int fileSyncCount()>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectReceiver,org.prevayler.foundation.network.Service,org.prevayler.foundation.network.SessionsManager)>
+<org.prevayler.foundation.DurableOutputStream: boolean reallyClosed()>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void <init>(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.SessionsManager)>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void receive(java.lang.Object)>	@ Replication
+<org.prevayler.demos.scalability.Record: void <init>(long)>
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void close()>	@ Replication
+<org.prevayler.demos.scalability.Record: void <init>(long,java.lang.String,java.lang.String,java.math.BigDecimal,java.math.BigDecimal,java.util.Date,java.util.Date)>
+<org.prevayler.demos.scalability.Record: long getId()>
+<org.prevayler.demos.scalability.Record: java.lang.String getName()>
+<org.prevayler.demos.scalability.Record: java.lang.String getString1()>
+<org.prevayler.demos.scalability.Record: java.math.BigDecimal getBigDecimal1()>
+<org.prevayler.demos.scalability.Record: java.math.BigDecimal getBigDecimal2()>
+<org.prevayler.demos.scalability.Record: java.util.Date getDate1()>
+<org.prevayler.demos.scalability.Record: java.util.Date getDate2()>
+<org.prevayler.demos.scalability.Record: int hashCode()>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void disconnect()>	@ Replication
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>
+<org.prevayler.implementation.TransactionCapsule: void <init>(org.prevayler.Transaction,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.TransactionCapsule: void <init>(byte[])>
+<org.prevayler.implementation.TransactionCapsule: org.prevayler.implementation.Capsule cleanCopy()>
+<org.prevayler.demos.demo2.MainReplicaServer: void <init>()>
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.demos.scalability.ScalabilityTestRun$1: void run()>
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void <init>(java.io.InputStream)>
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int available()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read(byte[])>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read(byte[],int,int)>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void close()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void reset()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: boolean markSupported()>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void mark(int)>	@ GZip
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: long skip(long)>	@ GZip
+<org.prevayler.demos.scalability.TransactionTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>
+<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn next()>
+<org.prevayler.foundation.Turn: void start()>
+<org.prevayler.foundation.Turn: void end()>
+<org.prevayler.foundation.Turn: void alwaysSkip()>
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: org.prevayler.foundation.serialization.Serializer primarySerializer()>	@ Snapshot
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: org.prevayler.implementation.PrevalentSystemGuard recoveredPrevalentSystem()>	@ Snapshot
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>	@ Snapshot
+<org.prevayler.demos.scalability.QueryTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>
+<org.prevayler.demos.demo2.gui.BankFrame$1: void run()>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <clinit>()>
+<org.prevayler.foundation.monitor.Log4jMonitor: void <clinit>()>
+<org.prevayler.demos.scalability.Record: void <clinit>()>
+<org.prevayler.implementation.PrevaylerDirectory: long version(java.io.File,java.lang.String)>
+<java.lang.Thread: void sleep(long)>
+<org.prevayler.demos.demo2.Main: void out(java.lang.String)>
+<org.prevayler.demos.demo2.Main: void startSnapshots(org.prevayler.Prevayler)>
+<org.prevayler.demos.demo2.MainSkaringa: void out(java.lang.String)>	@ ((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))
+<org.prevayler.demos.demo1.Main: void printMessage()>
+<org.prevayler.implementation.Capsule: org.prevayler.implementation.Capsule fromChunk(org.prevayler.foundation.Chunk)>
+<org.prevayler.demos.demo2.MainXStream: void out(java.lang.String)>	@ ((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))
+<org.prevayler.demos.scalability.Main: void out(java.lang.Object)>
+<org.prevayler.demos.scalability.Main: java.io.File propertiesFile()>
+<org.prevayler.demos.scalability.Main: boolean isPrevaylerQueryChosen()>
+<org.prevayler.demos.scalability.Main: void runPrevaylerQuery()>
+<org.prevayler.demos.scalability.Main: boolean isPrevaylerTransactionChosen()>
+<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>
+<org.prevayler.demos.scalability.Main: boolean isJdbcQueryChosen()>
+<org.prevayler.demos.scalability.Main: void runJdbcQuery()>
+<org.prevayler.demos.scalability.Main: boolean isJdbcTransactionChosen()>
+<org.prevayler.demos.scalability.Main: void runJdbcTransaction()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void outOfMemory()>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.io.File)>
+<org.prevayler.foundation.Chunking: boolean validToken(java.lang.String)>
+<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>
+<org.prevayler.demos.demo2.MainReplica: void out(java.lang.String)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.demo2.MainTransient: void out(java.lang.String)>
+<org.prevayler.demos.demo2.Main: void startGui(org.prevayler.Prevayler)>
+<org.prevayler.demos.demo2.MainReplicaServer: void out(java.lang.String)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<java.lang.Object: void wait()>
+<java.io.OutputStream: void write(byte[])>
+<java.io.OutputStream: void write(int)>
+<java.lang.StringBuilder: void <init>(java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void dealWithSQLException(java.sql.SQLException,java.lang.String)>
+<org.prevayler.demos.demo2.gui.TransferFrame: javax.swing.JTextField access$0(org.prevayler.demos.demo2.gui.TransferFrame)>
+<org.prevayler.demos.demo2.gui.TransferFrame: javax.swing.JTextField access$1(org.prevayler.demos.demo2.gui.TransferFrame)>
+<org.prevayler.demos.demo2.gui.TransferFrame: org.prevayler.demos.demo2.business.Account access$2(org.prevayler.demos.demo2.gui.TransferFrame)>
+<java.util.Arrays: void sort(java.lang.Object[],java.util.Comparator)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: org.prevayler.Prevayler access$0(org.prevayler.demos.demo2.gui.AllAccountsFrame)>
+<org.prevayler.implementation.replication.ClientPublisher: void wait(java.lang.Object)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<java.lang.Thread: void yield()>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.demo2.gui.AccountEditFrame: java.lang.Number access$0(org.prevayler.demos.demo2.gui.AccountEditFrame,java.lang.String)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame: org.prevayler.demos.demo2.business.Account access$1(org.prevayler.demos.demo2.gui.AccountEditFrame)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void access$1(org.prevayler.foundation.network.NetworkClientObjectReceiverImpl)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: boolean access$0(org.prevayler.foundation.network.NetworkClientObjectReceiverImpl)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<java.lang.System: java.lang.String setProperty(java.lang.String,java.lang.String)>
+<org.prevayler.implementation.replication.ClientPublisher: void access$0(org.prevayler.implementation.replication.ClientPublisher)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.demo2.business.Account: java.lang.String numberString(long)>
+<java.util.Collections: void sort(java.util.List,java.util.Comparator)>
+<org.prevayler.demos.demo2.gui.RobustAction: void display(java.lang.Exception)>
+<org.prevayler.demos.demo2.gui.MatchFrame: void access$0(org.prevayler.demos.demo2.gui.MatchFrame)>
+<org.prevayler.implementation.replication.ServerConnection: org.prevayler.foundation.network.ObjectSocket access$0(org.prevayler.implementation.replication.ServerConnection)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.implementation.replication.ServerConnection: org.prevayler.implementation.publishing.TransactionPublisher access$1(org.prevayler.implementation.replication.ServerConnection)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.implementation.replication.ServerConnection: void access$2(org.prevayler.implementation.replication.ServerConnection)>	@ ((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String toResultString(double,int)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.Object access$0(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: boolean access$1(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.util.List access$2(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: long access$3(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void access$4(org.prevayler.demos.scalability.ScalabilityTestRun,long)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: long access$5(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void access$6(org.prevayler.demos.scalability.ScalabilityTestRun,long)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: int access$7(org.prevayler.demos.scalability.ScalabilityTestRun)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void access$8(org.prevayler.demos.scalability.ScalabilityTestRun,int)>
+<org.prevayler.demos.demo2.gui.BankFrame: org.prevayler.Prevayler access$0(org.prevayler.demos.demo2.gui.BankFrame)>
+<org.prevayler.demos.demo1.PrimeCalculator: void start()>
+<java.io.File: void <init>(java.lang.String)>
+<java.io.IOException: void <init>(java.lang.String)>
+<java.lang.IllegalArgumentException: void <init>(java.lang.String)>
+<java.lang.RuntimeException: void <init>(java.lang.String,java.lang.Throwable)>
+<java.lang.Thread: void <init>(java.lang.Runnable)>
+<org.prevayler.demos.demo1.NumberKeeper: void <init>()>
+<org.prevayler.demos.demo1.PrimeCalculator: void <init>(org.prevayler.Prevayler)>
+<java.io.ByteArrayOutputStream: void <init>()>
+<java.io.ByteArrayInputStream: void <init>(byte[])>
+<java.io.PipedOutputStream: void <init>()>
+<java.io.PipedInputStream: void <init>(java.io.PipedOutputStream)>
+<org.prevayler.implementation.TransactionTimestamp: void <init>(org.prevayler.implementation.Capsule,long,long)>
+<org.prevayler.demos.demo2.MainXStream$1: void <init>()>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot))
+<java.io.FileInputStream: void <init>(java.io.File)>
+<java.util.StringTokenizer: void <init>(java.lang.String,java.lang.String)>
+<java.util.LinkedHashMap: void <init>()>
+<java.io.EOFException: void <init>(java.lang.String)>
+<org.prevayler.foundation.StopWatch: void <init>()>
+<org.prevayler.foundation.Turn: void <init>(int)>
+<java.lang.Thread: void setDaemon(boolean)>
+<java.lang.Thread: void start()>
+<java.io.PipedOutputStream: void close()>
+<org.prevayler.PrevaylerFactory: void configureNullSnapshotManager(org.prevayler.implementation.snapshot.NullSnapshotManager)>	@ Snapshot
+<java.lang.StringBuilder: void <init>()>
+<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>
+<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>
+<org.prevayler.demos.scalability.Main: boolean booleanProperty(java.lang.String)>
+<org.prevayler.demos.scalability.Main: int numberOfObjects()>
+<org.prevayler.demos.scalability.Main: int prevaylerQueryThreadsMin()>
+<org.prevayler.demos.scalability.Main: int prevaylerQueryThreadsMax()>
+<org.prevayler.demos.scalability.Main: java.lang.String prevaylerTransactionLogDirectory()>
+<org.prevayler.demos.scalability.Main: java.lang.String prevaylerJournalSerializer()>
+<org.prevayler.demos.scalability.Main: int prevaylerTransactionThreadsMin()>
+<org.prevayler.demos.scalability.Main: int prevaylerTransactionThreadsMax()>
+<org.prevayler.demos.scalability.Main: boolean isPrevaylerTransactionConsistencyChecked()>
+<org.prevayler.demos.scalability.Main: java.lang.String jdbcDriverClassName()>
+<org.prevayler.demos.scalability.Main: java.lang.String jdbcConnectionURL()>
+<org.prevayler.demos.scalability.Main: java.lang.String jdbcUser()>
+<org.prevayler.demos.scalability.Main: java.lang.String jdbcPassword()>
+<org.prevayler.demos.scalability.Main: int jdbcQueryThreadsMin()>
+<org.prevayler.demos.scalability.Main: int jdbcQueryThreadsMax()>
+<org.prevayler.demos.scalability.Main: int jdbcTransactionThreadsMin()>
+<org.prevayler.demos.scalability.Main: int jdbcTransactionThreadsMax()>
+<java.lang.System: void gc()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void out(java.lang.Object)>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void deleteDirectoryContents(java.io.File)>
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.lang.String table()>
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver createService(org.prevayler.foundation.network.Service,int)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication))
+<org.prevayler.implementation.journal.PersistentJournal: void handle(java.io.IOException,java.io.File,java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>
+<org.prevayler.implementation.replication.ServerConnection: void publishRemoteTransaction()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication))
+<java.lang.Object: void notifyAll()>
+<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>
+<org.prevayler.foundation.monitor.LoggingMonitor: boolean isInfoEnabled(java.lang.Class)>	@ ((((Monitor /\ (Monitor /\ Monitor)) /\ (Monitor /\ Monitor)) /\ Monitor) /\ (((((Monitor /\ Monitor) /\ Monitor) /\ (Monitor /\ Monitor)) /\ Monitor) /\ Monitor))
+<org.prevayler.foundation.monitor.SimpleMonitor: void info(java.lang.Class,java.lang.String)>	@ Monitor
+<org.prevayler.foundation.monitor.SimpleMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>	@ ((((Monitor /\ (Monitor /\ Monitor)) /\ (Monitor /\ Monitor)) /\ Monitor) /\ (((Monitor /\ Monitor) /\ Monitor) /\ Monitor))
+<java.lang.Object: void notify()>
+<org.prevayler.implementation.TransactionWithQueryCapsule: void justExecute(java.lang.Object,java.lang.Object,java.util.Date)>
+<javax.swing.JFrame: void setDefaultCloseOperation(int)>
+<javax.swing.JFrame: void setContentPane(java.awt.Container)>
+<javax.swing.JFrame: void setBounds(int,int,int,int)>
+<javax.swing.JFrame: void setVisible(boolean)>
+<java.lang.Thread: void join()>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void insert(org.prevayler.demos.scalability.Record)>
+<java.util.Properties: void <init>()>
+<java.lang.Object: void <init>()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void <init>()>
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void <init>()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>
+<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String timestampString()>
+<java.util.ArrayList: void <init>()>
+<java.util.HashMap: void <init>()>
+<org.prevayler.foundation.network.BaseNetworkImpl: void checkPortNotUsed(int)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.BaseNetworkImpl: void markPortAsUsed(int,org.prevayler.foundation.network.NetworkServerObjectReceiver)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.BaseNetworkImpl: void terminateService(org.prevayler.foundation.network.NetworkServerObjectReceiver)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.BaseNetworkImpl: void releasePortForReuse(int)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<java.lang.IllegalStateException: void <init>(java.lang.String)>
+<org.prevayler.implementation.journal.PersistentJournal: boolean isOutputJournalStillValid()>
+<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.foundation.DurableOutputStream createOutputJournal(long)>
+<java.net.Socket: void <init>(java.lang.String,int)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+<java.io.ObjectInputStream: void <init>(java.io.InputStream)>
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>
+<org.prevayler.implementation.PrevaylerDirectory$FileFilter1: void <init>(org.prevayler.implementation.PrevaylerDirectory,org.prevayler.implementation.PrevaylerDirectory$FileFilter1)>
+<org.prevayler.implementation.PrevaylerDirectory$1: void <init>(org.prevayler.implementation.PrevaylerDirectory)>
+<org.prevayler.demos.demo2.gui.NewAccountFrame: void <init>(org.prevayler.Prevayler,java.awt.Container)>
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: java.lang.Object put(org.prevayler.demos.scalability.Record)>
+<java.lang.Long: void <init>(long)>
+<org.prevayler.demos.scalability.prevayler.AllRecordsReplacement: void <init>(int)>
+<java.lang.RuntimeException: void <init>(java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void <init>(java.sql.Connection)>
+<org.prevayler.implementation.replication.ClientPublisher: void startListening()>	@ Replication
+<java.lang.UnsupportedOperationException: void <init>(java.lang.String)>	@ (Replication \/ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication)))
+<org.prevayler.implementation.replication.ClientPublisher: void throwEventualErrors()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.replication.ServerConnection: void send(java.lang.Object)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.replication.ServerConnection: void startSendingClockTicks()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.replication.ServerConnection: void close()>	@ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) \/ Replication)
+<java.lang.Thread: void <init>()>
+<org.prevayler.foundation.network.NetworkSessionId: void <init>(long,int)>	@ (Replication \/ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication)))
+<java.lang.Thread: void setName(java.lang.String)>	@ Replication
+<java.util.Date: void <init>(long)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void waitIfNotOpen()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void forwardToProvider(java.lang.Object)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void shutdown()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.PrevaylerImpl: void publish(org.prevayler.implementation.Capsule)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void sendSessionKey()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void startReading()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void closeForReconnect()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: void <init>(java.sql.Connection)>
+<java.lang.Error: void <init>(java.lang.String)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void <init>(org.prevayler.Prevayler)>
+<javax.xml.transform.stream.StreamResult: void <init>(java.io.OutputStream)>
+<javax.xml.transform.stream.StreamSource: void <init>(java.io.InputStream)>
+<org.prevayler.foundation.FileLocker: java.lang.String propertyName()>
+<java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
+<org.prevayler.demos.demo2.business.transactions.AccountTransaction: void <init>(org.prevayler.demos.demo2.business.Account)>
+<java.net.ServerSocket: void <init>(int)>	@ Replication
+<org.prevayler.demos.demo2.business.Account: void verify(java.lang.String)>
+<org.prevayler.demos.demo2.business.Account: void notifyListeners()>
+<org.prevayler.demos.demo2.business.Account: void verify(long)>
+<org.prevayler.demos.demo2.business.Account: void register(long,java.util.Date)>
+<org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>
+<org.prevayler.demos.demo2.business.Account: void <init>(long,java.lang.String)>
+<java.util.ArrayList: void <init>(java.util.Collection)>
+<org.prevayler.demos.demo2.business.Bank$1: void <init>(org.prevayler.demos.demo2.business.Bank)>
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account searchAccount(long)>
+<org.prevayler.demos.demo2.business.Bank$AccountNotFound: void <init>(org.prevayler.demos.demo2.business.Bank,long)>
+<org.prevayler.foundation.Guided: void <init>(org.prevayler.foundation.Turn)>
+<java.util.Random: void <init>(long)>
+<org.prevayler.demos.scalability.RecordIterator: void indicateProgress()>
+<org.prevayler.foundation.network.StubbornNetworkProxy: boolean isOpen()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornNetworkProxy: void attemptToForward(java.lang.Object)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornNetworkProxy: void waitTillOpen()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornNetworkProxy: void closeClientChannel()>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void put(org.prevayler.demos.scalability.Record)>
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void makeReadOnly()>
+<org.prevayler.foundation.network.SessionsManagerImpl: void <init>(long)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot))
+<org.prevayler.demos.demo2.gui.TransferFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>
+<org.prevayler.implementation.publishing.CentralPublisher: void publishWithoutWorryingAboutNewSubscriptions(org.prevayler.implementation.Capsule)>
+<java.util.LinkedList: void <init>()>
+<java.io.OutputStream: void <init>()>	@ GZip
+<java.util.zip.GZIPInputStream: void <init>(java.io.InputStream)>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ GZip) /\ (GZip /\ GZip))
+<java.io.ByteArrayInputStream: void <init>(byte[],int,int)>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip))
+<java.io.SequenceInputStream: void <init>(java.io.InputStream,java.io.InputStream)>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip))
+<java.util.zip.GZIPOutputStream: void <init>(java.io.OutputStream)>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip))
+<java.lang.UnsupportedOperationException: void <init>()>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip))
+<org.prevayler.implementation.Capsule: void <init>(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>
+<org.prevayler.implementation.Capsule: void <init>(byte[])>
+<org.prevayler.foundation.serialization.XStreamSerializer$1: void <init>(org.prevayler.foundation.serialization.XStreamSerializer)>
+<java.io.OutputStreamWriter: void <init>(java.io.OutputStream)>
+<java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>
+<org.prevayler.foundation.serialization.XStreamSerializer: com.thoughtworks.xstream.XStream getXStream()>
+<java.io.InputStreamReader: void <init>(java.io.InputStream)>
+<java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: org.prevayler.implementation.PrevalentSystemGuard royalFoodTaster(long)>	@ ((((Censor /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ Censor) /\ (Censor /\ Censor))
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void letTheFoodTasterDie()>	@ ((((Censor /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ Censor) /\ (Censor /\ Censor))
+<org.prevayler.implementation.replication.ServerConnection: void <init>(org.prevayler.implementation.publishing.TransactionPublisher,org.prevayler.foundation.network.ObjectSocket)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.SessionsManager getSessionManager(org.prevayler.foundation.network.Service)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<org.prevayler.implementation.clock.MachineClock: void update()>
+<org.prevayler.implementation.publishing.POBox: org.prevayler.implementation.TransactionTimestamp waitForNotification()>
+<java.lang.Error: void <init>(java.lang.String,java.lang.Throwable)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void startReading()>	@ Replication
+<javax.swing.JFrame: void <init>(java.lang.String)>
+<javax.swing.JDesktopPane: void <init>()>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void <init>(org.prevayler.Prevayler,java.awt.Container)>
+<org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void <init>()>
+<org.prevayler.demos.demo2.gui.MatchFrame: void <init>(org.prevayler.Prevayler)>
+<org.prevayler.demos.demo2.gui.BankFrame: void refreshClock()>
+<java.io.BufferedInputStream: void <init>(java.io.InputStream)>
+<java.io.EOFException: void <init>()>
+<org.prevayler.foundation.DurableInputStream: void ignoreStreamCorruption(java.lang.Exception)>
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>	@ Snapshot
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	@ Snapshot
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.network.OldNetwork network()>	@ Replication
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.serialization.Serializer journalSerializer()>	@ Snapshot
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectServerSocket)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<java.io.FileOutputStream: void <init>(java.io.File)>
+<org.prevayler.foundation.DurableOutputStream: int writeObject(org.prevayler.foundation.Guided)>
+<org.prevayler.foundation.DurableOutputStream: void waitUntilSynced(int)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void refreshAccounts()>
+<org.prevayler.foundation.DurableOutputStream: void internalClose()>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void handleSession(java.lang.Object)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))
+<java.math.BigDecimal: void <init>(int)>
+<org.prevayler.demos.scalability.prevayler.TestTransaction: void <init>(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>	@ Snapshot
+<java.io.InputStream: void <init>()>	@ GZip
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,java.io.File)>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot))
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.io.File snapshotFile(long)>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot))
+<java.text.SimpleDateFormat: void <init>(java.lang.String)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void update(org.prevayler.demos.scalability.Record)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>
+<java.util.ArrayList: boolean add(java.lang.Object)>
+<java.io.ObjectOutputStream: void writeObject(java.lang.Object)>
+<java.io.ObjectOutputStream: void close()>
+<java.io.ObjectInputStream: void close()>
+<javax.swing.JDesktopPane: java.awt.Component add(java.awt.Component)>
+<javax.swing.JOptionPane: void showMessageDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>
+<java.util.Properties: void load(java.io.InputStream)>
+<java.io.OutputStreamWriter: void flush()>
+<java.io.BufferedReader: java.lang.String readLine()>
+<java.util.Random: void <init>()>
+<java.io.BufferedReader: void <init>(java.io.Reader)>
+<java.io.ObjectOutputStream: void reset()>	@ Replication
+<java.io.ObjectOutputStream: void flush()>	@ Replication
+<java.io.RandomAccessFile: void close()>
+<java.net.ServerSocket: void close()>	@ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ ((Replication /\ Replication) /\ Replication)) /\ Replication) \/ (((Replication /\ Replication) /\ Replication) /\ Replication))) /\ Replication) /\ ((Replication /\ Replication) /\ Replication))
+<java.io.OutputStream: void flush()>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ ((GZip /\ GZip) /\ GZip)) \/ (((GZip /\ GZip) /\ GZip) /\ GZip))) /\ ((GZip /\ GZip) /\ GZip))
+<java.io.OutputStream: void write(byte[],int,int)>	@ ((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ ((GZip /\ GZip) /\ GZip)) \/ (((GZip /\ GZip) /\ GZip) /\ GZip))) /\ ((GZip /\ GZip) /\ GZip))
+<java.util.zip.GZIPOutputStream: void write(byte[],int,int)>	@ (((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip))
+<java.util.zip.GZIPOutputStream: void close()>	@ (((((GZip /\ (GZip /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip)) /\ (GZip /\ GZip)) /\ ((GZip /\ GZip) /\ GZip))
+<java.util.LinkedList: boolean add(java.lang.Object)>
+<java.io.FileOutputStream: void close()>
+<java.io.ByteArrayOutputStream: void write(int)>
+<java.util.Arrays: void fill(char[],char)>
+<org.prevayler.demos.scalability.Main: java.lang.String property(java.lang.String)>
+<org.prevayler.demos.scalability.Main: int intProperty(java.lang.String)>
+<org.prevayler.demos.demo1.PrimeCalculator: boolean isPrime(int)>
+<java.text.DecimalFormat: void <init>(java.lang.String)>
+<org.prevayler.implementation.journal.PersistentJournal: void hang()>
+<java.lang.Class: java.lang.Class forName(java.lang.String)>
+<org.prevayler.demos.scalability.RecordIterator: void out(java.lang.Object)>
+<org.prevayler.foundation.Turn: void haveSomeTickets(int)>
+<org.prevayler.demos.demo1.NumberStorageTransaction: void <init>(int)>
+<javax.swing.JInternalFrame: void setBounds(int,int,int,int)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: java.lang.String table()>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: java.sql.PreparedStatement prepare(java.lang.String)>
+<java.lang.Thread: void interrupt()>	@ (((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) \/ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) \/ Replication) /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void networkRequestToReceive(java.lang.Object)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication))
+<javax.swing.JInternalFrame: void show()>
+<javax.swing.JInternalFrame: void setContentPane(java.awt.Container)>
+<javax.swing.JInternalFrame: void setBackground(java.awt.Color)>
+<javax.swing.JInternalFrame: void setVisible(boolean)>
+<org.prevayler.demos.scalability.TransactionTestRun: java.lang.String name()>
+<org.prevayler.demos.scalability.QueryTestRun: java.lang.String name()>
+<org.prevayler.demos.scalability.TransactionTestRun: void prepare()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void prepare()>
+<java.lang.Exception: void printStackTrace(java.io.PrintStream)>	@ ((((((((Monitor /\ (Monitor /\ Monitor)) /\ (Monitor /\ Monitor)) /\ Monitor) /\ (((Monitor /\ Monitor) /\ Monitor) /\ Monitor)) /\ (Monitor /\ Monitor)) /\ (Monitor /\ Monitor)) /\ ((((((((Monitor /\ (Monitor /\ Monitor)) /\ (Monitor /\ Monitor)) /\ Monitor) /\ (((Monitor /\ Monitor) /\ Monitor) /\ Monitor)) /\ (Monitor /\ Monitor)) /\ Monitor) /\ (Monitor /\ (Monitor /\ Monitor))) /\ Monitor)) /\ ((Monitor /\ Monitor) /\ Monitor))
+<java.io.ByteArrayOutputStream: void writeTo(java.io.OutputStream)>
+<java.io.ByteArrayOutputStream: void reset()>
+<java.io.FileOutputStream: void flush()>
+<org.prevayler.implementation.journal.PersistentJournal: boolean isOutputJournalTooBig()>
+<org.prevayler.implementation.journal.PersistentJournal: boolean isOutputJournalTooOld()>
+<org.prevayler.implementation.PrevaylerDirectory$FileFilter1: void <init>(org.prevayler.implementation.PrevaylerDirectory)>
+<org.prevayler.demos.demo2.gui.AccountFrame: void <init>(java.lang.String,org.prevayler.Prevayler,java.awt.Container)>
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void <init>(java.sql.Connection)>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: boolean sessionIsConnected()>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void waitToResend(java.lang.Object)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: boolean sessionIsOpen()>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<java.lang.Exception: void <init>(java.lang.String)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: boolean forwarded(java.lang.Object)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.TransactionGuide approve(org.prevayler.implementation.Capsule)>
+<org.prevayler.implementation.publishing.CentralPublisher: void notifySubscribers(org.prevayler.implementation.TransactionGuide)>
+<java.lang.ThreadLocal: void <init>()>
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void produceNewFoodTaster(long)>	@ ((((((((Censor /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ Censor) /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ ((((((Censor /\ (Censor /\ Censor)) /\ (Censor /\ Censor)) /\ Censor) /\ (Censor /\ Censor)) /\ Censor) /\ Censor)) /\ (Censor /\ Censor))
+<org.prevayler.implementation.replication.ServerConnection: java.lang.Thread createClockTickSender()>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication) /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ Replication)
+<javax.swing.JInternalFrame: void <init>(java.lang.String,boolean)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: org.prevayler.demos.demo2.business.Bank bank()>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void listenToAccounts()>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>
+<javax.swing.JInternalFrame: void <init>(java.lang.String,boolean,boolean,boolean,boolean)>
+<org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void addLine(java.lang.String)>
+<javax.swing.JInternalFrame: void <init>(java.lang.String)>
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>
+<org.prevayler.PrevaylerFactory: java.lang.String prevalenceDirectory()>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot))
+<org.prevayler.PrevaylerFactory: java.lang.Object prevalentSystem()>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot))
+<org.prevayler.PrevaylerFactory: org.prevayler.Clock clock()>	@ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	@ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>	@ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: java.util.List accounts()>
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void closeSession()>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: org.prevayler.foundation.network.StubbornNetworkProxy reestablishSession(org.prevayler.foundation.network.NetworkSessionId)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void send(java.lang.Object)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.ScalabilityTestRun: void performTest(int,int)>
+<java.lang.String: void <init>(char[])>
+<java.io.PrintStream: void <init>(java.io.OutputStream)>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter: void <init>(org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter)>
+<java.net.Socket: void close()>	@ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication))) /\ (Replication /\ ((Replication /\ Replication) /\ Replication)))) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))
+<org.prevayler.implementation.Capsule: org.prevayler.foundation.Chunk toChunk()>
+<java.io.PrintStream: void println(java.lang.String)>
+<java.sql.Date: void <init>(long)>
+<java.lang.Integer: void <init>(int)>	@ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)))) /\ (Replication /\ Replication))
+<java.io.File: void <init>(java.io.File,java.lang.String)>
+<java.lang.IllegalStateException: void <init>()>
+<org.prevayler.implementation.replication.ClientPublisher$1: void <init>(org.prevayler.implementation.replication.ClientPublisher)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: void <init>()>
+<org.prevayler.demos.demo2.business.Account$InvalidHolder: void <init>(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.demos.demo2.business.Account$InvalidAmount: void <init>(org.prevayler.demos.demo2.business.Account,java.lang.String)>
+<org.prevayler.demos.demo2.business.AccountEntry: void <init>(long,java.util.Date)>
+<java.util.HashSet: void <init>()>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1: void <init>(org.prevayler.foundation.network.NetworkClientObjectReceiverImpl)>	@ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<javax.swing.JList: void <init>()>
+<javax.swing.JScrollPane: void <init>(java.awt.Component)>
+<java.awt.Color: void <init>(int,int,int)>
+<org.prevayler.demos.demo2.gui.BankFrame$1: void <init>(org.prevayler.demos.demo2.gui.BankFrame)>
+<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>	@ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))) /\ ((Replication /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))) /\ ((Replication /\ Replication) /\ Replication)))) /\ Replication) /\ ((Replication /\ Replication) /\ Replication))
+<java.util.HashMap: java.lang.Object remove(java.lang.Object)>	@ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))) /\ ((Replication /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication))) /\ ((Replication /\ Replication) /\ Replication)))) /\ Replication) /\ ((Replication /\ Replication) /\ Replication))
+<javax.swing.JList: void setSelectionMode(int)>
+<java.io.FileInputStream: void close()>	@ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ Snapshot) /\ Snapshot) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot))
+<org.prevayler.implementation.publishing.AbstractPublisher: void notifySubscribers(org.prevayler.implementation.TransactionTimestamp)>
+<javax.swing.JList: void setListData(java.lang.Object[])>
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void receiveSessionKey(java.lang.Object)>	@ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void wakeUpSleepingClient()>	@ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<javax.swing.JInternalFrame: void <init>(java.lang.String,boolean,boolean)>
+<org.prevayler.demos.demo2.gui.AccountFrame: javax.swing.Box fieldBox()>
+<org.prevayler.demos.demo2.gui.AccountFrame: javax.swing.JPanel buttonPanel()>
+<org.prevayler.PrevaylerFactory: java.lang.String journalSuffix()>	@ ((((((((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ Snapshot) /\ Snapshot) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot)) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot)))
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.monitor.Monitor monitor()>	@ ((((((((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ Snapshot) /\ Snapshot) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot)) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ ((((Snapshot /\ (((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication))) /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot))) \/ ((((((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Monitor /\ Snapshot)) /\ (Monitor /\ Snapshot)) /\ ((((Snapshot /\ (Snapshot /\ (Snapshot /\ Censor))) /\ (Snapshot /\ (Snapshot /\ Censor))) /\ Snapshot) /\ (Snapshot /\ (Snapshot /\ Censor)))) /\ (Monitor /\ Snapshot)))
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: org.prevayler.foundation.network.StubbornNetworkProxy establishNewSession()>	@ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter: void <init>()>
+<java.io.File: boolean delete()>	@ ((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((((((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ Snapshot) /\ ((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ Snapshot)) /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ ((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)))) /\ ((Snapshot /\ Snapshot) /\ Snapshot))
+<javax.swing.JTextField: void <init>()>
+<org.prevayler.implementation.replication.ServerConnection$1: void <init>(org.prevayler.implementation.replication.ServerConnection)>	@ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication) /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ ((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication) /\ ((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((Replication /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ Replication))) /\ (Replication /\ Replication))
+<javax.swing.JPanel: void <init>()>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame)>
+<javax.swing.JButton: void <init>(javax.swing.Action)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame)>
+<javax.swing.JLabel: void <init>(java.lang.String)>
+<java.awt.BorderLayout: void <init>(int,int)>
+<java.awt.FlowLayout: void <init>(int,int,int)>
+<javax.swing.JButton: void <init>(java.lang.String)>
+<org.prevayler.demos.demo2.gui.MatchFrame$1: void <init>(org.prevayler.demos.demo2.gui.MatchFrame)>
+<javax.swing.table.DefaultTableModel: void <init>()>
+<javax.swing.JTable: void <init>(javax.swing.table.TableModel)>
+<net.sourceforge.javamatch.engine.MatchEngine: void <init>()>
+<net.sourceforge.javamatch.query.QuerySet: void <init>()>
+<net.sourceforge.javamatch.query.Maximum: void <init>(java.lang.String)>
+<java.lang.Float: void <init>(float)>
+<org.prevayler.implementation.TransactionCapsule: void justExecute(java.lang.Object,java.lang.Object,java.util.Date)>
+<javax.swing.JTextField: void requestFocus()>
+<javax.swing.JPanel: java.awt.Component add(java.awt.Component)>
+<javax.swing.JLabel: void setAlignmentX(float)>
+<javax.swing.JPanel: void setLayout(java.awt.LayoutManager)>
+<javax.swing.JButton: void addActionListener(java.awt.event.ActionListener)>
+<javax.swing.table.DefaultTableModel: void setColumnIdentifiers(java.lang.Object[])>
+<javax.swing.table.DefaultTableModel: void setRowCount(int)>
+<net.sourceforge.javamatch.query.QuerySet: void addPreferred(net.sourceforge.javamatch.query.MatchQuery)>
+<javax.swing.table.DefaultTableModel: void addRow(java.lang.Object[])>
+<java.io.File: boolean renameTo(java.io.File)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void sleep()>
+<org.prevayler.demos.demo2.gui.AccountFrame: void addFields(javax.swing.Box)>
+<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>
+<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>
+<org.prevayler.demos.demo2.gui.TransferFrame: void addButtons(javax.swing.JPanel)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void startThreads(int)>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void stopThreads()>
+<javax.swing.AbstractAction: void <init>(java.lang.String)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame,java.lang.String)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: void setClient(org.prevayler.foundation.network.ObjectReceiver)>	@ (((((((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((Replication /\ Replication) /\ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication))
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JList access$1(org.prevayler.demos.demo2.gui.AllAccountsFrame)>
+<org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Container labelContainer(java.lang.String)>
+<org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Component gap()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: void startThread(long,int)>
+<org.prevayler.demos.demo2.gui.RobustAction: void <init>(java.lang.String)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void refreshEnabled()>
+<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: void <init>(org.prevayler.demos.demo2.gui.NewAccountFrame)>
+<org.prevayler.demos.demo2.gui.TransferFrame$OKAction: void <init>(org.prevayler.demos.demo2.gui.TransferFrame)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: void disconnect()>	@ (((Replication /\ (((((((((Replication /\ Replication) /\ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ Replication) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ (((Replication /\ Replication) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ Replication))) /\ (Replication /\ Replication)) /\ Replication)
+<javax.swing.JTextField: void setText(java.lang.String)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: void connect(org.prevayler.foundation.network.ObjectReceiver,org.prevayler.foundation.network.StubbornNetworkClientConnector)>	@ (((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((((Replication /\ Replication) /\ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ Replication) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ ((Replication /\ Replication) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)))) /\ (Replication /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication))
+<javax.swing.JTextField: void setEnabled(boolean)>
+<org.prevayler.demos.demo1.NumberKeeper: int lastNumber()>	@ ((((((((((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ Snapshot) /\ Snapshot) /\ Snapshot) /\ Snapshot) /\ ((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ (Snapshot /\ Snapshot)) /\ ((((Snapshot /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ Snapshot) \/ (((Snapshot /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ ((Snapshot /\ Snapshot) /\ Snapshot)))) /\ Snapshot) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Snapshot)))
+<org.prevayler.demos.demo1.NumberKeeper: java.util.List numbers()>	@ ((((((((((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ Snapshot) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ (((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ Snapshot) /\ Snapshot) /\ Snapshot) /\ Snapshot) /\ ((((((Snapshot /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ Snapshot)) /\ (((Snapshot /\ (Snapshot /\ Snapshot)) /\ ((((Snapshot /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ Snapshot) \/ (((Snapshot /\ Snapshot) /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ ((Snapshot /\ Snapshot) /\ Snapshot)))) /\ Snapshot) /\ ((Snapshot /\ Snapshot) /\ Snapshot)) /\ (Snapshot /\ Snapshot))) /\ (Snapshot /\ Snapshot)) /\ (Snapshot /\ (Snapshot /\ Snapshot)))
+<javax.swing.AbstractAction: void setEnabled(boolean)>
+<org.prevayler.demos.scalability.ScalabilityTestRun$1: void <init>(org.prevayler.demos.scalability.ScalabilityTestRun,long,int)>
+<org.prevayler.foundation.network.StubbornNetworkProxy: void openClientChannel()>	@ (((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((((Replication /\ Replication) /\ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ Replication) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ ((Replication /\ Replication) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)))) /\ (Replication /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (((((((((Replication /\ Replication) /\ ((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ Replication) /\ (Replication /\ Replication)) /\ ((((((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ (Replication /\ Replication))) /\ ((Replication /\ Replication) /\ ((((((Replication /\ (Replication /\ Replication)) /\ (Replication /\ Replication)) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)))) /\ (Replication /\ Replication)) /\ (((((Replication /\ Replication) /\ Replication) /\ (Replication /\ Replication)) /\ Replication) /\ Replication)) /\ Replication) /\ Replication)) /\ (Replication /\ Replication))
+<javax.swing.JList: void addListSelectionListener(javax.swing.event.ListSelectionListener)>

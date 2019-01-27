@@ -1,0 +1,60 @@
+<Vertex: void <init>()>/new java.util.LinkedList/0	java.util.LinkedList	@G_NoEdges
+<Vertex: void <init>()>/new java.util.LinkedList/1	java.util.LinkedList	@GN_OnlyNeighbors
+<Vertex: void <init>()>/new java.util.LinkedList/2	java.util.LinkedList	@GEN_Edges
+<Vertex: void <init>()>/new java.util.LinkedList/3	java.util.LinkedList	@Weighted /\ G_NoEdges
+<Vertex: void adjustAdorns(Vertex,int)>/new java.lang.Integer/0	java.lang.Integer	@(G_NoEdges) /\ (Weighted /\ G_NoEdges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	Vertex$VertexIter1	@(G_NoEdges) /\ (G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	Vertex$EdgeIter1	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
+<Vertex: void addWeight(int)>/new java.lang.Integer/0	java.lang.Integer	@(Weighted) /\ (Weighted /\ G_NoEdges)
+<Vertex: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Weighted /\ G_NoEdges
+<Vertex: void display()>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<Vertex: void display()>/new java.lang.StringBuilder/2	java.lang.StringBuilder
+<Vertex: void display()>/new java.lang.StringBuilder/3	java.lang.StringBuilder	@Number
+<Vertex: void display()>/new java.lang.StringBuilder/4	java.lang.StringBuilder	@Connected
+<Vertex: void display()>/new java.lang.StringBuilder/5	java.lang.StringBuilder	@StronglyConnected
+<Vertex: void display()>/new java.lang.StringBuilder/6	java.lang.StringBuilder	@Cycle
+<Vertex: void display()>/new java.lang.StringBuilder/7	java.lang.StringBuilder	@MSTKruskal
+<Vertex: void display()>/new java.lang.StringBuilder/8	java.lang.StringBuilder	@MSTPrim
+<Neighbor: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
+<Main: void main(java.lang.String[])>/new Graph/0	Graph	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new Vertex[]/0	Vertex[]	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new int[]/0	int[]	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new int[]/1	int[]	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new Vertex/0	Vertex	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/new java.lang.StringBuilder/1	java.lang.StringBuilder	@(Prog) /\ (Prog)
+<Edge: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
+<Edge: void display()>/new java.lang.StringBuilder/1	java.lang.StringBuilder	@(EdgeObjects) /\ (EdgeObjects)
+<Graph: void <init>()>/new java.util.LinkedList/0	java.util.LinkedList
+<Graph: void <init>()>/new java.util.LinkedList/1	java.util.LinkedList	@GEN_Edges
+<Graph: VertexIter getVertices()>/new VertexIter/0	VertexIter
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	Graph$EdgeIter1	@EdgeObjects
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	Neighbor	@(GN_OnlyNeighbors) /\ (Undirected /\ GN_OnlyNeighbors)
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	java.io.FileReader	@(Benchmark) /\ (Benchmark)
+<Graph: void runBenchmark(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Benchmark) /\ (Benchmark)
+<Graph: int readNumber()>/new char[]/0	char[]	@(Benchmark) /\ (Benchmark)
+<Graph: int readNumber()>/new java.lang.String/0	java.lang.String	@(Benchmark) /\ (Benchmark)
+<Graph: int readNumber()>/new java.lang.String/1	java.lang.String	@(Benchmark) /\ (Benchmark)
+<Graph: void endProfile()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Benchmark) /\ (Benchmark)
+<Graph: void run(Vertex)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Cycle /\ Prog
+<Graph: void numberVertices()>/new NumberWorkSpace/0	NumberWorkSpace	@(Number) /\ (Number)
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	RegionWorkSpace	@(Connected) /\ (Connected)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	FinishTimeWorkSpace	@StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	Graph$Comparator1	@StronglyConnected
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	WorkSpaceTranspose	@StronglyConnected
+<Graph: Graph computeTranspose(Graph)>/new java.util.HashMap/0	java.util.HashMap	@(Transpose) /\ (Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	Graph	@(Transpose) /\ (Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	Vertex	@(Transpose) /\ (Transpose)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	CycleWorkSpace	@(Cycle) /\ (Cycle)
+<Graph: Graph kruskal()>/new java.util.LinkedList/0	java.util.LinkedList	@MSTKruskal
+<Graph: Graph kruskal()>/new java.util.LinkedList/1	java.util.LinkedList	@MSTKruskal
+<Graph: Graph kruskal()>/new java.util.LinkedList/2	java.util.LinkedList	@MSTKruskal
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	Graph$Comparator3	@MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	Graph	@MSTKruskal
+<Graph: Graph kruskal()>/new Vertex/0	Vertex	@MSTKruskal
+<Graph: Graph prim(Vertex)>/new java.util.LinkedList/0	java.util.LinkedList	@MSTPrim
+<Graph: Graph prim(Vertex)>/new java.util.HashSet/0	java.util.HashSet	@MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	Graph$Comparator2	@MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	Graph	@MSTPrim
+<Graph: Graph prim(Vertex)>/new Vertex/0	Vertex	@MSTPrim
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	java.util.LinkedList	@(BFS) /\ (BFS)
