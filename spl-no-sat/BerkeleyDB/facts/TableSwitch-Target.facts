@@ -1,3 +1,12 @@
+<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	1	4
+<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	2	6
+<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	3	8
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	1	170
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	2	181
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	3	183
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	4	185
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	5	187
+<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	6	189
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	0	11
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	1	11
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	2	11
@@ -28,12 +37,3 @@
 <com.sleepycat.util.UtfOps: int bytesToChars(byte[],int,char[],int,int,boolean)>/switch/instruction21	12	27
 <com.sleepycat.util.UtfOps: int bytesToChars(byte[],int,char[],int,int,boolean)>/switch/instruction21	13	27
 <com.sleepycat.util.UtfOps: int bytesToChars(byte[],int,char[],int,int,boolean)>/switch/instruction21	14	44
-<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	1	4
-<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	2	6
-<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	3	8
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	1	170
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	2	181
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	3	183
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	4	185
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	5	187
-<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	6	189

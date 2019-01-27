@@ -1,42 +1,42 @@
-1.0	var points-to (INS)	77069
-1.5	var points-to (SENS)	77069
-10.0	reachable variables (INS)	21520
-10.5	reachable variables (SENS)	21520
-2.0	array index points-to (INS)	165
-2.5	array index points-to (SENS)	165
-6.0	app array index points-to (INS)	161
-6.5	app array index points-to (SENS)	161
-3.0	instance field points-to (INS)	10250
-3.5	instance field points-to (SENS)	10250
+1.0	var points-to (INS)	75607
+1.5	var points-to (SENS)	75607
+10.0	reachable variables (INS)	21500
+10.5	reachable variables (SENS)	21500
+2.0	array index points-to (INS)	163
+2.5	array index points-to (SENS)	163
+6.0	app array index points-to (INS)	159
+6.5	app array index points-to (SENS)	159
+3.0	instance field points-to (INS)	10058
+3.5	instance field points-to (SENS)	10058
 4.0	static field points-to (INS)	222
 4.5	static field points-to (SENS)	222
-7.0	app instance field points-to (INS)	8738
-7.5	app instance field points-to (SENS)	8738
-8.0	call graph edges (INS)	10613
-8.5	call graph edges (SENS)	10613
-9.0	non-reachable app concrete methods	143
-11.0	reachable methods (INS)	3503
-11.5	reachable methods (SENS)	3503
+7.0	app instance field points-to (INS)	8545
+7.5	app instance field points-to (SENS)	8545
+8.0	call graph edges (INS)	10592
+8.5	call graph edges (SENS)	10592
+9.0	non-reachable app concrete methods	147
+11.0	reachable methods (INS)	3499
+11.5	reachable methods (SENS)	3499
 12.0	virtual call sites (statically)	7255
-13.0	reachable virtual call sites	6938
-14.0	polymorphic virtual call sites	290
-15.0	null virtual call sites	1914
-15.5	empty virtual call sites	1068
+13.0	reachable virtual call sites	6932
+14.0	polymorphic virtual call sites	280
+15.0	null virtual call sites	1910
+15.5	empty virtual call sites	1066
 16.0	app virtual call sites (statically)	7255
-17.0	app reachable virtual call sites	6938
-18.0	app polymorphic virtual call sites	290
-19.0	app null virtual call sites	1914
-19.5	app empty virtual call sites	1068
+17.0	app reachable virtual call sites	6932
+18.0	app polymorphic virtual call sites	280
+19.0	app null virtual call sites	1910
+19.5	app empty virtual call sites	1066
 20.0	casts (statically)	1049
-21.0	reachable casts	392
-22.0	reachable casts that may fail	370
+21.0	reachable casts	391
+22.0	reachable casts that may fail	369
 23.0	app casts (statically)	1049
-24.0	app reachable casts	392
-25.0	app reachable casts that may fail	370
-25.5	app reachable methods	3360
+24.0	app reachable casts	391
+25.0	app reachable casts that may fail	369
+25.5	app reachable methods	3356
 60.0	Entry Points	2242
 61.0	Mock Objects	242
 61.1	Mock Objects for Receivers	229
 61.2	Mock Objects for Fields	0
 61.3	Mock Objects for Arrays	4
-61.4	Mock Objects for Formals	87
+61.4	Mock Objects for Formals	88
