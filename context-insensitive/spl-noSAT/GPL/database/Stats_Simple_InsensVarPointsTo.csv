@@ -1,0 +1,998 @@
+java.lang.String[]::: (Mock)	<Main: void main(java.lang.String[])>/@parameter0	@ Prog
+java.lang.String[]::: (Mock)	<Main: void main(java.lang.String[])>/args#_0	@ Prog
+<<string-constant>>	<Main: void main(java.lang.String[])>/$stringconstant0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<<string-constant>>	<Main: void main(java.lang.String[])>/$stringconstant1	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<<string-builder>>	<Main: void main(java.lang.String[])>/$r7	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<<string-builder>>	<Main: void main(java.lang.String[])>/$r18	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new int[]/0	<Main: void main(java.lang.String[])>/$r3	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new int[]/1	<Main: void main(java.lang.String[])>/$r4	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<<string-constant>>	<Graph: void endProfile()>/$stringconstant0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<<string-builder>>	<Graph: void endProfile()>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: void main(java.lang.String[])>/$r0	@ ((Prog /\ Prog) /\ Prog)
+<Main: void main(java.lang.String[])>/new Vertex[]/0	<Main: void main(java.lang.String[])>/$r2	@ ((Prog /\ Prog) /\ Prog)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: void main(java.lang.String[])>/$r5	@ ((Prog /\ Prog) /\ Prog)
+EdgeIter::: (Mock)	<EdgeIter: void <init>()>/@this
+EdgeIter::: (Mock)	<EdgeIter: boolean hasNext()>/@this
+EdgeIter::: (Mock)	<EdgeIter: EdgeIfc next()>/@this
+GlobalVarsWrapper::: (Mock)	<GlobalVarsWrapper: void <init>()>/@this
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void <init>()>/@this
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void init_vertex(Vertex)>/@this	@ Cycle
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void preVisitAction(Vertex)>/@this
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void postVisitAction(Vertex)>/@this	@ Cycle
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@this
+Graph$EdgeIter1::: (Mock)	<Graph$EdgeIter1: EdgeIfc next()>/@this	@ EdgeObjects
+Graph$EdgeIter1::: (Mock)	<Graph$EdgeIter1: boolean hasNext()>/@this	@ EdgeObjects
+VertexIter::: (Mock)	<VertexIter: Vertex next()>/@this
+VertexIter::: (Mock)	<VertexIter: boolean hasNext()>/@this
+Vertex$VertexIter1::: (Mock)	<Vertex$VertexIter1: Vertex next()>/@this	@ G_NoEdges
+Vertex$VertexIter1::: (Mock)	<Vertex$VertexIter1: boolean hasNext()>/@this	@ G_NoEdges
+Vertex$VertexIter2::: (Mock)	<Vertex$VertexIter2: Vertex next()>/@this	@ GN_OnlyNeighbors
+Vertex$VertexIter2::: (Mock)	<Vertex$VertexIter2: boolean hasNext()>/@this	@ GN_OnlyNeighbors
+Graph$Comparator3::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@this	@ MSTKruskal
+Graph$Comparator3::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@this
+Main::: (Mock)	<Main: void <init>()>/@this
+Vertex$VertexIter3::: (Mock)	<Vertex$VertexIter3: Vertex next()>/@this	@ GEN_Edges
+Vertex$VertexIter3::: (Mock)	<Vertex$VertexIter3: boolean hasNext()>/@this	@ GEN_Edges
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void <init>()>/@this
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@this	@ StronglyConnected
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@this	@ StronglyConnected
+Vertex::: (Mock)	<Vertex: Vertex assignName(java.lang.String)>/@this
+Vertex::: (Mock)	<Vertex: java.lang.String getName()>/@this
+Vertex::: (Mock)	<Vertex: void addAdjacent(Vertex)>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Vertex,int)>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: VertexIter getNeighbors()>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getStart()>/@this	@ (Undirected /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: Vertex getEnd()>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: int getWeight()>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getOtherVertex(Vertex)>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void addEdge(Neighbor)>/@this	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Neighbor)>/@this	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void addNeighbor(Neighbor)>/@this	@ GEN_Edges
+Vertex::: (Mock)	<Vertex: EdgeIter getEdges()>/@this	@ (EdgeObjects /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: java.util.LinkedList getNeighborsObj()>/@this	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void addWeight(int)>/@this	@ Weighted
+Vertex::: (Mock)	<Vertex: void setWeight(int)>/@this	@ (Weighted /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: void init_vertex(WorkSpace)>/@this	@ SearchBase
+Vertex::: (Mock)	<Vertex: void nodeSearch(WorkSpace)>/@this
+Vertex::: (Mock)	<Vertex: void display()>/@this
+Graph::: (Mock)	<Graph: VertexIter getVertices()>/@this
+Graph::: (Mock)	<Graph: EdgeIter getEdges()>/@this
+Graph::: (Mock)	<Graph: void sortVertices(java.util.Comparator)>/@this
+Graph::: (Mock)	<Graph: void sortEdges(java.util.Comparator)>/@this	@ EdgeObjects
+Graph::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/@this	@ GN_OnlyNeighbors
+Graph::: (Mock)	<Graph: void runBenchmark(java.lang.String)>/@this	@ Benchmark
+Graph::: (Mock)	<Graph: void stopBenchmark()>/@this	@ Benchmark
+Graph::: (Mock)	<Graph: int readNumber()>/@this	@ Benchmark
+Graph::: (Mock)	<Graph: void run(Vertex)>/@this
+Graph::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@this	@ EdgeObjects
+Graph::: (Mock)	<Graph: void graphSearch(WorkSpace)>/@this
+Graph::: (Mock)	<Graph: void numberVertices()>/@this	@ Number
+Graph::: (Mock)	<Graph: void connectedComponents()>/@this	@ Connected
+Graph::: (Mock)	<Graph: Graph strongComponents()>/@this
+Graph::: (Mock)	<Graph: Graph computeTranspose(Graph)>/@this	@ Transpose
+Graph::: (Mock)	<Graph: boolean cycleCheck()>/@this	@ Cycle
+Graph::: (Mock)	<Graph: Graph kruskal()>/@this
+Graph::: (Mock)	<Graph: Graph prim(Vertex)>/@this
+WorkSpace::: (Mock)	<WorkSpace: void <init>()>/@this
+WorkSpace::: (Mock)	<WorkSpace: void init_vertex(Vertex)>/@this	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void preVisitAction(Vertex)>/@this	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void postVisitAction(Vertex)>/@this	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void nextRegionAction(Vertex)>/@this	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@this	@ SearchBase
+Vertex$EdgeIter3::: (Mock)	<Vertex$EdgeIter3: EdgeIfc next()>/@this	@ (EdgeObjects /\ GEN_Edges)
+Vertex$EdgeIter3::: (Mock)	<Vertex$EdgeIter3: boolean hasNext()>/@this	@ (EdgeObjects /\ GEN_Edges)
+Vertex$EdgeIter2::: (Mock)	<Vertex$EdgeIter2: EdgeIfc next()>/@this	@ (EdgeObjects /\ GN_OnlyNeighbors)
+Vertex$EdgeIter2::: (Mock)	<Vertex$EdgeIter2: boolean hasNext()>/@this	@ (EdgeObjects /\ GN_OnlyNeighbors)
+NumberWorkSpace::: (Mock)	<NumberWorkSpace: void <init>()>/@this
+NumberWorkSpace::: (Mock)	<NumberWorkSpace: void preVisitAction(Vertex)>/@this
+Graph$Comparator2::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/@this	@ MSTPrim
+Graph$Comparator2::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@this
+Vertex$EdgeIter1::: (Mock)	<Vertex$EdgeIter1: EdgeIfc next()>/@this	@ (EdgeObjects /\ G_NoEdges)
+Vertex$EdgeIter1::: (Mock)	<Vertex$EdgeIter1: boolean hasNext()>/@this	@ (EdgeObjects /\ G_NoEdges)
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void <init>()>/@this
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@this	@ StronglyConnected
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@this	@ StronglyConnected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void <init>()>/@this
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void init_vertex(Vertex)>/@this	@ Connected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void postVisitAction(Vertex)>/@this	@ Connected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void nextRegionAction(Vertex)>/@this	@ Connected
+Edge::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/@this
+Edge::: (Mock)	<Edge: void adjustAdorns(EdgeIfc)>/@this	@ EdgeObjects
+Edge::: (Mock)	<Edge: void setWeight(int)>/@this	@ (EdgeObjects /\ Weighted)
+Edge::: (Mock)	<Edge: int getWeight()>/@this	@ (EdgeObjects /\ Weighted)
+Edge::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/@this	@ EdgeObjects
+Edge::: (Mock)	<Edge: Vertex getStart()>/@this	@ EdgeObjects
+Edge::: (Mock)	<Edge: Vertex getEnd()>/@this	@ EdgeObjects
+Edge::: (Mock)	<Edge: void display()>/@this	@ EdgeObjects
+Graph$Comparator1::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/@this	@ StronglyConnected
+Graph$Comparator1::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@this
+Neighbor::: (Mock)	<Neighbor: void <init>()>/@this
+Neighbor::: (Mock)	<Neighbor: void <init>(Vertex,int)>/@this
+Neighbor::: (Mock)	<Neighbor: void display()>/@this	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: Vertex getStart()>/@this	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: Vertex getEnd()>/@this	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void setWeight(int)>/@this	@ (Weighted /\ GN_OnlyNeighbors)
+Neighbor::: (Mock)	<Neighbor: int getWeight()>/@this	@ (Weighted /\ GN_OnlyNeighbors)
+Neighbor::: (Mock)	<Neighbor: Vertex getOtherVertex(Vertex)>/@this	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void adjustAdorns(EdgeIfc)>/@this	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/@this
+<<string-constant>>	<Vertex: void display()>/$stringconstant0	@ (Weighted /\ G_NoEdges)
+<<string-constant>>	<Vertex: void display()>/$stringconstant1
+<<string-constant>>	<Vertex: void display()>/$stringconstant2	@ SearchBase
+<<string-constant>>	<Vertex: void display()>/$stringconstant3	@ SearchBase
+<<string-constant>>	<Vertex: void display()>/$stringconstant4	@ Number
+<<string-constant>>	<Vertex: void display()>/$stringconstant5	@ Connected
+<<string-constant>>	<Vertex: void display()>/$stringconstant6	@ StronglyConnected
+<<string-constant>>	<Vertex: void display()>/$stringconstant7	@ Cycle
+<<string-constant>>	<Vertex: void display()>/$stringconstant8	@ MSTKruskal
+<<string-constant>>	<Vertex: void display()>/$stringconstant9	@ MSTKruskal
+<<string-constant>>	<Vertex: void display()>/$stringconstant10	@ MSTPrim
+<<string-builder>>	<Vertex: void display()>/$r2	@ (Weighted /\ G_NoEdges)
+<<string-builder>>	<Vertex: void display()>/$r10
+<<string-builder>>	<Vertex: void display()>/$r16
+<<string-builder>>	<Vertex: void display()>/$r23	@ Number
+<<string-builder>>	<Vertex: void display()>/$r28	@ Connected
+<<string-builder>>	<Vertex: void display()>/$r33	@ StronglyConnected
+<<string-builder>>	<Vertex: void display()>/$r39	@ Cycle
+<<string-builder>>	<Vertex: void display()>/$r45	@ MSTKruskal
+<<string-builder>>	<Vertex: void display()>/$r52	@ MSTPrim
+<<string-constant>>	<Graph: void runBenchmark(java.lang.String)>/$stringconstant0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<<string-builder>>	<Graph: void runBenchmark(java.lang.String)>/$r2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Graph: int readNumber()>/new char[]/0	<Graph: int readNumber()>/word#_208	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<<string-constant>>	<Graph: void run(Vertex)>/$stringconstant0	@ (Cycle /\ Prog)
+<<string-builder>>	<Graph: void run(Vertex)>/$r0	@ (Cycle /\ Prog)
+<<string-constant>>	<Edge: void display()>/$stringconstant0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<string-constant>>	<Edge: void display()>/$stringconstant1	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<string-builder>>	<Edge: void display()>/$r0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<string-builder>>	<Edge: void display()>/$r4	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<string-builder>>	<Neighbor: void display()>/$r0	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+<<null pseudo heap>>	<EdgeIter: EdgeIfc next()>/$null0
+<<null pseudo heap>>	<Vertex: VertexIter getNeighbors()>/$null0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<<null pseudo heap>>	<Vertex: Vertex getEnd()>/$null0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<<null pseudo heap>>	<Vertex: EdgeIter getEdges()>/$null0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<<null pseudo heap>>	<Graph: EdgeIter getEdges()>/$null0	@ EdgeObjects
+<<null pseudo heap>>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$null0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<null pseudo heap>>	<Graph: Graph strongComponents()>/$null0	@ StronglyConnected
+<<null pseudo heap>>	<Graph: Graph kruskal()>/$null0	@ MSTKruskal
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/$null0	@ MSTPrim
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/$null1	@ MSTPrim
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/$null2	@ MSTPrim
+<<null pseudo heap>>	<Edge: Vertex getOtherVertex(Vertex)>/$null0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<null pseudo heap>>	<Neighbor: void <init>()>/$null0	@ GN_OnlyNeighbors
+<<null pseudo heap>>	<Neighbor: void <init>()>/$null1	@ GEN_Edges
+<<null pseudo heap>>	<Neighbor: void <init>()>/$null2	@ GEN_Edges
+<<null pseudo heap>>	<Neighbor: Vertex getStart()>/$null0	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: void main(java.lang.String[])>/g#_16	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new int[]/0	<Main: void main(java.lang.String[])>/$r13	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new int[]/1	<Main: void main(java.lang.String[])>/$r14	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Vertex: void adjustAdorns(Vertex,int)>/new java.lang.Integer/0	<Vertex: void adjustAdorns(Vertex,int)>/$r3	@ ((G_NoEdges /\ (Weighted /\ G_NoEdges)) /\ G_NoEdges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex: VertexIter getNeighbors()>/$r0	@ ((G_NoEdges /\ G_NoEdges) /\ G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex: EdgeIter getEdges()>/$r0	@ (((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ G_NoEdges))
+<Vertex: void addWeight(int)>/new java.lang.Integer/0	<Vertex: void addWeight(int)>/$r0	@ ((Weighted /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: VertexIter getVertices()>/$r0
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph: EdgeIter getEdges()>/$r0	@ EdgeObjects
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Graph: void addEdge(Vertex,Neighbor)>/$r0	@ ((GN_OnlyNeighbors /\ (Undirected /\ GN_OnlyNeighbors)) /\ GN_OnlyNeighbors)
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: void runBenchmark(java.lang.String)>/$r0	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: int readNumber()>/new java.lang.String/0	<Graph: int readNumber()>/$r3	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: int readNumber()>/new java.lang.String/1	<Graph: int readNumber()>/$r4	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<Graph: void numberVertices()>/$r0	@ ((Number /\ Number) /\ Number)
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<Graph: void connectedComponents()>/$r0	@ ((Connected /\ Connected) /\ Connected)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<Graph: Graph strongComponents()>/$r0	@ StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph: Graph strongComponents()>/$r1	@ StronglyConnected
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<Graph: Graph strongComponents()>/$r2	@ StronglyConnected
+<Graph: Graph computeTranspose(Graph)>/new java.util.HashMap/0	<Graph: Graph computeTranspose(Graph)>/$r0	@ ((Transpose /\ Transpose) /\ Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/$r1	@ ((Transpose /\ Transpose) /\ Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/$r3	@ ((Transpose /\ Transpose) /\ Transpose)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<Graph: boolean cycleCheck()>/$r0	@ ((Cycle /\ Cycle) /\ Cycle)
+<Graph: Graph kruskal()>/new java.util.LinkedList/0	<Graph: Graph kruskal()>/$r0	@ MSTKruskal
+<Graph: Graph kruskal()>/new java.util.LinkedList/1	<Graph: Graph kruskal()>/$r1	@ MSTKruskal
+<Graph: Graph kruskal()>/new java.util.LinkedList/2	<Graph: Graph kruskal()>/$r2	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph: Graph kruskal()>/$r3	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: Graph kruskal()>/$r24	@ MSTKruskal
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph kruskal()>/$r26	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new java.util.LinkedList/0	<Graph: Graph prim(Vertex)>/$r0	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new java.util.HashSet/0	<Graph: Graph prim(Vertex)>/$r1	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	<Graph: Graph prim(Vertex)>/$r11	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: Graph prim(Vertex)>/$r13	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r14	@ MSTPrim
+EdgeIter::: (Mock)	<EdgeIter: void <init>()>/this#_0
+EdgeIter::: (Mock)	<EdgeIter: boolean hasNext()>/this#_0
+EdgeIter::: (Mock)	<EdgeIter: EdgeIfc next()>/this#_0
+GlobalVarsWrapper::: (Mock)	<GlobalVarsWrapper: void <init>()>/this#_0
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void <init>()>/this#_0
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void init_vertex(Vertex)>/this#_0	@ Cycle
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void preVisitAction(Vertex)>/this#_0
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void postVisitAction(Vertex)>/this#_0	@ Cycle
+CycleWorkSpace::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/this#_0
+Graph$EdgeIter1::: (Mock)	<Graph$EdgeIter1: EdgeIfc next()>/this#_0	@ EdgeObjects
+Graph$EdgeIter1::: (Mock)	<Graph$EdgeIter1: boolean hasNext()>/this#_0	@ EdgeObjects
+VertexIter::: (Mock)	<VertexIter: Vertex next()>/this#_0
+VertexIter::: (Mock)	<VertexIter: boolean hasNext()>/this#_0
+Vertex$VertexIter1::: (Mock)	<Vertex$VertexIter1: Vertex next()>/this#_0	@ G_NoEdges
+Vertex$VertexIter1::: (Mock)	<Vertex$VertexIter1: boolean hasNext()>/this#_0	@ G_NoEdges
+Vertex$VertexIter2::: (Mock)	<Vertex$VertexIter2: Vertex next()>/this#_0	@ GN_OnlyNeighbors
+Vertex$VertexIter2::: (Mock)	<Vertex$VertexIter2: boolean hasNext()>/this#_0	@ GN_OnlyNeighbors
+Graph$Comparator3::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/this#_0	@ MSTKruskal
+Graph$Comparator3::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l0#_0
+Main::: (Mock)	<Main: void <init>()>/this#_0
+Vertex$VertexIter3::: (Mock)	<Vertex$VertexIter3: Vertex next()>/this#_0	@ GEN_Edges
+Vertex$VertexIter3::: (Mock)	<Vertex$VertexIter3: boolean hasNext()>/this#_0	@ GEN_Edges
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void <init>()>/this#_0
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void preVisitAction(Vertex)>/this#_0	@ StronglyConnected
+WorkSpaceTranspose::: (Mock)	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/this#_0	@ StronglyConnected
+Vertex::: (Mock)	<Vertex: Vertex assignName(java.lang.String)>/this#_0
+Vertex::: (Mock)	<Vertex: java.lang.String getName()>/this#_0
+Vertex::: (Mock)	<Vertex: void addAdjacent(Vertex)>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Vertex,int)>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: VertexIter getNeighbors()>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getStart()>/this#_0	@ (Undirected /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: Vertex getEnd()>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: int getWeight()>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getOtherVertex(Vertex)>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void addEdge(Neighbor)>/this#_0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Neighbor)>/this#_0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void addNeighbor(Neighbor)>/this#_0	@ GEN_Edges
+Vertex::: (Mock)	<Vertex: EdgeIter getEdges()>/this#_0	@ (EdgeObjects /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: java.util.LinkedList getNeighborsObj()>/this#_0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Vertex: void addWeight(int)>/this#_0	@ Weighted
+Vertex::: (Mock)	<Vertex: void setWeight(int)>/this#_0	@ (Weighted /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex: void init_vertex(WorkSpace)>/this#_0	@ SearchBase
+Vertex::: (Mock)	<Vertex: void nodeSearch(WorkSpace)>/this#_0
+Vertex::: (Mock)	<Vertex: void display()>/this#_0
+Graph::: (Mock)	<Graph: VertexIter getVertices()>/this#_0
+Graph::: (Mock)	<Graph: EdgeIter getEdges()>/this#_0
+Graph::: (Mock)	<Graph: void sortVertices(java.util.Comparator)>/this#_0
+Graph::: (Mock)	<Graph: void sortEdges(java.util.Comparator)>/this#_0	@ EdgeObjects
+Graph::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/this#_0	@ GN_OnlyNeighbors
+Graph::: (Mock)	<Graph: void runBenchmark(java.lang.String)>/this#_0	@ Benchmark
+Graph::: (Mock)	<Graph: void stopBenchmark()>/this#_0	@ Benchmark
+Graph::: (Mock)	<Graph: int readNumber()>/this#_0	@ Benchmark
+Graph::: (Mock)	<Graph: void run(Vertex)>/this#_0
+Graph::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/this#_0	@ EdgeObjects
+Graph::: (Mock)	<Graph: void graphSearch(WorkSpace)>/this#_0
+Graph::: (Mock)	<Graph: void numberVertices()>/this#_0	@ Number
+Graph::: (Mock)	<Graph: void connectedComponents()>/this#_0	@ Connected
+Graph::: (Mock)	<Graph: Graph strongComponents()>/this#_0
+Graph::: (Mock)	<Graph: Graph computeTranspose(Graph)>/this#_0	@ Transpose
+Graph::: (Mock)	<Graph: boolean cycleCheck()>/this#_0	@ Cycle
+Graph::: (Mock)	<Graph: Graph kruskal()>/this#_0
+Graph::: (Mock)	<Graph: Graph prim(Vertex)>/this#_0
+WorkSpace::: (Mock)	<WorkSpace: void <init>()>/this#_0
+WorkSpace::: (Mock)	<WorkSpace: void init_vertex(Vertex)>/this#_0	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void preVisitAction(Vertex)>/this#_0	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void postVisitAction(Vertex)>/this#_0	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void nextRegionAction(Vertex)>/this#_0	@ SearchBase
+WorkSpace::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/this#_0	@ SearchBase
+Vertex$EdgeIter3::: (Mock)	<Vertex$EdgeIter3: EdgeIfc next()>/this#_0	@ (EdgeObjects /\ GEN_Edges)
+Vertex$EdgeIter3::: (Mock)	<Vertex$EdgeIter3: boolean hasNext()>/this#_0	@ (EdgeObjects /\ GEN_Edges)
+Vertex$EdgeIter2::: (Mock)	<Vertex$EdgeIter2: EdgeIfc next()>/this#_0	@ (EdgeObjects /\ GN_OnlyNeighbors)
+Vertex$EdgeIter2::: (Mock)	<Vertex$EdgeIter2: boolean hasNext()>/this#_0	@ (EdgeObjects /\ GN_OnlyNeighbors)
+NumberWorkSpace::: (Mock)	<NumberWorkSpace: void <init>()>/this#_0
+NumberWorkSpace::: (Mock)	<NumberWorkSpace: void preVisitAction(Vertex)>/this#_0
+Graph$Comparator2::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/this#_0	@ MSTPrim
+Graph$Comparator2::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l0#_0
+Vertex$EdgeIter1::: (Mock)	<Vertex$EdgeIter1: EdgeIfc next()>/this#_0	@ (EdgeObjects /\ G_NoEdges)
+Vertex$EdgeIter1::: (Mock)	<Vertex$EdgeIter1: boolean hasNext()>/this#_0	@ (EdgeObjects /\ G_NoEdges)
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void <init>()>/this#_0
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/this#_0	@ StronglyConnected
+FinishTimeWorkSpace::: (Mock)	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/this#_0	@ StronglyConnected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void <init>()>/this#_0
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void init_vertex(Vertex)>/this#_0	@ Connected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void postVisitAction(Vertex)>/this#_0	@ Connected
+RegionWorkSpace::: (Mock)	<RegionWorkSpace: void nextRegionAction(Vertex)>/this#_0	@ Connected
+Edge::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/this#_0
+Edge::: (Mock)	<Edge: void adjustAdorns(EdgeIfc)>/this#_0	@ EdgeObjects
+Edge::: (Mock)	<Edge: void setWeight(int)>/this#_0	@ (EdgeObjects /\ Weighted)
+Edge::: (Mock)	<Edge: int getWeight()>/this#_0	@ (EdgeObjects /\ Weighted)
+Edge::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/this#_0	@ EdgeObjects
+Edge::: (Mock)	<Edge: Vertex getStart()>/this#_0	@ EdgeObjects
+Edge::: (Mock)	<Edge: Vertex getEnd()>/this#_0	@ EdgeObjects
+Edge::: (Mock)	<Edge: void display()>/this#_0	@ EdgeObjects
+Graph$Comparator1::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/this#_0	@ StronglyConnected
+Graph$Comparator1::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l0#_0
+Neighbor::: (Mock)	<Neighbor: void <init>()>/this#_0
+Neighbor::: (Mock)	<Neighbor: void <init>(Vertex,int)>/this#_0
+Neighbor::: (Mock)	<Neighbor: void display()>/this#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: Vertex getStart()>/this#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: Vertex getEnd()>/this#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void setWeight(int)>/this#_0	@ (Weighted /\ GN_OnlyNeighbors)
+Neighbor::: (Mock)	<Neighbor: int getWeight()>/this#_0	@ (Weighted /\ GN_OnlyNeighbors)
+Neighbor::: (Mock)	<Neighbor: Vertex getOtherVertex(Vertex)>/this#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void adjustAdorns(EdgeIfc)>/this#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/this#_0
+<Main: void main(java.lang.String[])>/new Vertex[]/0	<Main: void main(java.lang.String[])>/$r6	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new Vertex[]/0	<Main: void main(java.lang.String[])>/$r11	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new Vertex[]/0	<Main: EdgeIfc addEdge(Graph,int)>/$r1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex[]/0	<Main: EdgeIfc addEdge(Graph,int)>/$r3	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new int[]/0	<Main: EdgeIfc addEdge(Graph,int)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new int[]/1	<Main: EdgeIfc addEdge(Graph,int)>/$r2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<CycleWorkSpace: void init_vertex(Vertex)>/@parameter0	@ Cycle
+Vertex::: (Mock)	<CycleWorkSpace: void preVisitAction(Vertex)>/@parameter0
+Vertex::: (Mock)	<CycleWorkSpace: void postVisitAction(Vertex)>/@parameter0	@ Cycle
+Vertex::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter0
+Vertex::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter1
+Vertex::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter0	@ MSTKruskal
+Vertex::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter1	@ MSTKruskal
+java.lang.Object::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter0
+java.lang.Object::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter1
+Vertex::: (Mock)	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@parameter0	@ StronglyConnected
+Vertex::: (Mock)	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@parameter0	@ StronglyConnected
+java.lang.String::: (Mock)	<Vertex: Vertex assignName(java.lang.String)>/@parameter0
+Vertex::: (Mock)	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Vertex,int)>/@parameter0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getOtherVertex(Vertex)>/@parameter0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(EdgeIfc)>/@parameter0	@ G_NoEdges
+Neighbor::: (Mock)	<Vertex: void addEdge(Neighbor)>/@parameter0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Vertex: void addNeighbor(Neighbor)>/@parameter0	@ GEN_Edges
+WorkSpace::: (Mock)	<Vertex: void init_vertex(WorkSpace)>/@parameter0	@ SearchBase
+WorkSpace::: (Mock)	<Vertex: void nodeSearch(WorkSpace)>/@parameter0
+Graph$Comparator3::: (Mock)	<Graph: void sortVertices(java.util.Comparator)>/@parameter0
+Graph$Comparator3::: (Mock)	<Graph: void sortEdges(java.util.Comparator)>/@parameter0	@ EdgeObjects
+Vertex::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/@parameter0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/@parameter1	@ GN_OnlyNeighbors
+java.lang.String::: (Mock)	<Graph: void runBenchmark(java.lang.String)>/@parameter0	@ Benchmark
+Vertex::: (Mock)	<Graph: void run(Vertex)>/@parameter0
+Vertex::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter0	@ EdgeObjects
+Vertex::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter1	@ EdgeObjects
+WorkSpace::: (Mock)	<Graph: void graphSearch(WorkSpace)>/@parameter0
+Graph::: (Mock)	<Graph: Graph computeTranspose(Graph)>/@parameter0	@ Transpose
+Vertex::: (Mock)	<Graph: Graph prim(Vertex)>/@parameter0
+Vertex::: (Mock)	<WorkSpace: void init_vertex(Vertex)>/@parameter0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void preVisitAction(Vertex)>/@parameter0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void postVisitAction(Vertex)>/@parameter0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void nextRegionAction(Vertex)>/@parameter0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter1	@ SearchBase
+Vertex::: (Mock)	<NumberWorkSpace: void preVisitAction(Vertex)>/@parameter0
+Vertex::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/@parameter0	@ MSTPrim
+Vertex::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/@parameter1	@ MSTPrim
+java.lang.Object::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@parameter0
+java.lang.Object::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@parameter1
+Vertex::: (Mock)	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@parameter0	@ StronglyConnected
+Vertex::: (Mock)	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@parameter0	@ StronglyConnected
+Vertex::: (Mock)	<RegionWorkSpace: void init_vertex(Vertex)>/@parameter0	@ Connected
+Vertex::: (Mock)	<RegionWorkSpace: void postVisitAction(Vertex)>/@parameter0	@ Connected
+Vertex::: (Mock)	<RegionWorkSpace: void nextRegionAction(Vertex)>/@parameter0	@ Connected
+Vertex::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/@parameter0
+Vertex::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/@parameter1
+Vertex::: (Mock)	<Edge: void adjustAdorns(EdgeIfc)>/@parameter0	@ EdgeObjects
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/@parameter0	@ EdgeObjects
+Vertex::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter0	@ StronglyConnected
+Vertex::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter1	@ StronglyConnected
+java.lang.Object::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter0
+java.lang.Object::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter1
+Vertex::: (Mock)	<Neighbor: void <init>(Vertex,int)>/@parameter0
+Vertex::: (Mock)	<Neighbor: Vertex getOtherVertex(Vertex)>/@parameter0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Neighbor: void adjustAdorns(EdgeIfc)>/@parameter0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/@parameter0
+Edge::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/@parameter1
+<Graph: int readNumber()>/new java.lang.String/0	<Graph: int readNumber()>/theString#_224	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (Benchmark /\ Benchmark))
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<Graph: Graph strongComponents()>/FTWS#_324	@ StronglyConnected
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<Graph: Graph strongComponents()>/WST#_337	@ StronglyConnected
+<Graph: Graph computeTranspose(Graph)>/new java.util.HashMap/0	<Graph: Graph computeTranspose(Graph)>/newVertices#_347	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/newGraph#_350	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<Graph: boolean cycleCheck()>/c#_393	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ (Cycle /\ Cycle))
+<Graph: Graph kruskal()>/new java.util.LinkedList/0	<Graph: Graph kruskal()>/A#_401	@ MSTKruskal
+<Graph: Graph kruskal()>/new java.util.LinkedList/2	<Graph: Graph kruskal()>/vxiter_$$A_1#_415	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: Graph kruskal()>/e1_$$A_1#_481	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new java.util.LinkedList/0	<Graph: Graph prim(Vertex)>/vxiter_$$A_1#_539	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new java.util.HashSet/0	<Graph: Graph prim(Vertex)>/indx#_540	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: Graph prim(Vertex)>/residue_$$A_1#_630	@ MSTPrim
+Vertex::: (Mock)	<CycleWorkSpace: void init_vertex(Vertex)>/v#_0	@ Cycle
+Vertex::: (Mock)	<CycleWorkSpace: void preVisitAction(Vertex)>/v#_0
+Vertex::: (Mock)	<CycleWorkSpace: void postVisitAction(Vertex)>/v#_0	@ Cycle
+Vertex::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/vsource#_0
+Vertex::: (Mock)	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/vtarget#_0
+Vertex::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/e1#_0	@ MSTKruskal
+Vertex::: (Mock)	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/e2#_0	@ MSTKruskal
+java.lang.Object::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l1#_0
+java.lang.Object::: (Mock)	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l2#_0
+Vertex::: (Mock)	<WorkSpaceTranspose: void preVisitAction(Vertex)>/v#_0	@ StronglyConnected
+Vertex::: (Mock)	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/v#_0	@ StronglyConnected
+java.lang.String::: (Mock)	<Vertex: Vertex assignName(java.lang.String)>/name#_0
+Vertex::: (Mock)	<Vertex: void addAdjacent(Vertex)>/n#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(Vertex,int)>/the_vertex#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: Vertex getOtherVertex(Vertex)>/vertex#_0	@ G_NoEdges
+Vertex::: (Mock)	<Vertex: void adjustAdorns(EdgeIfc)>/the_edge#_0	@ G_NoEdges
+Neighbor::: (Mock)	<Vertex: void addEdge(Neighbor)>/n#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Vertex: void adjustAdorns(Neighbor)>/sourceNeighbor#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Vertex: void addNeighbor(Neighbor)>/n#_0	@ GEN_Edges
+WorkSpace::: (Mock)	<Vertex: void init_vertex(WorkSpace)>/w#_0	@ SearchBase
+WorkSpace::: (Mock)	<Vertex: void nodeSearch(WorkSpace)>/w#_0
+Graph$Comparator3::: (Mock)	<Graph: void sortVertices(java.util.Comparator)>/c#_0
+Graph$Comparator3::: (Mock)	<Graph: void sortEdges(java.util.Comparator)>/c#_0	@ EdgeObjects
+Vertex::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/start#_0	@ GN_OnlyNeighbors
+Neighbor::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/theNeighbor#_0	@ GN_OnlyNeighbors
+java.lang.String::: (Mock)	<Graph: void runBenchmark(java.lang.String)>/FileName#_0	@ Benchmark
+Vertex::: (Mock)	<Graph: void run(Vertex)>/v#_0
+Vertex::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theSource#_0	@ EdgeObjects
+Vertex::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theTarget#_0	@ EdgeObjects
+WorkSpace::: (Mock)	<Graph: void graphSearch(WorkSpace)>/w#_0
+Graph::: (Mock)	<Graph: Graph computeTranspose(Graph)>/the_graph#_0	@ Transpose
+Vertex::: (Mock)	<Graph: Graph prim(Vertex)>/r#_0
+Vertex::: (Mock)	<WorkSpace: void init_vertex(Vertex)>/v#_0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void preVisitAction(Vertex)>/v#_0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void postVisitAction(Vertex)>/v#_0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void nextRegionAction(Vertex)>/v#_0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/vsource#_0	@ SearchBase
+Vertex::: (Mock)	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/vtarget#_0	@ SearchBase
+Vertex::: (Mock)	<NumberWorkSpace: void preVisitAction(Vertex)>/v#_0
+Vertex::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/v1#_0	@ MSTPrim
+Vertex::: (Mock)	<Graph$Comparator2: int compare(Vertex,Vertex)>/v2#_0	@ MSTPrim
+java.lang.Object::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l1#_0
+java.lang.Object::: (Mock)	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l2#_0
+Vertex::: (Mock)	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/v#_0	@ StronglyConnected
+Vertex::: (Mock)	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/v#_0	@ StronglyConnected
+Vertex::: (Mock)	<RegionWorkSpace: void init_vertex(Vertex)>/v#_0	@ Connected
+Vertex::: (Mock)	<RegionWorkSpace: void postVisitAction(Vertex)>/v#_0	@ Connected
+Vertex::: (Mock)	<RegionWorkSpace: void nextRegionAction(Vertex)>/v#_0	@ Connected
+Vertex::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/the_start#_0
+Vertex::: (Mock)	<Edge: void <init>(Vertex,Vertex,int)>/the_end#_0
+Vertex::: (Mock)	<Edge: void adjustAdorns(EdgeIfc)>/the_edge#_0	@ EdgeObjects
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/vertex#_0	@ EdgeObjects
+Vertex::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/v1#_0	@ StronglyConnected
+Vertex::: (Mock)	<Graph$Comparator1: int compare(Vertex,Vertex)>/v2#_0	@ StronglyConnected
+java.lang.Object::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l1#_0
+java.lang.Object::: (Mock)	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l2#_0
+Vertex::: (Mock)	<Neighbor: void <init>(Vertex,int)>/theNeighbor#_0
+Vertex::: (Mock)	<Neighbor: Vertex getOtherVertex(Vertex)>/vertex#_0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Neighbor: void adjustAdorns(EdgeIfc)>/the_edge#_0	@ GN_OnlyNeighbors
+Vertex::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/v#_0
+Edge::: (Mock)	<Neighbor: void <init>(Vertex,Edge)>/e#_0
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: EdgeIfc addEdge(Graph,int)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: void readWeights(Graph,int)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void <init>()>/@this	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void <init>()>/@this	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<GlobalVarsWrapper: void <clinit>()>/$r0	@ ((BFS /\ BFS) /\ BFS)
+Vertex::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/v1#_278	@ (EdgeObjects /\ (EdgeObjects /\ EdgeObjects))
+Vertex::: (Mock)	<Graph: Graph prim(Vertex)>/root#_522	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: EdgeIfc addEdge(Graph,int)>/g#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new Graph/0	<Main: void readWeights(Graph,int)>/g#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void <init>()>/this#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void <init>()>/this#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+java.lang.String::: (Mock)	<Main: void main(java.lang.String[])>/$r1	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+java.lang.String::: (Mock)	<Main: void main(java.lang.String[])>/$r16	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ Prog)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void runBenchmark(java.lang.String)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: int readNumber()>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void addVertex(Vertex)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void stopBenchmark()>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void run(Vertex)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void display()>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void runBenchmark(java.lang.String)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: int readNumber()>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void addVertex(Vertex)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void stopBenchmark()>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ Benchmark)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void run(Vertex)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void display()>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+java.lang.String::: (Mock)	<Vertex: java.lang.String getName()>/$r0
+java.lang.String::: (Mock)	<Vertex: void display()>/$r12
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: void stopBenchmark()>/$r0	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: int readNumber()>/$r0	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: int readNumber()>/$r1	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: int readNumber()>/$r2	@ ((Benchmark /\ Benchmark) /\ Benchmark)
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/$r2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: Vertex getStart()>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: void display()>/$r6	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/$r1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: Vertex getOtherVertex(Vertex)>/$r3	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: Vertex getEnd()>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Edge: void display()>/$r10	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Neighbor: void display()>/$r1	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+<<null pseudo heap>>	<Neighbor: Vertex getEnd()>/$r0	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+<<null pseudo heap>>	<Neighbor: Vertex getOtherVertex(Vertex)>/$r0	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+Vertex::: (Mock)	<Neighbor: void display()>/$r1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Neighbor: Vertex getEnd()>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Neighbor: Vertex getOtherVertex(Vertex)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: void addEdge(Vertex,Neighbor)>/end#_148	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+Vertex::: (Mock)	<Graph: void addEdge(Vertex,Neighbor)>/end#_148	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+Vertex::: (Mock)	<Main: void main(java.lang.String[])>/$r10	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/@this	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/@this	@ MSTPrim
+Graph::: (Mock)	<Graph: Vertex findsVertex(java.lang.String)>/@this	@ MSTPrim
+CycleWorkSpace::: (Mock)	<WorkSpace: void <init>()>/@this	@ Cycle
+WorkSpaceTranspose::: (Mock)	<WorkSpace: void <init>()>/@this	@ StronglyConnected
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@this	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@this	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: void <init>(Graph)>/@this
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@this	@ EdgeObjects
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Neighbor: void <init>(Vertex,int)>/@this	@ ((GN_OnlyNeighbors /\ (GN_OnlyNeighbors /\ ((Undirected /\ Weighted) /\ GN_OnlyNeighbors))) /\ (GN_OnlyNeighbors /\ ((Undirected /\ Weighted) /\ GN_OnlyNeighbors)))
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<NumberWorkSpace: void <init>()>/@this	@ ((Number /\ (Number /\ Number)) /\ (Number /\ Number))
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<RegionWorkSpace: void <init>()>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ (Connected /\ Connected))
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<FinishTimeWorkSpace: void <init>()>/@this	@ StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@this	@ StronglyConnected
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpaceTranspose: void <init>()>/@this	@ StronglyConnected
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void <init>()>/@this	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void <init>()>/@this	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<CycleWorkSpace: void <init>()>/@this	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ (Cycle /\ Cycle))
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@this	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void <init>()>/@this	@ MSTKruskal
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void <init>()>/@this	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@this	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void <init>()>/@this	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void <init>()>/@this	@ MSTPrim
+NumberWorkSpace::: (Mock)	<WorkSpace: void <init>()>/@this	@ Number
+FinishTimeWorkSpace::: (Mock)	<WorkSpace: void <init>()>/@this	@ StronglyConnected
+RegionWorkSpace::: (Mock)	<WorkSpace: void <init>()>/@this	@ Connected
+<<null pseudo heap>>	<Vertex: void <init>()>/$null0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/this#_0	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: Vertex assignName(java.lang.String)>/this#_0	@ MSTPrim
+Graph::: (Mock)	<Graph: Vertex findsVertex(java.lang.String)>/this#_0	@ MSTPrim
+CycleWorkSpace::: (Mock)	<WorkSpace: void <init>()>/this#_0	@ Cycle
+WorkSpaceTranspose::: (Mock)	<WorkSpace: void <init>()>/this#_0	@ StronglyConnected
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l0#_0	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l0#_0	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: void <init>(Graph)>/this#_0
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l0#_0	@ EdgeObjects
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Neighbor: void <init>(Vertex,int)>/this#_0	@ ((GN_OnlyNeighbors /\ (GN_OnlyNeighbors /\ ((Undirected /\ Weighted) /\ GN_OnlyNeighbors))) /\ (GN_OnlyNeighbors /\ ((Undirected /\ Weighted) /\ GN_OnlyNeighbors)))
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<NumberWorkSpace: void <init>()>/this#_0	@ ((Number /\ (Number /\ Number)) /\ (Number /\ Number))
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<RegionWorkSpace: void <init>()>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ (Connected /\ Connected))
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<FinishTimeWorkSpace: void <init>()>/this#_0	@ StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l0#_0	@ StronglyConnected
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpaceTranspose: void <init>()>/this#_0	@ StronglyConnected
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void <init>()>/this#_0	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void <init>()>/this#_0	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<CycleWorkSpace: void <init>()>/this#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ (Cycle /\ Cycle))
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l0#_0	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void <init>()>/this#_0	@ MSTKruskal
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void <init>()>/this#_0	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l0#_0	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void <init>()>/this#_0	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void <init>()>/this#_0	@ MSTPrim
+NumberWorkSpace::: (Mock)	<WorkSpace: void <init>()>/this#_0	@ Number
+FinishTimeWorkSpace::: (Mock)	<WorkSpace: void <init>()>/this#_0	@ StronglyConnected
+RegionWorkSpace::: (Mock)	<WorkSpace: void <init>()>/this#_0	@ Connected
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<Vertex: void nodeSearch(WorkSpace)>/$r0	@ (((SearchBase /\ BFS) /\ G_NoEdges) /\ (SearchBase /\ BFS))
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<Vertex: void nodeSearch(WorkSpace)>/$r1	@ (((SearchBase /\ BFS) /\ G_NoEdges) /\ (SearchBase /\ BFS))
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<Vertex: void nodeSearch(WorkSpace)>/$r2	@ (((SearchBase /\ BFS) /\ G_NoEdges) /\ (SearchBase /\ BFS))
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<Vertex: void nodeSearch(WorkSpace)>/$r4	@ (((SearchBase /\ BFS) /\ G_NoEdges) /\ (SearchBase /\ BFS))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: void main(java.lang.String[])>/$r10	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+java.lang.String::: (Mock)	<Graph: Vertex findsVertex(java.lang.String)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void addVertex(Vertex)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: VertexIter getVertices()>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void addVertex(Vertex)>/@this	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/@this	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void addVertex(Vertex)>/@this	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/@this	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	@ MSTPrim
+<Vertex: void <init>()>/new java.util.LinkedList/0	<Vertex: void <init>()>/$r0	@ (G_NoEdges /\ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)))
+<Vertex: void <init>()>/new java.util.LinkedList/1	<Vertex: void <init>()>/$r1	@ (GN_OnlyNeighbors /\ ((GN_OnlyNeighbors /\ GN_OnlyNeighbors) /\ GN_OnlyNeighbors))
+<Vertex: void <init>()>/new java.util.LinkedList/2	<Vertex: void <init>()>/$r2	@ (GEN_Edges /\ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)))
+<Vertex: void <init>()>/new java.util.LinkedList/3	<Vertex: void <init>()>/$r3	@ ((Weighted /\ G_NoEdges) /\ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)))
+<Graph: void <init>()>/new java.util.LinkedList/0	<Graph: void <init>()>/$r0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: void <init>()>/new java.util.LinkedList/1	<Graph: void <init>()>/$r1	@ (GEN_Edges /\ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)))
+<<string-constant>>	<Graph: void display()>/$stringconstant0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<string-constant>>	<Graph: void display()>/$stringconstant1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<string-constant>>	<Graph: void display()>/$stringconstant2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<string-constant>>	<Graph: void display()>/$stringconstant3	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<string-constant>>	<Graph: void display()>/$stringconstant4	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: Vertex findsVertex(java.lang.String)>/$null0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: Vertex findsVertex(java.lang.String)>/$null1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+java.lang.String::: (Mock)	<Graph: Vertex findsVertex(java.lang.String)>/name#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void addVertex(Vertex)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: VertexIter getVertices()>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void addVertex(Vertex)>/this#_0	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/this#_0	@ MSTKruskal
+<Graph: Graph kruskal()>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void addVertex(Vertex)>/this#_0	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: Vertex findsVertex(java.lang.String)>/this#_0	@ MSTPrim
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	@ MSTPrim
+<<null pseudo heap>>	<Vertex: void display()>/$r54	@ MSTPrim
+java.lang.String::: (Mock)	<Neighbor: void display()>/$r2	@ ((GN_OnlyNeighbors /\ GN_OnlyNeighbors) /\ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors))
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex: void nodeSearch(WorkSpace)>/vxiter#_207	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex: void nodeSearch(WorkSpace)>/vxiter_$$A_1#_218	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex: void display()>/vxiter_$$A_1#_265	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void run(Vertex)>/gaux#_259	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void run(Vertex)>/gaux1#_264	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: void graphSearch(WorkSpace)>/vxiter#_293	@ SearchBase
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: void graphSearch(WorkSpace)>/vxiter_$$A_1#_305	@ SearchBase
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: Graph strongComponents()>/gaux#_334	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph computeTranspose(Graph)>/vxiter#_353	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_1#_355	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Graph: Graph computeTranspose(Graph)>/v_$$A_1#_355	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph computeTranspose(Graph)>/vxiter_$$A_1_$$A_1#_367	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph kruskal()>/vxiter#_406	@ MSTKruskal
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph: Graph kruskal()>/edgeiter#_428	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph kruskal()>/vxiter_$$A_1_$$A_1#_484	@ MSTKruskal
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph kruskal()>/$r27	@ (MSTKruskal /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+Vertex::: (Mock)	<Graph: Graph kruskal()>/$r27	@ MSTKruskal
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph prim(Vertex)>/vxiter#_526	@ MSTPrim
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph prim(Vertex)>/vxiter_$$A_1_$$A_1#_545	@ MSTPrim
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_4#_633	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r15	@ (MSTPrim /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+Vertex::: (Mock)	<Graph: Graph prim(Vertex)>/$r15	@ MSTPrim
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph prim(Vertex)>/vxiter_$$A_3_$$A_1#_646	@ MSTPrim
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/e#_664	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/@parameter0	@ ((Number /\ (Number /\ Number)) /\ (Number /\ Number))
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ (Connected /\ Connected))
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/@parameter0	@ StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph: void sortVertices(java.util.Comparator)>/@parameter0	@ StronglyConnected
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/@parameter0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ (Cycle /\ Cycle))
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph: void sortEdges(java.util.Comparator)>/@parameter0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+Vertex::: (Mock)	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@parameter1	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+Vertex::: (Mock)	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@parameter1	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+Graph::: (Mock)	<VertexIter: void <init>(Graph)>/@parameter0
+Graph::: (Mock)	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	@ EdgeObjects
+<<null pseudo heap>>	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter1	@ EdgeObjects
+Graph::: (Mock)	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter0	@ StronglyConnected
+<<null pseudo heap>>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter1	@ StronglyConnected
+Graph::: (Mock)	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter0	@ MSTKruskal
+<<null pseudo heap>>	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter1	@ MSTKruskal
+Graph::: (Mock)	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0	@ MSTPrim
+<<null pseudo heap>>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter1	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v#_358	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+Vertex::: (Mock)	<Graph: Graph computeTranspose(Graph)>/v#_358	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@ ((Number /\ (Number /\ Number)) /\ (Number /\ Number))
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ (Connected /\ Connected))
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@ StronglyConnected
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph: void sortVertices(java.util.Comparator)>/c#_0	@ StronglyConnected
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ (Cycle /\ Cycle))
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph: void sortEdges(java.util.Comparator)>/c#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+Vertex::: (Mock)	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l1#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l2#_0	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+Vertex::: (Mock)	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l1#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l2#_0	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+Graph::: (Mock)	<VertexIter: void <init>(Graph)>/g#_0
+Graph::: (Mock)	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@ EdgeObjects
+<<null pseudo heap>>	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l2#_0	@ EdgeObjects
+Graph::: (Mock)	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l1#_0	@ StronglyConnected
+<<null pseudo heap>>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l2#_0	@ StronglyConnected
+Graph::: (Mock)	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l1#_0	@ MSTKruskal
+<<null pseudo heap>>	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l2#_0	@ MSTKruskal
+Graph::: (Mock)	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l1#_0	@ MSTPrim
+<<null pseudo heap>>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l2#_0	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void <init>()>/new java.util.LinkedList/0	<Graph: void display()>/$r2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void <init>()>/new java.util.LinkedList/0	<Graph: void display()>/$r3	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void <init>()>/new java.util.LinkedList/0	<Graph: void addVertex(Vertex)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Main: void main(java.lang.String[])>/$r12	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Main: EdgeIfc addEdge(Graph,int)>/v2#_88	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Main: void main(java.lang.String[])>/$r10	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_1#_355	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph kruskal()>/$r27	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r15	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph kruskal()>/new Vertex/0	<Main: void main(java.lang.String[])>/$r10	@ (MSTKruskal /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_1#_355	@ (MSTKruskal /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph kruskal()>/$r27	@ MSTKruskal
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r15	@ (MSTKruskal /\ MSTPrim)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Main: void main(java.lang.String[])>/$r10	@ (MSTPrim /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_1#_355	@ (MSTPrim /\ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph kruskal()>/$r27	@ (MSTPrim /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r15	@ MSTPrim
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r1	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r7	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r3	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r5	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Graph computeTranspose(Graph)>/newvxiter#_366	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void connectedComponents()>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: boolean cycleCheck()>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ Cycle)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph kruskal()>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTKruskal /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph prim(Vertex)>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void numberVertices()>/@this	@ ((((Prog /\ Number) /\ Number) /\ (Prog /\ Number)) /\ Number)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph strongComponents()>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (Prog /\ StronglyConnected))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+Vertex::: (Mock)	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v#_358	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v#_358	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v#_358	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void connectedComponents()>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: boolean cycleCheck()>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ Cycle)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph kruskal()>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTKruskal /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph prim(Vertex)>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void numberVertices()>/this#_0	@ ((((Prog /\ Number) /\ Number) /\ (Prog /\ Number)) /\ Number)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph strongComponents()>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (Prog /\ StronglyConnected))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: void main(java.lang.String[])>/$r12	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v2#_88	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Main: void main(java.lang.String[])>/$r17	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: Graph kruskal()>/theNewEnd#_505	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<<null pseudo heap>>	<Graph: Graph kruskal()>/j_$$A_1#_504	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/theNewVertex#_658	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/theNewPred#_659	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void run(Vertex)>/gaux2#_271	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/edgeiter#_279	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r0	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r2	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Graph: Graph prim(Vertex)>/$r2	@ MSTPrim
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<VertexIter: void <init>(Graph)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: void addVertex(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Graph: void addVertex(Vertex)>/@parameter0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<WorkSpace: void <init>()>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ Cycle)
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpace: void <init>()>/@this	@ StronglyConnected
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<WorkSpace: void <init>()>/@this	@ ((((Prog /\ Number) /\ Number) /\ (Prog /\ Number)) /\ Number)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<WorkSpace: void <init>()>/@this	@ StronglyConnected
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<WorkSpace: void <init>()>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+Vertex::: (Mock)	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/vtx_$$A_2#_666	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<VertexIter: void <init>(Graph)>/g#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: void addVertex(Vertex)>/v#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Graph: void addVertex(Vertex)>/v#_0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<WorkSpace: void <init>()>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ Cycle)
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpace: void <init>()>/this#_0	@ StronglyConnected
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<WorkSpace: void <init>()>/this#_0	@ ((((Prog /\ Number) /\ Number) /\ (Prog /\ Number)) /\ Number)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<WorkSpace: void <init>()>/this#_0	@ StronglyConnected
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<WorkSpace: void <init>()>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+java.lang.String::: (Mock)	<Edge: void display()>/$r7	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+java.lang.String::: (Mock)	<Edge: void display()>/$r11	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+Vertex::: (Mock)	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+Vertex::: (Mock)	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: void addVertex(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: void addVertex(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: void addVertex(Vertex)>/@parameter0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Vertex: void addEdge(Neighbor)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: VertexIter getVertices()>/@this	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIter getEdges()>/@this	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: Vertex next()>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: boolean hasNext()>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void display()>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTKruskal /\ Prog))
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void display()>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: boolean hasNext()>/@this	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: Vertex next()>/@this	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void graphSearch(WorkSpace)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: EdgeIfc next()>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: boolean hasNext()>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: VertexIter getVertices()>/@this	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: VertexIter getVertices()>/@this	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+Vertex::: (Mock)	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+Vertex::: (Mock)	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: void addVertex(Vertex)>/v#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: void addVertex(Vertex)>/v#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: void addVertex(Vertex)>/v#_0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Vertex: void addEdge(Neighbor)>/n#_0	@ (((Prog /\ Prog) /\ Prog) /\ GN_OnlyNeighbors)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: VertexIter getVertices()>/this#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIter getEdges()>/this#_0	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: Vertex next()>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: boolean hasNext()>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: void display()>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTKruskal /\ Prog))
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: void display()>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: boolean hasNext()>/this#_0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: VertexIter getVertices()>/new VertexIter/0	<VertexIter: Vertex next()>/this#_0	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void graphSearch(WorkSpace)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: EdgeIfc next()>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: boolean hasNext()>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: VertexIter getVertices()>/this#_0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: VertexIter getVertices()>/this#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Main: void main(java.lang.String[])>/$r12	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Main: void main(java.lang.String[])>/$r12	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Main: void main(java.lang.String[])>/$r12	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v2#_88	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v2#_88	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/v2#_88	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<<null pseudo heap>>	<Graph: void run(Vertex)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<<null pseudo heap>>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<RegionWorkSpace: void nextRegionAction(Vertex)>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: void <init>(Vertex)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: void <init>(Vertex)>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: void <init>(Graph)>/@this	@ EdgeObjects
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph$Comparator1: void <init>(Graph)>/@this	@ StronglyConnected
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph$Comparator3: void <init>(Graph)>/@this	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	<Graph$Comparator2: void <init>(Graph)>/@this	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l1#_0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l1#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/the_graph#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<<null pseudo heap>>	<Graph: void run(Vertex)>/v#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<<null pseudo heap>>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theSource#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: void numberVertices()>/new NumberWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Graph: void connectedComponents()>/new RegionWorkSpace/0	<RegionWorkSpace: void nextRegionAction(Vertex)>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase) /\ Connected)
+<Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<WorkSpace: void nextRegionAction(Vertex)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ SearchBase)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex$VertexIter1: void <init>(Vertex)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: void <init>(Vertex)>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph$EdgeIter1: void <init>(Graph)>/this#_0	@ EdgeObjects
+<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph$Comparator1: void <init>(Graph)>/this#_0	@ StronglyConnected
+<Graph: Graph kruskal()>/new Graph$Comparator3/0	<Graph$Comparator3: void <init>(Graph)>/this#_0	@ MSTKruskal
+<Graph: Graph prim(Vertex)>/new Graph$Comparator2/0	<Graph$Comparator2: void <init>(Graph)>/this#_0	@ MSTPrim
+<Graph: void <init>()>/new java.util.LinkedList/0	<VertexIter: void <init>(Graph)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: VertexIter getVertices()>/new VertexIter/0	<Graph: Vertex findsVertex(java.lang.String)>/vxiter#_161	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph: void display()>/edgeiter_$$A_1#_177	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<Graph: void graphSearch(WorkSpace)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void display()>/@this	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (Prog /\ StronglyConnected))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: EdgeIfc next()>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: boolean hasNext()>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void graphSearch(WorkSpace)>/@this	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void sortVertices(java.util.Comparator)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void sortEdges(java.util.Comparator)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<null pseudo heap>>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/v1#_278	@ (((EdgeObjects /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges)) /\ (EdgeObjects /\ EdgeObjects))
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: void display()>/this#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (Prog /\ StronglyConnected))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: EdgeIfc next()>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex$EdgeIter1: boolean hasNext()>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void graphSearch(WorkSpace)>/this#_0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void sortVertices(java.util.Comparator)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: Graph computeTranspose(Graph)>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected) /\ Transpose)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: void sortEdges(java.util.Comparator)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+Vertex::: (Mock)	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+Vertex::: (Mock)	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+Vertex::: (Mock)	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<VertexIter: void <init>(Graph)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<VertexIter: void <init>(Graph)>/@parameter0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Graph/0	<VertexIter: void <init>(Graph)>/@parameter0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+Vertex::: (Mock)	<Vertex$VertexIter1: void <init>(Vertex)>/@parameter0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex$EdgeIter1: void <init>(Vertex)>/@parameter0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+Graph::: (Mock)	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0	@ EdgeObjects
+Graph::: (Mock)	<Graph$Comparator1: void <init>(Graph)>/@parameter0	@ StronglyConnected
+Graph::: (Mock)	<Graph$Comparator3: void <init>(Graph)>/@parameter0	@ MSTKruskal
+Graph::: (Mock)	<Graph$Comparator2: void <init>(Graph)>/@parameter0	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Graph/0	<VertexIter: void <init>(Graph)>/g#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<VertexIter: void <init>(Graph)>/g#_0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Graph: Graph prim(Vertex)>/new Graph/0	<VertexIter: void <init>(Graph)>/g#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+Vertex::: (Mock)	<Vertex$VertexIter1: void <init>(Vertex)>/l1#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+Vertex::: (Mock)	<Vertex$EdgeIter1: void <init>(Vertex)>/l1#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+Graph::: (Mock)	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@ EdgeObjects
+Graph::: (Mock)	<Graph$Comparator1: void <init>(Graph)>/l1#_0	@ StronglyConnected
+Graph::: (Mock)	<Graph$Comparator3: void <init>(Graph)>/l1#_0	@ MSTKruskal
+Graph::: (Mock)	<Graph$Comparator2: void <init>(Graph)>/l1#_0	@ MSTPrim
+<Main: void main(java.lang.String[])>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<<null pseudo heap>>	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator3: void <init>(Graph)>/@parameter0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator2: void <init>(Graph)>/@parameter0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator1: void <init>(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/@parameter0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Graph: Graph kruskal()>/new Graph/0	<Graph: EdgeIter getEdges()>/@this	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: EdgeIter getEdges()>/@this	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator3: void <init>(Graph)>/l1#_0	@ ((MSTKruskal /\ EdgeObjects) /\ MSTKruskal)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator2: void <init>(Graph)>/l1#_0	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$Comparator1: void <init>(Graph)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/r#_0	@ ((((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog)) /\ (MSTPrim /\ Prog))
+<Graph: Graph kruskal()>/new Graph/0	<Graph: EdgeIter getEdges()>/this#_0	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: EdgeIter getEdges()>/this#_0	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Graph: void <init>()>/new java.util.LinkedList/0	<Graph: void sortVertices(java.util.Comparator)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void <init>()>/new java.util.LinkedList/1	<Graph: void sortEdges(java.util.Comparator)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void setWeight(int)>/@this	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addWeight(int)>/@this	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<<null pseudo heap>>	<Graph: Graph prim(Vertex)>/root#_522	@ (((Cycle /\ Cycle) \/ MSTPrim) /\ MSTPrim)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void setWeight(int)>/this#_0	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addWeight(int)>/this#_0	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Main: EdgeIfc addEdge(Graph,int)>/$r4	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph kruskal()>/theNewEdge#_511	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph prim(Vertex)>/theNewEdge#_663	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<null pseudo heap>>	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@this	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: EdgeIter getEdges()>/@this	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<<null pseudo heap>>	<Vertex: void addAdjacent(Vertex)>/n#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/n#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/n#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/n#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/n#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/this#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ StronglyConnected)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: EdgeIter getEdges()>/this#_0	@ (((EdgeObjects /\ EdgeObjects) /\ EdgeObjects) /\ GEN_Edges)
+<Graph: Graph kruskal()>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+Graph::: (Mock)	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	@ EdgeObjects
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void setWeight(int)>/@this	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void setWeight(int)>/@this	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void setWeight(int)>/@this	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addWeight(int)>/@this	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addWeight(int)>/@this	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addWeight(int)>/@this	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<VertexIter: void <init>()>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<EdgeIter: void <init>()>/@this	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<EdgeIter: void <init>()>/@this	@ EdgeObjects
+<Graph: Graph kruskal()>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+Graph::: (Mock)	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	@ EdgeObjects
+<Main: void main(java.lang.String[])>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addAdjacent(Vertex)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void setWeight(int)>/this#_0	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void setWeight(int)>/this#_0	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void setWeight(int)>/this#_0	@ (((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges))
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void addWeight(int)>/this#_0	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void addWeight(int)>/this#_0	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void addWeight(int)>/this#_0	@ ((((((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)) /\ Weighted) /\ ((Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges))) /\ (Weighted /\ G_NoEdges)) /\ Weighted)
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<VertexIter: void <init>()>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<EdgeIter: void <init>()>/this#_0	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<EdgeIter: void <init>()>/this#_0	@ EdgeObjects
+<Vertex: void <init>()>/new java.util.LinkedList/0	<Vertex: void addAdjacent(Vertex)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Vertex: void <init>()>/new java.util.LinkedList/3	<Vertex: void addWeight(int)>/$r1	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Vertex: void <init>()>/new java.util.LinkedList/1	<Vertex: void addWeight(int)>/$r2	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Vertex: void <init>()>/new java.util.LinkedList/0	<Vertex: void setWeight(int)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex: void adjustAdorns(EdgeIfc)>/@parameter0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<<null pseudo heap>>	<Vertex: void adjustAdorns(EdgeIfc)>/the_edge#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Main: void main(java.lang.String[])>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph prim(Vertex)>/new Vertex/0	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Graph: Graph kruskal()>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: void <init>()>/new java.util.LinkedList/1	<Graph: java.util.LinkedList access$0(Graph)>/$r0	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph kruskal()>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: void <init>()>/new java.util.LinkedList/1	<Graph$EdgeIter1: void <init>(Graph)>/$r0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)
+<Graph: Graph computeTranspose(Graph)>/new Graph/0	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	@ (((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects)

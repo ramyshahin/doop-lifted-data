@@ -1,0 +1,2 @@
+<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: void paint(javax.microedition.lcdui.Graphics)>
+<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void paint(javax.microedition.lcdui.Graphics)>

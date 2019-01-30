@@ -1,0 +1,5 @@
+<it.yup.xmpp.Config: void saveCapabilities(java.lang.String,java.lang.String,it.yup.xml.Element)>/new byte[]/0
+<it.yup.xmpp.Contact: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])>/new java.lang.String[]/0
+<it.yup.xmpp.Contact: it.yup.xmpp.Task[] getTasks()>/new it.yup.xmpp.Task[]/1
+<it.yup.xmpp.Roster: void loadGateways()>/new byte[]/0
+<it.yup.util.RMSIndex: boolean open()>/new byte[]/0

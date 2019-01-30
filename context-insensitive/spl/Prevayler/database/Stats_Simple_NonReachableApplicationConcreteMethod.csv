@@ -1,0 +1,46 @@
+<org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction: void <init>(org.prevayler.demos.demo2.gui.AccountEditFrame)>
+<org.prevayler.demos.demo2.business.transactions.AccountTransaction: void <init>()>
+<org.prevayler.demos.demo2.business.transactions.AccountTransaction: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+<org.prevayler.demos.demo2.business.Account: void <init>()>
+<org.prevayler.demos.demo1.NumberKeeper: void keep(int)>
+<org.prevayler.implementation.replication.ClientPublisher: void receiveTransactionFromServer()>	@ Replication
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void valueChanged(javax.swing.event.ListSelectionEvent)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void action()>
+<org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction: void <init>(org.prevayler.demos.demo2.gui.AccountEditFrame)>
+<org.prevayler.implementation.replication.ClientPublisher: void notifyMyTransactionMonitor()>	@ Replication
+<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>
+<org.prevayler.demos.scalability.TransactionTestRun: long spreadId(long)>
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher()>
+<org.prevayler.demos.demo2.business.transactions.AccountCreation: void <init>()>
+<org.prevayler.demos.scalability.QueryTestRun: void executeOperation(java.lang.Object,long)>
+<org.prevayler.foundation.ObjectInputStreamWithClassLoader: java.lang.Class resolveClass(java.io.ObjectStreamClass)>
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void receiveFromNetwork()>	@ Replication
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void closeDown()>	@ Replication
+<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void passToClient(java.lang.Object)>	@ Replication
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: void action(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.foundation.serialization.XStreamSerializer$1: java.lang.Object initialValue()>
+<org.prevayler.demos.demo2.gui.AccountFrame: java.lang.String holderText()>
+<org.prevayler.demos.demo2.gui.AccountFrame: long parse(java.lang.String)>
+<org.prevayler.demos.demo2.business.transactions.HolderChange: void <init>()>
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.Object acquireConnection()>
+<org.prevayler.demos.demo2.business.transactions.AccountDeletion: void <init>()>
+<org.prevayler.demos.demo2.business.transactions.AccountDeletion: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+<org.prevayler.foundation.monitor.SimpleMonitor: void info(java.lang.Class,java.lang.String)>	@ Monitor
+<org.prevayler.demos.demo2.business.transactions.Withdrawal: void <init>()>
+<org.prevayler.demos.demo2.business.AccountEntry: void <init>()>
+<org.prevayler.demos.demo1.NumberStorageTransaction: void <init>()>
+<org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void <init>(org.prevayler.demos.demo2.gui.AccountEditFrame)>
+<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: void action()>
+<org.prevayler.foundation.serialization.XStreamSerializer: com.thoughtworks.xstream.XStream createXStream()>
+<org.prevayler.demos.demo2.business.transactions.Deposit: void <init>()>
+<org.prevayler.foundation.monitor.LoggingMonitor: boolean isInfoEnabled(java.lang.Class)>	@ Monitor
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame: java.lang.Number enterAmount(java.lang.String)>
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: void action(org.prevayler.demos.demo2.business.Account)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void <init>(org.prevayler.demos.demo2.gui.AccountEditFrame)>
+<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void <init>(org.prevayler.demos.demo2.gui.AccountEditFrame,org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener)>
+<org.prevayler.demos.demo2.business.transactions.Transfer: void <init>()>
+<org.prevayler.demos.demo2.MainXStream$1: com.thoughtworks.xstream.XStream createXStream()>	@ (Snapshot /\ Snapshot)
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>

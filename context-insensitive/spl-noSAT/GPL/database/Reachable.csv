@@ -1,0 +1,150 @@
+<Main: void main(java.lang.String[])>	@ Prog
+<Graph: void startProfile()>	@ Benchmark
+<Graph: void stopProfile()>	@ Benchmark
+<Graph: void resumeProfile()>	@ Benchmark
+<Graph: void endProfile()>	@ Benchmark
+<Graph: void <clinit>()>	@ Benchmark
+<EdgeIter: void <init>()>
+<EdgeIter: boolean hasNext()>
+<EdgeIter: EdgeIfc next()>
+<GlobalVarsWrapper: void <init>()>
+<CycleWorkSpace: void <init>()>
+<CycleWorkSpace: void init_vertex(Vertex)>	@ Cycle
+<CycleWorkSpace: void preVisitAction(Vertex)>
+<CycleWorkSpace: void postVisitAction(Vertex)>	@ Cycle
+<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
+<Graph$EdgeIter1: EdgeIfc next()>	@ EdgeObjects
+<Graph$EdgeIter1: boolean hasNext()>	@ EdgeObjects
+<VertexIter: Vertex next()>
+<VertexIter: boolean hasNext()>
+<Vertex$VertexIter1: Vertex next()>	@ G_NoEdges
+<Vertex$VertexIter1: boolean hasNext()>	@ G_NoEdges
+<Vertex$VertexIter2: Vertex next()>	@ GN_OnlyNeighbors
+<Vertex$VertexIter2: boolean hasNext()>	@ GN_OnlyNeighbors
+<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@ MSTKruskal
+<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
+<Main: void <init>()>
+<Vertex$VertexIter3: Vertex next()>	@ GEN_Edges
+<Vertex$VertexIter3: boolean hasNext()>	@ GEN_Edges
+<WorkSpaceTranspose: void <init>()>
+<WorkSpaceTranspose: void preVisitAction(Vertex)>	@ StronglyConnected
+<WorkSpaceTranspose: void nextRegionAction(Vertex)>	@ StronglyConnected
+<Vertex: Vertex assignName(java.lang.String)>
+<Vertex: java.lang.String getName()>
+<Vertex: void addAdjacent(Vertex)>	@ G_NoEdges
+<Vertex: void adjustAdorns(Vertex,int)>	@ G_NoEdges
+<Vertex: VertexIter getNeighbors()>	@ G_NoEdges
+<Vertex: Vertex getStart()>	@ (Undirected /\ G_NoEdges)
+<Vertex: Vertex getEnd()>	@ G_NoEdges
+<Vertex: int getWeight()>	@ G_NoEdges
+<Vertex: Vertex getOtherVertex(Vertex)>	@ G_NoEdges
+<Vertex: void adjustAdorns(EdgeIfc)>	@ G_NoEdges
+<Vertex: void addEdge(Neighbor)>	@ GN_OnlyNeighbors
+<Vertex: void adjustAdorns(Neighbor)>	@ GN_OnlyNeighbors
+<Vertex: void addNeighbor(Neighbor)>	@ GEN_Edges
+<Vertex: EdgeIter getEdges()>	@ (EdgeObjects /\ G_NoEdges)
+<Vertex: java.util.LinkedList getNeighborsObj()>	@ GN_OnlyNeighbors
+<Vertex: void addWeight(int)>	@ Weighted
+<Vertex: void setWeight(int)>	@ (Weighted /\ G_NoEdges)
+<Vertex: void init_vertex(WorkSpace)>	@ SearchBase
+<Vertex: void nodeSearch(WorkSpace)>
+<Vertex: void display()>
+<Graph: VertexIter getVertices()>
+<Graph: EdgeIter getEdges()>
+<Graph: void sortVertices(java.util.Comparator)>
+<Graph: void sortEdges(java.util.Comparator)>	@ EdgeObjects
+<Graph: void addEdge(Vertex,Neighbor)>	@ GN_OnlyNeighbors
+<Graph: void runBenchmark(java.lang.String)>	@ Benchmark
+<Graph: void stopBenchmark()>	@ Benchmark
+<Graph: int readNumber()>	@ Benchmark
+<Graph: void run(Vertex)>
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@ EdgeObjects
+<Graph: void graphSearch(WorkSpace)>
+<Graph: void numberVertices()>	@ Number
+<Graph: void connectedComponents()>	@ Connected
+<Graph: Graph strongComponents()>
+<Graph: Graph computeTranspose(Graph)>	@ Transpose
+<Graph: boolean cycleCheck()>	@ Cycle
+<Graph: Graph kruskal()>
+<Graph: Graph prim(Vertex)>
+<WorkSpace: void <init>()>
+<WorkSpace: void init_vertex(Vertex)>	@ SearchBase
+<WorkSpace: void preVisitAction(Vertex)>	@ SearchBase
+<WorkSpace: void postVisitAction(Vertex)>	@ SearchBase
+<WorkSpace: void nextRegionAction(Vertex)>	@ SearchBase
+<WorkSpace: void checkNeighborAction(Vertex,Vertex)>	@ SearchBase
+<Vertex$EdgeIter3: EdgeIfc next()>	@ (EdgeObjects /\ GEN_Edges)
+<Vertex$EdgeIter3: boolean hasNext()>	@ (EdgeObjects /\ GEN_Edges)
+<Vertex$EdgeIter2: EdgeIfc next()>	@ (EdgeObjects /\ GN_OnlyNeighbors)
+<Vertex$EdgeIter2: boolean hasNext()>	@ (EdgeObjects /\ GN_OnlyNeighbors)
+<NumberWorkSpace: void <init>()>
+<NumberWorkSpace: void preVisitAction(Vertex)>
+<Graph$Comparator2: int compare(Vertex,Vertex)>	@ MSTPrim
+<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
+<Vertex$EdgeIter1: EdgeIfc next()>	@ (EdgeObjects /\ G_NoEdges)
+<Vertex$EdgeIter1: boolean hasNext()>	@ (EdgeObjects /\ G_NoEdges)
+<FinishTimeWorkSpace: void <init>()>
+<FinishTimeWorkSpace: void preVisitAction(Vertex)>	@ StronglyConnected
+<FinishTimeWorkSpace: void postVisitAction(Vertex)>	@ StronglyConnected
+<RegionWorkSpace: void <init>()>
+<RegionWorkSpace: void init_vertex(Vertex)>	@ Connected
+<RegionWorkSpace: void postVisitAction(Vertex)>	@ Connected
+<RegionWorkSpace: void nextRegionAction(Vertex)>	@ Connected
+<Edge: void <init>(Vertex,Vertex,int)>
+<Edge: void adjustAdorns(EdgeIfc)>	@ EdgeObjects
+<Edge: void setWeight(int)>	@ (EdgeObjects /\ Weighted)
+<Edge: int getWeight()>	@ (EdgeObjects /\ Weighted)
+<Edge: Vertex getOtherVertex(Vertex)>	@ EdgeObjects
+<Edge: Vertex getStart()>	@ EdgeObjects
+<Edge: Vertex getEnd()>	@ EdgeObjects
+<Edge: void display()>	@ EdgeObjects
+<Graph$Comparator1: int compare(Vertex,Vertex)>	@ StronglyConnected
+<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+<Neighbor: void <init>()>
+<Neighbor: void <init>(Vertex,int)>
+<Neighbor: void display()>	@ GN_OnlyNeighbors
+<Neighbor: Vertex getStart()>	@ GN_OnlyNeighbors
+<Neighbor: Vertex getEnd()>	@ GN_OnlyNeighbors
+<Neighbor: void setWeight(int)>	@ (Weighted /\ GN_OnlyNeighbors)
+<Neighbor: int getWeight()>	@ (Weighted /\ GN_OnlyNeighbors)
+<Neighbor: Vertex getOtherVertex(Vertex)>	@ GN_OnlyNeighbors
+<Neighbor: void adjustAdorns(EdgeIfc)>	@ GN_OnlyNeighbors
+<Neighbor: void <init>(Vertex,Edge)>
+<GlobalVarsWrapper: void <clinit>()>	@ BFS
+<Main: void readWeights(Graph,int)>	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Main: EdgeIfc addEdge(Graph,int)>	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<java.lang.StringBuilder: void <init>(java.lang.String)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<java.util.Collections: void sort(java.util.List,java.util.Comparator)>
+<Graph: void <init>()>	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Vertex: void <init>()>	@ (((Prog /\ Prog) /\ Benchmark) /\ (Prog /\ Prog))
+<Graph: void addVertex(Vertex)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: Vertex findsVertex(java.lang.String)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Graph: void display()>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<java.lang.Object: void <init>()>
+<java.lang.Integer: void <init>(int)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) \/ (((Benchmark \/ (Prog /\ Prog)) \/ Benchmark) \/ (Benchmark /\ Benchmark)))
+<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>	@ ((G_NoEdges /\ (G_NoEdges /\ G_NoEdges)) /\ (G_NoEdges /\ G_NoEdges))
+<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>	@ (((EdgeObjects /\ G_NoEdges) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges))) /\ ((EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)))
+<VertexIter: void <init>(Graph)>
+<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>	@ EdgeObjects
+<java.io.FileReader: void <init>(java.lang.String)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (Benchmark /\ Benchmark))
+<java.lang.String: void <init>(char[])>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (Benchmark /\ Benchmark))
+<java.lang.String: void <init>(java.lang.String)>	@ ((Benchmark \/ (Benchmark /\ Benchmark)) /\ (Benchmark /\ Benchmark))
+<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	@ StronglyConnected
+<java.util.HashMap: void <init>()>	@ (((Transpose /\ Transpose) /\ G_NoEdges) /\ (Transpose /\ Transpose))
+<java.util.LinkedList: void <init>()>	@ (MSTKruskal \/ MSTPrim)
+<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	@ MSTKruskal
+<java.util.HashSet: void <init>()>	@ MSTPrim
+<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	@ MSTPrim
+<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<java.util.LinkedList: boolean add(java.lang.Object)>	@ (((EdgeObjects /\ G_NoEdges) \/ (EdgeObjects /\ EdgeObjects)) \/ MSTPrim)
+<java.util.LinkedList: boolean remove(java.lang.Object)>	@ MSTPrim
+<java.util.LinkedList: void add(int,java.lang.Object)>	@ MSTPrim
+<java.util.LinkedList: java.lang.Object remove(int)>	@ (((SearchBase /\ BFS) /\ G_NoEdges) /\ (SearchBase /\ BFS))
+<Vertex$VertexIter1: void <init>(Vertex)>	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
+<Vertex$EdgeIter1: void <init>(Vertex)>	@ ((((((MSTKruskal /\ MSTKruskal) \/ (MSTPrim /\ MSTPrim)) \/ (Connected /\ Connected)) \/ (StronglyConnected /\ StronglyConnected)) /\ EdgeObjects) /\ (EdgeObjects /\ G_NoEdges))
+<Graph$EdgeIter1: void <init>(Graph)>	@ EdgeObjects
+<Graph$Comparator1: void <init>(Graph)>	@ StronglyConnected
+<Graph$Comparator3: void <init>(Graph)>	@ MSTKruskal
+<Graph$Comparator2: void <init>(Graph)>	@ MSTPrim
+<Graph: java.util.LinkedList access$0(Graph)>	@ EdgeObjects
+<VertexIter: void <init>()>	@ (((MSTKruskal /\ MSTKruskal) /\ MSTKruskal) /\ G_NoEdges)
