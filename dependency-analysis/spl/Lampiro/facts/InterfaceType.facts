@@ -1,0 +1,12 @@
+it.yup.ui.UIIContainer
+it.yup.xmpp.XMPPClient$XmppListener
+it.yup.util.LogConsumer
+it.yup.xmpp.Task
+it.yup.transport.TransportListener
+it.yup.xmpp.FTSender$FTSEventHandler
+lampiro.screens.RosterScreen$WaitScreen
+it.yup.util.RMSIndex$Comparator
+it.yup.xmlstream.PacketListener
+it.yup.xmpp.FTReceiver$FTREventHandler
+it.yup.xmlstream.StreamEventListener
+it.yup.xmpp.DataFormListener

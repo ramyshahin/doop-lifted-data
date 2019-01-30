@@ -1,0 +1,162 @@
+public	<Neighbor: void <init>()>
+public	<Neighbor: void <init>(Vertex,int)>
+public	<Neighbor: void display()>	@GN_OnlyNeighbors
+public	<Neighbor: Vertex getStart()>	@GN_OnlyNeighbors
+public	<Neighbor: Vertex getEnd()>	@GN_OnlyNeighbors
+public	<Neighbor: void setWeight(int)>	@Weighted /\ GN_OnlyNeighbors
+public	<Neighbor: int getWeight()>	@Weighted /\ GN_OnlyNeighbors
+public	<Neighbor: Vertex getOtherVertex(Vertex)>	@GN_OnlyNeighbors
+public	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
+public	<Neighbor: void <init>(Vertex,Edge)>
+public	<WorkSpaceTranspose: void <init>()>
+public	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
+public	<WorkSpaceTranspose: void nextRegionAction(Vertex)>	@StronglyConnected
+static	<GlobalVarsWrapper: void <clinit>()>	@BFS
+public	<GlobalVarsWrapper: void <init>()>
+private	<Vertex$VertexIter2: void <init>(Vertex)>
+public	<Vertex$VertexIter2: Vertex next()>	@GN_OnlyNeighbors
+public	<Vertex$VertexIter2: boolean hasNext()>	@GN_OnlyNeighbors
+private	<Vertex$EdgeIter2: void <init>(Vertex)>
+public	<Vertex$EdgeIter2: EdgeIfc next()>	@EdgeObjects /\ GN_OnlyNeighbors
+public	<Vertex$EdgeIter2: boolean hasNext()>	@EdgeObjects /\ GN_OnlyNeighbors
+	<Vertex: void <init>()>
+public	<Vertex: Vertex assignName(java.lang.String)>
+public	<Vertex: java.lang.String getName()>
+public	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
+public	<Vertex: void adjustAdorns(Vertex,int)>	@G_NoEdges
+public	<Vertex: VertexIter getNeighbors()>	@G_NoEdges
+public	<Vertex: Vertex getStart()>	@Undirected /\ G_NoEdges
+public	<Vertex: Vertex getEnd()>	@G_NoEdges
+public	<Vertex: int getWeight()>	@G_NoEdges
+public	<Vertex: Vertex getOtherVertex(Vertex)>	@G_NoEdges
+public	<Vertex: void adjustAdorns(EdgeIfc)>	@G_NoEdges
+public	<Vertex: void addEdge(Neighbor)>	@GN_OnlyNeighbors
+public	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
+public	<Vertex: void addNeighbor(Neighbor)>	@GEN_Edges
+public	<Vertex: EdgeIter getEdges()>	@EdgeObjects /\ G_NoEdges
+public	<Vertex: java.util.LinkedList getNeighborsObj()>	@GN_OnlyNeighbors
+public	<Vertex: void addWeight(int)>	@Weighted
+public	<Vertex: void setWeight(int)>	@Weighted /\ G_NoEdges
+public	<Vertex: void init_vertex(WorkSpace)>	@SearchBase
+public	<Vertex: void nodeSearch(WorkSpace)>
+public	<Vertex: void display()>
+private	<Vertex$VertexIter3: void <init>(Vertex)>
+public	<Vertex$VertexIter3: Vertex next()>	@GEN_Edges
+public	<Vertex$VertexIter3: boolean hasNext()>	@GEN_Edges
+public	<EdgeIter: void <init>()>
+public	<EdgeIter: boolean hasNext()>
+public	<EdgeIter: EdgeIfc next()>
+private	<Graph$EdgeIter1: void <init>(Graph)>
+public	<Graph$EdgeIter1: EdgeIfc next()>	@EdgeObjects
+public	<Graph$EdgeIter1: boolean hasNext()>	@EdgeObjects
+	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>
+	<VertexIter: void <init>()>
+	<VertexIter: void <init>(Graph)>
+public	<VertexIter: Vertex next()>
+public	<VertexIter: boolean hasNext()>
+public	<FinishTimeWorkSpace: void <init>()>
+public	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	@StronglyConnected
+public	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	@StronglyConnected
+private	<Graph$Comparator2: void <init>(Graph)>
+public	<Graph$Comparator2: int compare(Vertex,Vertex)>	@MSTPrim
+public	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
+bridge	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
+	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
+private	<Graph$Comparator1: void <init>(Graph)>
+public	<Graph$Comparator1: int compare(Vertex,Vertex)>	@StronglyConnected
+public	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+bridge	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>
+public	<EdgeIfc: Vertex getStart()>
+abstract	<EdgeIfc: Vertex getStart()>
+public	<EdgeIfc: Vertex getEnd()>
+abstract	<EdgeIfc: Vertex getEnd()>
+public	<EdgeIfc: void display()>
+abstract	<EdgeIfc: void display()>
+public	<EdgeIfc: Vertex getOtherVertex(Vertex)>
+abstract	<EdgeIfc: Vertex getOtherVertex(Vertex)>
+public	<EdgeIfc: void adjustAdorns(EdgeIfc)>
+abstract	<EdgeIfc: void adjustAdorns(EdgeIfc)>
+public	<EdgeIfc: void setWeight(int)>
+abstract	<EdgeIfc: void setWeight(int)>
+public	<EdgeIfc: int getWeight()>
+abstract	<EdgeIfc: int getWeight()>
+private	<Vertex$EdgeIter3: void <init>(Vertex)>
+public	<Vertex$EdgeIter3: EdgeIfc next()>	@EdgeObjects /\ GEN_Edges
+public	<Vertex$EdgeIter3: boolean hasNext()>	@EdgeObjects /\ GEN_Edges
+public	<WorkSpace: void <init>()>
+public	<WorkSpace: void init_vertex(Vertex)>	@SearchBase
+public	<WorkSpace: void preVisitAction(Vertex)>	@SearchBase
+public	<WorkSpace: void postVisitAction(Vertex)>	@SearchBase
+public	<WorkSpace: void nextRegionAction(Vertex)>	@SearchBase
+public	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>	@SearchBase
+private	<Graph$Comparator3: void <init>(Graph)>
+public	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@MSTKruskal
+public	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
+bridge	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
+	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>
+public	<CycleWorkSpace: void <init>()>
+public	<CycleWorkSpace: void init_vertex(Vertex)>	@Cycle
+public	<CycleWorkSpace: void preVisitAction(Vertex)>
+public	<CycleWorkSpace: void postVisitAction(Vertex)>	@Cycle
+public	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
+public	<RegionWorkSpace: void <init>()>
+public	<RegionWorkSpace: void init_vertex(Vertex)>	@Connected
+public	<RegionWorkSpace: void postVisitAction(Vertex)>	@Connected
+public	<RegionWorkSpace: void nextRegionAction(Vertex)>	@Connected
+private	<Vertex$EdgeIter1: void <init>(Vertex)>
+public	<Vertex$EdgeIter1: EdgeIfc next()>	@EdgeObjects /\ G_NoEdges
+public	<Vertex$EdgeIter1: boolean hasNext()>	@EdgeObjects /\ G_NoEdges
+	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>
+public	<Edge: void <init>(Vertex,Vertex,int)>
+public	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
+public	<Edge: void setWeight(int)>	@EdgeObjects /\ Weighted
+public	<Edge: int getWeight()>	@EdgeObjects /\ Weighted
+public	<Edge: Vertex getOtherVertex(Vertex)>	@EdgeObjects
+public	<Edge: Vertex getStart()>	@EdgeObjects
+public	<Edge: Vertex getEnd()>	@EdgeObjects
+public	<Edge: void display()>	@EdgeObjects
+static	<Graph: void <clinit>()>
+	<Graph: void <init>()>
+public	<Graph: VertexIter getVertices()>
+public	<Graph: EdgeIter getEdges()>
+public	<Graph: void sortVertices(java.util.Comparator)>
+public	<Graph: void sortEdges(java.util.Comparator)>	@EdgeObjects
+	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
+public	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
+	<Graph: Vertex findsVertex(java.lang.String)>
+	<Graph: void display()>
+	<Graph: void addVertex(Vertex)>
+public	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
+public	<Graph: void stopBenchmark()>	@Benchmark
+public	<Graph: int readNumber()>	@Benchmark
+public	<Graph: void startProfile()>	@Benchmark
+static	<Graph: void startProfile()>	@Benchmark
+public	<Graph: void stopProfile()>	@Benchmark
+static	<Graph: void stopProfile()>	@Benchmark
+public	<Graph: void resumeProfile()>	@Benchmark
+static	<Graph: void resumeProfile()>	@Benchmark
+public	<Graph: void endProfile()>	@Benchmark
+static	<Graph: void endProfile()>	@Benchmark
+public	<Graph: void run(Vertex)>
+public	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@EdgeObjects
+public	<Graph: void graphSearch(WorkSpace)>
+public	<Graph: void numberVertices()>	@Number
+public	<Graph: void connectedComponents()>	@Connected
+public	<Graph: Graph strongComponents()>
+public	<Graph: Graph computeTranspose(Graph)>	@Transpose
+public	<Graph: boolean cycleCheck()>	@Cycle
+public	<Graph: Graph kruskal()>
+public	<Graph: Graph prim(Vertex)>
+static	<Graph: java.util.LinkedList access$0(Graph)>
+public	<Main: void <init>()>
+public	<Main: void main(java.lang.String[])>	@Prog
+static	<Main: void main(java.lang.String[])>	@Prog
+static	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
+static	<Main: void readWeights(Graph,int)>	@Prog
+private	<Vertex$VertexIter1: void <init>(Vertex)>
+public	<Vertex$VertexIter1: Vertex next()>	@G_NoEdges
+public	<Vertex$VertexIter1: boolean hasNext()>	@G_NoEdges
+	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>
+public	<NumberWorkSpace: void <init>()>
+public	<NumberWorkSpace: void preVisitAction(Vertex)>

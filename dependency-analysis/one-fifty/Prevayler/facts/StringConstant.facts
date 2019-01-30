@@ -1,0 +1,276 @@
+locked
+Already locked internally
+rw
+<<\\"\\">>
+Already locked externally
+\n=============================================================
+<<\\"             Prevayler vs JDBC Scalability Tests             \\">>
+=============================================================\n
+If you have any trouble running the tests, just write to
+prevayler-scalability@lists.sourceforge.net and we will be glad to help.\n
+Reading the properties file:\n
+You can edit this file to configure the tests for the next run.\n
+<<\\"\\">>
+<<\\"\\">>
+\n\n\nFor better results, edit the properties file:
+\nYou can publish your best results by mail to:
+prevayler-scalability@lists.sourceforge.net. Please include info about your
+processors (quantity, type, speed), compiler, VM, operating system and DBMS.
+<<\\"\\">>
+Scalability test results are published on www.prevayler.org.
+See you there.\n
+Klaus Wuestefeld and Daniel Santos.\n\n
+A snapshot using Skaringa\'s XML serialization will be taken every 20 seconds...
+demo2Skaringa
+Checking transaction log consistency.
+Transaction log consistency check failed.
+Transaction log OK.\n
+ScalabilityTest.properties
+Creating the properties file.
+Robustness Reminder
+<<\\" You can kill this process at any time. \\">>
+<<\\" When you run the application again, \\">>
+<<\\" you will see that nothing was lost. \\">>
+<<HASH:1156460636>>
+NumberOfObjects
+ONE_HUNDRED_THOUSAND
+ONE_MILLION
+\\"SubscriberUpToDate\\"
+\\"RemoteTransaction\\"
+TEN_MILLION
+TWENTY_MILLION
+NumberOfObjects property must be equal to ONE_HUNDRED_THOUSAND, ONE_MILLION, TEN_MILLION or TWENTY_MILLION.
+RunPrevaylerQueryTest
+PrevaylerQueryThreadsMinimum
+PrevaylerQueryThreadsMaximum
+RunPrevaylerTransactionTest
+PrevaylerTransactionThreadsMinimum
+PrevaylerTransactionThreadsMaximum
+TransactionTestCheckConsistency
+TransactionLogDirectory
+<<\\"\n\nPrevayler TransactionLog Directory: \\">>
+<<\\"\n\nPrevayler Journal Serializer: \\">>
+RunJdbcQueryTest
+JdbcQueryThreadsMinimum
+JdbcQueryThreadsMaximum
+RunJdbcTransactionTest
+JdbcTransactionThreadsMinimum
+SubscriberUpToDate
+JdbcTransactionThreadsMaximum
+JdbcDriverClassName
+JdbcConnectionURL
+JdbcUser
+Transfer...
+JdbcPassword
+<<\\"Property \\">>
+<<\\"NumberFormatException reading property \\">>
+yes
+\n\n\n
+This test will be skipped (see properties file).
+A snapshot using XStream\'s XML serialization will be taken every 20 seconds...
+demo2XStream
+Delete
+Transfer
+From Account
+To Account
+Amount
+North
+East
+West
+Center
+South
+Holder
+OK
+#
+<<\\"Directory doesn\'t exist and could not be created: \\">>
+<<\\"Path exists but is not a directory: \\">>
+The minimum number of threads cannot be greater than the maximum number.
+The minimum number of threads cannot be smaller than one.
+Port In Service
+<<\\"\n\n========= Running \\">>
+Each round will take approx. 20 seconds to run...
+<<\\"\n----------- BEST ROUND: \\">>
+Port Not in Service
+<<\\"\nMemory used: \\">>
+<<\\"Seconds ellapsed: \\">>
+<<\\"--------- Round Result: \\">>
+Deposit...
+Deposit
+systemVersion
+executionTime
+systemVersion
+executionTime
+0.00
+\n\nOutOfMemoryError.\n===========================================================\nThe VM must be started with a sufficient maximum heap size.\nExample for Linux and Windows:  java -Xmx512000000 ...\n\n
+Prevayler Network Server Receiver
+<<\\"Account not found: \\">>
+This demo shows how your application can be replicated\nwithout changing ONE SINGLE LINE OF CODE in the\nbusiness classes or GUI. This enables query load-\nbalancing and system fault-tolerance.\n\n
+<<HASH:2013142096>>
+localhost
+demo2Replica
+Unable to serialize transaction
+Unable to deserialize transaction
+withQuery
+withQuery
+<<\\"Attempted to process \\">>
+NAME
+Runtime Exception simulated for rollback demonstration purposes.
+\n
+\n
+<<\\"select ID,STRING1,BIGDECIMAL1,BIGDECIMAL2,DATE1,DATE2 from \\">>
+QUERY_TEST
+<<\\"selecting record from \\">>
+Transaction Test
+<<\\"update \\">>
+<<\\"delete from \\">>
+TRANSACTION_TEST
+commiting transaction
+Prevayler
+<<\\"Unexpected Exception: \\">>
+New Account
+updating record
+deleting record
+\\"US-ASCII\\"
+\\"0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7}\\"
+\\"[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+\\"
+\\"(0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7})(;[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+=[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+)*\r\n\\"
+The replication logic is still under development.
+Invalid parameter name \'
+Invalid parameter value \'
+The current implementation can only support one subscriber. Future implementations will support more.
+Removing subscribers is not yet supported by the current implementation.
+Chunk header corrupted
+;=\r\n
+Unexpected end of stream in chunk data
+To publish a transaction, this ClientPublisher needs a registered subscriber.
+Unexpected end of stream in chunk trailer
+Chunk trailer corrupted
+Unexpected end of stream in chunk header
+Bank
+Unexpected InterruptedException.
+<<HASH:-595253473>>
+<<\\"Unable to serialize with Skaringa: \\">>
+<<\\"Unable to deserialize with Skaringa: \\">>
+<<\\"Unable to start Skaringa: \\">>
+Edit
+Unexpected InterruptedException
+Error during deserialization
+Deep copy failed in an unknown way
+\nOne snapshot per day is more than enough for most applications\n  because the journal recovery rate is in the order of\n  6000 transactions per second. For demoing purposes, though, a\n  snapshot will be taken every 20 seconds...
+demo2
+\\"[a-zA-Z0-9]*[Ss]napshot\\"
+\\"\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot\\"
+\\"[a-zA-Z0-9]*[Jj]ournal\\"
+\\"\\d{19}\\.[a-zA-Z0-9]*[Jj]ournal\\"
+Snapshot filename suffix must match /[a-zA-Z0-9]*[Ss]napshot/, but \'
+Journal filename suffix must match /[a-zA-Z0-9]*[Jj]ournal/, but \'
+<<HASH:713442402>>
+demo2
+0000000000000000000
+\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot
+\\d{19}\\.[a-zA-Z0-9]*[Jj]ournal
+<<\\"Error reading file list from directory \\">>
+demo1
+\nRobustness Reminder: You can kill this process at any time.\nWhen you restart the system, you will see that nothing was lost.\nPress Enter to continue.\n
+All Accounts
+Center
+South
+00000
+Amount must be greater than zero.
+Amount maximum (10000) exceeded.
+Primary suffix \'
+Withdraw...
+Withdrawal
+snapshot
+Create
+snapshot
+generatingSnapshot
+<<\\"Temporary snapshot file generated: \\">>
+setting AutoCommit to false
+<<\\"insert into \\">>
+Journal.update() has to be called at least once before Journal.append().
+inserting record
+<<\\"preparing statement: \\">>
+writing to
+closing
+<<\\"delete from \\">>
+<<\\"deleting all records from \\">>
+commiting insertion of test records
+<<\\"SQLException \\">>
+\\"QueryTest\\"
+QueryTest
+QueryTest
+QueryTest
+creating
+<<\\"The transaction log has not yet reached transaction \\">>
+<<\\"Unable to find journal file containing transaction \\">>
+<<\\"Creating \\">>
+Invalid holder name.
+<<\\"There are transactions needing to be recovered from \\">>
+Prevayler is no longer allowing access to the prevalent system due to an Error thrown from an earlier transaction.
+<<\\"Expected \\">>
+Prevayler is no longer processing transactions due to an Error thrown from an earlier transaction.
+<<\\"Attempted to apply transaction \\">>
+Prevayler is no longer processing queries due to an Error thrown from an earlier transaction.
+<<\\"All transaction processing is now blocked. An IOException was thrown while \\">>
+Prevayler is no longer allowing snapshots due to an Error thrown from an earlier transaction.
+update() must be called at least once
+yyyy/MM/dd  hh:mm:ss.SSS
+Prevayler is no longer accepting transactions due to an Error thrown from an earlier transaction.
+<<\\"Already at \\">>
+OK
+PrevalenceBase
+Transient Prevaylers are unable to take snapshots.
+<<\\"Account \\">>
+Transaction History
+Balance
+journal
+xstreamjournal
+skaringajournal
+Read the javadoc to this method.
+snapshot
+xstreamsnapshot
+skaringasnapshot
+Prevalence
+<<\\"Primes found: \\">>
+The prevalent system must be configured.
+journal
+snapshot
+Unexpected Exception was thrown.
+Unexpected Exception thrown.
+<<HASH:-279482281>>
+hh:mm:ss
+<<\\"Bank - \\">>
+Journal.update() has to be called at least once before Journal.journal().
+<<\\"Disk space used: \\">>
+journal
+<<\\"Unable to recover transaction \\">>
+<<\\"The transaction journal has not yet reached transaction \\">>
+<<\\"Expected \\">>
+update() must be called at least once
+bank
+account
+accountEntry
+Query Test
+NAME
+<<\\"Prevayler Stubborn Client \\">>
+Interesting accounts
+Refresh
+South
+Match
+Account
+Balance
+#Entries
+Center
+balance()
+transactionHistory().size()
+Error
+<<\\"NetworkSessionId for \\">>
+<<\\"Unexpected Exception: \\">>
+Unable to produce a copy of the prevalent system for trying out transactions before applying them to the real system.
+<<\\"Exception loading JDBC driver class: \\">>
+JDBC
+<<\\"Exception while trying to connect: \\">>
+already closed
+already closed
+Prevayler Network Client Receiver
