@@ -1,0 +1,40 @@
+<Main: void main(java.lang.String[])>/goto/instruction8	8	11	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction18	18	25	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction37	37	52	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction56	56	64	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction67	67	70	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction74	74	77	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Main: void main(java.lang.String[])>/goto/instruction80	80	83	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Graph: Vertex findsVertex(java.lang.String)>/goto/instruction7	7	13	<Graph: Vertex findsVertex(java.lang.String)>
+<Graph: void display()>/goto/instruction9	9	15	<Graph: void display()>
+<Graph: void display()>/goto/instruction27	27	30	<Graph: void display()>	@GEN_Edges
+<Graph: void runBenchmark(java.lang.String)>/goto/instruction6	6	17	<Graph: void runBenchmark(java.lang.String)>	@(Benchmark) /\ (Benchmark)
+<Graph: int readNumber()>/goto/instruction7	7	10	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
+<Graph: int readNumber()>/goto/instruction13	13	20	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/goto/instruction6	6	26	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
+<Graph: void graphSearch(WorkSpace)>/goto/instruction14	14	20	<Graph: void graphSearch(WorkSpace)>	@SearchBase
+<Graph: Graph computeTranspose(Graph)>/goto/instruction10	10	18	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
+<Graph: Graph computeTranspose(Graph)>/goto/instruction24	24	39	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
+<Graph: Graph computeTranspose(Graph)>/goto/instruction28	28	35	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
+<Graph: Graph kruskal()>/goto/instruction6	6	12	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction25	25	96	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction44	44	52	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction69	69	96	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction71	71	79	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction118	118	125	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph kruskal()>/goto/instruction128	128	141	<Graph: Graph kruskal()>	@MSTKruskal
+<Graph: Graph prim(Vertex)>/goto/instruction5	5	11	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction29	29	36	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction42	42	93	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction50	50	87	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction82	82	84	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction103	103	110	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction115	115	129	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Graph: Graph prim(Vertex)>/goto/instruction120	120	129	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Vertex: void nodeSearch(WorkSpace)>/goto/instruction10	10	14	<Vertex: void nodeSearch(WorkSpace)>	@DFS /\ SearchBase
+<Vertex: void nodeSearch(WorkSpace)>/goto/instruction20	20	26	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
+<Vertex: void nodeSearch(WorkSpace)>/goto/instruction31	31	39	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
+<Vertex: void display()>/goto/instruction6	6	19	<Vertex: void display()>	@Weighted /\ G_NoEdges
+<Vertex: void display()>/goto/instruction34	34	44	<Vertex: void display()>
+<Vertex: void display()>/goto/instruction51	51	55	<Vertex: void display()>	@SearchBase
+<Vertex: void display()>/goto/instruction98	98	109	<Vertex: void display()>	@MSTKruskal
