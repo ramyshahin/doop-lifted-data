@@ -1,8 +1,0 @@
-Vertex	EdgeIfc
-Vertex	NeighborIfc
-Neighbor	EdgeIfc
-Neighbor	NeighborIfc
-Graph$Comparator3	java.util.Comparator
-Edge	EdgeIfc
-Graph$Comparator2	java.util.Comparator
-Graph$Comparator1	java.util.Comparator

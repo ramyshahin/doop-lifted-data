@@ -1,4 +1,0 @@
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/assign/instruction11	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/i_$$A_1#_31
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/assign/instruction18	<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/i_$$A_1#_107
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/assign/instruction14	<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/i_$$A_1#_129
-<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void deleteDirectoryContents(java.io.File)>/assign/instruction10	<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void deleteDirectoryContents(java.io.File)>/i_$$A_1#_24
