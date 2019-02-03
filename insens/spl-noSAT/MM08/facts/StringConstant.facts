@@ -2,8 +2,8 @@ Delete
 Baby	@(Photo) /\ (Photo)
 Stop
 Finishing SMSReceiver run()	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
-5550001
 \\"ImageScreen\\"
+5550001
 <<\\"SmsSenderController::handleCommand: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <<\\"SmsMessaging::receiveImage: sender address = \\">>
 jad.name
@@ -20,8 +20,8 @@ Reject Photo command	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhot
 MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
 Java	@(includeMMAPI) /\ (includeMMAPI)
 java.home
-<<\\"<* AlbumController.handleCommand() *>: \\">>	@NewCompound1
 Set Favorite	@includeVideo
+<<\\"<* AlbumController.handleCommand() *>: \\">>	@NewCompound1
 audio/x-wav	@(Photo) /\ (Photo)
 ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
 <<\\"<* MusicPlayController.handleCommand() *> \\">>	@(x_NotPrivacy) /\ (x_NotPrivacy)
@@ -37,8 +37,8 @@ Capture video	@(includeCopyPhoto) /\ (includeCopyPhoto)
 Copy to Album:	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 Finishing Baseathread::run()
 <<\\"Would you like to remove the album \\">>
-View	@includeMMAPI
 SmsMessaging::receiveImage() - Finish
+View	@includeMMAPI
 Add new Photo Album
 <<\\"Passing to next controller in chain: \\">>
 Photos	@(MobilMedia) /\ (includeMMAPI /\ MobilMedia)
@@ -75,13 +75,13 @@ midlet.name
 BaseThread:: 0 Param Constructor used: Using default values
 Would you like to define a password to this Album	@NewCompound1
 Exit	@MobilMedia
-Add
 AlbumListScreen	@(x_NotPrivacy) /\ (x_NotPrivacy)
 Copy Media to Album	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
+Add
 <<\\"<* PlayVideoController.handleCommand() *> \\">>	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 <<\\"<* PhotoViewController.handleCommand() *> \\">>	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
-Start
 Duke (Sun)	@(includeMMAPI) /\ (includeMMAPI)
+Start
 vvpi-	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 Error	@NewCompound1
 <* AlbumController.goToPreviousScreen() *>
@@ -102,16 +102,16 @@ Olha para a captura	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 <<\\"<* MediaUtil.readMediaAsByteArray() *> mediaFile = \\">>
 Finishing SMSSender run()
 MediaAccessor::loadAlbums: Current store
-PhotoViewScreen::paint(): Image object was null.
 Bad fragmentation	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+PhotoViewScreen::paint(): Image object was null.
 <<\\"MediaAccessor::loadAlbums: Found: \\">>
 New photo	@x_misc
 /images/Kdvolder1.PNG	@(includeMMAPI) /\ (includeMMAPI)
 ImageListScreen
 C:\Program Files\Java\jdk1.5.0_09
-Send Photo by SMS
-Error ao criar o player:
 You have just received a bad fragmentated photo which was not possible to recovery.	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+Error ao criar o player:
+Send Photo by SMS
 <<\\"Closing connection caught: \\">>
 preprocessor.symbols
 vvp-	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
@@ -119,8 +119,8 @@ New picture	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 Password	@(NewCompound1) /\ (NewCompound1)
 mpp-	@(NewCompound1) /\ (NewCompound1)
 ImageScreen	@includeMMAPI
-Define a Password	@NewCompound1
 mpa-	@(includeMMAPI) /\ (includeMMAPI)
+Define a Password	@NewCompound1
 Can\'t go back here...Should never reach this spot
 AlbumListScreen	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Pitch: 0
@@ -130,8 +130,8 @@ Path not valid for this media:
 wtk.home
 Definiu a imagem	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 DEBUG 1: before smsConn.receive():
-<<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
 <<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
+<<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
 <<\\"From: \\">>
 Play	@x_NotPrivacy
 No Video Control for capturing!
@@ -148,16 +148,16 @@ Save	@x_notMisc
 AlbumListScreen	@(includeCopyPhoto) /\ (includeCopyPhoto)
 MobileMedia.jar
 MobileMedia.jad
-<<\\"<* BaseController.handleCommand() *> Image = \\">>
 Linux Penguin	@(includeMMAPI) /\ (includeMMAPI)
+<<\\"<* BaseController.handleCommand() *> Image = \\">>
 /images/bong.wav	@(Photo) /\ (Photo)
 <<\\"SmsSenderThread:: 3 Param Constructor: \\">>
 Copy to Album:	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <<\\"Pitch: \\">>
 Starting SMSReceiver::run()	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 C:\user\research\MobileMedia\Antenna
-ConfirmDeleteAlbumScreen
 AlbumListScreen	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
+ConfirmDeleteAlbumScreen
 prc.name
 Error criar or controler
 <<\\"Tempo: \\">>
@@ -169,8 +169,8 @@ Play Video	@x_MusicOrVideo
 Cancel	@(NewCompound1) /\ (NewCompound1)
 Delete Album
 <<\\"\\">>	@x_NotPrivacy
-BEFORE ALERT CODE	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 /images/Java.png	@(includeMMAPI) /\ (includeMMAPI)
+BEFORE ALERT CODE	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Cancel sending of SMS message	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Copy Photo to Album	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <<\\"SmsController:handleCommand() - Info from Network Screen is: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
@@ -178,8 +178,8 @@ Path not valid for this file:
 Ok	@x_SMSOrCapturePhotoOrCaptureVideo
 <<\\"<* BaseController.handleCommand() *> Image = \\">>	@(Media) /\ (Media)
 Save Item
-\\"ImageListScreen\\"
 My Photo Album	@(includeMMAPI) /\ (includeMMAPI)
+\\"ImageListScreen\\"
 1000	@x_SMSOrCapturePhotoOrCaptureVideo
 A MobilePhoto user has sent you a Photo. Do you want to accept it?	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Capture Video	@includeCopyPhoto
@@ -194,11 +194,11 @@ Crio a screen	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 Back	@x_PhotoAlbumAndVideoOrMusic
 <* PhotoController.goToPreviousScreen() *>
 <<\\"<* AlbumController.handleCommand() *>: \\">>
-Sort by Views	@Media
 ImageListScreen	@x_notMisc
+Sort by Views	@Media
+<<\\"SmsReceiverController::handleCommand: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <<\\" \\">>	@NewCompound1
 Error ao definir a tela
-<<\\"SmsReceiverController::handleCommand: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Error interreput	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Starting BaseThread::run()
 My Photo Album
@@ -221,8 +221,8 @@ EStou aqui 11...........................
 <<\\"...or...No record store named \\">>
 Delete Photo Album
 mmp-	@(Photo) /\ (Photo)
-Videos	@(MobilMedia) /\ (x_MusicOrVideo /\ MobilMedia)
 Fish	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
+Videos	@(MobilMedia) /\ (x_MusicOrVideo /\ MobilMedia)
 No	@NewCompound1
 Reset
 <<\\"SmsSenderThread::run: Sending message: \\">>
@@ -231,18 +231,18 @@ antenna.home
 video/mpeg	@Photo
 Tucan Sam	@(includeMMAPI) /\ (includeMMAPI)
 UBC Logo	@(includeMMAPI) /\ (includeMMAPI)
-Save to Album:	@(includeCopyPhoto) /\ (includeCopyPhoto)
 /images/Penguin.png	@(includeMMAPI) /\ (includeMMAPI)
+Save to Album:	@(includeCopyPhoto) /\ (includeCopyPhoto)
 /images/Gail1.PNG	@(includeMMAPI) /\ (includeMMAPI)
 Binary Message (No Text)	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Copy
-Delete Photo Album here
 Password	@NewCompound1
+Delete Photo Album here
 New Album
 jar.name
 mpi-	@(includeMMAPI) /\ (includeMMAPI)
-SmsMessaging::receiveImage() - start
 Copy to Album:	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
+SmsMessaging::receiveImage() - start
 AlbumListScreen	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
 ImageListScreen	@NewCompound1
 Capture Photo	@x_misc
@@ -260,14 +260,14 @@ sms://
 <<\\"<* PhotoController.handleCommand() *> \\">>
 Add new item to Album
 MM08.jar
-Select Album
 Kris	@(includeMMAPI) /\ (includeMMAPI)
+Select Album
 Accept Photo	@x_SMSOrCapturePhotoOrCaptureVideo
 NewLabelScreen
 Yes - Delete
 <<\\"\\">>	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
-Error
 video/mpeg	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
+Error
 <<\\"Volume: \\">>
 audio/x-wav	@Photo
 /images/printer.wav	@(Photo) /\ (Photo)
@@ -276,5 +276,5 @@ No RecordControl found!
 <<\\"device_screen_132x176, includePhotoAlbum,  includeFavourites , includeSorting, includePhotoAlbum, includeMMAPI, includeSmsFeature, capturePhoto, simulatePlayVideo, includeVideo, captureVideo, includePrivacy  \\">>
 ALBUM
 <<\\"No record store named \\">>
-AlbumListScreen
 <<\\"Waiting for SMS on \\">>
+AlbumListScreen

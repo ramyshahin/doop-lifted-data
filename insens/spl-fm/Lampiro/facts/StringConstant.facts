@@ -5,16 +5,16 @@ unavailable
 xml
 ricsson
 Cannot find suitable mechanism for authentication
-%
 \\"/httpb\\"
+%
 &
 \\"probe\\"
 *
 ,
 -
 /
-<<\\"Invalid itemList pos: \\">>
 0
+<<\\"Invalid itemList pos: \\">>
 1
 size
 <<\\"\' \\">>
@@ -49,8 +49,8 @@ y
 Press right key
 \\"1.0.2\\"
 /transport/icq.png
-POST
 Loading Lampiro...
+POST
 EMAIL
 gineprando2
 \\"dnd\\"
@@ -103,8 +103,8 @@ urn:xmpp:delay
 <<\\"(empty) \\">>
 \\"jabber:x:listo\\"
 Press left key
-serverEl
 \\"instructions\\"
+serverEl
 &apos;
 gws
 muc#roomconfig_persistentroom
@@ -191,8 +191,8 @@ capture://audio?encoding=
 cannot bind resource
 \\"2\\"
 urn:xmpp:jingle:transports:ibb:0
-Cont
 Type
+Cont
 chat
 Motorola
 invalid value for non interactive mode
@@ -260,8 +260,8 @@ Content-Length
 http://xmlpull.org/v1/doc/features.html#indent-output
 http://www.bluendo.com
 action
-text
 dnd
+text
 \\"x\\"
 PLAIN
 \\"boolean\\"
@@ -271,8 +271,8 @@ jid-single
 field
 oversubscribed literal/length tree
 status
-\\"executing\\"
 muc#roomconfig_enablelogging
+\\"executing\\"
 unknown compression method
 file
 \\"status\\"
@@ -317,8 +317,8 @@ Unsupported Feature
 roster
 \\"result\\"
 \\"text-single\\"
-30
 http://jabber.org/protocol/muc#roomconfig
+30
 element stack empty
 Lampiro	@x_notGlider
 FORM_TYPE
@@ -334,14 +334,14 @@ First
 50
 \\"text-multi\\"
 illegal comment delimiter: --->
-Unsupported property
 <<\\"ERR: \\">>
+Unsupported property
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
 common
-\\\"
 \\"text-private\\"
+\\\"
 layout
 This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
 Can\'t read resources:\n
@@ -351,8 +351,8 @@ Task error
 |-)
 &gt;
 var
-:(
 version expected
+:(
 :)
 :*
 muc#roomconfig_changesubject
@@ -395,8 +395,8 @@ Lampiro (http://lampiro.bluendo.com)
 muc#roomconfig_publicroom
 value
 <!--
-o:)
 ?>
+o:)
 xmldecl-standalone
 buffer error
 Service unavailable
@@ -421,11 +421,11 @@ In removing menu item
 \\"option\\"
 BINVAL
 instructions
-Cannot authenticate
 j2me
+Cannot authenticate
 <<\\"Attr.value missing f. \\">>
-oversubscribed distance tree
 finish
+oversubscribed distance tree
 ]]>
 \\"to\\"
 Cannot set default namespace for elements in no namespace
@@ -445,8 +445,8 @@ label
 message
 Error while saving config:\n
 Popup-B
-agb
 Popup-A
+agb
 \\"yuprms\\"
 username
 \\"get\\"
@@ -519,13 +519,13 @@ unsubscribed
 apos
 http://jabber.org/protocol/caps
 name expected
-features
 <<\\"Active Item \\">>
+features
 <!DOCTYPE
 _02
 _01
-http://jabber.org/protocol/disco#items
 _04
+http://jabber.org/protocol/disco#items
 maxValue negative for interactive mode
 _08
 _07
@@ -537,37 +537,37 @@ Cannot registrate
 name
 _11
 _10
-next
 _13
+next
 _12
 _15
 _14
-submit
 hidden
+submit
 _16
 Yes
 show
-Forbidden
 description
+Forbidden
 jabber:x:data
 vcard-temp:x:update
 caps
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
-\\"headline\\"
 An error occurred while executing the task
+\\"headline\\"
 wav
 Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-subscribed
 http://www.w3.org/2000/xmlns/
+subscribed
 Error creating account
 text-private
 item
-Login
 <<\\"<?xml version=\'1.0\' \\">>
+Login
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -576,8 +576,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-combo3-3
 \'
+combo3-3
 combo3-4
 combo3-5
 /icons/lag.png
@@ -588,8 +588,8 @@ muc#roomconfig_allowinvites
 http://bluendo.com/midp#platform
 \\"jabber:iq:register\\"
 muc#roomconfig_roomsecret
-\n
 \\"http://services.bluendo.com/srv/?domain=\\"
+\n
 preprocess.symbols
 \t
 \\"unsubscribe\\"
@@ -606,8 +606,8 @@ Message
 <<\\"Contains d: \\">>
 relaxed
 :\'(
-emo:):(eheh:Obene
 \\"title\\"
+emo:):(eheh:Obene
 invalid distance code
 PI must not start with xml
 album
@@ -686,11 +686,11 @@ complete
 bmp
 auth
 lt
-Logging in...
 text-single
+Logging in...
 urn:xmpp:jingle:0
-\\"presence\\"
 /icons/lab.png
+\\"presence\\"
 UTF-8
 \\"value\\"
 xmldecl-version
@@ -727,8 +727,8 @@ muc#roomconfig_moderatedroom
 X-GOOGLE-TOKEN
 query
 afterG
-_:-1
 muc#roomconfig_whois
+_:-1
 failure
 afterC
 desc
@@ -761,13 +761,13 @@ feature
 get
 combo3
 combo2
-:-/
 combo1
+:-/
 :-@
 Unsupported method
 Lampiro
-oversubscribed dynamic bit lengths tree
 urn:ietf:params:xml:ns:xmpp-session
+oversubscribed dynamic bit lengths tree
 :-S
 data
 Test midlet
@@ -778,8 +778,8 @@ muc#roomconfig_roomdesc
 Feature not implemented
 <<\\"Lampiro \\">>
 send
-*******
 Config Error
+*******
 O:)
 note
 \\"1\\"

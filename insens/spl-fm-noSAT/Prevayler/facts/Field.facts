@@ -27,8 +27,8 @@
 <org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.journal.Journal _journal>	org.prevayler.implementation.publishing.CentralPublisher	_journal	org.prevayler.implementation.journal.Journal
 <org.prevayler.implementation.PrevaylerDirectory: java.lang.String JOURNAL_FILENAME_PATTERN>	org.prevayler.implementation.PrevaylerDirectory	JOURNAL_FILENAME_PATTERN	java.lang.String
 <org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: org.prevayler.foundation.network.ObjectServerSocket _provider>	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	_provider	org.prevayler.foundation.network.ObjectServerSocket
-<org.prevayler.demos.scalability.Main: java.util.Properties properties>	org.prevayler.demos.scalability.Main	properties	java.util.Properties
 <org.prevayler.demos.scalability.ScalabilityTestRun: boolean isRoundFinished>	org.prevayler.demos.scalability.ScalabilityTestRun	isRoundFinished	boolean
+<org.prevayler.demos.scalability.Main: java.util.Properties properties>	org.prevayler.demos.scalability.Main	properties	java.util.Properties
 <org.prevayler.foundation.network.StubbornNetworkProxy: org.prevayler.foundation.network.StubbornNetworkClientConnector _inboundChannel>	org.prevayler.foundation.network.StubbornNetworkProxy	_inboundChannel	org.prevayler.foundation.network.StubbornNetworkClientConnector
 <org.prevayler.demos.demo2.business.AccountEntry: java.util.Date timestamp>	org.prevayler.demos.demo2.business.AccountEntry	timestamp	java.util.Date
 <org.prevayler.demos.scalability.prevayler.TestTransaction: long idToDelete>	org.prevayler.demos.scalability.prevayler.TestTransaction	idToDelete	long
@@ -90,8 +90,8 @@
 <org.prevayler.PrevaylerFactory: int _remoteServerPort>	org.prevayler.PrevaylerFactory	_remoteServerPort	int
 <org.prevayler.foundation.network.StubbornClientReceiverImpl: org.prevayler.foundation.network.ObjectReceiver _client>	org.prevayler.foundation.network.StubbornClientReceiverImpl	_client	org.prevayler.foundation.network.ObjectReceiver
 <org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.clock.PausableClock _pausableClock>	org.prevayler.implementation.publishing.CentralPublisher	_pausableClock	org.prevayler.implementation.clock.PausableClock
-<org.prevayler.foundation.network.NetworkSessionId: long serialVersionUID>	org.prevayler.foundation.network.NetworkSessionId	serialVersionUID	long
 <org.prevayler.foundation.Guided: org.prevayler.foundation.Turn _turn>	org.prevayler.foundation.Guided	_turn	org.prevayler.foundation.Turn
+<org.prevayler.foundation.network.NetworkSessionId: long serialVersionUID>	org.prevayler.foundation.network.NetworkSessionId	serialVersionUID	long
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: org.prevayler.demos.demo2.gui.AllAccountsFrame this$0>	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction	this$0	org.prevayler.demos.demo2.gui.AllAccountsFrame
 <org.prevayler.demos.scalability.prevayler.QuerySystem: java.util.Map recordsByName>	org.prevayler.demos.scalability.prevayler.QuerySystem	recordsByName	java.util.Map
 <org.prevayler.demos.demo2.business.transactions.Deposit: long serialVersionUID>	org.prevayler.demos.demo2.business.transactions.Deposit	serialVersionUID	long
@@ -101,8 +101,8 @@
 <org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.String _primarySuffix>	org.prevayler.implementation.snapshot.GenericSnapshotManager	_primarySuffix	java.lang.String
 <org.prevayler.demos.scalability.ScalabilityTestRun: long ROUND_DURATION_MILLIS>	org.prevayler.demos.scalability.ScalabilityTestRun	ROUND_DURATION_MILLIS	long
 <org.prevayler.demos.demo2.business.transactions.HolderChange: java.lang.String _newHolder>	org.prevayler.demos.demo2.business.transactions.HolderChange	_newHolder	java.lang.String
-<org.prevayler.implementation.replication.ClientPublisher: org.prevayler.implementation.Capsule _myCapsule>	org.prevayler.implementation.replication.ClientPublisher	_myCapsule	org.prevayler.implementation.Capsule
 <org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JList accountList>	org.prevayler.demos.demo2.gui.AllAccountsFrame	accountList	javax.swing.JList
+<org.prevayler.implementation.replication.ClientPublisher: org.prevayler.implementation.Capsule _myCapsule>	org.prevayler.implementation.replication.ClientPublisher	_myCapsule	org.prevayler.implementation.Capsule
 <org.prevayler.foundation.DurableInputStream: boolean _EOF>	org.prevayler.foundation.DurableInputStream	_EOF	boolean
 <org.prevayler.foundation.DeepCopier$Receiver: java.lang.RuntimeException _runtimeException>	org.prevayler.foundation.DeepCopier$Receiver	_runtimeException	java.lang.RuntimeException
 <org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: org.prevayler.demos.demo2.gui.AccountEditFrame this$0>	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction	this$0	org.prevayler.demos.demo2.gui.AccountEditFrame
@@ -146,8 +146,8 @@
 <org.prevayler.implementation.journal.PersistentJournal: org.prevayler.foundation.monitor.Monitor _monitor>	org.prevayler.implementation.journal.PersistentJournal	_monitor	org.prevayler.foundation.monitor.Monitor
 <org.prevayler.foundation.Chunking: java.util.regex.Pattern TOKEN_PATTERN>	org.prevayler.foundation.Chunking	TOKEN_PATTERN	java.util.regex.Pattern
 <org.prevayler.implementation.journal.PersistentJournal: java.lang.String _journalSuffix>	org.prevayler.implementation.journal.PersistentJournal	_journalSuffix	java.lang.String
-<org.prevayler.foundation.Chunking: java.lang.String ASCII>	org.prevayler.foundation.Chunking	ASCII	java.lang.String
 <org.prevayler.demos.scalability.ScalabilityTestRun: long lastOperation>	org.prevayler.demos.scalability.ScalabilityTestRun	lastOperation	long
+<org.prevayler.foundation.Chunking: java.lang.String ASCII>	org.prevayler.foundation.Chunking	ASCII	java.lang.String
 <org.prevayler.PrevaylerFactory: java.lang.String _primarySnapshotSuffix>	org.prevayler.PrevaylerFactory	_primarySnapshotSuffix	java.lang.String
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1: org.prevayler.foundation.network.NetworkClientObjectReceiverImpl this$0>	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1	this$0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl
 <org.prevayler.implementation.publishing.CentralPublisher: int _pendingPublications>	org.prevayler.implementation.publishing.CentralPublisher	_pendingPublications	int
@@ -170,9 +170,9 @@
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: java.io.OutputStream _stream>	org.prevayler.foundation.gzip.NonCloseableOutputStream	_stream	java.io.OutputStream
 <org.prevayler.demos.demo2.business.Account$InvalidAmount: long serialVersionUID>	org.prevayler.demos.demo2.business.Account$InvalidAmount	serialVersionUID	long
 <java.lang.System: java.io.InputStream in>	java.lang.System	in	java.io.InputStream
-<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.journal.PersistentJournal	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.foundation.network.StubbornClientReceiverImpl: org.prevayler.foundation.network.StubbornNetwork _stubbornNetwork>	org.prevayler.foundation.network.StubbornClientReceiverImpl	_stubbornNetwork	org.prevayler.foundation.network.StubbornNetwork
 <org.prevayler.demos.demo1.NumberKeeper: long serialVersionUID>	org.prevayler.demos.demo1.NumberKeeper	serialVersionUID	long
+<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.journal.PersistentJournal	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.demos.demo2.business.Bank$1: org.prevayler.demos.demo2.business.Bank this$0>	org.prevayler.demos.demo2.business.Bank$1	this$0	org.prevayler.demos.demo2.business.Bank
 <org.prevayler.demos.demo2.business.transactions.Deposit: long _amount>	org.prevayler.demos.demo2.business.transactions.Deposit	_amount	long
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: long serialVersionUID>	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction	serialVersionUID	long
@@ -216,8 +216,8 @@
 <org.prevayler.foundation.DurableOutputStream: java.io.File _file>	org.prevayler.foundation.DurableOutputStream	_file	java.io.File
 <org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.lang.String user>	org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject	user	java.lang.String
 <org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.String _journalDirectory>	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject	_journalDirectory	java.lang.String
-<org.prevayler.foundation.DurableOutputStream: java.io.ByteArrayOutputStream _active>	org.prevayler.foundation.DurableOutputStream	_active	java.io.ByteArrayOutputStream
 <org.prevayler.demos.demo2.business.Account: java.util.Set listeners>	org.prevayler.demos.demo2.business.Account	listeners	java.util.Set
+<org.prevayler.foundation.DurableOutputStream: java.io.ByteArrayOutputStream _active>	org.prevayler.foundation.DurableOutputStream	_active	java.io.ByteArrayOutputStream
 <org.prevayler.foundation.network.StubbornNetworkImpl: java.util.Map _sessionsInService>	org.prevayler.foundation.network.StubbornNetworkImpl	_sessionsInService	java.util.Map
 <org.prevayler.demos.demo2.business.transactions.Withdrawal: long _amount>	org.prevayler.demos.demo2.business.transactions.Withdrawal	_amount	long
 <org.prevayler.foundation.DurableOutputStream: java.io.FileDescriptor _fileDescriptor>	org.prevayler.foundation.DurableOutputStream	_fileDescriptor	java.io.FileDescriptor
@@ -232,8 +232,8 @@
 <org.prevayler.foundation.DurableInputStream: java.io.File _file>	org.prevayler.foundation.DurableInputStream	_file	java.io.File
 <org.prevayler.implementation.replication.ServerConnection: java.lang.String REMOTE_TRANSACTION>	org.prevayler.implementation.replication.ServerConnection	REMOTE_TRANSACTION	java.lang.String
 <org.prevayler.demos.scalability.TransactionTestRun: int halfTheObjects>	org.prevayler.demos.scalability.TransactionTestRun	halfTheObjects	int
-<org.prevayler.demos.demo2.gui.MatchFrame: javax.swing.JButton refreshButton>	org.prevayler.demos.demo2.gui.MatchFrame	refreshButton	javax.swing.JButton
 <org.prevayler.foundation.Chunk: byte[] _bytes>	org.prevayler.foundation.Chunk	_bytes	byte[]
+<org.prevayler.demos.demo2.gui.MatchFrame: javax.swing.JButton refreshButton>	org.prevayler.demos.demo2.gui.MatchFrame	refreshButton	javax.swing.JButton
 <org.prevayler.demos.demo2.business.transactions.AccountDeletion: long _accountNumber>	org.prevayler.demos.demo2.business.transactions.AccountDeletion	_accountNumber	long
 <org.prevayler.demos.demo2.gui.AccountFrame: javax.swing.JTextField holderField>	org.prevayler.demos.demo2.gui.AccountFrame	holderField	javax.swing.JTextField
 <org.prevayler.foundation.network.StubbornServerReceiverImpl: boolean _isOpen>	org.prevayler.foundation.network.StubbornServerReceiverImpl	_isOpen	boolean
@@ -242,8 +242,8 @@
 <org.prevayler.demos.demo2.business.Bank: java.util.Map accountsByNumber>	org.prevayler.demos.demo2.business.Bank	accountsByNumber	java.util.Map
 <org.prevayler.demos.demo2.business.transactions.Transfer: long _originAccountNumber>	org.prevayler.demos.demo2.business.transactions.Transfer	_originAccountNumber	long
 <org.prevayler.implementation.publishing.CentralPublisher: long _nextTransaction>	org.prevayler.implementation.publishing.CentralPublisher	_nextTransaction	long
-<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: org.prevayler.demos.demo2.gui.NewAccountFrame this$0>	org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction	this$0	org.prevayler.demos.demo2.gui.NewAccountFrame
 <org.prevayler.demos.demo2.business.transactions.Transfer: long serialVersionUID>	org.prevayler.demos.demo2.business.transactions.Transfer	serialVersionUID	long
+<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: org.prevayler.demos.demo2.gui.NewAccountFrame this$0>	org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction	this$0	org.prevayler.demos.demo2.gui.NewAccountFrame
 <org.prevayler.implementation.journal.TransientJournal: boolean _initialTransactionInitialized>	org.prevayler.implementation.journal.TransientJournal	_initialTransactionInitialized	boolean
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: org.prevayler.demos.demo2.gui.AllAccountsFrame this$0>	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation	this$0	org.prevayler.demos.demo2.gui.AllAccountsFrame
 <org.prevayler.demos.scalability.Record: long id>	org.prevayler.demos.scalability.Record	id	long

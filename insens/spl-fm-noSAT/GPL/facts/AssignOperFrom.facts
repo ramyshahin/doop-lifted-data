@@ -1,17 +1,17 @@
 <Graph: Graph kruskal()>/assign/instruction140	1	<Graph: Graph kruskal()>/i_$$A_1#_498	@MSTKruskal
 <RegionWorkSpace: void nextRegionAction(Vertex)>/assign/instruction4	1	<RegionWorkSpace: void nextRegionAction(Vertex)>/$i0	@(Connected) /\ (Connected)
-<Graph: void stopProfile()>/assign/instruction7	2	<Graph: void stopProfile()>/$l3	@(Benchmark) /\ (Benchmark)
 <Main: void main(java.lang.String[])>/assign/instruction63	1	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52	@(Prog) /\ (Prog)
-<Graph: void endProfile()>/assign/instruction6	1	<Graph: void endProfile()>/$l2	@(Benchmark) /\ (Benchmark)
+<Graph: void stopProfile()>/assign/instruction7	2	<Graph: void stopProfile()>/$l3	@(Benchmark) /\ (Benchmark)
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/$i0	@(StronglyConnected) /\ (StronglyConnected)
+<Graph: void endProfile()>/assign/instruction6	1	<Graph: void endProfile()>/$l2	@(Benchmark) /\ (Benchmark)
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<CycleWorkSpace: void preVisitAction(Vertex)>/$i0	@Cycle
-<Graph: void endProfile()>/assign/instruction7	1	<Graph: void endProfile()>/$l4	@(Benchmark) /\ (Benchmark)
 <Main: void main(java.lang.String[])>/assign/instruction82	1	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_7#_68	@(Prog) /\ (Prog)
+<Graph: void endProfile()>/assign/instruction7	1	<Graph: void endProfile()>/$l4	@(Benchmark) /\ (Benchmark)
 <FinishTimeWorkSpace: void postVisitAction(Vertex)>/assign/instruction4	1	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/$i0	@(StronglyConnected) /\ (StronglyConnected)
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction16	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i2	@Cycle /\ Undirected
 <Graph: void stopProfile()>/assign/instruction6	2	<Graph: void stopProfile()>/$l1	@(Benchmark) /\ (Benchmark)
-<Graph: void endProfile()>/assign/instruction7	2	<Graph: void endProfile()>/$l3	@(Benchmark) /\ (Benchmark)
 <NumberWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<NumberWorkSpace: void preVisitAction(Vertex)>/$i0	@Number
+<Graph: void endProfile()>/assign/instruction7	2	<Graph: void endProfile()>/$l3	@(Benchmark) /\ (Benchmark)
 <Graph: void endProfile()>/assign/instruction6	2	<Graph: void endProfile()>/$l1	@(Benchmark) /\ (Benchmark)
 <Graph: Graph prim(Vertex)>/assign/instruction86	1	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	@MSTPrim
 <Graph: Graph kruskal()>/assign/instruction78	1	<Graph: Graph kruskal()>/j_$$A_5#_461	@MSTKruskal

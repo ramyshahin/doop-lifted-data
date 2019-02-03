@@ -24,8 +24,8 @@ Starting SMSReceiver::run()	Starting SMSReceiver::run()	@(x_SMSOrCapturePhotoOrC
 Error:	Error:
 <java.lang.Throwable: void printStackTrace()>	<java.lang.Throwable: void printStackTrace()>
 main.class	main.class
-<javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>	<javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>
+<javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>	<javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>
 <java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <java.io.IOException: void printStackTrace()>	<java.io.IOException: void printStackTrace()>
 <javax.microedition.lcdui.List: int getSelectedIndex()>	<javax.microedition.lcdui.List: int getSelectedIndex()>
@@ -86,8 +86,8 @@ AddPhotoToAlbum	AddPhotoToAlbum
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>	<lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>	@x_MusicOrVideo
 <lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor: void addVideoData(java.lang.String,java.lang.String,byte[])>	<lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor: void addVideoData(java.lang.String,java.lang.String,byte[])>	@x_MusicOrVideo
 <javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>	<javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>
-<lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>
 Sorting by BubbleSort...	Sorting by BubbleSort...	@(Media) /\ (Media)
+<lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>
 <lancs.mobilemedia.core.ui.datamodel.MediaData: int getNumberOfViews()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: int getNumberOfViews()>	@Media
 <<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>	<<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
 Add Password	Add Password	@NewCompound1
@@ -256,8 +256,8 @@ Copy Media to Album	Copy Media to Album	@(x_MusicOrVideo) /\ (x_MusicOrVideo /\ 
 Error Incoming Photo	Error Incoming Photo	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <javax.microedition.media.control.VideoControl: void setVisible(boolean)>	<javax.microedition.media.control.VideoControl: void setVisible(boolean)>
 Photos	Photos	@(MobilMedia) /\ (includeMMAPI /\ MobilMedia)
-<javax.microedition.media.control.VideoControl: void setDisplayFullScreen(boolean)>	<javax.microedition.media.control.VideoControl: void setDisplayFullScreen(boolean)>
 The provided data are not valid	The provided data are not valid	@(Photo) /\ (Photo)
+<javax.microedition.media.control.VideoControl: void setDisplayFullScreen(boolean)>	<javax.microedition.media.control.VideoControl: void setDisplayFullScreen(boolean)>
 <lancs.mobilemedia.core.ui.controller.BaseController: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,lancs.mobilemedia.core.ui.datamodel.AlbumData,lancs.mobilemedia.core.ui.screens.AlbumListScreen)>	<lancs.mobilemedia.core.ui.controller.BaseController: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,lancs.mobilemedia.core.ui.datamodel.AlbumData,lancs.mobilemedia.core.ui.screens.AlbumListScreen)>
 <lancs.mobilemedia.core.ui.screens.PhotoViewScreen: void <clinit>()>	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: void <clinit>()>
 <lancs.mobilemedia.core.ui.datamodel.MediaData: void setTypeMedia(java.lang.String)>	<lancs.mobilemedia.core.ui.datamodel.MediaData: void setTypeMedia(java.lang.String)>	@Photo
@@ -704,8 +704,8 @@ Reject Photo	Reject Photo	@x_SMSOrCapturePhotoOrCaptureVideo
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void resetRecordStore()>	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void resetRecordStore()>
 <lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException: void <init>(java.lang.Throwable)>	<lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException: void <init>(java.lang.Throwable)>
 <javax.microedition.media.control.RecordControl: void stopRecord()>	<javax.microedition.media.control.RecordControl: void stopRecord()>
-ImageListScreen	ImageListScreen	@NewCompound1
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData[] loadMediaDataFromRMS(java.lang.String)>	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData[] loadMediaDataFromRMS(java.lang.String)>
+ImageListScreen	ImageListScreen	@NewCompound1
 <lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	<lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	@Photo
 <lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>	<lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>
 <lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getTypeMedia()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getTypeMedia()>	@Photo

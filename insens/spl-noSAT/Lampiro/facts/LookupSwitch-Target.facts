@@ -8,8 +8,8 @@
 <it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	38	21
 <it.yup.xmlstream.KXmlParser: void parseDoctype(boolean)>/switch/instruction15	39	19
 <it.yup.xml.KXmlParser: void parseDoctype(boolean)>/switch/instruction15	60	27
-<it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	10	10
 <it.yup.ui.UITextPanel: boolean keyPressed(int)>/switch/instruction11	6	12
+<it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	10	10
 <it.yup.xml.KXmlParser: int peekType()>/switch/instruction11	63	14
 <it.yup.xml.KXmlParser: int peekType()>/switch/instruction4	60	9
 <it.yup.xmlstream.KXmlParser: void parseDoctype(boolean)>/switch/instruction15	62	30
@@ -22,8 +22,8 @@
 <it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	39	30
 <it.yup.ui.UIScreen: void keyRepeated(int)>/switch/instruction5	6	6
 <it.yup.xml.KXmlProcessor: it.yup.xml.Element _parse(org.xmlpull.v1.XmlPullParser)>/switch/instruction38	3	42
-<lampiro.screens.RosterScreen$UIGroup: boolean keyPressed(int)>/switch/instruction64	6	85
 <it.yup.xmpp.CommandExecutor: boolean execute(int)>/switch/instruction7	16	52
+<lampiro.screens.RosterScreen$UIGroup: boolean keyPressed(int)>/switch/instruction64	6	85
 <it.yup.xml.KXmlSerializer: void writeEscaped(java.lang.String,int)>/switch/instruction7	60	29
 <it.yup.xml.KXmlParser: void parseDoctype(boolean)>/switch/instruction15	39	19
 <it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	62	24
@@ -41,12 +41,12 @@
 <it.yup.xmlstream.KXmlParser: int peekType()>/switch/instruction4	-1	5
 <it.yup.xmlstream.KXmlParser: int peekType()>/switch/instruction11	33	14
 <it.yup.xml.KXmlSerializer: void writeEscaped(java.lang.String,int)>/switch/instruction7	10	8
-<it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	9	10
 <it.yup.ui.UIPanel: boolean keyPressed(int)>/switch/instruction26	1	187
-<it.yup.xmlstream.KXmlSerializer: void writeEscaped(java.lang.String,int)>/switch/instruction7	34	33
+<it.yup.xml.Element: java.lang.String writeEscaped(java.lang.String,int)>/switch/instruction9	9	10
 <it.yup.xmlstream.Element: void _parse(org.xmlpull.v1.XmlPullParser)>/switch/instruction30	9	40
-<it.yup.xmlstream.KXmlParser: int peekType()>/switch/instruction4	60	9
+<it.yup.xmlstream.KXmlSerializer: void writeEscaped(java.lang.String,int)>/switch/instruction7	34	33
 <it.yup.ui.UIScreen: boolean keyPressed(int)>/switch/instruction225	6	287
+<it.yup.xmlstream.KXmlParser: int peekType()>/switch/instruction4	60	9
 <it.yup.xmlstream.KXmlSerializer: void writeEscaped(java.lang.String,int)>/switch/instruction7	62	25
 <it.yup.xmpp.CommandExecutor: boolean execute(int)>/switch/instruction7	8	8
 <it.yup.xmpp.SimpleDataFormExecutor: boolean execute(int)>/switch/instruction5	32	21

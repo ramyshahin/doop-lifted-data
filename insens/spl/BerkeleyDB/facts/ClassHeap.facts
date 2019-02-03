@@ -24,8 +24,8 @@
 <class com.sleepycat.je.Sequence>	com.sleepycat.je.Sequence
 <class com.sleepycat.je.tree.Tree$RootChildReference>	com.sleepycat.je.tree.Tree$RootChildReference
 <class com.sleepycat.je.PreloadConfig>	com.sleepycat.je.PreloadConfig
-<class com.sleepycat.je.dbi.DbEnvState>	com.sleepycat.je.dbi.DbEnvState
 <class com.sleepycat.je.tree.TrackingInfo>	com.sleepycat.je.tree.TrackingInfo
+<class com.sleepycat.je.dbi.DbEnvState>	com.sleepycat.je.dbi.DbEnvState
 <class com.sleepycat.je.log.FileReader>	com.sleepycat.je.log.FileReader
 <class com.sleepycat.je.log.FSyncManager>	com.sleepycat.je.log.FSyncManager
 <class com.sleepycat.je.tree.IN>	com.sleepycat.je.tree.IN
@@ -260,8 +260,8 @@
 <class com.sleepycat.je.txn.LockManager$LockAttemptResult>	com.sleepycat.je.txn.LockManager$LockAttemptResult
 <class com.sleepycat.je.log.JEFileFilter>	com.sleepycat.je.log.JEFileFilter
 <class com.sleepycat.je.latch.SharedLatchImpl$Owner>	com.sleepycat.je.latch.SharedLatchImpl$Owner
-<class com.sleepycat.je.latch.LatchImpl$LatchWaiter>	com.sleepycat.je.latch.LatchImpl$LatchWaiter
 <class com.sleepycat.je.dbi.DbTree$RootLevel>	com.sleepycat.je.dbi.DbTree$RootLevel
+<class com.sleepycat.je.latch.LatchImpl$LatchWaiter>	com.sleepycat.je.latch.LatchImpl$LatchWaiter
 <class com.sleepycat.je.log.entry.LogEntry>	com.sleepycat.je.log.entry.LogEntry
 <class com.sleepycat.je.log.LastFileReader>	com.sleepycat.je.log.LastFileReader
 <class com.sleepycat.je.DatabaseEntry>	com.sleepycat.je.DatabaseEntry

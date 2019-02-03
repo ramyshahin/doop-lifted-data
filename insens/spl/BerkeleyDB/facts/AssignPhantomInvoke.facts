@@ -80,8 +80,8 @@
 <com.sleepycat.je.cleaner.FileProcessor: void <clinit>()>/assign/instruction2	2	<com.sleepycat.je.cleaner.FileProcessor: void <clinit>()>	@Cleaner
 <com.sleepycat.je.utilint.DbScavenger: void dump()>/assign/instruction47	47	<com.sleepycat.je.utilint.DbScavenger: void dump()>
 <com.sleepycat.je.cleaner.FileSelector: com.sleepycat.je.cleaner.LNInfo[] getPendingLNs()>/assign/instruction9	9	<com.sleepycat.je.cleaner.FileSelector: com.sleepycat.je.cleaner.LNInfo[] getPendingLNs()>	@Cleaner
-<com.sleepycat.je.config.ShortConfigParam: void validate(java.lang.Short)>/assign/instruction23	23	<com.sleepycat.je.config.ShortConfigParam: void validate(java.lang.Short)>
 <com.sleepycat.je.recovery.RecoveryManager$TxnNodeId: java.lang.String toString()>/assign/instruction6	6	<com.sleepycat.je.recovery.RecoveryManager$TxnNodeId: java.lang.String toString()>
+<com.sleepycat.je.config.ShortConfigParam: void validate(java.lang.Short)>/assign/instruction23	23	<com.sleepycat.je.config.ShortConfigParam: void validate(java.lang.Short)>
 <com.sleepycat.je.latch.Java5LatchImpl: boolean doRelease(boolean)>/assign/instruction4	4	<com.sleepycat.je.latch.Java5LatchImpl: boolean doRelease(boolean)>	@(Latches) /\ (Latches)
 <com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getCheapestFileToClean(java.util.SortedSet)>/assign/instruction19	19	<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getCheapestFileToClean(java.util.SortedSet)>	@Cleaner
 <com.sleepycat.je.cleaner.FileProcessor: int doClean(boolean,boolean,boolean)>/assign/instruction204	204	<com.sleepycat.je.cleaner.FileProcessor: int doClean(boolean,boolean,boolean)>	@Cleaner /\ Statistics
@@ -168,8 +168,8 @@
 <com.sleepycat.je.cleaner.VerifyUtils: void checkLsns(com.sleepycat.je.Database)>/assign/instruction74	74	<com.sleepycat.je.cleaner.VerifyUtils: void checkLsns(com.sleepycat.je.Database)>	@Verifier
 <com.sleepycat.je.latch.Java5SharedLatchImpl: void <clinit>()>/assign/instruction2	2	<com.sleepycat.je.latch.Java5SharedLatchImpl: void <clinit>()>	@Latches
 <com.sleepycat.je.utilint.DbLsn: java.lang.String getNoFormatString(long)>/assign/instruction7	7	<com.sleepycat.je.utilint.DbLsn: java.lang.String getNoFormatString(long)>
-<com.sleepycat.je.log.StatsFileReader: void summarize()>/assign/instruction86	86	<com.sleepycat.je.log.StatsFileReader: void summarize()>
 <com.sleepycat.je.tree.IN: void readFromLog(java.nio.ByteBuffer,byte)>/assign/instruction110	110	<com.sleepycat.je.tree.IN: void readFromLog(java.nio.ByteBuffer,byte)>	@Latches
+<com.sleepycat.je.log.StatsFileReader: void summarize()>/assign/instruction86	86	<com.sleepycat.je.log.StatsFileReader: void summarize()>
 <com.sleepycat.je.latch.LatchTable: java.lang.String latchesHeldToString()>/assign/instruction4	4	<com.sleepycat.je.latch.LatchTable: java.lang.String latchesHeldToString()>	@Latches
 <com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>/assign/instruction156	156	<com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>	@Logging_Evictor /\ Evictor /\ Logging_Base
 <com.sleepycat.je.tree.FileSummaryLN: byte[] makePartialKey(long)>/assign/instruction3	3	<com.sleepycat.je.tree.FileSummaryLN: byte[] makePartialKey(long)>	@Cleaner
@@ -430,8 +430,8 @@
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction194	194	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>/assign/instruction28	28	<com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>	@Cleaner
 <com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>/assign/instruction71	71	<com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>	@Latches
-<com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>/assign/instruction3	3	<com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>	@(Latches) /\ (Latches)
 <com.sleepycat.je.txn.LockManager: boolean isLockedInternal(java.lang.Long,int)>/assign/instruction6	6	<com.sleepycat.je.txn.LockManager: boolean isLockedInternal(java.lang.Long,int)>
+<com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>/assign/instruction3	3	<com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>	@(Latches) /\ (Latches)
 <com.sleepycat.je.recovery.RecoveryManager: void buildTree()>/assign/instruction231	231	<com.sleepycat.je.recovery.RecoveryManager: void buildTree()>	@Logging_Config
 <com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>/assign/instruction20	20	<com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>
 <com.sleepycat.je.log.DumpFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,long,long,java.lang.String,java.lang.String,boolean)>/assign/instruction22	22	<com.sleepycat.je.log.DumpFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,long,long,java.lang.String,java.lang.String,boolean)>
@@ -865,8 +865,8 @@
 <com.sleepycat.je.DatabaseEntry: java.lang.String toString()>/assign/instruction6	6	<com.sleepycat.je.DatabaseEntry: java.lang.String toString()>
 <com.sleepycat.je.txn.Txn: void undo()>/assign/instruction77	77	<com.sleepycat.je.txn.Txn: void undo()>	@Transactions
 <com.sleepycat.je.EnvironmentConfig: long getLockTimeout()>/assign/instruction5	5	<com.sleepycat.je.EnvironmentConfig: long getLockTimeout()>
-<com.sleepycat.je.utilint.BitMap: java.util.BitSet getBitSet(long,boolean)>/assign/instruction9	9	<com.sleepycat.je.utilint.BitMap: java.util.BitSet getBitSet(long,boolean)>
 <com.sleepycat.je.txn.LockManager: java.lang.StringBuffer findDeadlock1(java.util.Set,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker)>/assign/instruction54	54	<com.sleepycat.je.txn.LockManager: java.lang.StringBuffer findDeadlock1(java.util.Set,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker)>
+<com.sleepycat.je.utilint.BitMap: java.util.BitSet getBitSet(long,boolean)>/assign/instruction9	9	<com.sleepycat.je.utilint.BitMap: java.util.BitSet getBitSet(long,boolean)>
 <com.sleepycat.je.log.PrintFileReader: boolean processEntry(java.nio.ByteBuffer)>/assign/instruction31	31	<com.sleepycat.je.log.PrintFileReader: boolean processEntry(java.nio.ByteBuffer)>
 <com.sleepycat.je.log.LogBufferPool: void <init>(com.sleepycat.je.log.FileManager,com.sleepycat.je.dbi.EnvironmentImpl)>/assign/instruction15	15	<com.sleepycat.je.log.LogBufferPool: void <init>(com.sleepycat.je.log.FileManager,com.sleepycat.je.dbi.EnvironmentImpl)>	@Latches
 <com.sleepycat.je.txn.BasicLocker: void operationEnd(boolean)>/assign/instruction15	15	<com.sleepycat.je.txn.BasicLocker: void operationEnd(boolean)>
@@ -1127,8 +1127,8 @@
 <com.sleepycat.je.tree.DBINReference: java.lang.String toString()>/assign/instruction11	11	<com.sleepycat.je.tree.DBINReference: java.lang.String toString()>
 <com.sleepycat.je.log.FileReader: java.nio.ByteBuffer readData(int,boolean)>/assign/instruction11	11	<com.sleepycat.je.log.FileReader: java.nio.ByteBuffer readData(int,boolean)>
 <com.sleepycat.je.latch.Java5SharedLatchImpl: void acquireExclusive()>/assign/instruction9	9	<com.sleepycat.je.latch.Java5SharedLatchImpl: void acquireExclusive()>	@(Latches) /\ (Latches)
-<com.sleepycat.je.log.LogManager: com.sleepycat.je.log.LogManager$LogResult logInternal(com.sleepycat.je.log.LoggableObject,boolean,boolean,boolean,long,boolean,java.nio.ByteBuffer,com.sleepycat.je.cleaner.UtilizationTracker)>/assign/instruction50	50	<com.sleepycat.je.log.LogManager: com.sleepycat.je.log.LogManager$LogResult logInternal(com.sleepycat.je.log.LoggableObject,boolean,boolean,boolean,long,boolean,java.nio.ByteBuffer,com.sleepycat.je.cleaner.UtilizationTracker)>
 <com.sleepycat.je.txn.LockManager: java.lang.StringBuffer findDeadlock1(java.util.Set,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker)>/assign/instruction25	25	<com.sleepycat.je.txn.LockManager: java.lang.StringBuffer findDeadlock1(java.util.Set,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker)>
+<com.sleepycat.je.log.LogManager: com.sleepycat.je.log.LogManager$LogResult logInternal(com.sleepycat.je.log.LoggableObject,boolean,boolean,boolean,long,boolean,java.nio.ByteBuffer,com.sleepycat.je.cleaner.UtilizationTracker)>/assign/instruction50	50	<com.sleepycat.je.log.LogManager: com.sleepycat.je.log.LogManager$LogResult logInternal(com.sleepycat.je.log.LoggableObject,boolean,boolean,boolean,long,boolean,java.nio.ByteBuffer,com.sleepycat.je.cleaner.UtilizationTracker)>
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction262	262	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.recovery.RecoveryInfo: java.lang.String toString()>/assign/instruction25	25	<com.sleepycat.je.recovery.RecoveryInfo: java.lang.String toString()>
 <com.sleepycat.je.log.INFileReader: boolean isTargetEntry(byte,byte)>/assign/instruction54	54	<com.sleepycat.je.log.INFileReader: boolean isTargetEntry(byte,byte)>
@@ -1141,8 +1141,8 @@
 <com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/assign/instruction367	367	<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>
 <com.sleepycat.je.log.FileManager: void renameFile(long,java.lang.String)>/assign/instruction21	21	<com.sleepycat.je.log.FileManager: void renameFile(long,java.lang.String)>
 <com.sleepycat.je.latch.LatchStats: java.lang.String toString()>/assign/instruction12	12	<com.sleepycat.je.latch.LatchStats: java.lang.String toString()>	@(Statistics /\ Latches) /\ (Statistics /\ Latches)
-<com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>/assign/instruction18	18	<com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>
 <com.sleepycat.je.cleaner.Cleaner: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>/assign/instruction110	110	<com.sleepycat.je.cleaner.Cleaner: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>	@Cleaner
+<com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>/assign/instruction18	18	<com.sleepycat.je.config.BooleanConfigParam: void validateValue(java.lang.String)>
 <com.sleepycat.je.incomp.INCompressor: void addMultipleBinRefsToQueue(java.util.Collection,boolean)>/assign/instruction7	7	<com.sleepycat.je.incomp.INCompressor: void addMultipleBinRefsToQueue(java.util.Collection,boolean)>	@INCompressor
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction72	72	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getBestFileForCleaning(com.sleepycat.je.cleaner.FileSelector,boolean,java.util.Set)>/assign/instruction30	30	<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getBestFileForCleaning(com.sleepycat.je.cleaner.FileSelector,boolean,java.util.Set)>	@Cleaner
@@ -1321,8 +1321,8 @@
 <com.sleepycat.je.txn.TxnManager: com.sleepycat.je.Transaction unsetTxnForThread()>/assign/instruction2	2	<com.sleepycat.je.txn.TxnManager: com.sleepycat.je.Transaction unsetTxnForThread()>	@Transactions
 <com.sleepycat.je.recovery.RecoveryInfo: java.lang.String toString()>/assign/instruction66	66	<com.sleepycat.je.recovery.RecoveryInfo: java.lang.String toString()>
 <com.sleepycat.je.latch.LatchTable: java.lang.String latchesHeldToString()>/assign/instruction10	10	<com.sleepycat.je.latch.LatchTable: java.lang.String latchesHeldToString()>	@Latches
-<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>/assign/instruction24	24	<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>
 <com.sleepycat.je.DatabaseUtil: void checkForNullDbt(com.sleepycat.je.DatabaseEntry,java.lang.String,boolean)>/assign/instruction10	10	<com.sleepycat.je.DatabaseUtil: void checkForNullDbt(com.sleepycat.je.DatabaseEntry,java.lang.String,boolean)>
+<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>/assign/instruction24	24	<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>
 <com.sleepycat.je.recovery.CheckpointEnd: java.lang.String toString()>/assign/instruction37	37	<com.sleepycat.je.recovery.CheckpointEnd: java.lang.String toString()>
 <com.sleepycat.je.log.FileManager: boolean checkEnvHomePermissions(boolean)>/assign/instruction20	20	<com.sleepycat.je.log.FileManager: boolean checkEnvHomePermissions(boolean)>
 <com.sleepycat.je.log.LogManager: java.nio.ByteBuffer marshallIntoBuffer(com.sleepycat.je.log.LoggableObject,int,boolean,int)>/assign/instruction6	6	<com.sleepycat.je.log.LogManager: java.nio.ByteBuffer marshallIntoBuffer(com.sleepycat.je.log.LoggableObject,int,boolean,int)>
@@ -1737,8 +1737,8 @@
 <com.sleepycat.je.recovery.CheckpointStart: void <init>(long,java.lang.String)>/assign/instruction8	8	<com.sleepycat.je.recovery.CheckpointStart: void <init>(long,java.lang.String)>
 <com.sleepycat.je.log.StatsFileReader: void summarize()>/assign/instruction64	64	<com.sleepycat.je.log.StatsFileReader: void summarize()>
 <com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>/assign/instruction43	43	<com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>
-<com.sleepycat.je.tree.Key: java.lang.String getNoFormatString(byte[])>/assign/instruction8	8	<com.sleepycat.je.tree.Key: java.lang.String getNoFormatString(byte[])>
 <com.sleepycat.je.log.LogUtils: int readIntMSB(java.nio.ByteBuffer)>/assign/instruction2	2	<com.sleepycat.je.log.LogUtils: int readIntMSB(java.nio.ByteBuffer)>
+<com.sleepycat.je.tree.Key: java.lang.String getNoFormatString(byte[])>/assign/instruction8	8	<com.sleepycat.je.tree.Key: java.lang.String getNoFormatString(byte[])>
 <com.sleepycat.je.tree.IN: int insertEntry1(com.sleepycat.je.tree.ChildReference)>/assign/instruction60	60	<com.sleepycat.je.tree.IN: int insertEntry1(com.sleepycat.je.tree.ChildReference)>
 <com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/assign/instruction332	332	<com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>
 <com.sleepycat.je.tree.ChildReference: java.lang.String dumpString(int,boolean)>/assign/instruction56	56	<com.sleepycat.je.tree.ChildReference: java.lang.String dumpString(int,boolean)>
@@ -1914,8 +1914,8 @@
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction50	50	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction259	259	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.txn.Txn: void setHandleLockOwner(boolean,com.sleepycat.je.Database,boolean)>/assign/instruction11	11	<com.sleepycat.je.txn.Txn: void setHandleLockOwner(boolean,com.sleepycat.je.Database,boolean)>	@Transactions
-<com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>/assign/instruction35	35	<com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>
 <com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.DbTree$NameLockResult lockNameLN(com.sleepycat.je.txn.Locker,java.lang.String,java.lang.String)>/assign/instruction21	21	<com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.DbTree$NameLockResult lockNameLN(com.sleepycat.je.txn.Locker,java.lang.String,java.lang.String)>
+<com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>/assign/instruction35	35	<com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>
 <com.sleepycat.je.log.LogUtils: long readLong(java.nio.ByteBuffer)>/assign/instruction16	16	<com.sleepycat.je.log.LogUtils: long readLong(java.nio.ByteBuffer)>
 <com.sleepycat.je.util.DbLoad: void loadConfigLine(java.lang.String)>/assign/instruction27	27	<com.sleepycat.je.util.DbLoad: void loadConfigLine(java.lang.String)>
 <com.sleepycat.je.config.ShortConfigParam: void validateValue(java.lang.String)>/assign/instruction12	12	<com.sleepycat.je.config.ShortConfigParam: void validateValue(java.lang.String)>
@@ -2026,14 +2026,14 @@
 <com.sleepycat.je.txn.Txn: long commit(byte)>/assign/instruction68	68	<com.sleepycat.je.txn.Txn: long commit(byte)>	@(Transactions) /\ (Transactions)
 <com.sleepycat.je.recovery.RecoveryManager: void buildTree()>/assign/instruction74	74	<com.sleepycat.je.recovery.RecoveryManager: void buildTree()>	@Logging_Config
 <com.sleepycat.je.cleaner.FileSelector: boolean isFileCleaningInProgress(java.lang.Long)>/assign/instruction16	16	<com.sleepycat.je.cleaner.FileSelector: boolean isFileCleaningInProgress(java.lang.Long)>	@(Cleaner) /\ (Cleaner)
-<com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>/assign/instruction22	22	<com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>
 <com.sleepycat.je.recovery.CheckpointEnd: void <init>(java.lang.String,long,long,long,long,int,long,long)>/assign/instruction18	18	<com.sleepycat.je.recovery.CheckpointEnd: void <init>(java.lang.String,long,long,long,long,int,long,long)>
+<com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>/assign/instruction22	22	<com.sleepycat.je.tree.Tree: void validateINList(com.sleepycat.je.tree.IN)>
 <com.sleepycat.je.util.DbSpace: void print(java.io.PrintStream)>/assign/instruction14	14	<com.sleepycat.je.util.DbSpace: void print(java.io.PrintStream)>	@Cleaner
 <com.sleepycat.je.log.LogBuffer: void <clinit>()>/assign/instruction2	2	<com.sleepycat.je.log.LogBuffer: void <clinit>()>
 <com.sleepycat.je.log.LogBuffer: void <clinit>()>/assign/instruction11	11	<com.sleepycat.je.log.LogBuffer: void <clinit>()>
 <com.sleepycat.je.util.DbLoad: byte[] readPrintableLine(java.lang.String)>/assign/instruction12	12	<com.sleepycat.je.util.DbLoad: byte[] readPrintableLine(java.lang.String)>
-<com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>/assign/instruction24	24	<com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>	@Cleaner
 <com.sleepycat.je.config.IntConfigParam: void validateValue(java.lang.String)>/assign/instruction14	14	<com.sleepycat.je.config.IntConfigParam: void validateValue(java.lang.String)>
+<com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>/assign/instruction24	24	<com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>	@Cleaner
 <com.sleepycat.je.txn.LockManager: java.lang.String makeTimeoutMsgInternal(java.lang.String,com.sleepycat.je.txn.Locker,long,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType,com.sleepycat.je.txn.Lock,long,long,long,com.sleepycat.je.dbi.DatabaseImpl)>/assign/instruction56	56	<com.sleepycat.je.txn.LockManager: java.lang.String makeTimeoutMsgInternal(java.lang.String,com.sleepycat.je.txn.Locker,long,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType,com.sleepycat.je.txn.Lock,long,long,long,com.sleepycat.je.dbi.DatabaseImpl)>
 <com.sleepycat.je.tree.BIN: void adjustCursorsForMutation(int,com.sleepycat.je.tree.DBIN,int,com.sleepycat.je.dbi.CursorImpl)>/assign/instruction18	18	<com.sleepycat.je.tree.BIN: void adjustCursorsForMutation(int,com.sleepycat.je.tree.DBIN,int,com.sleepycat.je.dbi.CursorImpl)>
 <com.sleepycat.je.tree.IN: void verify(byte[])>/assign/instruction41	41	<com.sleepycat.je.tree.IN: void verify(byte[])>
@@ -2102,8 +2102,8 @@
 <com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>/assign/instruction30	30	<com.sleepycat.je.dbi.MemoryBudget: void reset(com.sleepycat.je.dbi.DbConfigManager)>
 <com.sleepycat.je.util.DbRecover: void main(java.lang.String[])>/assign/instruction114	114	<com.sleepycat.je.util.DbRecover: void main(java.lang.String[])>
 <com.sleepycat.je.cleaner.OffsetList: boolean add(long,boolean)>/assign/instruction14	14	<com.sleepycat.je.cleaner.OffsetList: boolean add(long,boolean)>
-<com.sleepycat.je.txn.Txn: int prepare(javax.transaction.xa.Xid)>/assign/instruction28	28	<com.sleepycat.je.txn.Txn: int prepare(javax.transaction.xa.Xid)>	@Transactions
 <com.sleepycat.je.tree.IN: void verify(byte[])>/assign/instruction34	34	<com.sleepycat.je.tree.IN: void verify(byte[])>
+<com.sleepycat.je.txn.Txn: int prepare(javax.transaction.xa.Xid)>/assign/instruction28	28	<com.sleepycat.je.txn.Txn: int prepare(javax.transaction.xa.Xid)>	@Transactions
 <com.sleepycat.je.util.DbPrintLog: void main(java.lang.String[])>/assign/instruction65	65	<com.sleepycat.je.util.DbPrintLog: void main(java.lang.String[])>
 <com.sleepycat.je.log.StatsFileReader: void summarizeCheckpointInfo()>/assign/instruction47	47	<com.sleepycat.je.log.StatsFileReader: void summarizeCheckpointInfo()>
 <com.sleepycat.je.dbi.EnvironmentImpl: void doClose(boolean)>/assign/instruction60	60	<com.sleepycat.je.dbi.EnvironmentImpl: void doClose(boolean)>	@Logging_Fine
@@ -2175,8 +2175,8 @@
 <com.sleepycat.je.dbi.CursorImpl: java.lang.String dumpToString(boolean)>/assign/instruction6	6	<com.sleepycat.je.dbi.CursorImpl: java.lang.String dumpToString(boolean)>
 <com.sleepycat.je.recovery.Checkpointer: boolean isRunnable(com.sleepycat.je.CheckpointConfig)>/assign/instruction174	174	<com.sleepycat.je.recovery.Checkpointer: boolean isRunnable(com.sleepycat.je.CheckpointConfig)>	@Logging_Finest
 <com.sleepycat.je.log.ChecksumValidator: void validate(com.sleepycat.je.dbi.EnvironmentImpl,long,long,long,boolean)>/assign/instruction8	8	<com.sleepycat.je.log.ChecksumValidator: void validate(com.sleepycat.je.dbi.EnvironmentImpl,long,long,long,boolean)>	@Checksum
-<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>/assign/instruction26	26	<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>
 <com.sleepycat.je.txn.Locker: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,boolean,boolean)>/assign/instruction23	23	<com.sleepycat.je.txn.Locker: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,boolean,boolean)>
+<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>/assign/instruction26	26	<com.sleepycat.je.tree.SearchResult: java.lang.String toString()>
 <com.sleepycat.je.utilint.DaemonThread: void run()>/assign/instruction104	104	<com.sleepycat.je.utilint.DaemonThread: void run()>
 <com.sleepycat.je.Sequence: com.sleepycat.je.DatabaseEntry makeData()>/assign/instruction33	33	<com.sleepycat.je.Sequence: com.sleepycat.je.DatabaseEntry makeData()>
 <com.sleepycat.je.log.StatsFileReader: void summarize()>/assign/instruction196	196	<com.sleepycat.je.log.StatsFileReader: void summarize()>
@@ -2433,8 +2433,8 @@
 <com.sleepycat.je.txn.TxnPrepare: void dumpLog(java.lang.StringBuffer,boolean)>/assign/instruction20	20	<com.sleepycat.je.txn.TxnPrepare: void dumpLog(java.lang.StringBuffer,boolean)>
 <com.sleepycat.je.recovery.RecoveryManager: void undoLNs(com.sleepycat.je.recovery.RecoveryInfo,java.util.Set)>/assign/instruction86	86	<com.sleepycat.je.recovery.RecoveryManager: void undoLNs(com.sleepycat.je.recovery.RecoveryInfo,java.util.Set)>	@Transactions
 <com.sleepycat.je.utilint.DbScavenger: void processDbTreeEntry(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)>/assign/instruction35	35	<com.sleepycat.je.utilint.DbScavenger: void processDbTreeEntry(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)>
-<com.sleepycat.je.recovery.RecoveryManager: void traceRootDeletion(java.util.logging.Level,com.sleepycat.je.dbi.DatabaseImpl)>/assign/instruction12	12	<com.sleepycat.je.recovery.RecoveryManager: void traceRootDeletion(java.util.logging.Level,com.sleepycat.je.dbi.DatabaseImpl)>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
 <com.sleepycat.je.util.DbCacheSize: void main(java.lang.String[])>/assign/instruction151	151	<com.sleepycat.je.util.DbCacheSize: void main(java.lang.String[])>	@(Memory_Budget) /\ (Memory_Budget)
+<com.sleepycat.je.recovery.RecoveryManager: void traceRootDeletion(java.util.logging.Level,com.sleepycat.je.dbi.DatabaseImpl)>/assign/instruction12	12	<com.sleepycat.je.recovery.RecoveryManager: void traceRootDeletion(java.util.logging.Level,com.sleepycat.je.dbi.DatabaseImpl)>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)
 <com.sleepycat.je.log.LogUtils: long readLong(java.nio.ByteBuffer)>/assign/instruction31	31	<com.sleepycat.je.log.LogUtils: long readLong(java.nio.ByteBuffer)>
 <com.sleepycat.je.config.IntConfigParam: java.lang.String getExtraDescription()>/assign/instruction16	16	<com.sleepycat.je.config.IntConfigParam: java.lang.String getExtraDescription()>
 <com.sleepycat.je.recovery.Checkpointer: java.lang.String dumpParentChildInfo(com.sleepycat.je.tree.SearchResult,com.sleepycat.je.tree.IN,long,int,com.sleepycat.je.tree.Tree)>/assign/instruction13	13	<com.sleepycat.je.recovery.Checkpointer: java.lang.String dumpParentChildInfo(com.sleepycat.je.tree.SearchResult,com.sleepycat.je.tree.IN,long,int,com.sleepycat.je.tree.Tree)>
@@ -2610,8 +2610,8 @@
 <com.sleepycat.je.incomp.INCompressor: int getBinRefQueueSize()>/assign/instruction7	7	<com.sleepycat.je.incomp.INCompressor: int getBinRefQueueSize()>	@INCompressor
 <com.sleepycat.je.EnvironmentMutableConfig: void <clinit>()>/assign/instruction2	2	<com.sleepycat.je.EnvironmentMutableConfig: void <clinit>()>
 <com.sleepycat.je.txn.Lock: int nOwners()>/assign/instruction11	11	<com.sleepycat.je.txn.Lock: int nOwners()>
-<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>/assign/instruction56	56	<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>
 <com.sleepycat.je.tree.DupCountLN: void dumpLogAdditional(java.lang.StringBuffer,boolean)>/assign/instruction5	5	<com.sleepycat.je.tree.DupCountLN: void dumpLogAdditional(java.lang.StringBuffer,boolean)>
+<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>/assign/instruction56	56	<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>
 <com.sleepycat.je.log.FileManager$FileCache: void add(java.lang.Long,com.sleepycat.je.log.FileHandle)>/assign/instruction14	14	<com.sleepycat.je.log.FileManager$FileCache: void add(java.lang.Long,com.sleepycat.je.log.FileHandle)>	@FileHandleCache
 <com.sleepycat.je.config.LongConfigParam: void validateValue(java.lang.String)>/assign/instruction15	15	<com.sleepycat.je.config.LongConfigParam: void validateValue(java.lang.String)>
 <com.sleepycat.je.log.FileManager: void abortCommittedTxns(java.nio.ByteBuffer)>/assign/instruction23	23	<com.sleepycat.je.log.FileManager: void abortCommittedTxns(java.nio.ByteBuffer)>
@@ -2640,8 +2640,8 @@
 <com.sleepycat.je.util.DbCacheSize: void <clinit>()>/assign/instruction1	1	<com.sleepycat.je.util.DbCacheSize: void <clinit>()>	@(Memory_Budget) /\ (Memory_Budget)
 <com.sleepycat.je.util.DbLoad: void loadData(com.sleepycat.je.Database)>/assign/instruction22	22	<com.sleepycat.je.util.DbLoad: void loadData(com.sleepycat.je.Database)>
 <com.sleepycat.je.txn.TxnManager: long getFirstActiveLsn()>/assign/instruction6	6	<com.sleepycat.je.txn.TxnManager: long getFirstActiveLsn()>	@Transactions /\ Latches
-<com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>/assign/instruction94	94	<com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>	@Latches
 <com.sleepycat.je.recovery.Checkpointer: java.lang.String toString()>/assign/instruction5	5	<com.sleepycat.je.recovery.Checkpointer: java.lang.String toString()>	@(Checkpointer_Daemon) /\ (Checkpointer_Daemon)
+<com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>/assign/instruction94	94	<com.sleepycat.je.recovery.RecoveryManager: void replaceOrInsert(com.sleepycat.je.dbi.DatabaseImpl,com.sleepycat.je.tree.IN,long,long,boolean)>	@Latches
 <com.sleepycat.je.utilint.CmdUtil: java.lang.String getJavaCommand(java.lang.Class)>/assign/instruction5	5	<com.sleepycat.je.utilint.CmdUtil: java.lang.String getJavaCommand(java.lang.Class)>
 <com.sleepycat.je.XAEnvironment: int prepare(javax.transaction.xa.Xid)>/assign/instruction10	10	<com.sleepycat.je.XAEnvironment: int prepare(javax.transaction.xa.Xid)>	@(Transactions) /\ (Transactions)
 <com.sleepycat.je.latch.Java5SharedLatchImpl: boolean acquireExclusiveNoWait()>/assign/instruction15	15	<com.sleepycat.je.latch.Java5SharedLatchImpl: boolean acquireExclusiveNoWait()>	@(Latches) /\ (Latches)
@@ -2846,8 +2846,8 @@
 <com.sleepycat.je.evictor.Evictor: com.sleepycat.je.tree.IN selectIN(com.sleepycat.je.dbi.INList,com.sleepycat.je.evictor.Evictor$ScanIterator)>/assign/instruction32	32	<com.sleepycat.je.evictor.Evictor: com.sleepycat.je.tree.IN selectIN(com.sleepycat.je.dbi.INList,com.sleepycat.je.evictor.Evictor$ScanIterator)>	@Evictor
 <com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>/assign/instruction161	161	<com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>	@Statistics /\ Logging_Base /\ Evictor /\ Logging_Evictor
 <com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getCheapestFileToClean(java.util.SortedSet)>/assign/instruction5	5	<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getCheapestFileToClean(java.util.SortedSet)>	@Cleaner
-<com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.PreloadStats preload(com.sleepycat.je.PreloadConfig)>/assign/instruction8	8	<com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.PreloadStats preload(com.sleepycat.je.PreloadConfig)>
 <com.sleepycat.je.utilint.DbScavenger: void processDbTreeEntry(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)>/assign/instruction42	42	<com.sleepycat.je.utilint.DbScavenger: void processDbTreeEntry(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)>
+<com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.PreloadStats preload(com.sleepycat.je.PreloadConfig)>/assign/instruction8	8	<com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.PreloadStats preload(com.sleepycat.je.PreloadConfig)>
 <com.sleepycat.je.log.LogBuffer: int getCapacity()>/assign/instruction3	3	<com.sleepycat.je.log.LogBuffer: int getCapacity()>
 <com.sleepycat.je.EnvironmentStats: java.lang.String toString()>/assign/instruction30	30	<com.sleepycat.je.EnvironmentStats: java.lang.String toString()>	@(Statistics) /\ (Statistics)
 <com.sleepycat.je.BtreeStats: void arrayToString(long[],java.lang.StringBuffer)>/assign/instruction11	11	<com.sleepycat.je.BtreeStats: void arrayToString(long[],java.lang.StringBuffer)>	@(Statistics) /\ (Statistics)
@@ -2958,8 +2958,8 @@
 <com.sleepycat.je.util.DbLoad: void loadData(com.sleepycat.je.Database)>/assign/instruction17	17	<com.sleepycat.je.util.DbLoad: void loadData(com.sleepycat.je.Database)>
 <com.sleepycat.je.utilint.Tracer: int hashCode()>/assign/instruction3	3	<com.sleepycat.je.utilint.Tracer: int hashCode()>	@(Logging_DbLogHandler) /\ (Logging_DbLogHandler)
 <com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>/assign/instruction215	215	<com.sleepycat.je.evictor.Evictor: long evictBatch(java.lang.String,long)>	@Statistics /\ Logging_Base /\ Evictor /\ Logging_Evictor
-<com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>/assign/instruction17	17	<com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>	@Cleaner
 <com.sleepycat.je.utilint.DbLsn: java.lang.String dumpString(long,int)>/assign/instruction10	10	<com.sleepycat.je.utilint.DbLsn: java.lang.String dumpString(long,int)>
+<com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>/assign/instruction17	17	<com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>	@Cleaner
 <com.sleepycat.je.cleaner.VerifyUtils: void checkLsns(com.sleepycat.je.Database)>/assign/instruction97	97	<com.sleepycat.je.cleaner.VerifyUtils: void checkLsns(com.sleepycat.je.Database)>	@Verifier
 <com.sleepycat.je.evictor.Evictor: com.sleepycat.je.tree.IN selectIN(com.sleepycat.je.dbi.INList,com.sleepycat.je.evictor.Evictor$ScanIterator)>/assign/instruction43	43	<com.sleepycat.je.evictor.Evictor: com.sleepycat.je.tree.IN selectIN(com.sleepycat.je.dbi.INList,com.sleepycat.je.evictor.Evictor$ScanIterator)>	@Evictor
 <com.sleepycat.je.util.DbVerify: void main(java.lang.String[])>/assign/instruction48	48	<com.sleepycat.je.util.DbVerify: void main(java.lang.String[])>	@Statistics /\ Verifier
@@ -2990,8 +2990,8 @@
 <com.sleepycat.je.tree.IN: java.lang.String dumpString(int,boolean)>/assign/instruction42	42	<com.sleepycat.je.tree.IN: java.lang.String dumpString(int,boolean)>
 <com.sleepycat.je.txn.TxnEnd: void dumpLog(java.lang.StringBuffer,boolean)>/assign/instruction20	20	<com.sleepycat.je.txn.TxnEnd: void dumpLog(java.lang.StringBuffer,boolean)>
 <com.sleepycat.je.log.FileHeader: void readFromLog(java.nio.ByteBuffer,byte)>/assign/instruction20	20	<com.sleepycat.je.log.FileHeader: void readFromLog(java.nio.ByteBuffer,byte)>
-<com.sleepycat.je.cleaner.UtilizationProfile: com.sleepycat.je.cleaner.TrackedFileSummary getObsoleteDetail(java.lang.Long,com.sleepycat.je.cleaner.PackedOffsets,boolean)>/assign/instruction128	128	<com.sleepycat.je.cleaner.UtilizationProfile: com.sleepycat.je.cleaner.TrackedFileSummary getObsoleteDetail(java.lang.Long,com.sleepycat.je.cleaner.PackedOffsets,boolean)>	@Cleaner
 <com.sleepycat.je.log.FileManager: void abortCommittedTxns(java.nio.ByteBuffer)>/assign/instruction14	14	<com.sleepycat.je.log.FileManager: void abortCommittedTxns(java.nio.ByteBuffer)>
+<com.sleepycat.je.cleaner.UtilizationProfile: com.sleepycat.je.cleaner.TrackedFileSummary getObsoleteDetail(java.lang.Long,com.sleepycat.je.cleaner.PackedOffsets,boolean)>/assign/instruction128	128	<com.sleepycat.je.cleaner.UtilizationProfile: com.sleepycat.je.cleaner.TrackedFileSummary getObsoleteDetail(java.lang.Long,com.sleepycat.je.cleaner.PackedOffsets,boolean)>	@Cleaner
 <com.sleepycat.je.recovery.Checkpointer: java.lang.String dumpParentChildInfo(com.sleepycat.je.tree.SearchResult,com.sleepycat.je.tree.IN,long,int,com.sleepycat.je.tree.Tree)>/assign/instruction21	21	<com.sleepycat.je.recovery.Checkpointer: java.lang.String dumpParentChildInfo(com.sleepycat.je.tree.SearchResult,com.sleepycat.je.tree.IN,long,int,com.sleepycat.je.tree.Tree)>
 <com.sleepycat.je.log.FileReader: void getLogEntryInReadBuffer()>/assign/instruction50	50	<com.sleepycat.je.log.FileReader: void getLogEntryInReadBuffer()>
 <com.sleepycat.je.recovery.RecoveryManager: void buildTree()>/assign/instruction245	245	<com.sleepycat.je.recovery.RecoveryManager: void buildTree()>	@Logging_Config
@@ -3330,8 +3330,8 @@
 <com.sleepycat.je.dbi.INList: void removeLatchAlreadyHeld(com.sleepycat.je.tree.IN)>/assign/instruction12	12	<com.sleepycat.je.dbi.INList: void removeLatchAlreadyHeld(com.sleepycat.je.tree.IN)>
 <com.sleepycat.je.latch.LatchImpl: void release()>/assign/instruction11	11	<com.sleepycat.je.latch.LatchImpl: void release()>	@Latches
 <com.sleepycat.je.evictor.Evictor: boolean isRunnable(java.lang.String)>/assign/instruction55	55	<com.sleepycat.je.evictor.Evictor: boolean isRunnable(java.lang.String)>	@Logging_Evictor /\ Evictor /\ Logging_Base
-<com.sleepycat.je.dbi.SortedLSNTreeWalker: boolean extractINsForDb(com.sleepycat.je.dbi.INList)>/assign/instruction61	61	<com.sleepycat.je.dbi.SortedLSNTreeWalker: boolean extractINsForDb(com.sleepycat.je.dbi.INList)>
 <com.sleepycat.je.Database: java.util.List getSecondaryDatabases()>/assign/instruction21	21	<com.sleepycat.je.Database: java.util.List getSecondaryDatabases()>	@Latches
+<com.sleepycat.je.dbi.SortedLSNTreeWalker: boolean extractINsForDb(com.sleepycat.je.dbi.INList)>/assign/instruction61	61	<com.sleepycat.je.dbi.SortedLSNTreeWalker: boolean extractINsForDb(com.sleepycat.je.dbi.INList)>
 <com.sleepycat.je.latch.SharedLatchImpl: void acquireShared()>/assign/instruction13	13	<com.sleepycat.je.latch.SharedLatchImpl: void acquireShared()>	@(Latches) /\ (Latches)
 <com.sleepycat.je.log.FileManager: void generateRunRecoveryException(java.io.RandomAccessFile,java.nio.ByteBuffer,long)>/assign/instruction39	39	<com.sleepycat.je.log.FileManager: void generateRunRecoveryException(java.io.RandomAccessFile,java.nio.ByteBuffer,long)>
 <com.sleepycat.je.dbi.INList: void dump()>/assign/instruction21	21	<com.sleepycat.je.dbi.INList: void dump()>

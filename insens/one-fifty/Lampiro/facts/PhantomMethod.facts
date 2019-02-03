@@ -8,8 +8,8 @@
 <java.lang.Object: void notify()>
 <javax.microedition.lcdui.game.GameCanvas: int getKeyCode(int)>
 <java.lang.Math: int min(int,int)>
-<java.lang.System: long currentTimeMillis()>
 <java.util.Vector: boolean contains(java.lang.Object)>
+<java.lang.System: long currentTimeMillis()>
 <javax.microedition.lcdui.Graphics: javax.microedition.lcdui.Font getFont()>
 <java.lang.String: int indexOf(int,int)>
 <javax.microedition.lcdui.StringItem: void <init>(java.lang.String,java.lang.String)>
@@ -177,8 +177,8 @@
 <javax.microedition.lcdui.StringItem: void setText(java.lang.String)>
 <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()>
 <javax.microedition.lcdui.TextBox: void setTitle(java.lang.String)>
-<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.lang.IndexOutOfBoundsException: void <init>()>
+<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.io.DataInputStream: void readFully(byte[])>
 <javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>
 <javax.microedition.media.Player: void start()>
@@ -305,11 +305,11 @@
 <java.io.ByteArrayOutputStream: void write(byte[])>
 <java.util.Vector: java.lang.Object lastElement()>
 <javax.microedition.lcdui.Font: int substringWidth(java.lang.String,int,int)>
-<java.lang.String: java.lang.String trim()>
 <javax.microedition.lcdui.Graphics: int getColor()>
+<java.lang.String: java.lang.String trim()>
 <java.util.Vector: void setSize(int)>
-<javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>
 <java.lang.StringBuffer: int length()>
+<javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>
 <java.util.Calendar: void setTime(java.util.Date)>
 <java.io.DataOutputStream: void writeShort(int)>
 <javax.microedition.media.Player: void realize()>

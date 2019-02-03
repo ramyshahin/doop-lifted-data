@@ -9,8 +9,8 @@
 <java.lang.String: void <init>(char[])>	<init>	(char[])	java.lang.String	void	([C)V	1
 <Graph: void sortVertices(java.util.Comparator)>	sortVertices	(java.util.Comparator)	Graph	void	(Ljava/util/Comparator;)V	1
 <Vertex$EdgeIter1: boolean hasNext()>	hasNext	()	Vertex$EdgeIter1	boolean	()Z	0	@EdgeObjects /\ G_NoEdges
-<java.util.LinkedList: int size()>	size	()	java.util.LinkedList	int	()I	0
 <java.util.Iterator: java.lang.Object next()>	next	()	java.util.Iterator	java.lang.Object	()Ljava/lang/Object;	0
+<java.util.LinkedList: int size()>	size	()	java.util.LinkedList	int	()I	0
 <java.util.LinkedList: java.util.Iterator iterator()>	iterator	()	java.util.LinkedList	java.util.Iterator	()Ljava/util/Iterator;	0
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>	checkNeighborAction	(Vertex,Vertex)	WorkSpace	void	(LVertex;LVertex;)V	2	@SearchBase
 <Graph: void addVertex(Vertex)>	addVertex	(Vertex)	Graph	void	(LVertex;)V	1
@@ -78,8 +78,8 @@
 <Graph$EdgeIter1: EdgeIfc next()>	next	()	Graph$EdgeIter1	EdgeIfc	()LEdgeIfc;	0	@EdgeObjects
 <Edge: void display()>	display	()	Edge	void	()V	0	@EdgeObjects
 <CycleWorkSpace: void <init>()>	<init>	()	CycleWorkSpace	void	()V	0
-<Vertex: void setWeight(int)>	setWeight	(int)	Vertex	void	(I)V	1	@Weighted /\ G_NoEdges
 <java.lang.String: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.String	void	(Ljava/lang/String;)V	1
+<Vertex: void setWeight(int)>	setWeight	(int)	Vertex	void	(I)V	1	@Weighted /\ G_NoEdges
 <EdgeIfc: Vertex getOtherVertex(Vertex)>	getOtherVertex	(Vertex)	EdgeIfc	Vertex	(LVertex;)LVertex;	1
 <Vertex: void addEdge(Neighbor)>	addEdge	(Neighbor)	Vertex	void	(LNeighbor;)V	1	@GN_OnlyNeighbors
 <Vertex$EdgeIter1: void <init>(Vertex)>	<init>	(Vertex)	Vertex$EdgeIter1	void	(LVertex;)V	1
@@ -177,8 +177,8 @@
 <Edge: void setWeight(int)>	setWeight	(int)	Edge	void	(I)V	1	@EdgeObjects /\ Weighted
 <Vertex$EdgeIter3: void <init>(Vertex)>	<init>	(Vertex)	Vertex$EdgeIter3	void	(LVertex;)V	1
 <Graph: Vertex findsVertex(java.lang.String)>	findsVertex	(java.lang.String)	Graph	Vertex	(Ljava/lang/String;)LVertex;	1
-<Graph$Comparator1: int compare(Vertex,Vertex)>	compare	(Vertex,Vertex)	Graph$Comparator1	int	(LVertex;LVertex;)I	2	@StronglyConnected
 <Vertex$VertexIter3: Vertex next()>	next	()	Vertex$VertexIter3	Vertex	()LVertex;	0	@GEN_Edges
+<Graph$Comparator1: int compare(Vertex,Vertex)>	compare	(Vertex,Vertex)	Graph$Comparator1	int	(LVertex;LVertex;)I	2	@StronglyConnected
 <java.util.LinkedList: void add(int,java.lang.Object)>	add	(int,java.lang.Object)	java.util.LinkedList	void	(ILjava/lang/Object;)V	2
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>	preVisitAction	(Vertex)	FinishTimeWorkSpace	void	(LVertex;)V	1	@StronglyConnected
 <java.lang.Integer: int intValue()>	intValue	()	java.lang.Integer	int	()I	0

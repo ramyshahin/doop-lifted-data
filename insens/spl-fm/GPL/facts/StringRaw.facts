@@ -10,8 +10,8 @@
 <java.util.Map: java.lang.Object get(java.lang.Object)>	<java.util.Map: java.lang.Object get(java.lang.Object)>
 <java.util.Iterator: boolean hasNext()>	<java.util.Iterator: boolean hasNext()>
 <Neighbor: int getWeight()>	<Neighbor: int getWeight()>	@Weighted /\ GN_OnlyNeighbors
-<EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>
 <java.lang.Integer: int parseInt(java.lang.String,int)>	<java.lang.Integer: int parseInt(java.lang.String,int)>
+<EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>
 <Edge: void adjustAdorns(EdgeIfc)>	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
 <EdgeIter: boolean hasNext()>	<EdgeIter: boolean hasNext()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>	<java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
@@ -79,9 +79,9 @@ v	v	@(Prog) /\ (Prog)
 <WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>
 <CycleWorkSpace: void <init>()>	<CycleWorkSpace: void <init>()>
+******************************************	******************************************
 <<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 <Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
-******************************************	******************************************
 <<\\" Rep \\">>	<<\\" Rep \\">>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>
 <Graph: int readNumber()>	<Graph: int readNumber()>	@Benchmark

@@ -33,8 +33,8 @@
 <java.lang.String: java.lang.String trim()>	<java.lang.String: java.lang.String trim()>
 <Vertex$EdgeIter2: void <init>(Vertex)>	<Vertex$EdgeIter2: void <init>(Vertex)>
 <Graph: void resumeProfile()>	<Graph: void resumeProfile()>	@Benchmark
-<java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(long)>	<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
+<java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>
 <Neighbor: void adjustAdorns(EdgeIfc)>	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
 <<\\"Time elapsed: \\">>	<<\\"Time elapsed: \\">>	@(Benchmark) /\ (Benchmark)
@@ -56,8 +56,8 @@ v	v	@(Prog) /\ (Prog)
 <EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>
 <Vertex: void addAdjacent(Vertex)>	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
 <<\\" # \\">>	<<\\" # \\">>	@Number
-<Edge: Vertex getStart()>	<Edge: Vertex getStart()>	@EdgeObjects
 <<\\" Cycle? \\">>	<<\\" Cycle? \\">>	@Cycle /\ Prog
+<Edge: Vertex getStart()>	<Edge: Vertex getStart()>	@EdgeObjects
 <Vertex: Vertex getEnd()>	<Vertex: Vertex getEnd()>	@G_NoEdges
 <Vertex$VertexIter2: void <init>(Vertex)>	<Vertex$VertexIter2: void <init>(Vertex)>
 <VertexIter: void <init>()>	<VertexIter: void <init>()>
@@ -67,8 +67,8 @@ v	v	@(Prog) /\ (Prog)
 <Vertex: Vertex assignName(java.lang.String)>	<Vertex: Vertex assignName(java.lang.String)>
 <Vertex: void adjustAdorns(EdgeIfc)>	<Vertex: void adjustAdorns(EdgeIfc)>	@G_NoEdges
 <java.lang.Object: boolean equals(java.lang.Object)>	<java.lang.Object: boolean equals(java.lang.Object)>
-<Edge: Vertex getEnd()>	<Edge: Vertex getEnd()>	@EdgeObjects
 <java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>	<java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>
+<Edge: Vertex getEnd()>	<Edge: Vertex getEnd()>	@EdgeObjects
 <<\\"  visited\\">>	<<\\"  visited\\">>	@SearchBase
 <<\\" Weights : \\">>	<<\\" Weights : \\">>	@Weighted /\ G_NoEdges
 <java.util.LinkedList: java.lang.Object getLast()>	<java.util.LinkedList: java.lang.Object getLast()>
@@ -79,9 +79,9 @@ v	v	@(Prog) /\ (Prog)
 <WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>
 <CycleWorkSpace: void <init>()>	<CycleWorkSpace: void <init>()>
+<Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
 <<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 ******************************************	******************************************
-<Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
 <<\\" Rep \\">>	<<\\" Rep \\">>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>
 <Graph: int readNumber()>	<Graph: int readNumber()>	@Benchmark

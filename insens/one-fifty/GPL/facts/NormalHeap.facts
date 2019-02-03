@@ -1,7 +1,7 @@
 <Vertex: void display()>/new java.lang.StringBuilder/3	java.lang.StringBuilder
 <Graph: void connectedComponents()>/new RegionWorkSpace/0	RegionWorkSpace
-<Graph: Graph kruskal()>/new java.util.LinkedList/2	java.util.LinkedList
 <Vertex: void <init>()>/new java.util.LinkedList/0	java.util.LinkedList
+<Graph: Graph kruskal()>/new java.util.LinkedList/2	java.util.LinkedList
 <Graph: int readNumber()>/new java.lang.String/0	java.lang.String
 <Main: void main(java.lang.String[])>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <Graph: void run(Vertex)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
@@ -22,8 +22,8 @@
 <Main: void main(java.lang.String[])>/new Vertex[]/0	Vertex[]
 <Main: void main(java.lang.String[])>/new java.lang.StringBuilder/1	java.lang.StringBuilder
 <Graph: Graph kruskal()>/new java.util.LinkedList/1	java.util.LinkedList
-<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	Graph$EdgeIter1
 <Vertex: void display()>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	Graph$EdgeIter1
 <Graph: int readNumber()>/new java.lang.String/1	java.lang.String
 <Neighbor: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	Neighbor
@@ -40,8 +40,8 @@
 <Main: void main(java.lang.String[])>/new Graph/0	Graph
 <Graph: Graph computeTranspose(Graph)>/new Vertex/0	Vertex
 <Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	FinishTimeWorkSpace
-<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	java.util.LinkedList
 <Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	java.io.FileReader
+<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	java.util.LinkedList
 <Edge: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <Graph: Graph computeTranspose(Graph)>/new Graph/0	Graph
 <Graph: void endProfile()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
@@ -54,7 +54,7 @@
 <Graph: void <init>()>/new java.util.LinkedList/1	java.util.LinkedList
 <Vertex: void display()>/new java.lang.StringBuilder/2	java.lang.StringBuilder
 <Graph: Graph kruskal()>/new java.util.LinkedList/0	java.util.LinkedList
-<Graph: Graph prim(Vertex)>/new java.util.LinkedList/0	java.util.LinkedList
 <Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	Vertex$VertexIter1
 <Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	Vertex$EdgeIter1
+<Graph: Graph prim(Vertex)>/new java.util.LinkedList/0	java.util.LinkedList
 <Vertex: void <init>()>/new java.util.LinkedList/2	java.util.LinkedList

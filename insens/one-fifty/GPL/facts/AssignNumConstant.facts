@@ -20,8 +20,8 @@
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction7	7	1	<Vertex: void nodeSearch(WorkSpace)>/$numconstant0	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: Graph kruskal()>/assign/instruction127	127	0	<Graph: Graph kruskal()>/i#_497	<Graph: Graph kruskal()>
 <Graph: Graph prim(Vertex)>/assign/instruction15	15	0	<Graph: Graph prim(Vertex)>/$numconstant1	<Graph: Graph prim(Vertex)>
-<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction7	7	-1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>
 <Main: void main(java.lang.String[])>/assign/instruction36	36	0	<Main: void main(java.lang.String[])>/i_$$A_2#_44	<Main: void main(java.lang.String[])>
+<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction7	7	-1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>
 <Graph: void <clinit>()>/assign/instruction3	3	0L	<Graph: void <clinit>()>/$numconstant1	<Graph: void <clinit>()>
 <Graph: void display()>/assign/instruction8	8	0	<Graph: void display()>/edgeiter#_173	<Graph: void display()>
 <Main: void main(java.lang.String[])>/assign/instruction11	11	0	<Main: void main(java.lang.String[])>/num_vertices_$$A_1#_26	<Main: void main(java.lang.String[])>
@@ -32,8 +32,8 @@
 <CycleWorkSpace: void <init>()>/assign/instruction5	5	0	<CycleWorkSpace: void <init>()>/$numconstant1	<CycleWorkSpace: void <init>()>
 <Vertex: void display()>/assign/instruction5	5	0	<Vertex: void display()>/vxiter#_259	<Vertex: void display()>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction7	7	-1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant0	<Graph$Comparator1: int compare(Vertex,Vertex)>
-<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction12	12	0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction12	12	0	<Main: EdgeIfc addEdge(Graph,int)>/$numconstant0	<Main: EdgeIfc addEdge(Graph,int)>
+<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction12	12	0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>
 <Graph: void startProfile()>/assign/instruction1	1	0L	<Graph: void startProfile()>/$numconstant0	<Graph: void startProfile()>
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction14	14	1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>
 <Graph$Comparator2: int compare(Vertex,Vertex)>/return/instruction7	7	-1	<Graph$Comparator2: int compare(Vertex,Vertex)>/$numconstant0	<Graph$Comparator2: int compare(Vertex,Vertex)>
@@ -50,7 +50,7 @@
 <NumberWorkSpace: void <init>()>/assign/instruction3	3	0	<NumberWorkSpace: void <init>()>/$numconstant0	<NumberWorkSpace: void <init>()>
 <Graph: Graph prim(Vertex)>/assign/instruction48	48	0	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_1#_579	<Graph: Graph prim(Vertex)>
 <CycleWorkSpace: void init_vertex(Vertex)>/assign/instruction3	3	2147483647	<CycleWorkSpace: void init_vertex(Vertex)>/$numconstant0	<CycleWorkSpace: void init_vertex(Vertex)>
-<CycleWorkSpace: void <init>()>/assign/instruction3	3	0	<CycleWorkSpace: void <init>()>/$numconstant0	<CycleWorkSpace: void <init>()>
 <Graph: Graph prim(Vertex)>/assign/instruction55	55	0	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_3#_587	<Graph: Graph prim(Vertex)>
+<CycleWorkSpace: void <init>()>/assign/instruction3	3	0	<CycleWorkSpace: void <init>()>/$numconstant0	<CycleWorkSpace: void <init>()>
 <Graph: Graph prim(Vertex)>/assign/instruction59	59	1	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_4#_591	<Graph: Graph prim(Vertex)>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction12	12	0	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant1	<Graph$Comparator1: int compare(Vertex,Vertex)>

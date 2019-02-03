@@ -5,15 +5,15 @@ Delete
 \n\n\n
 Edit
 setting AutoCommit to false
-<<\\"\nMemory used: \\">>
 Amount maximum (10000) exceeded.
+<<\\"\nMemory used: \\">>
 generatingSnapshot	@(Snapshot) /\ (Snapshot)
 Transaction log consistency check failed.
 \nYou can publish your best results by mail to:
-<<HASH:713442402>>	@(Replication) /\ (Replication)
 This test will be skipped (see properties file).
-#
+<<HASH:713442402>>	@(Replication) /\ (Replication)
 Deposit...
+#
 Each round will take approx. 20 seconds to run...
 This demo shows how your application can be replicated\nwithout changing ONE SINGLE LINE OF CODE in the\nbusiness classes or GUI. This enables query load-\nbalancing and system fault-tolerance.\n\n	@(Replication) /\ (Replication)
 <<\\"\\">>
@@ -22,8 +22,8 @@ snapshot	@Snapshot
 <<\\"Error reading file list from directory \\">>
 Klaus Wuestefeld and Daniel Santos.\n\n
 <<HASH:2013142096>>	@(Replication) /\ (Replication)
-Transfer
 creating
+Transfer
 transactionHistory().size()
 <<\\"Disk space used: \\">>
 East
@@ -51,8 +51,8 @@ Unexpected Exception was thrown.
 JdbcUser
 Center
 <<\\"preparing statement: \\">>
-0.00
 bank	@(Snapshot) /\ (Snapshot)
+0.00
 TEN_MILLION
 xstreamjournal
 <<\\"update \\">>
@@ -60,8 +60,8 @@ xstreamjournal
 Query Test
 Interesting accounts
 Chunk header corrupted
-\n\nOutOfMemoryError.\n===========================================================\nThe VM must be started with a sufficient maximum heap size.\nExample for Linux and Windows:  java -Xmx512000000 ...\n\n
 <<\\"\n\nPrevayler Journal Serializer: \\">>
+\n\nOutOfMemoryError.\n===========================================================\nThe VM must be started with a sufficient maximum heap size.\nExample for Linux and Windows:  java -Xmx512000000 ...\n\n
 Unexpected end of stream in chunk data
 <<\\"\n----------- BEST ROUND: \\">>
 TransactionLogDirectory
@@ -92,8 +92,8 @@ New Account
 NumberOfObjects
 Prevayler is no longer accepting transactions due to an Error thrown from an earlier transaction.
 Error during deserialization
-#Entries
 <<\\"             Prevayler vs JDBC Scalability Tests             \\">>
+#Entries
 <<\\" You can kill this process at any time. \\">>
 update() must be called at least once
 Creating the properties file.
@@ -104,22 +104,22 @@ The minimum number of threads cannot be greater than the maximum number.
 Deep copy failed in an unknown way
 Invalid parameter value \'
 QueryTest
-commiting insertion of test records
 yes
+commiting insertion of test records
 Holder
 To publish a transaction, this ClientPublisher needs a registered subscriber.	@Replication
 <<\\" When you run the application again, \\">>
 Port In Service	@(Replication) /\ (Replication)
 <<\\"Directory doesn\'t exist and could not be created: \\">>
 If you have any trouble running the tests, just write to
-\\"[a-zA-Z0-9]*[Jj]ournal\\"
 executionTime
+\\"[a-zA-Z0-9]*[Jj]ournal\\"
 Primary suffix \'	@Snapshot
 Already locked internally
-\n	@(Monitor) /\ (Monitor)
-<<\\"\n\n========= Running \\">>
 ONE_HUNDRED_THOUSAND
 RunPrevaylerQueryTest
+\n	@(Monitor) /\ (Monitor)
+<<\\"\n\n========= Running \\">>
 Invalid holder name.
 PrevaylerTransactionThreadsMaximum
 PrevaylerQueryThreadsMaximum
@@ -132,18 +132,18 @@ Prevayler
 Already locked externally
 commiting transaction
 <<\\"Creating \\">>
-<<\\"Seconds ellapsed: \\">>
 closing
+<<\\"Seconds ellapsed: \\">>
 <<\\"\n\nPrevayler TransactionLog Directory: \\">>
 accountEntry	@(Snapshot) /\ (Snapshot)
 demo1
 Unexpected InterruptedException
 demo2
 TransactionTestCheckConsistency
-From Account
 <<\\"NumberFormatException reading property \\">>
-\\"\\d{19}\\.[a-zA-Z0-9]*[Jj]ournal\\"
+From Account
 Runtime Exception simulated for rollback demonstration purposes.
+\\"\\d{19}\\.[a-zA-Z0-9]*[Jj]ournal\\"
 The current implementation can only support one subscriber. Future implementations will support more.	@Replication
 Transfer...
 The prevalent system must be configured.
@@ -210,16 +210,16 @@ deleting record
 \\"QueryTest\\"
 Reading the properties file:\n
 hh:mm:ss
-Amount must be greater than zero.
 You can edit this file to configure the tests for the next run.\n
+Amount must be greater than zero.
 <<\\"The transaction log has not yet reached transaction \\">>
 Unable to serialize transaction
 already closed
 balance()
 RunPrevaylerTransactionTest
 JdbcConnectionURL
-\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot
 <<\\"Attempted to process \\">>
+\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot
 Scalability test results are published on www.prevayler.org.
 Journal.update() has to be called at least once before Journal.journal().
 Balance

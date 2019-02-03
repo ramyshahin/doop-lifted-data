@@ -20,5 +20,5 @@ byte[]	byte	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptur
 byte[]	byte	@includeCopyPhoto
 java.lang.String[]	java.lang.String	@x_SMSOrCapturePhotoOrCaptureVideo
 byte[]	byte	@x_MusicOrVideo
-byte[]	byte	@captureVideo
 lancs.mobilemedia.core.ui.datamodel.MediaData[]	lancs.mobilemedia.core.ui.datamodel.MediaData
+byte[]	byte	@captureVideo

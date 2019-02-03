@@ -1,8 +1,8 @@
 it.yup.util.LogConsumer
 it.yup.xmpp.FTReceiver$FTREventHandler
 it.yup.xmpp.XMPPClient$XmppListener
-it.yup.transport.TransportListener
 it.yup.xmlstream.PacketListener
+it.yup.transport.TransportListener
 it.yup.ui.UIIContainer
 it.yup.xmpp.DataFormListener
 it.yup.xmlstream.StreamEventListener

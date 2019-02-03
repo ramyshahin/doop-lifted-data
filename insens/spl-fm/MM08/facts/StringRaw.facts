@@ -24,8 +24,8 @@ Starting SMSReceiver::run()	Starting SMSReceiver::run()	@(x_SMSOrCapturePhotoOrC
 Error:	Error:
 <java.lang.Throwable: void printStackTrace()>	<java.lang.Throwable: void printStackTrace()>
 main.class	main.class
-<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>
 <javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>	<javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>
+<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>
 <java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <java.io.IOException: void printStackTrace()>	<java.io.IOException: void printStackTrace()>
 <javax.microedition.lcdui.List: int getSelectedIndex()>	<javax.microedition.lcdui.List: int getSelectedIndex()>
@@ -57,8 +57,8 @@ wtk.home	wtk.home
 <lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor: byte[] getByteFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	<lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor: byte[] getByteFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	@Photo
 <<\\"MediaAccessor::loadAlbums: Found: \\">>	<<\\"MediaAccessor::loadAlbums: Found: \\">>
 <lancs.mobilemedia.lib.exceptions.PersistenceMechanismException: void <init>()>	<lancs.mobilemedia.lib.exceptions.PersistenceMechanismException: void <init>()>
-Obteve a imagem	Obteve a imagem	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 No - Delete	No - Delete
+Obteve a imagem	Obteve a imagem	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>
 No Video Control for capturing!	No Video Control for capturing!
 <javax.microedition.lcdui.TextField: void <init>(java.lang.String,java.lang.String,int,int)>	<javax.microedition.lcdui.TextField: void <init>(java.lang.String,java.lang.String,int,int)>
@@ -86,8 +86,8 @@ AddPhotoToAlbum	AddPhotoToAlbum
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>	<lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>	@x_MusicOrVideo
 <lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor: void addVideoData(java.lang.String,java.lang.String,byte[])>	<lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor: void addVideoData(java.lang.String,java.lang.String,byte[])>	@x_MusicOrVideo
 <javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>	<javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>
-Sorting by BubbleSort...	Sorting by BubbleSort...	@(Media) /\ (Media)
 <lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: boolean isFavorite()>
+Sorting by BubbleSort...	Sorting by BubbleSort...	@(Media) /\ (Media)
 <lancs.mobilemedia.core.ui.datamodel.MediaData: int getNumberOfViews()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: int getNumberOfViews()>	@Media
 <<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>	<<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
 Add Password	Add Password	@NewCompound1
@@ -108,8 +108,8 @@ Select Album	Select Album
 <java.lang.String: java.lang.String substring(int)>	<java.lang.String: java.lang.String substring(int)>
 <lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getMediaLabel()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getMediaLabel()>
 <lancs.mobilemedia.core.ui.controller.AbstractController: javax.microedition.lcdui.Displayable getCurrentScreen()>	<lancs.mobilemedia.core.ui.controller.AbstractController: javax.microedition.lcdui.Displayable getCurrentScreen()>
-Send Now	Send Now
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void paint(javax.microedition.lcdui.Graphics)>	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void paint(javax.microedition.lcdui.Graphics)>
+Send Now	Send Now
 <javax.microedition.media.control.RecordControl: void startRecord()>	<javax.microedition.media.control.RecordControl: void startRecord()>
 No	No	@NewCompound1
 mpi-	mpi-	@(includeMMAPI) /\ (includeMMAPI)
@@ -146,8 +146,8 @@ Save	Save	@x_notMisc
 <lancs.mobilemedia.core.ui.controller.AlbumController: void goToPreviousScreen()>	<lancs.mobilemedia.core.ui.controller.AlbumController: void goToPreviousScreen()>
 <java.lang.String: int indexOf(java.lang.String)>	<java.lang.String: int indexOf(java.lang.String)>
 Error interreput	Error interreput	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
-SmsMessaging::receiveImage() - start	SmsMessaging::receiveImage() - start
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void <clinit>()>	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: void <clinit>()>
+SmsMessaging::receiveImage() - start	SmsMessaging::receiveImage() - start
 Error ao definir a tela	Error ao definir a tela
 mmpi-	mmpi-	@(Photo) /\ (Photo)
 <javax.microedition.rms.RecordStore: void deleteRecord(int)>	<javax.microedition.rms.RecordStore: void deleteRecord(int)>
@@ -354,8 +354,8 @@ DEBUG 2: after smsConn.receive()	DEBUG 2: after smsConn.receive()
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)>	<javax.microedition.rms.RecordStore: javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)>
 <lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getParentAlbumName()>	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String getParentAlbumName()>
 <lancs.mobilemedia.core.ui.screens.PasswordScreen: void <init>(java.lang.String,int)>	<lancs.mobilemedia.core.ui.screens.PasswordScreen: void <init>(java.lang.String,int)>	@NewCompound1
-<javax.wireless.messaging.MessageConnection: void send(javax.wireless.messaging.Message)>	<javax.wireless.messaging.MessageConnection: void send(javax.wireless.messaging.Message)>
 <<\\"...or...No record store named \\">>	<<\\"...or...No record store named \\">>
+<javax.wireless.messaging.MessageConnection: void send(javax.wireless.messaging.Message)>	<javax.wireless.messaging.MessageConnection: void send(javax.wireless.messaging.Message)>
 <lancs.mobilemedia.sms.SmsMessaging: void setSmsSendPort(java.lang.String)>	<lancs.mobilemedia.sms.SmsMessaging: void setSmsSendPort(java.lang.String)>
 \\"ImageListScreen\\"	\\"ImageListScreen\\"
 <java.lang.String: java.lang.String toString()>	<java.lang.String: java.lang.String toString()>
@@ -444,8 +444,8 @@ Sort by Views	Sort by Views	@Media
 <java.lang.String: java.lang.String concat(java.lang.String)>	<java.lang.String: java.lang.String concat(java.lang.String)>
 <lancs.mobilemedia.core.ui.MainUIMidlet: void startApp()>	<lancs.mobilemedia.core.ui.MainUIMidlet: void startApp()>
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData getVideoAlbumData()>	<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData getVideoAlbumData()>	@x_MusicOrVideo /\ MobilMedia
-<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>	<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>
 <javax.microedition.lcdui.Alert: void <init>(java.lang.String)>	<javax.microedition.lcdui.Alert: void <init>(java.lang.String)>
+<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>	<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>
 <java.lang.String: boolean startsWith(java.lang.String)>	<java.lang.String: boolean startsWith(java.lang.String)>
 <javax.microedition.lcdui.game.GameCanvas: void repaint()>	<javax.microedition.lcdui.game.GameCanvas: void repaint()>
 <lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>

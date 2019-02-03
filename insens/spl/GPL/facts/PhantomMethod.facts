@@ -13,8 +13,8 @@
 <java.util.LinkedList: boolean remove(java.lang.Object)>
 <java.util.Set: boolean remove(java.lang.Object)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
-<java.util.LinkedList: java.lang.Object getLast()>
 <java.lang.String: java.lang.String trim()>
+<java.util.LinkedList: java.lang.Object getLast()>
 <java.util.HashSet: void <init>()>
 <java.util.Collections: void sort(java.util.List,java.util.Comparator)>
 <java.lang.Integer: void <init>(int)>

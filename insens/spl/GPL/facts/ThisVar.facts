@@ -2,8 +2,8 @@
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>/@this
 <WorkSpace: void init_vertex(Vertex)>	<WorkSpace: void init_vertex(Vertex)>/@this	@SearchBase
 <Vertex$EdgeIter3: EdgeIfc next()>	<Vertex$EdgeIter3: EdgeIfc next()>/@this	@EdgeObjects /\ GEN_Edges
-<VertexIter: Vertex next()>	<VertexIter: Vertex next()>/@this
 <Vertex: java.util.LinkedList getNeighborsObj()>	<Vertex: java.util.LinkedList getNeighborsObj()>/@this	@GN_OnlyNeighbors
+<VertexIter: Vertex next()>	<VertexIter: Vertex next()>/@this
 <Edge: void <init>(Vertex,Vertex,int)>	<Edge: void <init>(Vertex,Vertex,int)>/@this
 <Graph: void stopBenchmark()>	<Graph: void stopBenchmark()>/@this	@Benchmark
 <Vertex: VertexIter getNeighbors()>	<Vertex: VertexIter getNeighbors()>/@this	@G_NoEdges
@@ -16,16 +16,16 @@
 <Graph: void sortVertices(java.util.Comparator)>	<Graph: void sortVertices(java.util.Comparator)>/@this
 <VertexIter: void <init>()>	<VertexIter: void <init>()>/@this
 <Graph: void display()>	<Graph: void display()>/@this
+<EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>/@this
 <NumberWorkSpace: void <init>()>	<NumberWorkSpace: void <init>()>/@this
 <Graph: void runBenchmark(java.lang.String)>	<Graph: void runBenchmark(java.lang.String)>/@this	@Benchmark
 <Graph: Graph prim(Vertex)>	<Graph: Graph prim(Vertex)>/@this
-<EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>/@this
 <Vertex: Vertex getEnd()>	<Vertex: Vertex getEnd()>/@this	@G_NoEdges
-<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@this
 <Graph$EdgeIter1: boolean hasNext()>	<Graph$EdgeIter1: boolean hasNext()>/@this	@EdgeObjects
-<Edge: void display()>	<Edge: void display()>/@this	@EdgeObjects
+<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@this
 <WorkSpace: void postVisitAction(Vertex)>	<WorkSpace: void postVisitAction(Vertex)>/@this	@SearchBase
 <EdgeIter: EdgeIfc next()>	<EdgeIter: EdgeIfc next()>/@this
+<Edge: void display()>	<Edge: void display()>/@this	@EdgeObjects
 <VertexIter: boolean hasNext()>	<VertexIter: boolean hasNext()>/@this
 <EdgeIter: void <init>()>	<EdgeIter: void <init>()>/@this
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@this	@EdgeObjects
@@ -68,14 +68,14 @@
 <Neighbor: Vertex getStart()>	<Neighbor: Vertex getStart()>/@this	@GN_OnlyNeighbors
 <Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>/@this	@Weighted /\ GN_OnlyNeighbors
 <Graph: void connectedComponents()>	<Graph: void connectedComponents()>/@this	@Connected
+<Vertex$VertexIter2: void <init>(Vertex)>	<Vertex$VertexIter2: void <init>(Vertex)>/@this
 <Graph$Comparator2: void <init>(Graph)>	<Graph$Comparator2: void <init>(Graph)>/@this
 <Vertex: void addEdge(Neighbor)>	<Vertex: void addEdge(Neighbor)>/@this	@GN_OnlyNeighbors
-<Vertex$VertexIter2: void <init>(Vertex)>	<Vertex$VertexIter2: void <init>(Vertex)>/@this
 <Graph: Graph strongComponents()>	<Graph: Graph strongComponents()>/@this
 <Vertex: Vertex assignName(java.lang.String)>	<Vertex: Vertex assignName(java.lang.String)>/@this
 <Vertex: EdgeIter getEdges()>	<Vertex: EdgeIter getEdges()>/@this	@EdgeObjects /\ G_NoEdges
-<Vertex: void addWeight(int)>	<Vertex: void addWeight(int)>/@this	@Weighted
 <Neighbor: void <init>(Vertex,int)>	<Neighbor: void <init>(Vertex,int)>/@this
+<Vertex: void addWeight(int)>	<Vertex: void addWeight(int)>/@this	@Weighted
 <Vertex: void nodeSearch(WorkSpace)>	<Vertex: void nodeSearch(WorkSpace)>/@this
 <Vertex: void init_vertex(WorkSpace)>	<Vertex: void init_vertex(WorkSpace)>/@this	@SearchBase
 <Edge: void setWeight(int)>	<Edge: void setWeight(int)>/@this	@EdgeObjects /\ Weighted
@@ -85,8 +85,8 @@
 <Neighbor: void <init>()>	<Neighbor: void <init>()>/@this
 <Vertex: int getWeight()>	<Vertex: int getWeight()>/@this	@G_NoEdges
 <Vertex: void addNeighbor(Neighbor)>	<Vertex: void addNeighbor(Neighbor)>/@this	@GEN_Edges
-<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@this
 <WorkSpace: void preVisitAction(Vertex)>	<WorkSpace: void preVisitAction(Vertex)>/@this	@SearchBase
+<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@this
 <Vertex: void adjustAdorns(EdgeIfc)>	<Vertex: void adjustAdorns(EdgeIfc)>/@this	@G_NoEdges
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this
 <Vertex: Vertex getStart()>	<Vertex: Vertex getStart()>/@this	@Undirected /\ G_NoEdges
@@ -95,8 +95,8 @@
 <EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>/@this
 <FinishTimeWorkSpace: void postVisitAction(Vertex)>	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@this	@StronglyConnected
 <Vertex$EdgeIter1: EdgeIfc next()>	<Vertex$EdgeIter1: EdgeIfc next()>/@this	@EdgeObjects /\ G_NoEdges
-<Edge: Vertex getStart()>	<Edge: Vertex getStart()>/@this	@EdgeObjects
 <Neighbor: Vertex getEnd()>	<Neighbor: Vertex getEnd()>/@this	@GN_OnlyNeighbors
+<Edge: Vertex getStart()>	<Edge: Vertex getStart()>/@this	@EdgeObjects
 <Edge: Vertex getOtherVertex(Vertex)>	<Edge: Vertex getOtherVertex(Vertex)>/@this	@EdgeObjects
 <Graph: void numberVertices()>	<Graph: void numberVertices()>/@this	@Number
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@this	@StronglyConnected
@@ -107,8 +107,8 @@
 <Neighbor: void display()>	<Neighbor: void display()>/@this	@GN_OnlyNeighbors
 <WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@this	@StronglyConnected
 <Vertex: void addAdjacent(Vertex)>	<Vertex: void addAdjacent(Vertex)>/@this	@G_NoEdges
-<Vertex$EdgeIter3: void <init>(Vertex)>	<Vertex$EdgeIter3: void <init>(Vertex)>/@this
 <CycleWorkSpace: void postVisitAction(Vertex)>	<CycleWorkSpace: void postVisitAction(Vertex)>/@this	@Cycle
+<Vertex$EdgeIter3: void <init>(Vertex)>	<Vertex$EdgeIter3: void <init>(Vertex)>/@this
 <EdgeIfc: Vertex getOtherVertex(Vertex)>	<EdgeIfc: Vertex getOtherVertex(Vertex)>/@this
 <Main: void <init>()>	<Main: void <init>()>/@this
 <Graph: Graph kruskal()>	<Graph: Graph kruskal()>/@this
@@ -118,15 +118,15 @@
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>/@this
 <Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@this
 <Vertex$VertexIter1: Vertex next()>	<Vertex$VertexIter1: Vertex next()>/@this	@G_NoEdges
-<VertexIter: void <init>(Graph)>	<VertexIter: void <init>(Graph)>/@this
 <Graph: boolean cycleCheck()>	<Graph: boolean cycleCheck()>/@this	@Cycle
-<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@this
+<VertexIter: void <init>(Graph)>	<VertexIter: void <init>(Graph)>/@this
 <Neighbor: Vertex getOtherVertex(Vertex)>	<Neighbor: Vertex getOtherVertex(Vertex)>/@this	@GN_OnlyNeighbors
+<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@this
 <Vertex$VertexIter2: Vertex next()>	<Vertex$VertexIter2: Vertex next()>/@this	@GN_OnlyNeighbors
 <Graph: void addEdge(Vertex,Neighbor)>	<Graph: void addEdge(Vertex,Neighbor)>/@this	@GN_OnlyNeighbors
 <Graph: EdgeIter getEdges()>	<Graph: EdgeIter getEdges()>/@this
-<Vertex: void setWeight(int)>	<Vertex: void setWeight(int)>/@this	@Weighted /\ G_NoEdges
 <Neighbor: void adjustAdorns(EdgeIfc)>	<Neighbor: void adjustAdorns(EdgeIfc)>/@this	@GN_OnlyNeighbors
+<Vertex: void setWeight(int)>	<Vertex: void setWeight(int)>/@this	@Weighted /\ G_NoEdges
 <WorkSpace: void <init>()>	<WorkSpace: void <init>()>/@this
 <Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>/@this
 <Edge: int getWeight()>	<Edge: int getWeight()>/@this	@EdgeObjects /\ Weighted

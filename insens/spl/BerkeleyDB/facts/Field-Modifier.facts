@@ -94,8 +94,8 @@ private	<com.sleepycat.je.dbi.CursorImpl: java.lang.String TRACE_DELETE>
 final	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.BooleanConfigParam TXN_DEADLOCK_STACK_TRACE>
 private	<com.sleepycat.je.txn.LockManager: com.sleepycat.je.dbi.EnvironmentImpl envImpl>
 public	<com.sleepycat.je.PreloadStatus: com.sleepycat.je.PreloadStatus SUCCESS>
-public	<com.sleepycat.je.PreloadStats: int nLNsLoaded>
 private	<com.sleepycat.je.dbi.EnvironmentImpl: com.sleepycat.je.incomp.INCompressor inCompressor>
+public	<com.sleepycat.je.PreloadStats: int nLNsLoaded>
 private	<com.sleepycat.je.log.FileManager: long currentFileNum>
 private	<com.sleepycat.je.DatabaseConfig: boolean transactional>
 final	<com.sleepycat.je.dbi.MemoryBudget: int CHECKPOINT_REFERENCE_SIZE_64_15>
@@ -184,8 +184,8 @@ public	<com.sleepycat.compat.DbCompat: boolean LOCK_SUBSYSTEM>
 final	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.LongConfigParam LOCK_TIMEOUT>
 final	<com.sleepycat.compat.DbCompat: boolean INSERTION_ORDERED_DUPLICATES>
 private	<com.sleepycat.je.incomp.INCompressor: int dbClosedBinsThisRun>
-static	<com.sleepycat.je.dbi.MemoryBudget: int LOCK_OVERHEAD_64>
 private	<com.sleepycat.je.Environment: com.sleepycat.je.TransactionConfig defaultTxnConfig>
+static	<com.sleepycat.je.dbi.MemoryBudget: int LOCK_OVERHEAD_64>
 private	<com.sleepycat.je.util.DbLoad: boolean dupSort>
 static	<com.sleepycat.je.tree.Node: java.lang.String END_TAG>
 protected	<com.sleepycat.je.log.FileReader: long currentEntryOffset>
@@ -373,8 +373,8 @@ private	<com.sleepycat.je.log.CheckpointMonitor: long periodInBytes>
 static	<com.sleepycat.je.dbi.GetMode: com.sleepycat.je.dbi.GetMode PREV>
 final	<com.sleepycat.je.dbi.DatabaseImpl: short NOT_DELETED>
 final	<com.sleepycat.je.cleaner.Cleaner: boolean UPDATE_GENERATION>
-static	<com.sleepycat.je.dbi.MemoryBudget: int ARRAY_ITEM_OVERHEAD>
 final	<com.sleepycat.je.DatabaseConfig: com.sleepycat.je.DatabaseConfig DEFAULT>
+static	<com.sleepycat.je.dbi.MemoryBudget: int ARRAY_ITEM_OVERHEAD>
 private	<com.sleepycat.je.SequenceConfig: boolean decrement>
 private	<com.sleepycat.je.EnvironmentStats: int nINsMigrated>
 private	<com.sleepycat.je.log.LogManager: int nRepeatFaultReads>
@@ -900,8 +900,8 @@ private	<com.sleepycat.je.txn.Txn: int WRITE_LOCK_OVERHEAD>
 final	<com.sleepycat.je.log.LogUtils: int INT_BYTES>
 final	<com.sleepycat.je.dbi.DbEnvState: boolean DEBUG>
 final	<com.sleepycat.je.txn.LockGrantType: com.sleepycat.je.txn.LockGrantType NONE_NEEDED>
-final	<com.sleepycat.je.latch.SharedLatchImpl$Owner: int EXCLUSIVE>
 final	<com.sleepycat.je.cleaner.Cleaner: java.lang.String CLEAN_MIGRATE_LN>
+final	<com.sleepycat.je.latch.SharedLatchImpl$Owner: int EXCLUSIVE>
 private	<com.sleepycat.je.SequenceConfig: int cacheSize>
 public	<com.sleepycat.je.utilint.EventTrace: boolean TRACE_EVENTS>
 static	<com.sleepycat.je.txn.LockGrantType: com.sleepycat.je.txn.LockGrantType WAIT_RESTART>
@@ -1112,8 +1112,8 @@ private	<com.sleepycat.je.util.DbSpace: java.io.File envHome>
 private	<com.sleepycat.je.dbi.DatabaseImpl: java.util.Comparator duplicateComparator>
 private	<com.sleepycat.je.dbi.EnvironmentImpl: com.sleepycat.je.latch.Latch mapTreeRootLatch>
 private	<com.sleepycat.je.dbi.MemoryBudget: long criticalThreshold>
-private	<com.sleepycat.je.Sequence: long rangeMin>
 static	<com.sleepycat.je.log.LogBufferPool: boolean $assertionsDisabled>
+private	<com.sleepycat.je.Sequence: long rangeMin>
 final	<com.sleepycat.je.tree.Tree: java.lang.String TRACE_DUP_ROOT_SPLIT>
 private	<com.sleepycat.je.util.DbRunAction: int DBSTATS>
 private	<com.sleepycat.je.StatsConfig: java.io.PrintStream showProgressStream>
@@ -1345,8 +1345,8 @@ static	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.IntCo
 final	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.BooleanConfigParam JE_LOGGING_CONSOLE>
 final	<com.sleepycat.je.log.LogManager: int HEADER_CONTENT_BYTES>
 public	<com.sleepycat.je.txn.LockGrantType: com.sleepycat.je.txn.LockGrantType DENIED>
-final	<com.sleepycat.je.config.BooleanConfigParam: java.lang.String DEBUG_NAME>
 	<com.sleepycat.je.cleaner.Cleaner: int nLNsMarked>
+final	<com.sleepycat.je.config.BooleanConfigParam: java.lang.String DEBUG_NAME>
 private	<com.sleepycat.je.util.DbLoad: byte backSlashValue>
 static	<com.sleepycat.je.log.LogEntryType: byte IGNORE_PROVISIONAL>
 public	<com.sleepycat.je.tree.CursorsExistException: com.sleepycat.je.tree.CursorsExistException CURSORS_EXIST>
@@ -1510,8 +1510,8 @@ private	<com.sleepycat.je.config.EnvironmentParams: int NUM_LOG_BUFFERS_DEFAULT>
 private	<com.sleepycat.je.dbi.DatabaseImpl: short DELETED_CLEANUP_LOG_HARVEST>
 static	<com.sleepycat.je.dbi.MemoryBudget: int DIN_FIXED_OVERHEAD_32_14>
 final	<com.sleepycat.je.dbi.INList: java.lang.String DEBUG_NAME>
-private	<com.sleepycat.je.dbi.DatabaseImpl: int maxMainTreeEntriesPerNode>
 private	<com.sleepycat.je.utilint.DbScavenger: com.sleepycat.je.utilint.BitMap nodeIdsSeen>
+private	<com.sleepycat.je.dbi.DatabaseImpl: int maxMainTreeEntriesPerNode>
 final	<com.sleepycat.je.log.LogEntryType: com.sleepycat.je.log.LogEntryType LOG_MAPLN>
 private	<com.sleepycat.je.util.DbCacheSize$1: java.io.PrintStream val$out>
 static	<com.sleepycat.je.txn.LockUpgrade: com.sleepycat.je.txn.LockUpgrade WRITE_PROMOTE>
@@ -1547,8 +1547,8 @@ private	<com.sleepycat.je.dbi.DbEnvState: java.lang.String name>
 static	<com.sleepycat.je.OperationStatus: com.sleepycat.je.OperationStatus NOTFOUND>
 private	<com.sleepycat.je.log.FileReader: boolean alwaysValidateChecksum>
 final	<com.sleepycat.je.dbi.MemoryBudget: int DUPCOUNTLN_OVERHEAD_32>
-static	<com.sleepycat.je.dbi.MemoryBudget: boolean $assertionsDisabled>
 static	<com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.DatabaseId ID_DB_ID>
+static	<com.sleepycat.je.dbi.MemoryBudget: boolean $assertionsDisabled>
 final	<com.sleepycat.je.log.LogManager: boolean $assertionsDisabled>
 static	<com.sleepycat.je.txn.LockUpgrade: com.sleepycat.je.txn.LockUpgrade RANGE_READ_IMMED>
 private	<com.sleepycat.je.txn.TxnPrepare: javax.transaction.xa.Xid xid>
@@ -1570,8 +1570,8 @@ protected	<com.sleepycat.je.log.FileReader: int currentEntrySize>
 static	<com.sleepycat.je.utilint.DbLsn: long INT_MASK>
 private	<com.sleepycat.je.cleaner.OffsetList$Segment: int[] values>
 final	<com.sleepycat.je.latch.SharedLatchImpl: boolean $assertionsDisabled>
-private	<com.sleepycat.je.log.CleanerFileReader: com.sleepycat.je.log.entry.LogEntry targetLogEntry>
 protected	<com.sleepycat.je.txn.LockManager: int nLockTables>
+private	<com.sleepycat.je.log.CleanerFileReader: com.sleepycat.je.log.entry.LogEntry targetLogEntry>
 final	<com.sleepycat.je.dbi.MemoryBudget: java.lang.String JVM_ARCH_PROPERTY>
 static	<com.sleepycat.je.util.DbLoad: boolean DEBUG>
 private	<com.sleepycat.je.dbi.INList: boolean updateMemoryUsage>
@@ -1976,8 +1976,8 @@ private	<com.sleepycat.je.JEVersion: int minorNum>
 private	<com.sleepycat.je.recovery.RecoveryManager: java.lang.String TRACE_IN_DEL_REPLAY>
 private	<com.sleepycat.je.EnvironmentConfig: boolean createUP>
 static	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.ConfigParam JE_LOGGING_LEVEL_LOCKMGR>
-final	<com.sleepycat.je.dbi.MemoryBudget: int DBIN_FIXED_OVERHEAD_32_14>
 final	<com.sleepycat.je.Environment: java.lang.String PROPFILE_NAME>
+final	<com.sleepycat.je.dbi.MemoryBudget: int DBIN_FIXED_OVERHEAD_32_14>
 private	<com.sleepycat.je.BtreeStats: long deletedLNCount>
 static	<com.sleepycat.je.dbi.MemoryBudget: int TFS_LIST_INITIAL_OVERHEAD_32>
 final	<com.sleepycat.je.tree.LN: java.lang.String BEGIN_TAG>
@@ -2654,8 +2654,8 @@ final	<com.sleepycat.je.cleaner.Cleaner: boolean DO_CRITICAL_EVICTION>
 public	<com.sleepycat.je.latch.LatchStats: int nAcquiresSelfOwned>
 public	<com.sleepycat.je.tree.SearchResult: boolean keepSearching>
 private	<com.sleepycat.je.config.IntConfigParam: java.lang.String DEBUG_NAME>
-final	<com.sleepycat.je.tree.DIN: java.lang.String BEGIN_TAG>
 final	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.IntConfigParam EVICTOR_RETRY>
+final	<com.sleepycat.je.tree.DIN: java.lang.String BEGIN_TAG>
 private	<com.sleepycat.je.util.DbLoad: java.lang.String usageString>
 public	<com.sleepycat.je.dbi.MemoryBudget: int TWOHASHMAPS_OVERHEAD>
 private	<com.sleepycat.je.dbi.SortedLSNTreeWalker: boolean removeINsFromINList>
@@ -2726,8 +2726,8 @@ static	<com.sleepycat.je.txn.LockType: com.sleepycat.je.txn.LockConflict[][] con
 private	<com.sleepycat.je.log.FileHeader: int logVersion>
 private	<com.sleepycat.je.dbi.DatabaseImpl: java.util.Set referringHandles>
 final	<com.sleepycat.je.txn.LockType: com.sleepycat.je.txn.LockType RANGE_READ>
-final	<com.sleepycat.je.tree.CursorsExistException: com.sleepycat.je.tree.CursorsExistException CURSORS_EXIST>
 public	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.LongConfigParam MAX_MEMORY>
+final	<com.sleepycat.je.tree.CursorsExistException: com.sleepycat.je.tree.CursorsExistException CURSORS_EXIST>
 final	<com.sleepycat.je.log.LogEntryType: com.sleepycat.je.log.LogEntryType LOG_IN_DUPDELETE_INFO>
 private	<com.sleepycat.je.Cursor: com.sleepycat.je.Database dbHandle>
 private	<com.sleepycat.je.tree.DeltaInfo: byte state>
@@ -2760,8 +2760,8 @@ private	<com.sleepycat.je.txn.LockManager: com.sleepycat.je.dbi.RangeRestartExce
 public	<com.sleepycat.je.tree.TreeStats: int nRootSplits>
 static	<com.sleepycat.je.txn.LockGrantType: com.sleepycat.je.txn.LockGrantType NONE_NEEDED>
 public	<com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.DatabaseId NAME_DB_ID>
-final	<com.sleepycat.je.cleaner.Cleaner$1: com.sleepycat.je.tree.BIN val$bin>
 static	<com.sleepycat.je.txn.LockManager: boolean $assertionsDisabled>
+final	<com.sleepycat.je.cleaner.Cleaner$1: com.sleepycat.je.tree.BIN val$bin>
 static	<com.sleepycat.je.dbi.GetMode: com.sleepycat.je.dbi.GetMode PREV_DUP>
 	<com.sleepycat.je.cleaner.Cleaner: java.util.Set mustBeCleanedFiles>
 public	<com.sleepycat.je.config.EnvironmentParams: com.sleepycat.je.config.LongConfigParam CLEANER_LOCK_TIMEOUT>

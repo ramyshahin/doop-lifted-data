@@ -7,8 +7,8 @@
 <Vertex: EdgeIter getEdges()>/invoke/instruction4	4	<Vertex: EdgeIter getEdges()>/$null0	<Vertex: EdgeIter getEdges()>	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
 <EdgeIter: EdgeIfc next()>/return/instruction2	2	<EdgeIter: EdgeIfc next()>/$null0	<EdgeIter: EdgeIfc next()>
 <Vertex: Vertex getEnd()>/return/instruction2	2	<Vertex: Vertex getEnd()>/$null0	<Vertex: Vertex getEnd()>	@(G_NoEdges) /\ (G_NoEdges)
-<Edge: Vertex getOtherVertex(Vertex)>/return/instruction11	11	<Edge: Vertex getOtherVertex(Vertex)>/$null0	<Edge: Vertex getOtherVertex(Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Vertex: void <init>()>/assign/instruction3	3	<Vertex: void <init>()>/$null0	<Vertex: void <init>()>
+<Edge: Vertex getOtherVertex(Vertex)>/return/instruction11	11	<Edge: Vertex getOtherVertex(Vertex)>/$null0	<Edge: Vertex getOtherVertex(Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph prim(Vertex)>/assign/instruction17	17	<Graph: Graph prim(Vertex)>/$null1	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/return/instruction28	28	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$null0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph prim(Vertex)>/assign/instruction7	7	<Graph: Graph prim(Vertex)>/$null0	<Graph: Graph prim(Vertex)>	@MSTPrim

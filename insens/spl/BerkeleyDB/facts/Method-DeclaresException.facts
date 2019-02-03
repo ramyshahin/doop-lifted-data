@@ -225,8 +225,8 @@ java.lang.IllegalArgumentException	<com.sleepycat.je.EnvironmentMutableConfig: v
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.LogBuffer: boolean containsLsn(long)>
 java.io.IOException	<com.sleepycat.je.util.DbLoad: void main(java.lang.String[])>
 com.sleepycat.je.tree.CursorsExistException	<com.sleepycat.je.tree.Tree: void deleteDup(byte[],byte[],com.sleepycat.je.cleaner.UtilizationTracker)>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.CursorImpl: void lockEofNode(com.sleepycat.je.txn.LockType)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.BIN getNextBin(com.sleepycat.je.tree.BIN,boolean)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.CursorImpl: void lockEofNode(com.sleepycat.je.txn.LockType)>
 java.lang.IndexOutOfBoundsException	<com.sleepycat.je.utilint.BitMap: boolean get(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.Cleaner: void lazyMigrateLNs(com.sleepycat.je.tree.BIN,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.Tree: boolean cascadeUpdates(java.util.ArrayList,com.sleepycat.je.tree.BIN,int)>
@@ -273,8 +273,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.FileManager: void syncL
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.SyncedLockManager: void transferMultiple(long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[])>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getBestFileForCleaning(com.sleepycat.je.cleaner.FileSelector,boolean,java.util.Set)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Cursor: com.sleepycat.je.OperationStatus getSearchKeyRange(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode)>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Txn: com.sleepycat.je.txn.WriteLockInfo getWriteLockInfo(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Environment: void <init>(java.io.File)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Txn: com.sleepycat.je.txn.WriteLockInfo getWriteLockInfo(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.MemoryBudget: long calcTreeCacheUsage()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Locker: void transferHandleLockToHandle(com.sleepycat.je.Database)>
 java.io.IOException	<com.sleepycat.je.log.LastFileReader: void initStartingPosition(long,java.lang.Long)>
@@ -306,8 +306,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.DbInternal: com.sleepycat.j
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.incomp.INCompressor: void onWakeup()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.IN: void descendOnParentSearch(com.sleepycat.je.tree.SearchResult,boolean,boolean,long,com.sleepycat.je.tree.Node,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Database: com.sleepycat.je.Cursor newDbcInstance(com.sleepycat.je.Transaction,com.sleepycat.je.CursorConfig)>
-java.io.IOException	<com.sleepycat.je.config.EnvironmentParams: void main(java.lang.String[])>
 com.sleepycat.je.tree.SplitRequiredException	<com.sleepycat.je.tree.Tree: void forceSplit(com.sleepycat.je.tree.IN,byte[])>
+java.io.IOException	<com.sleepycat.je.config.EnvironmentParams: void main(java.lang.String[])>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.ReadCommittedLocker: com.sleepycat.je.txn.Locker newNonTxnLocker()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.CursorImpl: com.sleepycat.je.dbi.CursorImpl cloneCursor(boolean,com.sleepycat.je.dbi.CursorImpl)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.Cleaner: void processPendingLN(com.sleepycat.je.tree.LN,com.sleepycat.je.dbi.DatabaseImpl,byte[],byte[],com.sleepycat.je.tree.TreeLocation)>
@@ -358,8 +358,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.util.DbCacheSize: void prel
 javax.transaction.xa.XAException	<com.sleepycat.je.XAEnvironment: void forget(javax.transaction.xa.Xid)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.DbConfigManager: long getLong(com.sleepycat.je.config.LongConfigParam)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.DbTree: java.lang.String getDbName(com.sleepycat.je.dbi.DatabaseId)>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.DummyLockManager: java.util.Set releaseAndFindNotifyTargets(long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker,boolean)>
 java.io.IOException	<com.sleepycat.je.utilint.DbScavenger$ScavengerFileReader1: void <init>(com.sleepycat.je.utilint.DbScavenger,com.sleepycat.je.dbi.EnvironmentImpl,int,long,long,long)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.DummyLockManager: java.util.Set releaseAndFindNotifyTargets(long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker,boolean)>
 com.sleepycat.je.latch.LatchException	<com.sleepycat.je.latch.LatchImpl: boolean noteLatch()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Cursor: com.sleepycat.je.OperationStatus putAllowPhantoms(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.dbi.PutMode,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.dbi.CursorImpl)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.BIN: void evictLN(int)>
@@ -447,8 +447,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.UtilizationProfile:
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Database: void preload(long,long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.DIN: long computeOverhead(com.sleepycat.je.dbi.DbConfigManager)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Environment: void checkHandleIsValid()>
-java.io.IOException	<com.sleepycat.je.log.CleanerFileReader: void initStartingPosition(long,java.lang.Long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.util.DbLoad: void main(java.lang.String[])>
+java.io.IOException	<com.sleepycat.je.log.CleanerFileReader: void initStartingPosition(long,java.lang.Long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.PrintFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,long,long,java.lang.String,java.lang.String,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.Cursor: com.sleepycat.je.dbi.CursorImpl beginRead(boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Locker: com.sleepycat.je.txn.LockResult lock(long,com.sleepycat.je.txn.LockType,boolean,com.sleepycat.je.dbi.DatabaseImpl)>
@@ -565,8 +565,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.EnvironmentImpl: void d
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.FileManager$FileCache: void add(java.lang.Long,com.sleepycat.je.log.FileHandle)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.BIN getNextBinInternal(boolean,com.sleepycat.je.tree.BIN,boolean)>
 java.lang.IndexOutOfBoundsException	<com.sleepycat.je.utilint.BitMap: void set(long)>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.DummyLockManager: void demote(long,com.sleepycat.je.txn.Locker)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.compat.DbCompat: com.sleepycat.je.OperationStatus putBefore(com.sleepycat.je.Cursor,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.DummyLockManager: void demote(long,com.sleepycat.je.txn.Locker)>
 java.io.IOException	<com.sleepycat.je.log.FileManager: void close()>
 com.sleepycat.je.log.FileReader$EOFException	<com.sleepycat.je.log.FileReader: void getLogEntryInReadBuffer()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.Database findPrimaryDatabase()>
@@ -728,9 +728,9 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.FileHandle: boolean lat
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.BasicLocker: void removeLock(long,com.sleepycat.je.txn.Lock)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.SortedLSNTreeWalker: void walkInternal()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.CursorImpl: void flushBINToBeRemoved()>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.INList: void releaseMinorLatch()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.LockManager: boolean release(long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.BIN: void splitSpecial(com.sleepycat.je.tree.IN,int,int,byte[],boolean)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.INList: void releaseMinorLatch()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.LNFileReader: boolean processEntry(java.nio.ByteBuffer)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.FSyncManager: void <init>(com.sleepycat.je.dbi.EnvironmentImpl)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.BINDelta: com.sleepycat.je.tree.BIN reconstituteBIN(com.sleepycat.je.dbi.EnvironmentImpl)>
@@ -772,9 +772,9 @@ com.sleepycat.je.latch.LatchNotHeldException	<com.sleepycat.je.latch.Java5LatchI
 java.io.IOException	<com.sleepycat.je.log.LogBufferPool: com.sleepycat.je.log.LogBuffer getWriteBuffer(int,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.UtilizationProfile: com.sleepycat.je.cleaner.TrackedFileSummary getObsoleteDetail(java.lang.Long,com.sleepycat.je.cleaner.PackedOffsets,boolean)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.utilint.DbScavenger: java.io.PrintStream getOutputStream(java.lang.Integer)>
+java.io.IOException	<com.sleepycat.je.log.FileManager: long getFileHeaderPrevOffset(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getCheapestFileToClean(java.util.SortedSet)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.UtilizationProfile: java.util.SortedMap getFileSummaryMap(boolean)>
-java.io.IOException	<com.sleepycat.je.log.FileManager: long getFileHeaderPrevOffset(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.util.DbLoad: void loadData(com.sleepycat.je.Database)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.log.LogManager: long log(com.sleepycat.je.log.LoggableObject)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.cleaner.VerifyUtils: void checkLsns(com.sleepycat.je.Database)>
@@ -1146,8 +1146,8 @@ com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.IN: void postFetchInit
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Locker: void releaseNonTxnLocks()>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.dbi.MemoryBudget: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.SecondaryCursor: void <init>(com.sleepycat.je.SecondaryCursor,boolean)>
-com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.TreeIterator: void <init>(com.sleepycat.je.tree.Tree)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.util.DbCacheSize: void measure(java.io.PrintStream,java.io.File,long,int,int,int,boolean)>
+com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.TreeIterator: void <init>(com.sleepycat.je.tree.Tree)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.tree.IN: long computeOverhead(com.sleepycat.je.dbi.DbConfigManager)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.txn.Locker: com.sleepycat.je.txn.WriteLockInfo getWriteLockInfo(long)>
 com.sleepycat.je.DatabaseException	<com.sleepycat.je.util.DbVerify: void main(java.lang.String[])>

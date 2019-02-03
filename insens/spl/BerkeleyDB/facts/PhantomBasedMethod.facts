@@ -460,8 +460,8 @@
 <com.sleepycat.je.util.DbRecover: void main(java.lang.String[])>
 <com.sleepycat.je.log.FileReader: boolean readNextEntry()>
 <com.sleepycat.je.tree.IN: java.util.Comparator getKeyComparator()>
-<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getBestFileForCleaning(com.sleepycat.je.cleaner.FileSelector,boolean,java.util.Set)>
 <com.sleepycat.je.log.FileManager: java.lang.Long getNumFromName(java.lang.String)>
+<com.sleepycat.je.cleaner.UtilizationProfile: java.lang.Long getBestFileForCleaning(com.sleepycat.je.cleaner.FileSelector,boolean,java.util.Set)>
 <com.sleepycat.je.log.FileManager: java.lang.Long getFileNum(boolean)>
 <com.sleepycat.je.tree.Node: void readFromLog(java.nio.ByteBuffer,byte)>
 <com.sleepycat.je.latch.LatchSupport: java.lang.String latchesHeldToString()>
@@ -689,8 +689,8 @@
 <com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>
 <com.sleepycat.je.DatabaseConfig: java.lang.String genDatabaseConfigMismatchMessage(com.sleepycat.je.DatabaseConfig,boolean,boolean,boolean,boolean,boolean)>
 <com.sleepycat.je.latch.LatchImpl$LatchWaiter: java.lang.String toString()>	@Latches
-<com.sleepycat.je.log.FileManager: void generateRunRecoveryException(java.io.RandomAccessFile,java.nio.ByteBuffer,long)>
 <com.sleepycat.je.tree.DeltaInfo: void dumpLog(java.lang.StringBuffer,boolean)>
+<com.sleepycat.je.log.FileManager: void generateRunRecoveryException(java.io.RandomAccessFile,java.nio.ByteBuffer,long)>
 <com.sleepycat.je.config.IntConfigParam: void <init>(java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,boolean,java.lang.String)>
 <com.sleepycat.je.config.ConfigParam: java.lang.String getName()>
 <com.sleepycat.je.util.DbStat: void main(java.lang.String[])>
@@ -748,8 +748,8 @@
 <com.sleepycat.je.log.FileManager$FileCache: com.sleepycat.je.log.FileHandle get(java.lang.Long)>	@FileHandleCache
 <com.sleepycat.je.log.FileManager$FileMode: void <init>(java.lang.String)>
 <com.sleepycat.je.utilint.InternalException: void <init>(java.lang.String)>
-<com.sleepycat.je.txn.Txn: void addLock(java.lang.Long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType)>
 <com.sleepycat.je.tree.IN: void dumpLog(java.lang.StringBuffer,boolean)>
+<com.sleepycat.je.txn.Txn: void addLock(java.lang.Long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType)>
 <com.sleepycat.je.XAEnvironment: void end(javax.transaction.xa.Xid,int)>
 <com.sleepycat.je.config.ConfigParam: void validateName(java.lang.String)>
 <com.sleepycat.je.EnvironmentMutableConfig: void checkImmutablePropsForEquality(com.sleepycat.je.EnvironmentMutableConfig)>
@@ -798,8 +798,8 @@
 <com.sleepycat.je.EnvironmentMutableConfig: void <init>(java.util.Properties)>
 <com.sleepycat.je.txn.LockManager: int getLockTableIndex(java.lang.Long)>
 <com.sleepycat.je.cleaner.UtilizationProfile: void deleteFileSummary(java.lang.Long)>
-<com.sleepycat.je.cleaner.VerifyUtils$GatherLSNs: java.util.Set getLsns()>	@Verifier
 <com.sleepycat.je.recovery.Checkpointer: void flushIN(com.sleepycat.je.recovery.Checkpointer$CheckpointReference,java.util.Map,int,boolean,boolean,long)>
+<com.sleepycat.je.cleaner.VerifyUtils$GatherLSNs: java.util.Set getLsns()>	@Verifier
 <com.sleepycat.je.dbi.CursorImpl$SearchMode: java.lang.String toString()>
 <com.sleepycat.je.log.FileManager: java.lang.Long[] getAllFileNumbers()>
 <com.sleepycat.je.dbi.DbEnvState: void <init>(java.lang.String)>
@@ -865,8 +865,8 @@
 <com.sleepycat.je.latch.LatchImpl: java.lang.String getNameString()>
 <com.sleepycat.je.utilint.TinyHashSet: java.util.Iterator iterator()>
 <com.sleepycat.je.dbi.DatabaseImpl: java.lang.String getName()>
-<com.sleepycat.je.EnvironmentMutableConfig: void setCacheSize(long)>
 <com.sleepycat.je.recovery.Checkpointer: void flushDirtyNodes(java.util.SortedMap,boolean,boolean,boolean,long)>
+<com.sleepycat.je.EnvironmentMutableConfig: void setCacheSize(long)>
 <com.sleepycat.je.log.LogUtils: void writeIntMSB(java.nio.ByteBuffer,int)>
 <com.sleepycat.je.recovery.RecoveryManager: void traceAndThrowException(long,java.lang.String,java.lang.Exception)>
 <com.sleepycat.je.XAEnvironment: void setXATransaction(javax.transaction.xa.Xid,com.sleepycat.je.Transaction)>

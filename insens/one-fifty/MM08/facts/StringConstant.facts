@@ -19,12 +19,12 @@ Error Incoming Photo
 <<\\"\\">>
 MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
 java.home
-/images/Tucan.png
 ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
+/images/Tucan.png
 Edit Label Item
 <<\\"<* SelectMediaController.handleCommand() *>: \\">>
-Volume: 50
 <<\\"<* PhotoViewController.handleCommand() *> \\">>
+Volume: 50
 /images/Gregor1.PNG
 1000
 Obteve a imagem
@@ -33,13 +33,13 @@ Finishing Baseathread::run()
 Crio a screen
 <<\\"Would you like to remove the album \\">>
 SmsMessaging::receiveImage() - Finish
-<<\\"Passing to next controller in chain: \\">>
 Add new Photo Album
+<<\\"Passing to next controller in chain: \\">>
 default
 MobileMedia
 Reject Photo
-<<\\"SmsController::handleCommand - Sending bytes for image \\">>
 Fish
+<<\\"SmsController::handleCommand - Sending bytes for image \\">>
 Definiu a imagem
 <<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
 Incoming SMS Message with Payload:
@@ -58,18 +58,18 @@ Jump
 AddPhotoToAlbum
 <<\\"<* PhotoController.handleCommand() *> Save Photo Label = \\">>
 Edit Label
-Tempo: 120
 New picture
 video/mpeg
+Tempo: 120
 \\"*\\"
-Music
 <<\\"Ignoring Exception: \\">>
+Music
 Select
 DEBUG 2: after smsConn.receive()
 midlet.name
 Sorting by BubbleSort...
-BaseThread:: 0 Param Constructor used: Using default values
 SmsController::Starting SMSReceiver Thread
+BaseThread:: 0 Param Constructor used: Using default values
 /images/ubcLogo.PNG
 Add
 <<\\"SmsReceiverController::handleCommand: \\">>
@@ -110,20 +110,20 @@ Photos
 Path not valid for this media:
 wtk.home
 Kris
-DEBUG 1: before smsConn.receive():
 Type of media
-<<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
+DEBUG 1: before smsConn.receive():
 <<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
+<<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
 <<\\"From: \\">>
 <<\\"<* MusicPlayController.handleCommand() *> \\">>
 Password
 No Video Control for capturing!
-image/png
 <<\\"AbstractController::postCommand - Current controller is: \\">>
+image/png
 Accept Photo
 <<\\"SmsMessaging::sendImage() num segments to send is: \\">>
-Baby
 /images/Gail1.PNG
+Baby
 Incoming Binary SMS Message...
 View
 Current List from display is NULL!
@@ -132,9 +132,9 @@ Play Video
 MobileMedia.jar
 /images/bong.wav
 MobileMedia.jad
+Starting SMSReceiver::run()
 Bong
 <<\\"<* BaseController.handleCommand() *> Image = \\">>
-Starting SMSReceiver::run()
 /images/baby.wav
 mpa-
 <<\\"SmsSenderThread:: 3 Param Constructor: \\">>
@@ -143,8 +143,8 @@ Set Favorite
 C:\user\research\MobileMedia\Antenna
 ConfirmDeleteAlbumScreen
 prc.name
-UBC Logo
 BEFORE ALERT CODE
+UBC Logo
 Error criar or controler
 <<\\"Tempo: \\">>
 /images/Kdvolder1.PNG
@@ -164,8 +164,8 @@ New photo
 View Favorites
 No - Delete
 Cancel
-/images/applause.wav
 <* BaseController.goToPreviousScreen() **>
+/images/applause.wav
 Confirm
 Item label
 Cancel sending of SMS message
@@ -176,13 +176,13 @@ done.
 <<\\"<* AlbumController.handleCommand() *>: \\">>
 Error ao definir a tela
 Finishing SMSReceiver run()
-Starting BaseThread::run()
 New Incoming Photo
+Starting BaseThread::run()
 My Photo Album
 \\"ConfirmDeleteAlbumScreen\\"
 Error:
-/images/Penguin.png
 A MobilePhoto user has sent you a Photo. Do you want to accept it?
+/images/Penguin.png
 mmp-
 Reciever Details
 Play
@@ -194,11 +194,11 @@ mmpi-
 <<\\"<* MediaUtil.readMediaAsByteArray() *> is = \\">>
 Take photo
 The mobile database is full
-Printer
 EStou aqui 11...........................
+Printer
 <<\\"...or...No record store named \\">>
-<<\\"SmsSenderController::handleCommand: \\">>
 Delete Photo Album
+<<\\"SmsSenderController::handleCommand: \\">>
 My Music Album
 audio/x-wav
 Olha para a captura
@@ -226,12 +226,12 @@ sms://
 Add new item to Album
 <<\\" \\">>
 MM08.jar
-Select Album
 OK
 Sort by Views
+Select Album
 No
-/images/printer.wav
 NewLabelScreen
+/images/printer.wav
 Yes - Delete
 Error
 <<\\"Volume: \\">>

@@ -240,8 +240,8 @@ com.sleepycat.je.dbi.TruncateResult
 com.sleepycat.je.txn.BasicLocker
 com.sleepycat.je.utilint.HexFormatter
 com.sleepycat.je.dbi.CursorImpl
-com.sleepycat.je.log.CheckpointMonitor
 com.sleepycat.je.evictor.Evictor
+com.sleepycat.je.log.CheckpointMonitor
 com.sleepycat.je.dbi.DatabaseImpl$HaltPreloadException
 com.sleepycat.je.txn.LockManager
 com.sleepycat.je.log.LogManager

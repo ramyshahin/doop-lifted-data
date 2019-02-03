@@ -1,5 +1,5 @@
-public	RegionWorkSpace
 abstract	NeighborIfc
+public	RegionWorkSpace
 public	Main
 public	NeighborIfc
 public	Edge
@@ -9,8 +9,8 @@ public	Neighbor
 final	Graph$Comparator2
 final	Graph$Comparator1
 final	Graph$Comparator3
-public	GlobalVarsWrapper
 public	VertexIter
+public	GlobalVarsWrapper
 final	Vertex$EdgeIter2
 final	Graph$EdgeIter1
 final	Vertex$EdgeIter3

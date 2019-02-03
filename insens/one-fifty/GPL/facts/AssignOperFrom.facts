@@ -1,8 +1,8 @@
 <Graph: void stopProfile()>/assign/instruction6	1	<Graph: void stopProfile()>/$l2
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/$i0
 <Graph: Graph prim(Vertex)>/assign/instruction80	1	<Graph: Graph prim(Vertex)>/$i3
-<WorkSpaceTranspose: void nextRegionAction(Vertex)>/assign/instruction4	1	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/$i0
 <Graph: Graph kruskal()>/assign/instruction140	1	<Graph: Graph kruskal()>/i_$$A_1#_498
+<WorkSpaceTranspose: void nextRegionAction(Vertex)>/assign/instruction4	1	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/$i0
 <NumberWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<NumberWorkSpace: void preVisitAction(Vertex)>/$i0
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	1	<CycleWorkSpace: void preVisitAction(Vertex)>/$i0
 <CycleWorkSpace: void postVisitAction(Vertex)>/assign/instruction6	1	<CycleWorkSpace: void postVisitAction(Vertex)>/$i0

@@ -2,10 +2,10 @@
 <Vertex: void display()>/assign/instruction56	56	<Vertex: void display()>/new java.lang.StringBuilder/3	<Vertex: void display()>/$r23	<Vertex: void display()>	275	@Number
 <Graph: void run(Vertex)>/assign/instruction5	5	<Graph: void run(Vertex)>/new java.lang.StringBuilder/0	<Graph: void run(Vertex)>/$r0	<Graph: void run(Vertex)>	257	@Cycle /\ Prog
 <Graph: Graph strongComponents()>/assign/instruction6	6	<Graph: Graph strongComponents()>/new Graph$Comparator1/0	<Graph: Graph strongComponents()>/$r1	<Graph: Graph strongComponents()>	330	@StronglyConnected
-<Vertex: void display()>/assign/instruction85	85	<Vertex: void display()>/new java.lang.StringBuilder/6	<Vertex: void display()>/$r39	<Vertex: void display()>	279	@Cycle
 <Graph: void display()>/invoke/instruction4	4	******************************************	<Graph: void display()>/$stringconstant0	<Graph: void display()>	171
-<Vertex: void display()>/assign/instruction25	25	<Vertex: void display()>/new java.lang.StringBuilder/1	<Vertex: void display()>/$r10	<Vertex: void display()>	263
+<Vertex: void display()>/assign/instruction85	85	<Vertex: void display()>/new java.lang.StringBuilder/6	<Vertex: void display()>/$r39	<Vertex: void display()>	279	@Cycle
 <Graph: EdgeIter getEdges()>/assign/instruction2	2	<Graph: EdgeIter getEdges()>/new Graph$EdgeIter1/0	<Graph: EdgeIter getEdges()>/$r0	<Graph: EdgeIter getEdges()>	103	@EdgeObjects
+<Vertex: void display()>/assign/instruction25	25	<Vertex: void display()>/new java.lang.StringBuilder/1	<Vertex: void display()>/$r10	<Vertex: void display()>	263
 <Vertex: void display()>/assign/instruction74	74	<Vertex: void display()>/new java.lang.StringBuilder/5	<Vertex: void display()>/$r33	<Vertex: void display()>	277	@StronglyConnected
 <Main: void main(java.lang.String[])>/assign/instruction33	33	<Main: void main(java.lang.String[])>/new int[]/1	<Main: void main(java.lang.String[])>/$r4	<Main: void main(java.lang.String[])>	40	@(Prog) /\ (Prog)
 <Vertex: void display()>/invoke/instruction102	102	<<\\" Rep \\">>	<Vertex: void display()>/$stringconstant9	<Vertex: void display()>	283	@MSTKruskal
@@ -13,11 +13,11 @@
 <Graph: int readNumber()>/assign/instruction3	3	<Graph: int readNumber()>/new char[]/0	<Graph: int readNumber()>/word#_208	<Graph: int readNumber()>	208	@(Benchmark) /\ (Benchmark)
 <Graph: Graph kruskal()>/assign/instruction16	16	<Graph: Graph kruskal()>/new java.util.LinkedList/2	<Graph: Graph kruskal()>/$r2	<Graph: Graph kruskal()>	415	@MSTKruskal
 <Main: void main(java.lang.String[])>/assign/instruction41	41	<Main: void main(java.lang.String[])>/new java.lang.StringBuilder/0	<Main: void main(java.lang.String[])>/$r7	<Main: void main(java.lang.String[])>	45	@(Prog) /\ (Prog)
-<Vertex: void display()>/invoke/instruction50	50	<<\\"  visited\\">>	<Vertex: void display()>/$stringconstant2	<Vertex: void display()>	271	@SearchBase
 <Graph: Graph kruskal()>/assign/instruction2	2	<Graph: Graph kruskal()>/new java.util.LinkedList/0	<Graph: Graph kruskal()>/$r0	<Graph: Graph kruskal()>	401	@MSTKruskal
+<Vertex: void display()>/invoke/instruction50	50	<<\\"  visited\\">>	<Vertex: void display()>/$stringconstant2	<Vertex: void display()>	271	@SearchBase
 <Vertex: void display()>/invoke/instruction97	97	<<\\"Rep null \\">>	<Vertex: void display()>/$stringconstant8	<Vertex: void display()>	281	@MSTKruskal
-<GlobalVarsWrapper: void <clinit>()>/assign/instruction1	1	<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<GlobalVarsWrapper: void <clinit>()>/$r0	<GlobalVarsWrapper: void <clinit>()>	5	@(BFS) /\ (BFS)
 <Graph: Graph prim(Vertex)>/assign/instruction106	106	<Graph: Graph prim(Vertex)>/new Vertex/0	<Graph: Graph prim(Vertex)>/$r14	<Graph: Graph prim(Vertex)>	637	@MSTPrim
+<GlobalVarsWrapper: void <clinit>()>/assign/instruction1	1	<GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	<GlobalVarsWrapper: void <clinit>()>/$r0	<GlobalVarsWrapper: void <clinit>()>	5	@(BFS) /\ (BFS)
 <Vertex: void <init>()>/assign/instruction8	8	<Vertex: void <init>()>/new java.util.LinkedList/1	<Vertex: void <init>()>/$r1	<Vertex: void <init>()>	90	@GN_OnlyNeighbors
 <Graph: void display()>/invoke/instruction22	22	******************************************	<Graph: void display()>/$stringconstant2	<Graph: void display()>	175
 <Graph: Graph kruskal()>/assign/instruction9	9	<Graph: Graph kruskal()>/new java.util.LinkedList/1	<Graph: Graph kruskal()>/$r1	<Graph: Graph kruskal()>	409	@MSTKruskal
@@ -29,9 +29,9 @@
 <Graph: void runBenchmark(java.lang.String)>/assign/instruction3	3	<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	<Graph: void runBenchmark(java.lang.String)>/$r0	<Graph: void runBenchmark(java.lang.String)>	196	@(Benchmark) /\ (Benchmark)
 <Graph: void addEdge(Vertex,Neighbor)>/assign/instruction6	6	<Graph: void addEdge(Vertex,Neighbor)>/new Neighbor/0	<Graph: void addEdge(Vertex,Neighbor)>/$r0	<Graph: void addEdge(Vertex,Neighbor)>	149	@(GN_OnlyNeighbors) /\ (Undirected /\ GN_OnlyNeighbors)
 <Graph: void numberVertices()>/assign/instruction2	2	<Graph: void numberVertices()>/new NumberWorkSpace/0	<Graph: void numberVertices()>/$r0	<Graph: void numberVertices()>	315	@(Number) /\ (Number)
-<Vertex: void display()>/invoke/instruction112	112	<<\\" Pred \\">>	<Vertex: void display()>/$stringconstant10	<Vertex: void display()>	285	@MSTPrim
 <Graph: void endProfile()>/assign/instruction10	10	<Graph: void endProfile()>/new java.lang.StringBuilder/0	<Graph: void endProfile()>/$r0	<Graph: void endProfile()>	249	@(Benchmark) /\ (Benchmark)
 <Graph: void endProfile()>/invoke/instruction12	12	<<\\"Time elapsed: \\">>	<Graph: void endProfile()>/$stringconstant0	<Graph: void endProfile()>	249	@(Benchmark) /\ (Benchmark)
+<Vertex: void display()>/invoke/instruction112	112	<<\\" Pred \\">>	<Vertex: void display()>/$stringconstant10	<Vertex: void display()>	285	@MSTPrim
 <Graph: Graph prim(Vertex)>/assign/instruction99	99	<Graph: Graph prim(Vertex)>/new Graph/0	<Graph: Graph prim(Vertex)>/$r13	<Graph: Graph prim(Vertex)>	630	@MSTPrim
 <Graph: Graph strongComponents()>/assign/instruction11	11	<Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	<Graph: Graph strongComponents()>/$r2	<Graph: Graph strongComponents()>	337	@StronglyConnected
 <Vertex: void display()>/assign/instruction110	110	<Vertex: void display()>/new java.lang.StringBuilder/8	<Vertex: void display()>/$r52	<Vertex: void display()>	285	@MSTPrim
@@ -39,16 +39,16 @@
 <Vertex: VertexIter getNeighbors()>/assign/instruction2	2	<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	<Vertex: VertexIter getNeighbors()>/$r0	<Vertex: VertexIter getNeighbors()>	103	@(G_NoEdges) /\ (G_NoEdges)
 <Graph: void display()>/invoke/instruction7	7	<<\\"Vertices \\">>	<Graph: void display()>/$stringconstant1	<Graph: void display()>	172
 <Graph: void runBenchmark(java.lang.String)>/invoke/instruction12	12	<<\\"Your file \\">>	<Graph: void runBenchmark(java.lang.String)>/$stringconstant0	<Graph: void runBenchmark(java.lang.String)>	198	@(Benchmark) /\ (Benchmark)
+<Graph: void display()>/invoke/instruction34	34	******************************************	<Graph: void display()>/$stringconstant4	<Graph: void display()>	180	@GEN_Edges
 <Vertex: void <init>()>/assign/instruction14	14	<Vertex: void <init>()>/new java.util.LinkedList/3	<Vertex: void <init>()>/$r3	<Vertex: void <init>()>	170	@Weighted /\ G_NoEdges
 <Vertex: EdgeIter getEdges()>/assign/instruction2	2	<Vertex: EdgeIter getEdges()>/new Vertex$EdgeIter1/0	<Vertex: EdgeIter getEdges()>/$r0	<Vertex: EdgeIter getEdges()>	154	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
-<Graph: void display()>/invoke/instruction34	34	******************************************	<Graph: void display()>/$stringconstant4	<Graph: void display()>	180	@GEN_Edges
 <Edge: void display()>/invoke/instruction13	13	<<\\" start=\\">>	<Edge: void display()>/$stringconstant1	<Edge: void display()>	47	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: void runBenchmark(java.lang.String)>/assign/instruction10	10	<Graph: void runBenchmark(java.lang.String)>/new java.lang.StringBuilder/0	<Graph: void runBenchmark(java.lang.String)>/$r2	<Graph: void runBenchmark(java.lang.String)>	198	@(Benchmark) /\ (Benchmark)
 <Edge: void display()>/invoke/instruction5	5	<<\\" Weight=\\">>	<Edge: void display()>/$stringconstant0	<Edge: void display()>	46	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <Vertex: void display()>/invoke/instruction67	67	<<\\" comp# \\">>	<Vertex: void display()>/$stringconstant5	<Vertex: void display()>	276	@Connected
 <Graph: boolean cycleCheck()>/assign/instruction2	2	<Graph: boolean cycleCheck()>/new CycleWorkSpace/0	<Graph: boolean cycleCheck()>/$r0	<Graph: boolean cycleCheck()>	393	@(Cycle) /\ (Cycle)
-<Vertex: void display()>/invoke/instruction87	87	<<\\" VertexCycle# \\">>	<Vertex: void display()>/$stringconstant7	<Vertex: void display()>	279	@Cycle
 <Graph: Graph kruskal()>/assign/instruction114	114	<Graph: Graph kruskal()>/new Graph/0	<Graph: Graph kruskal()>/$r24	<Graph: Graph kruskal()>	481	@MSTKruskal
+<Vertex: void display()>/invoke/instruction87	87	<<\\" VertexCycle# \\">>	<Vertex: void display()>/$stringconstant7	<Vertex: void display()>	279	@Cycle
 <Graph: void run(Vertex)>/invoke/instruction7	7	<<\\" Cycle? \\">>	<Graph: void run(Vertex)>/$stringconstant0	<Graph: void run(Vertex)>	257	@Cycle /\ Prog
 <Vertex: void addWeight(int)>/assign/instruction4	4	<Vertex: void addWeight(int)>/new java.lang.Integer/0	<Vertex: void addWeight(int)>/$r0	<Vertex: void addWeight(int)>	173	@(Weighted) /\ (Weighted /\ G_NoEdges)
 <Graph: int readNumber()>/assign/instruction29	29	<Graph: int readNumber()>/new java.lang.String/0	<Graph: int readNumber()>/$r3	<Graph: int readNumber()>	224	@(Benchmark) /\ (Benchmark)

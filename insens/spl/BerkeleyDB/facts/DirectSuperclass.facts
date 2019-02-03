@@ -58,8 +58,8 @@ com.sleepycat.je.tree.Key	java.lang.Object
 com.sleepycat.je.dbi.INList	java.lang.Object
 com.sleepycat.je.TransactionStats	java.lang.Object
 com.sleepycat.je.utilint.DbScavenger	com.sleepycat.je.util.DbDump
-com.sleepycat.je.config.BooleanConfigParam	com.sleepycat.je.config.ConfigParam
 com.sleepycat.je.tree.Tree$SearchType	java.lang.Object
+com.sleepycat.je.config.BooleanConfigParam	com.sleepycat.je.config.ConfigParam
 com.sleepycat.je.latch.SharedLatchImpl$Owner	java.lang.Object
 com.sleepycat.je.txn.LockManager$LockAttemptResult	java.lang.Object
 com.sleepycat.je.dbi.DbTree$RootLevel	java.lang.Object
@@ -124,8 +124,8 @@ com.sleepycat.je.cleaner.FileSelector	java.lang.Object
 com.sleepycat.je.CheckpointConfig	java.lang.Object
 com.sleepycat.je.tree.Node	java.lang.Object
 com.sleepycat.je.dbi.GetMode	java.lang.Object
-com.sleepycat.je.txn.BuddyLocker	com.sleepycat.je.txn.BasicLocker
 com.sleepycat.je.evictor.Evictor$ScanIterator	java.lang.Object
+com.sleepycat.je.txn.BuddyLocker	com.sleepycat.je.txn.BasicLocker
 com.sleepycat.je.tree.DupCountLN	com.sleepycat.je.tree.LN
 com.sleepycat.je.SequenceConfig	java.lang.Object
 com.sleepycat.je.log.entry.INLogEntry	java.lang.Object
@@ -162,8 +162,8 @@ com.sleepycat.je.log.StatsFileReader$CheckpointCounter	java.lang.Object
 com.sleepycat.je.PreloadStatus	java.lang.Object
 com.sleepycat.je.cleaner.PackedOffsets$Iterator	java.lang.Object
 com.sleepycat.je.EnvironmentMutableConfig	java.lang.Object
-com.sleepycat.je.dbi.DatabaseImpl$ObsoleteProcessor	java.lang.Object
 com.sleepycat.je.cleaner.FileProcessor$LookAheadCache	java.lang.Object
+com.sleepycat.je.dbi.DatabaseImpl$ObsoleteProcessor	java.lang.Object
 com.sleepycat.je.tree.CursorsExistException	java.lang.Exception
 com.sleepycat.je.util.DbCacheSize	java.lang.Object
 com.sleepycat.je.recovery.RecoveryManager	java.lang.Object

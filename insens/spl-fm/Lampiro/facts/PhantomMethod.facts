@@ -170,15 +170,15 @@
 <java.util.Calendar: java.util.Calendar getInstance()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
 <javax.microedition.lcdui.Alert: void <init>(java.lang.String,java.lang.String,javax.microedition.lcdui.Image,javax.microedition.lcdui.AlertType)>
-<javax.microedition.lcdui.Form: javax.microedition.lcdui.Item get(int)>
 <org.xmlpull.v1.XmlSerializer: void flush()>
+<javax.microedition.lcdui.Form: javax.microedition.lcdui.Item get(int)>
 <java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>
 <java.lang.String: java.lang.String valueOf(char)>
 <javax.microedition.lcdui.StringItem: void setText(java.lang.String)>
 <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()>
 <javax.microedition.lcdui.TextBox: void setTitle(java.lang.String)>
-<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.lang.IndexOutOfBoundsException: void <init>()>
+<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.io.DataInputStream: void readFully(byte[])>
 <javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>
 <javax.microedition.media.Player: void start()>
@@ -225,8 +225,8 @@
 <java.util.Vector: int indexOf(java.lang.Object)>
 <javax.microedition.lcdui.Canvas: int getGameAction(int)>
 <java.util.Hashtable: void <init>()>
-<java.lang.Integer: java.lang.String toHexString(int)>
 <java.io.InputStream: void close()>
+<java.lang.Integer: java.lang.String toHexString(int)>
 <java.util.Timer: void schedule(java.util.TimerTask,long)>
 <java.util.Hashtable: java.lang.Object get(java.lang.Object)>
 <java.lang.String: byte[] getBytes(java.lang.String)>
@@ -305,8 +305,8 @@
 <java.io.ByteArrayOutputStream: void write(byte[])>
 <java.util.Vector: java.lang.Object lastElement()>
 <javax.microedition.lcdui.Font: int substringWidth(java.lang.String,int,int)>
-<javax.microedition.lcdui.Graphics: int getColor()>
 <java.lang.String: java.lang.String trim()>
+<javax.microedition.lcdui.Graphics: int getColor()>
 <java.util.Vector: void setSize(int)>
 <java.lang.StringBuffer: int length()>
 <javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>

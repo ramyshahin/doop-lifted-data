@@ -1,9 +1,9 @@
 <Neighbor: void display()>/assign/instruction2	2	<Neighbor: void display()>/$r3	<java.lang.System: java.io.PrintStream out>	<Neighbor: void display()>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
-<Vertex: void display()>/assign/instruction64	64	<Vertex: void display()>/$r29	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@Connected
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction8	8	<Main: EdgeIfc addEdge(Graph,int)>/$r2	<Main: int[] endVertices>	<Main: EdgeIfc addEdge(Graph,int)>	@(Prog) /\ (Prog)
-<Edge: void display()>/assign/instruction10	10	<Edge: void display()>/$r5	<java.lang.System: java.io.PrintStream out>	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects)
+<Vertex: void display()>/assign/instruction64	64	<Vertex: void display()>/$r29	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@Connected
 <Vertex: void display()>/assign/instruction52	52	<Vertex: void display()>/$r22	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@SearchBase
 <Vertex: void display()>/assign/instruction95	95	<Vertex: void display()>/$r61	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@MSTKruskal
+<Edge: void display()>/assign/instruction10	10	<Edge: void display()>/$r5	<java.lang.System: java.io.PrintStream out>	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects)
 <Vertex: void display()>/assign/instruction99	99	<Vertex: void display()>/$r46	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@MSTKruskal
 <Graph: void run(Vertex)>/assign/instruction4	4	<Graph: void run(Vertex)>/$r1	<java.lang.System: java.io.PrintStream out>	<Graph: void run(Vertex)>	@Cycle /\ Prog
 <Vertex: void display()>/assign/instruction73	73	<Vertex: void display()>/$r34	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@StronglyConnected
@@ -12,8 +12,8 @@
 <Main: void main(java.lang.String[])>/assign/instruction38	38	<Main: void main(java.lang.String[])>/$r6	<Main: Vertex[] V>	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Main: void main(java.lang.String[])>/assign/instruction57	57	<Main: void main(java.lang.String[])>/$r13	<Main: int[] startVertices>	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction32	32	<Vertex: void nodeSearch(WorkSpace)>/$r2	<GlobalVarsWrapper: java.util.LinkedList queue>	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
-<Graph: void startProfile()>/assign/instruction5	5	<Graph: void startProfile()>/$l1	<Graph: long current>	<Graph: void startProfile()>	@(Benchmark) /\ (Benchmark)
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction3	3	<Main: EdgeIfc addEdge(Graph,int)>/$r1	<Main: Vertex[] V>	<Main: EdgeIfc addEdge(Graph,int)>	@(Prog) /\ (Prog)
+<Graph: void startProfile()>/assign/instruction5	5	<Graph: void startProfile()>/$l1	<Graph: long current>	<Graph: void startProfile()>	@(Benchmark) /\ (Benchmark)
 <Graph: void endProfile()>/assign/instruction9	9	<Graph: void endProfile()>/$r1	<java.lang.System: java.io.PrintStream out>	<Graph: void endProfile()>	@(Benchmark) /\ (Benchmark)
 <Graph: void display()>/assign/instruction23	23	<Graph: void display()>/$r7	<java.lang.System: java.io.PrintStream out>	<Graph: void display()>	@GEN_Edges
 <Vertex: void display()>/assign/instruction2	2	<Vertex: void display()>/$r0	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>	@Weighted /\ G_NoEdges
@@ -23,8 +23,8 @@
 <Graph: void display()>/assign/instruction5	5	<Graph: void display()>/$r1	<java.lang.System: java.io.PrintStream out>	<Graph: void display()>
 <Graph: void endProfile()>/assign/instruction13	13	<Graph: void endProfile()>/$l6	<Graph: long accum>	<Graph: void endProfile()>	@(Benchmark) /\ (Benchmark)
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction39	39	<Vertex: void nodeSearch(WorkSpace)>/$r1	<GlobalVarsWrapper: java.util.LinkedList queue>	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
-<Edge: void display()>/assign/instruction2	2	<Edge: void display()>/$r1	<java.lang.System: java.io.PrintStream out>	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <Graph: void stopProfile()>/assign/instruction3	3	<Graph: void stopProfile()>/$l4	<Graph: long accum>	<Graph: void stopProfile()>	@(Benchmark) /\ (Benchmark)
+<Edge: void display()>/assign/instruction2	2	<Edge: void display()>/$r1	<java.lang.System: java.io.PrintStream out>	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <Graph: void display()>/assign/instruction20	20	<Graph: void display()>/$r6	<java.lang.System: java.io.PrintStream out>	<Graph: void display()>
 <Graph: void endProfile()>/assign/instruction3	3	<Graph: void endProfile()>/$l4	<Graph: long accum>	<Graph: void endProfile()>	@(Benchmark) /\ (Benchmark)
 <Graph: void display()>/assign/instruction32	32	<Graph: void display()>/$r9	<java.lang.System: java.io.PrintStream out>	<Graph: void display()>	@GEN_Edges
@@ -42,6 +42,6 @@
 <Graph: void resumeProfile()>/assign/instruction3	3	<Graph: void resumeProfile()>/$l1	<Graph: long current>	<Graph: void resumeProfile()>	@(Benchmark) /\ (Benchmark)
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction24	24	<Vertex: void nodeSearch(WorkSpace)>/$r0	<GlobalVarsWrapper: java.util.LinkedList queue>	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Vertex: void display()>/assign/instruction36	36	<Vertex: void display()>/$r17	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>
-<Vertex: void display()>/assign/instruction121	121	<Vertex: void display()>/$r60	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>
 <Main: void main(java.lang.String[])>/assign/instruction96	96	<Main: void main(java.lang.String[])>/$r19	<java.lang.System: java.io.PrintStream out>	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction7	7	<Main: EdgeIfc addEdge(Graph,int)>/$r3	<Main: Vertex[] V>	<Main: EdgeIfc addEdge(Graph,int)>	@(Prog) /\ (Prog)
+<Vertex: void display()>/assign/instruction121	121	<Vertex: void display()>/$r60	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>

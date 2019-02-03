@@ -283,8 +283,8 @@
 <com.sleepycat.je.TransactionStats: long lastCheckpointTime>	com.sleepycat.je.TransactionStats	lastCheckpointTime	long
 <com.sleepycat.je.tree.IN: long[] entryLsnLongArray>	com.sleepycat.je.tree.IN	entryLsnLongArray	long[]
 <com.sleepycat.je.Cursor: com.sleepycat.je.Database dbHandle>	com.sleepycat.je.Cursor	dbHandle	com.sleepycat.je.Database
-<com.sleepycat.je.Sequence: long cacheLast>	com.sleepycat.je.Sequence	cacheLast	long
 <com.sleepycat.je.cleaner.FileProcessor: com.sleepycat.je.cleaner.FileSelector fileSelector>	com.sleepycat.je.cleaner.FileProcessor	fileSelector	com.sleepycat.je.cleaner.FileSelector
+<com.sleepycat.je.Sequence: long cacheLast>	com.sleepycat.je.Sequence	cacheLast	long
 <com.sleepycat.je.config.ShortConfigParam: java.lang.Short max>	com.sleepycat.je.config.ShortConfigParam	max	java.lang.Short
 <com.sleepycat.je.cleaner.Cleaner: java.lang.String CLEAN_PENDING_LN>	com.sleepycat.je.cleaner.Cleaner	CLEAN_PENDING_LN	java.lang.String
 <com.sleepycat.je.log.FileManager: java.lang.String[] JE_SUFFIXES>	com.sleepycat.je.log.FileManager	JE_SUFFIXES	java.lang.String[]

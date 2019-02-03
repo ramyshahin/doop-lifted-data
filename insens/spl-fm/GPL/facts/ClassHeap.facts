@@ -5,8 +5,8 @@
 <class WorkSpaceTranspose>	WorkSpaceTranspose
 <class Vertex$VertexIter1>	Vertex$VertexIter1
 <class FinishTimeWorkSpace>	FinishTimeWorkSpace
-<class Graph$Comparator2>	Graph$Comparator2
 <class VertexIter>	VertexIter
+<class Graph$Comparator2>	Graph$Comparator2
 <class Graph$Comparator3>	Graph$Comparator3
 <class Vertex$VertexIter3>	Vertex$VertexIter3
 <class CycleWorkSpace>	CycleWorkSpace

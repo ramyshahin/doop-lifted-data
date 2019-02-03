@@ -85,8 +85,8 @@
 <it.yup.ui.UIScreen: void <init>()>	<init>	()	it.yup.ui.UIScreen	void	()V	0
 <javax.microedition.media.Manager: javax.microedition.media.Player createPlayer(java.lang.String)>	createPlayer	(java.lang.String)	javax.microedition.media.Manager	javax.microedition.media.Player	(Ljava/lang/String;)Ljavax/microedition/media/Player;	1
 <lampiro.screens.RosterScreen$RegisterHandler: it.yup.xmpp.packets.DataForm access$1(lampiro.screens.RosterScreen$RegisterHandler)>	access$1	(lampiro.screens.RosterScreen$RegisterHandler)	lampiro.screens.RosterScreen$RegisterHandler	it.yup.xmpp.packets.DataForm	(Llampiro/screens/RosterScreen$RegisterHandler;)Lit/yup/xmpp/packets/DataForm;	1
-<lampiro.screens.ChatScreen$MUCUpdateListener: void handleResult(it.yup.xml.Element)>	handleResult	(it.yup.xml.Element)	lampiro.screens.ChatScreen$MUCUpdateListener	void	(Lit/yup/xml/Element;)V	1
 <lampiro.screens.RosterScreen: void fileError(it.yup.xmpp.Contact,java.lang.String,it.yup.xml.Element)>	fileError	(it.yup.xmpp.Contact,java.lang.String,it.yup.xml.Element)	lampiro.screens.RosterScreen	void	(Lit/yup/xmpp/Contact;Ljava/lang/String;Lit/yup/xml/Element;)V	3
+<lampiro.screens.ChatScreen$MUCUpdateListener: void handleResult(it.yup.xml.Element)>	handleResult	(it.yup.xml.Element)	lampiro.screens.ChatScreen$MUCUpdateListener	void	(Lit/yup/xml/Element;)V	1
 <lampiro.screens.RegisterScreen: boolean access$2(lampiro.screens.RegisterScreen)>	access$2	(lampiro.screens.RegisterScreen)	lampiro.screens.RegisterScreen	boolean	(Llampiro/screens/RegisterScreen;)Z	1
 <lampiro.screens.ChatScreen: boolean updateResConversation(java.lang.String)>	updateResConversation	(java.lang.String)	lampiro.screens.ChatScreen	boolean	(Ljava/lang/String;)Z	1
 <java.lang.Thread: void <init>()>	<init>	()	java.lang.Thread	void	()V	0
@@ -579,8 +579,8 @@
 <it.yup.ui.UIScreen: void addPopup(it.yup.ui.UIMenu)>	addPopup	(it.yup.ui.UIMenu)	it.yup.ui.UIScreen	void	(Lit/yup/ui/UIMenu;)V	1
 <lampiro.screens.RosterScreen$UIGroup: void access$5(lampiro.screens.RosterScreen$UIGroup,it.yup.xmpp.Contact)>	access$5	(lampiro.screens.RosterScreen$UIGroup,it.yup.xmpp.Contact)	lampiro.screens.RosterScreen$UIGroup	void	(Llampiro/screens/RosterScreen$UIGroup;Lit/yup/xmpp/Contact;)V	2
 <it.yup.xmlstream.KXmlParser: java.lang.String getNamespace()>	getNamespace	()	it.yup.xmlstream.KXmlParser	java.lang.String	()Ljava/lang/String;	0
-<it.yup.tests.UITestMidlet$KeysScreen: void <init>(it.yup.tests.UITestMidlet)>	<init>	(it.yup.tests.UITestMidlet)	it.yup.tests.UITestMidlet$KeysScreen	void	(Lit/yup/tests/UITestMidlet;)V	1
 <it.yup.transport.BaseChannel: boolean isOpen()>	isOpen	()	it.yup.transport.BaseChannel	boolean	()Z	0
+<it.yup.tests.UITestMidlet$KeysScreen: void <init>(it.yup.tests.UITestMidlet)>	<init>	(it.yup.tests.UITestMidlet)	it.yup.tests.UITestMidlet$KeysScreen	void	(Lit/yup/tests/UITestMidlet;)V	1
 <lampiro.screens.DataFormScreen: void createControls()>	createControls	()	lampiro.screens.DataFormScreen	void	()V	0
 <javax.microedition.io.SocketConnection: java.io.OutputStream openOutputStream()>	openOutputStream	()	javax.microedition.io.SocketConnection	java.io.OutputStream	()Ljava/io/OutputStream;	0
 <javax.microedition.lcdui.game.GameCanvas: int getGameAction(int)>	getGameAction	(int)	javax.microedition.lcdui.game.GameCanvas	int	(I)I	1
@@ -769,8 +769,8 @@
 <it.yup.util.MetaVector$MultiVectorEnumeration: boolean hasMoreElements()>	hasMoreElements	()	it.yup.util.MetaVector$MultiVectorEnumeration	boolean	()Z	0
 <it.yup.ui.UIScreen: java.util.Vector getPaintedItems()>	getPaintedItems	()	it.yup.ui.UIScreen	java.util.Vector	()Ljava/util/Vector;	0
 <java.lang.String: java.lang.String replace(char,char)>	replace	(char,char)	java.lang.String	java.lang.String	(CC)Ljava/lang/String;	2
-<lampiro.screens.ShowMMScreen: void menuAction(it.yup.ui.UIMenu,it.yup.ui.UIItem)>	menuAction	(it.yup.ui.UIMenu,it.yup.ui.UIItem)	lampiro.screens.ShowMMScreen	void	(Lit/yup/ui/UIMenu;Lit/yup/ui/UIItem;)V	2
 <lampiro.screens.ChatScreen: boolean keyPressed(int)>	keyPressed	(int)	lampiro.screens.ChatScreen	boolean	(I)Z	1
+<lampiro.screens.ShowMMScreen: void menuAction(it.yup.ui.UIMenu,it.yup.ui.UIItem)>	menuAction	(it.yup.ui.UIMenu,it.yup.ui.UIItem)	lampiro.screens.ShowMMScreen	void	(Lit/yup/ui/UIMenu;Lit/yup/ui/UIItem;)V	2
 <it.yup.ui.Semaphore: void <init>(long)>	<init>	(long)	it.yup.ui.Semaphore	void	(J)V	1
 <it.yup.ui.UIScreen: it.yup.ui.UICanvas getCanvas()>	getCanvas	()	it.yup.ui.UIScreen	it.yup.ui.UICanvas	()Lit/yup/ui/UICanvas;	0
 <it.yup.xmpp.XMPPClient: java.util.TimerTask access$6(it.yup.xmpp.XMPPClient)>	access$6	(it.yup.xmpp.XMPPClient)	it.yup.xmpp.XMPPClient	java.util.TimerTask	(Lit/yup/xmpp/XMPPClient;)Ljava/util/TimerTask;	1
@@ -1016,8 +1016,8 @@
 <javax.microedition.lcdui.ImageItem: void <init>(java.lang.String,javax.microedition.lcdui.Image,int,java.lang.String)>	<init>	(java.lang.String,javax.microedition.lcdui.Image,int,java.lang.String)	javax.microedition.lcdui.ImageItem	void	(Ljava/lang/String;Ljavax/microedition/lcdui/Image;ILjava/lang/String;)V	4
 <it.yup.ui.UITextField: void setSelected(boolean)>	setSelected	(boolean)	it.yup.ui.UITextField	void	(Z)V	1
 <it.yup.ui.UIPanel: void addItem(it.yup.ui.UIItem)>	addItem	(it.yup.ui.UIItem)	it.yup.ui.UIPanel	void	(Lit/yup/ui/UIItem;)V	1
-<it.yup.ui.UIItem: it.yup.ui.UIItem getSelectedItem()>	getSelectedItem	()	it.yup.ui.UIItem	it.yup.ui.UIItem	()Lit/yup/ui/UIItem;	0
 <it.yup.xmpp.Config: void <init>()>	<init>	()	it.yup.xmpp.Config	void	()V	0
+<it.yup.ui.UIItem: it.yup.ui.UIItem getSelectedItem()>	getSelectedItem	()	it.yup.ui.UIItem	it.yup.ui.UIItem	()Lit/yup/ui/UIItem;	0
 <lampiro.screens.RosterScreen: boolean askRepaint()>	askRepaint	()	lampiro.screens.RosterScreen	boolean	()Z	0
 <it.yup.xmpp.FTSender$IQResultListener3: void <init>(it.yup.xmpp.FTSender,it.yup.xmpp.FTSender$IQResultListener3)>	<init>	(it.yup.xmpp.FTSender,it.yup.xmpp.FTSender$IQResultListener3)	it.yup.xmpp.FTSender$IQResultListener3	void	(Lit/yup/xmpp/FTSender;Lit/yup/xmpp/FTSender$IQResultListener3;)V	2
 <it.yup.xmpp.Config: byte[] getData(byte[])>	getData	(byte[])	it.yup.xmpp.Config	byte[]	([B)[B	1
@@ -1085,8 +1085,8 @@
 <lampiro.screens.RegisterScreen: void gotStreamEvent(java.lang.String,java.lang.Object)>	gotStreamEvent	(java.lang.String,java.lang.Object)	lampiro.screens.RegisterScreen	void	(Ljava/lang/String;Ljava/lang/Object;)V	2
 <lampiro.screens.ChatScreen: void <init>(it.yup.xmpp.Contact,java.lang.String)>	<init>	(it.yup.xmpp.Contact,java.lang.String)	lampiro.screens.ChatScreen	void	(Lit/yup/xmpp/Contact;Ljava/lang/String;)V	2
 <it.yup.ui.UIPanel: void insertItemAt(it.yup.ui.UIItem,int)>	insertItemAt	(it.yup.ui.UIItem,int)	it.yup.ui.UIPanel	void	(Lit/yup/ui/UIItem;I)V	2
-<it.yup.xmpp.XMPPClient$DiscoHandler: void packetReceived(it.yup.xml.Element)>	packetReceived	(it.yup.xml.Element)	it.yup.xmpp.XMPPClient$DiscoHandler	void	(Lit/yup/xml/Element;)V	1
 <it.yup.screens.OptionsScreen$1: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>	commandAction	(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)	it.yup.screens.OptionsScreen$1	void	(Ljavax/microedition/lcdui/Command;Ljavax/microedition/lcdui/Displayable;)V	2
+<it.yup.xmpp.XMPPClient$DiscoHandler: void packetReceived(it.yup.xml.Element)>	packetReceived	(it.yup.xml.Element)	it.yup.xmpp.XMPPClient$DiscoHandler	void	(Lit/yup/xml/Element;)V	1
 <lampiro.screens.RosterScreen: void removeContact(it.yup.xmpp.Contact)>	removeContact	(it.yup.xmpp.Contact)	lampiro.screens.RosterScreen	void	(Lit/yup/xmpp/Contact;)V	1
 <lampiro.screens.RosterScreen: it.yup.ui.UIAccordion getAccordion()>	getAccordion	()	lampiro.screens.RosterScreen	it.yup.ui.UIAccordion	()Lit/yup/ui/UIAccordion;	0
 <lampiro.screens.ChatScreen$UICutLabel: void <init>(lampiro.screens.ChatScreen,java.lang.String,java.lang.String)>	<init>	(lampiro.screens.ChatScreen,java.lang.String,java.lang.String)	lampiro.screens.ChatScreen$UICutLabel	void	(Llampiro/screens/ChatScreen;Ljava/lang/String;Ljava/lang/String;)V	3
@@ -1863,8 +1863,8 @@
 <it.yup.xmlstream.SocketStream: void connectionFailed(it.yup.transport.BaseChannel)>	connectionFailed	(it.yup.transport.BaseChannel)	it.yup.xmlstream.SocketStream	void	(Lit/yup/transport/BaseChannel;)V	1
 <it.yup.xmpp.XMPPClient$XmppListener: void askSubscription(it.yup.xmpp.Contact)>	askSubscription	(it.yup.xmpp.Contact)	it.yup.xmpp.XMPPClient$XmppListener	void	(Lit/yup/xmpp/Contact;)V	1
 <it.yup.xmlstream.SASLAuthenticator$PacketListener2: void packetReceived(it.yup.xml.Element)>	packetReceived	(it.yup.xml.Element)	it.yup.xmlstream.SASLAuthenticator$PacketListener2	void	(Lit/yup/xml/Element;)V	1
-<it.yup.util.XMPPConsumer: void setExiting()>	setExiting	()	it.yup.util.XMPPConsumer	void	()V	0
 <it.yup.ui.UIMenu: void setAbsoluteX(int)>	setAbsoluteX	(int)	it.yup.ui.UIMenu	void	(I)V	1
+<it.yup.util.XMPPConsumer: void setExiting()>	setExiting	()	it.yup.util.XMPPConsumer	void	()V	0
 <it.yup.ui.UIMenu: boolean remove(it.yup.ui.UIItem)>	remove	(it.yup.ui.UIItem)	it.yup.ui.UIMenu	boolean	(Lit/yup/ui/UIItem;)Z	1
 <it.yup.ui.UIButton: void setHPadding(int)>	setHPadding	(int)	it.yup.ui.UIButton	void	(I)V	1
 <it.yup.xml.KXmlParser: java.lang.String getPositionDescription()>	getPositionDescription	()	it.yup.xml.KXmlParser	java.lang.String	()Ljava/lang/String;	0
@@ -2071,8 +2071,8 @@
 <it.yup.xmpp.XMPPClient: void startClient()>	startClient	()	it.yup.xmpp.XMPPClient	void	()V	0
 <com.jcraft.jzlib.FilterInputStream: int available()>	available	()	com.jcraft.jzlib.FilterInputStream	int	()I	0
 <it.yup.screens.DebugScreen: void <clinit>()>	<clinit>	()	it.yup.screens.DebugScreen	void	()V	0
-<javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>	setSelectedFlags	(boolean[])	javax.microedition.lcdui.ChoiceGroup	void	([Z)V	1
 <it.yup.xmlstream.KXmlParser: void pushEntity()>	pushEntity	()	it.yup.xmlstream.KXmlParser	void	()V	0
+<javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>	setSelectedFlags	(boolean[])	javax.microedition.lcdui.ChoiceGroup	void	([Z)V	1
 <javax.microedition.lcdui.Form: void insert(int,javax.microedition.lcdui.Item)>	insert	(int,javax.microedition.lcdui.Item)	javax.microedition.lcdui.Form	void	(ILjavax/microedition/lcdui/Item;)V	2
 <it.yup.ui.UIMenu: int indexOf(it.yup.ui.UIItem)>	indexOf	(it.yup.ui.UIItem)	it.yup.ui.UIMenu	int	(Lit/yup/ui/UIItem;)I	1
 <it.yup.xmpp.Roster$IQResultListener2: void <init>(it.yup.xmpp.Roster)>	<init>	(it.yup.xmpp.Roster)	it.yup.xmpp.Roster$IQResultListener2	void	(Lit/yup/xmpp/Roster;)V	1
@@ -2350,8 +2350,8 @@
 <it.yup.ui.UITextField: void setScreen(it.yup.ui.UIScreen)>	setScreen	(it.yup.ui.UIScreen)	it.yup.ui.UITextField	void	(Lit/yup/ui/UIScreen;)V	1
 <lampiro.screens.ShowMMScreen: int getMmType()>	getMmType	()	lampiro.screens.ShowMMScreen	int	()I	0
 <javax.microedition.midlet.MIDlet: void notifyDestroyed()>	notifyDestroyed	()	javax.microedition.midlet.MIDlet	void	()V	0
-<it.yup.ui.UISeparator: void paint(javax.microedition.lcdui.Graphics,int,int)>	paint	(javax.microedition.lcdui.Graphics,int,int)	it.yup.ui.UISeparator	void	(Ljavax/microedition/lcdui/Graphics;II)V	3
 <it.yup.transport.SocketChannel: java.io.InputStream getInputStream()>	getInputStream	()	it.yup.transport.SocketChannel	java.io.InputStream	()Ljava/io/InputStream;	0
+<it.yup.ui.UISeparator: void paint(javax.microedition.lcdui.Graphics,int,int)>	paint	(javax.microedition.lcdui.Graphics,int,int)	it.yup.ui.UISeparator	void	(Ljavax/microedition/lcdui/Graphics;II)V	3
 <lampiro.screens.AlbumScreen: void menuAction(it.yup.ui.UIMenu,it.yup.ui.UIItem)>	menuAction	(it.yup.ui.UIMenu,it.yup.ui.UIItem)	lampiro.screens.AlbumScreen	void	(Lit/yup/ui/UIMenu;Lit/yup/ui/UIItem;)V	2
 <it.yup.screens.RegisterScreen: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>	commandAction	(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)	it.yup.screens.RegisterScreen	void	(Ljavax/microedition/lcdui/Command;Ljavax/microedition/lcdui/Displayable;)V	2
 <it.yup.xml.KXmlParser: java.lang.String get(int)>	get	(int)	it.yup.xml.KXmlParser	java.lang.String	(I)Ljava/lang/String;	1

@@ -1,12 +1,12 @@
 lancs.mobilemedia.core.ui.datamodel.MediaAccessor	java.lang.Object
 lancs.mobilemedia.core.ui.controller.SelectMediaController	lancs.mobilemedia.core.ui.controller.AbstractController
-lancs.mobilemedia.sms.SmsMessaging	lancs.mobilemedia.core.comms.BaseMessaging
 lancs.mobilemedia.core.ui.controller.AlbumController	lancs.mobilemedia.core.ui.controller.AbstractController
+lancs.mobilemedia.sms.SmsMessaging	lancs.mobilemedia.core.comms.BaseMessaging
 lancs.mobilemedia.core.threads.BaseThread	java.lang.Object
 lancs.mobilemedia.core.ui.controller.PlayVideoController	lancs.mobilemedia.core.ui.controller.AbstractController
 lancs.mobilemedia.core.ui.screens.PhotoViewScreen	javax.microedition.lcdui.Canvas
-lancs.mobilemedia.core.util.MusicMediaUtil	lancs.mobilemedia.core.util.MediaUtil
 lancs.mobilemedia.sms.SmsReceiverThread	java.lang.Object
+lancs.mobilemedia.core.util.MusicMediaUtil	lancs.mobilemedia.core.util.MediaUtil
 lancs.mobilemedia.core.ui.screens.AddMediaToAlbum	javax.microedition.lcdui.Form
 lancs.mobilemedia.core.ui.screens.PasswordScreen	javax.microedition.lcdui.Form
 lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor	lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor
@@ -40,10 +40,10 @@ lancs.mobilemedia.core.ui.datamodel.MusicAlbumData	lancs.mobilemedia.core.ui.dat
 lancs.mobilemedia.core.ui.controller.MediaListController	lancs.mobilemedia.core.ui.controller.AbstractController
 lancs.mobilemedia.core.comms.BaseMessaging	java.lang.Object
 lancs.mobilemedia.lib.exceptions.ImageNotFoundException	java.lang.Exception
+lancs.mobilemedia.core.ui.datamodel.MediaData	java.lang.Object
 lancs.mobilemedia.core.util.MediaUtil	java.lang.Object
 lancs.mobilemedia.core.ui.datamodel.AlbumData	java.lang.Object
 lancs.mobilemedia.core.ui.controller.ScreenSingleton	java.lang.Object
-lancs.mobilemedia.core.ui.datamodel.MediaData	java.lang.Object
 lancs.mobilemedia.core.ui.screens.AlbumListScreen	javax.microedition.lcdui.List
 lancs.mobilemedia.core.ui.controller.BaseController	lancs.mobilemedia.core.ui.controller.AbstractController
 lancs.mobilemedia.core.ui.screens.NewLabelScreen	javax.microedition.lcdui.Form

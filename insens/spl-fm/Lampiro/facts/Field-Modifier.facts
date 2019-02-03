@@ -45,8 +45,8 @@ static	<it.yup.util.ResourceIDs: int STR_SHOW_INSTR>
 	<lampiro.screens.RosterScreen: it.yup.ui.UITextField muc_name_field>
 private	<com.jcraft.jzlib.InfCodes: int DISTEXT>
 public	<it.yup.util.ResourceIDs: int STR_SHOW>
-public	<it.yup.util.GoogleToken: java.lang.String token>
 static	<com.jcraft.jzlib.InfTree: int[] fixed_tl>
+public	<it.yup.util.GoogleToken: java.lang.String token>
 private	<com.jcraft.jzlib.ZStream: int MAX_MEM_LEVEL>
 private	<it.yup.screens.RosterScreen: it.yup.util.ResourceManager rm>
 final	<com.jcraft.jzlib.Tree: int[] base_length>
@@ -55,18 +55,18 @@ static	<com.jcraft.jzlib.Inflate: int CHECK2>
 	<com.jcraft.jzlib.Deflate: byte[] window>
 static	<com.jcraft.jzlib.InfCodes: int START>
 private	<lampiro.screens.MMScreen: java.lang.String contactToSend>
-static	<it.yup.ui.UIConfig: int tbs_color>
 private	<it.yup.xmlstream.KXmlParser: java.lang.String namespace>
-static	<lampiro.screens.SubscribeScreen: int DELETE>
+static	<it.yup.ui.UIConfig: int tbs_color>
 static	<it.yup.xmpp.Config: short COLOR>
+static	<lampiro.screens.SubscribeScreen: int DELETE>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIMenu groupInviteMenu>
 static	<com.jcraft.jzlib.Deflate: int Z_SYNC_FLUSH>
 protected	<it.yup.transport.BaseChannel: java.util.Vector packets>
 private	<it.yup.xmlstream.KXmlParser: int type>
 static	<it.yup.xmpp.Config: short COMPRESSION>
 private	<it.yup.xml.KXmlParser: boolean degenerated>
-private	<com.jcraft.jzlib.InfBlocks: int Z_MEM_ERROR>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String INSTRUCTIONS>
+private	<com.jcraft.jzlib.InfBlocks: int Z_MEM_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_CANCEL>
 public	<it.yup.util.ResourceIDs: int STR_CHOOSE>
 final	<com.jcraft.jzlib.Inflate: int Z_OK>
@@ -74,19 +74,19 @@ private	<com.jcraft.jzlib.InfCodes: int Z_VERSION_ERROR>
 final	<it.yup.util.ResourceIDs: int STR_START>
 final	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
 static	<lampiro.screens.StatusScreen: it.yup.util.ResourceManager rm>
-static	<it.yup.screens.AddContactScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.xmlstream.BasicXmlStream: it.yup.xmlstream.EventQueryRegistration unmatchedStanzaReg>
+static	<it.yup.screens.AddContactScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.xmpp.Config: short CONNECTING_SERVER>
 private	<lampiro.screens.OptionsScreen: it.yup.ui.UILabel cmd_reset>
 static	<com.jcraft.jzlib.Deflate: int BUSY_STATE>
 public	<it.yup.util.ResourceIDs: int STR_UNGROUPED>
 static	<com.jcraft.jzlib.JZlib: int Z_OK>
-final	<it.yup.util.ResourceIDs: int STR_SEND_GRP_MSG>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_RESULT>
+final	<it.yup.util.ResourceIDs: int STR_SEND_GRP_MSG>
 private	<lampiro.screens.KeyScreen: int oldFg>
 final	<com.jcraft.jzlib.JZlib: int Z_FILTERED>
-	<com.jcraft.jzlib.InfCodes: int dist>
 public	<com.jcraft.jzlib.JZlib: int Z_ERRNO>
+	<com.jcraft.jzlib.InfCodes: int dist>
 private	<it.yup.screens.CommandListScreen: javax.microedition.lcdui.Command cmd_cancel>
 private	<lampiro.screens.OptionsScreen: it.yup.ui.UITextField history_size>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel menu_cancel>
@@ -112,8 +112,8 @@ static	<it.yup.util.ResourceIDs: int STR_AUTHENTICATED>
 private	<it.yup.screens.ChatScreen: java.util.Vector current_conversation>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_TXTPRIV>
 private	<lampiro.screens.AlbumScreen: it.yup.ui.UILabel deleteLabel>
-private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField tf_email>
 final	<com.jcraft.jzlib.Deflate: int Z_UNKNOWN>
+private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField tf_email>
 private	<lampiro.screens.CommandListScreen: it.yup.ui.UILabel cmd_select>
 	<com.jcraft.jzlib.Deflate: int matches>
 final	<com.jcraft.jzlib.Inflate: int Z_DEFLATED>
@@ -130,12 +130,12 @@ static	<it.yup.xmpp.Task: byte CMD_INPUT>
 final	<it.yup.screens.ContactInfoScreen$1: it.yup.screens.ContactInfoScreen this$0>
 static	<it.yup.xmpp.XMPPClient: java.lang.String[][] errorCodes>
 	<it.yup.ui.UILabel: java.lang.String text>
-static	<it.yup.xmpp.XMPPClient: java.lang.String IQ_REGISTER>
 final	<it.yup.xmpp.packets.Iq: java.lang.String T_GET>
+static	<it.yup.xmpp.XMPPClient: java.lang.String IQ_REGISTER>
 private	<com.jcraft.jzlib.InfCodes: int LIT>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_LISTSINGLE>
-final	<it.yup.util.ResourceIDs: int STR_TRAFFIC>
 public	<lampiro.screens.ChatScreen$ConversationEntry: java.lang.String messageType>
+final	<it.yup.util.ResourceIDs: int STR_TRAFFIC>
 public	<it.yup.xmlstream.Initializer: boolean optional>
 public	<it.yup.xmpp.packets.Presence: java.lang.String PRIORITY>
 private	<lampiro.screens.AlbumScreen: it.yup.ui.UISeparator dummySeparator>
@@ -168,8 +168,8 @@ private	<com.jcraft.jzlib.Deflate: int END_BLOCK>
 private	<lampiro.screens.RosterScreen$UIGroup: it.yup.ui.UIAccordion accordion>
 public	<it.yup.ui.UIConfig: java.lang.String cancelMenuString>
 static	<it.yup.tests.TestMidlet: javax.microedition.lcdui.Display disp>
-private	<it.yup.xmlstream.KXmlParser: int column>
 protected	<it.yup.xmlstream.BasicXmlStream: java.util.Vector sendQueue>
+private	<it.yup.xmlstream.KXmlParser: int column>
 final	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_ACCEPT>
 final	<com.jcraft.jzlib.Inflate: int Z_STREAM_END>
 static	<it.yup.xmpp.DataFormListener: int CMD_SUBMIT>
@@ -197,15 +197,15 @@ private	<it.yup.screens.DataFormScreen: javax.microedition.lcdui.Command cmd_del
 final	<lampiro.screens.RosterScreen$AdHocCommandsHandler: lampiro.screens.RosterScreen this$0>
 final	<com.jcraft.jzlib.InfBlocks: int LENS>
 final	<com.jcraft.jzlib.Deflate: int MAX_BITS>
-	<it.yup.tests.RMSTestMidlet: java.util.Hashtable data>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_TXTSINGLE>
+	<it.yup.tests.RMSTestMidlet: java.util.Hashtable data>
 static	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_DND>
 public	<lampiro.LampiroMidlet: lampiro.LampiroMidlet _lampiro>
 final	<it.yup.xmpp.DataFormListener: int CMD_PREV>
 final	<com.jcraft.jzlib.Deflate: int Z_BINARY>
 final	<com.jcraft.jzlib.InfCodes: int Z_NEED_DICT>
-final	<it.yup.xmpp.packets.Message: java.lang.String NORMAL>
 static	<com.jcraft.jzlib.Deflate: int Z_FILTERED>
+final	<it.yup.xmpp.packets.Message: java.lang.String NORMAL>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField hint>
 private	<it.yup.ui.UIButton: boolean pressed>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_INITIALIZED>
@@ -217,9 +217,9 @@ final	<it.yup.util.ResourceIDs: int STR_COLOR_RED>
 static	<it.yup.tests.UITestMidlet: javax.microedition.lcdui.Image[] imgs>
 static	<it.yup.util.ResourceIDs: int STR_CAPTURE_IMAGE>
 public	<it.yup.tests.UITestMidlet$KeysScreen: int right_key>
-private	<it.yup.screens.TaskListScreen: it.yup.xmpp.Task[] tasks>
-static	<it.yup.ui.UIConfig: int input_color>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String NAMESPACE>
+static	<it.yup.ui.UIConfig: int input_color>
+private	<it.yup.screens.TaskListScreen: it.yup.xmpp.Task[] tasks>
 public	<it.yup.util.ResourceIDs: int STR_DECLINED>
 final	<lampiro.screens.MessageComposerScreen: int MESSAGE>
 static	<it.yup.ui.UICanvas: it.yup.ui.UICanvas _instance>
@@ -231,15 +231,15 @@ final	<it.yup.util.ResourceIDs: int STR_NO_COMMAND>
 final	<it.yup.xmpp.FTSender$IQResultListener1: it.yup.xmpp.FTSender this$0>
 static	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT>
 private	<it.yup.screens.RosterScreen: int sel_key_offset>
-public	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 private	<it.yup.xmpp.Contact: java.lang.String queryCapNode>
+public	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 static	<it.yup.util.ResourceIDs: int STR_DECODE_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_GROUP_LIST>
 private	<lampiro.LampiroMidlet: it.yup.xmpp.XMPPClient xmpp>
 private	<it.yup.xmlstream.KXmlSerializer: int auto>
 static	<com.jcraft.jzlib.Tree: int END_BLOCK>
-private	<it.yup.xmpp.CommandExecutor: java.lang.String sid>
 protected	<it.yup.transport.BaseChannel: java.io.InputStream inputStream>
+private	<it.yup.xmpp.CommandExecutor: java.lang.String sid>
 public	<it.yup.xmpp.Config: java.lang.String GPRS_CONNECTION_URL>
 private	<it.yup.util.ResourceManager: it.yup.util.ResourceManager manager>
 public	<it.yup.screens.ChatScreen$ConversationEntry: java.util.Vector lines>
@@ -263,16 +263,16 @@ static	<it.yup.util.ResourceIDs: int STR_ABOUT>
 public	<it.yup.ui.UIConfig: int scrollbar_bg>
 private	<lampiro.screens.RosterScreen$UIGroup: lampiro.screens.RosterScreen$UIGroup movingGroup>
 static	<lampiro.screens.MessageComposerScreen: it.yup.util.ResourceManager rm>
-public	<it.yup.ui.UIScreen: it.yup.ui.UILabel footerRight>
 final	<it.yup.ui.UIItem: int INNER_DOWN>
+public	<it.yup.ui.UIScreen: it.yup.ui.UILabel footerRight>
 private	<it.yup.ui.UICanvas: long keyReleasedTime>
 private	<com.jcraft.jzlib.InfCodes: int DIST>
 private	<lampiro.screens.RosterScreen: java.util.Hashtable gateways>
 static	<it.yup.util.ResourceIDs: int STR_KEY_ERROR_SELECTION>
 final	<it.yup.util.ResourceIDs: int STR_CAPTURE_CAPTION>
-private	<lampiro.screens.GatewayRegisterScreen: boolean regSuccessfull>
 final	<it.yup.xmpp.Config: int TIMEOUT>
 private	<it.yup.xmpp.Config: java.util.Hashtable cachedCaps>
+private	<lampiro.screens.GatewayRegisterScreen: boolean regSuccessfull>
 static	<com.jcraft.jzlib.Deflate: int DEF_MEM_LEVEL>
 public	<it.yup.util.ResourceIDs: int STR_CAMERA_LOW>
 private	<com.jcraft.jzlib.InfTree: int MANY>
@@ -283,8 +283,8 @@ private	<it.yup.xmpp.XMPPClient: it.yup.xmlstream.BasicXmlStream xmlStream>
 static	<it.yup.xmpp.Config: java.lang.String BLUENDO_SERVER>
 	<lampiro.screens.ChatScreen: it.yup.ui.UILabel closeLabel>
 private	<it.yup.screens.ChatScreen: javax.microedition.lcdui.Command cmd_exit>
-private	<it.yup.ui.UIGauge: int maxValue>
 static	<com.jcraft.jzlib.Inflate: int BAD>
+private	<it.yup.ui.UIGauge: int maxValue>
 final	<it.yup.util.ResourceIDs: int STR_RESOURCE>
 	<it.yup.xmpp.Contact: java.util.Vector convs>
 static	<lampiro.screens.AlbumScreen: it.yup.xml.Element[] children>
@@ -300,8 +300,8 @@ private	<lampiro.screens.MessageComposerScreen: it.yup.xmpp.Contact user>
 public	<it.yup.tests.XMLTestMidlet: javax.microedition.lcdui.Display disp>
 final	<it.yup.util.ResourceIDs: int STR_VIBRATE_IF>
 static	<com.jcraft.jzlib.JZlib: int Z_MEM_ERROR>
-final	<it.yup.xmpp.packets.Message: java.lang.String MESSAGE>
 public	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM_LEFT>
+final	<it.yup.xmpp.packets.Message: java.lang.String MESSAGE>
 private	<lampiro.screens.StatusScreen: it.yup.ui.UILabel cmd_exit>
 public	<it.yup.util.ResourceIDs: int STR_EXISTING_GROUPS>
 private	<it.yup.xmlstream.KXmlSerializer: java.lang.String[] nspStack>
@@ -317,13 +317,13 @@ private	<it.yup.xmpp.BluendoXMLRPC: java.io.DataOutputStream outputStream>
 	<it.yup.screens.AboutScreen: javax.microedition.lcdui.Image logo>
 private	<com.jcraft.jzlib.ZStream: int Z_OK>
 private	<lampiro.screens.RosterScreen$UIContact: it.yup.ui.UILabel statusLabel>
-public	<it.yup.xmpp.DataFormListener: int CMD_NEXT>
 static	<it.yup.screens.RosterScreen: byte SCROLL_UP>
+public	<it.yup.xmpp.DataFormListener: int CMD_NEXT>
 final	<it.yup.util.RMSIndex$RecordType: byte DATA_RECORD>
 private	<com.jcraft.jzlib.ZStream: int Z_NEED_DICT>
 private	<lampiro.screens.GroupsScreen: it.yup.ui.UILabel cmd_cancel>
-final	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_COMPRESSION>
 protected	<it.yup.transport.BaseChannel: java.io.OutputStream outputStream>
+final	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_COMPRESSION>
 private	<it.yup.xmpp.CommandExecutor: java.lang.String chosenResource>
 private	<com.jcraft.jzlib.InfCodes: int Z_BUF_ERROR>
 public	<it.yup.xmpp.MUC: java.lang.String topic>
@@ -344,8 +344,8 @@ private	<lampiro.screens.SubscribeScreen: java.lang.String fromContact>
 static	<com.jcraft.jzlib.InfCodes: int WASH>
 public	<it.yup.util.ResourceIDs: int STR_KEY_PRESS>
 static	<it.yup.xmpp.Config: short SERVER>
-final	<com.jcraft.jzlib.InfCodes: int[] inflate_mask>
 private	<it.yup.ui.UIMenu: int absoluteY>
+final	<com.jcraft.jzlib.InfCodes: int[] inflate_mask>
 private	<it.yup.transport.SocketChannel$UTFReader: byte[] buf>
 private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Image img_cmd>
 public	<lampiro.screens.ChatScreen$ConversationEntry: int entry_offset>
@@ -372,14 +372,14 @@ static	<it.yup.transport.BaseChannel: int bytes_sent>
 public	<it.yup.util.ResourceIDs: int STR_SEE_DETAILS>
 private	<it.yup.xmpp.BluendoXMLRPC: byte header>
 	<com.jcraft.jzlib.Deflate: int last_lit>
-static	<com.jcraft.jzlib.InfBlocks: int MANY>
 static	<it.yup.xmpp.Config: int imgType>
-private	<lampiro.screens.AboutScreen: java.lang.String[] lines>
+static	<com.jcraft.jzlib.InfBlocks: int MANY>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Display display>
+private	<lampiro.screens.AboutScreen: java.lang.String[] lines>
 private	<com.jcraft.jzlib.InfBlocks: int LENS>
 final	<com.jcraft.jzlib.Tree: int L_CODES>
-final	<it.yup.util.ResourceIDs: int STR_CONFIRM>
 private	<com.jcraft.jzlib.Deflate: int Z_VERSION_ERROR>
+final	<it.yup.util.ResourceIDs: int STR_CONFIRM>
 final	<it.yup.util.ResourceIDs: int STR_NEW_USER>
 final	<com.jcraft.jzlib.Inflate: int DICT4>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_CANCEL>
@@ -407,8 +407,8 @@ static	<it.yup.xmpp.FTSender: java.lang.String DATA>
 static	<it.yup.util.ResourceIDs: int STR_FORWARD>
 static	<com.jcraft.jzlib.StaticTree: short[] static_ltree>
 private	<it.yup.screens.StatusScreen: it.yup.util.ResourceManager rm>
-public	<it.yup.util.ResourceIDs: int STR_NEW_USER>
 private	<lampiro.screens.MessageComposerScreen: it.yup.ui.UILabel cmd_cancel>
+public	<it.yup.util.ResourceIDs: int STR_NEW_USER>
 final	<com.jcraft.jzlib.Inflate: int DICT1>
 public	<it.yup.util.ResourceIDs: int STR_SET_TOPIC>
 final	<it.yup.util.ResourceIDs: int STR_CAMERA_HUGE>
@@ -428,8 +428,8 @@ final	<com.jcraft.jzlib.Inflate: int DICT0>
 protected	<it.yup.xml.Element: int nchildren>
 static	<it.yup.util.ResourceIDs: int STR_ROOM_NAME>
 protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel addUser>
-static	<lampiro.screens.ChatScreen: it.yup.util.ResourceManager rm>
 static	<com.jcraft.jzlib.Inflate: int CHECK4>
+static	<lampiro.screens.ChatScreen: it.yup.util.ResourceManager rm>
 final	<com.jcraft.jzlib.Deflate: com.jcraft.jzlib.Deflate$Config[] config_table>
 private	<lampiro.screens.SubscribeScreen: java.util.Hashtable componentSubscriptionsScreen>
 static	<com.jcraft.jzlib.Deflate: int MAX_MEM_LEVEL>
@@ -438,19 +438,19 @@ protected	<com.jcraft.jzlib.ZInputStream: byte[] buf>
 static	<it.yup.util.ResourceIDs: int STR_SET_TOPIC>
 public	<it.yup.util.ResourceIDs: int STR_SEND_GRP_MSG>
 private	<it.yup.xmlstream.AccountRegistration: java.lang.String IQ_REGISTER>
+private	<it.yup.screens.MessageComposerScreen: it.yup.xmpp.Contact user>
 static	<it.yup.util.ResourceIDs: int STR_HIDE>
 public	<it.yup.util.ResourceIDs: int STR_EXECUTE>
-private	<it.yup.screens.MessageComposerScreen: it.yup.xmpp.Contact user>
-private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.ChoiceGroup grp_advanced>
 private	<it.yup.xmlstream.Element: int _internal_id_counter>
+private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.ChoiceGroup grp_advanced>
 protected	<com.jcraft.jzlib.ZOutputStream: byte[] buf1>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel gateways_discovery>
 public	<it.yup.util.ResourceIDs: int STR_OFFLINE>
 private	<lampiro.screens.DataResultScreen: it.yup.xmpp.packets.DataForm df>
 final	<com.jcraft.jzlib.Inflate: int DICT3>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_RESULT>
-static	<it.yup.util.ResourceIDs: int STR_CONNECTED>
 private	<com.jcraft.jzlib.Deflate: int LITERALS>
+static	<it.yup.util.ResourceIDs: int STR_CONNECTED>
 public	<it.yup.xmpp.Task: byte DF_MASK>
 static	<com.jcraft.jzlib.ZStream: int Z_FULL_FLUSH>
 public	<it.yup.ui.UIItem: int INNER_UP>
@@ -474,13 +474,13 @@ final	<com.jcraft.jzlib.Tree: int REPZ_3_10>
 final	<it.yup.util.ResourceIDs: int STR_QWERTY>
 static	<it.yup.util.ResourceIDs: int STR_RESOURCE>
 final	<com.jcraft.jzlib.JZlib: int Z_BEST_SPEED>
-private	<lampiro.screens.SendMMScreen: java.lang.String fileType>
 static	<it.yup.ui.UIConfig: int menu_title>
+private	<lampiro.screens.SendMMScreen: java.lang.String fileType>
 public	<it.yup.util.ResourceIDs: int STR_COMPRESSION_INITIALIZED>
 static	<com.jcraft.jzlib.InfCodes: int LENEXT>
 static	<it.yup.util.ResourceIDs: int STR_OPTIONS_SETUP>
-final	<it.yup.util.ResourceIDs: int STR_FORWARD_MESSAGE>
 private	<lampiro.screens.KeyScreen: int rkey>
+final	<it.yup.util.ResourceIDs: int STR_FORWARD_MESSAGE>
 final	<it.yup.screens.RosterScreen: byte SCROLL_DOWN>
 static	<it.yup.screens.DataResultScreen: it.yup.util.ResourceManager rm>
 final	<it.yup.xmpp.Roster$IQResultListener2: it.yup.xmpp.Roster this$0>
@@ -510,8 +510,8 @@ private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel presenceLabel>
 final	<it.yup.util.ResourceIDs: int STR_FILLLATER>
 static	<com.jcraft.jzlib.Deflate: int Z_OK>
 public	<it.yup.util.ResourceIDs: int STR_MM_ALBUM>
-static	<it.yup.util.ResourceIDs: int STR_QWERTY>
 	<com.jcraft.jzlib.Deflate: int hash_bits>
+static	<it.yup.util.ResourceIDs: int STR_QWERTY>
 public	<it.yup.xmpp.Contact: int CH_MESSAGE_NEW>
 final	<it.yup.util.ResourceIDs: int STR_FT_ACCEPTED>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_CAPS>
@@ -521,20 +521,20 @@ final	<it.yup.util.ResourceIDs: int STR_ALREADY_EXIST>
 static	<it.yup.xmlstream.KXmlParser: int LEGACY>
 public	<it.yup.util.ResourceIDs: int STR_FT_ERROR>
 private	<it.yup.xml.KXmlParser: boolean isWhitespace>
-	<com.jcraft.jzlib.InfBlocks: int end>
 public	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_ID>
+	<com.jcraft.jzlib.InfBlocks: int end>
 final	<it.yup.util.ResourceIDs: int STR_TLS_INITIALIZED>
 static	<it.yup.xmpp.FTSender: java.lang.String OPEN>
 static	<lampiro.screens.DataResultScreen: it.yup.util.ResourceManager rm>
-private	<it.yup.xml.BProcessor: int TAG_NS>
 private	<it.yup.ui.UILabel: int imgAnchorPoint>
+private	<it.yup.xml.BProcessor: int TAG_NS>
 static	<com.jcraft.jzlib.InfCodes: int Z_ERRNO>
 private	<it.yup.screens.CommandListScreen: java.lang.String chosenResource>
 public	<com.jcraft.jzlib.ZStream: long total_out>
 static	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_AWAY>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String USERNAME>
-static	<it.yup.xmpp.XMPPClient: java.lang.String JINGLE_FILE_TRANSFER>
 static	<com.jcraft.jzlib.Tree: int MAX_BITS>
+static	<it.yup.xmpp.XMPPClient: java.lang.String JINGLE_FILE_TRANSFER>
 public	<it.yup.util.ResourceIDs: int STR_SET_STATUS>
 final	<it.yup.util.ResourceIDs: int STR_KEEPALIVE>
 public	<it.yup.xmpp.XMPPClient: java.lang.String JINGLE>
@@ -562,12 +562,12 @@ static	<com.jcraft.jzlib.InfBlocks: int TABLE>
 private	<lampiro.screens.InnerMMScreen: java.lang.String fullJid>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String UNMATCHED_STANZA>
 static	<com.jcraft.jzlib.ZStream: int MAX_MEM_LEVEL>
-private	<com.jcraft.jzlib.InfBlocks: int MANY>
 public	<it.yup.ui.UIConfig: int button_selected_color>
+private	<com.jcraft.jzlib.InfBlocks: int MANY>
 	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel zoomLabel>
 public	<it.yup.util.ResourceIDs: int STR_ACCEPT_ALWAYS>
-final	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT_INVITATION>
 static	<it.yup.xmpp.FTSender: java.lang.String ACTION>
+final	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT_INVITATION>
 final	<it.yup.util.ResourceIDs: int STR_CONTACT_ID>
 final	<it.yup.util.ResourceIDs: int STR_MM_ALBUM>
 	<com.jcraft.jzlib.Deflate: int bi_valid>
@@ -580,22 +580,22 @@ static	<lampiro.screens.OptionsScreen: it.yup.util.ResourceManager rm>
 final	<com.jcraft.jzlib.Deflate: int Z_DATA_ERROR>
 private	<lampiro.screens.StatusScreen: it.yup.ui.UITextField priority>
 	<it.yup.ui.UICanvas: boolean longPressRun>
-static	<com.jcraft.jzlib.InfTree: int MANY>
 final	<com.jcraft.jzlib.Deflate: int Z_FINISH>
+static	<com.jcraft.jzlib.InfTree: int MANY>
 final	<com.jcraft.jzlib.Tree: int DIST_CODE_LEN>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UICombobox grp_server>
 static	<lampiro.screens.AlbumScreen: it.yup.xmpp.Config cfg>
 static	<it.yup.xmpp.XMPPClient: it.yup.xmpp.XMPPClient xmppInstance>
 static	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_STRATEGY>
 public	<it.yup.util.ResourceIDs: int STR_CHANGE_STATUS>
-static	<it.yup.util.ResourceIDs: int STR_HELP_TEXT>
 final	<com.jcraft.jzlib.Deflate: int STATIC_TREES>
+static	<it.yup.util.ResourceIDs: int STR_HELP_TEXT>
 static	<it.yup.xml.KXmlParser: java.lang.String ILLEGAL_TYPE>
 private	<it.yup.util.RMSIndex: int CHUNK_MAXSIZE>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_contact_capture_aud>
 final	<it.yup.util.ResourceIDs: int STR_ASK_FT>
-static	<com.jcraft.jzlib.ZStream: int Z_NEED_DICT>
 private	<com.jcraft.jzlib.Tree: int L_CODES>
+static	<com.jcraft.jzlib.ZStream: int Z_NEED_DICT>
 static	<it.yup.ui.UIUtils: char[][] itu_keys>
 public	<it.yup.xmpp.Task: byte DF_RESULT>
 static	<it.yup.xmpp.Config: it.yup.xmpp.Config instance>
@@ -603,10 +603,10 @@ private	<it.yup.xmpp.SimpleDataFormExecutor: byte status>
 private	<it.yup.screens.DataResultScreen: javax.microedition.lcdui.StringItem si_instructions>
 private	<lampiro.screens.InnerMMScreen: javax.microedition.lcdui.Command cmd_low>
 private	<it.yup.screens.ChatScreen: int start_entry>
-final	<it.yup.util.ResourceIDs: int STR_INSERT_CODE>
 private	<it.yup.xml.KXmlSerializer: int depth>
-static	<it.yup.util.ResourceIDs: int STR_ADDRESS>
+final	<it.yup.util.ResourceIDs: int STR_INSERT_CODE>
 private	<it.yup.xml.KXmlSerializer: java.lang.String[] elementStack>
+static	<it.yup.util.ResourceIDs: int STR_ADDRESS>
 static	<it.yup.xmpp.XMPPClient: java.lang.String DELAY>
 private	<com.jcraft.jzlib.ZStream: int Z_STREAM_END>
 private	<it.yup.ui.UIAccordion: int labelSelectedColor>
@@ -636,9 +636,9 @@ private	<it.yup.ui.UICanvas: java.util.Vector screenList>
 private	<it.yup.xmpp.CommandExecutor: java.lang.String STATUS_COMPLETED>
 public	<it.yup.util.ResourceIDs: int STR_KEY_ERROR_KEY>
 public	<it.yup.xmpp.Config: int TIMEOUT>
+public	<it.yup.xmlstream.BasicXmlStream: java.util.Vector eventListeners>
 final	<it.yup.util.ResourceIDs: int STR_SCARY_GMAIL>
 static	<it.yup.xmpp.Config: int RNUM_ROSTER>
-public	<it.yup.xmlstream.BasicXmlStream: java.util.Vector eventListeners>
 private	<lampiro.screens.RosterScreen: boolean show_offlines>
 private	<com.jcraft.jzlib.Inflate: byte[] mark>
 private	<lampiro.screens.OptionsScreen: it.yup.ui.UILabel cmd_cancel>
@@ -665,8 +665,8 @@ public	<it.yup.util.ResourceIDs: int STR_COLOR>
 static	<it.yup.util.ResourceIDs: int STR_ADD_USER>
 static	<com.jcraft.jzlib.InfCodes: int Z_MEM_ERROR>
 private	<lampiro.screens.MUCScreen: java.util.Vector mucCandidates>
-private	<lampiro.screens.FTScreen$FTItem: java.lang.String fileName>
 final	<com.jcraft.jzlib.Tree: int MAX_BITS>
+private	<lampiro.screens.FTScreen$FTItem: java.lang.String fileName>
 final	<it.yup.util.ResourceIDs: int STR_MESS_PENDING>
 static	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_ACCEPT>
 public	<it.yup.util.ResourceIDs: int STR_CMDSCREEN_TITLE>
@@ -680,32 +680,32 @@ final	<com.jcraft.jzlib.InfCodes: int Z_STREAM_ERROR>
 static	<lampiro.screens.RosterScreen$UIGroup: it.yup.ui.UILabel groupMessage>
 protected	<it.yup.transport.SocketChannel: it.yup.transport.TransportListener listener>
 private	<it.yup.util.XMPPConsumer: it.yup.util.XMPPConsumer consumer>
-public	<it.yup.util.ResourceIDs: int STR_RESOURCE>
 final	<com.jcraft.jzlib.ZStream: int Z_NEED_DICT>
+public	<it.yup.util.ResourceIDs: int STR_RESOURCE>
 private	<it.yup.ui.UIPanel: javax.microedition.lcdui.Image pointer>
 final	<it.yup.xmpp.XMPPClient$1: it.yup.xmpp.XMPPClient this$0>
 static	<com.jcraft.jzlib.Deflate: int DYN_TREES>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UICheckbox reset_config>
 private	<com.jcraft.jzlib.Deflate: int Z_BINARY>
 public	<it.yup.util.ResourceIDs: int STR_ADD_USER>
-public	<it.yup.util.ResourceIDs: int STR_REG_GATEWAYS>
 static	<lampiro.screens.RosterScreen$UIGroup: lampiro.screens.RosterScreen$UIGroup movingGroup>
-private	<lampiro.screens.ChatScreen$ForwardScreen: java.lang.String fromContact>
+public	<it.yup.util.ResourceIDs: int STR_REG_GATEWAYS>
 static	<lampiro.LampiroMidlet: javax.microedition.lcdui.Display disp>
-private	<it.yup.screens.SubscriptionConfirmAlert: it.yup.util.ResourceManager rm>
+private	<lampiro.screens.ChatScreen$ForwardScreen: java.lang.String fromContact>
 private	<it.yup.ui.UIAccordion: java.util.Hashtable accordionItems>
+private	<it.yup.screens.SubscriptionConfirmAlert: it.yup.util.ResourceManager rm>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_capture_aud>
 final	<it.yup.xmpp.Task: byte CMD_CANCELED>
 private	<lampiro.screens.KeyScreen: byte STATE_RIGHT_OK>
 public	<it.yup.xmpp.FTSender: java.lang.String SID>
 static	<com.jcraft.jzlib.Deflate: int STORED>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField tf_email>
 private	<it.yup.ui.UIEmoLabel: java.lang.String[] codes>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField tf_email>
 	<com.jcraft.jzlib.Inflate: int method>
 static	<lampiro.screens.TaskListScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.util.ResourceIDs: int STR_DELETE>
-private	<it.yup.xmpp.Roster$IQResultListener3: boolean accept>
 private	<it.yup.ui.UIAccordion: java.util.Vector itemLabels>
+private	<it.yup.xmpp.Roster$IQResultListener3: boolean accept>
 static	<it.yup.util.ResourceIDs: int STR_LOGIN>
 static	<it.yup.util.ResourceIDs: int STR_PLAY_TONE_IF>
 private	<com.jcraft.jzlib.Deflate: int Z_STREAM_END>
@@ -740,33 +740,33 @@ protected	<it.yup.xml.Element: java.lang.Object[] children>
 static	<it.yup.xmpp.FTSender: java.lang.String SID>
 public	<it.yup.ui.UIAccordion: javax.microedition.lcdui.Image openImage>
 final	<com.jcraft.jzlib.InfCodes: int Z_STREAM_END>
+final	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_CANCEL>
 public	<it.yup.util.ResourceIDs: int STR_ALREADY_EXIST>
 private	<com.jcraft.jzlib.InfBlocks: int CODES>
-final	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_CANCEL>
 private	<it.yup.screens.OptionsScreen: javax.microedition.lcdui.Command cmd_save>
 private	<lampiro.screens.SendMMScreen: java.lang.String fullJid>
 private	<it.yup.screens.SimpleComposerScreen: javax.microedition.lcdui.Displayable next>
 private	<com.jcraft.jzlib.Deflate: int MAX_BITS>
 private	<it.yup.screens.RosterScreen: int sel_last_key>
-static	<it.yup.util.ResourceIDs: int STR_REG_UNALLOWED>
 final	<lampiro.screens.KeyScreen: byte STATE_LEFT_OK>
+static	<it.yup.util.ResourceIDs: int STR_REG_UNALLOWED>
 final	<lampiro.screens.AddContactScreen$IQResultListener1: lampiro.screens.AddContactScreen this$0>
 public	<it.yup.util.ResourceIDs: int STR_KEY_CONFIGURE>
-static	<com.jcraft.jzlib.InfTree: int Z_ERRNO>
 public	<it.yup.xmpp.XMPPClient: java.lang.String PHOTO>
+static	<com.jcraft.jzlib.InfTree: int Z_ERRNO>
 final	<com.jcraft.jzlib.InfBlocks: int TABLE>
 static	<com.jcraft.jzlib.Inflate: int DICT4>
 private	<com.jcraft.jzlib.InfBlocks: int Z_DATA_ERROR>
-final	<it.yup.util.ResourceIDs: int STR_SETTINGS_EFFECT>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String NOT_AUTHORIZED>
-private	<it.yup.util.MemoryLogConsumer: it.yup.util.MemoryLogConsumer consumer>
+final	<it.yup.util.ResourceIDs: int STR_SETTINGS_EFFECT>
 public	<it.yup.xmpp.Config: short LOGGED_ONCE>
+private	<it.yup.util.MemoryLogConsumer: it.yup.util.MemoryLogConsumer consumer>
 public	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
 static	<com.jcraft.jzlib.InfBlocks: int STORED>
 static	<it.yup.util.RMSIndex$RecordType: byte SPLITTED_RECORD>
 final	<it.yup.util.ResourceIDs: int STR_TO>
-private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UILabel selectLabel>
 private	<it.yup.ui.UITextPanel: boolean enableEmoticons>
+private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UILabel selectLabel>
 static	<com.jcraft.jzlib.InfTree: int Z_VERSION_ERROR>
 final	<it.yup.util.ResourceIDs: int STR_KEY_ERROR_KEY>
 static	<com.jcraft.jzlib.Inflate: int DICT3>
@@ -776,8 +776,8 @@ final	<com.jcraft.jzlib.JZlib: int Z_NO_FLUSH>
 static	<it.yup.util.ResourceIDs: int STR_MORE>
 static	<com.jcraft.jzlib.Inflate: int DICT2>
 private	<lampiro.screens.InnerMMScreen: javax.microedition.lcdui.Command cmd_default>
-private	<it.yup.xmpp.CommandExecutor: java.lang.String STATUS_EXECUTING>
 private	<it.yup.xmpp.Config: java.lang.String version>
+private	<it.yup.xmpp.CommandExecutor: java.lang.String STATUS_EXECUTING>
 public	<it.yup.ui.UIConfig: int bg_color>
 final	<it.yup.xmpp.packets.Message: java.lang.String THREAD>
 public	<it.yup.screens.MessageComposerScreen: int MESSAGE>
@@ -795,11 +795,11 @@ final	<com.jcraft.jzlib.Deflate: int L_CODES>
 static	<it.yup.util.ResourceIDs: int STR_GATEWAY_HINT>
 final	<com.jcraft.jzlib.JZlib: int Z_DATA_ERROR>
 public	<lampiro.screens.SubscribeScreen: it.yup.ui.UIButton accept>
+private	<it.yup.xmlstream.KXmlParser: java.lang.String[] nspStack>
 public	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
 static	<it.yup.xmpp.Config: java.lang.String version>
-private	<it.yup.xmlstream.KXmlParser: java.lang.String[] nspStack>
-static	<com.jcraft.jzlib.StaticTree: int LENGTH_CODES>
 final	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_TO>
+static	<com.jcraft.jzlib.StaticTree: int LENGTH_CODES>
 public	<it.yup.util.ResourceIDs: int STR_AUTHENTICATED>
 static	<com.jcraft.jzlib.InfBlocks: int Z_DATA_ERROR>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDMULTI>
@@ -821,8 +821,8 @@ private	<it.yup.ui.UICombobox: int selectedIndex>
 private	<com.jcraft.jzlib.Deflate: int Z_ERRNO>
 static	<it.yup.ui.UIConfig: int header_fg>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIMenu desc_menu>
-private	<it.yup.screens.DataFormScreen: it.yup.xmpp.DataFormListener dfl>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_FORM>
+private	<it.yup.screens.DataFormScreen: it.yup.xmpp.DataFormListener dfl>
 public	<it.yup.util.ResourceIDs: int STR_HIDE>
 static	<it.yup.util.ResourceIDs: int STR_LISTCMD>
 final	<com.jcraft.jzlib.Inflate: int Z_STREAM_ERROR>
@@ -847,13 +847,13 @@ private	<it.yup.screens.ChatScreen: boolean scroll_to_bottom>
 final	<it.yup.util.ResourceIDs: int STR_CAMERA_LOW>
 final	<it.yup.util.ResourceIDs: int STR_EXIT>
 final	<lampiro.screens.RosterScreen$Thread1: int mmType>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel cmd_state>
 private	<it.yup.screens.RosterScreen: char[][] itu_keys>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel cmd_state>
 	<lampiro.screens.DataFormScreen: it.yup.ui.UIGauge progress_gauge>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_HIDDEN>
 public	<it.yup.xmpp.FTSender: java.lang.String fileName>
-final	<lampiro.screens.ShowMMScreen$1: lampiro.screens.ShowMMScreen this$0>
 static	<com.jcraft.jzlib.Tree: int LITERALS>
+final	<lampiro.screens.ShowMMScreen$1: lampiro.screens.ShowMMScreen this$0>
 static	<lampiro.screens.FTScreen: javax.microedition.lcdui.Image leftImage>
 static	<it.yup.util.ResourceIDs: int STR_FT_ERROR>
 final	<com.jcraft.jzlib.InfCodes: int Z_BUF_ERROR>
@@ -865,11 +865,11 @@ static	<it.yup.util.ResourceIDs: int STR_STATUS_MESSAGE>
 private	<it.yup.xml.BProcessor: int TAG_TEXT>
 private	<it.yup.ui.UICanvas: long keyPressedTime>
 static	<lampiro.screens.FTScreen: it.yup.util.ResourceManager rm>
-protected	<com.jcraft.jzlib.ZOutputStream: int flush>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel cmd_delay>
+protected	<com.jcraft.jzlib.ZOutputStream: int flush>
 static	<it.yup.util.ResourceIDs: int STR_CAMERA_MEDIUM>
-public	<it.yup.xmpp.DataFormListener: int CMD_CANCEL>
 static	<com.jcraft.jzlib.Tree: byte[] _dist_code>
+public	<it.yup.xmpp.DataFormListener: int CMD_CANCEL>
 final	<it.yup.util.ResourceIDs: int STR_HIDE>
 static	<it.yup.xml.KXmlParser: int LEGACY>
 private	<it.yup.xmpp.CommandExecutor: java.lang.String note>
@@ -879,8 +879,8 @@ final	<com.jcraft.jzlib.InfTree: int BMAX>
 private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField tf_jid>
 final	<it.yup.util.ResourceIDs: int STR_UNAVAILABLE>
 public	<it.yup.xmpp.packets.DataForm$Field: java.util.Vector options>
-final	<com.jcraft.jzlib.InfTree: int[] cpdist>
 static	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
+final	<com.jcraft.jzlib.InfTree: int[] cpdist>
 final	<it.yup.util.ResourceIDs: int STR_DISPLAYED_STATUS>
 final	<com.jcraft.jzlib.InfTree: int Z_STREAM_END>
 public	<it.yup.util.ResourceIDs: int STR_SEARCH>
@@ -900,8 +900,8 @@ private	<it.yup.screens.DeleteContactAlert: javax.microedition.lcdui.Command cmd
 static	<it.yup.xml.Element: int array_inc>
 final	<it.yup.xmpp.FTReceiver$OpenListener$PacketListener1: it.yup.xmpp.FTReceiver$OpenListener this$1>
 final	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_CONFIRM>
-static	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 	<it.yup.util.RMSIndex$KeyEnumeration: java.util.Vector current_chunk>
+static	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 final	<it.yup.util.ResourceIDs: int STR_KEY_CONFIGURE>
 final	<lampiro.screens.KeyScreen: byte STATE_LEFT_WAIT>
 final	<com.jcraft.jzlib.Tree: int REP_3_6>
@@ -918,15 +918,15 @@ public	<it.yup.xmpp.Config: java.lang.String LAMPIRO_AGENT>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_close_muc>
 private	<lampiro.screens.SubscribeScreen: it.yup.ui.UILabel sub_text>
 static	<it.yup.util.ResourceIDs: int STR_KEY_SELECT_RIGHT>
+static	<it.yup.xmlstream.BasicXmlStream: java.lang.String UNMATCHED_STANZA>
 static	<it.yup.util.ResourceIDs: int STR_LOGFAIL_DESC>
 final	<lampiro.screens.ContactInfoScreen$1: lampiro.screens.ContactInfoScreen this$0>
-static	<it.yup.xmlstream.BasicXmlStream: java.lang.String UNMATCHED_STANZA>
+private	<it.yup.xmpp.FTSender: int seq>
 protected	<it.yup.xmpp.XMPPClient: javax.microedition.lcdui.Image[] presence_icons>
 private	<it.yup.ui.UITextPanel: int lastLabel>
-private	<it.yup.xmpp.FTSender: int seq>
 static	<it.yup.util.ResourceIDs: int STR_SAVE>
-final	<it.yup.util.ResourceIDs: int STR_AUTHENTICATED>
 static	<com.jcraft.jzlib.Deflate: int END_BLOCK>
+final	<it.yup.util.ResourceIDs: int STR_AUTHENTICATED>
 private	<lampiro.screens.FTScreen$FTItem: int STATUS_FINISHED>
 static	<com.jcraft.jzlib.Inflate: int Z_ERRNO>
 final	<it.yup.util.ResourceIDs: int STR_CANCEL>
@@ -981,8 +981,8 @@ static	<com.jcraft.jzlib.Tree: int DIST_CODE_LEN>
 final	<it.yup.util.ResourceIDs: int STR_ADVANCED_OPTIONS>
 private	<com.jcraft.jzlib.Deflate: int REPZ_11_138>
 private	<it.yup.util.XMPPConsumer: java.util.Vector messages>
-static	<com.jcraft.jzlib.JZlib: int Z_STREAM_ERROR>
 	<it.yup.util.RMSIndex$Item: int id>
+static	<com.jcraft.jzlib.JZlib: int Z_STREAM_ERROR>
 private	<lampiro.screens.GroupsScreen: it.yup.util.ResourceManager rm>
 final	<it.yup.util.ResourceIDs: int STR_SEE_DETAILS>
 	<lampiro.screens.CommandListScreen: it.yup.ui.UIGauge progress_gauge>
@@ -993,13 +993,13 @@ private	<it.yup.xml.KXmlParser: boolean processNsp>
 final	<it.yup.ui.UIAccordion$AccordionItem: it.yup.ui.UIAccordion this$0>
 private	<it.yup.xmpp.XMPPClient: it.yup.xmlstream.EventQueryRegistration lostConnReg>
 final	<it.yup.xmpp.packets.Presence: java.lang.String T_SUBSCRIBED>
-private	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel uil>
 final	<it.yup.util.MetaVector$MultiVectorEnumeration: it.yup.util.MetaVector this$0>
+private	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel uil>
 private	<it.yup.ui.UITextField: boolean wrappable>
 final	<it.yup.util.ResourceIDs: int STR_INSTRUCTIONS>
 public	<it.yup.util.ResourceIDs: int STR_LOGOUT>
-public	<it.yup.util.ResourceIDs: int STR_MESS_PENDING>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_HIDDEN>
+public	<it.yup.util.ResourceIDs: int STR_MESS_PENDING>
 public	<it.yup.util.ResourceIDs: int STR_AUDIO>
 final	<com.jcraft.jzlib.InfBlocks: int MANY>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_addc>
@@ -1012,8 +1012,8 @@ private	<lampiro.screens.RosterScreen: it.yup.ui.UIMenu optionsMenu>
 private	<lampiro.screens.StatusScreen: it.yup.ui.UIRadioButtons ch_status>
 final	<com.jcraft.jzlib.ZStream: int MAX_MEM_LEVEL>
 final	<com.jcraft.jzlib.InfCodes: int Z_ERRNO>
-private	<lampiro.screens.RosterScreen: boolean filtering>
 final	<it.yup.xmpp.Task: byte DF_DESTROY>
+private	<lampiro.screens.RosterScreen: boolean filtering>
 private	<lampiro.screens.MMScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.util.ResourceIDs: int STR_COMPRESSION_INITIALIZED>
 private	<lampiro.screens.ContactInfoScreen: it.yup.ui.UIVLayout eeLayout>
@@ -1028,27 +1028,27 @@ static	<lampiro.screens.RegisterScreen: lampiro.screens.RegisterScreen _register
 static	<it.yup.xmpp.packets.Presence: java.lang.String PRESENCE>
 static	<it.yup.util.ResourceIDs: int STR_KEY_HELP>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_ACCOUNT_REGISTERED>
-private	<it.yup.ui.UIGauge: int value>
 static	<com.jcraft.jzlib.JZlib: int Z_DEFAULT_STRATEGY>
+private	<it.yup.ui.UIGauge: int value>
 private	<it.yup.xmpp.FTReceiver: it.yup.xmpp.FTReceiver$FTREventHandler eh>
 final	<it.yup.util.ResourceIDs: int STR_COLOR_GREEN>
 static	<it.yup.xmpp.FTSender: java.lang.String DESCRIPTION>
 static	<com.jcraft.jzlib.JZlib: java.lang.String version>
 final	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM>
 public	<it.yup.util.ResourceIDs: int STR_ASK_FT>
-private	<it.yup.util.GoogleToken: java.lang.String username>
 private	<it.yup.ui.UIAccordion$AccordionItem: java.util.Vector subPanel>
+private	<it.yup.util.GoogleToken: java.lang.String username>
 static	<it.yup.util.ResourceIDs: int STR_NICK_NAME>
 public	<it.yup.ui.UIConfig: int bdb_color>
 	<it.yup.ui.UIMenu: boolean openedState>
-static	<it.yup.util.ResourceIDs: int STR_EXECUTE>
 final	<com.jcraft.jzlib.Tree: int MAX_BL_BITS>
-final	<com.jcraft.jzlib.InfBlocks: int[] border>
+static	<it.yup.util.ResourceIDs: int STR_EXECUTE>
 public	<it.yup.xmpp.Config: short VERSION>
+final	<com.jcraft.jzlib.InfBlocks: int[] border>
 final	<com.jcraft.jzlib.JZlib: int Z_SYNC_FLUSH>
 private	<lampiro.screens.AlbumScreen: java.util.Vector itemsToRemove>
-static	<com.jcraft.jzlib.StaticTree: int BL_CODES>
 private	<it.yup.util.RMSIndex: int recordMaxLength>
+static	<com.jcraft.jzlib.StaticTree: int BL_CODES>
 static	<lampiro.screens.CommandListScreen: it.yup.util.ResourceManager rm>
 protected	<lampiro.screens.ChatScreen: it.yup.ui.UIPanel chatPanel>
 private	<com.jcraft.jzlib.Inflate: int DICT1>
@@ -1057,10 +1057,10 @@ static	<it.yup.util.ResourceIDs: int STR_KEY_PROCEED>
 static	<com.jcraft.jzlib.Deflate: int REP_3_6>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String USERNAME>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel cmd_submit>
-static	<it.yup.util.ResourceIDs: int STR_HIGHLIGHTS>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_BLUENDO_CAPS>
-	<com.jcraft.jzlib.InfCodes: int get>
+static	<it.yup.util.ResourceIDs: int STR_HIGHLIGHTS>
 final	<com.jcraft.jzlib.Tree: int D_CODES>
+	<com.jcraft.jzlib.InfCodes: int get>
 private	<it.yup.xmpp.Contact: java.lang.String[] groups>
 static	<com.jcraft.jzlib.JZlib: int Z_NO_COMPRESSION>
 public	<it.yup.xmpp.packets.Iq: java.lang.String PROMPT>
@@ -1069,22 +1069,22 @@ private	<it.yup.xmpp.XMPPClient: it.yup.xmpp.XMPPClient xmppInstance>
 private	<com.jcraft.jzlib.Inflate: int DICT0>
 private	<it.yup.screens.SimpleComposerScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.util.ResourceIDs: int STR_SEND_MESSAGE>
-protected	<it.yup.ui.UIScreen: it.yup.ui.UIHLayout footer>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIButton buttonNo>
-public	<it.yup.util.ResourceIDs: int STR_FONT_SIZE>
+protected	<it.yup.ui.UIScreen: it.yup.ui.UIHLayout footer>
 	<com.jcraft.jzlib.Deflate: short[] dyn_dtree>
+public	<it.yup.util.ResourceIDs: int STR_FONT_SIZE>
 public	<it.yup.xmpp.Config: int RNUM_CONFIG>
 final	<it.yup.util.ResourceIDs: int STR_FONT_MEDIUM>
 static	<lampiro.screens.AlbumScreen: it.yup.xml.Element albumEl>
 static	<it.yup.ui.UIItem: int OUTER_UP>
 static	<it.yup.util.ResourceIDs: int STR_ALREADY_EXIST>
+public	<it.yup.xmpp.Config: short SILENT>
 static	<com.jcraft.jzlib.InfTree: int[] cpdext>
 public	<it.yup.xmpp.packets.DataForm$Field: java.lang.String type>
-public	<it.yup.xmpp.Config: short SILENT>
-private	<lampiro.screens.FTScreen: javax.microedition.lcdui.Image leftImage>
 static	<it.yup.xmpp.Contact: int CH_TASK_NEW>
-public	<it.yup.util.ResourceIDs: int STR_FORWARD_MESSAGE>
+private	<lampiro.screens.FTScreen: javax.microedition.lcdui.Image leftImage>
 private	<it.yup.xmlstream.KXmlParser: boolean relaxed>
+public	<it.yup.util.ResourceIDs: int STR_FORWARD_MESSAGE>
 final	<com.jcraft.jzlib.InfTree: int[] cplext>
 final	<com.jcraft.jzlib.Deflate: int END_BLOCK>
 final	<it.yup.util.ResourceIDs: int STR_WHEN_NEW_MESSAGES>
@@ -1096,8 +1096,8 @@ public	<it.yup.xml.Element: long queueTime>
 	<it.yup.ui.UIItem: int bg_color>
 private	<com.jcraft.jzlib.InfCodes: int Z_STREAM_END>
 public	<it.yup.util.ResourceIDs: int STR_EXPANDED>
-private	<it.yup.ui.UITextField: int maxLines>
 private	<it.yup.xmpp.FTSender: java.lang.String desc>
+private	<it.yup.ui.UITextField: int maxLines>
 public	<it.yup.xmpp.FTSender: java.lang.String DECLINE>
 public	<it.yup.xmpp.Config: short QWERTY>
 public	<it.yup.ui.UIAccordion: javax.microedition.lcdui.Image closeImage>
@@ -1108,8 +1108,8 @@ static	<it.yup.xmlstream.BasicXmlStream: java.util.Vector eventListeners>
 private	<it.yup.screens.AboutScreen: javax.microedition.lcdui.Command cmd_ok>
 static	<it.yup.util.ResourceIDs: int STR_INSTRUCTIONS>
 final	<it.yup.util.ResourceIDs: int STR_KEY_SELECT_RIGHT>
-protected	<it.yup.ui.UIItem: int height>
 public	<it.yup.xmpp.Contact: int CH_TASK_REMOVED>
+protected	<it.yup.ui.UIItem: int height>
 	<com.jcraft.jzlib.Deflate: int w_bits>
 final	<it.yup.util.ResourceIDs: int STR_GROUP>
 final	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_FROM>
@@ -1131,8 +1131,8 @@ public	<it.yup.xmpp.packets.Iq: java.lang.String QUERY>
 final	<com.jcraft.jzlib.Deflate: int MAX_MEM_LEVEL>
 final	<it.yup.util.ResourceIDs: int STR_FT_DECLINED>
 final	<it.yup.util.RMSIndex$RecordType: byte SPLITTED_RECORD>
-static	<com.jcraft.jzlib.Inflate: int Z_FULL_FLUSH>
 final	<lampiro.screens.ChatScreen$UICutLabel: lampiro.screens.ChatScreen this$0>
+static	<com.jcraft.jzlib.Inflate: int Z_FULL_FLUSH>
 	<it.yup.ui.UIScreen: boolean firstPaint>
 private	<com.jcraft.jzlib.Inflate: int DICT4>
 protected	<lampiro.screens.ShowMMScreen: it.yup.ui.UIPanel mainPanel>
@@ -1142,16 +1142,16 @@ final	<com.jcraft.jzlib.InfBlocks: int Z_MEM_ERROR>
 static	<it.yup.util.ResourceIDs: int STR_PREV>
 final	<it.yup.util.ResourceIDs: int STR_SAVE>
 private	<com.jcraft.jzlib.InfCodes: int Z_OK>
+public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDMULTI>
 final	<it.yup.util.ResourceIDs: int STR_AUDIO>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_mucs>
-public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDMULTI>
 static	<com.jcraft.jzlib.StaticTree: com.jcraft.jzlib.StaticTree static_bl_desc>
 public	<it.yup.tests.XMLTestMidlet: it.yup.tests.XMLTestMidlet yup>
-final	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_ONLINE>
 public	<lampiro.screens.MessageComposerScreen: int MESSAGE>
+final	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_ONLINE>
 public	<it.yup.xmpp.DataFormListener: int CMD_DESTROY>
-static	<it.yup.util.ResourceIDs: int STR_LOGOUT>
 final	<com.jcraft.jzlib.ZStream: int MAX_WBITS>
+static	<it.yup.util.ResourceIDs: int STR_LOGOUT>
 final	<com.jcraft.jzlib.Tree: int LITERALS>
 public	<it.yup.xmpp.Contact: java.lang.String[][] cmdlist>
 final	<it.yup.util.ResourceIDs: int STR_SET_STATUS>
@@ -1172,8 +1172,8 @@ private	<lampiro.screens.InnerMMScreen: javax.microedition.lcdui.Command cmd_hug
 private	<it.yup.xml.KXmlSerializer: boolean[] indent>
 private	<com.jcraft.jzlib.StaticTree: int L_CODES>
 private	<it.yup.screens.DataFormScreen$ListChoiceHandler: javax.microedition.lcdui.List list>
-public	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 public	<it.yup.tests.XMLTestMidlet: javax.microedition.lcdui.StringItem log>
+public	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 private	<com.jcraft.jzlib.InfBlocks: int Z_OK>
 static	<com.jcraft.jzlib.InfTree: int BMAX>
 static	<it.yup.util.ResourceIDs: int STR_FORWARD_MESSAGE>
@@ -1189,13 +1189,13 @@ private	<lampiro.screens.DebugScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.ui.UIConfig: java.lang.String cancelMenuString>
 final	<it.yup.util.RMSIndex: int CHUNK_MAXSIZE>
 private	<lampiro.screens.InnerMMScreen: javax.microedition.lcdui.Command cmd_exit>
-public	<it.yup.ui.UIScreen: it.yup.ui.UILabel titleLabel>
 private	<it.yup.screens.DataResultScreen: javax.microedition.lcdui.Command cmd_next>
+public	<it.yup.ui.UIScreen: it.yup.ui.UILabel titleLabel>
 	<com.jcraft.jzlib.Deflate: int pending_buf_size>
 public	<it.yup.ui.UIConfig: javax.microedition.lcdui.Font font_title>
 final	<it.yup.util.ResourceIDs: int STR_FT_SENT>
-protected	<com.jcraft.jzlib.FilterInputStream: java.io.InputStream in>
 protected	<lampiro.screens.MessageComposerScreen: it.yup.ui.UICombobox cg_type>
+protected	<com.jcraft.jzlib.FilterInputStream: java.io.InputStream in>
 private	<lampiro.screens.OptionsScreen: it.yup.util.ResourceManager rm>
 private	<lampiro.screens.FTScreen$FTItem: boolean DIRECTION_IN>
 private	<com.jcraft.jzlib.Deflate: int Buf_size>
@@ -1207,10 +1207,10 @@ final	<it.yup.util.ResourceIDs: int STR_RESET_OPTIONS>
 static	<com.jcraft.jzlib.JZlib: int Z_SYNC_FLUSH>
 final	<it.yup.xmpp.packets.Stanza: java.lang.String NS_JABBER_CLIENT>
 static	<it.yup.util.ResourceIDs: int STR_TLS_INITIALIZED>
-final	<it.yup.xmpp.packets.DataForm$Field: it.yup.xmpp.packets.DataForm this$0>
 final	<it.yup.xmpp.packets.Iq: java.lang.String QUERY>
-static	<it.yup.screens.ScreenSaver: javax.microedition.lcdui.Image img_lampiro>
+final	<it.yup.xmpp.packets.DataForm$Field: it.yup.xmpp.packets.DataForm this$0>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_fts>
+static	<it.yup.screens.ScreenSaver: javax.microedition.lcdui.Image img_lampiro>
 	<com.jcraft.jzlib.ZStream: com.jcraft.jzlib.Deflate dstate>
 	<lampiro.screens.MUCScreen: it.yup.ui.UICombobox rosterCombo>
 	<it.yup.util.RMSIndex$Item: short num>
@@ -1223,8 +1223,8 @@ protected	<it.yup.ui.Semaphore: long permits_>
 final	<com.jcraft.jzlib.Deflate: int Z_STREAM_END>
 	<com.jcraft.jzlib.Deflate: int strategy>
 static	<it.yup.xmpp.Task: byte CMD_CANCELED>
-protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_send_file>
 public	<it.yup.xml.Element: java.lang.String name>
+protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_send_file>
 private	<lampiro.screens.StatusScreen: it.yup.util.ResourceManager rm>
 private	<it.yup.xmpp.XMPPClient: it.yup.xmlstream.AccountRegistration accountRegistration>
 public	<it.yup.tests.TestMidlet: javax.microedition.lcdui.Display disp>
@@ -1233,8 +1233,8 @@ final	<it.yup.ui.UICanvas$1: it.yup.ui.UIScreen val$paintedScreen>
 final	<it.yup.util.ResourceIDs: int STR_REG_GATEWAYS>
 static	<com.jcraft.jzlib.Deflate: int Z_BUF_ERROR>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_FIXED>
-static	<it.yup.util.ResourceIDs: int STR_FT_DECLINED>
 public	<com.jcraft.jzlib.ZStream: long adler>
+static	<it.yup.util.ResourceIDs: int STR_FT_DECLINED>
 final	<com.jcraft.jzlib.InfCodes: int START>
 static	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM_LEFT>
 static	<it.yup.util.ResourceIDs: int STR_CHANGE_STATUS>
@@ -1260,37 +1260,37 @@ public	<it.yup.xmlstream.BasicXmlStream$ListenerRegistration: java.lang.Object l
 private	<com.jcraft.jzlib.Inflate: int CHECK1>
 private	<com.jcraft.jzlib.Tree: int D_CODES>
 private	<it.yup.ui.UIAccordion$AccordionItem: it.yup.ui.UIVLayout wrappedItem>
-static	<it.yup.util.ResourceIDs: int STR_SEND>
 public	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_AWAY>
+static	<it.yup.util.ResourceIDs: int STR_SEND>
 public	<it.yup.xmpp.Config: int MAX_PERM_TIME>
 private	<it.yup.screens.SubscriptionConfirmAlert: javax.microedition.lcdui.Displayable next>
 public	<it.yup.xmpp.FTSender: java.lang.String ACTION>
 private	<it.yup.xmpp.BluendoXMLRPC: java.io.DataInputStream inputStream>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel show_desc_label>
+protected	<it.yup.xmlstream.BasicXmlStream: java.util.Vector initializers>
 final	<it.yup.util.ResourceIDs: int STR_FORWARDED_TEXT>
 private	<com.jcraft.jzlib.Inflate: int CHECK2>
-protected	<it.yup.xmlstream.BasicXmlStream: java.util.Vector initializers>
 final	<lampiro.screens.ChatScreen$ForwardScreen: lampiro.screens.ChatScreen this$0>
 final	<lampiro.screens.RegisterScreen$1: lampiro.screens.RegisterScreen this$0>
 private	<lampiro.screens.AlbumScreen: it.yup.ui.UILabel sendLabel>
 private	<it.yup.screens.StatusScreen: javax.microedition.lcdui.Command cmd_exit>
 private	<lampiro.screens.RosterScreen: lampiro.screens.RosterScreen$WaitScreen dataformWaitingScreen>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel tf_jid_label>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_DESC>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel tf_jid_label>
 private	<it.yup.screens.DataFormScreen: javax.microedition.lcdui.ChoiceGroup cg_show_instructions>
+static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDSINGLE>
 public	<it.yup.xmpp.packets.DataForm$Field: boolean required>
 private	<it.yup.screens.ChatScreen: byte entry_scroll>
-static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDSINGLE>
-private	<com.jcraft.jzlib.Inflate: int CHECK3>
 final	<it.yup.xmpp.packets.Iq: java.lang.String IQ>
-public	<it.yup.xmpp.packets.Message: java.lang.String NORMAL>
+private	<com.jcraft.jzlib.Inflate: int CHECK3>
 public	<com.jcraft.jzlib.JZlib: int Z_STREAM_END>
+public	<it.yup.xmpp.packets.Message: java.lang.String NORMAL>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String COMPRESSION_INITIALIZED>
 private	<lampiro.screens.RosterScreen: it.yup.xmpp.FTReceiver ftReceiver>
 private	<it.yup.ui.UIMenu: it.yup.ui.UIMenu openSubMenu>
 static	<it.yup.util.ResourceIDs: int STR_OPEN>
-final	<com.jcraft.jzlib.ZStream: int Z_DATA_ERROR>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Image lag>
+final	<com.jcraft.jzlib.ZStream: int Z_DATA_ERROR>
 final	<it.yup.xmpp.FTReceiver$OpenListener: it.yup.xmpp.FTReceiver this$0>
 private	<lampiro.screens.RosterScreen: javax.microedition.lcdui.Image img_task>
 final	<it.yup.transport.SocketChannel$TimerTask1: it.yup.transport.SocketChannel this$0>
@@ -1299,13 +1299,13 @@ private	<it.yup.screens.DataResultScreen: javax.microedition.lcdui.Command cmd_c
 private	<com.jcraft.jzlib.Inflate: int CHECK4>
 private	<lampiro.screens.CommandListScreen: it.yup.xmpp.Contact usr>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_MUC>
-static	<it.yup.util.ResourceIDs: int STR_UPLOAD_TEXT>
 private	<lampiro.screens.KeyScreen: byte STATE_SPLASH>
-private	<lampiro.screens.KeyScreen: byte STATE_LEFT_WAIT>
+static	<it.yup.util.ResourceIDs: int STR_UPLOAD_TEXT>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Image lab>
+private	<lampiro.screens.KeyScreen: byte STATE_LEFT_WAIT>
 final	<it.yup.util.ResourceIDs: int STR_GROUP_LIST>
-final	<it.yup.ui.UILayout: int CONSTRAINT_PERCENTUAL>
 protected	<it.yup.xmlstream.BasicXmlStream: java.util.Enumeration initializerInterator>
+final	<it.yup.ui.UILayout: int CONSTRAINT_PERCENTUAL>
 final	<lampiro.screens.RosterScreen$RegisterWaitScreen: lampiro.screens.RosterScreen this$0>
 final	<com.jcraft.jzlib.Deflate: int BlockDone>
 private	<it.yup.xmlstream.KXmlSerializer: java.lang.String encoding>
@@ -1329,8 +1329,8 @@ final	<it.yup.xmpp.Config: java.lang.String RMS_NAME>
 private	<it.yup.xml.KXmlSerializer: java.lang.String[] nspStack>
 final	<it.yup.xmlstream.SASLAuthenticator$PacketListener3: it.yup.xmlstream.SASLAuthenticator this$0>
 final	<com.jcraft.jzlib.ZStream: int Z_ERRNO>
-private	<lampiro.screens.RosterScreen: int volume>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String NAMESPACE>
+private	<lampiro.screens.RosterScreen: int volume>
 private	<com.jcraft.jzlib.Tree: int HEAP_SIZE>
 final	<it.yup.util.ResourceIDs: int STR_NOTE>
 public	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_ACCEPT>
@@ -1338,27 +1338,27 @@ private	<it.yup.xmpp.FTReceiver$OpenListener: it.yup.xmlstream.EventQueryRegistr
 public	<it.yup.xmpp.packets.Presence: java.lang.String PRESENCE>
 static	<it.yup.screens.MessageComposerScreen: int CHAT>
 public	<it.yup.ui.UIConfig: javax.microedition.lcdui.Font gauge_body>
-private	<lampiro.screens.SendMMScreen: it.yup.ui.UICombobox rosterCombo>
 final	<it.yup.xmpp.FTSender$PacketListener3: it.yup.xmpp.FTSender this$0>
-final	<com.jcraft.jzlib.Deflate: int LITERALS>
+private	<lampiro.screens.SendMMScreen: it.yup.ui.UICombobox rosterCombo>
 protected	<it.yup.transport.SocketChannel: org.bouncycastle.crypto.tls.TlsProtocolHandler handler>
+final	<com.jcraft.jzlib.Deflate: int LITERALS>
 private	<lampiro.screens.GatewayRegisterScreen: it.yup.ui.UIButton submit>
-public	<it.yup.util.ResourceIDs: int STR_RESET_OPTIONS>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String CONNECTION_FAILED>
+public	<it.yup.util.ResourceIDs: int STR_RESET_OPTIONS>
 private	<it.yup.screens.RosterScreen: boolean[] play_flags>
 static	<it.yup.util.ResourceIDs: int STR_SEND_IMAGE>
 private	<lampiro.screens.OptionsScreen: it.yup.ui.UICheckbox qwerty>
 private	<it.yup.screens.DataResultScreen: it.yup.xmpp.DataFormListener listener>
 final	<com.jcraft.jzlib.Deflate: int MIN_LOOKAHEAD>
 private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Command cmd_querycmd>
-public	<it.yup.xmpp.packets.Message: java.lang.String HEADLINE>
 private	<com.jcraft.jzlib.Inflate: int Z_DATA_ERROR>
+public	<it.yup.xmpp.packets.Message: java.lang.String HEADLINE>
 public	<it.yup.util.ResourceIDs: int STR_CLEAR>
 public	<it.yup.util.ResourceIDs: int STR_ADVANCED_OPTIONS>
 final	<com.jcraft.jzlib.Inflate: int Z_ERRNO>
 private	<it.yup.screens.RosterScreen: int height>
-public	<it.yup.util.ResourceIDs: int STR_NOTE>
 private	<it.yup.xmpp.FTSender: java.lang.String 'to'>
+public	<it.yup.util.ResourceIDs: int STR_NOTE>
 private	<it.yup.ui.UITextField: int constraints>
 static	<it.yup.screens.ChatScreen: int bg_in_msg>
 static	<it.yup.util.ResourceIDs: int STR_REFRESH_ROSTER>
@@ -1393,16 +1393,16 @@ private	<com.jcraft.jzlib.InfCodes: int BADCODE>
 final	<it.yup.xmpp.packets.Iq: java.lang.String PROMPT>
 static	<it.yup.util.ResourceIDs: int STR_GATEWAYS>
 private	<lampiro.screens.InnerMMScreen: it.yup.util.ResourceManager rm>
-final	<com.jcraft.jzlib.InfTree: int Z_VERSION_ERROR>
 public	<it.yup.xmpp.XMPPClient: java.lang.String FN>
+final	<com.jcraft.jzlib.InfTree: int Z_VERSION_ERROR>
 private	<lampiro.screens.ChatScreen: java.lang.String oldStatus>
 private	<it.yup.screens.AddContactScreen: it.yup.util.ResourceManager rm>
 private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.Displayable next_screen>
 public	<it.yup.transport.SocketChannel: long KEEP_ALIVE>
 final	<it.yup.util.ResourceIDs: int STR_NO>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String CONNECTION_LOST>
-public	<it.yup.xmpp.Config: java.lang.String KNOWN_CAPS>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_TYPE>
+public	<it.yup.xmpp.Config: java.lang.String KNOWN_CAPS>
 public	<it.yup.xmpp.FTSender: java.lang.String OFFER>
 private	<lampiro.screens.FTScreen$FTItem: int percentage>
 final	<it.yup.util.ResourceIDs: int STR_CONTACT_TYPE>
@@ -1416,8 +1416,8 @@ private	<it.yup.screens.RosterScreen: int start_line>
 static	<it.yup.util.ResourceIDs: int STR_REG_GATEWAYS>
 static	<com.jcraft.jzlib.Deflate: int FAST>
 final	<it.yup.xmlstream.SASLAuthenticator$PacketListener1: it.yup.xmlstream.SASLAuthenticator this$0>
-private	<it.yup.ui.UIItem: it.yup.ui.UIMenu subMenu>
 static	<it.yup.ui.UIConfig: int blbs_color>
+private	<it.yup.ui.UIItem: it.yup.ui.UIMenu subMenu>
 static	<com.jcraft.jzlib.JZlib: int Z_FILTERED>
 private	<it.yup.screens.ChatScreen: int bg_out_msg>
 static	<com.jcraft.jzlib.InfCodes: int Z_STREAM_ERROR>
@@ -1434,8 +1434,8 @@ static	<it.yup.xml.BProcessor: int TAG_TEXT>
 private	<it.yup.xmpp.CommandExecutor: it.yup.xmpp.packets.DataForm df>
 static	<it.yup.xmpp.FTSender: java.lang.String SESSION_TERMINATE>
 static	<it.yup.xmpp.Config: short LOGGED_ONCE>
-private	<it.yup.xml.KXmlSerializer: boolean pending>
 public	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_TYPE>
+private	<it.yup.xml.KXmlSerializer: boolean pending>
 static	<it.yup.xmpp.FTSender: java.lang.String FILE>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_IBB>
 static	<it.yup.xmpp.Config: short CAMERA_RESOLUTION>
@@ -1462,8 +1462,8 @@ final	<lampiro.screens.SubscribeScreen: int DELETE>
 private	<lampiro.screens.RosterScreen: java.lang.String sel_pattern>
 public	<it.yup.xmpp.Config: java.lang.String CAPS_PREFIX>
 static	<it.yup.xmpp.Task: byte CMD_ERROR>
-public	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST>
 static	<com.jcraft.jzlib.ZStream: int Z_FINISH>
+public	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST>
 public	<it.yup.util.ResourceIDs: int STR_REFRESH>
 	<com.jcraft.jzlib.Deflate$Config: int func>
 private	<it.yup.screens.RosterScreen: int new_selected_line>
@@ -1482,10 +1482,10 @@ private	<com.jcraft.jzlib.Deflate: int MIN_MATCH>
 final	<it.yup.xmpp.FTSender$PacketListener2: it.yup.xmpp.FTSender this$0>
 public	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_DND>
 static	<com.jcraft.jzlib.InfBlocks: int Z_ERRNO>
-final	<com.jcraft.jzlib.InfTree: int[] fixed_tl>
 static	<it.yup.xmpp.Task: byte CMD_FINISHED>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UIHLayout buttonLayout>
+final	<com.jcraft.jzlib.InfTree: int[] fixed_tl>
 private	<com.jcraft.jzlib.Deflate: java.lang.String[] z_errmsg>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UIHLayout buttonLayout>
 static	<com.jcraft.jzlib.InfBlocks: int Z_STREAM_END>
 private	<it.yup.screens.AddContactScreen: javax.microedition.lcdui.TextField t_name>
 static	<it.yup.xmpp.Contact: java.util.Calendar cal>
@@ -1494,13 +1494,13 @@ private	<com.jcraft.jzlib.InfBlocks: int Z_BUF_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM>
 static	<it.yup.util.ResourceIDs: int STR_KEY_CONFIGURE>
 final	<com.jcraft.jzlib.InfTree: int Z_ERRNO>
-private	<it.yup.ui.UIItem: int layoutWidth>
 private	<com.jcraft.jzlib.InfBlocks: int Z_STREAM_END>
+private	<it.yup.ui.UIItem: int layoutWidth>
 static	<it.yup.util.ResourceManager: it.yup.util.ResourceManager manager>
 private	<it.yup.xml.KXmlParser: int line>
 public	<it.yup.util.ResourceIDs: int STR_CAMERA_RESOLUTION>
-final	<it.yup.util.ResourceIDs: int STR_CAMERA_ERROR>
 public	<it.yup.xmpp.XMPPClient: java.lang.String VCARD_TEMP>
+final	<it.yup.util.ResourceIDs: int STR_CAMERA_ERROR>
 	<lampiro.screens.GatewayRegisterScreen: it.yup.ui.UILabel textLabel>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String X>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIHLayout mainLayout>
@@ -1511,8 +1511,8 @@ private	<lampiro.screens.SplashScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_RESULT>
 private	<lampiro.screens.DataResultScreen: it.yup.ui.UILabel cmd_prev>
 private	<lampiro.screens.RegisterScreen: lampiro.screens.RegisterScreen _registerScreen>
-private	<it.yup.screens.ChatScreen: java.util.Hashtable cmd_urls>
 private	<it.yup.ui.UIAccordion: it.yup.ui.UIItem openedItem>
+private	<it.yup.screens.ChatScreen: java.util.Hashtable cmd_urls>
 static	<it.yup.xmpp.packets.Message: java.lang.String NORMAL>
 static	<it.yup.xmpp.XMPPClient: java.lang.String JABBER_IQ_GATEWAY>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_REPORTED>
@@ -1520,10 +1520,10 @@ public	<it.yup.xmpp.Config: short KEEP_ALIVE>
 private	<lampiro.screens.GroupsScreen: it.yup.ui.UITextField group_name>
 final	<com.jcraft.jzlib.Deflate: int Z_FILTERED>
 static	<com.jcraft.jzlib.Deflate: int Z_HUFFMAN_ONLY>
+private	<it.yup.xmlstream.KXmlParser: boolean processNsp>
+private	<it.yup.util.NetworkConsumer: boolean active>
 private	<it.yup.transport.SocketChannel$UTFReader: int offset>
 static	<it.yup.screens.AboutScreen: java.lang.String[] lines>
-private	<it.yup.util.NetworkConsumer: boolean active>
-private	<it.yup.xmlstream.KXmlParser: boolean processNsp>
 private	<lampiro.LampiroMidlet: java.lang.String last_status>
 static	<it.yup.screens.DataFormScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.ui.UIConfig: boolean menu_3d>
@@ -1534,16 +1534,16 @@ private	<it.yup.xml.KXmlParser: java.lang.String error>
 final	<it.yup.util.RMSIndex$RecordType: it.yup.util.RMSIndex this$0>
 public	<it.yup.ui.UIConfig: int header_bg>
 final	<com.jcraft.jzlib.StaticTree: int LITERALS>
-public	<it.yup.util.ResourceIDs: int STR_REFRESH_ROSTER>
 private	<com.jcraft.jzlib.Deflate: int Z_FULL_FLUSH>
-final	<it.yup.util.ResourceIDs: int STR_QUERYCMD>
+public	<it.yup.util.ResourceIDs: int STR_REFRESH_ROSTER>
 protected	<lampiro.screens.MessageComposerScreen: it.yup.ui.UILabel cmd_send>
-final	<it.yup.util.ResourceIDs: int STR_CLOSE>
+final	<it.yup.util.ResourceIDs: int STR_QUERYCMD>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_OPTION>
+final	<it.yup.util.ResourceIDs: int STR_CLOSE>
 static	<it.yup.screens.ChatScreen: int fg_out_msg>
-static	<it.yup.util.ResourceIDs: int STR_ENABLE_COMPRESSION>
 public	<com.jcraft.jzlib.ZStream: int next_in_index>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String LISTO_NAMESPACE>
+static	<it.yup.util.ResourceIDs: int STR_ENABLE_COMPRESSION>
 protected	<lampiro.screens.RosterScreen$UIContact: it.yup.xmpp.Contact c>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIMenu actionsMenu>
 private	<lampiro.screens.RosterScreen: java.lang.String highLightString>
@@ -1572,23 +1572,23 @@ private	<it.yup.screens.ScreenSaver: boolean first_call>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_JIDSINGLE>
 public	<it.yup.util.ResourceIDs: int STR_SHOW_OFFLINE>
 private	<it.yup.xmlstream.KXmlSerializer: boolean[] indent>
-public	<it.yup.util.ResourceIDs: int STR_QUERYCMD>
 private	<lampiro.screens.RosterScreen$RegisterHandler: it.yup.ui.UIScreen dfs>
-static	<it.yup.xmpp.packets.Presence: java.lang.String T_SUBSCRIBED>
+public	<it.yup.util.ResourceIDs: int STR_QUERYCMD>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String NOT_AUTHORIZED>
+static	<it.yup.xmpp.packets.Presence: java.lang.String T_SUBSCRIBED>
 private	<it.yup.transport.SocketChannel: java.util.TimerTask ka_task>
 private	<com.jcraft.jzlib.Deflate: int BUSY_STATE>
 public	<it.yup.xmpp.Contact: java.lang.String lastResource>
-public	<it.yup.util.ResourceIDs: int STR_CONNECTION_LOST>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_DESC>
+public	<it.yup.util.ResourceIDs: int STR_CONNECTION_LOST>
 public	<it.yup.xmpp.Config: short LAST_PRESENCE_SHOW>
 static	<it.yup.xmpp.Config: java.lang.String FALSE>
 public	<it.yup.util.ResourceIDs: int STR_MM_SAVE>
 final	<it.yup.util.ResourceIDs: int STR_EXECUTE>
-static	<com.jcraft.jzlib.InfBlocks: int DONE>
 	<it.yup.xmpp.Contact: it.yup.xmpp.packets.Presence[] resources>
-public	<it.yup.xmlstream.EventQuery: java.lang.String ANY_PACKET>
+static	<com.jcraft.jzlib.InfBlocks: int DONE>
 public	<it.yup.util.ResourceIDs: int STR_CAMERA_MEDIUM>
+public	<it.yup.xmlstream.EventQuery: java.lang.String ANY_PACKET>
 static	<it.yup.xmpp.packets.Presence: java.lang.String T_UNSUBSCRIBED>
 static	<com.jcraft.jzlib.Inflate: int FLAG>
 public	<it.yup.util.XMPPConsumer: java.lang.String debugJid>
@@ -1603,16 +1603,16 @@ static	<it.yup.xmpp.CommandExecutor: java.lang.String STATUS_CANCELED>
 final	<it.yup.screens.RegisterScreen$ItemStateListener1: it.yup.screens.RegisterScreen this$0>
 	<com.jcraft.jzlib.InfTree: int[] hn>
 final	<com.jcraft.jzlib.StaticTree: short[] static_ltree>
-private	<com.jcraft.jzlib.InfBlocks: int TYPE>
 final	<it.yup.xmpp.Config: java.lang.String RMS_OLD_NAME>
+private	<com.jcraft.jzlib.InfBlocks: int TYPE>
 private	<it.yup.xmpp.FTSender: int chuck_length>
 final	<it.yup.util.ResourceIDs: int STR_CONNECTION_FAILED>
 protected	<lampiro.screens.ChatScreen: it.yup.ui.UIHLayout header>
 static	<lampiro.screens.RosterScreen$UIGroup: java.util.Hashtable uiGroups>
 final	<it.yup.xmlstream.KXmlParser: java.lang.String UNEXPECTED_EOF>
 static	<it.yup.xmpp.XMPPClient: java.lang.String JINGLE>
-	<com.jcraft.jzlib.Deflate$Config: int nice_length>
 final	<it.yup.xmlstream.KXmlParser: int XML_DECL>
+	<com.jcraft.jzlib.Deflate$Config: int nice_length>
 private	<com.jcraft.jzlib.Deflate: int Z_ASCII>
 private	<lampiro.screens.DataResultScreen: it.yup.ui.UILabel cmd_close>
 public	<it.yup.xmpp.packets.Message: java.lang.String ERROR>
@@ -1628,30 +1628,30 @@ final	<it.yup.xmpp.XMPPClient$DiscoHandler: it.yup.xmpp.XMPPClient this$0>
 final	<com.jcraft.jzlib.Deflate: int D_CODES>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel si_instructions>
 	<com.jcraft.jzlib.InfTree: int[] x>
-static	<com.jcraft.jzlib.Inflate: int Z_STREAM_ERROR>
 final	<it.yup.xmpp.Task: byte DF_MASK>
+static	<com.jcraft.jzlib.Inflate: int Z_STREAM_ERROR>
 static	<it.yup.ui.UIMenu: javax.microedition.lcdui.Image menuImage>
 static	<it.yup.xmpp.Config: java.lang.String LAMPIRO_AGENT>
 final	<com.jcraft.jzlib.JZlib: int Z_DEFAULT_STRATEGY>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIMenu loginMenu>
 private	<it.yup.xmpp.XMPPClient: int rosterRetrieveTime>
 final	<com.jcraft.jzlib.Inflate: int MAX_WBITS>
+protected	<it.yup.transport.SocketChannel: javax.microedition.io.StreamConnection connection>
 final	<com.jcraft.jzlib.InfTree: int Z_OK>
 private	<lampiro.screens.GatewayRegisterScreen: it.yup.ui.UITextField usernameLabel>
-protected	<it.yup.transport.SocketChannel: javax.microedition.io.StreamConnection connection>
 static	<com.jcraft.jzlib.Deflate: int Z_VERSION_ERROR>
 final	<it.yup.xmpp.packets.Presence: int PC>
 static	<it.yup.util.ResourceIDs: int STR_CONNECTING_SVR>
 static	<it.yup.util.ResourceIDs: int STR_CLEAR_HIST>
 private	<it.yup.ui.UIPanel: int reverseColor>
+static	<com.jcraft.jzlib.Tree: int[] extra_dbits>
 final	<it.yup.util.ResourceIDs: int STR_CLEAR_HIST>
 private	<lampiro.screens.SendMMScreen: java.util.Vector orderedContacts>
-static	<com.jcraft.jzlib.Tree: int[] extra_dbits>
 static	<it.yup.util.ResourceIDs: int STR_CLOSE_MUC>
 private	<lampiro.screens.InnerMMScreen: int screenType>
 	<com.jcraft.jzlib.InfTree: int[] v>
-private	<lampiro.screens.RosterScreen: it.yup.ui.UIButton denyButton>
 public	<it.yup.ui.UIMenu: javax.microedition.lcdui.Image menuImage>
+private	<lampiro.screens.RosterScreen: it.yup.ui.UIButton denyButton>
 private	<it.yup.ui.UITextField: int minLines>
 static	<it.yup.util.ResourceIDs: int STR_SEND_GRP_MSG>
 public	<it.yup.util.ResourceIDs: int STR_CAPTURE>
@@ -1659,13 +1659,13 @@ public	<it.yup.xmpp.packets.Presence: java.lang.String T_SUBSCRIBE>
 public	<it.yup.xmpp.Task: byte CMD_FORM_LESS>
 	<com.jcraft.jzlib.StaticTree: int[] extra_bits>
 public	<it.yup.util.Utils: java.util.Timer tasks>
-public	<it.yup.xml.Element: int maxWait>
 final	<com.jcraft.jzlib.ZStream: int Z_PARTIAL_FLUSH>
+public	<it.yup.xml.Element: int maxWait>
 private	<com.jcraft.jzlib.StaticTree: int D_CODES>
 static	<it.yup.ui.UIConfig: int scrollbar_fg>
 static	<it.yup.util.ResourceIDs: int STR_SHOW>
-final	<lampiro.screens.RosterScreen$IQResultListener2: lampiro.screens.RosterScreen this$0>
 static	<com.jcraft.jzlib.Inflate: int METHOD>
+final	<lampiro.screens.RosterScreen$IQResultListener2: lampiro.screens.RosterScreen this$0>
 final	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UICombobox this$0>
 public	<it.yup.util.ResourceIDs: int STR_FINISHED>
 	<it.yup.tests.XMPPTestClient: it.yup.tests.XMPPTestClient$Listener listener>
@@ -1697,10 +1697,10 @@ final	<com.jcraft.jzlib.JZlib: int Z_STREAM_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_TOPIC>
 private	<it.yup.util.XMPPConsumer: java.util.Vector outGoingMessages>
 private	<it.yup.ui.UICombobox: boolean multiChoice>
-final	<it.yup.util.ResourceIDs: int STR_HIGHLIGHTS>
 static	<it.yup.ui.UILayout: int CONSTRAINT_PIXELS>
-private	<lampiro.screens.AlbumScreen: int maxLoadFile>
+final	<it.yup.util.ResourceIDs: int STR_HIGHLIGHTS>
 public	<it.yup.xmpp.packets.DataForm: java.util.Vector fields>
+private	<lampiro.screens.AlbumScreen: int maxLoadFile>
 final	<it.yup.xmpp.Contact: int CH_GROUP>
 static	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Font f_u>
 private	<it.yup.xml.KXmlParser: java.lang.String[] attributes>
@@ -1719,8 +1719,8 @@ public	<it.yup.util.ResourceIDs: int STR_HIDDEN>
 private	<it.yup.screens.TaskListScreen: javax.microedition.lcdui.Command cmd_cancel>
 static	<lampiro.screens.MessageComposerScreen: int MESSAGE>
 private	<lampiro.screens.FTScreen: java.util.Vector fts>
-private	<lampiro.screens.FTScreen: it.yup.ui.UIPanel ftPanel>
 private	<com.jcraft.jzlib.Inflate: int Z_STREAM_ERROR>
+private	<lampiro.screens.FTScreen: it.yup.ui.UIPanel ftPanel>
 	<lampiro.screens.ChatScreen: it.yup.ui.UITextField topic_name_field>
 public	<it.yup.xmpp.XMPPClient: java.lang.String USERID>
 private	<com.jcraft.jzlib.InfCodes: int Z_NEED_DICT>
@@ -1757,8 +1757,8 @@ static	<it.yup.ui.UIConfig: int bb_color>
 private	<it.yup.screens.MessageComposerScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.util.ResourceIDs: int STR_FILE_NAME>
 final	<com.jcraft.jzlib.Inflate: int BAD>
-public	<it.yup.ui.UIConfig: int selected_color>
 static	<com.jcraft.jzlib.Tree: int BL_CODES>
+public	<it.yup.ui.UIConfig: int selected_color>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIMenu wrongPwd>
 static	<it.yup.util.ResourceIDs: int STR_WRITE>
 static	<com.jcraft.jzlib.Inflate: int Z_STREAM_END>
@@ -1790,9 +1790,9 @@ final	<it.yup.screens.RegisterScreen$1: it.yup.screens.RegisterScreen this$0>
 static	<it.yup.xmpp.FTSender: java.lang.String DECLINE>
 final	<it.yup.util.ResourceIDs: int STR_SERVER_EXPLORE>
 public	<it.yup.xmpp.Config: short EMAIL>
-static	<it.yup.util.ResourceIDs: int STR_TITLE>
 public	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_CHAT>
 private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.TextField tf_subject>
+static	<it.yup.util.ResourceIDs: int STR_TITLE>
 private	<it.yup.util.MetaVector: java.util.Vector innerVector>
 static	<com.jcraft.jzlib.Tree: int L_CODES>
 private	<com.jcraft.jzlib.Deflate: int Z_DATA_ERROR>
@@ -1850,15 +1850,15 @@ static	<it.yup.ui.UIConfig: int blb_color>
 final	<it.yup.tests.UITestMidlet$TestScreen$Changer: it.yup.tests.UITestMidlet$TestScreen this$1>
 final	<it.yup.xmpp.Roster$RosterX: it.yup.xmpp.Roster this$0>
 static	<it.yup.xmpp.XMPPClient: java.lang.String USERID>
-private	<it.yup.xmlstream.SocketStream: it.yup.xml.KXmlParser parser>
 final	<com.jcraft.jzlib.Deflate: int BL_CODES>
+private	<it.yup.xmlstream.SocketStream: it.yup.xml.KXmlParser parser>
 final	<it.yup.util.ResourceIDs: int STR_KEY_PRESS>
 public	<it.yup.util.ResourceIDs: int STR_CAMERA_ERROR>
 private	<it.yup.xml.KXmlSerializer: boolean unicode>
 private	<lampiro.screens.DataResultScreen: it.yup.ui.UIMenu desc_menu>
 public	<it.yup.util.ResourceIDs: int STR_DESC>
-private	<lampiro.screens.GroupsScreen: it.yup.ui.UILabel cmd_submit>
 private	<it.yup.screens.ChatScreen: it.yup.util.ResourceManager rm>
+private	<lampiro.screens.GroupsScreen: it.yup.ui.UILabel cmd_submit>
 private	<com.jcraft.jzlib.ZStream: int Z_SYNC_FLUSH>
 private	<lampiro.screens.AlbumScreen: it.yup.ui.UIButton nextCmd>
 	<com.jcraft.jzlib.Deflate: com.jcraft.jzlib.ZStream strm>
@@ -1878,11 +1878,11 @@ static	<it.yup.transport.BaseChannel: int bytes_received>
 final	<it.yup.xmpp.DataFormListener: int CMD_NEXT>
 static	<it.yup.util.ResourceIDs: int STR_HANDLE_GROUPS>
 private	<com.jcraft.jzlib.ZStream: int Z_FULL_FLUSH>
-public	<it.yup.util.ResourceIDs: int STR_DISPLAYED_STATUS>
 private	<com.jcraft.jzlib.Deflate: int SLOW>
+public	<it.yup.util.ResourceIDs: int STR_DISPLAYED_STATUS>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_COMMANDS>
-final	<it.yup.util.ResourceIDs: int STR_TOPIC>
 static	<com.jcraft.jzlib.Deflate: int MAX_MATCH>
+final	<it.yup.util.ResourceIDs: int STR_TOPIC>
 private	<lampiro.screens.RegisterScreen: java.lang.String jid_server>
 private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UILabel cancelLabel>
 final	<com.jcraft.jzlib.JZlib: int Z_VERSION_ERROR>
@@ -1892,8 +1892,8 @@ static	<it.yup.xmlstream.BasicXmlStream: java.lang.String PASSWORD>
 static	<it.yup.xmpp.Task: byte DF_ERROR>
 private	<lampiro.screens.RosterScreen: int sel_key_offset>
 final	<it.yup.util.ResourceIDs: int STR_CHAT>
-private	<it.yup.xmpp.CommandExecutor: java.lang.Object screen>
 	<it.yup.ui.UIMenu: it.yup.ui.UILabel titleLabel>
+private	<it.yup.xmpp.CommandExecutor: java.lang.Object screen>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel loginLabel>
 static	<it.yup.screens.ChatScreen: it.yup.util.ResourceManager rm>
 final	<it.yup.util.ResourceIDs: int STR_HISTORY_SIZE>
@@ -1914,8 +1914,8 @@ final	<it.yup.util.ResourceIDs: int STR_SHOW_OFFLINE>
 private	<lampiro.screens.ChatScreen$ForwardScreen: it.yup.ui.UIPanel contactPanel>
 public	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 static	<com.jcraft.jzlib.JZlib: int Z_BEST_SPEED>
-private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.TextField tf_body>
 public	<com.jcraft.jzlib.ZStream: byte[] next_out>
+private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.TextField tf_body>
 static	<it.yup.util.ResourceIDs: int STR_CAMERA_HUGE>
 private	<it.yup.ui.UICheckbox: boolean checked>
 final	<it.yup.xmpp.Roster$IQResultListener3: java.lang.String contactJid>
@@ -1930,8 +1930,8 @@ static	<it.yup.xmpp.packets.DataForm: java.lang.String[] FLT>
 private	<it.yup.xmpp.CommandExecutor: it.yup.xml.Element current_element>
 private	<com.jcraft.jzlib.Deflate: int REPZ_3_10>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String LISTO_NAMESPACE>
-static	<com.jcraft.jzlib.Inflate: int Z_BUF_ERROR>
 private	<it.yup.ui.UICanvas: boolean dragged>
+static	<com.jcraft.jzlib.Inflate: int Z_BUF_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_NEXT>
 static	<it.yup.util.ResourceIDs: int STR_CONTACT_ID>
 private	<it.yup.ui.UIGauge: int offset>
@@ -1942,8 +1942,8 @@ private	<lampiro.screens.AlbumScreen: it.yup.ui.UILabel detailLabel>
 final	<com.jcraft.jzlib.InfTree: int fixed_bd>
 protected	<com.jcraft.jzlib.ZInputStream: com.jcraft.jzlib.ZStream z>
 private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.Command cmd_send>
-final	<it.yup.xmpp.packets.Message: java.lang.String HEADLINE>
 	<com.jcraft.jzlib.InfCodes: byte dbits>
+final	<it.yup.xmpp.packets.Message: java.lang.String HEADLINE>
 final	<it.yup.util.ResourceIDs: int STR_SELECT>
 static	<com.jcraft.jzlib.InfCodes: int Z_VERSION_ERROR>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIMenu instruction_menu>
@@ -1953,8 +1953,8 @@ final	<it.yup.xmpp.Contact: int AV_DND>
 private	<lampiro.screens.RosterScreen$UIGroup: it.yup.ui.UILabel groupMessage>
 protected	<lampiro.screens.SendMMScreen: it.yup.ui.UIHLayout cmd_layout_send_save>
 public	<it.yup.xmpp.Contact: boolean pending_tasks>
-final	<it.yup.tests.RMSTestMidlet$TestForm: it.yup.tests.RMSTestMidlet this$0>
 public	<it.yup.xmpp.Task: byte CMD_DESTROY>
+final	<it.yup.tests.RMSTestMidlet$TestForm: it.yup.tests.RMSTestMidlet this$0>
 private	<it.yup.xml.KXmlParser: char[] txtBuf>
 final	<com.jcraft.jzlib.Inflate: int Z_VERSION_ERROR>
 final	<lampiro.screens.AddContactScreen$IQResultListener2: lampiro.screens.AddContactScreen this$0>
@@ -1973,8 +1973,8 @@ static	<it.yup.xmpp.Config: short PASSWORD>
 public	<it.yup.xmpp.IQResultListener: long registerTime>
 private	<it.yup.xml.KXmlParser: java.io.Reader reader>
 final	<it.yup.tests.XMPPTestClient$Listener: it.yup.tests.XMPPTestClient this$0>
-public	<it.yup.xmpp.XMPPClient: java.lang.String NS_NICK>
 final	<it.yup.xmlstream.BasicXmlStream: java.lang.String PASSWORD>
+public	<it.yup.xmpp.XMPPClient: java.lang.String NS_NICK>
 static	<it.yup.xml.KXmlParser: java.lang.String UNEXPECTED_EOF>
 static	<it.yup.util.ResourceIDs: int STR_DELETE_CONTACT>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UILabel show_instruction_label>
@@ -1988,23 +1988,23 @@ private	<it.yup.util.RMSIndex: java.util.Vector chunk_index>
 public	<it.yup.util.ResourceIDs: int STR_CONTINUE>
 public	<it.yup.xmpp.FTSender: java.lang.String OPEN>
 private	<it.yup.ui.UILayout: boolean group>
-static	<lampiro.screens.ShowMMScreen: it.yup.util.ResourceManager rm>
 private	<it.yup.xmpp.XMPPClient: it.yup.transport.BaseChannel connection>
 	<it.yup.tests.RMSTestMidlet: it.yup.util.RMSIndex db>
+static	<lampiro.screens.ShowMMScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.xmpp.FTReceiver$OpenListener: it.yup.xml.Element e_jingle>
-static	<it.yup.util.ResourceIDs: int STR_FT>
 static	<it.yup.ui.UICanvas: int MENU_CANCEL>
+static	<it.yup.util.ResourceIDs: int STR_FT>
 static	<com.jcraft.jzlib.InfCodes: int Z_BUF_ERROR>
 public	<it.yup.xmpp.packets.Presence: int BOT>
 private	<com.jcraft.jzlib.Deflate: int LENGTH_CODES>
 	<com.jcraft.jzlib.ZStream: com.jcraft.jzlib.Inflate istate>
 final	<it.yup.util.ResourceIDs: int STR_DECODE_ERROR>
-protected	<lampiro.screens.ShowMMScreen: it.yup.util.ResourceManager rm>
-static	<lampiro.screens.AlbumScreen: it.yup.util.RMSIndex album>
 private	<com.jcraft.jzlib.InfCodes: int LENEXT>
+static	<lampiro.screens.AlbumScreen: it.yup.util.RMSIndex album>
+protected	<lampiro.screens.ShowMMScreen: it.yup.util.ResourceManager rm>
 final	<it.yup.util.ResourceIDs: int STR_ROOM_NAME>
-private	<lampiro.screens.AlbumScreen: it.yup.ui.UIHLayout buttonLayout>
 public	<it.yup.xmpp.Contact: int CH_CONTACT_REMOVED>
+private	<lampiro.screens.AlbumScreen: it.yup.ui.UIHLayout buttonLayout>
 protected	<it.yup.ui.UIItem: int width>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_ROSTERX>
 private	<com.jcraft.jzlib.InfCodes: int LEN>
@@ -2019,8 +2019,8 @@ final	<com.jcraft.jzlib.InfBlocks: int[] inflate_mask>
 public	<it.yup.util.ResourceIDs: int STR_REG_ERROR>
 final	<it.yup.ui.UIItem: int OUTER_UP>
 final	<it.yup.util.ResourceIDs: int STR_RESOLUTION_DEFAULT>
-private	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel playLabel>
 final	<it.yup.xmpp.Config: int WAIT_TIME>
+private	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel playLabel>
 final	<it.yup.xmpp.packets.Presence: java.lang.String T_UNSUBSCRIBE>
 static	<com.jcraft.jzlib.JZlib: int Z_ERRNO>
 private	<com.jcraft.jzlib.Deflate: int MAX_MATCH>
@@ -2043,56 +2043,56 @@ private	<com.jcraft.jzlib.Adler32: int NMAX>
 static	<it.yup.xmpp.Contact: int AV_DND>
 final	<com.jcraft.jzlib.InfTree: int fixed_bl>
 public	<it.yup.xmpp.XMPPClient: java.lang.String JABBER_IQ_GATEWAY>
-private	<it.yup.xmpp.Roster$IQResultListener3: java.lang.String contactJid>
 public	<it.yup.xmpp.XMPPClient: java.util.Vector autoAcceptGateways>
+private	<it.yup.xmpp.Roster$IQResultListener3: java.lang.String contactJid>
 private	<it.yup.util.RMSIndex: javax.microedition.rms.RecordStore rs>
+	<com.jcraft.jzlib.Tree: com.jcraft.jzlib.StaticTree stat_desc>
 static	<it.yup.util.ResourceIDs: int STR_EXISTING_GROUPS>
 private	<com.jcraft.jzlib.InfBlocks: int TABLE>
-	<com.jcraft.jzlib.Tree: com.jcraft.jzlib.StaticTree stat_desc>
 static	<it.yup.util.ResourceIDs: int STR_AUDIO>
 public	<it.yup.util.ResourceIDs: int STR_REGFAIL_DESC>
 private	<it.yup.tests.UITestMidlet$KeysScreen: java.lang.String err>
-static	<it.yup.xmpp.packets.Message: java.lang.String MESSAGE>
-	<com.jcraft.jzlib.InfTree: int[] c>
 private	<it.yup.ui.UITextPanel: java.util.Vector textLines>
+	<com.jcraft.jzlib.InfTree: int[] c>
+static	<it.yup.xmpp.packets.Message: java.lang.String MESSAGE>
 static	<it.yup.util.ResourceIDs: int STR_HELP>
 final	<it.yup.util.ResourceIDs: int STR_NICKNAME>
 public	<it.yup.util.ResourceIDs: int STR_LOGFAIL_TITLE>
 final	<it.yup.util.ResourceIDs: int STR_STOP>
-final	<it.yup.util.ResourceIDs: int STR_HELP>
 static	<com.jcraft.jzlib.Deflate: int MIN_LOOKAHEAD>
+final	<it.yup.util.ResourceIDs: int STR_HELP>
 final	<it.yup.util.ResourceIDs: int STR_NO_FT>
 private	<it.yup.screens.DataFormScreen: int field_offset>
 	<it.yup.tests.XMPPTestClient: it.yup.xmlstream.BasicXmlStream stream>
 static	<it.yup.xmpp.Task: byte DF_DESTROY>
 private	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_COMPRESSION>
-final	<it.yup.util.ResourceIDs: int STR_CONNECTED>
 static	<com.jcraft.jzlib.Deflate: int HEAP_SIZE>
+final	<it.yup.util.ResourceIDs: int STR_CONNECTED>
 public	<it.yup.ui.UIConfig: int fg_color>
 private	<lampiro.screens.SendMMScreen$UploadHandler: java.lang.String receipientJid>
 protected	<it.yup.xml.Element: java.lang.String[][] attributes>
 static	<it.yup.xmlstream.KXmlParser: int XML_DECL>
 private	<it.yup.screens.DataFormScreen: javax.microedition.lcdui.Command cmd_submit>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel ul>
 static	<com.jcraft.jzlib.Deflate: int Z_DATA_ERROR>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel ul>
 public	<lampiro.screens.SubscribeScreen: int ADD>
-final	<it.yup.util.ResourceIDs: int STR_ROSTER_TITLE>
 final	<it.yup.xmpp.packets.Presence: java.lang.String SHOW_CHAT>
+final	<it.yup.util.ResourceIDs: int STR_ROSTER_TITLE>
 static	<it.yup.util.ResourceIDs: int STR_LOADING>
 private	<it.yup.ui.UIItem: int type>
 private	<it.yup.xmlstream.SASLAuthenticator: java.lang.String MECHANISM_PLAIN>
-final	<it.yup.ui.UIGauge$Ticker: it.yup.ui.UIGauge this$0>
 private	<it.yup.xmpp.FTReceiver: it.yup.xmpp.XMPPClient xmppClient>
+final	<it.yup.ui.UIGauge$Ticker: it.yup.ui.UIGauge this$0>
 protected	<it.yup.ui.UIScreen: javax.microedition.lcdui.Image ra>
 private	<com.jcraft.jzlib.StaticTree: int LENGTH_CODES>
-static	<it.yup.util.ResourceIDs: int STR_JOINED_MUC>
 final	<com.jcraft.jzlib.Deflate: int SLOW>
+static	<it.yup.util.ResourceIDs: int STR_JOINED_MUC>
 static	<it.yup.xmpp.XMPPClient: java.lang.String JINGLE_IBB_TRANSPORT>
 final	<it.yup.xmlstream.BasicXmlStream$SessionOpener: it.yup.xmlstream.BasicXmlStream this$0>
 final	<it.yup.xmpp.packets.Message: java.lang.String SUBJECT>
-private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.StringItem btn_login>
-static	<com.jcraft.jzlib.Deflate: java.lang.String[] z_errmsg>
 private	<it.yup.xmlstream.KXmlParser: boolean isWhitespace>
+static	<com.jcraft.jzlib.Deflate: java.lang.String[] z_errmsg>
+private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.StringItem btn_login>
 static	<it.yup.ui.UIConfig: int button_selected_color>
 private	<lampiro.screens.AddContactScreen: it.yup.ui.UITextField t_error>
 private	<it.yup.screens.DataResultScreen: it.yup.xmpp.packets.DataForm df>
@@ -2124,8 +2124,8 @@ private	<lampiro.screens.AlbumScreen: it.yup.util.RMSIndex album>
 private	<it.yup.screens.StatusScreen: javax.microedition.lcdui.Command cmd_status>
 private	<lampiro.screens.RosterScreen: boolean cameraOn>
 public	<it.yup.util.ResourceIDs: int STR_CHOOSE_STATUS>
-public	<it.yup.xmpp.Config: java.lang.String GROUPS_POSITION>
 public	<it.yup.xmpp.packets.DataForm: java.util.Vector results>
+public	<it.yup.xmpp.Config: java.lang.String GROUPS_POSITION>
 public	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 private	<it.yup.xmpp.Config: it.yup.xmpp.Config instance>
 static	<it.yup.util.ResourceIDs: int STR_CHOOSE_STATUS>
@@ -2139,12 +2139,12 @@ private	<lampiro.screens.ContactInfoScreen: java.lang.String unavailableString>
 static	<it.yup.xmlstream.KXmlParser: java.lang.String UNEXPECTED_EOF>
 private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UIPanel mainPanel>
 public	<it.yup.util.ResourceIDs: int STR_CHAT_WITH>
-final	<it.yup.xml.KXmlParser: int LEGACY>
 static	<it.yup.screens.RosterScreen: byte SCROLL_DOWN>
+final	<it.yup.xml.KXmlParser: int LEGACY>
 final	<it.yup.xmpp.packets.Message: java.lang.String GROUPCHAT>
 static	<it.yup.xmpp.Config: short KEEP_ALIVE>
-	<com.jcraft.jzlib.Deflate: int good_match>
 private	<it.yup.tests.XMLTestMidlet: javax.microedition.lcdui.Form form>
+	<com.jcraft.jzlib.Deflate: int good_match>
 final	<it.yup.util.ResourceIDs: int STR_UNGROUPED>
 final	<it.yup.transport.SocketChannel$Runnable1: it.yup.transport.SocketChannel this$0>
 public	<it.yup.xml.Element: java.lang.String uri>
@@ -2178,8 +2178,8 @@ final	<com.jcraft.jzlib.InfBlocks: int CODES>
 private	<lampiro.screens.RegisterScreen: java.lang.String exServer>
 static	<it.yup.xmpp.Contact: int AV_ONLINE>
 final	<it.yup.util.ResourceIDs: int STR_REGFAIL_DESC>
-final	<it.yup.util.ResourceIDs: int STR_NAME>
 private	<it.yup.xml.KXmlSerializer: java.lang.String encoding>
+final	<it.yup.util.ResourceIDs: int STR_NAME>
 final	<com.jcraft.jzlib.StaticTree: short[] static_dtree>
 final	<com.jcraft.jzlib.StaticTree: int D_CODES>
 private	<it.yup.screens.DebugScreen: javax.microedition.lcdui.Displayable returnScreen>
@@ -2205,8 +2205,8 @@ private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField tf_jid_name>
 public	<it.yup.xmpp.packets.Iq: java.lang.String T_SET>
 final	<com.jcraft.jzlib.Deflate: int BUSY_STATE>
 static	<it.yup.xmpp.Task: byte DF_MASK>
-static	<it.yup.ui.UIItem: int INNER_UP>
 static	<com.jcraft.jzlib.InfCodes: int BADCODE>
+static	<it.yup.ui.UIItem: int INNER_UP>
 private	<lampiro.screens.AlbumScreen: java.lang.String fullJid>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIAccordion optionsAccordion>
 private	<it.yup.xmlstream.KXmlSerializer: int[] nspCounts>
@@ -2221,8 +2221,8 @@ public	<it.yup.ui.UIScreen: it.yup.ui.UILabel footerLeft>
 private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Command cmd_addc>
 private	<it.yup.xmpp.Config: java.util.Hashtable properties>
 static	<it.yup.xmpp.DataFormListener: int CMD_PREV>
-public	<it.yup.util.ResourceIDs: int STR_ERROR>
 private	<com.jcraft.jzlib.ZStream: int Z_MEM_ERROR>
+public	<it.yup.util.ResourceIDs: int STR_ERROR>
 public	<it.yup.util.ResourceIDs: int STR_NAME>
 final	<com.jcraft.jzlib.Deflate: int FINISH_STATE>
 final	<com.jcraft.jzlib.Deflate: int Z_ASCII>
@@ -2231,8 +2231,8 @@ final	<it.yup.xmpp.Contact: int AV_CHAT>
 static	<com.jcraft.jzlib.Tree: int HEAP_SIZE>
 	<com.jcraft.jzlib.InfBlocks: int write>
 private	<it.yup.tests.UITestMidlet$KeysScreen: int state>
-private	<lampiro.screens.RegisterScreen: it.yup.ui.UICheckbox reset_all_data>
 static	<it.yup.util.Logger: java.util.Vector consumers>
+private	<lampiro.screens.RegisterScreen: it.yup.ui.UICheckbox reset_all_data>
 static	<it.yup.xmpp.Config: short LAST_PRIORITY>
 static	<it.yup.xmlstream.Element: int _internal_id_counter>
 private	<lampiro.screens.RosterScreen: it.yup.xmpp.XMPPClient xmppClient>
@@ -2243,16 +2243,16 @@ static	<it.yup.xmpp.Config: short TLS>
 final	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_ID>
 final	<com.jcraft.jzlib.Deflate: int Z_OK>
 private	<it.yup.screens.OptionsScreen: javax.microedition.lcdui.Command cmd_cancel>
-final	<it.yup.util.ResourceIDs: int STR_CAPTURE>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_CAPS>
+final	<it.yup.util.ResourceIDs: int STR_CAPTURE>
 private	<it.yup.ui.UIGauge: it.yup.ui.UIGauge$Ticker ticker>
 private	<lampiro.screens.CommandListScreen: it.yup.ui.UILabel cmd_cancel>
 static	<it.yup.util.ResourceIDs: int STR_COLOR_RED>
 private	<it.yup.screens.ChatScreen: javax.microedition.lcdui.Command cmd_clear>
 static	<it.yup.util.ResourceIDs: int STR_TASKHISTORY_TITLE>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIHLayout confLayout>
-final	<it.yup.util.ResourceIDs: int STR_FT_RECEIVER>
 final	<com.jcraft.jzlib.ZStream: int Z_MEM_ERROR>
+final	<it.yup.util.ResourceIDs: int STR_FT_RECEIVER>
 private	<it.yup.screens.DebugScreen: javax.microedition.lcdui.Command cmd_clear>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String X>
 static	<com.jcraft.jzlib.Deflate: int LITERALS>
@@ -2267,30 +2267,30 @@ final	<it.yup.util.ResourceIDs: int STR_ACCEPT>
 private	<lampiro.screens.OptionsScreen: it.yup.ui.UICombobox ch_vibrate>
 static	<it.yup.xmpp.packets.Iq: java.lang.String T_ERROR>
 private	<it.yup.xmlstream.KXmlParser: java.lang.String prefix>
-private	<it.yup.xml.KXmlParser: java.lang.String[] elementStack>
 	<com.jcraft.jzlib.Tree: int max_code>
+private	<it.yup.xml.KXmlParser: java.lang.String[] elementStack>
 private	<lampiro.screens.RegisterScreen: it.yup.xmlstream.EventQueryRegistration reg>
-private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel optionsLabel>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_LISTMULTI>
+private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel optionsLabel>
 private	<it.yup.ui.UITextField: boolean expandable>
-final	<it.yup.util.ResourceIDs: int STR_MENU>
 final	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_STRATEGY>
+final	<it.yup.util.ResourceIDs: int STR_MENU>
 	<com.jcraft.jzlib.Deflate: int level>
 static	<it.yup.ui.UITextField: javax.microedition.lcdui.Command cmd_cancel>
 	<com.jcraft.jzlib.InfBlocks: byte[] window>
 public	<it.yup.xmpp.Task: byte CMD_INPUT>
 public	<it.yup.util.ResourceIDs: int STR_MENU>
-	<lampiro.screens.ChatScreen: it.yup.ui.UILabel headerImg>
 private	<it.yup.xmpp.IqManager: java.util.Hashtable iqs>
+	<lampiro.screens.ChatScreen: it.yup.ui.UILabel headerImg>
 private	<lampiro.screens.RosterScreen: int viewedAccordionIndex>
 static	<it.yup.util.ResourceIDs: int STR_LOGFAIL_TITLE>
 static	<lampiro.screens.KeyScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.util.ResourceIDs: int STR_CAPTURE_CAPTION>
 	<com.jcraft.jzlib.Deflate: int strstart>
-public	<it.yup.xmpp.FTSender: java.lang.String SIZE>
 private	<com.jcraft.jzlib.Tree: int BL_CODES>
-private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_logout>
+public	<it.yup.xmpp.FTSender: java.lang.String SIZE>
 public	<it.yup.ui.UIMenu: java.lang.String selectMenuString>
+private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_logout>
 static	<it.yup.xmpp.packets.Presence: java.lang.String PRIORITY>
 static	<lampiro.screens.FTScreen: javax.microedition.lcdui.Image rightImage>
 final	<it.yup.util.ResourceIDs: int STR_COLOR_ALEF>
@@ -2299,8 +2299,8 @@ public	<it.yup.util.ResourceIDs: int STR_HIGHLIGHTS>
 final	<com.jcraft.jzlib.InfBlocks: int Z_BUF_ERROR>
 private	<it.yup.ui.UIGauge: boolean modifiable>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_REQUIRED>
-public	<it.yup.util.ResourceIDs: int STR_FORWARDED_TEXT>
 private	<com.jcraft.jzlib.Deflate: int FINISH_STATE>
+public	<it.yup.util.ResourceIDs: int STR_FORWARDED_TEXT>
 	<it.yup.ui.UIMenu: boolean changed>
 public	<lampiro.screens.OptionsScreen: it.yup.ui.UICombobox font_size>
 private	<it.yup.screens.DataResultScreen: int pos>
@@ -2331,8 +2331,8 @@ final	<com.jcraft.jzlib.Inflate: int Z_PARTIAL_FLUSH>
 private	<com.jcraft.jzlib.Inflate: int FLAG>
 final	<com.jcraft.jzlib.Tree: int END_BLOCK>
 private	<it.yup.xmpp.XMPPClient: it.yup.xmpp.XMPPClient$XmppListener xmppListener>
-private	<lampiro.screens.AboutScreen: it.yup.ui.UILabel cmd_ok>
 private	<it.yup.screens.SplashScreen: boolean first_time>
+private	<lampiro.screens.AboutScreen: it.yup.ui.UILabel cmd_ok>
 public	<it.yup.xmpp.packets.Iq: java.lang.String IQ>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_MUC>
 public	<it.yup.util.ResourceIDs: int STR_OPTIONS>
@@ -2342,10 +2342,10 @@ static	<com.jcraft.jzlib.Deflate: int MIN_MATCH>
 static	<it.yup.ui.UICanvas: javax.microedition.lcdui.Display display>
 static	<it.yup.tests.XMLTestMidlet: javax.microedition.lcdui.Display disp>
 final	<com.jcraft.jzlib.Adler32: int NMAX>
-private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField tf_pwd>
 static	<com.jcraft.jzlib.Deflate: int Z_DEFAULT_COMPRESSION>
 static	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_TO>
 public	<it.yup.xmpp.Task: byte DF_SUBMITTED>
+private	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField tf_pwd>
 static	<it.yup.ui.UICanvas: int MENU_RIGHT>
 final	<it.yup.xmpp.DataFormListener: int CMD_DELAY>
 protected	<it.yup.ui.UIScreen: it.yup.ui.UISeparator headerSep>
@@ -2357,12 +2357,12 @@ static	<it.yup.xmpp.DataFormListener: int CMD_CANCEL>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Graphics canvasGraphics>
 private	<it.yup.ui.UIItem: int gradientColor>
 	<com.jcraft.jzlib.Inflate: int mode>
-static	<com.jcraft.jzlib.Inflate: int Z_DATA_ERROR>
 static	<it.yup.ui.UICanvas: int MENU_LEFT>
+static	<com.jcraft.jzlib.Inflate: int Z_DATA_ERROR>
 public	<com.jcraft.jzlib.JZlib: int Z_FINISH>
 private	<it.yup.ui.UIGauge: int behaviour>
-final	<it.yup.util.ResourceIDs: int STR_GATEWAY_DISCOVERY>
 public	<it.yup.transport.SocketChannel: java.lang.String TRANSPORT_TYPE>
+final	<it.yup.util.ResourceIDs: int STR_GATEWAY_DISCOVERY>
 static	<it.yup.xmpp.XMPPClient: java.lang.String MIDP_PLATFORM>
 private	<it.yup.ui.UICanvas: java.util.Timer timer>
 private	<it.yup.xmlstream.KXmlParser: java.lang.String encoding>
@@ -2378,8 +2378,8 @@ final	<it.yup.util.ResourceIDs: int STR_SEARCH>
 static	<com.jcraft.jzlib.Deflate: int NeedMore>
 	<it.yup.ui.UIMenu: java.lang.String name>
 static	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM_RIGHT>
-static	<com.jcraft.jzlib.Adler32: int NMAX>
 final	<it.yup.xmlstream.KXmlParser: java.lang.String ILLEGAL_TYPE>
+static	<com.jcraft.jzlib.Adler32: int NMAX>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String jid>
 final	<it.yup.util.ResourceIDs: int STR_PENDINGTASK>
 final	<it.yup.util.ResourceIDs: int STR_PLAY>
@@ -2396,25 +2396,25 @@ final	<lampiro.screens.RosterScreen$Thread1: lampiro.screens.RosterScreen this$0
 static	<it.yup.xmpp.Config: short CANVAS_KEYS>
 	<it.yup.util.RMSIndex$KeyEnumeration: it.yup.util.RMSIndex$Item next>
 static	<it.yup.util.ResourceIDs: int STR_USE_URLS>
-static	<it.yup.xmpp.CommandExecutor: int MSG_BROKEN_DF>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Image rag>
+static	<it.yup.xmpp.CommandExecutor: int MSG_BROKEN_DF>
 private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.ChoiceGroup cg_type>
 static	<it.yup.ui.UIConfig: int bg_color>
 private	<it.yup.xml.Element: int _internal_id_counter>
 static	<it.yup.xmpp.Config: short CLIENT_INITIALIZED>
 private	<it.yup.xmlstream.KXmlParser: int txtPos>
 private	<lampiro.screens.ContactInfoScreen: it.yup.ui.UILabel eeLabel>
-final	<it.yup.util.ResourceIDs: int STR_LISTCMD>
 static	<it.yup.xmpp.FTSender: java.lang.String CONTENT>
+final	<it.yup.util.ResourceIDs: int STR_LISTCMD>
 public	<it.yup.xmpp.Config: int RNUM_ROSTER>
-final	<it.yup.util.ResourceIDs: int STR_WAIT>
 public	<lampiro.screens.MessageComposerScreen: int CHAT>
+final	<it.yup.util.ResourceIDs: int STR_WAIT>
 final	<it.yup.util.ResourceIDs: int STR_USERNAME>
 private	<it.yup.ui.UIAccordion: int sepSize>
 final	<it.yup.util.ResourceIDs: int STR_LOGGING_IN>
 private	<it.yup.xml.KXmlParser: int type>
-private	<com.jcraft.jzlib.InfTree: int Z_DATA_ERROR>
 	<com.jcraft.jzlib.ZStream: com.jcraft.jzlib.Adler32 _adler>
+private	<com.jcraft.jzlib.InfTree: int Z_DATA_ERROR>
 public	<it.yup.xmpp.FTSender: java.lang.String CONTENT>
 static	<it.yup.ui.UIEmoLabel: java.lang.String[] codes>
 private	<lampiro.screens.ContactInfoScreen: it.yup.util.ResourceManager rm>
@@ -2429,8 +2429,8 @@ public	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT>
 	<com.jcraft.jzlib.InfBlocks: com.jcraft.jzlib.InfTree inftree>
 protected	<it.yup.ui.UIItem: it.yup.ui.UIScreen screen>
 public	<it.yup.util.ResourceIDs: int STR_NEW_GROUP>
-private	<com.jcraft.jzlib.InfCodes: int Z_ERRNO>
 static	<it.yup.xmpp.Contact: int CH_STATUS>
+private	<com.jcraft.jzlib.InfCodes: int Z_ERRNO>
 final	<it.yup.xmpp.packets.Presence: int PHONE>
 private	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_write>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIHLayout logLayout>
@@ -2487,8 +2487,8 @@ private	<com.jcraft.jzlib.Deflate: int Z_DEFLATED>
 private	<lampiro.screens.RosterScreen: boolean micOn>
 final	<com.jcraft.jzlib.Tree: int[] base_dist>
 final	<it.yup.xmpp.packets.Presence: java.lang.String RESOURCE>
-static	<it.yup.util.ResourceIDs: int STR_CAPTURE_AUDIO>
 public	<it.yup.xmpp.packets.Presence: int pType>
+static	<it.yup.util.ResourceIDs: int STR_CAPTURE_AUDIO>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_FIXED>
 static	<it.yup.util.ResourceIDs: int STR_TRAFFIC>
 final	<com.jcraft.jzlib.Deflate: int FAST>
@@ -2499,9 +2499,9 @@ private	<it.yup.ui.UIRadioButtons: int chechedIndex>
 private	<lampiro.screens.FTScreen: javax.microedition.lcdui.Image rightImage>
 	<lampiro.screens.GatewayRegisterScreen$GatewayRegistrationHandler: it.yup.ui.UIMenu resPopup>
 	<com.jcraft.jzlib.InfCodes: int ltree_index>
+static	<com.jcraft.jzlib.ZStream: int Z_VERSION_ERROR>
 static	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST>
 private	<it.yup.screens.RegisterScreen: it.yup.util.ResourceManager rm>
-static	<com.jcraft.jzlib.ZStream: int Z_VERSION_ERROR>
 static	<it.yup.util.RMSIndex$RecordType: byte SPLITTED_HEAD>
 final	<it.yup.transport.SocketChannel: java.lang.String TRANSPORT_TYPE>
 private	<it.yup.xmpp.Roster: it.yup.xmpp.XMPPClient client>
@@ -2512,14 +2512,14 @@ final	<it.yup.xmpp.Contact: int CH_STATUS>
 static	<it.yup.xmpp.Task: byte CMD_EXECUTING>
 final	<it.yup.util.ResourceIDs: int STR_SEND_MESSAGE>
 public	<it.yup.util.ResourceIDs: int STR_STOP>
+public	<com.jcraft.jzlib.ZStream: byte[] next_in>
 static	<it.yup.util.ResourceIDs: int STR_SIZE>
 	<com.jcraft.jzlib.Deflate$Config: int max_chain>
-public	<com.jcraft.jzlib.ZStream: byte[] next_in>
 public	<it.yup.xmpp.packets.Presence: java.lang.String T_UNAVAILABLE>
 protected	<it.yup.transport.SocketChannel: boolean exiting>
 private	<it.yup.xml.KXmlParser: int txtPos>
-final	<com.jcraft.jzlib.InfBlocks: int BTREE>
 private	<it.yup.xml.KXmlSerializer: int[] nspCounts>
+final	<com.jcraft.jzlib.InfBlocks: int BTREE>
 public	<com.jcraft.jzlib.JZlib: int Z_FULL_FLUSH>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField wizardText>
 static	<it.yup.util.ResourceIDs: int STR_CHOOSE>
@@ -2535,31 +2535,31 @@ final	<it.yup.util.ResourceIDs: int STR_SUBMIT>
 final	<com.jcraft.jzlib.Inflate: int FLAG>
 	<com.jcraft.jzlib.InfBlocks: long check>
 private	<lampiro.screens.RosterScreen$FileReceiveScreen: it.yup.ui.UIButton buttonNo>
-private	<it.yup.xmlstream.KXmlSerializer: boolean pending>
 private	<lampiro.screens.InnerMMScreen: javax.microedition.lcdui.Command cmd_medium>
+private	<it.yup.xmlstream.KXmlSerializer: boolean pending>
 	<com.jcraft.jzlib.InfBlocks: int index>
 private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UICheckbox checkBox2>
 private	<it.yup.xmpp.CommandExecutor: java.lang.String STATUS_CANCELED>
 private	<it.yup.xmlstream.SocketStream: int level>
 	<com.jcraft.jzlib.Deflate: int pending>
 private	<com.jcraft.jzlib.ZInputStream: boolean nomoreinput>
-final	<lampiro.screens.RosterScreen$UIContact: lampiro.screens.RosterScreen this$0>
 private	<lampiro.screens.DataResultScreen: it.yup.xmpp.DataFormListener listener>
+final	<lampiro.screens.RosterScreen$UIContact: lampiro.screens.RosterScreen this$0>
 public	<it.yup.ui.UIConfig: java.lang.String selectMenuString>
 static	<lampiro.screens.SubscribeScreen: it.yup.util.ResourceManager rm>
 public	<lampiro.screens.RosterScreen: javax.microedition.lcdui.Font f_u>
 static	<it.yup.ui.UIConfig: int header_bg>
 private	<lampiro.screens.RosterScreen$UIGroup: java.util.Hashtable uiGroups>
-public	<it.yup.util.ResourceIDs: int STR_USE_URLS>
 final	<com.jcraft.jzlib.Deflate: int Z_HUFFMAN_ONLY>
+public	<it.yup.util.ResourceIDs: int STR_USE_URLS>
 public	<it.yup.util.ResourceIDs: int STR_RESET_CONFIG>
 final	<it.yup.util.ResourceIDs: int STR_HIDE_OFFLINE>
 private	<lampiro.screens.DataResultScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.util.ResourceIDs: int STR_COLOR_GREEN>
 public	<it.yup.xmpp.Contact: int CH_TASK_NEW>
 public	<it.yup.xmpp.Contact: java.lang.String[] availability_mapping>
-public	<it.yup.util.ResourceIDs: int STR_STOP_LOGIN>
 final	<com.jcraft.jzlib.Deflate: int Z_FULL_FLUSH>
+public	<it.yup.util.ResourceIDs: int STR_STOP_LOGIN>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_LISTMULTI>
 public	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_FROM>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIMenu show_instruction>
@@ -2571,8 +2571,8 @@ private	<it.yup.transport.BaseChannel$Sender: it.yup.transport.BaseChannel chann
 	<it.yup.xmpp.Contact: int availability>
 public	<it.yup.util.ResourceIDs: int STR_ONGOING>
 static	<it.yup.util.ResourceIDs: int STR_SET_STATUS>
-final	<it.yup.xmpp.packets.Message: java.lang.String BODY>
 private	<com.jcraft.jzlib.InfTree: int Z_STREAM_ERROR>
+final	<it.yup.xmpp.packets.Message: java.lang.String BODY>
 private	<lampiro.screens.ChatScreen: it.yup.xmlstream.EventQueryRegistration reg>
 public	<it.yup.util.ResourceIDs: int STR_ADD_CONTACT>
 final	<it.yup.util.ResourceIDs: int STR_USE_URLS>
@@ -2582,8 +2582,8 @@ static	<it.yup.util.ResourceIDs: int STR_CMDSCREEN_TITLE>
 public	<it.yup.ui.UILayout: int CONSTRAINT_PERCENTUAL>
 private	<it.yup.xmpp.FTSender: java.lang.String jingleSid>
 private	<it.yup.xmlstream.KXmlSerializer: boolean unicode>
-static	<com.jcraft.jzlib.Deflate: int PRESET_DICT>
 private	<it.yup.xmlstream.KXmlParser: int line>
+static	<com.jcraft.jzlib.Deflate: int PRESET_DICT>
 static	<it.yup.screens.SimpleComposerScreen: it.yup.util.ResourceManager rm>
 private	<it.yup.xmlstream.KXmlParser: boolean token>
 private	<lampiro.screens.DataResultScreen: int pos>
@@ -2605,8 +2605,8 @@ final	<it.yup.xmpp.packets.Presence: int BOT>
 static	<lampiro.screens.SplashScreen: it.yup.util.ResourceManager rm>
 final	<com.jcraft.jzlib.JZlib: int Z_ERRNO>
 public	<it.yup.xmpp.Roster: java.lang.String NS_IQ_ROSTER>
-	<lampiro.screens.ChatScreen: it.yup.ui.UILabel zoomLabel>
 public	<it.yup.xmlstream.Element: java.util.Vector children>
+	<lampiro.screens.ChatScreen: it.yup.ui.UILabel zoomLabel>
 public	<it.yup.xmpp.Contact: int AV_DND>
 public	<it.yup.util.ResourceIDs: int STR_WRONG_PWD>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_ROSTERX>
@@ -2614,8 +2614,8 @@ private	<it.yup.util.MetaVector$MultiVectorEnumeration: java.lang.Object innerNe
 final	<it.yup.util.ResourceIDs: int STR_WIZARD_GATEWAYS>
 final	<it.yup.xmpp.packets.Message: java.lang.String ERROR>
 protected	<lampiro.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
-private	<it.yup.ui.UIScreen: javax.microedition.lcdui.Graphics graphics>
 public	<it.yup.xmpp.XMPPClient: java.lang.String[][] errorCodes>
+private	<it.yup.ui.UIScreen: javax.microedition.lcdui.Graphics graphics>
 static	<com.jcraft.jzlib.Inflate: int MAX_WBITS>
 	<com.jcraft.jzlib.Deflate: int hash_mask>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_BOOLEAN>
@@ -2630,21 +2630,21 @@ final	<it.yup.util.ResourceIDs: int STR_VOLUME>
 static	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
 private	<lampiro.screens.ContactInfoScreen: it.yup.ui.UIVLayout jidLayout>
 static	<it.yup.screens.DeleteContactAlert: it.yup.util.ResourceManager rm>
-public	<it.yup.util.ResourceIDs: int STR_CONTACT_TYPE>
 static	<com.jcraft.jzlib.Tree: int LENGTH_CODES>
+public	<it.yup.util.ResourceIDs: int STR_CONTACT_TYPE>
 private	<lampiro.screens.FTScreen$FTItem: int STATUS_ONGOING>
-static	<it.yup.util.ResourceIDs: int STR_CHOOSE_NAME>
 private	<it.yup.screens.MessageComposerScreen: javax.microedition.lcdui.StringItem btn_send>
+static	<it.yup.util.ResourceIDs: int STR_CHOOSE_NAME>
 private	<lampiro.screens.ChatScreen$ForwardScreen: java.lang.String messageToForward>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UITextField tf_server>
 static	<it.yup.util.ResourceIDs: int STR_REGISTER>
 final	<it.yup.util.ResourceIDs: int STR_HANDLE_GROUPS>
 private	<lampiro.screens.ShowMMScreen: int mmType>
-private	<lampiro.screens.AlbumScreen: it.yup.ui.UILabel cmd_exit>
 private	<lampiro.screens.MessageComposerScreen: it.yup.ui.UIButton btn_send>
+private	<lampiro.screens.AlbumScreen: it.yup.ui.UILabel cmd_exit>
 final	<com.jcraft.jzlib.Deflate: int PRESET_DICT>
-static	<it.yup.xmlstream.EventQuery: java.lang.String ANY_EVENT>
 static	<lampiro.screens.KeyScreen: byte STATE_RIGHT_OK>
+static	<it.yup.xmlstream.EventQuery: java.lang.String ANY_EVENT>
 public	<it.yup.ui.UIConfig: int blbs_color>
 public	<it.yup.ui.UIConfig: int input_color>
 public	<it.yup.util.Logger: int DEBUG>
@@ -2652,8 +2652,8 @@ final	<it.yup.util.ResourceIDs: int STR_JABBER_ID>
 	<com.jcraft.jzlib.Inflate: int marker>
 	<com.jcraft.jzlib.InfBlocks: int bitb>
 static	<it.yup.util.ResourceIDs: int STR_SETTINGS_EFFECT>
-static	<lampiro.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
 private	<it.yup.xmlstream.KXmlParser: int depth>
+static	<lampiro.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
 public	<it.yup.util.ResourceIDs: int STR_HISTORY_SIZE>
 private	<lampiro.screens.RosterScreen: java.util.Hashtable chatScreenList>
 public	<it.yup.tests.TestMidlet: it.yup.tests.TestMidlet yup>
@@ -2666,21 +2666,21 @@ static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_BOOLEAN>
 private	<lampiro.screens.KeyScreen: int lkey>
 static	<it.yup.ui.UICanvas: java.lang.Object[][] keyMaps>
 static	<it.yup.xmpp.Config: short SILENT>
+private	<com.jcraft.jzlib.Deflate: int FAST>
 public	<it.yup.util.ResourceIDs: int STR_YES>
 static	<it.yup.util.ResourceIDs: int STR_SERVER_NAME>
-private	<com.jcraft.jzlib.Deflate: int FAST>
 final	<lampiro.screens.SubscribeScreen: int MODIFY>
 final	<it.yup.util.ResourceIDs: int STR_CAMERA_HIGH>
 private	<lampiro.screens.DataResultScreen: it.yup.ui.UILabel show_desc_label>
-static	<com.jcraft.jzlib.InfTree: int[] cplens>
 static	<it.yup.util.MemoryLogConsumer: it.yup.util.MemoryLogConsumer consumer>
+static	<com.jcraft.jzlib.InfTree: int[] cplens>
 public	<it.yup.xmpp.XMPPClient: java.lang.String BLUENDO_XMLRPC>
 final	<it.yup.xmpp.Task: byte CMD_FORM_LESS>
 static	<it.yup.ui.UITextField: javax.microedition.lcdui.TextBox tb>
 protected	<com.jcraft.jzlib.ZInputStream: int bufsize>
 static	<lampiro.screens.DebugScreen: it.yup.util.ResourceManager rm>
-private	<it.yup.util.GoogleToken: java.lang.String password>
 private	<it.yup.xmpp.CommandExecutor: java.lang.String[] cmd>
+private	<it.yup.util.GoogleToken: java.lang.String password>
 private	<it.yup.screens.RosterScreen: java.lang.String sel_pattern>
 static	<com.jcraft.jzlib.InfCodes: int Z_STREAM_END>
 static	<it.yup.xmpp.packets.Iq: java.lang.String PROMPT>
@@ -2690,19 +2690,19 @@ private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_tasks>
 final	<it.yup.util.ResourceIDs: int STR_NICK_NAME>
 final	<it.yup.util.ResourceIDs: int STR_WRITE>
 public	<it.yup.xmpp.FTSender: java.lang.String JINGLE>
-private	<it.yup.screens.DataFormScreen: javax.microedition.lcdui.StringItem si_instructions>
 private	<lampiro.screens.DataFormScreen: it.yup.util.ResourceManager rm>
+private	<it.yup.screens.DataFormScreen: javax.microedition.lcdui.StringItem si_instructions>
 public	<it.yup.xmpp.packets.Presence: int PC>
 static	<it.yup.util.ResourceIDs: int STR_NO>
 public	<it.yup.util.ResourceIDs: int STR_SEND_AUDIO>
 static	<com.jcraft.jzlib.StaticTree: com.jcraft.jzlib.StaticTree static_d_desc>
-static	<it.yup.util.ResourceIDs: int STR_MOVE>
 	<com.jcraft.jzlib.Deflate: byte[] pending_buf>
+static	<it.yup.util.ResourceIDs: int STR_MOVE>
 private	<lampiro.screens.RosterScreen$RegisterWaitScreen: it.yup.ui.UILabel cmd_cancel>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIMenu gatewaysMenu>
-public	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT_INVITATION>
 public	<it.yup.xmpp.packets.Presence: java.lang.String RESOURCE>
 static	<com.jcraft.jzlib.ZStream: int MAX_WBITS>
+public	<it.yup.util.ResourceIDs: int STR_GROUP_CHAT_INVITATION>
 	<com.jcraft.jzlib.Deflate: int[] heap>
 static	<it.yup.ui.UICanvas: java.util.Timer timer>
 private	<com.jcraft.jzlib.Deflate: int REP_3_6>
@@ -2718,28 +2718,28 @@ static	<it.yup.screens.ChatScreen: byte SCROLL_RIGHT>
 public	<com.jcraft.jzlib.ZStream: java.lang.String msg>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FIELD>
 	<it.yup.ui.UIPanel: int maxHeight>
-private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UICheckbox checkBox>
 private	<it.yup.ui.UITextPanel: it.yup.ui.UIItem container>
+private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UICheckbox checkBox>
 private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Image img_arrow>
 final	<it.yup.util.ResourceIDs: int STR_SIZE>
 final	<it.yup.util.ResourceIDs: int STR_SEND_FILE>
-public	<lampiro.screens.SubscribeScreen: int MODIFY>
 private	<it.yup.util.NetworkConsumer: java.util.Vector messages>
+public	<lampiro.screens.SubscribeScreen: int MODIFY>
 public	<it.yup.util.ResourceIDs: int STR_DELETE_CONTACT>
 public	<it.yup.util.ResourceIDs: int STR_ABOUT>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_TYPE>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String TYPE_SUBMIT>
 static	<it.yup.util.ResourceIDs: int STR_COLOR_GREEN>
-static	<it.yup.xmpp.XMPPClient: java.lang.String VCARD>
 public	<it.yup.xmpp.FTSender: java.lang.String SESSION_TERMINATE>
+static	<it.yup.xmpp.XMPPClient: java.lang.String VCARD>
 static	<it.yup.xmpp.packets.Presence: java.lang.String SHOW>
 private	<lampiro.screens.GatewayRegisterScreen: it.yup.ui.UIButton cancel>
 private	<it.yup.ui.UICombobox$UIComboScreen: int sel_key_offset>
 private	<lampiro.screens.RosterScreen: it.yup.xmpp.Contact delContact>
 public	<it.yup.xmpp.Config: java.lang.String CONFIG>
 public	<it.yup.xmpp.XMPPClient: java.lang.String BLUENDO_REGISTER>
-protected	<lampiro.screens.ChatScreen: java.lang.String preferredResource>
 static	<com.jcraft.jzlib.InfBlocks: int Z_STREAM_ERROR>
+protected	<lampiro.screens.ChatScreen: java.lang.String preferredResource>
 public	<it.yup.xmlstream.EventQuery: java.lang.String event>
 final	<it.yup.ui.UIItem: int INNER_UP>
 public	<it.yup.xmpp.FTSender: java.lang.String TRANSPORT>
@@ -2749,8 +2749,8 @@ private	<it.yup.screens.DataResultScreen: it.yup.util.ResourceManager rm>
 static	<it.yup.xmpp.Contact: int CH_GROUP>
 static	<it.yup.xmpp.XMPPClient: java.lang.String VCARD_TEMP>
 final	<com.jcraft.jzlib.Deflate: int Z_BUF_ERROR>
-final	<it.yup.util.ResourceIDs: int STR_ENABLE_TLS>
 static	<com.jcraft.jzlib.ZStream: int Z_STREAM_END>
+final	<it.yup.util.ResourceIDs: int STR_ENABLE_TLS>
 private	<com.jcraft.jzlib.Inflate: int Z_ERRNO>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String TITLE>
 final	<it.yup.util.ResourceIDs: int STR_KEY_PROCEED>
@@ -2764,8 +2764,8 @@ static	<com.jcraft.jzlib.Adler32: int BASE>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_send_file>
 private	<com.jcraft.jzlib.Inflate: int Z_BUF_ERROR>
 final	<it.yup.util.ResourceIDs: int STR_FONT_SIZE>
-static	<it.yup.xmpp.packets.Message: java.lang.String CHAT>
 static	<com.jcraft.jzlib.Deflate: int Z_FINISH>
+static	<it.yup.xmpp.packets.Message: java.lang.String CHAT>
 static	<com.jcraft.jzlib.InfBlocks: int Z_BUF_ERROR>
 public	<it.yup.xmpp.XMPPClient: boolean addTLS>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_HIDDEN>
@@ -2775,12 +2775,12 @@ private	<lampiro.screens.AlbumScreen: it.yup.ui.UIButton prevCmd>
 public	<it.yup.xmpp.Roster: java.util.Hashtable registeredGateways>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_about>
 private	<it.yup.ui.UITextField: int maxSize>
-final	<it.yup.util.ResourceIDs: int STR_EMAIL_ADDRESS>
 private	<com.jcraft.jzlib.Deflate: int Z_NO_FLUSH>
+final	<it.yup.util.ResourceIDs: int STR_EMAIL_ADDRESS>
 final	<it.yup.util.ResourceIDs: int STR_WRONG_PWD>
 public	<it.yup.util.ResourceIDs: int STR_WRITE>
-private	<it.yup.ui.UITextField: javax.microedition.lcdui.Command cmd_cancel>
 private	<it.yup.util.RMSIndex: java.util.Vector current_chunk>
+private	<it.yup.ui.UITextField: javax.microedition.lcdui.Command cmd_cancel>
 public	<it.yup.util.ResourceIDs: int STR_WAIT>
 	<com.jcraft.jzlib.Inflate: int nowrap>
 static	<com.jcraft.jzlib.ZStream: int Z_PARTIAL_FLUSH>
@@ -2812,12 +2812,12 @@ private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_send>
 static	<com.jcraft.jzlib.Inflate: int Z_OK>
 final	<com.jcraft.jzlib.InfCodes: int BADCODE>
 static	<it.yup.xmpp.Config: short LAST_PRESENCE_SHOW>
-protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_clear>
 static	<it.yup.xmpp.Config: short TONE_VOLUME>
+protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_clear>
 static	<it.yup.screens.ChatScreen: int text_height>
-static	<lampiro.screens.ChatScreen: int scroll_color>
-public	<it.yup.xmpp.Roster: java.lang.String unGroupedCode>
 private	<it.yup.screens.RosterScreen: byte scroll_enable>
+public	<it.yup.xmpp.Roster: java.lang.String unGroupedCode>
+static	<lampiro.screens.ChatScreen: int scroll_color>
 public	<it.yup.xmpp.packets.Message: java.lang.String MESSAGE>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_VCARD_UPDATE>
 private	<lampiro.screens.RosterScreen$FileReceiveScreen: it.yup.ui.UIButton buttonYes>
@@ -2896,8 +2896,8 @@ final	<it.yup.xmpp.Config: java.lang.String BLUENDO_SERVER>
 public	<it.yup.util.ResourceIDs: int STR_WRONG_USERNAME>
 private	<it.yup.screens.RosterScreen: int selected_line>
 private	<it.yup.util.RMSIndex: it.yup.util.RMSIndex$Comparator comparator>
-private	<com.jcraft.jzlib.InfBlocks: int Z_STREAM_ERROR>
 final	<it.yup.tests.XMPPTestClient$Echoer: it.yup.tests.XMPPTestClient this$0>
+private	<com.jcraft.jzlib.InfBlocks: int Z_STREAM_ERROR>
 private	<com.jcraft.jzlib.Inflate: int METHOD>
 	<com.jcraft.jzlib.InfCodes: byte lbits>
 final	<it.yup.ui.UICanvas: java.lang.Object[][] keyMaps>
@@ -2908,9 +2908,9 @@ private	<it.yup.xml.KXmlSerializer: int auto>
 public	<it.yup.xmpp.packets.Presence: int PHONE>
 private	<lampiro.screens.RosterScreen: java.lang.String ungrouped>
 static	<it.yup.util.ResourceIDs: int STR_VOLUME>
+final	<com.jcraft.jzlib.Tree: byte[] bl_order>
 protected	<com.jcraft.jzlib.ZInputStream: boolean compress>
 final	<com.jcraft.jzlib.InfBlocks: int DRY>
-final	<com.jcraft.jzlib.Tree: byte[] bl_order>
 static	<it.yup.ui.UITextField: javax.microedition.lcdui.Command cmd_ok>
 	<com.jcraft.jzlib.StaticTree: short[] static_tree>
 static	<it.yup.xmpp.Config: short FONT_SIZE>
@@ -2919,8 +2919,8 @@ static	<it.yup.xmpp.packets.DataForm: java.lang.String LISTO_NAMESPACE>
 final	<lampiro.screens.ChatScreen$1: lampiro.screens.ChatScreen this$0>
 public	<it.yup.screens.MessageComposerScreen: int CHAT>
 final	<it.yup.util.RMSIndex$RecordType: byte CHUNK_INDEX>
-	<com.jcraft.jzlib.InfBlocks: com.jcraft.jzlib.InfCodes codes>
 final	<com.jcraft.jzlib.Tree: int[] extra_blbits>
+	<com.jcraft.jzlib.InfBlocks: com.jcraft.jzlib.InfCodes codes>
 final	<com.jcraft.jzlib.InfBlocks: int Z_DATA_ERROR>
 public	<it.yup.xmpp.FTSender: java.lang.String CREATOR>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIHLayout header>
@@ -2935,16 +2935,16 @@ public	<it.yup.util.ResourceIDs: int STR_KEY_HELP>
 final	<it.yup.xmpp.Config: java.lang.String HTTP_GW_PATH>
 private	<lampiro.screens.RegisterScreen: boolean register>
 static	<it.yup.util.ResourceIDs: int STR_KEY_CONFIRM>
-static	<it.yup.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
 private	<it.yup.xmlstream.SASLAuthenticator: java.lang.String[] supportedMechanisms>
+static	<it.yup.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
 static	<it.yup.util.ResourceIDs: int STR_ONGOING>
 private	<com.jcraft.jzlib.InfBlocks: int BAD>
 private	<it.yup.ui.UIScreen: boolean paintBooked>
-private	<com.jcraft.jzlib.InfCodes: int Z_MEM_ERROR>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_AUTHENTICATED>
+private	<com.jcraft.jzlib.InfCodes: int Z_MEM_ERROR>
 private	<com.jcraft.jzlib.JZlib: java.lang.String version>
-private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UILabel[] originalItems>
 static	<it.yup.xmpp.Config: int audioType>
+private	<it.yup.ui.UICombobox$UIComboScreen: it.yup.ui.UILabel[] originalItems>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_TXTMULTI>
 final	<com.jcraft.jzlib.Deflate: int INIT_STATE>
 protected	<lampiro.screens.ShowMMScreen: it.yup.ui.UIHLayout cmd_layout>
@@ -2955,8 +2955,8 @@ static	<it.yup.screens.ChatScreen: int header_height>
 public	<it.yup.util.ResourceIDs: int STR_SEND_FILE>
 static	<com.jcraft.jzlib.Inflate: int Z_SYNC_FLUSH>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String TITLE>
-private	<lampiro.screens.ChatScreen: int hs>
 final	<it.yup.xmpp.Config: int RNUM_CONFIG>
+private	<lampiro.screens.ChatScreen: int hs>
 public	<com.jcraft.jzlib.JZlib: int Z_VERSION_ERROR>
 private	<lampiro.screens.RegisterScreen: it.yup.ui.UIButton buttonYes>
 static	<it.yup.screens.SubscriptionConfirmAlert: it.yup.util.ResourceManager rm>
@@ -2964,21 +2964,21 @@ private	<lampiro.screens.RegisterScreen: it.yup.ui.UICheckbox grp_new_account>
 static	<lampiro.screens.SubscribeScreen: int ADD>
 static	<com.jcraft.jzlib.InfBlocks: int LENS>
 	<it.yup.ui.UILabel: boolean wrappable>
-private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UIMenu contMenu>
 static	<it.yup.xmpp.packets.DataForm: java.lang.String FIELD>
+private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UIMenu contMenu>
 final	<it.yup.util.ResourceIDs: int STR_LOGIN_HINT>
 private	<com.jcraft.jzlib.Deflate: int STORED_BLOCK>
 private	<lampiro.screens.RosterScreen$RegisterWaitScreen: it.yup.ui.UIPanel mainList>
 final	<it.yup.xmpp.Task: byte CMD_INPUT>
 static	<com.jcraft.jzlib.Tree: int[] base_dist>
 public	<it.yup.util.ResourceIDs: int STR_CONNECTION_FAILED>
-final	<com.jcraft.jzlib.ZStream: int Z_STREAM_END>
 private	<it.yup.xmlstream.KXmlParser: int peekCount>
+final	<com.jcraft.jzlib.ZStream: int Z_STREAM_END>
 public	<it.yup.util.ResourceIDs: int STR_LOGFAIL_DESC>
 protected	<lampiro.screens.RosterScreen: it.yup.ui.UIAccordion searchAccordion>
 static	<it.yup.util.ResourceIDs: int STR_FONT_MEDIUM>
-protected	<com.jcraft.jzlib.ZInputStream: byte[] buf1>
 static	<it.yup.xmpp.Config: java.lang.String[] imageTypes>
+protected	<com.jcraft.jzlib.ZInputStream: byte[] buf1>
 static	<it.yup.util.ResourceIDs: int STR_DESC>
 private	<it.yup.xmlstream.KXmlParser: boolean wasCR>
 private	<it.yup.xml.KXmlParser: boolean unresolved>
@@ -2993,8 +2993,8 @@ static	<it.yup.util.ResourceIDs: int STR_ACCEPT_ALL>
 	<lampiro.screens.RosterScreen: java.lang.String uploadJid>
 private	<lampiro.screens.RosterScreen$UIContact: it.yup.ui.UISeparator sep>
 final	<it.yup.util.ResourceIDs: int STR_KEY_HELP>
-protected	<it.yup.ui.UILayout: int dirKey1>
 static	<com.jcraft.jzlib.Tree: int[] extra_lbits>
+protected	<it.yup.ui.UILayout: int dirKey1>
 static	<it.yup.xmpp.Config: int RNUM_CONFIG>
 private	<it.yup.xmpp.Roster: it.yup.xmpp.Roster$RosterX rosterX>
 static	<com.jcraft.jzlib.JZlib: int Z_BUF_ERROR>
@@ -3019,8 +3019,8 @@ protected	<lampiro.screens.ChatScreen: it.yup.ui.UILabel cmd_capture_aud>
 static	<lampiro.screens.FTScreen$FTItem: int STATUS_FINISHED>
 private	<it.yup.screens.AddContactScreen: javax.microedition.lcdui.TextField t_error>
 protected	<lampiro.screens.SimpleComposerScreen: javax.microedition.lcdui.Command cmd_send>
-static	<com.jcraft.jzlib.InfBlocks: int DTREE>
 	<com.jcraft.jzlib.Tree: short[] dyn_tree>
+static	<com.jcraft.jzlib.InfBlocks: int DTREE>
 final	<it.yup.util.ResourceIDs: int STR_OPTIONS_SETUP>
 public	<it.yup.util.ResourceIDs: int STR_VOLUME>
 final	<com.jcraft.jzlib.StaticTree: int BL_CODES>
@@ -3037,10 +3037,10 @@ private	<lampiro.screens.RegisterScreen: it.yup.ui.UILabel instructionLabel>
 public	<it.yup.xmpp.CommandExecutor: int MSG_BROKEN_DF>
 private	<lampiro.screens.ChatScreen: java.util.Hashtable cmd_urls>
 private	<lampiro.screens.RosterScreen$MUCStateHandler: it.yup.xmpp.IQResultListener listener>
-final	<it.yup.util.ResourceIDs: int STR_EDIT_CONTACT>
-protected	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel cmd_exit>
-final	<com.jcraft.jzlib.InfBlocks: int Z_NEED_DICT>
 static	<it.yup.xmpp.packets.Stanza: java.lang.String ATT_ID>
+final	<it.yup.util.ResourceIDs: int STR_EDIT_CONTACT>
+final	<com.jcraft.jzlib.InfBlocks: int Z_NEED_DICT>
+protected	<lampiro.screens.ShowMMScreen: it.yup.ui.UILabel cmd_exit>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_LABEL>
 final	<com.jcraft.jzlib.JZlib: int Z_FULL_FLUSH>
 public	<it.yup.util.ResourceIDs: int STR_SELECT>
@@ -3049,22 +3049,22 @@ private	<lampiro.screens.RegisterScreen: boolean wizardShown>
 final	<it.yup.xmpp.Roster$IQResultListener1: it.yup.xmpp.Roster this$0>
 static	<com.jcraft.jzlib.JZlib: int Z_DEFAULT_COMPRESSION>
 static	<it.yup.util.ResourceIDs: int STR_ERROR>
-static	<it.yup.util.ResourceIDs: int STR_RELOAD_CONTACT>
 static	<com.jcraft.jzlib.Tree: int REP_3_6>
+static	<it.yup.util.ResourceIDs: int STR_RELOAD_CONTACT>
 private	<it.yup.ui.UITextField: javax.microedition.lcdui.TextBox tb>
-final	<com.jcraft.jzlib.InfTree: int Z_NEED_DICT>
 public	<it.yup.xmpp.FTSender: java.lang.String SESSION_INITIATE>
+final	<com.jcraft.jzlib.InfTree: int Z_NEED_DICT>
 public	<it.yup.ui.UIConfig: int scrollbarWidth>
 static	<it.yup.xmpp.Config: short EMAIL>
 static	<it.yup.xmpp.Config: short QWERTY>
 public	<com.jcraft.jzlib.JZlib: int Z_DATA_ERROR>
 private	<it.yup.screens.CommandListScreen: javax.microedition.lcdui.Command cmd_select>
 static	<it.yup.xmpp.Config: java.lang.String RMS_NAME>
-protected	<lampiro.screens.ShowMMScreen: byte[] fileData>
 protected	<it.yup.xmlstream.BasicXmlStream: java.lang.String SID>
+protected	<lampiro.screens.ShowMMScreen: byte[] fileData>
 protected	<it.yup.xmpp.XMPPClient: javax.microedition.lcdui.Image[] presence_phone_icons>
-public	<it.yup.xmpp.Contact: int CH_GROUP>
 private	<lampiro.screens.MUCScreen: java.util.Vector orderedContacts>
+public	<it.yup.xmpp.Contact: int CH_GROUP>
 static	<it.yup.ui.UIConfig: int bdbs_color>
 static	<it.yup.screens.RosterScreen: it.yup.util.ResourceManager rm>
 protected	<lampiro.screens.MessageComposerScreen: it.yup.util.ResourceManager rm>
@@ -3073,22 +3073,22 @@ public	<it.yup.tests.UITestMidlet$KeysScreen: int left_key>
 public	<it.yup.xmpp.FTSender: java.lang.String DESCRIPTION>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_refresh_roster>
 final	<com.jcraft.jzlib.Deflate: int FinishDone>
-static	<it.yup.screens.ChatScreen: int header_bg>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String[] FLT>
 final	<it.yup.util.RMSIndex$DefaultUTF8Comparator: it.yup.util.RMSIndex this$0>
+static	<it.yup.screens.ChatScreen: int header_bg>
 public	<com.jcraft.jzlib.JZlib: int Z_BEST_SPEED>
 static	<it.yup.util.ResourceIDs: int STR_HINT>
 final	<it.yup.util.RMSIndex$KeyEnumeration: it.yup.util.RMSIndex this$0>
 public	<it.yup.util.ResourceIDs: int STR_COLOR_BLUE>
 	<com.jcraft.jzlib.Deflate: int last_eob_len>
-static	<it.yup.ui.UIConfig: int button_color>
 private	<it.yup.xmlstream.KXmlParser: java.lang.String ILLEGAL_TYPE>
+static	<it.yup.ui.UIConfig: int button_color>
 private	<it.yup.util.Utils: boolean has_utf8>
 static	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 static	<it.yup.xml.KXmlParser: int XML_DECL>
 	<it.yup.tests.RMSTestMidlet: it.yup.tests.RMSTestMidlet$TestForm testForm>
-public	<it.yup.util.ResourceIDs: int STR_VIBRATE_IF>
 public	<it.yup.transport.BaseChannel: int bytes_sent>
+public	<it.yup.util.ResourceIDs: int STR_VIBRATE_IF>
 static	<it.yup.xmpp.XMPPClient: java.lang.String NS_DELAY>
 protected	<it.yup.ui.UILayout: it.yup.ui.UIItem[] layoutItems>
 public	<it.yup.ui.UIConfig: int bdbs_color>
@@ -3147,29 +3147,29 @@ private	<lampiro.screens.MessageComposerScreen: java.lang.String preferredResour
 public	<com.jcraft.jzlib.JZlib: int Z_DEFAULT_COMPRESSION>
 final	<com.jcraft.jzlib.Deflate: int LENGTH_CODES>
 public	<it.yup.xmpp.Task: byte CMD_FINISHED>
-public	<it.yup.ui.UIConfig: javax.microedition.lcdui.Font small_font>
 private	<it.yup.xmlstream.KXmlParser: int stackMismatch>
+public	<it.yup.ui.UIConfig: javax.microedition.lcdui.Font small_font>
 final	<com.jcraft.jzlib.Inflate: int Z_FULL_FLUSH>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_OPTION>
 final	<it.yup.ui.UILayout: int CONSTRAINT_PIXELS>
-final	<it.yup.xmlstream.EventQuery: java.lang.String ANY_EVENT>
 public	<it.yup.util.ResourceIDs: int STR_FT_NOT>
+final	<it.yup.xmlstream.EventQuery: java.lang.String ANY_EVENT>
 static	<com.jcraft.jzlib.InfTree: int Z_MEM_ERROR>
-static	<it.yup.util.ResourceIDs: int STR_ACCEPT_ALWAYS>
 private	<lampiro.screens.MUCScreen: it.yup.ui.UILabel cmd_topic>
+static	<it.yup.util.ResourceIDs: int STR_ACCEPT_ALWAYS>
 final	<com.jcraft.jzlib.JZlib: int Z_STREAM_END>
 final	<com.jcraft.jzlib.Inflate: int Z_SYNC_FLUSH>
-static	<com.jcraft.jzlib.Inflate: int Z_MEM_ERROR>
 final	<lampiro.screens.ChatScreen$ConversationEntry: byte ENTRY_TO>
+static	<com.jcraft.jzlib.Inflate: int Z_MEM_ERROR>
 protected	<it.yup.ui.UIItem: boolean dirty>
 static	<com.jcraft.jzlib.ZStream: int Z_NO_FLUSH>
 final	<it.yup.util.ResourceIDs: int STR_PREV>
 public	<it.yup.util.ResourceIDs: int STR_UNAVAILABLE>
 final	<it.yup.xmpp.packets.Presence: java.lang.String T_PROBE>
 static	<com.jcraft.jzlib.Deflate: int Z_ERRNO>
-private	<it.yup.xmlstream.KXmlSerializer: java.lang.String[] elementStack>
 private	<com.jcraft.jzlib.Tree: int LENGTH_CODES>
 static	<lampiro.screens.DataFormScreen: it.yup.util.ResourceManager rm>
+private	<it.yup.xmlstream.KXmlSerializer: java.lang.String[] elementStack>
 protected	<it.yup.ui.UIMenu: int firstVisibleIndex>
 private	<it.yup.transport.SocketChannel$UTFReader: int available>
 static	<com.jcraft.jzlib.ZStream: int Z_MEM_ERROR>
@@ -3183,21 +3183,21 @@ public	<it.yup.util.ResourceIDs: int STR_TRAFFIC>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLT_BOOLEAN>
 	<it.yup.tests.RMSTestMidlet$TestForm: javax.microedition.lcdui.StringItem resItem>
 static	<it.yup.util.ResourceIDs: int STR_RESET_DATA>
-private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UILabel activeItem>
 static	<it.yup.xmpp.Contact: int CH_MESSAGE_READ>
-final	<com.jcraft.jzlib.Deflate: int MIN_MATCH>
+private	<it.yup.tests.UITestMidlet$TestScreen: it.yup.ui.UILabel activeItem>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_INITIALIZED>
+final	<com.jcraft.jzlib.Deflate: int MIN_MATCH>
 	<com.jcraft.jzlib.InfCodes: int lit>
 private	<com.jcraft.jzlib.InfTree: int Z_VERSION_ERROR>
 static	<com.jcraft.jzlib.InfTree: int fixed_bl>
 static	<it.yup.util.ResourceIDs: int STR_CAMERA_HIGH>
 	<it.yup.tests.UITestMidlet: it.yup.ui.UICanvas canvas>
-final	<it.yup.util.ResourceIDs: int STR_CHOOSE_STATUS>
 public	<it.yup.ui.UILayout: int CONSTRAINT_PIXELS>
-private	<it.yup.ui.UIScreen: boolean freezed>
+final	<it.yup.util.ResourceIDs: int STR_CHOOSE_STATUS>
 static	<com.jcraft.jzlib.Tree: int Buf_size>
-public	<it.yup.xmpp.Config: int WAIT_TIME>
+private	<it.yup.ui.UIScreen: boolean freezed>
 public	<it.yup.xmlstream.BasicXmlStream: java.lang.String CONNECTION_FAILED>
+public	<it.yup.xmpp.Config: int WAIT_TIME>
 public	<it.yup.xmpp.Group: java.lang.String name>
 static	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_ERROR>
 	<com.jcraft.jzlib.Deflate: int l_buf>
@@ -3233,8 +3233,8 @@ public	<it.yup.util.ResourceIDs: int STR_TO>
 	<it.yup.ui.UIItem: int fg_color>
 static	<it.yup.util.ResourceIDs: int STR_WHEN_NEW_MESSAGES>
 private	<it.yup.xml.KXmlParser: int LEGACY>
-private	<lampiro.screens.RosterScreen$UIGroup: it.yup.ui.UILabel moveLabel>
 private	<it.yup.xmpp.FTSender: int fileOffset>
+private	<lampiro.screens.RosterScreen$UIGroup: it.yup.ui.UILabel moveLabel>
 static	<it.yup.util.ResourceIDs: int STR_REFRESH>
 private	<it.yup.screens.DebugScreen: it.yup.util.ResourceManager rm>
 public	<it.yup.util.ResourceIDs: int STR_STATUS_MESSAGE>
@@ -3297,27 +3297,27 @@ final	<com.jcraft.jzlib.Deflate: int REP_3_6>
 final	<com.jcraft.jzlib.InfCodes: int DISTEXT>
 private	<it.yup.screens.ChatScreen: int header_height>
 private	<lampiro.screens.SubscribeScreen: java.util.Hashtable subscriptions>
-static	<it.yup.util.ResourceIDs: int STR_JABBER_ID>
-static	<com.jcraft.jzlib.Deflate: int INIT_STATE>
 private	<com.jcraft.jzlib.ZStream: int Z_DATA_ERROR>
+static	<com.jcraft.jzlib.Deflate: int INIT_STATE>
+static	<it.yup.util.ResourceIDs: int STR_JABBER_ID>
 final	<it.yup.util.ResourceIDs: int STR_SHOW>
 static	<it.yup.xmpp.Config: short LAST_STATUS_MESSAGE>
-public	<it.yup.util.ResourceIDs: int STR_FILLLATER>
 public	<it.yup.xmpp.XMPPClient: java.lang.String NS_DELAY>
+public	<it.yup.util.ResourceIDs: int STR_FILLLATER>
 public	<it.yup.util.ResourceIDs: int STR_JOINED_MUC>
 private	<it.yup.screens.RosterScreen: it.yup.screens.RosterScreen _instance>
 private	<com.jcraft.jzlib.Deflate: int Z_OK>
 static	<it.yup.util.ResourceIDs: int STR_OFFLINE>
-static	<it.yup.xmpp.packets.Message: java.lang.String GROUPCHAT>
 static	<com.jcraft.jzlib.Deflate: int BlockDone>
 	<com.jcraft.jzlib.Inflate: com.jcraft.jzlib.InfBlocks blocks>
 public	<it.yup.xmpp.Contact: int CH_STATUS>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIPanel mainPanel>
+static	<it.yup.xmpp.packets.Message: java.lang.String GROUPCHAT>
 static	<lampiro.screens.FTScreen$FTItem: boolean DIRECTION_OUT>
-static	<com.jcraft.jzlib.StaticTree: int L_CODES>
 protected	<it.yup.xmlstream.Initializer: java.lang.String namespace>
-private	<com.jcraft.jzlib.InfTree: int Z_MEM_ERROR>
+static	<com.jcraft.jzlib.StaticTree: int L_CODES>
 static	<it.yup.xmpp.packets.Iq: java.lang.String T_SET>
+private	<com.jcraft.jzlib.InfTree: int Z_MEM_ERROR>
 final	<com.jcraft.jzlib.InfCodes: int Z_VERSION_ERROR>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FIELD>
 static	<it.yup.screens.RegisterScreen: it.yup.util.ResourceManager rm>
@@ -3346,8 +3346,8 @@ static	<it.yup.util.ResourceIDs: int STR_STOP>
 static	<it.yup.util.ResourceIDs: int STR_ACCEPT>
 private	<com.jcraft.jzlib.InfBlocks: int DONE>
 final	<it.yup.util.ResourceIDs: int STR_SET_TOPIC>
-final	<it.yup.util.ResourceIDs: int STR_SEND_AUDIO>
 private	<lampiro.screens.SendMMScreen$UploadHandler: java.lang.String originalFileName>
+final	<it.yup.util.ResourceIDs: int STR_SEND_AUDIO>
 static	<it.yup.ui.UIConfig: int selected_color>
 public	<it.yup.xmpp.Config: short PASSWORD>
 public	<it.yup.util.ResourceIDs: int STR_SIZE>
@@ -3373,8 +3373,8 @@ static	<com.jcraft.jzlib.JZlib: int Z_NO_FLUSH>
 public	<it.yup.ui.UIConfig: int header_fg>
 static	<it.yup.util.ResourceIDs: int STR_CONNECTION_FAILED>
 final	<com.jcraft.jzlib.ZStream: int Z_VERSION_ERROR>
-private	<it.yup.ui.UIScreen: it.yup.ui.UICanvas canvas>
 	<lampiro.screens.SendMMScreen: it.yup.ui.UIButton cmd_send>
+private	<it.yup.ui.UIScreen: it.yup.ui.UICanvas canvas>
 public	<it.yup.xmpp.Task: byte DF_FORM>
 static	<it.yup.xmpp.FTSender: java.lang.String OFFER>
 private	<lampiro.screens.RosterScreen: lampiro.screens.RosterScreen _instance>
@@ -3426,8 +3426,8 @@ private	<lampiro.screens.AddContactScreen: it.yup.ui.UILabel t_help>
 static	<lampiro.screens.RosterScreen$UIGroup: java.util.Vector groupsPosition>
 private	<it.yup.xmpp.XMPPClient: long lastPresenceTime>
 final	<it.yup.util.ResourceIDs: int STR_ONGOING>
-final	<com.jcraft.jzlib.Inflate: int CHECK1>
 private	<it.yup.ui.UICanvas: javax.microedition.lcdui.Alert alert>
+final	<com.jcraft.jzlib.Inflate: int CHECK1>
 static	<it.yup.xmpp.Config: java.lang.String HTTP_GW_HOST>
 public	<it.yup.util.ResourceIDs: int STR_CLOSE_MUC>
 	<com.jcraft.jzlib.Deflate: short[] prev>
@@ -3435,8 +3435,8 @@ private	<lampiro.screens.FTScreen$FTItem: boolean direction>
 private	<lampiro.screens.DataFormScreen: it.yup.ui.UIItem[] items>
 public	<it.yup.xmpp.FTSender: java.lang.String DESC>
 final	<com.jcraft.jzlib.Inflate: int Z_DATA_ERROR>
-static	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_VALUE>
+static	<it.yup.screens.ChatScreen$ConversationEntry: byte ENTRY_FROM>
 private	<com.jcraft.jzlib.Deflate: int Z_FINISH>
 static	<it.yup.util.ResourceIDs: int STR_BACK>
 private	<it.yup.screens.StatusScreen: javax.microedition.lcdui.TextField tf_status>
@@ -3444,32 +3444,32 @@ private	<lampiro.screens.RosterScreen$FileReceiveScreen: it.yup.xmpp.FTReceiver$
 protected	<lampiro.screens.MessageComposerScreen: it.yup.ui.UITextField tf_subject>
 static	<it.yup.screens.ChatScreen: int scroll_color>
 private	<it.yup.screens.RosterScreen: long sel_last_ts>
-static	<com.jcraft.jzlib.JZlib: int Z_NEED_DICT>
 private	<it.yup.xmlstream.KXmlParser: int attributeCount>
+static	<com.jcraft.jzlib.JZlib: int Z_NEED_DICT>
 private	<lampiro.screens.AddContactScreen: it.yup.ui.UICombobox t_type>
 final	<com.jcraft.jzlib.Deflate: int Z_NEED_DICT>
 final	<com.jcraft.jzlib.InfCodes: int LEN>
-final	<it.yup.xmpp.Contact: int AV_ONLINE>
 public	<it.yup.transport.BaseChannel: java.lang.String transportType>
+final	<it.yup.xmpp.Contact: int AV_ONLINE>
 private	<lampiro.screens.TaskListScreen: it.yup.xmpp.Task[] tasks>
 final	<com.jcraft.jzlib.Tree: int REPZ_11_138>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UILabel cmd_album>
 	<it.yup.xmpp.Roster: it.yup.util.RMSIndex rosterStore>
 static	<it.yup.xmpp.Config: java.lang.String HTTP_GW_PATH>
-final	<lampiro.screens.SubscribeScreen: int ADD>
-public	<it.yup.ui.UIConfig: int bb_color>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_ERROR>
+public	<it.yup.ui.UIConfig: int bb_color>
+final	<lampiro.screens.SubscribeScreen: int ADD>
 final	<com.jcraft.jzlib.Inflate: int CHECK3>
 final	<com.jcraft.jzlib.JZlib: int Z_BEST_COMPRESSION>
 	<com.jcraft.jzlib.Deflate: int match_available>
-public	<it.yup.util.MemoryLogConsumer: java.util.Vector messages>
 private	<it.yup.xmpp.Config: int SO_KEEPALIVE>
+public	<it.yup.util.MemoryLogConsumer: java.util.Vector messages>
 static	<it.yup.xmpp.XMPPClient: java.lang.String PHOTO>
 private	<it.yup.xmlstream.KXmlParser: boolean unresolved>
 public	<com.jcraft.jzlib.JZlib: int Z_SYNC_FLUSH>
 static	<it.yup.util.ResourceIDs: int STR_EXIT_MUC>
-static	<it.yup.xmpp.XMPPClient: java.lang.String NS_IQ_DISCO_INFO>
 static	<it.yup.xmlstream.BasicXmlStream: java.lang.String STREAM_ACCOUNT_REGISTERED>
+static	<it.yup.xmpp.XMPPClient: java.lang.String NS_IQ_DISCO_INFO>
 public	<com.jcraft.jzlib.ZStream: int avail_out>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String[] FLT>
 	<lampiro.screens.ChatScreen$ForwardScreen: java.util.Vector orderedContacts>
@@ -3480,11 +3480,11 @@ static	<com.jcraft.jzlib.StaticTree: short[] static_dtree>
 final	<it.yup.util.ResourceIDs: int STR_SEND>
 private	<lampiro.screens.GrpMessageComposerScreen: lampiro.screens.RosterScreen$UIGroup uiGroup>
 	<com.jcraft.jzlib.Inflate: long[] was>
-private	<it.yup.xmlstream.KXmlSerializer: int depth>
 static	<it.yup.xmpp.Config: int MAX_PERM_TIME>
+private	<it.yup.xmlstream.KXmlSerializer: int depth>
 private	<it.yup.screens.ChatScreen: javax.microedition.lcdui.Image img_msg>
-final	<com.jcraft.jzlib.JZlib: java.lang.String version>
 final	<it.yup.xmpp.Task: byte DF_RESULT>
+final	<com.jcraft.jzlib.JZlib: java.lang.String version>
 public	<it.yup.ui.UIUtils: char[][] itu_keys>
 static	<it.yup.xmpp.FTSender: java.lang.String BLOCK_SIZE>
 private	<it.yup.xmlstream.KXmlParser: java.lang.String UNEXPECTED_EOF>
@@ -3499,12 +3499,12 @@ private	<it.yup.screens.CommandListScreen: it.yup.xmpp.Contact usr>
 private	<it.yup.ui.UITextField: java.lang.String label>
 private	<it.yup.xmlstream.KXmlParser: int XML_DECL>
 public	<it.yup.xmpp.packets.DataForm: java.lang.String instructions>
-final	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST>
 	<com.jcraft.jzlib.Deflate: int heap_len>
+final	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST>
 	<it.yup.ui.UILabel: boolean flip>
 private	<it.yup.screens.OptionsScreen: javax.microedition.lcdui.TextField tf_keepalive>
-final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_REQUIRED>
 public	<it.yup.transport.BaseChannel: int bytes_received>
+final	<it.yup.xmpp.packets.DataForm: java.lang.String FLD_REQUIRED>
 final	<it.yup.xmpp.packets.Presence: java.lang.String PRIORITY>
 private	<lampiro.screens.DataResultScreen: it.yup.ui.UIPanel mainPanel>
 private	<it.yup.xmpp.XMPPClient: boolean newCredentials>
@@ -3516,8 +3516,8 @@ public	<it.yup.util.ResourceIDs: int STR_PASSWORD>
 public	<it.yup.util.ResourceIDs: int STR_SEND>
 public	<it.yup.util.ResourceIDs: int STR_GATEWAYS>
 private	<it.yup.screens.ChatScreen: int fg_in_msg>
-private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Image img_task>
 final	<com.jcraft.jzlib.Tree: int[] extra_lbits>
+private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Image img_task>
 final	<it.yup.xmpp.Task: byte DF_ERROR>
 public	<it.yup.xmlstream.EventQuery: it.yup.xmlstream.EventQuery child>
 private	<it.yup.xmlstream.KXmlParser: java.io.Reader reader>
@@ -3526,20 +3526,20 @@ private	<lampiro.screens.RegisterScreen: it.yup.ui.UICheckbox grp_advanced>
 static	<it.yup.xmpp.packets.Presence: int PHONE>
 static	<it.yup.util.ResourceIDs: int STR_FILE_NAME>
 	<com.jcraft.jzlib.StaticTree: int extra_base>
-private	<it.yup.screens.RosterScreen: boolean repaint_selection>
 private	<lampiro.screens.RosterScreen$RegisterDataFormExecutor: lampiro.screens.RosterScreen$RegisterHandler registerHandler>
-private	<lampiro.screens.SimpleComposerScreen: it.yup.xmpp.Contact user>
+private	<it.yup.screens.RosterScreen: boolean repaint_selection>
 private	<it.yup.xmpp.XMPPClient: java.util.TimerTask rosterRetrieveTask>
+private	<lampiro.screens.SimpleComposerScreen: it.yup.xmpp.Contact user>
 static	<it.yup.util.ResourceIDs: int STR_SHOW_OFFLINE>
 public	<it.yup.xmpp.XMPPClient: java.lang.String BINVAL>
 private	<it.yup.screens.RosterScreen: javax.microedition.lcdui.Image img_msg>
 final	<com.jcraft.jzlib.StaticTree: int MAX_BITS>
 public	<it.yup.util.ResourceIDs: int STR_OPEN>
 private	<lampiro.screens.RosterScreen: it.yup.ui.UIMenu actionsLabel>
-final	<it.yup.xmlstream.EventQuery: java.lang.String ANY_PACKET>
 final	<com.jcraft.jzlib.InfBlocks: int Z_OK>
-	<com.jcraft.jzlib.Inflate: int wbits>
+final	<it.yup.xmlstream.EventQuery: java.lang.String ANY_PACKET>
 static	<it.yup.xmpp.FTSender: java.lang.String SESSION_ACCEPT>
+	<com.jcraft.jzlib.Inflate: int wbits>
 static	<it.yup.util.ResourceIDs: int STR_FT_STATUS>
 final	<it.yup.util.ResourceIDs: int STR_STOP_LOGIN>
 final	<it.yup.util.ResourceIDs: int STR_PLAY_TONE_IF>
@@ -3578,8 +3578,8 @@ final	<it.yup.screens.RegisterScreen$ItemCommandListener1: it.yup.screens.Regist
 private	<lampiro.screens.RosterScreen: long sel_last_ts>
 static	<com.jcraft.jzlib.JZlib: int Z_HUFFMAN_ONLY>
 private	<it.yup.xmlstream.KXmlSerializer: java.io.Writer writer>
-public	<it.yup.util.ResourceIDs: int STR_MM_SIZE>
 public	<it.yup.xmpp.XMPPClient: boolean addCompression>
+public	<it.yup.util.ResourceIDs: int STR_MM_SIZE>
 private	<lampiro.screens.KeyScreen: it.yup.ui.UILabel txt>
 public	<it.yup.xmpp.Contact: java.lang.String subscription>
 public	<it.yup.util.ResourceIDs: int STR_EMAIL_ADDRESS>
@@ -3598,12 +3598,12 @@ private	<it.yup.ui.UIPanel: boolean listMode>
 final	<it.yup.util.ResourceIDs: int STR_HELP_TEXT>
 static	<it.yup.xmpp.Config: java.lang.String GPRS_CONNECTION_URL>
 public	<it.yup.util.ResourceIDs: int STR_CAPTURE_IMAGE>
-final	<it.yup.util.ResourceIDs: int STR_FORWARD>
 	<com.jcraft.jzlib.Deflate: int static_len>
+final	<it.yup.util.ResourceIDs: int STR_FORWARD>
 static	<it.yup.util.ResourceIDs: int STR_CONTACTS>
 final	<it.yup.util.ResourceIDs: int STR_SUBSCRIPTION_REQUEST_FROM>
-private	<lampiro.screens.ShowMMScreen: java.lang.String fileType>
 private	<it.yup.xml.KXmlParser: int stackMismatch>
+private	<lampiro.screens.ShowMMScreen: java.lang.String fileType>
 	<it.yup.ui.UIItem: int selectedColor>
 static	<com.jcraft.jzlib.InfBlocks: int BAD>
 public	<it.yup.util.ResourceIDs: int STR_GATEWAY_DISCOVERY>

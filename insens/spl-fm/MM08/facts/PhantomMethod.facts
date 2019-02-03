@@ -27,8 +27,8 @@
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)>
 <javax.microedition.rms.RecordStore: void setRecord(int,byte[],int,int)>
 <javax.microedition.lcdui.Display: javax.microedition.lcdui.Display getDisplay(javax.microedition.midlet.MIDlet)>
-<javax.microedition.lcdui.List: int getSelectedIndex()>
 <javax.microedition.media.control.RecordControl: void setRecordStream(java.io.OutputStream)>
+<javax.microedition.lcdui.List: int getSelectedIndex()>
 <java.util.Vector: void addElement(java.lang.Object)>
 <javax.microedition.media.Player: void realize()>
 <javax.wireless.messaging.MessageConnection: void close()>
@@ -83,8 +83,8 @@
 <javax.microedition.lcdui.Canvas: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <javax.microedition.lcdui.Graphics: void drawImage(javax.microedition.lcdui.Image,int,int,int)>
 <javax.microedition.rms.RecordStore: byte[] getRecord(int)>
-<javax.microedition.io.PushRegistry: java.lang.String[] listConnections(boolean)>
 <java.lang.String: byte[] getBytes()>
+<javax.microedition.io.PushRegistry: java.lang.String[] listConnections(boolean)>
 <javax.microedition.lcdui.game.GameCanvas: int getGameAction(int)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
 <javax.microedition.media.control.VideoControl: void setDisplayLocation(int,int)>
@@ -102,8 +102,8 @@
 <javax.microedition.rms.RecordStore: void closeRecordStore()>
 <javax.wireless.messaging.MessageConnection: javax.wireless.messaging.Message receive()>
 <javax.microedition.media.control.VideoControl: int getDisplayY()>
-<javax.microedition.lcdui.Command: java.lang.String getLabel()>
 <javax.microedition.lcdui.game.GameCanvas: int getHeight()>
+<javax.microedition.lcdui.Command: java.lang.String getLabel()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
 <java.lang.String: java.lang.String toString()>
 <javax.microedition.lcdui.Form: int append(javax.microedition.lcdui.Item)>

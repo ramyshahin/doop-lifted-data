@@ -1,8 +1,8 @@
 org.prevayler.TransactionWithQuery
-org.prevayler.foundation.network.OldNetwork
 org.prevayler.demos.scalability.ScalabilityTestSubject
-org.prevayler.demos.scalability.QueryConnection
+org.prevayler.foundation.network.OldNetwork
 org.prevayler.implementation.publishing.TransactionPublisher
+org.prevayler.demos.scalability.QueryConnection
 org.prevayler.demos.scalability.prevayler.ScalabilitySystem
 org.prevayler.foundation.network.Network
 org.prevayler.demos.demo2.business.AccountListener
@@ -22,8 +22,8 @@ org.prevayler.foundation.network.NetworkServerObjectReceiver
 org.prevayler.Clock
 org.prevayler.foundation.network.ObjectServerSocket
 org.prevayler.SureTransactionWithQuery
-org.prevayler.Prevayler
 org.prevayler.demos.scalability.TransactionConnection
-org.prevayler.foundation.serialization.Serializer
+org.prevayler.Prevayler
 org.prevayler.foundation.network.ObjectSocket
+org.prevayler.foundation.serialization.Serializer
 org.prevayler.Query

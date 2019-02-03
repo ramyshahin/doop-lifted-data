@@ -21,8 +21,8 @@
 <RegionWorkSpace: int counter>	RegionWorkSpace	counter	int
 <Graph: boolean edgesNotBuilt>	Graph	edgesNotBuilt	boolean
 <Vertex$EdgeIter2: Vertex this$0>	Vertex$EdgeIter2	this$0	Vertex
-<Graph$Comparator1: Graph this$0>	Graph$Comparator1	this$0	Graph
 <CycleWorkSpace: int GRAY>	CycleWorkSpace	GRAY	int
+<Graph$Comparator1: Graph this$0>	Graph$Comparator1	this$0	Graph
 <VertexIter: java.util.Iterator iter>	VertexIter	iter	java.util.Iterator
 <Vertex: boolean visited>	Vertex	visited	boolean
 <Vertex: int componentNumber>	Vertex	componentNumber	int

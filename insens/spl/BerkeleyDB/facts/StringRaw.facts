@@ -1755,8 +1755,8 @@ CkptEnd	CkptEnd
 <com.sleepycat.je.recovery.RecoveryManager: void findEndOfLog(boolean)>	<com.sleepycat.je.recovery.RecoveryManager: void findEndOfLog(boolean)>
 \\"je.properties\\"	\\"je.properties\\"
 <java.lang.Character: int digit(char,int)>	<java.lang.Character: int digit(char,int)>
-<com.sleepycat.je.log.FileManager: void close()>	<com.sleepycat.je.log.FileManager: void close()>
 <com.sleepycat.je.evictor.Evictor: void doEvict(java.lang.String)>	<com.sleepycat.je.evictor.Evictor: void doEvict(java.lang.String)>
+<com.sleepycat.je.log.FileManager: void close()>	<com.sleepycat.je.log.FileManager: void close()>
 <com.sleepycat.je.utilint.TinyHashSet: void <init>()>	<com.sleepycat.je.utilint.TinyHashSet: void <init>()>
 <com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.IN withRootLatchedExclusive(com.sleepycat.je.tree.WithRootLatched)>	<com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.IN withRootLatchedExclusive(com.sleepycat.je.tree.WithRootLatched)>	@Latches
 <com.sleepycat.je.dbi.DatabaseImpl$StatsAccumulator: void processBIN(com.sleepycat.je.tree.BIN,java.lang.Long,int)>	<com.sleepycat.je.dbi.DatabaseImpl$StatsAccumulator: void processBIN(com.sleepycat.je.tree.BIN,java.lang.Long,int)>	@Statistics
@@ -3957,8 +3957,8 @@ mapLN	mapLN
 <com.sleepycat.je.tree.BIN: void setCursorBIN(com.sleepycat.je.dbi.CursorImpl,com.sleepycat.je.tree.BIN)>	<com.sleepycat.je.tree.BIN: void setCursorBIN(com.sleepycat.je.dbi.CursorImpl,com.sleepycat.je.tree.BIN)>
 <<\\"usage: \\">>	<<\\"usage: \\">>	@(Statistics /\ Verifier) /\ (Statistics /\ Verifier)
 <com.sleepycat.je.txn.BasicLocker: void <init>(com.sleepycat.je.dbi.EnvironmentImpl)>	<com.sleepycat.je.txn.BasicLocker: void <init>(com.sleepycat.je.dbi.EnvironmentImpl)>
-<com.sleepycat.je.txn.DummyLockManager: void dumpLockTable(com.sleepycat.je.LockStats)>	<com.sleepycat.je.txn.DummyLockManager: void dumpLockTable(com.sleepycat.je.LockStats)>
 <com.sleepycat.je.txn.Locker: void transferHandleLock(com.sleepycat.je.Database,com.sleepycat.je.txn.Locker,boolean)>	<com.sleepycat.je.txn.Locker: void transferHandleLock(com.sleepycat.je.Database,com.sleepycat.je.txn.Locker,boolean)>
+<com.sleepycat.je.txn.DummyLockManager: void dumpLockTable(com.sleepycat.je.LockStats)>	<com.sleepycat.je.txn.DummyLockManager: void dumpLockTable(com.sleepycat.je.LockStats)>
 <com.sleepycat.je.incomp.INCompressor: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,long,java.lang.String)>	<com.sleepycat.je.incomp.INCompressor: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,long,java.lang.String)>
 <com.sleepycat.je.txn.Locker: void addLock(java.lang.Long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType)>	<com.sleepycat.je.txn.Locker: void addLock(java.lang.Long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.LockType,com.sleepycat.je.txn.LockGrantType)>
 <<\\" A configuration parameter name can\'t be null or 0 length\\">>	<<\\" A configuration parameter name can\'t be null or 0 length\\">>

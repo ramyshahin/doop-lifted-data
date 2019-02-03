@@ -26,8 +26,8 @@ A Transaction cannot be used because the database was opened non-transactionally
 1
 <dbTree lastDbId =\\\"
 <<\\"can\'t find database \\">>
-<<\\"Error in \\">>	@Cleaner
 <DbLsn val=\\\"0x
+<<\\"Error in \\">>	@Cleaner
 <pendingDeleted val=\\\"
 type=btree
 -	@Cleaner
@@ -68,8 +68,8 @@ r
 <<\\"JoinCursor.getNext(key): \\">>	@Logging_Finest
 DelDupLN
 Maximum, internal nodes and leaf nodes	@Memory_Budget
-\nPer checkpoint interval info:
 \\\" baseFileNumber=\\\"
+\nPer checkpoint interval info:
 <<\\"Logged item entrySize= \\">>
 VERSION=3
 <<\\"usage: \\">>	@(Statistics /\ Verifier) /\ (Statistics /\ Verifier)
@@ -99,8 +99,8 @@ ForeignKeyNullifier or ForeignMultiKeyNullifier must be non-null when ForeignKey
 <<\\" dbin=\\">>	@(Logging_Finer) /\ (Logging_Finer /\ Logging_Base)
 foo	@Memory_Budget
 CURSOR_NOT_INITIALIZED
-putCurrent
 stat	@DeleteOp /\ Statistics
+putCurrent
 <<\\"Cursor.getNext: \\">>	@Logging_Finest
 redoLns
 end-end
@@ -350,8 +350,8 @@ ForeignKeyNullifier may not be used with SecondaryMultiKeyCreator -- use Foreign
 \\"<din>\\"
 <<\\" inserted=\\">>	@Logging_Base
 1.4 based 64 bit JVM not supported	@Memory_Budget
-\\"LNRedo:\\"
 </bin>
+\\"LNRedo:\\"
 Can\'t call SecondaryDatabase.getSearchBoth:
 RootLatch	@(Latches) /\ (Latches)
 The cache size is larger than the sequence range
@@ -468,8 +468,8 @@ INDelete
 Unexpected interrupt while waiting for fsync	@FSync
 rw	@(Environment_Locking) /\ (Environment_Locking)
 mapLNTxn
-manual	@Evictor
 -h requires an argument	@Statistics /\ Verifier
+manual	@Evictor
 <<\\"DbVerify.verify of \\">>	@Logging_Info /\ Verifier /\ Statistics
 Operation not allowed on a secondary
 <<\\"Cursor.getNextDup: \\">>	@Logging_Finest
@@ -723,8 +723,8 @@ non LogEntryType passed to LogEntryType.compare
 <<\\"null buffer given to checksum validation, probably  result of 0\'s in log file. \\">>	@Checksum
 shared	@(Environment_Locking) /\ (Environment_Locking)
 <Transaction id=\\\"	@(Transactions) /\ (Transactions)
-Sequence record removed during openSequence.
 Log file is truncated at position starting at and inclusive of the offset. Beware, not  for general purpose use yet!
+Sequence record removed during openSequence.
 WAIT_PROMOTION
 format=bytevalue
 remaining=
@@ -777,8 +777,8 @@ copy.remaining=
 <<\\" dupc=\\\"\\">>
 ----- Event Dump -----
 Can\'t open a cursor
-maxLNReplay
 <<\\" existing transactions opened against\\">>	@Transactions
+maxLNReplay
 Random key already exists -- retrying	@Memory_Budget
 <<\\" firstActive=\\">>
 \\\">	@(Transactions) /\ (Transactions)
@@ -823,8 +823,8 @@ SecondaryDatabase.getSearchBoth	@Logging_Finest
 <<\\"An error occurred when reading \\">>
 <<\\"A per-thread transaction was created in \\">>
 _jeNameMap
-\\"usage: java <utility> [options...]\\"
 <<\\"Attempted to \\">>
+\\"usage: java <utility> [options...]\\"
 Can\'t call SecondaryDatabase.get:
 replaceOrInsert	@Logging_Severe
 <<\\" parent=\\">>	@(Logging_Fine) /\ (Logging_Fine /\ Logging_Base)

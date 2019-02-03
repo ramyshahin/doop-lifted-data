@@ -28,11 +28,11 @@
 <Vertex: void display()>/assign/instruction70	70	<Vertex: void display()>	@Connected
 <Graph: Graph prim(Vertex)>/assign/instruction51	51	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Graph: Graph kruskal()>/assign/instruction73	73	<Graph: Graph kruskal()>	@MSTKruskal
-<Vertex: void adjustAdorns(Vertex,int)>/assign/instruction5	5	<Vertex: void adjustAdorns(Vertex,int)>	@(G_NoEdges) /\ (Weighted /\ G_NoEdges)
 <Vertex$VertexIter3: Vertex next()>/assign/instruction3	3	<Vertex$VertexIter3: Vertex next()>	@(GEN_Edges) /\ (GEN_Edges)
+<Vertex: void adjustAdorns(Vertex,int)>/assign/instruction5	5	<Vertex: void adjustAdorns(Vertex,int)>	@(G_NoEdges) /\ (Weighted /\ G_NoEdges)
 <Vertex$EdgeIter2: EdgeIfc next()>/assign/instruction3	3	<Vertex$EdgeIter2: EdgeIfc next()>	@(EdgeObjects /\ GN_OnlyNeighbors) /\ (EdgeObjects /\ GN_OnlyNeighbors)
-<Edge: void display()>/assign/instruction17	17	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects)
 <Main: void main(java.lang.String[])>/assign/instruction100	100	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Edge: void display()>/assign/instruction17	17	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph kruskal()>/assign/instruction33	33	<Graph: Graph kruskal()>	@MSTKruskal
 <Vertex$VertexIter1: Vertex next()>/assign/instruction3	3	<Vertex$VertexIter1: Vertex next()>	@(G_NoEdges) /\ (G_NoEdges)
 <Graph: int readNumber()>/assign/instruction9	9	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
@@ -67,8 +67,8 @@
 <Vertex$EdgeIter1: boolean hasNext()>/assign/instruction3	3	<Vertex$EdgeIter1: boolean hasNext()>	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
 <Vertex$EdgeIter1: void <init>(Vertex)>/assign/instruction6	6	<Vertex$EdgeIter1: void <init>(Vertex)>	@EdgeObjects /\ G_NoEdges
 <Graph$EdgeIter1: EdgeIfc next()>/assign/instruction3	3	<Graph$EdgeIter1: EdgeIfc next()>	@(EdgeObjects) /\ (EdgeObjects)
-<Graph: void run(Vertex)>/assign/instruction9	9	<Graph: void run(Vertex)>	@Cycle /\ Prog
 <Main: void main(java.lang.String[])>/assign/instruction91	91	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Graph: void run(Vertex)>/assign/instruction9	9	<Graph: void run(Vertex)>	@Cycle /\ Prog
 <Vertex: void display()>/assign/instruction71	71	<Vertex: void display()>	@Connected
 <Vertex: void display()>/assign/instruction16	16	<Vertex: void display()>	@Weighted /\ G_NoEdges
 <Vertex: void display()>/assign/instruction15	15	<Vertex: void display()>	@Weighted /\ G_NoEdges
@@ -76,8 +76,8 @@
 <Vertex: void display()>/assign/instruction62	62	<Vertex: void display()>	@Number
 <Vertex: void display()>/assign/instruction13	13	<Vertex: void display()>	@Weighted /\ G_NoEdges
 <Vertex$EdgeIter2: void <init>(Vertex)>/assign/instruction6	6	<Vertex$EdgeIter2: void <init>(Vertex)>	@EdgeObjects /\ GN_OnlyNeighbors
-<Edge: void display()>/assign/instruction8	8	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <Vertex: void display()>/assign/instruction12	12	<Vertex: void display()>	@Weighted /\ G_NoEdges
+<Edge: void display()>/assign/instruction8	8	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction19	19	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph kruskal()>/assign/instruction129	129	<Graph: Graph kruskal()>	@MSTKruskal
 <Edge: void display()>/assign/instruction20	20	<Edge: void display()>	@(EdgeObjects) /\ (EdgeObjects)

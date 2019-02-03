@@ -1,8 +1,8 @@
-java.io.RandomAccessFile
 com.thoughtworks.xstream.XStream
+java.io.RandomAccessFile
 java.lang.String[]
-java.lang.Thread
 java.util.Map
+java.lang.Thread
 javax.swing.Box
 java.io.Serializable
 java.lang.ClassLoader
@@ -16,8 +16,8 @@ javax.swing.JTextField
 java.io.PrintStream
 javax.swing.JList
 java.awt.event.ActionEvent
-java.lang.Object
 java.lang.Class
+java.lang.Object
 java.math.BigDecimal
 java.util.Set
 java.awt.Component

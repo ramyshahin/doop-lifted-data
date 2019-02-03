@@ -57,8 +57,8 @@ wtk.home	wtk.home
 <lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor: byte[] getByteFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	<lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor: byte[] getByteFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>	@Photo
 <<\\"MediaAccessor::loadAlbums: Found: \\">>	<<\\"MediaAccessor::loadAlbums: Found: \\">>
 <lancs.mobilemedia.lib.exceptions.PersistenceMechanismException: void <init>()>	<lancs.mobilemedia.lib.exceptions.PersistenceMechanismException: void <init>()>
-No - Delete	No - Delete
 Obteve a imagem	Obteve a imagem	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
+No - Delete	No - Delete
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>
 No Video Control for capturing!	No Video Control for capturing!
 <javax.microedition.lcdui.TextField: void <init>(java.lang.String,java.lang.String,int,int)>	<javax.microedition.lcdui.TextField: void <init>(java.lang.String,java.lang.String,int,int)>
@@ -372,8 +372,8 @@ Save Video	Save Video	@(includeCopyPhoto) /\ (includeCopyPhoto)
 <javax.microedition.lcdui.Canvas: void <init>()>	<javax.microedition.lcdui.Canvas: void <init>()>
 <javax.microedition.rms.RecordStore: void deleteRecordStore(java.lang.String)>	<javax.microedition.rms.RecordStore: void deleteRecordStore(java.lang.String)>
 <lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.controller.ControllerInterface getNextController()>	<lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.controller.ControllerInterface getNextController()>
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>
 <java.io.ByteArrayInputStream: void <init>(byte[])>	<java.io.ByteArrayInputStream: void <init>(byte[])>
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>
 <java.util.Vector: void <init>()>	<java.util.Vector: void <init>()>
 New picture	New picture	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: void setVideoAlbumData(lancs.mobilemedia.core.ui.datamodel.AlbumData)>	<lancs.mobilemedia.core.ui.controller.SelectMediaController: void setVideoAlbumData(lancs.mobilemedia.core.ui.datamodel.AlbumData)>	@x_MusicOrVideo /\ MobilMedia
@@ -444,11 +444,11 @@ Sort by Views	Sort by Views	@Media
 <java.lang.String: java.lang.String concat(java.lang.String)>	<java.lang.String: java.lang.String concat(java.lang.String)>
 <lancs.mobilemedia.core.ui.MainUIMidlet: void startApp()>	<lancs.mobilemedia.core.ui.MainUIMidlet: void startApp()>
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData getVideoAlbumData()>	<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData getVideoAlbumData()>	@x_MusicOrVideo /\ MobilMedia
-<javax.microedition.lcdui.Alert: void <init>(java.lang.String)>	<javax.microedition.lcdui.Alert: void <init>(java.lang.String)>
 <lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>	<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: void <init>()>
+<javax.microedition.lcdui.Alert: void <init>(java.lang.String)>	<javax.microedition.lcdui.Alert: void <init>(java.lang.String)>
 <java.lang.String: boolean startsWith(java.lang.String)>	<java.lang.String: boolean startsWith(java.lang.String)>
-<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>
 <javax.microedition.lcdui.game.GameCanvas: void repaint()>	<javax.microedition.lcdui.game.GameCanvas: void repaint()>
+<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int getFormType()>
 J. Gosling	J. Gosling	@(includeMMAPI) /\ (includeMMAPI)
 <javax.microedition.lcdui.Command: void <init>(java.lang.String,int,int)>	<javax.microedition.lcdui.Command: void <init>(java.lang.String,int,int)>
 Kris	Kris	@(includeMMAPI) /\ (includeMMAPI)

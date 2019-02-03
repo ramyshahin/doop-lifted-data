@@ -192,8 +192,8 @@
 <com.sleepycat.je.txn.DummyLockManager: void demote(long,com.sleepycat.je.txn.Locker)>/return-void/instruction4	4	<com.sleepycat.je.txn.DummyLockManager: void demote(long,com.sleepycat.je.txn.Locker)>
 <com.sleepycat.je.recovery.RecoveryManager: void findEndOfLog(boolean)>/return-void/instruction77	77	<com.sleepycat.je.recovery.RecoveryManager: void findEndOfLog(boolean)>
 <com.sleepycat.je.cleaner.Cleaner: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>/return-void/instruction132	132	<com.sleepycat.je.cleaner.Cleaner: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>
-<com.sleepycat.je.log.LogUtils$XidImpl: void <init>(int,byte[],byte[])>/return-void/instruction9	9	<com.sleepycat.je.log.LogUtils$XidImpl: void <init>(int,byte[],byte[])>
 <com.sleepycat.je.log.LogUtils: void <clinit>()>/return-void/instruction3	3	<com.sleepycat.je.log.LogUtils: void <clinit>()>
+<com.sleepycat.je.log.LogUtils$XidImpl: void <init>(int,byte[],byte[])>/return-void/instruction9	9	<com.sleepycat.je.log.LogUtils$XidImpl: void <init>(int,byte[],byte[])>
 <com.sleepycat.je.dbi.DatabaseImpl$HaltPreloadException: void <init>(com.sleepycat.je.PreloadStatus)>/return-void/instruction6	6	<com.sleepycat.je.dbi.DatabaseImpl$HaltPreloadException: void <init>(com.sleepycat.je.PreloadStatus)>
 <com.sleepycat.je.tree.FileSummaryLN: void readFromLog(java.nio.ByteBuffer,byte)>/return-void/instruction13	13	<com.sleepycat.je.tree.FileSummaryLN: void readFromLog(java.nio.ByteBuffer,byte)>
 <com.sleepycat.je.util.DbSpace: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,boolean,boolean,boolean)>/return-void/instruction19	19	<com.sleepycat.je.util.DbSpace: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,boolean,boolean,boolean)>
@@ -860,8 +860,8 @@
 <com.sleepycat.je.tree.IN: void split(com.sleepycat.je.tree.IN,int,int)>/return-void/instruction7	7	<com.sleepycat.je.tree.IN: void split(com.sleepycat.je.tree.IN,int,int)>
 <com.sleepycat.je.log.LogException: void <init>(java.lang.String,java.lang.Exception)>/return-void/instruction6	6	<com.sleepycat.je.log.LogException: void <init>(java.lang.String,java.lang.Exception)>
 <com.sleepycat.je.config.ConfigParam: void validateName(java.lang.String)>/return-void/instruction10	10	<com.sleepycat.je.config.ConfigParam: void validateName(java.lang.String)>
-<com.sleepycat.je.dbi.SortedLSNTreeWalker: void walk()>/return-void/instruction3	3	<com.sleepycat.je.dbi.SortedLSNTreeWalker: void walk()>
 <com.sleepycat.je.Database: void checkWritable(java.lang.String)>/return-void/instruction14	14	<com.sleepycat.je.Database: void checkWritable(java.lang.String)>
+<com.sleepycat.je.dbi.SortedLSNTreeWalker: void walk()>/return-void/instruction3	3	<com.sleepycat.je.dbi.SortedLSNTreeWalker: void walk()>
 <com.sleepycat.je.ForeignKeyTrigger: void triggerAdded(com.sleepycat.je.Database)>/return-void/instruction3	3	<com.sleepycat.je.ForeignKeyTrigger: void triggerAdded(com.sleepycat.je.Database)>
 <com.sleepycat.je.dbi.DatabaseId: void <init>()>/return-void/instruction3	3	<com.sleepycat.je.dbi.DatabaseId: void <init>()>
 <com.sleepycat.je.log.FileManager$LogEndFileDescriptor: void <clinit>()>/return-void/instruction10	10	<com.sleepycat.je.log.FileManager$LogEndFileDescriptor: void <clinit>()>
@@ -1299,8 +1299,8 @@
 <com.sleepycat.je.txn.TxnPrepare: void dumpLog(java.lang.StringBuffer,boolean)>/return-void/instruction23	23	<com.sleepycat.je.txn.TxnPrepare: void dumpLog(java.lang.StringBuffer,boolean)>
 <com.sleepycat.je.Cursor: void <clinit>()>/return-void/instruction10	10	<com.sleepycat.je.Cursor: void <clinit>()>
 <com.sleepycat.je.latch.LatchImpl: void acquire()>/return-void/instruction116	116	<com.sleepycat.je.latch.LatchImpl: void acquire()>	@Latches
-<com.sleepycat.je.dbi.EnvironmentImpl: void addToCompressorQueue(com.sleepycat.je.tree.BINReference,boolean)>/return-void/instruction8	8	<com.sleepycat.je.dbi.EnvironmentImpl: void addToCompressorQueue(com.sleepycat.je.tree.BINReference,boolean)>
 <com.sleepycat.je.tree.Tree: void searchDeletableSubTree(com.sleepycat.je.tree.IN,byte[],java.util.ArrayList)>/return-void/instruction96	96	<com.sleepycat.je.tree.Tree: void searchDeletableSubTree(com.sleepycat.je.tree.IN,byte[],java.util.ArrayList)>
+<com.sleepycat.je.dbi.EnvironmentImpl: void addToCompressorQueue(com.sleepycat.je.tree.BINReference,boolean)>/return-void/instruction8	8	<com.sleepycat.je.dbi.EnvironmentImpl: void addToCompressorQueue(com.sleepycat.je.tree.BINReference,boolean)>
 <com.sleepycat.je.SecondaryConfig: void setForeignKeyDatabase(com.sleepycat.je.Database)>/return-void/instruction4	4	<com.sleepycat.je.SecondaryConfig: void setForeignKeyDatabase(com.sleepycat.je.Database)>
 <com.sleepycat.je.SequenceConfig: void setRange(long,long)>/return-void/instruction6	6	<com.sleepycat.je.SequenceConfig: void setRange(long,long)>
 <com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>/return-void/instruction10	10	<com.sleepycat.je.dbi.INList: void dumpAddedINsIntoMajorSet()>	@Latches

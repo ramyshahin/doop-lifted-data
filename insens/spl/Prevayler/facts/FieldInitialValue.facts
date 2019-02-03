@@ -27,11 +27,11 @@
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: long serialVersionUID>	9182061237235826622L
 <org.prevayler.demos.scalability.prevayler.TransactionSystem: long serialVersionUID>	461535927650714306L
 <org.prevayler.implementation.PrevaylerDirectory: java.lang.String SNAPSHOT_SUFFIX_PATTERN>	\\"[a-zA-Z0-9]*[Ss]napshot\\"
-<org.prevayler.demos.demo2.business.Account$InvalidAmount: long serialVersionUID>	3343517565045905857L
 <org.prevayler.implementation.replication.ServerConnection: java.lang.String REMOTE_TRANSACTION>	\\"RemoteTransaction\\"
+<org.prevayler.demos.demo2.business.Account$InvalidAmount: long serialVersionUID>	3343517565045905857L
 <org.prevayler.foundation.Chunking: java.lang.String TOKEN>	\\"[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+\\"
-<org.prevayler.demos.demo2.business.transactions.AccountDeletion: long serialVersionUID>	-3401288850388764433L
 <org.prevayler.demos.scalability.prevayler.TestTransaction: long serialVersionUID>	-2634307328586761351L
+<org.prevayler.demos.demo2.business.transactions.AccountDeletion: long serialVersionUID>	-3401288850388764433L
 <org.prevayler.demos.scalability.prevayler.QuerySystem: long serialVersionUID>	-8181198939095700706L
 <org.prevayler.implementation.replication.ServerConnection: java.lang.String SUBSCRIBER_UP_TO_DATE>	\\"SubscriberUpToDate\\"
 <org.prevayler.foundation.Chunking: java.lang.String SIZE>	\\"0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7}\\"

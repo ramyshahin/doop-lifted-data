@@ -198,8 +198,8 @@ incomplete dynamic bit lengths tree	incomplete dynamic bit lengths tree
 <it.yup.util.RMSIndex: java.util.Enumeration keys()>	<it.yup.util.RMSIndex: java.util.Enumeration keys()>
 <it.yup.ui.UICanvas: boolean hasQwerty()>	<it.yup.ui.UICanvas: boolean hasQwerty()>
 <lampiro.screens.MUCScreen: java.lang.String getLabelHeader(lampiro.screens.ChatScreen$ConversationEntry)>	<lampiro.screens.MUCScreen: java.lang.String getLabelHeader(lampiro.screens.ChatScreen$ConversationEntry)>
-<lampiro.screens.RosterScreen: void removeContact(it.yup.xmpp.Contact)>	<lampiro.screens.RosterScreen: void removeContact(it.yup.xmpp.Contact)>
 <com.jcraft.jzlib.JZlib: java.lang.String version()>	<com.jcraft.jzlib.JZlib: java.lang.String version()>
+<lampiro.screens.RosterScreen: void removeContact(it.yup.xmpp.Contact)>	<lampiro.screens.RosterScreen: void removeContact(it.yup.xmpp.Contact)>
 <it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField access$5(it.yup.screens.RegisterScreen)>	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField access$5(it.yup.screens.RegisterScreen)>
 <lampiro.screens.RosterScreen: void chunkReceived(int,int,it.yup.xmpp.FTReceiver$OpenListener)>	<lampiro.screens.RosterScreen: void chunkReceived(int,int,it.yup.xmpp.FTReceiver$OpenListener)>
 <it.yup.xmpp.XMPPClient$PacketListener1: void <init>(it.yup.xmpp.XMPPClient)>	<it.yup.xmpp.XMPPClient$PacketListener1: void <init>(it.yup.xmpp.XMPPClient)>
@@ -214,8 +214,8 @@ check1	check1
 <it.yup.xmpp.FTSender$FTSEventHandler: void fileError(it.yup.xmpp.Contact,java.lang.String,it.yup.xml.Element)>	<it.yup.xmpp.FTSender$FTSEventHandler: void fileError(it.yup.xmpp.Contact,java.lang.String,it.yup.xml.Element)>
 <it.yup.ui.UICanvas: javax.microedition.lcdui.Image getUIImage(java.lang.String)>	<it.yup.ui.UICanvas: javax.microedition.lcdui.Image getUIImage(java.lang.String)>
 <com.jcraft.jzlib.Adler32: void <init>()>	<com.jcraft.jzlib.Adler32: void <init>()>
-<it.yup.screens.AddContactScreen: void <clinit>()>	<it.yup.screens.AddContactScreen: void <clinit>()>
 seq	seq
+<it.yup.screens.AddContactScreen: void <clinit>()>	<it.yup.screens.AddContactScreen: void <clinit>()>
 <it.yup.screens.ChatScreen: void showNotify()>	<it.yup.screens.ChatScreen: void showNotify()>
 <java.util.Vector: void setSize(int)>	<java.util.Vector: void setSize(int)>
 <it.yup.xmpp.IQResultListener: void packetReceived(it.yup.xml.Element)>	<it.yup.xmpp.IQResultListener: void packetReceived(it.yup.xml.Element)>
@@ -421,8 +421,8 @@ reported	reported
 <com.jcraft.jzlib.Inflate: int inflateSyncPoint(com.jcraft.jzlib.ZStream)>	<com.jcraft.jzlib.Inflate: int inflateSyncPoint(com.jcraft.jzlib.ZStream)>
 <it.yup.xmpp.XMPPClient: it.yup.xmpp.XMPPClient$XmppListener getXmppListener()>	<it.yup.xmpp.XMPPClient: it.yup.xmpp.XMPPClient$XmppListener getXmppListener()>
 \\"resource\\"	\\"resource\\"
-<<\\"\' \\">>	<<\\"\' \\">>
 <lampiro.screens.AlbumScreen: lampiro.screens.AlbumScreen getInstance(java.lang.String)>	<lampiro.screens.AlbumScreen: lampiro.screens.AlbumScreen getInstance(java.lang.String)>
+<<\\"\' \\">>	<<\\"\' \\">>
 <it.yup.screens.RegisterScreen$1: void run()>	<it.yup.screens.RegisterScreen$1: void run()>
 \\"dnd\\"	\\"dnd\\"
 <lampiro.screens.RosterScreen$RegisterDataFormExecutor: boolean execute(int)>	<lampiro.screens.RosterScreen$RegisterDataFormExecutor: boolean execute(int)>
@@ -564,8 +564,8 @@ JID:	JID:
 <it.yup.xmpp.Config: void saveToStorage()>	<it.yup.xmpp.Config: void saveToStorage()>
 <it.yup.xmpp.XMPPClient$PacketListener1: void <init>(it.yup.xmpp.XMPPClient,it.yup.xmpp.XMPPClient$PacketListener1)>	<it.yup.xmpp.XMPPClient$PacketListener1: void <init>(it.yup.xmpp.XMPPClient,it.yup.xmpp.XMPPClient$PacketListener1)>
 <it.yup.ui.UITextPanel: void setScreen(it.yup.ui.UIScreen)>	<it.yup.ui.UITextPanel: void setScreen(it.yup.ui.UIScreen)>
-remove	remove
 <lampiro.screens.RegisterScreen: java.lang.String access$1(lampiro.screens.RegisterScreen,java.lang.String)>	<lampiro.screens.RegisterScreen: java.lang.String access$1(lampiro.screens.RegisterScreen,java.lang.String)>
+remove	remove
 http://www.w3.org/XML/1998/namespace	http://www.w3.org/XML/1998/namespace
 <it.yup.screens.RosterScreen: void playSmartTone()>	<it.yup.screens.RosterScreen: void playSmartTone()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>	<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
@@ -831,8 +831,8 @@ jid-single	jid-single
 <it.yup.xmlstream.SASLAuthenticator$PacketListener4: void <init>(it.yup.xmlstream.SASLAuthenticator,it.yup.xmlstream.SASLAuthenticator$PacketListener4)>	<it.yup.xmlstream.SASLAuthenticator$PacketListener4: void <init>(it.yup.xmlstream.SASLAuthenticator,it.yup.xmlstream.SASLAuthenticator$PacketListener4)>
 <it.yup.ui.UILabel: void paint(javax.microedition.lcdui.Graphics,int,int)>	<it.yup.ui.UILabel: void paint(javax.microedition.lcdui.Graphics,int,int)>
 <it.yup.tests.RMSTestMidlet: void testMultiple(it.yup.util.RMSIndex)>	<it.yup.tests.RMSTestMidlet: void testMultiple(it.yup.util.RMSIndex)>
-<it.yup.xmlstream.BasicXmlStream: void removeEventListener(it.yup.xmlstream.EventQueryRegistration)>	<it.yup.xmlstream.BasicXmlStream: void removeEventListener(it.yup.xmlstream.EventQueryRegistration)>
 <java.util.Calendar: java.util.Calendar getInstance()>	<java.util.Calendar: java.util.Calendar getInstance()>
+<it.yup.xmlstream.BasicXmlStream: void removeEventListener(it.yup.xmlstream.EventQueryRegistration)>	<it.yup.xmlstream.BasicXmlStream: void removeEventListener(it.yup.xmlstream.EventQueryRegistration)>
 <it.yup.xmpp.FTSender$IQResultListener3: void <init>(it.yup.xmpp.FTSender)>	<it.yup.xmpp.FTSender$IQResultListener3: void <init>(it.yup.xmpp.FTSender)>
 <java.util.Vector: void <init>(int,int)>	<java.util.Vector: void <init>(int,int)>
 Bad request	Bad request
@@ -1186,20 +1186,20 @@ status	status
 en	en
 <lampiro.screens.RosterScreen$AdHocCommandsHandler: void <init>(lampiro.screens.RosterScreen)>	<lampiro.screens.RosterScreen$AdHocCommandsHandler: void <init>(lampiro.screens.RosterScreen)>
 chat	chat
-b	b
 \\"text-single\\"	\\"text-single\\"
+b	b
 <java.io.OutputStream: void write(byte[])>	<java.io.OutputStream: void write(byte[])>
 <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)>	<org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)>
 <<\\"online, bytes: \\">>	<<\\"online, bytes: \\">>
 <it.yup.ui.UIAccordion: int getPanelIndex(it.yup.ui.UIItem,it.yup.ui.UIItem)>	<it.yup.ui.UIAccordion: int getPanelIndex(it.yup.ui.UIItem,it.yup.ui.UIItem)>
-<it.yup.xmpp.FTReceiver$OpenListener: void <init>(it.yup.xmpp.FTReceiver)>	<it.yup.xmpp.FTReceiver$OpenListener: void <init>(it.yup.xmpp.FTReceiver)>
-<it.yup.xml.KXmlParser: void skipSubTree()>	<it.yup.xml.KXmlParser: void skipSubTree()>
 <it.yup.xmlstream.KXmlParser: void parseDoctype(boolean)>	<it.yup.xmlstream.KXmlParser: void parseDoctype(boolean)>
+<it.yup.xml.KXmlParser: void skipSubTree()>	<it.yup.xml.KXmlParser: void skipSubTree()>
+<it.yup.xmpp.FTReceiver$OpenListener: void <init>(it.yup.xmpp.FTReceiver)>	<it.yup.xmpp.FTReceiver$OpenListener: void <init>(it.yup.xmpp.FTReceiver)>
 <java.util.Vector: boolean contains(java.lang.Object)>	<java.util.Vector: boolean contains(java.lang.Object)>
 <lampiro.screens.AlbumScreen: void saveAlbum()>	<lampiro.screens.AlbumScreen: void saveAlbum()>
 <javax.microedition.rms.RecordStore: java.lang.String[] listRecordStores()>	<javax.microedition.rms.RecordStore: java.lang.String[] listRecordStores()>
-<it.yup.ui.UIItem: void drawPixel(javax.microedition.lcdui.Graphics,int,int)>	<it.yup.ui.UIItem: void drawPixel(javax.microedition.lcdui.Graphics,int,int)>
 <it.yup.ui.UIGauge$Ticker: void <init>(it.yup.ui.UIGauge)>	<it.yup.ui.UIGauge$Ticker: void <init>(it.yup.ui.UIGauge)>
+<it.yup.ui.UIItem: void drawPixel(javax.microedition.lcdui.Graphics,int,int)>	<it.yup.ui.UIItem: void drawPixel(javax.microedition.lcdui.Graphics,int,int)>
 <java.lang.String: java.lang.String toLowerCase()>	<java.lang.String: java.lang.String toLowerCase()>
 c	c
 <it.yup.ui.UIAccordion: int getPanelSize(it.yup.ui.UIItem)>	<it.yup.ui.UIAccordion: int getPanelSize(it.yup.ui.UIItem)>
@@ -1445,8 +1445,8 @@ http://	http://
 <it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField access$8(it.yup.screens.RegisterScreen)>	<it.yup.screens.RegisterScreen: javax.microedition.lcdui.TextField access$8(it.yup.screens.RegisterScreen)>
 <it.yup.util.Utils: void hexDigit(java.io.PrintStream,byte)>	<it.yup.util.Utils: void hexDigit(java.io.PrintStream,byte)>
 Configuration	Configuration
-gw	gw
 <it.yup.ui.UICanvas$1: void <init>(it.yup.ui.UICanvas,it.yup.ui.UIScreen)>	<it.yup.ui.UICanvas$1: void <init>(it.yup.ui.UICanvas,it.yup.ui.UIScreen)>
+gw	gw
 presence	presence
 <java.lang.String: java.lang.String valueOf(long)>	<java.lang.String: java.lang.String valueOf(long)>
 <it.yup.xmlstream.Element: byte[] toXml()>	<it.yup.xmlstream.Element: byte[] toXml()>
@@ -1492,8 +1492,8 @@ muc#roomconfig_changesubject	muc#roomconfig_changesubject
 <lampiro.screens.AlbumScreen: void loadAlbum()>	<lampiro.screens.AlbumScreen: void loadAlbum()>
 <lampiro.screens.RosterScreen: it.yup.ui.UIItem getSeparator()>	<lampiro.screens.RosterScreen: it.yup.ui.UIItem getSeparator()>
 <it.yup.ui.UIPanel: void removeItemAt(int)>	<it.yup.ui.UIPanel: void removeItemAt(int)>
-<it.yup.xmpp.IqManager: void <init>()>	<it.yup.xmpp.IqManager: void <init>()>
 required	required
+<it.yup.xmpp.IqManager: void <init>()>	<it.yup.xmpp.IqManager: void <init>()>
 <lampiro.screens.ChatScreen: void <init>(it.yup.xmpp.Contact,java.lang.String)>	<lampiro.screens.ChatScreen: void <init>(it.yup.xmpp.Contact,java.lang.String)>
 <lampiro.screens.RosterScreen: void askSubscription(it.yup.xmpp.Contact)>	<lampiro.screens.RosterScreen: void askSubscription(it.yup.xmpp.Contact)>
 <it.yup.xml.BProcessor: void <init>()>	<it.yup.xml.BProcessor: void <init>()>
@@ -1793,8 +1793,8 @@ qop	qop
 <java.io.DataOutputStream: void writeUTF(java.lang.String)>	<java.io.DataOutputStream: void writeUTF(java.lang.String)>
 <it.yup.util.MetaVector: void insertElementAt(java.lang.Object,int)>	<it.yup.util.MetaVector: void insertElementAt(java.lang.Object,int)>
 <java.io.DataOutputStream: void writeShort(int)>	<java.io.DataOutputStream: void writeShort(int)>
-<it.yup.xml.KXmlParser: void skip()>	<it.yup.xml.KXmlParser: void skip()>
 <com.jcraft.jzlib.InfCodes: int proc(com.jcraft.jzlib.InfBlocks,com.jcraft.jzlib.ZStream,int)>	<com.jcraft.jzlib.InfCodes: int proc(com.jcraft.jzlib.InfBlocks,com.jcraft.jzlib.ZStream,int)>
+<it.yup.xml.KXmlParser: void skip()>	<it.yup.xml.KXmlParser: void skip()>
 <it.yup.xmpp.FTSender$IQResultListener4: void <init>(it.yup.xmpp.FTSender)>	<it.yup.xmpp.FTSender$IQResultListener4: void <init>(it.yup.xmpp.FTSender)>
 <it.yup.screens.CommandListScreen: void <clinit>()>	<it.yup.screens.CommandListScreen: void <clinit>()>
 <it.yup.ui.UILayout: void setScreen(it.yup.ui.UIScreen)>	<it.yup.ui.UILayout: void setScreen(it.yup.ui.UIScreen)>
@@ -2263,8 +2263,8 @@ version	version
 <lampiro.screens.RegisterScreen: java.lang.String srvQuery()>	<lampiro.screens.RegisterScreen: java.lang.String srvQuery()>
 <com.jcraft.jzlib.Deflate: int deflateParams(com.jcraft.jzlib.ZStream,int,int)>	<com.jcraft.jzlib.Deflate: int deflateParams(com.jcraft.jzlib.ZStream,int,int)>
 <it.yup.xmlstream.AccountRegistration: void <init>()>	<it.yup.xmlstream.AccountRegistration: void <init>()>
-<it.yup.ui.UICanvas: void showAlert(javax.microedition.lcdui.AlertType,java.lang.String,java.lang.String)>	<it.yup.ui.UICanvas: void showAlert(javax.microedition.lcdui.AlertType,java.lang.String,java.lang.String)>
 unexpected type	unexpected type
+<it.yup.ui.UICanvas: void showAlert(javax.microedition.lcdui.AlertType,java.lang.String,java.lang.String)>	<it.yup.ui.UICanvas: void showAlert(javax.microedition.lcdui.AlertType,java.lang.String,java.lang.String)>
 text-single	text-single
 <com.jcraft.jzlib.InfTree: int inflate_trees_fixed(int[],int[],int[][],int[][],com.jcraft.jzlib.ZStream)>	<com.jcraft.jzlib.InfTree: int inflate_trees_fixed(int[],int[],int[][],int[][],com.jcraft.jzlib.ZStream)>
 <it.yup.xmlstream.KXmlParser: void read(char)>	<it.yup.xmlstream.KXmlParser: void read(char)>
@@ -2519,8 +2519,8 @@ invalid distance code	invalid distance code
 Resource Manager Error	Resource Manager Error
 <lampiro.screens.RosterScreen: void updateScreen()>	<lampiro.screens.RosterScreen: void updateScreen()>
 <it.yup.screens.RegisterScreen: java.lang.String srvQuery()>	<it.yup.screens.RegisterScreen: java.lang.String srvQuery()>
-<it.yup.ui.UIScreen: java.lang.String getTitle()>	<it.yup.ui.UIScreen: java.lang.String getTitle()>
 <it.yup.xmlstream.SASLAuthenticator$PacketListener2: void <init>(it.yup.xmlstream.SASLAuthenticator)>	<it.yup.xmlstream.SASLAuthenticator$PacketListener2: void <init>(it.yup.xmlstream.SASLAuthenticator)>
+<it.yup.ui.UIScreen: java.lang.String getTitle()>	<it.yup.ui.UIScreen: java.lang.String getTitle()>
 <it.yup.screens.CommandListScreen: void <init>(it.yup.xmpp.Contact,java.lang.String)>	<it.yup.screens.CommandListScreen: void <init>(it.yup.xmpp.Contact,java.lang.String)>
 <it.yup.ui.UILayout: void updateChildren()>	<it.yup.ui.UILayout: void updateChildren()>
 /transport/yahoo.png	/transport/yahoo.png
@@ -2559,8 +2559,8 @@ reason	reason
 <it.yup.util.NetworkConsumer: void <init>()>	<it.yup.util.NetworkConsumer: void <init>()>
 <it.yup.screens.ChatScreen: void hideNotify()>	<it.yup.screens.ChatScreen: void hideNotify()>
 data error	data error
-<java.io.DataInputStream: void <init>(java.io.InputStream)>	<java.io.DataInputStream: void <init>(java.io.InputStream)>
 <lampiro.screens.RegisterScreen: boolean keyPressed(int)>	<lampiro.screens.RegisterScreen: boolean keyPressed(int)>
+<java.io.DataInputStream: void <init>(java.io.InputStream)>	<java.io.DataInputStream: void <init>(java.io.InputStream)>
 exclude-list-native	exclude-list-native
 <org.bouncycastle.crypto.digests.GeneralDigest: int getByteLength()>	<org.bouncycastle.crypto.digests.GeneralDigest: int getByteLength()>
 <lampiro.screens.RosterScreen$UIContact: boolean updateContactData()>	<lampiro.screens.RosterScreen$UIContact: boolean updateContactData()>
@@ -2730,8 +2730,8 @@ block-size	block-size
 <it.yup.ui.UICanvas: void change(int)>	<it.yup.ui.UICanvas: void change(int)>
 <com.jcraft.jzlib.InfBlocks: void reset(com.jcraft.jzlib.ZStream,long[])>	<com.jcraft.jzlib.InfBlocks: void reset(com.jcraft.jzlib.ZStream,long[])>
 <it.yup.tests.XMPPTestClient$Listener: void gotStreamEvent(java.lang.String,java.lang.Object)>	<it.yup.tests.XMPPTestClient$Listener: void gotStreamEvent(java.lang.String,java.lang.Object)>
-<it.yup.xmlstream.KXmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)>	<it.yup.xmlstream.KXmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)>
 <it.yup.xml.KXmlParser: void defineEntityReplacementText(java.lang.String,java.lang.String)>	<it.yup.xml.KXmlParser: void defineEntityReplacementText(java.lang.String,java.lang.String)>
+<it.yup.xmlstream.KXmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)>	<it.yup.xmlstream.KXmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)>
 <it.yup.xmpp.XMPPClient$DataFormHandler: void <init>(it.yup.xmpp.XMPPClient)>	<it.yup.xmpp.XMPPClient$DataFormHandler: void <init>(it.yup.xmpp.XMPPClient)>
 <it.yup.screens.RegisterScreen: java.lang.String access$7(it.yup.screens.RegisterScreen)>	<it.yup.screens.RegisterScreen: java.lang.String access$7(it.yup.screens.RegisterScreen)>
 <it.yup.tests.UITestMidlet: void <init>()>	<it.yup.tests.UITestMidlet: void <init>()>
@@ -2848,8 +2848,8 @@ prompt	prompt
 <it.yup.ui.UIPanel: int getFirstVisible()>	<it.yup.ui.UIPanel: int getFirstVisible()>
 <lampiro.screens.RosterScreen$MUCStateHandler: void <init>(it.yup.xmpp.IQResultListener)>	<lampiro.screens.RosterScreen$MUCStateHandler: void <init>(it.yup.xmpp.IQResultListener)>
 <it.yup.xmpp.FTSender$PacketListener2: void <init>(it.yup.xmpp.FTSender)>	<it.yup.xmpp.FTSender$PacketListener2: void <init>(it.yup.xmpp.FTSender)>
-<it.yup.screens.RegisterScreen: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>	<it.yup.screens.RegisterScreen: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>
 jid-multi	jid-multi
+<it.yup.screens.RegisterScreen: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>	<it.yup.screens.RegisterScreen: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>
 <it.yup.xmpp.packets.DataForm: void parseItem(it.yup.xml.Element)>	<it.yup.xmpp.packets.DataForm: void parseItem(it.yup.xml.Element)>
 message	message
 <it.yup.ui.UITextField: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>	<it.yup.ui.UITextField: void commandAction(javax.microedition.lcdui.Command,javax.microedition.lcdui.Displayable)>
@@ -2915,8 +2915,8 @@ _10	_10
 <it.yup.xml.BProcessor: int[] untag(java.io.InputStream)>	<it.yup.xml.BProcessor: int[] untag(java.io.InputStream)>
 <it.yup.ui.UITextField: void expand()>	<it.yup.ui.UITextField: void expand()>
 <com.jcraft.jzlib.ZStream: int deflateInit(int)>	<com.jcraft.jzlib.ZStream: int deflateInit(int)>
-<it.yup.ui.UIItem: void setWidth(int)>	<it.yup.ui.UIItem: void setWidth(int)>
 <it.yup.xmpp.Group: it.yup.xmpp.Group getGroup(java.lang.String)>	<it.yup.xmpp.Group: it.yup.xmpp.Group getGroup(java.lang.String)>
+<it.yup.ui.UIItem: void setWidth(int)>	<it.yup.ui.UIItem: void setWidth(int)>
 groups	groups
 http://bluendo.com/protocol/caps	http://bluendo.com/protocol/caps
 version 1.0	version 1.0

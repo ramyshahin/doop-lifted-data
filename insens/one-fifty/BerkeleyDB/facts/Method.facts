@@ -43,8 +43,8 @@
 <com.sleepycat.je.BtreeStats: void setDuplicateInternalNodeCount(long)>	setDuplicateInternalNodeCount	(long)	com.sleepycat.je.BtreeStats	void	(J)V	1
 <com.sleepycat.je.latch.Java5LatchImpl$JEReentrantLock: java.lang.Thread getOwner()>	getOwner	()	com.sleepycat.je.latch.Java5LatchImpl$JEReentrantLock	java.lang.Thread	()Ljava/lang/Thread;	0
 <com.sleepycat.je.cleaner.FileSummary: int getObsoleteINSize()>	getObsoleteINSize	()	com.sleepycat.je.cleaner.FileSummary	int	()I	0
-<com.sleepycat.je.SecondaryCursor: com.sleepycat.je.OperationStatus position(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,boolean)>	position	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,boolean)	com.sleepycat.je.SecondaryCursor	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/LockMode;Z)Lcom/sleepycat/je/OperationStatus;	5
 <com.sleepycat.je.cleaner.Cleaner: boolean isEvictable(com.sleepycat.je.tree.BIN,int)>	isEvictable	(com.sleepycat.je.tree.BIN,int)	com.sleepycat.je.cleaner.Cleaner	boolean	(Lcom/sleepycat/je/tree/BIN;I)Z	2
+<com.sleepycat.je.SecondaryCursor: com.sleepycat.je.OperationStatus position(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,boolean)>	position	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,boolean)	com.sleepycat.je.SecondaryCursor	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/LockMode;Z)Lcom/sleepycat/je/OperationStatus;	5
 <com.sleepycat.je.tree.IN: long getLastFullVersion()>	getLastFullVersion	()	com.sleepycat.je.tree.IN	long	()J	0
 <com.sleepycat.je.txn.Locker: long getId()>	getId	()	com.sleepycat.je.txn.Locker	long	()J	0
 <com.sleepycat.je.DbInternal: com.sleepycat.je.EnvironmentConfig cloneConfig(com.sleepycat.je.EnvironmentConfig)>	cloneConfig	(com.sleepycat.je.EnvironmentConfig)	com.sleepycat.je.DbInternal	com.sleepycat.je.EnvironmentConfig	(Lcom/sleepycat/je/EnvironmentConfig;)Lcom/sleepycat/je/EnvironmentConfig;	1
@@ -151,8 +151,8 @@
 <com.sleepycat.je.DbInternal: void dbInvalidate(com.sleepycat.je.Database)>	dbInvalidate	(com.sleepycat.je.Database)	com.sleepycat.je.DbInternal	void	(Lcom/sleepycat/je/Database;)V	1
 <com.sleepycat.je.log.LogReadable: boolean logEntryIsTransactional()>	logEntryIsTransactional	()	com.sleepycat.je.log.LogReadable	boolean	()Z	0
 <com.sleepycat.je.tree.BINReference: java.lang.String toString()>	toString	()	com.sleepycat.je.tree.BINReference	java.lang.String	()Ljava/lang/String;	0
-<com.sleepycat.je.tree.BINDelta: com.sleepycat.je.tree.BIN reconstituteBIN(com.sleepycat.je.dbi.EnvironmentImpl)>	reconstituteBIN	(com.sleepycat.je.dbi.EnvironmentImpl)	com.sleepycat.je.tree.BINDelta	com.sleepycat.je.tree.BIN	(Lcom/sleepycat/je/dbi/EnvironmentImpl;)Lcom/sleepycat/je/tree/BIN;	1
 <com.sleepycat.je.tree.DupCountLN: void dumpLogAdditional(java.lang.StringBuffer,boolean)>	dumpLogAdditional	(java.lang.StringBuffer,boolean)	com.sleepycat.je.tree.DupCountLN	void	(Ljava/lang/StringBuffer;Z)V	2
+<com.sleepycat.je.tree.BINDelta: com.sleepycat.je.tree.BIN reconstituteBIN(com.sleepycat.je.dbi.EnvironmentImpl)>	reconstituteBIN	(com.sleepycat.je.dbi.EnvironmentImpl)	com.sleepycat.je.tree.BINDelta	com.sleepycat.je.tree.BIN	(Lcom/sleepycat/je/dbi/EnvironmentImpl;)Lcom/sleepycat/je/tree/BIN;	1
 <java.lang.Thread: void <init>(java.lang.Runnable,java.lang.String)>	<init>	(java.lang.Runnable,java.lang.String)	java.lang.Thread	void	(Ljava/lang/Runnable;Ljava/lang/String;)V	2
 <com.sleepycat.je.tree.IN: void clearKnownDeleted(int)>	clearKnownDeleted	(int)	com.sleepycat.je.tree.IN	void	(I)V	1
 <com.sleepycat.je.dbi.EnvironmentImpl: void createDaemons()>	createDaemons	()	com.sleepycat.je.dbi.EnvironmentImpl	void	()V	0
@@ -286,8 +286,8 @@
 <com.sleepycat.je.txn.BuddyLocker: com.sleepycat.je.txn.Locker getBuddy()>	getBuddy	()	com.sleepycat.je.txn.BuddyLocker	com.sleepycat.je.txn.Locker	()Lcom/sleepycat/je/txn/Locker;	0
 <java.lang.StringBuilder: java.lang.StringBuilder append(char)>	append	(char)	java.lang.StringBuilder	java.lang.StringBuilder	(C)Ljava/lang/StringBuilder;	1
 <com.sleepycat.je.txn.DummyLockManager: void <init>(com.sleepycat.je.dbi.EnvironmentImpl)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl)	com.sleepycat.je.txn.DummyLockManager	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;)V	1
-<com.sleepycat.je.utilint.DbScavenger: void scavengeDbTree(long,long)>	scavengeDbTree	(long,long)	com.sleepycat.je.utilint.DbScavenger	void	(JJ)V	2
 <com.sleepycat.je.log.LogManager: java.nio.ByteBuffer marshallIntoBuffer(com.sleepycat.je.log.LoggableObject,int,boolean,int)>	marshallIntoBuffer	(com.sleepycat.je.log.LoggableObject,int,boolean,int)	com.sleepycat.je.log.LogManager	java.nio.ByteBuffer	(Lcom/sleepycat/je/log/LoggableObject;IZI)Ljava/nio/ByteBuffer;	4
+<com.sleepycat.je.utilint.DbScavenger: void scavengeDbTree(long,long)>	scavengeDbTree	(long,long)	com.sleepycat.je.utilint.DbScavenger	void	(JJ)V	2
 <com.sleepycat.je.dbi.EnvironmentImpl: boolean getNoComparators()>	getNoComparators	()	com.sleepycat.je.dbi.EnvironmentImpl	boolean	()Z	0
 <com.sleepycat.je.recovery.Checkpointer: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,long,java.lang.String)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,long,java.lang.String)	com.sleepycat.je.recovery.Checkpointer	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;JLjava/lang/String;)V	3
 <com.sleepycat.je.SecondaryCursor: com.sleepycat.je.OperationStatus getPrevNoDup(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode)>	getPrevNoDup	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode)	com.sleepycat.je.SecondaryCursor	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/LockMode;)Lcom/sleepycat/je/OperationStatus;	4
@@ -320,8 +320,8 @@
 <java.util.Properties: java.lang.Object setProperty(java.lang.String,java.lang.String)>	setProperty	(java.lang.String,java.lang.String)	java.util.Properties	java.lang.Object	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;	2
 <com.sleepycat.je.DatabaseConfig: void <clinit>()>	<clinit>	()	com.sleepycat.je.DatabaseConfig	void	()V	0
 <com.sleepycat.je.tree.Tree$RootChildReference: void <init>(com.sleepycat.je.tree.Tree)>	<init>	(com.sleepycat.je.tree.Tree)	com.sleepycat.je.tree.Tree$RootChildReference	void	(Lcom/sleepycat/je/tree/Tree;)V	1
-<com.sleepycat.je.tree.IN: byte[] getChildKey(com.sleepycat.je.tree.IN)>	getChildKey	(com.sleepycat.je.tree.IN)	com.sleepycat.je.tree.IN	byte[]	(Lcom/sleepycat/je/tree/IN;)[B	1
 <com.sleepycat.je.config.BooleanConfigParam: void <clinit>()>	<clinit>	()	com.sleepycat.je.config.BooleanConfigParam	void	()V	0
+<com.sleepycat.je.tree.IN: byte[] getChildKey(com.sleepycat.je.tree.IN)>	getChildKey	(com.sleepycat.je.tree.IN)	com.sleepycat.je.tree.IN	byte[]	(Lcom/sleepycat/je/tree/IN;)[B	1
 <com.sleepycat.je.SecondaryConfig: void setKeyCreator(com.sleepycat.je.SecondaryKeyCreator)>	setKeyCreator	(com.sleepycat.je.SecondaryKeyCreator)	com.sleepycat.je.SecondaryConfig	void	(Lcom/sleepycat/je/SecondaryKeyCreator;)V	1
 <com.sleepycat.je.txn.Txn: boolean createdNode(long)>	createdNode	(long)	com.sleepycat.je.txn.Txn	boolean	(J)Z	1
 <java.util.logging.Handler: void setFormatter(java.util.logging.Formatter)>	setFormatter	(java.util.logging.Formatter)	java.util.logging.Handler	void	(Ljava/util/logging/Formatter;)V	1
@@ -563,8 +563,8 @@
 <com.sleepycat.je.tree.IN: com.sleepycat.je.dbi.DatabaseImpl getDatabase()>	getDatabase	()	com.sleepycat.je.tree.IN	com.sleepycat.je.dbi.DatabaseImpl	()Lcom/sleepycat/je/dbi/DatabaseImpl;	0
 <com.sleepycat.je.dbi.CursorImpl: void setTreeStatsAccumulator(com.sleepycat.je.tree.TreeWalkerStatsAccumulator)>	setTreeStatsAccumulator	(com.sleepycat.je.tree.TreeWalkerStatsAccumulator)	com.sleepycat.je.dbi.CursorImpl	void	(Lcom/sleepycat/je/tree/TreeWalkerStatsAccumulator;)V	1
 <com.sleepycat.je.tree.IN: boolean canBeAncestor(boolean)>	canBeAncestor	(boolean)	com.sleepycat.je.tree.IN	boolean	(Z)Z	1
-<com.sleepycat.je.log.FileHeader: boolean validate(java.lang.String,long)>	validate	(java.lang.String,long)	com.sleepycat.je.log.FileHeader	boolean	(Ljava/lang/String;J)Z	2
 <java.util.concurrent.locks.ReentrantLock: boolean isHeldByCurrentThread()>	isHeldByCurrentThread	()	java.util.concurrent.locks.ReentrantLock	boolean	()Z	0
+<com.sleepycat.je.log.FileHeader: boolean validate(java.lang.String,long)>	validate	(java.lang.String,long)	com.sleepycat.je.log.FileHeader	boolean	(Ljava/lang/String;J)Z	2
 <com.sleepycat.je.latch.LatchImpl: java.lang.String getNameString()>	getNameString	()	com.sleepycat.je.latch.LatchImpl	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.log.CheckpointFileReader: boolean isCheckpointEnd()>	isCheckpointEnd	()	com.sleepycat.je.log.CheckpointFileReader	boolean	()Z	0
 <com.sleepycat.je.cleaner.FileProcessor$LookAheadCache: java.lang.Long nextOffset()>	nextOffset	()	com.sleepycat.je.cleaner.FileProcessor$LookAheadCache	java.lang.Long	()Ljava/lang/Long;	0
@@ -602,8 +602,8 @@
 <com.sleepycat.je.txn.Locker: void setTxnTimeout(long)>	setTxnTimeout	(long)	com.sleepycat.je.txn.Locker	void	(J)V	1
 <com.sleepycat.je.log.LogManager: void setReadHook(com.sleepycat.je.utilint.TestHook)>	setReadHook	(com.sleepycat.je.utilint.TestHook)	com.sleepycat.je.log.LogManager	void	(Lcom/sleepycat/je/utilint/TestHook;)V	1
 <com.sleepycat.je.cleaner.UtilizationProfile: void parseForceCleanFiles(java.lang.String)>	parseForceCleanFiles	(java.lang.String)	com.sleepycat.je.cleaner.UtilizationProfile	void	(Ljava/lang/String;)V	1
-<javax.transaction.xa.XAException: void <init>(int)>	<init>	(int)	javax.transaction.xa.XAException	void	(I)V	1
 <com.sleepycat.je.txn.Txn: boolean isSerializableIsolation()>	isSerializableIsolation	()	com.sleepycat.je.txn.Txn	boolean	()Z	0
+<javax.transaction.xa.XAException: void <init>(int)>	<init>	(int)	javax.transaction.xa.XAException	void	(I)V	1
 <java.io.FileWriter: void write(java.lang.String)>	write	(java.lang.String)	java.io.FileWriter	void	(Ljava/lang/String;)V	1
 <com.sleepycat.je.txn.Txn: void abort(javax.transaction.xa.Xid)>	abort	(javax.transaction.xa.Xid)	com.sleepycat.je.txn.Txn	void	(Ljavax/transaction/xa/Xid;)V	1
 <com.sleepycat.je.log.ScavengerFileReader: void setDumpCorruptedBounds(boolean)>	setDumpCorruptedBounds	(boolean)	com.sleepycat.je.log.ScavengerFileReader	void	(Z)V	1
@@ -654,8 +654,8 @@
 <java.lang.Throwable: void printStackTrace(java.io.PrintWriter)>	printStackTrace	(java.io.PrintWriter)	java.lang.Throwable	void	(Ljava/io/PrintWriter;)V	1
 <com.sleepycat.je.log.FileManager: boolean getReadOnly()>	getReadOnly	()	com.sleepycat.je.log.FileManager	boolean	()Z	0
 <com.sleepycat.je.dbi.EnvironmentImpl: void enableDebugLoggingToDbLog()>	enableDebugLoggingToDbLog	()	com.sleepycat.je.dbi.EnvironmentImpl	void	()V	0
-<com.sleepycat.je.latch.LatchImpl$LatchWaiter: java.lang.String toString()>	toString	()	com.sleepycat.je.latch.LatchImpl$LatchWaiter	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.tree.IN: void traceDelete(java.util.logging.Level,int)>	traceDelete	(java.util.logging.Level,int)	com.sleepycat.je.tree.IN	void	(Ljava/util/logging/Level;I)V	2
+<com.sleepycat.je.latch.LatchImpl$LatchWaiter: java.lang.String toString()>	toString	()	com.sleepycat.je.latch.LatchImpl$LatchWaiter	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.txn.LockConflict: void <init>(boolean,boolean)>	<init>	(boolean,boolean)	com.sleepycat.je.txn.LockConflict	void	(ZZ)V	2
 <com.sleepycat.je.txn.Locker: void demoteLock(long)>	demoteLock	(long)	com.sleepycat.je.txn.Locker	void	(J)V	1
 <java.nio.ByteBuffer: byte[] array()>	array	()	java.nio.ByteBuffer	byte[]	()[B	0
@@ -666,8 +666,8 @@
 <com.sleepycat.je.log.entry.LNLogEntry: boolean countAsObsoleteWhenLogged()>	countAsObsoleteWhenLogged	()	com.sleepycat.je.log.entry.LNLogEntry	boolean	()Z	0
 <com.sleepycat.je.recovery.RecoveryManager: void <init>(com.sleepycat.je.dbi.EnvironmentImpl)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl)	com.sleepycat.je.recovery.RecoveryManager	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;)V	1
 <com.sleepycat.je.tree.Tree: void setRoot(com.sleepycat.je.tree.ChildReference,boolean)>	setRoot	(com.sleepycat.je.tree.ChildReference,boolean)	com.sleepycat.je.tree.Tree	void	(Lcom/sleepycat/je/tree/ChildReference;Z)V	2
-<com.sleepycat.je.evictor.Evictor$ScanIterator: com.sleepycat.je.tree.IN next()>	next	()	com.sleepycat.je.evictor.Evictor$ScanIterator	com.sleepycat.je.tree.IN	()Lcom/sleepycat/je/tree/IN;	0
 <com.sleepycat.je.cleaner.Cleaner: void envConfigUpdate(com.sleepycat.je.dbi.DbConfigManager)>	envConfigUpdate	(com.sleepycat.je.dbi.DbConfigManager)	com.sleepycat.je.cleaner.Cleaner	void	(Lcom/sleepycat/je/dbi/DbConfigManager;)V	1
+<com.sleepycat.je.evictor.Evictor$ScanIterator: com.sleepycat.je.tree.IN next()>	next	()	com.sleepycat.je.evictor.Evictor$ScanIterator	com.sleepycat.je.tree.IN	()Lcom/sleepycat/je/tree/IN;	0
 <com.sleepycat.je.Database: com.sleepycat.je.OperationStatus putInternal(com.sleepycat.je.Transaction,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.dbi.PutMode)>	putInternal	(com.sleepycat.je.Transaction,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.dbi.PutMode)	com.sleepycat.je.Database	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/Transaction;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/dbi/PutMode;)Lcom/sleepycat/je/OperationStatus;	4
 <com.sleepycat.je.tree.DBINReference: byte[] getKey()>	getKey	()	com.sleepycat.je.tree.DBINReference	byte[]	()[B	0
 <com.sleepycat.je.config.ShortConfigParam: void <clinit>()>	<clinit>	()	com.sleepycat.je.config.ShortConfigParam	void	()V	0
@@ -843,8 +843,8 @@
 <com.sleepycat.compat.DbCompat: com.sleepycat.je.OperationStatus putAfter(com.sleepycat.je.Cursor,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)>	putAfter	(com.sleepycat.je.Cursor,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)	com.sleepycat.compat.DbCompat	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/Cursor;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;)Lcom/sleepycat/je/OperationStatus;	3
 <com.sleepycat.je.tree.Tree: void writeToLog(java.nio.ByteBuffer)>	writeToLog	(java.nio.ByteBuffer)	com.sleepycat.je.tree.Tree	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.txn.BasicLocker: void operationEnd()>	operationEnd	()	com.sleepycat.je.txn.BasicLocker	void	()V	0
-<com.sleepycat.je.latch.SharedLatchImpl: boolean unNoteLatch()>	unNoteLatch	()	com.sleepycat.je.latch.SharedLatchImpl	boolean	()Z	0
 <com.sleepycat.je.tree.MapLN: void <init>()>	<init>	()	com.sleepycat.je.tree.MapLN	void	()V	0
+<com.sleepycat.je.latch.SharedLatchImpl: boolean unNoteLatch()>	unNoteLatch	()	com.sleepycat.je.latch.SharedLatchImpl	boolean	()Z	0
 <com.sleepycat.je.log.entry.LogEntry: long getTransactionId()>	getTransactionId	()	com.sleepycat.je.log.entry.LogEntry	long	()J	0
 <com.sleepycat.je.tree.LN: void init(byte[],int,int,int,int)>	init	(byte[],int,int,int,int)	com.sleepycat.je.tree.LN	void	([BIIII)V	5
 <com.sleepycat.je.txn.LockConflict: void <clinit>()>	<clinit>	()	com.sleepycat.je.txn.LockConflict	void	()V	0
@@ -953,8 +953,8 @@
 <com.sleepycat.je.tree.IN: void initEntryLsn(int)>	initEntryLsn	(int)	com.sleepycat.je.tree.IN	void	(I)V	1
 <com.sleepycat.je.dbi.CursorImpl: com.sleepycat.je.OperationStatus putCurrent(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)>	putCurrent	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)	com.sleepycat.je.dbi.CursorImpl	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;)Lcom/sleepycat/je/OperationStatus;	3
 <com.sleepycat.je.txn.LockManager: void dumpToStringNoLatch(java.lang.StringBuffer,int)>	dumpToStringNoLatch	(java.lang.StringBuffer,int)	com.sleepycat.je.txn.LockManager	void	(Ljava/lang/StringBuffer;I)V	2
-<com.sleepycat.je.txn.Txn: com.sleepycat.je.txn.WriteLockInfo getWriteLockInfo(long)>	getWriteLockInfo	(long)	com.sleepycat.je.txn.Txn	com.sleepycat.je.txn.WriteLockInfo	(J)Lcom/sleepycat/je/txn/WriteLockInfo;	1
 <com.sleepycat.je.SecondaryDatabase: void close()>	close	()	com.sleepycat.je.SecondaryDatabase	void	()V	0
+<com.sleepycat.je.txn.Txn: com.sleepycat.je.txn.WriteLockInfo getWriteLockInfo(long)>	getWriteLockInfo	(long)	com.sleepycat.je.txn.Txn	com.sleepycat.je.txn.WriteLockInfo	(J)Lcom/sleepycat/je/txn/WriteLockInfo;	1
 <com.sleepycat.je.recovery.CheckpointEnd: void <init>()>	<init>	()	com.sleepycat.je.recovery.CheckpointEnd	void	()V	0
 <com.sleepycat.je.txn.TxnEnd: void <init>(long,long)>	<init>	(long,long)	com.sleepycat.je.txn.TxnEnd	void	(JJ)V	2
 <com.sleepycat.je.tree.BINDelta: int getLogSize()>	getLogSize	()	com.sleepycat.je.tree.BINDelta	int	()I	0
@@ -999,8 +999,8 @@
 <com.sleepycat.je.BtreeStats: void setBottomInternalNodeCount(long)>	setBottomInternalNodeCount	(long)	com.sleepycat.je.BtreeStats	void	(J)V	1
 <com.sleepycat.je.Database: java.lang.String getDatabaseName()>	getDatabaseName	()	com.sleepycat.je.Database	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.txn.LatchedLockManager: boolean isLocked(java.lang.Long)>	isLocked	(java.lang.Long)	com.sleepycat.je.txn.LatchedLockManager	boolean	(Ljava/lang/Long;)Z	1
-<com.sleepycat.je.dbi.DbEnvPool: void <clinit>()>	<clinit>	()	com.sleepycat.je.dbi.DbEnvPool	void	()V	0
 <com.sleepycat.je.tree.DeltaInfo: void writeToLog(java.nio.ByteBuffer)>	writeToLog	(java.nio.ByteBuffer)	com.sleepycat.je.tree.DeltaInfo	void	(Ljava/nio/ByteBuffer;)V	1
+<com.sleepycat.je.dbi.DbEnvPool: void <clinit>()>	<clinit>	()	com.sleepycat.je.dbi.DbEnvPool	void	()V	0
 <com.sleepycat.je.tree.Node: java.lang.String dumpString(int,boolean)>	dumpString	(int,boolean)	com.sleepycat.je.tree.Node	java.lang.String	(IZ)Ljava/lang/String;	2
 <com.sleepycat.je.dbi.DbTree: java.util.List getDbNames()>	getDbNames	()	com.sleepycat.je.dbi.DbTree	java.util.List	()Ljava/util/List;	0
 <com.sleepycat.compat.DbCompat: void setInitializeLocking(com.sleepycat.je.EnvironmentConfig,boolean)>	setInitializeLocking	(com.sleepycat.je.EnvironmentConfig,boolean)	com.sleepycat.compat.DbCompat	void	(Lcom/sleepycat/je/EnvironmentConfig;Z)V	2
@@ -1028,8 +1028,8 @@
 <com.sleepycat.je.tree.FileSummaryLN: long getFileNumber(byte[])>	getFileNumber	(byte[])	com.sleepycat.je.tree.FileSummaryLN	long	([B)J	1
 <com.sleepycat.je.BtreeStats: void setDuplicateTreeMaxDepth(int)>	setDuplicateTreeMaxDepth	(int)	com.sleepycat.je.BtreeStats	void	(I)V	1
 <com.sleepycat.je.tree.IN: boolean isEvictionProhibited()>	isEvictionProhibited	()	com.sleepycat.je.tree.IN	boolean	()Z	0
-<com.sleepycat.je.dbi.CursorImpl: com.sleepycat.je.OperationStatus putLN(byte[],com.sleepycat.je.tree.LN,boolean)>	putLN	(byte[],com.sleepycat.je.tree.LN,boolean)	com.sleepycat.je.dbi.CursorImpl	com.sleepycat.je.OperationStatus	([BLcom/sleepycat/je/tree/LN;Z)Lcom/sleepycat/je/OperationStatus;	3
 <java.io.File: long length()>	length	()	java.io.File	long	()J	0
+<com.sleepycat.je.dbi.CursorImpl: com.sleepycat.je.OperationStatus putLN(byte[],com.sleepycat.je.tree.LN,boolean)>	putLN	(byte[],com.sleepycat.je.tree.LN,boolean)	com.sleepycat.je.dbi.CursorImpl	com.sleepycat.je.OperationStatus	([BLcom/sleepycat/je/tree/LN;Z)Lcom/sleepycat/je/OperationStatus;	3
 <com.sleepycat.je.log.entry.DeletedDupLNLogEntry: void readEntry(java.nio.ByteBuffer,int,byte,boolean)>	readEntry	(java.nio.ByteBuffer,int,byte,boolean)	com.sleepycat.je.log.entry.DeletedDupLNLogEntry	void	(Ljava/nio/ByteBuffer;IBZ)V	4
 <com.sleepycat.je.SecondaryTrigger: void databaseUpdated(com.sleepycat.je.Database,com.sleepycat.je.txn.Locker,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)>	databaseUpdated	(com.sleepycat.je.Database,com.sleepycat.je.txn.Locker,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry)	com.sleepycat.je.SecondaryTrigger	void	(Lcom/sleepycat/je/Database;Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;)V	5
 <com.sleepycat.je.TransactionStats$Active: void <init>(java.lang.String,long,long)>	<init>	(java.lang.String,long,long)	com.sleepycat.je.TransactionStats$Active	void	(Ljava/lang/String;JJ)V	3
@@ -1054,8 +1054,8 @@
 <com.sleepycat.je.dbi.DbEnvPool: void clear()>	clear	()	com.sleepycat.je.dbi.DbEnvPool	void	()V	0
 <com.sleepycat.je.txn.DummyLockManager: com.sleepycat.je.txn.LockManager$LockAttemptResult attemptLock(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType,boolean)>	attemptLock	(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType,boolean)	com.sleepycat.je.txn.DummyLockManager	com.sleepycat.je.txn.LockManager$LockAttemptResult	(Ljava/lang/Long;Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/txn/LockType;Z)Lcom/sleepycat/je/txn/LockManager$LockAttemptResult;	4
 <com.sleepycat.je.CheckpointConfig: boolean getForce()>	getForce	()	com.sleepycat.je.CheckpointConfig	boolean	()Z	0
-<com.sleepycat.je.CheckpointConfig: void <init>()>	<init>	()	com.sleepycat.je.CheckpointConfig	void	()V	0
 <com.sleepycat.je.tree.TreeWalkerStatsAccumulator: void processDupCountLN(com.sleepycat.je.tree.DupCountLN,java.lang.Long)>	processDupCountLN	(com.sleepycat.je.tree.DupCountLN,java.lang.Long)	com.sleepycat.je.tree.TreeWalkerStatsAccumulator	void	(Lcom/sleepycat/je/tree/DupCountLN;Ljava/lang/Long;)V	2
+<com.sleepycat.je.CheckpointConfig: void <init>()>	<init>	()	com.sleepycat.je.CheckpointConfig	void	()V	0
 <com.sleepycat.je.util.DbRecover: void main(java.lang.String[])>	main	(java.lang.String[])	com.sleepycat.je.util.DbRecover	void	([Ljava/lang/String;)V	1
 <com.sleepycat.je.latch.Java5LatchImpl: void acquire()>	acquire	()	com.sleepycat.je.latch.Java5LatchImpl	void	()V	0
 <com.sleepycat.je.tree.IN: void setEntry(int,com.sleepycat.je.tree.Node,byte[],long,byte)>	setEntry	(int,com.sleepycat.je.tree.Node,byte[],long,byte)	com.sleepycat.je.tree.IN	void	(ILcom/sleepycat/je/tree/Node;[BJB)V	5
@@ -1159,8 +1159,8 @@
 <com.sleepycat.je.tree.IN: void updateEntry(int,com.sleepycat.je.tree.Node,long)>	updateEntry	(int,com.sleepycat.je.tree.Node,long)	com.sleepycat.je.tree.IN	void	(ILcom/sleepycat/je/tree/Node;J)V	3
 <com.sleepycat.je.cleaner.Cleaner: com.sleepycat.je.cleaner.UtilizationTracker getUtilizationTracker()>	getUtilizationTracker	()	com.sleepycat.je.cleaner.Cleaner	com.sleepycat.je.cleaner.UtilizationTracker	()Lcom/sleepycat/je/cleaner/UtilizationTracker;	0
 <com.sleepycat.je.txn.LockManager: java.util.Set releaseAndFindNotifyTargets(long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker,boolean)>	releaseAndFindNotifyTargets	(long,com.sleepycat.je.txn.Lock,com.sleepycat.je.txn.Locker,boolean)	com.sleepycat.je.txn.LockManager	java.util.Set	(JLcom/sleepycat/je/txn/Lock;Lcom/sleepycat/je/txn/Locker;Z)Ljava/util/Set;	4
-<java.util.logging.ConsoleHandler: void <init>()>	<init>	()	java.util.logging.ConsoleHandler	void	()V	0
 <com.sleepycat.je.Sequence: void close()>	close	()	com.sleepycat.je.Sequence	void	()V	0
+<java.util.logging.ConsoleHandler: void <init>()>	<init>	()	java.util.logging.ConsoleHandler	void	()V	0
 <com.sleepycat.je.util.DbVerify: void <init>()>	<init>	()	com.sleepycat.je.util.DbVerify	void	()V	0
 <com.sleepycat.je.Environment: void upgrade()>	upgrade	()	com.sleepycat.je.Environment	void	()V	0
 <com.sleepycat.je.log.entry.SingleItemLogEntry: boolean isTransactional()>	isTransactional	()	com.sleepycat.je.log.entry.SingleItemLogEntry	boolean	()Z	0
@@ -1224,8 +1224,8 @@
 <com.sleepycat.je.tree.ChildReference: java.lang.String dumpString(int,boolean)>	dumpString	(int,boolean)	com.sleepycat.je.tree.ChildReference	java.lang.String	(IZ)Ljava/lang/String;	2
 <com.sleepycat.je.tree.CursorsExistException: void <init>()>	<init>	()	com.sleepycat.je.tree.CursorsExistException	void	()V	0
 <com.sleepycat.je.latch.SharedLatch: void acquireShared()>	acquireShared	()	com.sleepycat.je.latch.SharedLatch	void	()V	0
-<com.sleepycat.je.txn.LockerFactory: void <init>()>	<init>	()	com.sleepycat.je.txn.LockerFactory	void	()V	0
 <com.sleepycat.je.log.LogBuffer: void setRewriteAllowed()>	setRewriteAllowed	()	com.sleepycat.je.log.LogBuffer	void	()V	0
+<com.sleepycat.je.txn.LockerFactory: void <init>()>	<init>	()	com.sleepycat.je.txn.LockerFactory	void	()V	0
 <java.util.Calendar: long getTimeInMillis()>	getTimeInMillis	()	java.util.Calendar	long	()J	0
 <com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.BIN getPrevBin(com.sleepycat.je.tree.BIN,boolean)>	getPrevBin	(com.sleepycat.je.tree.BIN,boolean)	com.sleepycat.je.tree.Tree	com.sleepycat.je.tree.BIN	(Lcom/sleepycat/je/tree/BIN;Z)Lcom/sleepycat/je/tree/BIN;	2
 <com.sleepycat.je.tree.Node: void postLogWork(long)>	postLogWork	(long)	com.sleepycat.je.tree.Node	void	(J)V	1
@@ -1316,8 +1316,8 @@
 <com.sleepycat.je.util.DbDump: void dumpOne(java.io.PrintStream,byte[],boolean)>	dumpOne	(java.io.PrintStream,byte[],boolean)	com.sleepycat.je.util.DbDump	void	(Ljava/io/PrintStream;[BZ)V	3
 <java.lang.StringBuffer: java.lang.StringBuffer append(java.lang.StringBuffer)>	append	(java.lang.StringBuffer)	java.lang.StringBuffer	java.lang.StringBuffer	(Ljava/lang/StringBuffer;)Ljava/lang/StringBuffer;	1
 <com.sleepycat.je.ForeignKeyTrigger: void <init>(com.sleepycat.je.SecondaryDatabase)>	<init>	(com.sleepycat.je.SecondaryDatabase)	com.sleepycat.je.ForeignKeyTrigger	void	(Lcom/sleepycat/je/SecondaryDatabase;)V	1
-<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>	transferMultiple	(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)	com.sleepycat.je.txn.Lock	com.sleepycat.je.txn.LockType	(Lcom/sleepycat/je/txn/Locker;[Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/dbi/MemoryBudget;I)Lcom/sleepycat/je/txn/LockType;	4
 <com.sleepycat.je.DbInternal: com.sleepycat.je.txn.Locker getLocker(com.sleepycat.je.Transaction)>	getLocker	(com.sleepycat.je.Transaction)	com.sleepycat.je.DbInternal	com.sleepycat.je.txn.Locker	(Lcom/sleepycat/je/Transaction;)Lcom/sleepycat/je/txn/Locker;	1
+<com.sleepycat.je.txn.Lock: com.sleepycat.je.txn.LockType transferMultiple(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)>	transferMultiple	(com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.Locker[],com.sleepycat.je.dbi.MemoryBudget,int)	com.sleepycat.je.txn.Lock	com.sleepycat.je.txn.LockType	(Lcom/sleepycat/je/txn/Locker;[Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/dbi/MemoryBudget;I)Lcom/sleepycat/je/txn/LockType;	4
 <com.sleepycat.je.txn.ThreadLocker: void checkState(boolean)>	checkState	(boolean)	com.sleepycat.je.txn.ThreadLocker	void	(Z)V	1
 <com.sleepycat.je.cleaner.FileSummary: java.lang.String toString()>	toString	()	com.sleepycat.je.cleaner.FileSummary	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.tree.Tree: com.sleepycat.je.latch.SharedLatch access$0(com.sleepycat.je.tree.Tree)>	access$0	(com.sleepycat.je.tree.Tree)	com.sleepycat.je.tree.Tree	com.sleepycat.je.latch.SharedLatch	(Lcom/sleepycat/je/tree/Tree;)Lcom/sleepycat/je/latch/SharedLatch;	1
@@ -1541,8 +1541,8 @@
 <com.sleepycat.je.TransactionConfig: void setNoWait(boolean)>	setNoWait	(boolean)	com.sleepycat.je.TransactionConfig	void	(Z)V	1
 <com.sleepycat.je.PreloadStats: void setNINsLoaded(int)>	setNINsLoaded	(int)	com.sleepycat.je.PreloadStats	void	(I)V	1
 <com.sleepycat.je.txn.SyncedLockManager: boolean isWaiter(java.lang.Long,com.sleepycat.je.txn.Locker)>	isWaiter	(java.lang.Long,com.sleepycat.je.txn.Locker)	com.sleepycat.je.txn.SyncedLockManager	boolean	(Ljava/lang/Long;Lcom/sleepycat/je/txn/Locker;)Z	2
-<com.sleepycat.je.log.FileReader: void startChecksum(java.nio.ByteBuffer)>	startChecksum	(java.nio.ByteBuffer)	com.sleepycat.je.log.FileReader	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.utilint.JarMain: void main(java.lang.String[])>	main	(java.lang.String[])	com.sleepycat.je.utilint.JarMain	void	([Ljava/lang/String;)V	1
+<com.sleepycat.je.log.FileReader: void startChecksum(java.nio.ByteBuffer)>	startChecksum	(java.nio.ByteBuffer)	com.sleepycat.je.log.FileReader	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.TransactionStats: void setLastTxnId(long)>	setLastTxnId	(long)	com.sleepycat.je.TransactionStats	void	(J)V	1
 <com.sleepycat.je.txn.Locker: long getLockTimeout()>	getLockTimeout	()	com.sleepycat.je.txn.Locker	long	()J	0
 <com.sleepycat.je.tree.ChildReference: boolean logEntryIsTransactional()>	logEntryIsTransactional	()	com.sleepycat.je.tree.ChildReference	boolean	()Z	0
@@ -1574,8 +1574,8 @@
 <com.sleepycat.je.txn.Locker: void operationEnd(boolean)>	operationEnd	(boolean)	com.sleepycat.je.txn.Locker	void	(Z)V	1
 <com.sleepycat.je.tree.IN: boolean hasResidentChildren()>	hasResidentChildren	()	com.sleepycat.je.tree.IN	boolean	()Z	0
 <com.sleepycat.je.ForeignKeyDeleteAction: java.lang.String toString()>	toString	()	com.sleepycat.je.ForeignKeyDeleteAction	java.lang.String	()Ljava/lang/String;	0
-<com.sleepycat.je.utilint.TinyHashSet: int size()>	size	()	com.sleepycat.je.utilint.TinyHashSet	int	()I	0
 <com.sleepycat.je.util.DbCacheSize: void insertRecords(java.io.PrintStream,com.sleepycat.je.Environment,com.sleepycat.je.Database,long,int,int,boolean)>	insertRecords	(java.io.PrintStream,com.sleepycat.je.Environment,com.sleepycat.je.Database,long,int,int,boolean)	com.sleepycat.je.util.DbCacheSize	void	(Ljava/io/PrintStream;Lcom/sleepycat/je/Environment;Lcom/sleepycat/je/Database;JIIZ)V	7
+<com.sleepycat.je.utilint.TinyHashSet: int size()>	size	()	com.sleepycat.je.utilint.TinyHashSet	int	()I	0
 <com.sleepycat.je.dbi.CursorImpl: void lockEofNode(com.sleepycat.je.txn.LockType)>	lockEofNode	(com.sleepycat.je.txn.LockType)	com.sleepycat.je.dbi.CursorImpl	void	(Lcom/sleepycat/je/txn/LockType;)V	1
 <com.sleepycat.je.log.LogUtils: java.lang.String readString(java.nio.ByteBuffer)>	readString	(java.nio.ByteBuffer)	com.sleepycat.je.log.LogUtils	java.lang.String	(Ljava/nio/ByteBuffer;)Ljava/lang/String;	1
 <com.sleepycat.je.log.LogBufferPool: void writeBufferToFile(int)>	writeBufferToFile	(int)	com.sleepycat.je.log.LogBufferPool	void	(I)V	1
@@ -1697,8 +1697,8 @@
 <com.sleepycat.je.txn.Txn: boolean isSuspended()>	isSuspended	()	com.sleepycat.je.txn.Txn	boolean	()Z	0
 <java.lang.String: void <init>(byte[],java.lang.String)>	<init>	(byte[],java.lang.String)	java.lang.String	void	([BLjava/lang/String;)V	2
 <com.sleepycat.je.txn.TxnEnd: boolean marshallOutsideWriteLatch()>	marshallOutsideWriteLatch	()	com.sleepycat.je.txn.TxnEnd	boolean	()Z	0
-<com.sleepycat.je.dbi.EnvironmentImpl: boolean invokeCompressor()>	invokeCompressor	()	com.sleepycat.je.dbi.EnvironmentImpl	boolean	()Z	0
 <com.sleepycat.je.DatabaseConfig: boolean getUseExistingConfig()>	getUseExistingConfig	()	com.sleepycat.je.DatabaseConfig	boolean	()Z	0
+<com.sleepycat.je.dbi.EnvironmentImpl: boolean invokeCompressor()>	invokeCompressor	()	com.sleepycat.je.dbi.EnvironmentImpl	boolean	()Z	0
 <com.sleepycat.je.latch.Latch: int nWaiters()>	nWaiters	()	com.sleepycat.je.latch.Latch	int	()I	0
 <com.sleepycat.je.dbi.DatabaseImpl: com.sleepycat.je.tree.Tree getTree()>	getTree	()	com.sleepycat.je.dbi.DatabaseImpl	com.sleepycat.je.tree.Tree	()Lcom/sleepycat/je/tree/Tree;	0
 <com.sleepycat.je.log.CleanerFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,long,java.lang.Long)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,int,long,java.lang.Long)	com.sleepycat.je.log.CleanerFileReader	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;IJLjava/lang/Long;)V	4
@@ -1740,8 +1740,8 @@
 <com.sleepycat.je.log.LogWritable: int getLogSize()>	getLogSize	()	com.sleepycat.je.log.LogWritable	int	()I	0
 <com.sleepycat.je.latch.LatchTable: int countLatchesHeld()>	countLatchesHeld	()	com.sleepycat.je.latch.LatchTable	int	()I	0
 <com.sleepycat.je.txn.BasicLocker: com.sleepycat.je.txn.Locker newNonTxnLocker()>	newNonTxnLocker	()	com.sleepycat.je.txn.BasicLocker	com.sleepycat.je.txn.Locker	()Lcom/sleepycat/je/txn/Locker;	0
-<com.sleepycat.je.dbi.EnvironmentImpl: java.util.List getDbNames()>	getDbNames	()	com.sleepycat.je.dbi.EnvironmentImpl	java.util.List	()Ljava/util/List;	0
 <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>	<init>	(java.io.File,java.lang.String)	java.io.RandomAccessFile	void	(Ljava/io/File;Ljava/lang/String;)V	2
+<com.sleepycat.je.dbi.EnvironmentImpl: java.util.List getDbNames()>	getDbNames	()	com.sleepycat.je.dbi.EnvironmentImpl	java.util.List	()Ljava/util/List;	0
 <com.sleepycat.je.txn.Txn: void updateMemoryUsage(int)>	updateMemoryUsage	(int)	com.sleepycat.je.txn.Txn	void	(I)V	1
 <com.sleepycat.je.EnvironmentConfig: void <init>(java.util.Properties)>	<init>	(java.util.Properties)	com.sleepycat.je.EnvironmentConfig	void	(Ljava/util/Properties;)V	1
 <com.sleepycat.je.utilint.TestHook: void doHook()>	doHook	()	com.sleepycat.je.utilint.TestHook	void	()V	0
@@ -1854,8 +1854,8 @@
 <com.sleepycat.je.SecondaryCursor: com.sleepycat.je.OperationStatus getLast(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode)>	getLast	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode)	com.sleepycat.je.SecondaryCursor	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/LockMode;)Lcom/sleepycat/je/OperationStatus;	3
 <com.sleepycat.je.ForeignKeyDeleteAction: void <init>(java.lang.String)>	<init>	(java.lang.String)	com.sleepycat.je.ForeignKeyDeleteAction	void	(Ljava/lang/String;)V	1
 <com.sleepycat.je.utilint.Tracer: boolean countAsObsoleteWhenLogged()>	countAsObsoleteWhenLogged	()	com.sleepycat.je.utilint.Tracer	boolean	()Z	0
-<com.sleepycat.je.txn.TxnCommit: com.sleepycat.je.log.LogEntryType getLogType()>	getLogType	()	com.sleepycat.je.txn.TxnCommit	com.sleepycat.je.log.LogEntryType	()Lcom/sleepycat/je/log/LogEntryType;	0
 <com.sleepycat.je.txn.LockManager: boolean validateOwnership(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType,boolean,com.sleepycat.je.dbi.MemoryBudget)>	validateOwnership	(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType,boolean,com.sleepycat.je.dbi.MemoryBudget)	com.sleepycat.je.txn.LockManager	boolean	(Ljava/lang/Long;Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/txn/LockType;ZLcom/sleepycat/je/dbi/MemoryBudget;)Z	5
+<com.sleepycat.je.txn.TxnCommit: com.sleepycat.je.log.LogEntryType getLogType()>	getLogType	()	com.sleepycat.je.txn.TxnCommit	com.sleepycat.je.log.LogEntryType	()Lcom/sleepycat/je/log/LogEntryType;	0
 <com.sleepycat.je.Environment: com.sleepycat.je.LockStats getLockStats(com.sleepycat.je.StatsConfig)>	getLockStats	(com.sleepycat.je.StatsConfig)	com.sleepycat.je.Environment	com.sleepycat.je.LockStats	(Lcom/sleepycat/je/StatsConfig;)Lcom/sleepycat/je/LockStats;	1
 <com.sleepycat.je.DatabaseConfig: java.util.Comparator getDuplicateComparator()>	getDuplicateComparator	()	com.sleepycat.je.DatabaseConfig	java.util.Comparator	()Ljava/util/Comparator;	0
 <com.sleepycat.je.tree.BINDelta: long getLastFullLsn()>	getLastFullLsn	()	com.sleepycat.je.tree.BINDelta	long	()J	0
@@ -1914,9 +1914,9 @@
 <com.sleepycat.je.cleaner.FileProcessor: int doClean(boolean,boolean,boolean)>	doClean	(boolean,boolean,boolean)	com.sleepycat.je.cleaner.FileProcessor	int	(ZZZ)I	3
 <com.sleepycat.je.txn.TxnEnd: void dumpLog(java.lang.StringBuffer,boolean)>	dumpLog	(java.lang.StringBuffer,boolean)	com.sleepycat.je.txn.TxnEnd	void	(Ljava/lang/StringBuffer;Z)V	2
 <java.io.StringWriter: java.lang.String toString()>	toString	()	java.io.StringWriter	java.lang.String	()Ljava/lang/String;	0
-<com.sleepycat.je.log.FileReader: void readHeader(java.nio.ByteBuffer)>	readHeader	(java.nio.ByteBuffer)	com.sleepycat.je.log.FileReader	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.tree.Node: void verify(byte[])>	verify	(byte[])	com.sleepycat.je.tree.Node	void	([B)V	1
 <com.sleepycat.je.utilint.Tracer: void dumpLog(java.lang.StringBuffer,boolean)>	dumpLog	(java.lang.StringBuffer,boolean)	com.sleepycat.je.utilint.Tracer	void	(Ljava/lang/StringBuffer;Z)V	2
+<com.sleepycat.je.log.FileReader: void readHeader(java.nio.ByteBuffer)>	readHeader	(java.nio.ByteBuffer)	com.sleepycat.je.log.FileReader	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.tree.LN: com.sleepycat.je.log.LogEntryType getTransactionalLogType()>	getTransactionalLogType	()	com.sleepycat.je.tree.LN	com.sleepycat.je.log.LogEntryType	()Lcom/sleepycat/je/log/LogEntryType;	0
 <com.sleepycat.je.tree.DIN: long getMemoryOverhead(com.sleepycat.je.dbi.MemoryBudget)>	getMemoryOverhead	(com.sleepycat.je.dbi.MemoryBudget)	com.sleepycat.je.tree.DIN	long	(Lcom/sleepycat/je/dbi/MemoryBudget;)J	1
 <com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.DatabaseImpl getDb(com.sleepycat.je.dbi.DatabaseId,long,boolean,java.lang.String)>	getDb	(com.sleepycat.je.dbi.DatabaseId,long,boolean,java.lang.String)	com.sleepycat.je.dbi.DbTree	com.sleepycat.je.dbi.DatabaseImpl	(Lcom/sleepycat/je/dbi/DatabaseId;JZLjava/lang/String;)Lcom/sleepycat/je/dbi/DatabaseImpl;	4
@@ -1986,8 +1986,8 @@
 <com.sleepycat.je.log.LogEntryType: boolean equalsType(byte)>	equalsType	(byte)	com.sleepycat.je.log.LogEntryType	boolean	(B)Z	1
 <com.sleepycat.je.DatabaseConfig: java.util.Comparator validateComparator(java.lang.Class,java.lang.String)>	validateComparator	(java.lang.Class,java.lang.String)	com.sleepycat.je.DatabaseConfig	java.util.Comparator	(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/Comparator;	2
 <com.sleepycat.je.dbi.DbTree$RootLevel: com.sleepycat.je.tree.IN doWork(com.sleepycat.je.tree.ChildReference)>	doWork	(com.sleepycat.je.tree.ChildReference)	com.sleepycat.je.dbi.DbTree$RootLevel	com.sleepycat.je.tree.IN	(Lcom/sleepycat/je/tree/ChildReference;)Lcom/sleepycat/je/tree/IN;	1
-<com.sleepycat.je.log.LastFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,java.lang.Long)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,int,java.lang.Long)	com.sleepycat.je.log.LastFileReader	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;ILjava/lang/Long;)V	3
 <com.sleepycat.je.tree.DBIN: int generateLevel(com.sleepycat.je.dbi.DatabaseId,int)>	generateLevel	(com.sleepycat.je.dbi.DatabaseId,int)	com.sleepycat.je.tree.DBIN	int	(Lcom/sleepycat/je/dbi/DatabaseId;I)I	2
+<com.sleepycat.je.log.LastFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,java.lang.Long)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,int,java.lang.Long)	com.sleepycat.je.log.LastFileReader	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;ILjava/lang/Long;)V	3
 <com.sleepycat.je.config.ConfigParam: void validateName(java.lang.String)>	validateName	(java.lang.String)	com.sleepycat.je.config.ConfigParam	void	(Ljava/lang/String;)V	1
 <com.sleepycat.je.log.DumpFileReader: boolean isTargetEntry(byte,byte)>	isTargetEntry	(byte,byte)	com.sleepycat.je.log.DumpFileReader	boolean	(BB)Z	2
 <java.nio.ByteBuffer: byte get(int)>	get	(int)	java.nio.ByteBuffer	byte	(I)B	1
@@ -2036,8 +2036,8 @@
 <com.sleepycat.je.dbi.SortedLSNTreeWalker$TreeNodeProcessor: void processLSN(long,com.sleepycat.je.log.LogEntryType)>	processLSN	(long,com.sleepycat.je.log.LogEntryType)	com.sleepycat.je.dbi.SortedLSNTreeWalker$TreeNodeProcessor	void	(JLcom/sleepycat/je/log/LogEntryType;)V	2
 <com.sleepycat.je.txn.TxnManager: com.sleepycat.je.Transaction getTxnForThread()>	getTxnForThread	()	com.sleepycat.je.txn.TxnManager	com.sleepycat.je.Transaction	()Lcom/sleepycat/je/Transaction;	0
 <com.sleepycat.je.log.SyncedLogManager: void countObsoleteNode(long,com.sleepycat.je.log.LogEntryType)>	countObsoleteNode	(long,com.sleepycat.je.log.LogEntryType)	com.sleepycat.je.log.SyncedLogManager	void	(JLcom/sleepycat/je/log/LogEntryType;)V	2
-<com.sleepycat.je.util.DbDump: void dump()>	dump	()	com.sleepycat.je.util.DbDump	void	()V	0
 <com.sleepycat.je.DbInternal: com.sleepycat.je.TransactionConfig getDefaultTxnConfig(com.sleepycat.je.Environment)>	getDefaultTxnConfig	(com.sleepycat.je.Environment)	com.sleepycat.je.DbInternal	com.sleepycat.je.TransactionConfig	(Lcom/sleepycat/je/Environment;)Lcom/sleepycat/je/TransactionConfig;	1
+<com.sleepycat.je.util.DbDump: void dump()>	dump	()	com.sleepycat.je.util.DbDump	void	()V	0
 <com.sleepycat.je.dbi.DatabaseImpl: void dumpLog(java.lang.StringBuffer,boolean)>	dumpLog	(java.lang.StringBuffer,boolean)	com.sleepycat.je.dbi.DatabaseImpl	void	(Ljava/lang/StringBuffer;Z)V	2
 <com.sleepycat.je.dbi.DatabaseImpl: void <init>()>	<init>	()	com.sleepycat.je.dbi.DatabaseImpl	void	()V	0
 <com.sleepycat.je.tree.BIN: long computeOverhead(com.sleepycat.je.dbi.DbConfigManager)>	computeOverhead	(com.sleepycat.je.dbi.DbConfigManager)	com.sleepycat.je.tree.BIN	long	(Lcom/sleepycat/je/dbi/DbConfigManager;)J	1
@@ -2098,8 +2098,8 @@
 <com.sleepycat.je.cleaner.OffsetList: boolean contains(long)>	contains	(long)	com.sleepycat.je.cleaner.OffsetList	boolean	(J)Z	1
 <com.sleepycat.je.EnvironmentStats: void setNNotResident(long)>	setNNotResident	(long)	com.sleepycat.je.EnvironmentStats	void	(J)V	1
 <com.sleepycat.je.RunRecoveryException: java.lang.String toString()>	toString	()	com.sleepycat.je.RunRecoveryException	java.lang.String	()Ljava/lang/String;	0
-<com.sleepycat.je.tree.TreeUtils: java.lang.String indent(int)>	indent	(int)	com.sleepycat.je.tree.TreeUtils	java.lang.String	(I)Ljava/lang/String;	1
 <com.sleepycat.je.txn.WriteLockInfo: void <clinit>()>	<clinit>	()	com.sleepycat.je.txn.WriteLockInfo	void	()V	0
+<com.sleepycat.je.tree.TreeUtils: java.lang.String indent(int)>	indent	(int)	com.sleepycat.je.tree.TreeUtils	java.lang.String	(I)Ljava/lang/String;	1
 <com.sleepycat.je.TransactionStats: void setActiveTxns(com.sleepycat.je.TransactionStats$Active[])>	setActiveTxns	(com.sleepycat.je.TransactionStats$Active[])	com.sleepycat.je.TransactionStats	void	([Lcom/sleepycat/je/TransactionStats$Active;)V	1
 <com.sleepycat.je.utilint.DaemonThread: void shutdown()>	shutdown	()	com.sleepycat.je.utilint.DaemonThread	void	()V	0
 <java.util.Date: void <init>(long)>	<init>	(long)	java.util.Date	void	(J)V	1
@@ -2259,8 +2259,8 @@
 <com.sleepycat.je.tree.ChildReference: void setMigrate(boolean)>	setMigrate	(boolean)	com.sleepycat.je.tree.ChildReference	void	(Z)V	1
 <com.sleepycat.je.util.DbSpace: void parseArgs(java.lang.String[])>	parseArgs	(java.lang.String[])	com.sleepycat.je.util.DbSpace	void	([Ljava/lang/String;)V	1
 <com.sleepycat.je.RunRecoveryException: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String,java.lang.Throwable)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String,java.lang.Throwable)	com.sleepycat.je.RunRecoveryException	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;Ljava/lang/String;Ljava/lang/Throwable;)V	3
-<com.sleepycat.je.tree.Key: void <init>(byte[])>	<init>	(byte[])	com.sleepycat.je.tree.Key	void	([B)V	1
 <com.sleepycat.je.util.DbVerify: void <clinit>()>	<clinit>	()	com.sleepycat.je.util.DbVerify	void	()V	0
+<com.sleepycat.je.tree.Key: void <init>(byte[])>	<init>	(byte[])	com.sleepycat.je.tree.Key	void	([B)V	1
 <com.sleepycat.je.JoinConfig: void setNoSort(boolean)>	setNoSort	(boolean)	com.sleepycat.je.JoinConfig	void	(Z)V	1
 <com.sleepycat.je.utilint.DbLsn: void <clinit>()>	<clinit>	()	com.sleepycat.je.utilint.DbLsn	void	()V	0
 <com.sleepycat.je.dbi.DbTree: void dbRemove(com.sleepycat.je.txn.Locker,java.lang.String)>	dbRemove	(com.sleepycat.je.txn.Locker,java.lang.String)	com.sleepycat.je.dbi.DbTree	void	(Lcom/sleepycat/je/txn/Locker;Ljava/lang/String;)V	2
@@ -2327,8 +2327,8 @@
 <com.sleepycat.je.tree.DIN: java.util.Comparator getKeyComparator()>	getKeyComparator	()	com.sleepycat.je.tree.DIN	java.util.Comparator	()Ljava/util/Comparator;	0
 <com.sleepycat.je.DatabaseConfig: boolean getAllowCreate()>	getAllowCreate	()	com.sleepycat.je.DatabaseConfig	boolean	()Z	0
 <com.sleepycat.je.dbi.EnvironmentImpl: void shutdownCleaner()>	shutdownCleaner	()	com.sleepycat.je.dbi.EnvironmentImpl	void	()V	0
-<com.sleepycat.je.dbi.CursorImpl: void dumpTree()>	dumpTree	()	com.sleepycat.je.dbi.CursorImpl	void	()V	0
 <com.sleepycat.je.cleaner.Cleaner: void shutdown()>	shutdown	()	com.sleepycat.je.cleaner.Cleaner	void	()V	0
+<com.sleepycat.je.dbi.CursorImpl: void dumpTree()>	dumpTree	()	com.sleepycat.je.dbi.CursorImpl	void	()V	0
 <com.sleepycat.util.FastOutputStream: void <init>()>	<init>	()	com.sleepycat.util.FastOutputStream	void	()V	0
 <com.sleepycat.je.recovery.RecoveryManager$RootUpdater: void <init>(com.sleepycat.je.tree.Tree,com.sleepycat.je.tree.IN,long)>	<init>	(com.sleepycat.je.tree.Tree,com.sleepycat.je.tree.IN,long)	com.sleepycat.je.recovery.RecoveryManager$RootUpdater	void	(Lcom/sleepycat/je/tree/Tree;Lcom/sleepycat/je/tree/IN;J)V	3
 <com.sleepycat.je.dbi.CursorImpl: void trace(java.util.logging.Level,java.lang.String,com.sleepycat.je.tree.BIN,com.sleepycat.je.tree.LN,int,long,long)>	trace	(java.util.logging.Level,java.lang.String,com.sleepycat.je.tree.BIN,com.sleepycat.je.tree.LN,int,long,long)	com.sleepycat.je.dbi.CursorImpl	void	(Ljava/util/logging/Level;Ljava/lang/String;Lcom/sleepycat/je/tree/BIN;Lcom/sleepycat/je/tree/LN;IJJ)V	7
@@ -2510,8 +2510,8 @@
 <com.sleepycat.je.recovery.RecoveryException: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String)	com.sleepycat.je.recovery.RecoveryException	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;Ljava/lang/String;)V	2
 <com.sleepycat.je.dbi.CursorImpl: void setAllowEviction(boolean)>	setAllowEviction	(boolean)	com.sleepycat.je.dbi.CursorImpl	void	(Z)V	1
 <com.sleepycat.je.tree.DBIN: java.lang.String dumpString(int,boolean)>	dumpString	(int,boolean)	com.sleepycat.je.tree.DBIN	java.lang.String	(IZ)Ljava/lang/String;	2
-<com.sleepycat.je.tree.INDupDeleteInfo: long getTransactionId()>	getTransactionId	()	com.sleepycat.je.tree.INDupDeleteInfo	long	()J	0
 <com.sleepycat.je.dbi.CursorImpl: void incrementLNCount()>	incrementLNCount	()	com.sleepycat.je.dbi.CursorImpl	void	()V	0
+<com.sleepycat.je.tree.INDupDeleteInfo: long getTransactionId()>	getTransactionId	()	com.sleepycat.je.tree.INDupDeleteInfo	long	()J	0
 <com.sleepycat.je.LockStats: void setNWaiters(int)>	setNWaiters	(int)	com.sleepycat.je.LockStats	void	(I)V	1
 <com.sleepycat.je.dbi.CursorImpl: void checkEnv()>	checkEnv	()	com.sleepycat.je.dbi.CursorImpl	void	()V	0
 <com.sleepycat.je.EnvironmentMutableConfig: void setTxnWriteNoSync(boolean)>	setTxnWriteNoSync	(boolean)	com.sleepycat.je.EnvironmentMutableConfig	void	(Z)V	1
@@ -2664,8 +2664,8 @@
 <com.sleepycat.je.log.FileReader: void copyToSaveBuffer(int)>	copyToSaveBuffer	(int)	com.sleepycat.je.log.FileReader	void	(I)V	1
 <java.lang.Integer: int parseInt(java.lang.String,int)>	parseInt	(java.lang.String,int)	java.lang.Integer	int	(Ljava/lang/String;I)I	2
 <com.sleepycat.je.tree.INDupDeleteInfo: int getLogSize()>	getLogSize	()	com.sleepycat.je.tree.INDupDeleteInfo	int	()I	0
-<java.nio.ByteBuffer: java.nio.Buffer clear()>	clear	()	java.nio.ByteBuffer	java.nio.Buffer	()Ljava/nio/Buffer;	0
 <java.util.List: int size()>	size	()	java.util.List	int	()I	0
+<java.nio.ByteBuffer: java.nio.Buffer clear()>	clear	()	java.nio.ByteBuffer	java.nio.Buffer	()Ljava/nio/Buffer;	0
 <com.sleepycat.je.log.entry.INContainingEntry: long getLsnOfIN(long)>	getLsnOfIN	(long)	com.sleepycat.je.log.entry.INContainingEntry	long	(J)J	1
 <com.sleepycat.je.recovery.Checkpointer: void trace(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String,boolean)>	trace	(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String,boolean)	com.sleepycat.je.recovery.Checkpointer	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;Ljava/lang/String;Z)V	3
 <com.sleepycat.je.LockStats: java.lang.String toString()>	toString	()	com.sleepycat.je.LockStats	java.lang.String	()Ljava/lang/String;	0
@@ -2794,8 +2794,8 @@
 <com.sleepycat.je.dbi.EnvironmentImpl: int invokeCleaner()>	invokeCleaner	()	com.sleepycat.je.dbi.EnvironmentImpl	int	()I	0
 <com.sleepycat.je.SequenceStats: long getMax()>	getMax	()	com.sleepycat.je.SequenceStats	long	()J	0
 <java.util.StringTokenizer: boolean hasMoreTokens()>	hasMoreTokens	()	java.util.StringTokenizer	boolean	()Z	0
-<com.sleepycat.je.config.ConfigParam: java.lang.String getName()>	getName	()	com.sleepycat.je.config.ConfigParam	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.log.CheckpointFileReader: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,int,boolean,long,long,long)>	<init>	(com.sleepycat.je.dbi.EnvironmentImpl,int,boolean,long,long,long)	com.sleepycat.je.log.CheckpointFileReader	void	(Lcom/sleepycat/je/dbi/EnvironmentImpl;IZJJJ)V	6
+<com.sleepycat.je.config.ConfigParam: java.lang.String getName()>	getName	()	com.sleepycat.je.config.ConfigParam	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.txn.LockManager: boolean isOwner(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType)>	isOwner	(java.lang.Long,com.sleepycat.je.txn.Locker,com.sleepycat.je.txn.LockType)	com.sleepycat.je.txn.LockManager	boolean	(Ljava/lang/Long;Lcom/sleepycat/je/txn/Locker;Lcom/sleepycat/je/txn/LockType;)Z	3
 <com.sleepycat.je.txn.LockManager: int nWaitersInternal(java.lang.Long,int)>	nWaitersInternal	(java.lang.Long,int)	com.sleepycat.je.txn.LockManager	int	(Ljava/lang/Long;I)I	2
 <com.sleepycat.je.utilint.DbScavenger$ScavengerFileReader2: void processEntryCallback(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)>	processEntryCallback	(com.sleepycat.je.log.entry.LogEntry,com.sleepycat.je.log.LogEntryType)	com.sleepycat.je.utilint.DbScavenger$ScavengerFileReader2	void	(Lcom/sleepycat/je/log/entry/LogEntry;Lcom/sleepycat/je/log/LogEntryType;)V	2
@@ -2810,8 +2810,8 @@
 <com.sleepycat.je.dbi.DatabaseImpl$ObsoleteProcessor: void processLSN(long,com.sleepycat.je.log.LogEntryType)>	processLSN	(long,com.sleepycat.je.log.LogEntryType)	com.sleepycat.je.dbi.DatabaseImpl$ObsoleteProcessor	void	(JLcom/sleepycat/je/log/LogEntryType;)V	2
 <com.sleepycat.je.util.DbSpace$Summary: int compareTo(java.lang.Object)>	compareTo	(java.lang.Object)	com.sleepycat.je.util.DbSpace$Summary	int	(Ljava/lang/Object;)I	1
 <com.sleepycat.je.cleaner.Cleaner: void migrateLN(com.sleepycat.je.dbi.DatabaseImpl,long,com.sleepycat.je.tree.BIN,int,boolean,boolean,long,java.lang.String)>	migrateLN	(com.sleepycat.je.dbi.DatabaseImpl,long,com.sleepycat.je.tree.BIN,int,boolean,boolean,long,java.lang.String)	com.sleepycat.je.cleaner.Cleaner	void	(Lcom/sleepycat/je/dbi/DatabaseImpl;JLcom/sleepycat/je/tree/BIN;IZZJLjava/lang/String;)V	8
-<com.sleepycat.je.txn.WriteLockInfo: boolean getAbortKnownDeleted()>	getAbortKnownDeleted	()	com.sleepycat.je.txn.WriteLockInfo	boolean	()Z	0
 <com.sleepycat.je.tree.Tree$SearchType: void <clinit>()>	<clinit>	()	com.sleepycat.je.tree.Tree$SearchType	void	()V	0
+<com.sleepycat.je.txn.WriteLockInfo: boolean getAbortKnownDeleted()>	getAbortKnownDeleted	()	com.sleepycat.je.txn.WriteLockInfo	boolean	()Z	0
 <java.nio.ByteBuffer: int arrayOffset()>	arrayOffset	()	java.nio.ByteBuffer	int	()I	0
 <com.sleepycat.je.EnvironmentMutableConfig: java.lang.String getVal(com.sleepycat.je.config.ConfigParam)>	getVal	(com.sleepycat.je.config.ConfigParam)	com.sleepycat.je.EnvironmentMutableConfig	java.lang.String	(Lcom/sleepycat/je/config/ConfigParam;)Ljava/lang/String;	1
 <com.sleepycat.je.tree.DeltaInfo: int getLogSize()>	getLogSize	()	com.sleepycat.je.tree.DeltaInfo	int	()I	0
@@ -2903,8 +2903,8 @@
 <java.util.SortedMap: java.lang.Object firstKey()>	firstKey	()	java.util.SortedMap	java.lang.Object	()Ljava/lang/Object;	0
 <com.sleepycat.je.utilint.DbScavenger: java.io.PrintStream getOutputStream(java.lang.Integer)>	getOutputStream	(java.lang.Integer)	com.sleepycat.je.utilint.DbScavenger	java.io.PrintStream	(Ljava/lang/Integer;)Ljava/io/PrintStream;	1
 <java.lang.Character: int digit(char,int)>	digit	(char,int)	java.lang.Character	int	(CI)I	2
-<com.sleepycat.je.Environment: long truncateDatabase(com.sleepycat.je.Transaction,java.lang.String,boolean)>	truncateDatabase	(com.sleepycat.je.Transaction,java.lang.String,boolean)	com.sleepycat.je.Environment	long	(Lcom/sleepycat/je/Transaction;Ljava/lang/String;Z)J	3
 <java.util.ArrayList: boolean add(java.lang.Object)>	add	(java.lang.Object)	java.util.ArrayList	boolean	(Ljava/lang/Object;)Z	1
+<com.sleepycat.je.Environment: long truncateDatabase(com.sleepycat.je.Transaction,java.lang.String,boolean)>	truncateDatabase	(com.sleepycat.je.Transaction,java.lang.String,boolean)	com.sleepycat.je.Environment	long	(Lcom/sleepycat/je/Transaction;Ljava/lang/String;Z)J	3
 <com.sleepycat.je.tree.LN: void writeToLog(java.nio.ByteBuffer)>	writeToLog	(java.nio.ByteBuffer)	com.sleepycat.je.tree.LN	void	(Ljava/nio/ByteBuffer;)V	1
 <com.sleepycat.je.config.LongConfigParam: java.lang.String getExtraDescription()>	getExtraDescription	()	com.sleepycat.je.config.LongConfigParam	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.log.LatchedLogManager: void countObsoleteNode(long,com.sleepycat.je.log.LogEntryType)>	countObsoleteNode	(long,com.sleepycat.je.log.LogEntryType)	com.sleepycat.je.log.LatchedLogManager	void	(JLcom/sleepycat/je/log/LogEntryType;)V	2
@@ -3149,8 +3149,8 @@
 <com.sleepycat.je.tree.TrackingInfo: java.lang.String toString()>	toString	()	com.sleepycat.je.tree.TrackingInfo	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.utilint.EventTrace$ExceptionEventTrace: java.lang.String toString()>	toString	()	com.sleepycat.je.utilint.EventTrace$ExceptionEventTrace	java.lang.String	()Ljava/lang/String;	0
 <com.sleepycat.je.recovery.RecoveryInfo: void <init>()>	<init>	()	com.sleepycat.je.recovery.RecoveryInfo	void	()V	0
-<com.sleepycat.je.util.DbDump: void <clinit>()>	<clinit>	()	com.sleepycat.je.util.DbDump	void	()V	0
 <com.sleepycat.je.config.ConfigParam: java.lang.String getDescription()>	getDescription	()	com.sleepycat.je.config.ConfigParam	java.lang.String	()Ljava/lang/String;	0
+<com.sleepycat.je.util.DbDump: void <clinit>()>	<clinit>	()	com.sleepycat.je.util.DbDump	void	()V	0
 <com.sleepycat.je.SecondaryCursor: com.sleepycat.je.OperationStatus search(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,com.sleepycat.je.dbi.CursorImpl$SearchMode)>	search	(com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.DatabaseEntry,com.sleepycat.je.LockMode,com.sleepycat.je.dbi.CursorImpl$SearchMode)	com.sleepycat.je.SecondaryCursor	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/DatabaseEntry;Lcom/sleepycat/je/LockMode;Lcom/sleepycat/je/dbi/CursorImpl$SearchMode;)Lcom/sleepycat/je/OperationStatus;	5
 <com.sleepycat.je.tree.Tree: void <clinit>()>	<clinit>	()	com.sleepycat.je.tree.Tree	void	()V	0
 <com.sleepycat.je.util.DbCacheSize$1: void run()>	run	()	com.sleepycat.je.util.DbCacheSize$1	void	()V	0
@@ -3214,8 +3214,8 @@
 <com.sleepycat.je.txn.Locker: com.sleepycat.je.txn.LockResult nonBlockingLock(long,com.sleepycat.je.txn.LockType,com.sleepycat.je.dbi.DatabaseImpl)>	nonBlockingLock	(long,com.sleepycat.je.txn.LockType,com.sleepycat.je.dbi.DatabaseImpl)	com.sleepycat.je.txn.Locker	com.sleepycat.je.txn.LockResult	(JLcom/sleepycat/je/txn/LockType;Lcom/sleepycat/je/dbi/DatabaseImpl;)Lcom/sleepycat/je/txn/LockResult;	3
 <com.sleepycat.je.log.CheckpointMonitor: boolean recordLogWrite(int,com.sleepycat.je.log.LoggableObject)>	recordLogWrite	(int,com.sleepycat.je.log.LoggableObject)	com.sleepycat.je.log.CheckpointMonitor	boolean	(ILcom/sleepycat/je/log/LoggableObject;)Z	2
 <com.sleepycat.je.tree.IN: com.sleepycat.je.tree.Node getTarget(int)>	getTarget	(int)	com.sleepycat.je.tree.IN	com.sleepycat.je.tree.Node	(I)Lcom/sleepycat/je/tree/Node;	1
-<com.sleepycat.je.tree.IN: long getEntryInMemorySize(int)>	getEntryInMemorySize	(int)	com.sleepycat.je.tree.IN	long	(I)J	1
 <com.sleepycat.je.log.INFileReader: com.sleepycat.je.tree.IN getIN()>	getIN	()	com.sleepycat.je.log.INFileReader	com.sleepycat.je.tree.IN	()Lcom/sleepycat/je/tree/IN;	0
+<com.sleepycat.je.tree.IN: long getEntryInMemorySize(int)>	getEntryInMemorySize	(int)	com.sleepycat.je.tree.IN	long	(I)J	1
 <java.lang.Byte: void <init>(byte)>	<init>	(byte)	java.lang.Byte	void	(B)V	1
 <com.sleepycat.je.log.FileManager: void deleteFile(long)>	deleteFile	(long)	com.sleepycat.je.log.FileManager	void	(J)V	1
 <com.sleepycat.je.latch.LatchSupport: void clearNotes()>	clearNotes	()	com.sleepycat.je.latch.LatchSupport	void	()V	0
@@ -3419,8 +3419,8 @@
 <com.sleepycat.je.Database: com.sleepycat.je.OperationStatus delete(com.sleepycat.je.Transaction,com.sleepycat.je.DatabaseEntry)>	delete	(com.sleepycat.je.Transaction,com.sleepycat.je.DatabaseEntry)	com.sleepycat.je.Database	com.sleepycat.je.OperationStatus	(Lcom/sleepycat/je/Transaction;Lcom/sleepycat/je/DatabaseEntry;)Lcom/sleepycat/je/OperationStatus;	2
 <com.sleepycat.je.dbi.EnvironmentImpl: com.sleepycat.je.dbi.DatabaseImpl createDb(com.sleepycat.je.txn.Locker,java.lang.String,com.sleepycat.je.DatabaseConfig,com.sleepycat.je.Database)>	createDb	(com.sleepycat.je.txn.Locker,java.lang.String,com.sleepycat.je.DatabaseConfig,com.sleepycat.je.Database)	com.sleepycat.je.dbi.EnvironmentImpl	com.sleepycat.je.dbi.DatabaseImpl	(Lcom/sleepycat/je/txn/Locker;Ljava/lang/String;Lcom/sleepycat/je/DatabaseConfig;Lcom/sleepycat/je/Database;)Lcom/sleepycat/je/dbi/DatabaseImpl;	4
 <com.sleepycat.je.log.LogUtils: void writeXid(java.nio.ByteBuffer,javax.transaction.xa.Xid)>	writeXid	(java.nio.ByteBuffer,javax.transaction.xa.Xid)	com.sleepycat.je.log.LogUtils	void	(Ljava/nio/ByteBuffer;Ljavax/transaction/xa/Xid;)V	2
-<java.util.Random: void <init>(long)>	<init>	(long)	java.util.Random	void	(J)V	1
 <com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.DBIN getFirstNode(com.sleepycat.je.tree.DIN)>	getFirstNode	(com.sleepycat.je.tree.DIN)	com.sleepycat.je.tree.Tree	com.sleepycat.je.tree.DBIN	(Lcom/sleepycat/je/tree/DIN;)Lcom/sleepycat/je/tree/DBIN;	1
+<java.util.Random: void <init>(long)>	<init>	(long)	java.util.Random	void	(J)V	1
 <com.sleepycat.je.tree.IN: void setProhibitNextDelta()>	setProhibitNextDelta	()	com.sleepycat.je.tree.IN	void	()V	0
 <com.sleepycat.je.tree.IN: int getFileOffset(int)>	getFileOffset	(int)	com.sleepycat.je.tree.IN	int	(I)I	1
 <com.sleepycat.je.log.LNFileReader: javax.transaction.xa.Xid getTxnPrepareXid()>	getTxnPrepareXid	()	com.sleepycat.je.log.LNFileReader	javax.transaction.xa.Xid	()Ljavax/transaction/xa/Xid;	0
@@ -3833,8 +3833,8 @@
 <com.sleepycat.je.txn.Locker: boolean isSerializableIsolation()>	isSerializableIsolation	()	com.sleepycat.je.txn.Locker	boolean	()Z	0
 <com.sleepycat.je.latch.LatchSupport: void <clinit>()>	<clinit>	()	com.sleepycat.je.latch.LatchSupport	void	()V	0
 <java.io.PrintStream: void println()>	println	()	java.io.PrintStream	void	()V	0
-<com.sleepycat.je.TransactionStats$Active: long getId()>	getId	()	com.sleepycat.je.TransactionStats$Active	long	()J	0
 <com.sleepycat.je.ForeignKeyNullifier: boolean nullifyForeignKey(com.sleepycat.je.SecondaryDatabase,com.sleepycat.je.DatabaseEntry)>	nullifyForeignKey	(com.sleepycat.je.SecondaryDatabase,com.sleepycat.je.DatabaseEntry)	com.sleepycat.je.ForeignKeyNullifier	boolean	(Lcom/sleepycat/je/SecondaryDatabase;Lcom/sleepycat/je/DatabaseEntry;)Z	2
+<com.sleepycat.je.TransactionStats$Active: long getId()>	getId	()	com.sleepycat.je.TransactionStats$Active	long	()J	0
 <com.sleepycat.je.dbi.EnvironmentImpl: com.sleepycat.je.latch.SharedLatch getTriggerLatch()>	getTriggerLatch	()	com.sleepycat.je.dbi.EnvironmentImpl	com.sleepycat.je.latch.SharedLatch	()Lcom/sleepycat/je/latch/SharedLatch;	0
 <com.sleepycat.je.tree.DBIN: java.util.Comparator getKeyComparator()>	getKeyComparator	()	com.sleepycat.je.tree.DBIN	java.util.Comparator	()Ljava/util/Comparator;	0
 <com.sleepycat.je.PreloadStats: void setNDupCountLNsLoaded(int)>	setNDupCountLNsLoaded	(int)	com.sleepycat.je.PreloadStats	void	(I)V	1

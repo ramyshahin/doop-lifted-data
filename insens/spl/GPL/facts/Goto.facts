@@ -3,12 +3,12 @@
 <Graph: Graph kruskal()>/goto/instruction128	128	141	<Graph: Graph kruskal()>	@MSTKruskal
 <Vertex: void nodeSearch(WorkSpace)>/goto/instruction31	31	39	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Main: void main(java.lang.String[])>/goto/instruction80	80	83	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
-<Vertex: void nodeSearch(WorkSpace)>/goto/instruction20	20	26	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Graph: void graphSearch(WorkSpace)>/goto/instruction14	14	20	<Graph: void graphSearch(WorkSpace)>	@SearchBase
+<Vertex: void nodeSearch(WorkSpace)>/goto/instruction20	20	26	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Vertex: void nodeSearch(WorkSpace)>/goto/instruction10	10	14	<Vertex: void nodeSearch(WorkSpace)>	@DFS /\ SearchBase
 <Graph: void display()>/goto/instruction27	27	30	<Graph: void display()>	@GEN_Edges
-<Graph: Graph kruskal()>/goto/instruction6	6	12	<Graph: Graph kruskal()>	@MSTKruskal
 <Main: void main(java.lang.String[])>/goto/instruction74	74	77	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Graph: Graph kruskal()>/goto/instruction6	6	12	<Graph: Graph kruskal()>	@MSTKruskal
 <Graph: Graph kruskal()>/goto/instruction69	69	96	<Graph: Graph kruskal()>	@MSTKruskal
 <Vertex: void display()>/goto/instruction98	98	109	<Vertex: void display()>	@MSTKruskal
 <Main: void main(java.lang.String[])>/goto/instruction8	8	11	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
@@ -30,11 +30,11 @@
 <Main: void main(java.lang.String[])>/goto/instruction18	18	25	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: int readNumber()>/goto/instruction13	13	20	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
 <Graph: int readNumber()>/goto/instruction7	7	10	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
-<Vertex: void display()>/goto/instruction6	6	19	<Vertex: void display()>	@Weighted /\ G_NoEdges
 <Graph: Graph prim(Vertex)>/goto/instruction103	103	110	<Graph: Graph prim(Vertex)>	@MSTPrim
+<Vertex: void display()>/goto/instruction6	6	19	<Vertex: void display()>	@Weighted /\ G_NoEdges
 <Vertex: void display()>/goto/instruction51	51	55	<Vertex: void display()>	@SearchBase
+<Main: void main(java.lang.String[])>/goto/instruction37	37	52	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: Vertex findsVertex(java.lang.String)>/goto/instruction7	7	13	<Graph: Vertex findsVertex(java.lang.String)>
 <Graph: Graph prim(Vertex)>/goto/instruction5	5	11	<Graph: Graph prim(Vertex)>	@MSTPrim
-<Main: void main(java.lang.String[])>/goto/instruction37	37	52	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/goto/instruction6	6	26	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: void display()>/goto/instruction9	9	15	<Graph: void display()>

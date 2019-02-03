@@ -373,8 +373,8 @@
 <org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	configureJournalSerializer	(org.prevayler.foundation.serialization.XStreamSerializer)	org.prevayler.PrevaylerFactory	void	(Lorg/prevayler/foundation/serialization/XStreamSerializer;)V	1
 <org.prevayler.foundation.monitor.SimpleMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>	error	(java.lang.Class,java.lang.String,java.lang.Exception)	org.prevayler.foundation.monitor.SimpleMonitor	void	(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Exception;)V	3	@Monitor
 <java.lang.String: int hashCode()>	hashCode	()	java.lang.String	int	()I	0
-<javax.swing.JInternalFrame: void dispose()>	dispose	()	javax.swing.JInternalFrame	void	()V	0
 <org.prevayler.demos.scalability.Main: boolean isPrevaylerQueryChosen()>	isPrevaylerQueryChosen	()	org.prevayler.demos.scalability.Main	boolean	()Z	0
+<javax.swing.JInternalFrame: void dispose()>	dispose	()	javax.swing.JInternalFrame	void	()V	0
 <org.prevayler.demos.demo2.business.transactions.HolderChange: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>	executeAndQuery	(org.prevayler.demos.demo2.business.Account,java.util.Date)	org.prevayler.demos.demo2.business.transactions.HolderChange	void	(Lorg/prevayler/demos/demo2/business/Account;Ljava/util/Date;)V	2
 <java.text.DecimalFormat: java.lang.String format(double)>	format	(double)	java.text.DecimalFormat	java.lang.String	(D)Ljava/lang/String;	1
 <java.lang.Exception: java.lang.String getMessage()>	getMessage	()	java.lang.Exception	java.lang.String	()Ljava/lang/String;	0
@@ -470,8 +470,8 @@
 <org.prevayler.implementation.TransactionCapsule: void justExecute(java.lang.Object,java.lang.Object,java.util.Date)>	justExecute	(java.lang.Object,java.lang.Object,java.util.Date)	org.prevayler.implementation.TransactionCapsule	void	(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Date;)V	3
 <java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>	valueOf	(java.lang.String)	java.lang.Boolean	java.lang.Boolean	(Ljava/lang/String;)Ljava/lang/Boolean;	1
 <java.io.ByteArrayOutputStream: void <init>()>	<init>	()	java.io.ByteArrayOutputStream	void	()V	0
-<java.net.Socket: java.io.InputStream getInputStream()>	getInputStream	()	java.net.Socket	java.io.InputStream	()Ljava/io/InputStream;	0
 <java.io.BufferedInputStream: void <init>(java.io.InputStream)>	<init>	(java.io.InputStream)	java.io.BufferedInputStream	void	(Ljava/io/InputStream;)V	1
+<java.net.Socket: java.io.InputStream getInputStream()>	getInputStream	()	java.net.Socket	java.io.InputStream	()Ljava/io/InputStream;	0
 <org.prevayler.demos.scalability.Record: java.math.BigDecimal getBigDecimal2()>	getBigDecimal2	()	org.prevayler.demos.scalability.Record	java.math.BigDecimal	()Ljava/math/BigDecimal;	0
 <org.prevayler.implementation.TransactionGuide: java.util.Date executionTime()>	executionTime	()	org.prevayler.implementation.TransactionGuide	java.util.Date	()Ljava/util/Date;	0
 <org.prevayler.implementation.clock.PausableClock: java.util.Date time()>	time	()	org.prevayler.implementation.clock.PausableClock	java.util.Date	()Ljava/util/Date;	0
@@ -576,11 +576,11 @@
 <org.prevayler.foundation.Chunk: java.util.Map getParameters()>	getParameters	()	org.prevayler.foundation.Chunk	java.util.Map	()Ljava/util/Map;	0
 <org.prevayler.PrevaylerFactory: java.lang.Object prevalentSystem()>	prevalentSystem	()	org.prevayler.PrevaylerFactory	java.lang.Object	()Ljava/lang/Object;	0
 <org.prevayler.foundation.Cool: void unexpected(java.lang.Exception)>	unexpected	(java.lang.Exception)	org.prevayler.foundation.Cool	void	(Ljava/lang/Exception;)V	1
-<java.lang.Error: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.Error	void	(Ljava/lang/String;)V	1
 <org.prevayler.implementation.TransactionWithQueryCapsule: org.prevayler.implementation.Capsule cleanCopy()>	cleanCopy	()	org.prevayler.implementation.TransactionWithQueryCapsule	org.prevayler.implementation.Capsule	()Lorg/prevayler/implementation/Capsule;	0
+<java.lang.Error: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.Error	void	(Ljava/lang/String;)V	1
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(byte[])>	write	(byte[])	org.prevayler.foundation.gzip.NonCloseableOutputStream	void	([B)V	1	@GZip
-<java.util.ArrayList: void <init>(java.util.Collection)>	<init>	(java.util.Collection)	java.util.ArrayList	void	(Ljava/util/Collection;)V	1
 <java.util.zip.GZIPInputStream: int read(byte[],int,int)>	read	(byte[],int,int)	java.util.zip.GZIPInputStream	int	([BII)I	3
+<java.util.ArrayList: void <init>(java.util.Collection)>	<init>	(java.util.Collection)	java.util.ArrayList	void	(Ljava/util/Collection;)V	1
 <org.prevayler.implementation.publishing.CentralPublisher: void close()>	close	()	org.prevayler.implementation.publishing.CentralPublisher	void	()V	0
 <javax.swing.Box: java.awt.Component add(java.awt.Component)>	add	(java.awt.Component)	javax.swing.Box	java.awt.Component	(Ljava/awt/Component;)Ljava/awt/Component;	1
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.ObjectReceiver)>	<init>	(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.ObjectReceiver)	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	void	(Lorg/prevayler/foundation/network/ObjectSocket;Lorg/prevayler/foundation/network/ObjectReceiver;)V	2
@@ -597,8 +597,8 @@
 <org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void action()>	action	()	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction	void	()V	0
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(int)>	write	(int)	org.prevayler.foundation.gzip.NonCloseableOutputStream	void	(I)V	1	@GZip
 <org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp cleanCopy()>	cleanCopy	()	org.prevayler.implementation.TransactionTimestamp	org.prevayler.implementation.TransactionTimestamp	()Lorg/prevayler/implementation/TransactionTimestamp;	0
-<java.util.Set: boolean add(java.lang.Object)>	add	(java.lang.Object)	java.util.Set	boolean	(Ljava/lang/Object;)Z	1
 <org.prevayler.foundation.Chunk: java.lang.String getParameter(java.lang.String)>	getParameter	(java.lang.String)	org.prevayler.foundation.Chunk	java.lang.String	(Ljava/lang/String;)Ljava/lang/String;	1
+<java.util.Set: boolean add(java.lang.Object)>	add	(java.lang.Object)	java.util.Set	boolean	(Ljava/lang/Object;)Z	1
 <org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>	<init>	(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)	org.prevayler.demos.scalability.ScalabilityTestRun	void	(Lorg/prevayler/demos/scalability/ScalabilityTestSubject;III)V	4
 <org.prevayler.implementation.PrevaylerDirectory: void <init>(java.lang.String)>	<init>	(java.lang.String)	org.prevayler.implementation.PrevaylerDirectory	void	(Ljava/lang/String;)V	1
 <org.prevayler.foundation.DurableOutputStream: int fileSyncCount()>	fileSyncCount	()	org.prevayler.foundation.DurableOutputStream	int	()I	0
@@ -757,8 +757,8 @@
 <org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void <init>(java.lang.String,java.lang.String)>	<init>	(java.lang.String,java.lang.String)	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject	void	(Ljava/lang/String;Ljava/lang/String;)V	2
 <org.prevayler.demos.scalability.Main: java.lang.String jdbcPassword()>	jdbcPassword	()	org.prevayler.demos.scalability.Main	java.lang.String	()Ljava/lang/String;	0
 <org.prevayler.implementation.PrevaylerDirectory: long snapshotVersion(java.io.File)>	snapshotVersion	(java.io.File)	org.prevayler.implementation.PrevaylerDirectory	long	(Ljava/io/File;)J	1
-<org.prevayler.demos.demo1.PrimeCalculator: boolean isPrime(int)>	isPrime	(int)	org.prevayler.demos.demo1.PrimeCalculator	boolean	(I)Z	1
 <org.prevayler.foundation.network.StubbornServerReceiverImpl: org.prevayler.foundation.network.StubbornNetworkProxy establishNewSession()>	establishNewSession	()	org.prevayler.foundation.network.StubbornServerReceiverImpl	org.prevayler.foundation.network.StubbornNetworkProxy	()Lorg/prevayler/foundation/network/StubbornNetworkProxy;	0	@Replication
+<org.prevayler.demos.demo1.PrimeCalculator: boolean isPrime(int)>	isPrime	(int)	org.prevayler.demos.demo1.PrimeCalculator	boolean	(I)Z	1
 <org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>	checkSystemVersion	(long)	org.prevayler.implementation.TransactionGuide	void	(J)V	1
 <org.prevayler.demos.scalability.TransactionTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>	<init>	(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)	org.prevayler.demos.scalability.TransactionTestRun	void	(Lorg/prevayler/demos/scalability/ScalabilityTestSubject;III)V	4
 <org.prevayler.implementation.PrevaylerDirectory: java.io.File journalFile(long,java.lang.String)>	journalFile	(long,java.lang.String)	org.prevayler.implementation.PrevaylerDirectory	java.io.File	(JLjava/lang/String;)Ljava/io/File;	2
@@ -795,8 +795,8 @@
 <org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String)>	<init>	(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String)	org.prevayler.implementation.journal.PersistentJournal	void	(Lorg/prevayler/implementation/PrevaylerDirectory;JJLjava/lang/String;)V	4
 <org.prevayler.implementation.replication.ServerConnection$1: void run()>	run	()	org.prevayler.implementation.replication.ServerConnection$1	void	()V	0	@Replication
 <java.util.StringTokenizer: boolean hasMoreTokens()>	hasMoreTokens	()	java.util.StringTokenizer	boolean	()Z	0
-<org.prevayler.implementation.replication.ClientPublisher: void notifyMyTransactionMonitor()>	notifyMyTransactionMonitor	()	org.prevayler.implementation.replication.ClientPublisher	void	()V	0	@Replication
 <org.prevayler.foundation.gzip.ContinuableGZIPInputStream: void <init>(java.io.InputStream)>	<init>	(java.io.InputStream)	org.prevayler.foundation.gzip.ContinuableGZIPInputStream	void	(Ljava/io/InputStream;)V	1	@GZip
+<org.prevayler.implementation.replication.ClientPublisher: void notifyMyTransactionMonitor()>	notifyMyTransactionMonitor	()	org.prevayler.implementation.replication.ClientPublisher	void	()V	0	@Replication
 <java.util.Map: java.util.Collection values()>	values	()	java.util.Map	java.util.Collection	()Ljava/util/Collection;	0
 <org.prevayler.foundation.serialization.XStreamSerializer$1: java.lang.Object initialValue()>	initialValue	()	org.prevayler.foundation.serialization.XStreamSerializer$1	java.lang.Object	()Ljava/lang/Object;	0
 <org.prevayler.implementation.journal.Journal: void close()>	close	()	org.prevayler.implementation.journal.Journal	void	()V	0
@@ -1041,8 +1041,8 @@
 <org.prevayler.demos.demo2.business.Account$InvalidHolder: void <init>(org.prevayler.demos.demo2.business.Account)>	<init>	(org.prevayler.demos.demo2.business.Account)	org.prevayler.demos.demo2.business.Account$InvalidHolder	void	(Lorg/prevayler/demos/demo2/business/Account;)V	1
 <org.prevayler.demos.scalability.prevayler.TransactionSystem: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>	performTransaction	(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)	org.prevayler.demos.scalability.prevayler.TransactionSystem	void	(Lorg/prevayler/demos/scalability/Record;Lorg/prevayler/demos/scalability/Record;J)V	3
 <org.prevayler.demos.scalability.prevayler.TransactionSystem: void <init>()>	<init>	()	org.prevayler.demos.scalability.prevayler.TransactionSystem	void	()V	0
-<org.prevayler.foundation.Cool: void sleep(long)>	sleep	(long)	org.prevayler.foundation.Cool	void	(J)V	1
 <org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>	listeners	()	org.prevayler.demos.demo2.business.Account	java.util.Set	()Ljava/util/Set;	0
+<org.prevayler.foundation.Cool: void sleep(long)>	sleep	(long)	org.prevayler.foundation.Cool	void	(J)V	1
 <org.prevayler.implementation.replication.ClientPublisher: org.prevayler.Clock clock()>	clock	()	org.prevayler.implementation.replication.ClientPublisher	org.prevayler.Clock	()Lorg/prevayler/Clock;	0	@Replication
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void receive(java.lang.Object)>	receive	(java.lang.Object)	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	void	(Ljava/lang/Object;)V	1	@Replication
 <org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>	<init>	(java.net.Socket)	org.prevayler.foundation.network.ObjectSocketImpl	void	(Ljava/net/Socket;)V	1
@@ -1119,8 +1119,8 @@
 <java.lang.StringBuilder: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.StringBuilder	void	(Ljava/lang/String;)V	1
 <org.prevayler.foundation.network.StubbornServerReceiverImpl: void disconnect()>	disconnect	()	org.prevayler.foundation.network.StubbornServerReceiverImpl	void	()V	0	@Replication
 <java.io.PipedOutputStream: void close()>	close	()	java.io.PipedOutputStream	void	()V	0
-<java.io.File: java.lang.String getCanonicalPath()>	getCanonicalPath	()	java.io.File	java.lang.String	()Ljava/lang/String;	0
 <java.util.Set: java.util.Iterator iterator()>	iterator	()	java.util.Set	java.util.Iterator	()Ljava/util/Iterator;	0
+<java.io.File: java.lang.String getCanonicalPath()>	getCanonicalPath	()	java.io.File	java.lang.String	()Ljava/lang/String;	0
 <org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void shutdown()>	shutdown	()	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	void	()V	0	@Replication
 <org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void addLine(java.lang.String)>	addLine	(java.lang.String)	org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame	void	(Ljava/lang/String;)V	1
 <org.prevayler.implementation.publishing.CentralPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>	subscribe	(org.prevayler.implementation.publishing.TransactionSubscriber,long)	org.prevayler.implementation.publishing.CentralPublisher	void	(Lorg/prevayler/implementation/publishing/TransactionSubscriber;J)V	2

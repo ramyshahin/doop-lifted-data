@@ -13,12 +13,12 @@ Cannot find suitable mechanism for authentication
 ,
 -
 /
-<<\\"Invalid itemList pos: \\">>
 0
+<<\\"Invalid itemList pos: \\">>
 1
 size
-7
 <<\\"\' \\">>
+7
 :
 <
 >
@@ -46,8 +46,8 @@ y
 >>:
 {
 1.0.2
-\\"1.0.2\\"
 Press right key
+\\"1.0.2\\"
 /transport/icq.png
 Loading Lampiro...
 POST
@@ -100,11 +100,11 @@ jabber:iq:roster
 entity replacement text must be defined after setInput!
 Jabber Server
 urn:xmpp:delay
-\\"jabber:x:listo\\"
 <<\\"(empty) \\">>
+\\"jabber:x:listo\\"
 Press left key
-\\"instructions\\"
 serverEl
+\\"instructions\\"
 &apos;
 gws
 muc#roomconfig_persistentroom
@@ -185,8 +185,8 @@ unknown
 (whitespace)
 bad jid
 <username>
-\\"list-multi\\"
 attr name expected
+\\"list-multi\\"
 capture://audio?encoding=
 cannot bind resource
 \\"2\\"
@@ -271,12 +271,12 @@ jid-single
 field
 oversubscribed literal/length tree
 status
-muc#roomconfig_enablelogging
 \\"executing\\"
+muc#roomconfig_enablelogging
 unknown compression method
 file
-\\"status\\"
 Can\'t open URL:
+\\"status\\"
 http://jabber.org/features/iq-register
 This is a very long string that is not wrapped and hence SHOULD finish with thre full stops!!!!
 md5
@@ -307,8 +307,8 @@ sessionid
 qop
 session-accept
 execute
-<<\\"sel: \\">>
 http://jabber.org/protocol/si/profile/file-transfer
+<<\\"sel: \\">>
 \\"set\\"
 Resource Manager Error
 incomplete literal/length tree
@@ -340,8 +340,8 @@ my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
 common
-\\"text-private\\"
 \\\"
+\\"text-private\\"
 layout
 This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
 Can\'t read resources:\n
@@ -351,8 +351,8 @@ Task error
 |-)
 &gt;
 var
-:(
 version expected
+:(
 :)
 :*
 muc#roomconfig_changesubject
@@ -366,11 +366,11 @@ http://jabber.org/protocol/rosterx
 ;)
 nick
 :O
-:P
 identity
+:P
 urn:ietf:params:xml:ns:xmpp-sasl
-</{
 Error:
+</{
 :d
 </
 :o
@@ -390,13 +390,13 @@ stream error
 http://www.w3.org/XML/1998/namespace
 \\"show\\"
 img
-error
 Lampiro (http://lampiro.bluendo.com)
+error
 muc#roomconfig_publicroom
 value
 <!--
-o:)
 ?>
+o:)
 xmldecl-standalone
 buffer error
 Service unavailable
@@ -424,8 +424,8 @@ instructions
 Cannot authenticate
 j2me
 <<\\"Attr.value missing f. \\">>
-finish
 oversubscribed distance tree
+finish
 ]]>
 \\"to\\"
 Cannot set default namespace for elements in no namespace
@@ -437,8 +437,8 @@ feature-not-implemented
 \\"socket://localhost:10080\\"
 FN
 /icons/empty_avatar.png
-ABOUT
 \\"error\\"
+ABOUT
 E-mail:
 cipher
 label
@@ -514,8 +514,8 @@ data error
 mechanism
 <<\\"Menu Item \\">>
 \\"prompt\\"
-unsubscribed
 Registration required
+unsubscribed
 apos
 http://jabber.org/protocol/caps
 name expected
@@ -537,13 +537,13 @@ Cannot registrate
 name
 _11
 _10
-_13
 next
+_13
 _12
 _15
 _14
-hidden
 submit
+hidden
 _16
 Yes
 show
@@ -554,20 +554,20 @@ caps
 vcard-temp:x:update
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
-\\"headline\\"
 An error occurred while executing the task
+\\"headline\\"
 wav
 Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-http://www.w3.org/2000/xmlns/
 subscribed
+http://www.w3.org/2000/xmlns/
 Error creating account
 text-private
 item
-Login
 <<\\"<?xml version=\'1.0\' \\">>
+Login
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -588,8 +588,8 @@ muc#roomconfig_allowinvites
 http://bluendo.com/midp#platform
 \\"jabber:iq:register\\"
 muc#roomconfig_roomsecret
-\n
 \\"http://services.bluendo.com/srv/?domain=\\"
+\n
 preprocess.symbols
 \t
 \\"unsubscribe\\"
@@ -606,8 +606,8 @@ Message
 <<\\"Contains d: \\">>
 relaxed
 :\'(
-\\"title\\"
 emo:):(eheh:Obene
+\\"title\\"
 invalid distance code
 PI must not start with xml
 album
@@ -646,15 +646,15 @@ sid
 client
 /transport/yahoo.png
 incomplete distance tree
-invalid maxValue for non interactive mode
 false
+invalid maxValue for non interactive mode
 gt
 gw
 form
 500
 501
-Connection with the server lost
 503
+Connection with the server lost
 realm
 prompt
 \\"subject\\"
@@ -686,8 +686,8 @@ complete
 bmp
 auth
 lt
-Logging in...
 text-single
+Logging in...
 urn:xmpp:jingle:0
 \\"presence\\"
 /icons/lab.png
@@ -761,8 +761,8 @@ feature
 get
 combo3
 combo2
-:-/
 combo1
+:-/
 :-@
 Unsupported method
 Lampiro
@@ -776,14 +776,14 @@ resource
 Email=
 muc#roomconfig_roomdesc
 Feature not implemented
-send
 <<\\"Lampiro \\">>
+send
 Config Error
 *******
 O:)
 note
-list-multi
 \\"1\\"
+list-multi
 Screen
 bluendo:bxmlrpc:0
 Available/Total memory:

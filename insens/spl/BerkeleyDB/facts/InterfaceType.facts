@@ -1,8 +1,8 @@
 com.sleepycat.je.ForeignKeyNullifier
 com.sleepycat.je.log.LogWritable
 com.sleepycat.je.latch.Latch
-com.sleepycat.je.latch.SharedLatch
 com.sleepycat.je.log.entry.NodeLogEntry
+com.sleepycat.je.latch.SharedLatch
 com.sleepycat.je.dbi.SortedLSNTreeWalker$TreeNodeProcessor
 com.sleepycat.je.utilint.TestHook
 com.sleepycat.je.tree.WithRootLatched

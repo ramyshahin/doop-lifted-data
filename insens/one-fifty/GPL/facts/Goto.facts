@@ -11,8 +11,8 @@
 <Graph: Graph kruskal()>/goto/instruction6	6	12	<Graph: Graph kruskal()>
 <Vertex: void nodeSearch(WorkSpace)>/goto/instruction20	20	26	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: Graph prim(Vertex)>/goto/instruction42	42	93	<Graph: Graph prim(Vertex)>
-<Graph: void display()>/goto/instruction27	27	30	<Graph: void display()>
 <Vertex: void nodeSearch(WorkSpace)>/goto/instruction10	10	14	<Vertex: void nodeSearch(WorkSpace)>
+<Graph: void display()>/goto/instruction27	27	30	<Graph: void display()>
 <Vertex: void nodeSearch(WorkSpace)>/goto/instruction31	31	39	<Vertex: void nodeSearch(WorkSpace)>
 <Vertex: void display()>/goto/instruction34	34	44	<Vertex: void display()>
 <Graph: Graph prim(Vertex)>/goto/instruction5	5	11	<Graph: Graph prim(Vertex)>
@@ -36,5 +36,5 @@
 <Graph: Graph kruskal()>/goto/instruction69	69	96	<Graph: Graph kruskal()>
 <Main: void main(java.lang.String[])>/goto/instruction74	74	77	<Main: void main(java.lang.String[])>
 <Graph: int readNumber()>/goto/instruction13	13	20	<Graph: int readNumber()>
-<Graph: int readNumber()>/goto/instruction7	7	10	<Graph: int readNumber()>
 <Vertex: void display()>/goto/instruction51	51	55	<Vertex: void display()>
+<Graph: int readNumber()>/goto/instruction7	7	10	<Graph: int readNumber()>

@@ -41,8 +41,8 @@
 <javax.microedition.lcdui.List: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <java.lang.String: java.lang.String substring(int,int)>
-<java.util.Vector: void copyInto(java.lang.Object[])>
 <javax.microedition.media.control.VideoControl: java.lang.Object initDisplayMode(int,java.lang.Object)>
+<java.util.Vector: void copyInto(java.lang.Object[])>
 <java.lang.RuntimeException: void printStackTrace()>
 <javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String)>
 <java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)>

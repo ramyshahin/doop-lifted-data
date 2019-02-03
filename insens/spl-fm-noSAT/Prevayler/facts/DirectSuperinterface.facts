@@ -4,8 +4,8 @@ org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject	org.prevayler.demos.
 org.prevayler.implementation.clock.BrokenClock	org.prevayler.Clock
 org.prevayler.demos.scalability.RecordIterator	java.io.Serializable
 org.prevayler.demos.demo2.gui.AllAccountsFrame	org.prevayler.demos.demo2.business.AccountListener
-org.prevayler.implementation.TransactionTimestamp	java.io.Serializable
 org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	org.prevayler.foundation.network.NetworkServerObjectReceiver
+org.prevayler.implementation.TransactionTimestamp	java.io.Serializable
 org.prevayler.Transaction	java.io.Serializable
 org.prevayler.demos.demo2.gui.AccountEditFrame	org.prevayler.demos.demo2.business.AccountListener
 org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject	org.prevayler.demos.scalability.ScalabilityTestSubject
@@ -19,10 +19,10 @@ org.prevayler.foundation.network.OldNetworkImpl	org.prevayler.foundation.network
 org.prevayler.implementation.Capsule	java.io.Serializable
 org.prevayler.implementation.PrevalentSystemGuard	org.prevayler.implementation.publishing.TransactionSubscriber
 org.prevayler.implementation.replication.ClientPublisher	org.prevayler.implementation.publishing.TransactionPublisher
-org.prevayler.demos.demo2.business.transactions.BankTransaction	org.prevayler.TransactionWithQuery
 org.prevayler.SureTransactionWithQuery	org.prevayler.TransactionWithQuery
-org.prevayler.implementation.clock.PausableClock	org.prevayler.Clock
+org.prevayler.demos.demo2.business.transactions.BankTransaction	org.prevayler.TransactionWithQuery
 org.prevayler.foundation.network.StubbornClientReceiverImpl	org.prevayler.foundation.network.ObjectReceiver
+org.prevayler.implementation.clock.PausableClock	org.prevayler.Clock
 org.prevayler.foundation.network.ObjectSocketImpl	org.prevayler.foundation.network.ObjectSocket
 org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction	javax.swing.event.ListSelectionListener
 org.prevayler.implementation.publishing.POBox	org.prevayler.implementation.publishing.TransactionSubscriber
@@ -34,9 +34,9 @@ org.prevayler.implementation.PrevaylerImpl	org.prevayler.Prevayler
 org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection	org.prevayler.demos.scalability.TransactionConnection
 org.prevayler.foundation.network.NetworkSessionId	java.io.Serializable
 org.prevayler.demos.scalability.Record	java.io.Serializable
-org.prevayler.demos.scalability.prevayler.QuerySystem	org.prevayler.demos.scalability.prevayler.ScalabilitySystem
 org.prevayler.demos.demo2.gui.AllAccountsFrame	org.prevayler.demos.demo2.business.BankListener
 org.prevayler.foundation.monitor.NullMonitor	org.prevayler.foundation.monitor.Monitor
+org.prevayler.demos.scalability.prevayler.QuerySystem	org.prevayler.demos.scalability.prevayler.ScalabilitySystem
 org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter	java.io.FileFilter
 org.prevayler.implementation.publishing.censorship.StrictTransactionCensor	org.prevayler.implementation.publishing.censorship.TransactionCensor
 org.prevayler.demos.scalability.prevayler.AllRecordsReplacement	org.prevayler.Transaction
@@ -60,6 +60,6 @@ org.prevayler.foundation.network.BaseNetworkImpl	org.prevayler.foundation.networ
 org.prevayler.demos.scalability.prevayler.TestTransaction	org.prevayler.Transaction
 org.prevayler.implementation.PrevaylerDirectory$FileFilter1	java.io.FileFilter
 org.prevayler.demos.demo1.NumberKeeper	java.io.Serializable
-org.prevayler.demos.demo2.business.AccountEntry	java.io.Serializable
 org.prevayler.implementation.journal.PersistentJournal	org.prevayler.implementation.journal.Journal
+org.prevayler.demos.demo2.business.AccountEntry	java.io.Serializable
 org.prevayler.demos.scalability.jdbc.JDBCQueryConnection	org.prevayler.demos.scalability.QueryConnection

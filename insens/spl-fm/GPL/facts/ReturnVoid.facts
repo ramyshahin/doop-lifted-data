@@ -6,15 +6,15 @@
 <Graph$Comparator2: void <init>(Graph)>/return-void/instruction5	5	<Graph$Comparator2: void <init>(Graph)>	@MSTPrim
 <Vertex: void <init>()>/return-void/instruction19	19	<Vertex: void <init>()>
 <WorkSpace: void nextRegionAction(Vertex)>/return-void/instruction3	3	<WorkSpace: void nextRegionAction(Vertex)>	@SearchBase
-<Graph$Comparator1: void <init>(Graph)>/return-void/instruction5	5	<Graph$Comparator1: void <init>(Graph)>	@StronglyConnected
 <Graph: void sortVertices(java.util.Comparator)>/return-void/instruction5	5	<Graph: void sortVertices(java.util.Comparator)>
+<Graph$Comparator1: void <init>(Graph)>/return-void/instruction5	5	<Graph$Comparator1: void <init>(Graph)>	@StronglyConnected
 <Vertex: void adjustAdorns(Neighbor)>/return-void/instruction8	8	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
 <Graph: void addEdge(Vertex,Neighbor)>/return-void/instruction10	10	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
 <Vertex$VertexIter2: void <init>(Vertex)>/return-void/instruction8	8	<Vertex$VertexIter2: void <init>(Vertex)>	@GN_OnlyNeighbors
 <Vertex: void adjustAdorns(Vertex,int)>/return-void/instruction12	12	<Vertex: void adjustAdorns(Vertex,int)>	@G_NoEdges
 <Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/return-void/instruction5	5	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>	@EdgeObjects /\ G_NoEdges
-<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/return-void/instruction5	5	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	@StronglyConnected
 <Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/return-void/instruction5	5	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	@MSTKruskal
+<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/return-void/instruction5	5	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	@StronglyConnected
 <Neighbor: void setWeight(int)>/return-void/instruction4	4	<Neighbor: void setWeight(int)>	@Weighted /\ GN_OnlyNeighbors
 <RegionWorkSpace: void init_vertex(Vertex)>/return-void/instruction5	5	<RegionWorkSpace: void init_vertex(Vertex)>	@Connected
 <RegionWorkSpace: void <init>()>/return-void/instruction5	5	<RegionWorkSpace: void <init>()>
@@ -31,20 +31,20 @@
 <Vertex$EdgeIter1: void <init>(Vertex)>/return-void/instruction8	8	<Vertex$EdgeIter1: void <init>(Vertex)>	@EdgeObjects /\ G_NoEdges
 <Vertex: void addWeight(int)>/return-void/instruction11	11	<Vertex: void addWeight(int)>	@Weighted
 <Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/return-void/instruction5	5	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	@MSTPrim
-<Graph: void display()>/return-void/instruction35	35	<Graph: void display()>
 <CycleWorkSpace: void init_vertex(Vertex)>/return-void/instruction7	7	<CycleWorkSpace: void init_vertex(Vertex)>	@Cycle
+<Graph: void display()>/return-void/instruction35	35	<Graph: void display()>
 <Neighbor: void <init>(Vertex,int)>/return-void/instruction7	7	<Neighbor: void <init>(Vertex,int)>
 <CycleWorkSpace: void <init>()>/return-void/instruction7	7	<CycleWorkSpace: void <init>()>
 <EdgeIter: void <init>()>/return-void/instruction3	3	<EdgeIter: void <init>()>
-<Main: void <init>()>/return-void/instruction3	3	<Main: void <init>()>	@Prog
 <Graph: void numberVertices()>/return-void/instruction5	5	<Graph: void numberVertices()>	@Number
+<Main: void <init>()>/return-void/instruction3	3	<Main: void <init>()>	@Prog
 <Vertex: void addNeighbor(Neighbor)>/return-void/instruction5	5	<Vertex: void addNeighbor(Neighbor)>	@GEN_Edges
 <Graph: void connectedComponents()>/return-void/instruction5	5	<Graph: void connectedComponents()>	@Connected
 <Graph: void stopBenchmark()>/return-void/instruction4	4	<Graph: void stopBenchmark()>	@Benchmark
 <Graph: void resumeProfile()>/return-void/instruction5	5	<Graph: void resumeProfile()>	@Benchmark
 <Neighbor: void <init>(Vertex,Edge)>/return-void/instruction7	7	<Neighbor: void <init>(Vertex,Edge)>
-<Vertex: void setWeight(int)>/return-void/instruction8	8	<Vertex: void setWeight(int)>	@Weighted /\ G_NoEdges
 <Graph: void runBenchmark(java.lang.String)>/return-void/instruction17	17	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
+<Vertex: void setWeight(int)>/return-void/instruction8	8	<Vertex: void setWeight(int)>	@Weighted /\ G_NoEdges
 <Vertex$EdgeIter3: void <init>(Vertex)>/return-void/instruction8	8	<Vertex$EdgeIter3: void <init>(Vertex)>	@EdgeObjects /\ GEN_Edges
 <Edge: void adjustAdorns(EdgeIfc)>/return-void/instruction5	5	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
 <Vertex$VertexIter1: void <init>(Vertex)>/return-void/instruction8	8	<Vertex$VertexIter1: void <init>(Vertex)>	@G_NoEdges
@@ -57,11 +57,11 @@
 <NumberWorkSpace: void <init>()>/return-void/instruction5	5	<NumberWorkSpace: void <init>()>
 <Vertex$EdgeIter2: void <init>(Vertex)>/return-void/instruction8	8	<Vertex$EdgeIter2: void <init>(Vertex)>	@EdgeObjects /\ GN_OnlyNeighbors
 <Graph: void endProfile()>/return-void/instruction18	18	<Graph: void endProfile()>	@Benchmark
-<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/return-void/instruction5	5	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>	@G_NoEdges
 <CycleWorkSpace: void preVisitAction(Vertex)>/return-void/instruction11	11	<CycleWorkSpace: void preVisitAction(Vertex)>
+<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/return-void/instruction5	5	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>	@G_NoEdges
 <WorkSpace: void preVisitAction(Vertex)>/return-void/instruction3	3	<WorkSpace: void preVisitAction(Vertex)>	@SearchBase
-<Vertex: void nodeSearch(WorkSpace)>/return-void/instruction6	6	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase
 <Graph: void run(Vertex)>/return-void/instruction25	25	<Graph: void run(Vertex)>
+<Vertex: void nodeSearch(WorkSpace)>/return-void/instruction6	6	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase
 <WorkSpace: void postVisitAction(Vertex)>/return-void/instruction3	3	<WorkSpace: void postVisitAction(Vertex)>	@SearchBase
 <WorkSpaceTranspose: void <init>()>/return-void/instruction5	5	<WorkSpaceTranspose: void <init>()>
 <Graph$EdgeIter1: void <init>(Graph)>/return-void/instruction8	8	<Graph$EdgeIter1: void <init>(Graph)>	@EdgeObjects

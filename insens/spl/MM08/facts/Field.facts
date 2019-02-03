@@ -138,8 +138,8 @@
 <lancs.mobilemedia.core.util.Constants: java.lang.String ALBUMLIST_SCREEN>	lancs.mobilemedia.core.util.Constants	ALBUMLIST_SCREEN	java.lang.String
 <lancs.mobilemedia.sms.SmsSenderThread: java.lang.String destinationAddress>	lancs.mobilemedia.sms.SmsSenderThread	destinationAddress	java.lang.String
 <lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String MUSIC>	lancs.mobilemedia.core.ui.datamodel.MediaData	MUSIC	java.lang.String
-<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command deleteAlbumCommand>	lancs.mobilemedia.core.ui.screens.AlbumListScreen	deleteAlbumCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command back>	lancs.mobilemedia.core.ui.screens.PlayMediaScreen	back	javax.microedition.lcdui.Command
+<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command deleteAlbumCommand>	lancs.mobilemedia.core.ui.screens.AlbumListScreen	deleteAlbumCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: int dy>	lancs.mobilemedia.core.ui.screens.PlayVideoScreen	dy	int
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command back>	lancs.mobilemedia.core.ui.screens.PlayVideoScreen	back	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.controller.BaseController imageRootController>	lancs.mobilemedia.core.ui.MainUIMidlet	imageRootController	lancs.mobilemedia.core.ui.controller.BaseController
