@@ -49,17 +49,17 @@
 0	<Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>/@parameter0
 0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter0
 0	<Graph: Graph computeTranspose(Graph)>	<Graph: Graph computeTranspose(Graph)>/@parameter0	@Transpose
-1	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter1	@G_NoEdges
 0	<CycleWorkSpace: void init_vertex(Vertex)>	<CycleWorkSpace: void init_vertex(Vertex)>/@parameter0	@Cycle
-0	<Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	@GN_OnlyNeighbors
+1	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter1	@G_NoEdges
 0	<RegionWorkSpace: void nextRegionAction(Vertex)>	<RegionWorkSpace: void nextRegionAction(Vertex)>/@parameter0	@Connected
+0	<Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	@GN_OnlyNeighbors
 0	<Graph: void addEdge(Vertex,Neighbor)>	<Graph: void addEdge(Vertex,Neighbor)>/@parameter0	@GN_OnlyNeighbors
 1	<Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>/@parameter1
-0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0
-1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1
 0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@parameter0	@StronglyConnected
-1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter1	@EdgeObjects
+1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1
+0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0
 0	<Vertex$VertexIter2: void <init>(Vertex)>	<Vertex$VertexIter2: void <init>(Vertex)>/@parameter0
+1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter1	@EdgeObjects
 0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter0
 1	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter1
 0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter0
@@ -73,9 +73,9 @@
 0	<Graph$EdgeIter1: void <init>(Graph)>	<Graph$EdgeIter1: void <init>(Graph)>/@parameter0
 0	<EdgeIfc: Vertex getOtherVertex(Vertex)>	<EdgeIfc: Vertex getOtherVertex(Vertex)>/@parameter0
 0	<Edge: void adjustAdorns(EdgeIfc)>	<Edge: void adjustAdorns(EdgeIfc)>/@parameter0	@EdgeObjects
+0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter0	@G_NoEdges
 0	<Graph$Comparator1: int compare(Vertex,Vertex)>	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter0	@StronglyConnected
-0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<CycleWorkSpace: void preVisitAction(Vertex)>	<CycleWorkSpace: void preVisitAction(Vertex)>/@parameter0
 0	<CycleWorkSpace: void postVisitAction(Vertex)>	<CycleWorkSpace: void postVisitAction(Vertex)>/@parameter0	@Cycle
 0	<Graph: void graphSearch(WorkSpace)>	<Graph: void graphSearch(WorkSpace)>/@parameter0
@@ -83,15 +83,15 @@
 1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter1
 0	<Graph: void run(Vertex)>	<Graph: void run(Vertex)>/@parameter0
 1	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter1
-0	<EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>/@parameter0
 0	<Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>/@parameter0
+0	<EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>/@parameter0
 0	<Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>/@parameter0	@Prog
 1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter1	@MSTKruskal
 0	<RegionWorkSpace: void init_vertex(Vertex)>	<RegionWorkSpace: void init_vertex(Vertex)>/@parameter0	@Connected
 1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter1
-0	<Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>/@parameter0	@Weighted /\ GN_OnlyNeighbors
-0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@parameter0	@StronglyConnected
+0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@parameter0	@StronglyConnected
+0	<Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>/@parameter0	@Weighted /\ GN_OnlyNeighbors
 0	<Main: void readWeights(Graph,int)>	<Main: void readWeights(Graph,int)>/@parameter0	@Prog
 1	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@parameter1
 0	<Vertex: void addNeighbor(Neighbor)>	<Vertex: void addNeighbor(Neighbor)>/@parameter0	@GEN_Edges

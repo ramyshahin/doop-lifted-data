@@ -1,12 +1,12 @@
-Delete
-withQuery
 <<\\"Account \\">>
+withQuery
+Delete
 <<\\"insert into \\">>
 \n\n\n
 Edit
 setting AutoCommit to false
-<<\\"\nMemory used: \\">>
 Amount maximum (10000) exceeded.
+<<\\"\nMemory used: \\">>
 generatingSnapshot	@(Snapshot) /\ (Snapshot)
 Transaction log consistency check failed.
 \nYou can publish your best results by mail to:
@@ -21,8 +21,8 @@ Journal.update() has to be called at least once before Journal.append().
 snapshot	@Snapshot
 <<\\"Error reading file list from directory \\">>
 Klaus Wuestefeld and Daniel Santos.\n\n
-<<HASH:2013142096>>	@(Replication) /\ (Replication)
 Transfer
+<<HASH:2013142096>>	@(Replication) /\ (Replication)
 creating
 transactionHistory().size()
 <<\\"Disk space used: \\">>
@@ -35,8 +35,8 @@ Bank
 rw
 \n\n\nFor better results, edit the properties file:
 JdbcQueryThreadsMinimum
-<<\\"Unable to start Skaringa: \\">>
 xstreamsnapshot	@(Snapshot) /\ (Snapshot)
+<<\\"Unable to start Skaringa: \\">>
 yyyy/MM/dd  hh:mm:ss.SSS
 Transaction History
 systemVersion
@@ -51,8 +51,8 @@ Unexpected Exception was thrown.
 JdbcUser
 Center
 <<\\"preparing statement: \\">>
-0.00
 bank	@(Snapshot) /\ (Snapshot)
+0.00
 TEN_MILLION
 xstreamjournal
 <<\\"update \\">>
@@ -84,8 +84,8 @@ NAME
 Prevayler Network Server Receiver	@Replication
 <<\\"Unable to deserialize with Skaringa: \\">>
 demo2XStream	@(Snapshot) /\ (Snapshot)
-Checking transaction log consistency.
 <<\\"Unexpected Exception: \\">>
+Checking transaction log consistency.
 \\"\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot\\"
 Chunk trailer corrupted
 New Account
@@ -108,17 +108,17 @@ yes
 commiting insertion of test records
 Holder
 To publish a transaction, this ClientPublisher needs a registered subscriber.	@Replication
-<<\\" When you run the application again, \\">>
 Port In Service	@(Replication) /\ (Replication)
+<<\\" When you run the application again, \\">>
 <<\\"Directory doesn\'t exist and could not be created: \\">>
 If you have any trouble running the tests, just write to
-\\"[a-zA-Z0-9]*[Jj]ournal\\"
 executionTime
+\\"[a-zA-Z0-9]*[Jj]ournal\\"
 Primary suffix \'	@Snapshot
+Already locked internally
 ONE_HUNDRED_THOUSAND
 RunPrevaylerQueryTest
 <<\\"\n\n========= Running \\">>
-Already locked internally
 \n	@(Monitor) /\ (Monitor)
 Invalid holder name.
 PrevaylerTransactionThreadsMaximum
@@ -167,8 +167,8 @@ localhost	@(Replication) /\ (Replication)
 <<\\"selecting record from \\">>
 JdbcTransactionThreadsMinimum
 Prevayler is no longer processing queries due to an Error thrown from an earlier transaction.
-All Accounts
 Withdraw...
+All Accounts
 <<\\"Unable to find journal file containing transaction \\">>
 Prevayler Network Client Receiver	@(Replication) /\ (Replication)
 JdbcDriverClassName
@@ -229,8 +229,8 @@ A snapshot using Skaringa\'s XML serialization will be taken every 20 seconds...
 PrevalenceBase
 <<\\"Already at \\">>
 processors (quantity, type, speed), compiler, VM, operating system and DBMS.
-Match
 skaringajournal
+Match
 <<\\"Attempted to apply transaction \\">>
 SubscriberUpToDate	@(Replication) /\ (Replication)
 Create

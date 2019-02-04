@@ -1,8 +1,8 @@
 <com.sleepycat.util.UtfOps: int bytesToChars(byte[],int,char[],int,int,boolean)>/switch/instruction21	11	68
 <com.sleepycat.util.UtfOps: int bytesToChars(byte[],int,char[],int,int,boolean)>/switch/instruction21	13	27
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	12	13
-<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	2	6
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	14	15
+<com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	2	6
 <com.sleepycat.je.dbi.CursorImpl: java.lang.String statusToString(byte)>/switch/instruction3	3	8
 <com.sleepycat.je.util.DbRunAction: void main(java.lang.String[])>/switch/instruction169	5	187
 <com.sleepycat.util.UtfOps: int getCharLength(byte[],int,int)>/switch/instruction10	1	11

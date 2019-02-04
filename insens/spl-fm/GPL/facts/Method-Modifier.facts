@@ -35,8 +35,8 @@ public	<WorkSpace: void <init>()>
 abstract	<EdgeIfc: int getWeight()>
 public	<EdgeIfc: Vertex getStart()>
 	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>
-	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
 private	<Graph$Comparator2: void <init>(Graph)>
+	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
 	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
 public	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
 	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>
@@ -93,17 +93,17 @@ public	<Graph: void sortVertices(java.util.Comparator)>
 public	<Neighbor: int getWeight()>	@Weighted /\ GN_OnlyNeighbors
 public	<Edge: void display()>	@EdgeObjects
 static	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
+private	<Vertex$VertexIter3: void <init>(Vertex)>
+public	<CycleWorkSpace: void postVisitAction(Vertex)>	@Cycle
 public	<Vertex$EdgeIter1: EdgeIfc next()>	@EdgeObjects /\ G_NoEdges
 public	<Vertex: Vertex getOtherVertex(Vertex)>	@G_NoEdges
-public	<CycleWorkSpace: void postVisitAction(Vertex)>	@Cycle
-private	<Vertex$VertexIter3: void <init>(Vertex)>
 public	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	@StronglyConnected
 	<Graph: Vertex findsVertex(java.lang.String)>
 static	<Graph: void stopProfile()>	@Benchmark
 public	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
 public	<Neighbor: void setWeight(int)>	@Weighted /\ GN_OnlyNeighbors
-public	<EdgeIfc: void display()>
 	<VertexIter: void <init>(Graph)>
+public	<EdgeIfc: void display()>
 public	<Graph: VertexIter getVertices()>
 public	<Vertex$VertexIter3: Vertex next()>	@GEN_Edges
 public	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
@@ -122,8 +122,8 @@ public	<Vertex$VertexIter2: boolean hasNext()>	@GN_OnlyNeighbors
 public	<Graph: EdgeIter getEdges()>
 public	<Vertex: void init_vertex(WorkSpace)>	@SearchBase
 public	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
-public	<Vertex: EdgeIter getEdges()>	@EdgeObjects /\ G_NoEdges
 public	<RegionWorkSpace: void init_vertex(Vertex)>	@Connected
+public	<Vertex: EdgeIter getEdges()>	@EdgeObjects /\ G_NoEdges
 public	<Vertex$VertexIter1: boolean hasNext()>	@G_NoEdges
 public	<Neighbor: void <init>(Vertex,int)>
 public	<EdgeIfc: Vertex getEnd()>
@@ -131,9 +131,9 @@ public	<CycleWorkSpace: void init_vertex(Vertex)>	@Cycle
 private	<Vertex$EdgeIter1: void <init>(Vertex)>
 public	<Vertex: void display()>
 abstract	<EdgeIfc: void display()>
-	<Vertex: void <init>()>
-public	<CycleWorkSpace: void <init>()>
 public	<Vertex$EdgeIter3: boolean hasNext()>	@EdgeObjects /\ GEN_Edges
+public	<CycleWorkSpace: void <init>()>
+	<Vertex: void <init>()>
 public	<Neighbor: void <init>()>
 public	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
 public	<Vertex: Vertex getEnd()>	@G_NoEdges
@@ -150,8 +150,8 @@ public	<Edge: void setWeight(int)>	@EdgeObjects /\ Weighted
 static	<Graph: void endProfile()>	@Benchmark
 public	<NumberWorkSpace: void preVisitAction(Vertex)>
 public	<VertexIter: boolean hasNext()>
-public	<Vertex: void addEdge(Neighbor)>	@GN_OnlyNeighbors
 private	<Vertex$EdgeIter3: void <init>(Vertex)>
+public	<Vertex: void addEdge(Neighbor)>	@GN_OnlyNeighbors
 public	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
 static	<Graph: void startProfile()>	@Benchmark
 public	<Graph: void stopBenchmark()>	@Benchmark

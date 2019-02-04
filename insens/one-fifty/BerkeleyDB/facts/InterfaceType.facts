@@ -7,12 +7,12 @@ com.sleepycat.je.latch.SharedLatch
 com.sleepycat.je.utilint.TestHook
 com.sleepycat.je.tree.WithRootLatched
 com.sleepycat.je.log.entry.INContainingEntry
-com.sleepycat.je.SecondaryKeyCreator
 com.sleepycat.je.dbi.EnvConfigObserver
+com.sleepycat.je.SecondaryKeyCreator
 com.sleepycat.util.ExceptionWrapper
 com.sleepycat.je.DatabaseTrigger
-com.sleepycat.je.log.entry.LogEntry
 com.sleepycat.je.log.LoggableObject
+com.sleepycat.je.log.entry.LogEntry
 com.sleepycat.je.log.LogReadable
 com.sleepycat.je.log.LogSource
 com.sleepycat.je.ForeignMultiKeyNullifier

@@ -35,8 +35,8 @@ java.lang.Throwable
 java.lang.UnsupportedOperationException
 java.io.File
 java.nio.ByteBuffer
-java.util.logging.LogRecord
 java.util.logging.Logger
+java.util.logging.LogRecord
 java.util.zip.Checksum
 javax.transaction.xa.Xid
 java.util.Iterator

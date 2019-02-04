@@ -3,8 +3,8 @@
 <class Graph>	Graph
 <class Vertex$EdgeIter2>	Vertex$EdgeIter2
 <class WorkSpaceTranspose>	WorkSpaceTranspose
-<class FinishTimeWorkSpace>	FinishTimeWorkSpace
 <class Vertex$VertexIter1>	Vertex$VertexIter1
+<class FinishTimeWorkSpace>	FinishTimeWorkSpace
 <class Graph$Comparator2>	Graph$Comparator2
 <class VertexIter>	VertexIter
 <class Graph$Comparator3>	Graph$Comparator3

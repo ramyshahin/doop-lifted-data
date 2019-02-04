@@ -2,8 +2,8 @@
 <Graph$Comparator2: int compare(Vertex,Vertex)>/return/instruction13	13	<Graph$Comparator2: int compare(Vertex,Vertex)>/$numconstant1	<Graph$Comparator2: int compare(Vertex,Vertex)>	@(MSTPrim) /\ (MSTPrim)
 <Graph: VertexIter getVertices()>/return/instruction4	4	<Graph: VertexIter getVertices()>/$r0	<Graph: VertexIter getVertices()>
 <Edge: Vertex getStart()>/return/instruction3	3	<Edge: Vertex getStart()>/$r0	<Edge: Vertex getStart()>	@(EdgeObjects) /\ (EdgeObjects)
-<Vertex: VertexIter getNeighbors()>/return/instruction5	5	<Vertex: VertexIter getNeighbors()>/$r0	<Vertex: VertexIter getNeighbors()>	@(G_NoEdges) /\ (G_NoEdges)
 <Edge: int getWeight()>/return/instruction3	3	<Edge: int getWeight()>/$i0	<Edge: int getWeight()>	@(EdgeObjects /\ Weighted) /\ (EdgeObjects /\ Weighted)
+<Vertex: VertexIter getNeighbors()>/return/instruction5	5	<Vertex: VertexIter getNeighbors()>/$r0	<Vertex: VertexIter getNeighbors()>	@(G_NoEdges) /\ (G_NoEdges)
 <Graph: boolean cycleCheck()>/return/instruction7	7	<Graph: boolean cycleCheck()>/$z0	<Graph: boolean cycleCheck()>	@(Cycle) /\ (Cycle)
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
 <Vertex$VertexIter1: Vertex next()>/return/instruction5	5	<Vertex$VertexIter1: Vertex next()>/$r2	<Vertex$VertexIter1: Vertex next()>	@(G_NoEdges) /\ (G_NoEdges)
@@ -38,8 +38,8 @@
 <Graph$EdgeIter1: boolean hasNext()>/return/instruction4	4	<Graph$EdgeIter1: boolean hasNext()>/$z0	<Graph$EdgeIter1: boolean hasNext()>	@(EdgeObjects) /\ (EdgeObjects)
 <Neighbor: int getWeight()>/return/instruction3	3	<Neighbor: int getWeight()>/$i0	<Neighbor: int getWeight()>	@(Weighted /\ GN_OnlyNeighbors) /\ (Weighted /\ GN_OnlyNeighbors)
 <Vertex$EdgeIter1: EdgeIfc next()>/return/instruction5	5	<Vertex$EdgeIter1: EdgeIfc next()>/$r2	<Vertex$EdgeIter1: EdgeIfc next()>	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
-<Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction15	15	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant2	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
 <Vertex$VertexIter3: boolean hasNext()>/return/instruction4	4	<Vertex$VertexIter3: boolean hasNext()>/$z0	<Vertex$VertexIter3: boolean hasNext()>	@(GEN_Edges) /\ (GEN_Edges)
+<Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction15	15	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant2	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
 <Vertex: Vertex getEnd()>/return/instruction3	3	<Vertex: Vertex getEnd()>/$null0	<Vertex: Vertex getEnd()>	@(G_NoEdges) /\ (G_NoEdges)
 <Vertex$VertexIter2: Vertex next()>/return/instruction6	6	<Vertex$VertexIter2: Vertex next()>/$r3	<Vertex$VertexIter2: Vertex next()>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph: Vertex findsVertex(java.lang.String)>/return/instruction5	5	<Graph: Vertex findsVertex(java.lang.String)>/$null0	<Graph: Vertex findsVertex(java.lang.String)>

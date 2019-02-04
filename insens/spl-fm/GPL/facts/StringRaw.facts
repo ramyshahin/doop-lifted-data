@@ -56,8 +56,8 @@ v	v	@(Prog) /\ (Prog)
 <EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>
 <Vertex: void addAdjacent(Vertex)>	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
 <<\\" # \\">>	<<\\" # \\">>	@Number
-<<\\" Cycle? \\">>	<<\\" Cycle? \\">>	@Cycle /\ Prog
 <Edge: Vertex getStart()>	<Edge: Vertex getStart()>	@EdgeObjects
+<<\\" Cycle? \\">>	<<\\" Cycle? \\">>	@Cycle /\ Prog
 <Vertex: Vertex getEnd()>	<Vertex: Vertex getEnd()>	@G_NoEdges
 <Vertex$VertexIter2: void <init>(Vertex)>	<Vertex$VertexIter2: void <init>(Vertex)>
 <VertexIter: void <init>()>	<VertexIter: void <init>()>
@@ -67,8 +67,8 @@ v	v	@(Prog) /\ (Prog)
 <Vertex: Vertex assignName(java.lang.String)>	<Vertex: Vertex assignName(java.lang.String)>
 <Vertex: void adjustAdorns(EdgeIfc)>	<Vertex: void adjustAdorns(EdgeIfc)>	@G_NoEdges
 <java.lang.Object: boolean equals(java.lang.Object)>	<java.lang.Object: boolean equals(java.lang.Object)>
-<java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>	<java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>
 <Edge: Vertex getEnd()>	<Edge: Vertex getEnd()>	@EdgeObjects
+<java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>	<java.util.Collections: int binarySearch(java.util.List,java.lang.Object,java.util.Comparator)>
 <<\\"  visited\\">>	<<\\"  visited\\">>	@SearchBase
 <<\\" Weights : \\">>	<<\\" Weights : \\">>	@Weighted /\ G_NoEdges
 <java.util.LinkedList: java.lang.Object getLast()>	<java.util.LinkedList: java.lang.Object getLast()>
@@ -79,8 +79,8 @@ v	v	@(Prog) /\ (Prog)
 <WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>
 <CycleWorkSpace: void <init>()>	<CycleWorkSpace: void <init>()>
-<<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 <Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
+<<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 ******************************************	******************************************
 <<\\" Rep \\">>	<<\\" Rep \\">>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>

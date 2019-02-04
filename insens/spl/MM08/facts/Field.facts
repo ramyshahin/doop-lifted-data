@@ -46,8 +46,8 @@
 <lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.controller.ControllerInterface nextController>	lancs.mobilemedia.core.ui.controller.AbstractController	nextController	lancs.mobilemedia.core.ui.controller.ControllerInterface
 <lancs.mobilemedia.core.ui.screens.PhotoViewScreen: java.lang.String imageName>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	imageName	java.lang.String
 <lancs.mobilemedia.sms.SmsReceiverThread: lancs.mobilemedia.sms.SmsReceiverController controller>	lancs.mobilemedia.sms.SmsReceiverThread	controller	lancs.mobilemedia.sms.SmsReceiverController
-<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.controller.BaseController musicController>	lancs.mobilemedia.core.ui.controller.SelectMediaController	musicController	lancs.mobilemedia.core.ui.controller.BaseController
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: javax.microedition.rms.RecordStore mediaInfoRS>	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	mediaInfoRS	javax.microedition.rms.RecordStore
+<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.controller.BaseController musicController>	lancs.mobilemedia.core.ui.controller.SelectMediaController	musicController	lancs.mobilemedia.core.ui.controller.BaseController
 <lancs.mobilemedia.core.util.Constants: java.lang.String IMAGELIST_SCREEN>	lancs.mobilemedia.core.util.Constants	IMAGELIST_SCREEN	java.lang.String
 <lancs.mobilemedia.sms.NetworkScreen: javax.microedition.lcdui.Command cancel>	lancs.mobilemedia.sms.NetworkScreen	cancel	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command copyCommand>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	copyCommand	javax.microedition.lcdui.Command
@@ -60,8 +60,8 @@
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>	lancs.mobilemedia.core.ui.screens.MediaListScreen	addCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command selectCommand>	lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia	selectCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: int PLAYMUSIC>	lancs.mobilemedia.core.ui.screens.MediaListScreen	PLAYMUSIC	int
-<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	smscopyCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.SmsSenderController: java.lang.String imageName>	lancs.mobilemedia.sms.SmsSenderController	imageName	java.lang.String
+<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	smscopyCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.SmsMessaging: java.lang.String destinationPhoneNumber>	lancs.mobilemedia.sms.SmsMessaging	destinationPhoneNumber	java.lang.String
 <lancs.mobilemedia.core.util.Constants: java.lang.String NEWALBUM_SCREEN>	lancs.mobilemedia.core.util.Constants	NEWALBUM_SCREEN	java.lang.String
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command resetCommand>	lancs.mobilemedia.core.ui.screens.AlbumListScreen	resetCommand	javax.microedition.lcdui.Command

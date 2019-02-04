@@ -3,8 +3,8 @@ Vertex
 EdgeIfc
 Graph$EdgeIter1
 FinishTimeWorkSpace
-WorkSpace
 NeighborIfc
+WorkSpace
 Graph$Comparator2
 Graph$Comparator3
 Graph$Comparator1
@@ -18,9 +18,9 @@ CycleWorkSpace
 Neighbor
 Vertex$EdgeIter3
 Vertex$EdgeIter2
-Graph
 Vertex$EdgeIter1
-NumberWorkSpace
+Graph
 WorkSpaceTranspose
-Edge
+NumberWorkSpace
 Main
+Edge

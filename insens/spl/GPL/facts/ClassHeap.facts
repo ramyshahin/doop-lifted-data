@@ -3,10 +3,10 @@
 <class Graph>	Graph
 <class Vertex$EdgeIter2>	Vertex$EdgeIter2
 <class WorkSpaceTranspose>	WorkSpaceTranspose
-<class FinishTimeWorkSpace>	FinishTimeWorkSpace
 <class Vertex$VertexIter1>	Vertex$VertexIter1
-<class Graph$Comparator2>	Graph$Comparator2
+<class FinishTimeWorkSpace>	FinishTimeWorkSpace
 <class VertexIter>	VertexIter
+<class Graph$Comparator2>	Graph$Comparator2
 <class Graph$Comparator3>	Graph$Comparator3
 <class Vertex$VertexIter3>	Vertex$VertexIter3
 <class CycleWorkSpace>	CycleWorkSpace
@@ -15,12 +15,12 @@
 <class Graph$Comparator1>	Graph$Comparator1
 <class Graph$EdgeIter1>	Graph$EdgeIter1
 <class EdgeIter>	EdgeIter
-<class GlobalVarsWrapper>	GlobalVarsWrapper
 <class Vertex$EdgeIter3>	Vertex$EdgeIter3
+<class GlobalVarsWrapper>	GlobalVarsWrapper
 <class Main>	Main
 <class EdgeIfc>	EdgeIfc
 <class NeighborIfc>	NeighborIfc
-<class NumberWorkSpace>	NumberWorkSpace
 <class Vertex$VertexIter2>	Vertex$VertexIter2
+<class NumberWorkSpace>	NumberWorkSpace
 <class RegionWorkSpace>	RegionWorkSpace
 <class WorkSpace>	WorkSpace

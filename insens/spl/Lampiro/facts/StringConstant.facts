@@ -5,8 +5,8 @@ unavailable
 xml
 ricsson
 Cannot find suitable mechanism for authentication
-%
 \\"/httpb\\"
+%
 &
 \\"probe\\"
 *
@@ -17,15 +17,15 @@ Cannot find suitable mechanism for authentication
 <<\\"Invalid itemList pos: \\">>
 1
 size
-<<\\"\' \\">>
 7
+<<\\"\' \\">>
 :
 <
 >
 @
 result
-muc#roomconfig_membersonly
 jpeg
+muc#roomconfig_membersonly
 [
 headline
 _
@@ -103,8 +103,8 @@ urn:xmpp:delay
 <<\\"(empty) \\">>
 \\"jabber:x:listo\\"
 Press left key
-\\"instructions\\"
 serverEl
+\\"instructions\\"
 &apos;
 gws
 muc#roomconfig_persistentroom
@@ -176,8 +176,8 @@ destroy
 DIGEST-MD5
 priority
 /icons/radio_checked.png
-audio/
 quot
+audio/
 Item not found
 \\"_*\\"
 /icons/rag.png
@@ -191,8 +191,8 @@ capture://audio?encoding=
 cannot bind resource
 \\"2\\"
 urn:xmpp:jingle:transports:ibb:0
-Type
 Cont
+Type
 chat
 Motorola
 invalid value for non interactive mode
@@ -260,8 +260,8 @@ Content-Length
 http://xmlpull.org/v1/doc/features.html#indent-output
 http://www.bluendo.com
 action
-dnd
 text
+dnd
 \\"x\\"
 PLAIN
 \\"boolean\\"
@@ -275,8 +275,8 @@ muc#roomconfig_enablelogging
 \\"executing\\"
 unknown compression method
 file
-\\"status\\"
 Can\'t open URL:
+\\"status\\"
 http://jabber.org/features/iq-register
 This is a very long string that is not wrapped and hence SHOULD finish with thre full stops!!!!
 md5
@@ -317,8 +317,8 @@ Unsupported Feature
 roster
 \\"result\\"
 \\"text-single\\"
-http://jabber.org/protocol/muc#roomconfig
 30
+http://jabber.org/protocol/muc#roomconfig
 element stack empty
 Lampiro	@x_notGlider
 FORM_TYPE
@@ -334,14 +334,14 @@ client/
 First
 \\"text-multi\\"
 illegal comment delimiter: --->
-Unsupported property
 <<\\"ERR: \\">>
+Unsupported property
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
 common
-\\"text-private\\"
 \\\"
+\\"text-private\\"
 layout
 This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
 Can\'t read resources:\n
@@ -356,8 +356,8 @@ version expected
 :)
 :*
 muc#roomconfig_changesubject
-anyone
 expected: /
+anyone
 <<HASH:-935196850>>
 <<\\"unsupported feature: \\">>
 Big:
@@ -395,8 +395,8 @@ Lampiro (http://lampiro.bluendo.com)
 muc#roomconfig_publicroom
 value
 <!--
-?>
 o:)
+?>
 xmldecl-standalone
 buffer error
 Service unavailable
@@ -414,8 +414,8 @@ incorrect header check
 version
 HEADER
 manual
-\\"type\\"
 <<\\"Multivector: \\">>
+\\"type\\"
 close
 In removing menu item
 \\"option\\"
@@ -424,8 +424,8 @@ instructions
 Cannot authenticate
 j2me
 <<\\"Attr.value missing f. \\">>
-oversubscribed distance tree
 finish
+oversubscribed distance tree
 ]]>
 \\"to\\"
 Cannot set default namespace for elements in no namespace
@@ -445,8 +445,8 @@ label
 message
 Error while saving config:\n
 Popup-B
-agb
 Popup-A
+agb
 \\"yuprms\\"
 username
 \\"get\\"
@@ -537,8 +537,8 @@ Cannot registrate
 name
 _11
 _10
-next
 _13
+next
 _12
 _15
 _14
@@ -547,22 +547,22 @@ hidden
 _16
 Yes
 show
-description
 Forbidden
+description
 jabber:x:data
 caps
 vcard-temp:x:update
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
-An error occurred while executing the task
 \\"headline\\"
+An error occurred while executing the task
 wav
 Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-subscribed
 http://www.w3.org/2000/xmlns/
+subscribed
 Error creating account
 text-private
 item
@@ -576,8 +576,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-\'
 combo3-3
+\'
 combo3-4
 combo3-5
 /icons/lag.png
@@ -606,8 +606,8 @@ Message
 <<\\"Contains d: \\">>
 relaxed
 :\'(
-\\"title\\"
 emo:):(eheh:Obene
+\\"title\\"
 invalid distance code
 PI must not start with xml
 album
@@ -646,8 +646,8 @@ sid
 client
 /transport/yahoo.png
 incomplete distance tree
-false
 invalid maxValue for non interactive mode
+false
 gt
 gw
 form
@@ -686,8 +686,8 @@ complete
 bmp
 auth
 lt
-Logging in...
 text-single
+Logging in...
 urn:xmpp:jingle:0
 /icons/lab.png
 \\"presence\\"
@@ -761,8 +761,8 @@ feature
 get
 combo3
 combo2
-:-/
 combo1
+:-/
 :-@
 Unsupported method
 Lampiro
@@ -776,22 +776,22 @@ resource
 Email=
 muc#roomconfig_roomdesc
 Feature not implemented
-send
 <<\\"Lampiro \\">>
-Config Error
+send
 *******
+Config Error
 O:)
 note
-list-multi
 \\"1\\"
+list-multi
 Screen
 bluendo:bxmlrpc:0
 Available/Total memory:
 prova button
 /emo/7.png
 /transport/transport.png
-groups
 item #
+groups
 >:)
 Exception
 boolean

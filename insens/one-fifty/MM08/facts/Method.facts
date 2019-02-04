@@ -7,8 +7,8 @@
 <java.lang.Integer: int parseInt(java.lang.String)>	parseInt	(java.lang.String)	java.lang.Integer	int	(Ljava/lang/String;)I	1
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.controller.BaseController getImageController()>	getImageController	()	lancs.mobilemedia.core.ui.controller.SelectMediaController	lancs.mobilemedia.core.ui.controller.BaseController	()Llancs/mobilemedia/core/ui/controller/BaseController;	0
 <lancs.mobilemedia.lib.exceptions.InvalidImageDataException: void <init>(java.lang.String)>	<init>	(java.lang.String)	lancs.mobilemedia.lib.exceptions.InvalidImageDataException	void	(Ljava/lang/String;)V	1
-<java.lang.String: int length()>	length	()	java.lang.String	int	()I	0
 <java.lang.String: boolean startsWith(java.lang.String)>	startsWith	(java.lang.String)	java.lang.String	boolean	(Ljava/lang/String;)Z	1
+<java.lang.String: int length()>	length	()	java.lang.String	int	()I	0
 <java.io.ByteArrayOutputStream: byte[] toByteArray()>	toByteArray	()	java.io.ByteArrayOutputStream	byte[]	()[B	0
 <lancs.mobilemedia.core.ui.controller.MediaController: void setScreen(lancs.mobilemedia.core.ui.screens.NewLabelScreen)>	setScreen	(lancs.mobilemedia.core.ui.screens.NewLabelScreen)	lancs.mobilemedia.core.ui.controller.MediaController	void	(Llancs/mobilemedia/core/ui/screens/NewLabelScreen;)V	1
 <lancs.mobilemedia.core.ui.datamodel.MediaData: void setNumberOfViews(int)>	setNumberOfViews	(int)	lancs.mobilemedia.core.ui.datamodel.MediaData	void	(I)V	1
@@ -73,8 +73,8 @@
 <lancs.mobilemedia.core.ui.controller.AbstractController: javax.microedition.lcdui.List getAlbumListScreen()>	getAlbumListScreen	()	lancs.mobilemedia.core.ui.controller.AbstractController	javax.microedition.lcdui.List	()Ljavax/microedition/lcdui/List;	0
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void pausePlay()>	pausePlay	()	lancs.mobilemedia.core.ui.screens.PlayMediaScreen	void	()V	0
 <javax.wireless.messaging.MessageConnection: javax.wireless.messaging.Message newMessage(java.lang.String)>	newMessage	(java.lang.String)	javax.wireless.messaging.MessageConnection	javax.wireless.messaging.Message	(Ljava/lang/String;)Ljavax/wireless/messaging/Message;	1
-<lancs.mobilemedia.core.ui.controller.SelectMediaController: void setImageController(lancs.mobilemedia.core.ui.controller.BaseController)>	setImageController	(lancs.mobilemedia.core.ui.controller.BaseController)	lancs.mobilemedia.core.ui.controller.SelectMediaController	void	(Llancs/mobilemedia/core/ui/controller/BaseController;)V	1
 <javax.microedition.rms.RecordStore: int getNextRecordID()>	getNextRecordID	()	javax.microedition.rms.RecordStore	int	()I	0
+<lancs.mobilemedia.core.ui.controller.SelectMediaController: void setImageController(lancs.mobilemedia.core.ui.controller.BaseController)>	setImageController	(lancs.mobilemedia.core.ui.controller.BaseController)	lancs.mobilemedia.core.ui.controller.SelectMediaController	void	(Llancs/mobilemedia/core/ui/controller/BaseController;)V	1
 <lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException: java.lang.Throwable getCause()>	getCause	()	lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException	java.lang.Throwable	()Ljava/lang/Throwable;	0
 <java.lang.Object: java.lang.String toString()>	toString	()	java.lang.Object	java.lang.String	()Ljava/lang/String;	0
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addMediaData(lancs.mobilemedia.core.ui.datamodel.MediaData,java.lang.String)>	addMediaData	(lancs.mobilemedia.core.ui.datamodel.MediaData,java.lang.String)	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	void	(Llancs/mobilemedia/core/ui/datamodel/MediaData;Ljava/lang/String;)V	2
@@ -100,8 +100,8 @@
 <java.lang.Class: java.lang.String getName()>	getName	()	java.lang.Class	java.lang.String	()Ljava/lang/String;	0
 <javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String)>	open	(java.lang.String)	javax.microedition.io.Connector	javax.microedition.io.Connection	(Ljava/lang/String;)Ljavax/microedition/io/Connection;	1
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,lancs.mobilemedia.core.ui.datamodel.AlbumData,javax.microedition.lcdui.List)>	<init>	(lancs.mobilemedia.core.ui.MainUIMidlet,lancs.mobilemedia.core.ui.datamodel.AlbumData,javax.microedition.lcdui.List)	lancs.mobilemedia.core.ui.controller.SelectMediaController	void	(Llancs/mobilemedia/core/ui/MainUIMidlet;Llancs/mobilemedia/core/ui/datamodel/AlbumData;Ljavax/microedition/lcdui/List;)V	3
-<javax.microedition.lcdui.Graphics: void setGrayScale(int)>	setGrayScale	(int)	javax.microedition.lcdui.Graphics	void	(I)V	1
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void setVisibleVideo()>	setVisibleVideo	()	lancs.mobilemedia.core.ui.screens.PlayVideoScreen	void	()V	0
+<javax.microedition.lcdui.Graphics: void setGrayScale(int)>	setGrayScale	(int)	javax.microedition.lcdui.Graphics	void	(I)V	1
 <lancs.mobilemedia.core.ui.datamodel.ImageAlbumData: void <init>()>	<init>	()	lancs.mobilemedia.core.ui.datamodel.ImageAlbumData	void	()V	0
 <lancs.mobilemedia.core.ui.screens.PhotoViewScreen: void <clinit>()>	<clinit>	()	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	void	()V	0
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: byte[] getMediaArrayOfByte(java.lang.String)>	getMediaArrayOfByte	(java.lang.String)	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	byte[]	(Ljava/lang/String;)[B	1
@@ -160,8 +160,8 @@
 <javax.microedition.media.control.VideoControl: void setDisplaySize(int,int)>	setDisplaySize	(int,int)	javax.microedition.media.control.VideoControl	void	(II)V	2
 <lancs.mobilemedia.core.ui.screens.AddMediaToAlbum: void <init>(java.lang.String)>	<init>	(java.lang.String)	lancs.mobilemedia.core.ui.screens.AddMediaToAlbum	void	(Ljava/lang/String;)V	1
 <lancs.mobilemedia.core.ui.controller.ScreenSingleton: void setCurrentStoreName(java.lang.String)>	setCurrentStoreName	(java.lang.String)	lancs.mobilemedia.core.ui.controller.ScreenSingleton	void	(Ljava/lang/String;)V	1
-<lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>	handleCommand	(javax.microedition.lcdui.Command)	lancs.mobilemedia.core.ui.controller.PlayVideoController	boolean	(Ljavax/microedition/lcdui/Command;)Z	1
 <javax.microedition.rms.RecordStoreNotOpenException: void printStackTrace()>	printStackTrace	()	javax.microedition.rms.RecordStoreNotOpenException	void	()V	0
+<lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>	handleCommand	(javax.microedition.lcdui.Command)	lancs.mobilemedia.core.ui.controller.PlayVideoController	boolean	(Ljavax/microedition/lcdui/Command;)Z	1
 <java.lang.String: void <init>()>	<init>	()	java.lang.String	void	()V	0
 <javax.microedition.lcdui.Alert: void addCommand(javax.microedition.lcdui.Command)>	addCommand	(javax.microedition.lcdui.Command)	javax.microedition.lcdui.Alert	void	(Ljavax/microedition/lcdui/Command;)V	1
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>	removeRecords	()	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	void	()V	0
@@ -280,8 +280,8 @@
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData[] loadMediaDataFromRMS(java.lang.String)>	loadMediaDataFromRMS	(java.lang.String)	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	lancs.mobilemedia.core.ui.datamodel.MediaData[]	(Ljava/lang/String;)[Llancs/mobilemedia/core/ui/datamodel/MediaData;	1
 <lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor: void addVideoData(java.lang.String,java.lang.String,byte[])>	addVideoData	(java.lang.String,java.lang.String,byte[])	lancs.mobilemedia.core.ui.datamodel.VideoMediaAccessor	void	(Ljava/lang/String;Ljava/lang/String;[B)V	3
 <javax.microedition.lcdui.Form: int append(javax.microedition.lcdui.Item)>	append	(javax.microedition.lcdui.Item)	javax.microedition.lcdui.Form	int	(Ljavax/microedition/lcdui/Item;)I	1
-<lancs.mobilemedia.core.ui.datamodel.MediaData: void setFavorite(boolean)>	setFavorite	(boolean)	lancs.mobilemedia.core.ui.datamodel.MediaData	void	(Z)V	1
 <lancs.mobilemedia.core.ui.datamodel.AlbumData: void deleteAlbum(java.lang.String)>	deleteAlbum	(java.lang.String)	lancs.mobilemedia.core.ui.datamodel.AlbumData	void	(Ljava/lang/String;)V	1
+<lancs.mobilemedia.core.ui.datamodel.MediaData: void setFavorite(boolean)>	setFavorite	(boolean)	lancs.mobilemedia.core.ui.datamodel.MediaData	void	(Z)V	1
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaFromBytes(byte[])>	getMediaFromBytes	(byte[])	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	lancs.mobilemedia.core.ui.datamodel.MediaData	([B)Llancs/mobilemedia/core/ui/datamodel/MediaData;	1
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: java.lang.String getMediaName()>	getMediaName	()	lancs.mobilemedia.core.ui.controller.MusicPlayController	java.lang.String	()Ljava/lang/String;	0
 <lancs.mobilemedia.lib.exceptions.InvalidImageFormatException: void <init>(java.lang.Throwable)>	<init>	(java.lang.Throwable)	lancs.mobilemedia.lib.exceptions.InvalidImageFormatException	void	(Ljava/lang/Throwable;)V	1
@@ -301,8 +301,8 @@
 <javax.microedition.lcdui.Gauge: int getValue()>	getValue	()	javax.microedition.lcdui.Gauge	int	()I	0
 <java.lang.Exception: java.lang.String getMessage()>	getMessage	()	java.lang.Exception	java.lang.String	()Ljava/lang/String;	0
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,java.io.InputStream,java.lang.String,lancs.mobilemedia.core.ui.controller.AbstractController)>	<init>	(lancs.mobilemedia.core.ui.MainUIMidlet,java.io.InputStream,java.lang.String,lancs.mobilemedia.core.ui.controller.AbstractController)	lancs.mobilemedia.core.ui.screens.PlayVideoScreen	void	(Llancs/mobilemedia/core/ui/MainUIMidlet;Ljava/io/InputStream;Ljava/lang/String;Llancs/mobilemedia/core/ui/controller/AbstractController;)V	4
-<java.io.IOException: void printStackTrace()>	printStackTrace	()	java.io.IOException	void	()V	0
 <javax.microedition.media.control.VideoControl: java.lang.Object initDisplayMode(int,java.lang.Object)>	initDisplayMode	(int,java.lang.Object)	javax.microedition.media.control.VideoControl	java.lang.Object	(ILjava/lang/Object;)Ljava/lang/Object;	2
+<java.io.IOException: void printStackTrace()>	printStackTrace	()	java.io.IOException	void	()V	0
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addMediaArrayOfBytes(java.lang.String,java.lang.String,byte[])>	addMediaArrayOfBytes	(java.lang.String,java.lang.String,byte[])	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	void	(Ljava/lang/String;Ljava/lang/String;[B)V	3
 <lancs.mobilemedia.lib.exceptions.InvalidPhotoAlbumNameException: void <init>()>	<init>	()	lancs.mobilemedia.lib.exceptions.InvalidPhotoAlbumNameException	void	()V	0
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void setMediaInfo(java.lang.String,lancs.mobilemedia.core.ui.datamodel.MediaData)>	setMediaInfo	(java.lang.String,lancs.mobilemedia.core.ui.datamodel.MediaData)	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	void	(Ljava/lang/String;Llancs/mobilemedia/core/ui/datamodel/MediaData;)V	2

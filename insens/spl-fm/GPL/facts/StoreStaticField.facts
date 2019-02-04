@@ -11,6 +11,6 @@
 <Graph: void <clinit>()>/assign/instruction6	6	<Graph: void <clinit>()>/$numconstant2	<Graph: long accum>	<Graph: void <clinit>()>	@Benchmark
 <Main: void main(java.lang.String[])>/assign/instruction32	32	<Main: void main(java.lang.String[])>/$r3	<Main: int[] startVertices>	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: void <clinit>()>/assign/instruction2	2	<Graph: void <clinit>()>/$numconstant0	<Graph: long last>	<Graph: void <clinit>()>	@Benchmark
-<GlobalVarsWrapper: void <clinit>()>/assign/instruction3	3	<GlobalVarsWrapper: void <clinit>()>/$r0	<GlobalVarsWrapper: java.util.LinkedList queue>	<GlobalVarsWrapper: void <clinit>()>	@(BFS) /\ (BFS)
 <Graph: void <clinit>()>/assign/instruction4	4	<Graph: void <clinit>()>/$numconstant1	<Graph: long current>	<Graph: void <clinit>()>	@Benchmark
 <Graph: void endProfile()>/assign/instruction2	2	<Graph: void endProfile()>/$l0	<Graph: long current>	<Graph: void endProfile()>	@(Benchmark) /\ (Benchmark)
+<GlobalVarsWrapper: void <clinit>()>/assign/instruction3	3	<GlobalVarsWrapper: void <clinit>()>/$r0	<GlobalVarsWrapper: java.util.LinkedList queue>	<GlobalVarsWrapper: void <clinit>()>	@(BFS) /\ (BFS)

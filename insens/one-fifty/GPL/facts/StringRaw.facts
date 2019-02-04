@@ -2,18 +2,18 @@
 <Graph$EdgeIter1: void <init>(Graph)>	<Graph$EdgeIter1: void <init>(Graph)>
 <Graph: Graph kruskal()>	<Graph: Graph kruskal()>
 <java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>	<java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>
-<java.util.LinkedList: java.lang.Object remove(int)>	<java.util.LinkedList: java.lang.Object remove(int)>
 <Neighbor: void adjustAdorns(EdgeIfc)>	<Neighbor: void adjustAdorns(EdgeIfc)>
+<java.util.LinkedList: java.lang.Object remove(int)>	<java.util.LinkedList: java.lang.Object remove(int)>
 <GlobalVarsWrapper: void <clinit>()>	<GlobalVarsWrapper: void <clinit>()>
 <<\\" # \\">>	<<\\" # \\">>
 <java.util.Map: java.lang.Object get(java.lang.Object)>	<java.util.Map: java.lang.Object get(java.lang.Object)>
 <java.util.Iterator: boolean hasNext()>	<java.util.Iterator: boolean hasNext()>
 <<\\" Pred \\">>	<<\\" Pred \\">>
 <Vertex: void setWeight(int)>	<Vertex: void setWeight(int)>
-<java.lang.Integer: int parseInt(java.lang.String,int)>	<java.lang.Integer: int parseInt(java.lang.String,int)>
 <EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>
-<Edge: Vertex getStart()>	<Edge: Vertex getStart()>
+<java.lang.Integer: int parseInt(java.lang.String,int)>	<java.lang.Integer: int parseInt(java.lang.String,int)>
 <<\\"Total Time: \\">>	<<\\"Total Time: \\">>
+<Edge: Vertex getStart()>	<Edge: Vertex getStart()>
 <RegionWorkSpace: void init_vertex(Vertex)>	<RegionWorkSpace: void init_vertex(Vertex)>
 <Vertex: void init_vertex(WorkSpace)>	<Vertex: void init_vertex(WorkSpace)>
 <Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>
@@ -41,8 +41,8 @@
 <java.lang.String: java.lang.String trim()>	<java.lang.String: java.lang.String trim()>
 <Vertex$EdgeIter2: void <init>(Vertex)>	<Vertex$EdgeIter2: void <init>(Vertex)>
 <<\\"Rep null \\">>	<<\\"Rep null \\">>
-<java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(long)>	<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
+<java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
 <Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>
 <java.util.LinkedList: void clear()>	<java.util.LinkedList: void clear()>
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>
@@ -120,8 +120,8 @@
 <Graph: void graphSearch(WorkSpace)>	<Graph: void graphSearch(WorkSpace)>
 <<\\"Vertices \\">>	<<\\"Vertices \\">>
 <Vertex$VertexIter3: Vertex next()>	<Vertex$VertexIter3: Vertex next()>
-<<\\" Cycle? \\">>	<<\\" Cycle? \\">>
 <EdgeIfc: void display()>	<EdgeIfc: void display()>
+<<\\" Cycle? \\">>	<<\\" Cycle? \\">>
 <EdgeIter: void <init>()>	<EdgeIter: void <init>()>
 <Vertex: void nodeSearch(WorkSpace)>	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: void endProfile()>	<Graph: void endProfile()>
@@ -152,10 +152,10 @@
 <java.lang.System: long currentTimeMillis()>	<java.lang.System: long currentTimeMillis()>
 <Vertex$EdgeIter3: EdgeIfc next()>	<Vertex$EdgeIter3: EdgeIfc next()>
 <java.util.HashSet: void <init>()>	<java.util.HashSet: void <init>()>
-<Vertex: void display()>	<Vertex: void display()>
 <EdgeIfc: Vertex getStart()>	<EdgeIfc: Vertex getStart()>
-<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>	<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
+<Vertex: void display()>	<Vertex: void display()>
 <Graph$EdgeIter1: EdgeIfc next()>	<Graph$EdgeIter1: EdgeIfc next()>
+<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>	<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
 <java.util.LinkedList: java.util.Iterator iterator()>	<java.util.LinkedList: java.util.Iterator iterator()>
 <VertexIter: Vertex next()>	<VertexIter: Vertex next()>
 <java.util.Set: boolean remove(java.lang.Object)>	<java.util.Set: boolean remove(java.lang.Object)>
@@ -171,8 +171,8 @@
 v	v
 <Vertex: void addAdjacent(Vertex)>	<Vertex: void addAdjacent(Vertex)>
 <Graph$Comparator3: void <init>(Graph)>	<Graph$Comparator3: void <init>(Graph)>
-<java.util.Collections: void sort(java.util.List,java.util.Comparator)>	<java.util.Collections: void sort(java.util.List,java.util.Comparator)>
 <Graph$EdgeIter1: boolean hasNext()>	<Graph$EdgeIter1: boolean hasNext()>
+<java.util.Collections: void sort(java.util.List,java.util.Comparator)>	<java.util.Collections: void sort(java.util.List,java.util.Comparator)>
 <java.lang.String: java.lang.String valueOf(int)>	<java.lang.String: java.lang.String valueOf(int)>
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>

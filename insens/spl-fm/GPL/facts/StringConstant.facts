@@ -11,8 +11,8 @@
 ******************************************	@GEN_Edges
 <<\\" Weight=\\">>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <<\\" # \\">>	@Number
-<<\\" Pred \\">>	@MSTPrim
 v	@(Prog) /\ (Prog)
+<<\\" Pred \\">>	@MSTPrim
 <<\\" Rep \\">>	@MSTKruskal
 <<\\" Cycle? \\">>	@Cycle /\ Prog
 <<\\"Edges \\">>	@GEN_Edges

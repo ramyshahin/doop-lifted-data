@@ -25,8 +25,8 @@ size
 @
 <<\\"Invalid byte received on text stream: \\">>
 result
-jpeg
 muc#roomconfig_membersonly
+jpeg
 [
 headline
 _
@@ -50,8 +50,8 @@ y
 Press right key
 \\"1.0.2\\"
 /transport/icq.png
-POST
 Loading Lampiro...
+POST
 EMAIL
 gineprando2
 \\"dnd\\"
@@ -66,8 +66,8 @@ test_ff
 Connecting server
 known_caps
 vcard-temp
-harp
 No title
+harp
 remove
 jid-multi
 unsupported
@@ -103,8 +103,8 @@ urn:xmpp:delay
 \\"jabber:x:listo\\"
 <<\\"(empty) \\">>
 Press left key
-\\"instructions\\"
 serverEl
+\\"instructions\\"
 &apos;
 gws
 socket://
@@ -176,8 +176,8 @@ destroy
 DIGEST-MD5
 priority
 /icons/radio_checked.png
-audio/
 quot
+audio/
 Item not found
 \\"_*\\"
 /icons/rag.png
@@ -271,8 +271,8 @@ jid-single
 field
 oversubscribed literal/length tree
 status
-\\"executing\\"
 muc#roomconfig_enablelogging
+\\"executing\\"
 unknown compression method
 file
 Can\'t open URL:
@@ -316,8 +316,8 @@ Unsupported Feature
 roster
 \\"result\\"
 \\"text-single\\"
-30
 http://jabber.org/protocol/muc#roomconfig
+30
 element stack empty
 FORM_TYPE
 /icons/combo.png
@@ -348,13 +348,13 @@ Task error
 |-)
 &gt;
 var
-:(
 version expected
+:(
 :)
 :*
 muc#roomconfig_changesubject
-expected: /
 anyone
+expected: /
 <<HASH:-935196850>>
 <<\\"unsupported feature: \\">>
 Big:
@@ -363,11 +363,11 @@ http://jabber.org/protocol/rosterx
 ;)
 nick
 :O
-:P
 identity
+:P
 urn:ietf:params:xml:ns:xmpp-sasl
-Error:
 </{
+Error:
 :d
 </
 :o
@@ -387,13 +387,13 @@ stream error
 http://www.w3.org/XML/1998/namespace
 \\"show\\"
 img
-Lampiro (http://lampiro.bluendo.com)
 error
+Lampiro (http://lampiro.bluendo.com)
 muc#roomconfig_publicroom
 value
 <!--
-o:)
 ?>
+o:)
 xmldecl-standalone
 buffer error
 Service unavailable
@@ -434,8 +434,8 @@ feature-not-implemented
 \\"socket://localhost:10080\\"
 FN
 /icons/empty_avatar.png
-\\"error\\"
 E-mail:
+\\"error\\"
 ABOUT
 cipher
 label
@@ -461,8 +461,8 @@ sha1
 404
 END_TAG expected
 406
-/icons/unchecked.png
 407
+/icons/unchecked.png
 Nokia
 invalid window size
 Image button
@@ -537,8 +537,8 @@ _13
 _12
 _15
 _14
-hidden
 submit
+hidden
 _16
 Yes
 show
@@ -561,8 +561,8 @@ http://www.w3.org/2000/xmlns/
 Error creating account
 text-private
 item
-Login
 <<\\"<?xml version=\'1.0\' \\">>
+Login
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -571,8 +571,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-combo3-3
 \'
+combo3-3
 combo3-4
 combo3-5
 /icons/lag.png
@@ -583,8 +583,8 @@ muc#roomconfig_allowinvites
 http://bluendo.com/midp#platform
 \\"jabber:iq:register\\"
 muc#roomconfig_roomsecret
-\\"http://services.bluendo.com/srv/?domain=\\"
 \n
+\\"http://services.bluendo.com/srv/?domain=\\"
 preprocess.symbols
 \t
 \\"unsubscribe\\"
@@ -647,8 +647,8 @@ gw
 form
 500
 501
-Connection with the server lost
 503
+Connection with the server lost
 realm
 prompt
 \\"subject\\"
@@ -656,8 +656,8 @@ prompt
 Jabber
 Internal server error
 /icons/radio_unchecked.png
-id
 Mobile test, don\'t send me messages!
+id
 /emo/3.png
 in
 iq
@@ -673,8 +673,8 @@ creator
 snd
 http://jabber.org/protocol/ibb
 (c) 2007-2008 Bluendo srl
-(c) 2007-2009 Bluendo srl
 need dictionary
+(c) 2007-2009 Bluendo srl
 MENU
 complete
 \\"jabber:x:data\\"
@@ -684,8 +684,8 @@ lt
 Logging in...
 text-single
 urn:xmpp:jingle:0
-/icons/lab.png
 \\"presence\\"
+/icons/lab.png
 UTF-8
 \\"value\\"
 xmldecl-version
@@ -722,8 +722,8 @@ muc#roomconfig_moderatedroom
 X-GOOGLE-TOKEN
 query
 afterG
-_:-1
 muc#roomconfig_whois
+_:-1
 failure
 afterC
 desc
@@ -756,13 +756,13 @@ feature
 get
 combo3
 combo2
-:-/
 combo1
+:-/
 :-@
 Unsupported method
 Lampiro
-urn:ietf:params:xml:ns:xmpp-session
 oversubscribed dynamic bit lengths tree
+urn:ietf:params:xml:ns:xmpp-session
 :-S
 data
 Test midlet
@@ -773,8 +773,8 @@ muc#roomconfig_roomdesc
 Feature not implemented
 send
 <<\\"Lampiro \\">>
-Config Error
 *******
+Config Error
 O:)
 note
 list-multi

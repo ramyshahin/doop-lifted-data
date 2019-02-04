@@ -1,7 +1,7 @@
-<<\\"Account \\">>
 <<\\"insert into \\">>
-withQuery
 Delete
+withQuery
+<<\\"Account \\">>
 \n\n\n
 demo2Replica
 Edit
@@ -20,8 +20,8 @@ Journal.update() has to be called at least once before Journal.append().
 <<\\"Error reading file list from directory \\">>
 <<\\"Temporary snapshot file generated: \\">>
 Klaus Wuestefeld and Daniel Santos.\n\n
-Transfer
 creating
+Transfer
 transactionHistory().size()
 <<\\"Disk space used: \\">>
 East
@@ -44,8 +44,8 @@ journal
 <<\\"Exception loading JDBC driver class: \\">>
 <<\\"The transaction journal has not yet reached transaction \\">>
 Unexpected Exception was thrown.
-A snapshot using Skaringa\'s XML serialization will be taken every 20 seconds...
 <<\\"SQLException \\">>
+A snapshot using Skaringa\'s XML serialization will be taken every 20 seconds...
 JdbcUser
 Center
 <<\\"preparing statement: \\">>
@@ -83,8 +83,8 @@ NAME
 <<\\"Unexpected Exception: \\">>
 Checking transaction log consistency.
 Port In Service
-\\"\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot\\"
 Chunk trailer corrupted
+\\"\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot\\"
 New Account
 NumberOfObjects
 Error during deserialization
@@ -101,30 +101,30 @@ The minimum number of threads cannot be greater than the maximum number.
 Deep copy failed in an unknown way
 Invalid parameter value \'
 QueryTest
-yes
 commiting insertion of test records
+yes
 Holder
 <<HASH:713442402>>
 <<\\" When you run the application again, \\">>
 Prevayler is no longer allowing snapshots due to an Error thrown from an earlier transaction.
 <<\\"Directory doesn\'t exist and could not be created: \\">>
 If you have any trouble running the tests, just write to
-executionTime
 \\"[a-zA-Z0-9]*[Jj]ournal\\"
+executionTime
 ONE_HUNDRED_THOUSAND
 RunPrevaylerQueryTest
-Already locked internally
 <<\\"\n\n========= Running \\">>
+Already locked internally
 Prevayler Network Client Receiver
 Invalid holder name.
 PrevaylerTransactionThreadsMaximum
 PrevaylerQueryThreadsMaximum
-The replication logic is still under development.
 Account
+The replication logic is still under development.
 <<\\"Property \\">>
 Removing subscribers is not yet supported by the current implementation.
-Journal filename suffix must match /[a-zA-Z0-9]*[Jj]ournal/, but \'
 TRANSACTION_TEST
+Journal filename suffix must match /[a-zA-Z0-9]*[Jj]ournal/, but \'
 Prevayler
 <<\\"select ID,STRING1,BIGDECIMAL1,BIGDECIMAL2,DATE1,DATE2 from \\">>
 Already locked externally
@@ -135,8 +135,8 @@ closing
 <<\\"\n\nPrevayler TransactionLog Directory: \\">>
 Unexpected InterruptedException
 demo1
-demo2
 TransactionTestCheckConsistency
+demo2
 <<\\"NumberFormatException reading property \\">>
 From Account
 Runtime Exception simulated for rollback demonstration purposes.
@@ -165,8 +165,8 @@ Primary suffix \'
 JdbcTransactionThreadsMinimum
 Prevayler is no longer processing queries due to an Error thrown from an earlier transaction.
 <<HASH:2013142096>>
-Withdraw...
 All Accounts
+Withdraw...
 <<\\"Unable to find journal file containing transaction \\">>
 JdbcDriverClassName
 Read the javadoc to this method.
@@ -190,8 +190,8 @@ TWENTY_MILLION
 writing to
 <<\\"Bank - \\">>
 SubscriberUpToDate
-This demo shows how your application can be replicated\nwithout changing ONE SINGLE LINE OF CODE in the\nbusiness classes or GUI. This enables query load-\nbalancing and system fault-tolerance.\n\n
 inserting record
+This demo shows how your application can be replicated\nwithout changing ONE SINGLE LINE OF CODE in the\nbusiness classes or GUI. This enables query load-\nbalancing and system fault-tolerance.\n\n
 \n
 locked
 xstreamsnapshot
@@ -202,15 +202,15 @@ Deposit
 \\"[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+\\"
 <<\\"delete from \\">>
 Reading the properties file:\n
-\\"QueryTest\\"
 deleting record
+\\"QueryTest\\"
 hh:mm:ss
-Amount must be greater than zero.
 You can edit this file to configure the tests for the next run.\n
+Amount must be greater than zero.
 <<\\"The transaction log has not yet reached transaction \\">>
 Unable to serialize transaction
-already closed
 balance()
+already closed
 RunPrevaylerTransactionTest
 JdbcConnectionURL
 <<\\"Attempted to process \\">>
@@ -231,8 +231,8 @@ Match
 <<\\"Attempted to apply transaction \\">>
 Create
 Unexpected InterruptedException.
-accountEntry
 <<\\"Expected \\">>
+accountEntry
 \\"(0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7})(;[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+=[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+)*\r\n\\"
 OK
 PrevaylerTransactionThreadsMinimum

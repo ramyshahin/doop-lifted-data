@@ -2,8 +2,8 @@ Delete
 Stop
 /images/jump.wav
 Store
-5550001
 \\"ImageScreen\\"
+5550001
 Gregor
 /images/Gosling1.PNG
 <<\\"SmsMessaging::receiveImage: sender address = \\">>
@@ -13,36 +13,36 @@ The provided data are not valid
 You have just received a bad fragmentated photo which was not possible to recovery.
 lancs.mobilemedia.core.ui.MainUIMidlet
 Screen size:176:205
-vvpi-
 Send Now
+vvpi-
 Error Incoming Photo
 <<\\"\\">>
 MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
 java.home
-/images/Tucan.png
 ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
-<<\\"<* SelectMediaController.handleCommand() *>: \\">>
+/images/Tucan.png
 Edit Label Item
-<<\\"<* PhotoViewController.handleCommand() *> \\">>
+<<\\"<* SelectMediaController.handleCommand() *>: \\">>
 Volume: 50
+<<\\"<* PhotoViewController.handleCommand() *> \\">>
 /images/Gregor1.PNG
 1000
 Obteve a imagem
 vvp-
 Finishing Baseathread::run()
-Crio a screen
 <<\\"Would you like to remove the album \\">>
+Crio a screen
 SmsMessaging::receiveImage() - Finish
-<<\\"Passing to next controller in chain: \\">>
 Add new Photo Album
+<<\\"Passing to next controller in chain: \\">>
 default
 MobileMedia
 Reject Photo
-Fish
 <<\\"SmsController::handleCommand - Sending bytes for image \\">>
+Fish
 Definiu a imagem
-Incoming SMS Message with Payload:
 <<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
+Incoming SMS Message with Payload:
 Path
 Java
 Create new Photo Album here
@@ -59,8 +59,8 @@ AddPhotoToAlbum
 <<\\"<* PhotoController.handleCommand() *> Save Photo Label = \\">>
 Edit Label
 video/mpeg
-New picture
 Tempo: 120
+New picture
 \\"*\\"
 Music
 <<\\"Ignoring Exception: \\">>
@@ -68,8 +68,8 @@ Select
 DEBUG 2: after smsConn.receive()
 midlet.name
 Sorting by BubbleSort...
-SmsController::Starting SMSReceiver Thread
 BaseThread:: 0 Param Constructor used: Using default values
+SmsController::Starting SMSReceiver Thread
 Add
 /images/ubcLogo.PNG
 <<\\"SmsReceiverController::handleCommand: \\">>
@@ -97,8 +97,8 @@ Applause
 Select the media to Use
 ImageListScreen
 C:\Program Files\Java\jdk1.5.0_09
-Send Photo by SMS
 Error ao criar o player:
+Send Photo by SMS
 <<\\"Closing connection caught: \\">>
 preprocessor.symbols
 Yes
@@ -110,8 +110,8 @@ Photos
 Path not valid for this media:
 wtk.home
 DEBUG 1: before smsConn.receive():
-Kris
 Type of media
+Kris
 <<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
 <<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
 <<\\"From: \\">>
@@ -122,8 +122,8 @@ image/png
 <<\\"AbstractController::postCommand - Current controller is: \\">>
 Accept Photo
 <<\\"SmsMessaging::sendImage() num segments to send is: \\">>
-/images/Gail1.PNG
 Baby
+/images/Gail1.PNG
 Incoming Binary SMS Message...
 View
 Current List from display is NULL!
@@ -137,23 +137,23 @@ Bong
 <<\\"<* BaseController.handleCommand() *> Image = \\">>
 /images/baby.wav
 mpa-
-Set Favorite
 <<\\"SmsSenderThread:: 3 Param Constructor: \\">>
+Set Favorite
 <<\\"Pitch: \\">>
 C:\user\research\MobileMedia\Antenna
 ConfirmDeleteAlbumScreen
 prc.name
-UBC Logo
 BEFORE ALERT CODE
+UBC Logo
 Error criar or controler
 <<\\"Tempo: \\">>
 /images/Kdvolder1.PNG
 Back
 /images/Java.png
-Capture Photo
 Save to Album:
-Delete Album
+Capture Photo
 Exit
+Delete Album
 <<\\"<* PlayVideoController.handleCommand() *> \\">>
 Define a Password
 Path not valid for this file:
@@ -164,8 +164,8 @@ New photo
 View Favorites
 No - Delete
 Cancel
-<* BaseController.goToPreviousScreen() **>
 /images/applause.wav
+<* BaseController.goToPreviousScreen() **>
 Confirm
 Item label
 Cancel sending of SMS message
@@ -176,26 +176,26 @@ done.
 <<\\"<* AlbumController.handleCommand() *>: \\">>
 Error ao definir a tela
 Finishing SMSReceiver run()
-New Incoming Photo
 Starting BaseThread::run()
+New Incoming Photo
 My Photo Album
 \\"ConfirmDeleteAlbumScreen\\"
 Error:
-/images/Penguin.png
 A MobilePhoto user has sent you a Photo. Do you want to accept it?
-mmp-
+/images/Penguin.png
 Reciever Details
+mmp-
 Play
 Would you like to define a password to this Album
 Error interreput
 \\"AlbumListScreen\\"
 Binary Message (No Text)
-mmpi-
 <<\\"<* MediaUtil.readMediaAsByteArray() *> is = \\">>
+mmpi-
 Take photo
 The mobile database is full
-Printer
 EStou aqui 11...........................
+Printer
 <<\\"...or...No record store named \\">>
 Delete Photo Album
 <<\\"SmsSenderController::handleCommand: \\">>
@@ -226,9 +226,9 @@ sms://
 Add new item to Album
 <<\\" \\">>
 MM08.jar
-Sort by Views
-Select Album
 OK
+Select Album
+Sort by Views
 No
 NewLabelScreen
 /images/printer.wav
@@ -241,7 +241,7 @@ mpi-
 ALBUM
 <<\\"No record store named \\">>
 Ok
-<<\\"Waiting for SMS on \\">>
 AlbumListScreen
+<<\\"Waiting for SMS on \\">>
 Save Video
 Copy Photo to Album

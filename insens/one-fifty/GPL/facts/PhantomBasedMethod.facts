@@ -2,8 +2,8 @@
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
 <Graph: int readNumber()>
 <Graph: void stopBenchmark()>
-<Vertex: java.lang.String getName()>
 <Main: void main(java.lang.String[])>
+<Vertex: java.lang.String getName()>
 <Graph: void sortVertices(java.util.Comparator)>
 <Graph: Vertex findsVertex(java.lang.String)>
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>

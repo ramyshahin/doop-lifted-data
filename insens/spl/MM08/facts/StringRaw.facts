@@ -372,8 +372,8 @@ Save Video	Save Video	@(includeCopyPhoto) /\ (includeCopyPhoto)
 <javax.microedition.lcdui.Canvas: void <init>()>	<javax.microedition.lcdui.Canvas: void <init>()>
 <javax.microedition.rms.RecordStore: void deleteRecordStore(java.lang.String)>	<javax.microedition.rms.RecordStore: void deleteRecordStore(java.lang.String)>
 <lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.controller.ControllerInterface getNextController()>	<lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.controller.ControllerInterface getNextController()>
-<java.io.ByteArrayInputStream: void <init>(byte[])>	<java.io.ByteArrayInputStream: void <init>(byte[])>
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>
+<java.io.ByteArrayInputStream: void <init>(byte[])>	<java.io.ByteArrayInputStream: void <init>(byte[])>
 <java.util.Vector: void <init>()>	<java.util.Vector: void <init>()>
 New picture	New picture	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: void setVideoAlbumData(lancs.mobilemedia.core.ui.datamodel.AlbumData)>	<lancs.mobilemedia.core.ui.controller.SelectMediaController: void setVideoAlbumData(lancs.mobilemedia.core.ui.datamodel.AlbumData)>	@x_MusicOrVideo /\ MobilMedia

@@ -172,8 +172,8 @@ To Account	To Account
 <javax.swing.JInternalFrame: void show()>	<javax.swing.JInternalFrame: void show()>
 <org.prevayler.demos.scalability.ScalabilityTestSubject: java.lang.Object createTestConnection()>	<org.prevayler.demos.scalability.ScalabilityTestSubject: java.lang.Object createTestConnection()>
 <org.prevayler.implementation.TransactionGuide: org.prevayler.implementation.TransactionTimestamp timestamp()>	<org.prevayler.implementation.TransactionGuide: org.prevayler.implementation.TransactionTimestamp timestamp()>
-<org.prevayler.foundation.monitor.Monitor: void notify(java.lang.Class,java.lang.String,java.io.File)>	<org.prevayler.foundation.monitor.Monitor: void notify(java.lang.Class,java.lang.String,java.io.File)>
 <org.prevayler.demos.demo2.business.transactions.AccountTransaction: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>	<org.prevayler.demos.demo2.business.transactions.AccountTransaction: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+<org.prevayler.foundation.monitor.Monitor: void notify(java.lang.Class,java.lang.String,java.io.File)>	<org.prevayler.foundation.monitor.Monitor: void notify(java.lang.Class,java.lang.String,java.io.File)>
 <org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>	<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>
 <org.prevayler.demos.demo2.Main: void startSnapshots(org.prevayler.Prevayler)>	<org.prevayler.demos.demo2.Main: void startSnapshots(org.prevayler.Prevayler)>
 <java.lang.Thread: void interrupt()>	<java.lang.Thread: void interrupt()>
@@ -387,8 +387,8 @@ account	account
 <org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>	<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>
 <org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.StubbornNetworkProxy find(org.prevayler.foundation.network.NetworkSessionId)>	<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.StubbornNetworkProxy find(org.prevayler.foundation.network.NetworkSessionId)>
 <java.lang.Object: java.lang.Object createTestConnection()>	<java.lang.Object: java.lang.Object createTestConnection()>
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>	<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>
 <java.io.File: boolean equals(java.lang.Object)>	<java.io.File: boolean equals(java.lang.Object)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>	<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>
 <org.prevayler.demos.demo2.MainReplicaServer: void out(java.lang.String)>	<org.prevayler.demos.demo2.MainReplicaServer: void out(java.lang.String)>
 <java.util.List: java.util.Iterator iterator()>	<java.util.List: java.util.Iterator iterator()>
 <java.io.ByteArrayInputStream: void <init>(byte[])>	<java.io.ByteArrayInputStream: void <init>(byte[])>
@@ -435,8 +435,8 @@ locked	locked
 Match	Match
 <org.prevayler.implementation.clock.BrokenClock: void advanceTo(java.util.Date)>	<org.prevayler.implementation.clock.BrokenClock: void advanceTo(java.util.Date)>
 <org.prevayler.foundation.network.BaseNetworkImpl: void <init>()>	<org.prevayler.foundation.network.BaseNetworkImpl: void <init>()>
-<java.io.FileOutputStream: void close()>	<java.io.FileOutputStream: void close()>
 <org.prevayler.Prevayler: java.lang.Object execute(org.prevayler.Query)>	<org.prevayler.Prevayler: java.lang.Object execute(org.prevayler.Query)>
+<java.io.FileOutputStream: void close()>	<java.io.FileOutputStream: void close()>
 <org.prevayler.PrevaylerFactory: org.prevayler.Clock clock()>	<org.prevayler.PrevaylerFactory: org.prevayler.Clock clock()>
 <org.prevayler.implementation.clock.PausableClock: void advanceTo(java.util.Date)>	<org.prevayler.implementation.clock.PausableClock: void advanceTo(java.util.Date)>
 <org.prevayler.demos.demo1.NumberKeeper: int lastNumber()>	<org.prevayler.demos.demo1.NumberKeeper: int lastNumber()>
@@ -490,8 +490,8 @@ Unexpected Exception was thrown.	Unexpected Exception was thrown.
 <org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	<org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>
 <org.prevayler.implementation.replication.ClientPublisher: void publish(org.prevayler.implementation.Capsule)>	<org.prevayler.implementation.replication.ClientPublisher: void publish(org.prevayler.implementation.Capsule)>
 <org.prevayler.foundation.Turn: org.prevayler.foundation.Turn first()>	<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn first()>
-<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>	<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>
 <java.util.StringTokenizer: boolean hasMoreTokens()>	<java.util.StringTokenizer: boolean hasMoreTokens()>
+<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>	<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>
 <java.awt.Color: void <init>(int,int,int)>	<java.awt.Color: void <init>(int,int,int)>
 <java.io.File: java.lang.String getName()>	<java.io.File: java.lang.String getName()>
 <javax.xml.transform.stream.StreamSource: void <init>(java.io.InputStream)>	<javax.xml.transform.stream.StreamSource: void <init>(java.io.InputStream)>
@@ -881,8 +881,8 @@ Invalid parameter value \'	Invalid parameter value \'
 <org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>	<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>
 <java.io.ByteArrayOutputStream: byte[] toByteArray()>	<java.io.ByteArrayOutputStream: byte[] toByteArray()>
 <com.skaringa.javaxml.ObjectTransformer: void serialize(java.lang.Object,javax.xml.transform.Result)>	<com.skaringa.javaxml.ObjectTransformer: void serialize(java.lang.Object,javax.xml.transform.Result)>
-<javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>	<javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>
 <org.prevayler.demos.scalability.QueryTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>	<org.prevayler.demos.scalability.QueryTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>
+<javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>	<javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>
 <org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>	<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>
 <java.io.File: boolean isDirectory()>	<java.io.File: boolean isDirectory()>
 <org.prevayler.foundation.monitor.Log4jMonitor: void <clinit>()>	<org.prevayler.foundation.monitor.Log4jMonitor: void <clinit>()>
@@ -955,8 +955,8 @@ JdbcUser	JdbcUser
 <java.util.Map: java.util.Collection values()>	<java.util.Map: java.util.Collection values()>
 <org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.lang.String)>	<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.lang.String)>
 <org.prevayler.foundation.network.NetworkReceiverFactory: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>	<org.prevayler.foundation.network.NetworkReceiverFactory: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>
-<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.Capsule capsule()>	<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.Capsule capsule()>
 localhost	localhost
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.Capsule capsule()>	<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.Capsule capsule()>
 <org.prevayler.implementation.replication.ClientPublisher: void startListening()>	<org.prevayler.implementation.replication.ClientPublisher: void startListening()>
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame,java.lang.String)>	<org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void <init>(org.prevayler.demos.demo2.gui.AllAccountsFrame,java.lang.String)>
 <org.prevayler.demos.scalability.prevayler.QuerySystem: java.util.List queryByName(java.lang.String)>	<org.prevayler.demos.scalability.prevayler.QuerySystem: java.util.List queryByName(java.lang.String)>
@@ -1258,8 +1258,8 @@ Holder	Holder
 <java.io.OutputStream: void write(byte[])>	<java.io.OutputStream: void write(byte[])>
 <java.sql.ResultSet: java.lang.String getString(int)>	<java.sql.ResultSet: java.lang.String getString(int)>
 <org.prevayler.foundation.network.StubbornNetworkImpl: void <init>()>	<org.prevayler.foundation.network.StubbornNetworkImpl: void <init>()>
-<<\\"Unable to start Skaringa: \\">>	<<\\"Unable to start Skaringa: \\">>
 JDBC	JDBC
+<<\\"Unable to start Skaringa: \\">>	<<\\"Unable to start Skaringa: \\">>
 #Entries	#Entries
 <org.prevayler.foundation.serialization.Serializer: void writeObject(java.io.OutputStream,java.lang.Object)>	<org.prevayler.foundation.serialization.Serializer: void writeObject(java.io.OutputStream,java.lang.Object)>
 <org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void focusLost(java.awt.event.FocusEvent)>	<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void focusLost(java.awt.event.FocusEvent)>

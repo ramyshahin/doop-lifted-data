@@ -1,8 +1,8 @@
 <Graph: Graph computeTranspose(Graph)>/if/instruction21	1	<Graph: Graph computeTranspose(Graph)>/$z0
 <Graph: Graph kruskal()>/if/instruction91	1	<Graph: Graph kruskal()>/$z5
 <Vertex: void nodeSearch(WorkSpace)>/if/instruction30	1	<Vertex: void nodeSearch(WorkSpace)>/$z4
-<Vertex: void display()>/if/instruction23	2	<Vertex: void display()>/$i0
 <Graph: Graph kruskal()>/if/instruction126	1	<Graph: Graph kruskal()>/$z11
+<Vertex: void display()>/if/instruction23	2	<Vertex: void display()>/$i0
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i1
 <Graph: Graph kruskal()>/if/instruction58	2	<Graph: Graph kruskal()>/$i3
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction6	2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i1
@@ -16,9 +16,9 @@
 <Graph: void display()>/if/instruction31	1	<Graph: void display()>/$z0
 <Graph: Graph kruskal()>/if/instruction85	2	<Graph: Graph kruskal()>/$i2
 <Edge: Vertex getOtherVertex(Vertex)>/if/instruction4	2	<Edge: Vertex getOtherVertex(Vertex)>/$r0
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction23	1	<Vertex: void nodeSearch(WorkSpace)>/$z2
 <Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction11	2	<Graph$Comparator2: int compare(Vertex,Vertex)>/$i2
 <Graph: Graph prim(Vertex)>/if/instruction58	1	<Graph: Graph prim(Vertex)>/$z6
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction23	1	<Vertex: void nodeSearch(WorkSpace)>/$z2
 <Graph: Graph kruskal()>/if/instruction15	1	<Graph: Graph kruskal()>/$z0
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction11	2	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i2
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction6	1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i0
@@ -39,13 +39,13 @@
 <Vertex: void display()>/if/instruction45	1	<Vertex: void display()>/$z0
 <Graph: void display()>/if/instruction19	2	<Graph: void display()>/$i0
 <NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	1	<NumberWorkSpace: void preVisitAction(Vertex)>/$z0
-<Graph: Graph prim(Vertex)>/if/instruction78	1	<Graph: Graph prim(Vertex)>/vxiter_$$A_3#_611
 <Main: void main(java.lang.String[])>/if/instruction85	1	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_7#_68
+<Graph: Graph prim(Vertex)>/if/instruction78	1	<Graph: Graph prim(Vertex)>/vxiter_$$A_3#_611
 <Graph: Graph kruskal()>/if/instruction148	1	<Graph: Graph kruskal()>/i_$$A_1#_498
 <Graph: int readNumber()>/if/instruction25	1	<Graph: int readNumber()>/ch_$$A_1_$$A_3#_221
 <Graph: Graph prim(Vertex)>/if/instruction113	1	<Graph: Graph prim(Vertex)>/$z10
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction41	1	<Vertex: void nodeSearch(WorkSpace)>/$i0
 <Graph: Graph kruskal()>/if/instruction42	2	<Graph: Graph kruskal()>/$i1
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction41	1	<Vertex: void nodeSearch(WorkSpace)>/$i0
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	2	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i0
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z1
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction13	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i1
@@ -87,5 +87,5 @@
 <Graph: Graph prim(Vertex)>/if/instruction32	1	<Graph: Graph prim(Vertex)>/$i0
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/if/instruction4	1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/$z0
 <Graph: Graph kruskal()>/if/instruction148	2	<Graph: Graph kruskal()>/$i4
-<Graph: Graph prim(Vertex)>/if/instruction119	1	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650
 <Main: void main(java.lang.String[])>/if/instruction54	2	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_3#_35
+<Graph: Graph prim(Vertex)>/if/instruction119	1	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650

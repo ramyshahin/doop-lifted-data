@@ -1,7 +1,7 @@
 <org.prevayler.demos.demo2.business.Account: long balance>	org.prevayler.demos.demo2.business.Account	balance	long
 <org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.NullSnapshotManager _nullSnapshotManager>	org.prevayler.PrevaylerFactory	_nullSnapshotManager	org.prevayler.implementation.snapshot.NullSnapshotManager
-<org.prevayler.implementation.replication.ServerListener: org.prevayler.foundation.network.ObjectServerSocket _serverSocket>	org.prevayler.implementation.replication.ServerListener	_serverSocket	org.prevayler.foundation.network.ObjectServerSocket
 <org.prevayler.foundation.network.SessionsManagerImpl: long timeStamp>	org.prevayler.foundation.network.SessionsManagerImpl	timeStamp	long
+<org.prevayler.implementation.replication.ServerListener: org.prevayler.foundation.network.ObjectServerSocket _serverSocket>	org.prevayler.implementation.replication.ServerListener	_serverSocket	org.prevayler.foundation.network.ObjectServerSocket
 <org.prevayler.demos.scalability.ScalabilityTestRun$1: int val$operationIncrement>	org.prevayler.demos.scalability.ScalabilityTestRun$1	val$operationIncrement	int
 <org.prevayler.demos.demo1.NumberStorageTransaction: long serialVersionUID>	org.prevayler.demos.demo1.NumberStorageTransaction	serialVersionUID	long
 <org.prevayler.foundation.network.StubbornClientReceiverImpl: int _sessionState>	org.prevayler.foundation.network.StubbornClientReceiverImpl	_sessionState	int
@@ -26,8 +26,8 @@
 <org.prevayler.demos.scalability.Record: java.lang.String largeString>	org.prevayler.demos.scalability.Record	largeString	java.lang.String
 <org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.journal.Journal _journal>	org.prevayler.implementation.publishing.CentralPublisher	_journal	org.prevayler.implementation.journal.Journal
 <org.prevayler.implementation.PrevaylerDirectory: java.lang.String JOURNAL_FILENAME_PATTERN>	org.prevayler.implementation.PrevaylerDirectory	JOURNAL_FILENAME_PATTERN	java.lang.String
-<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: org.prevayler.foundation.network.ObjectServerSocket _provider>	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	_provider	org.prevayler.foundation.network.ObjectServerSocket
 <org.prevayler.demos.scalability.Main: java.util.Properties properties>	org.prevayler.demos.scalability.Main	properties	java.util.Properties
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: org.prevayler.foundation.network.ObjectServerSocket _provider>	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	_provider	org.prevayler.foundation.network.ObjectServerSocket
 <org.prevayler.demos.scalability.ScalabilityTestRun: boolean isRoundFinished>	org.prevayler.demos.scalability.ScalabilityTestRun	isRoundFinished	boolean
 <org.prevayler.foundation.network.StubbornNetworkProxy: org.prevayler.foundation.network.StubbornNetworkClientConnector _inboundChannel>	org.prevayler.foundation.network.StubbornNetworkProxy	_inboundChannel	org.prevayler.foundation.network.StubbornNetworkClientConnector
 <org.prevayler.demos.demo2.business.AccountEntry: java.util.Date timestamp>	org.prevayler.demos.demo2.business.AccountEntry	timestamp	java.util.Date
@@ -37,8 +37,8 @@
 <org.prevayler.implementation.PrevaylerDirectory$1: org.prevayler.implementation.PrevaylerDirectory this$0>	org.prevayler.implementation.PrevaylerDirectory$1	this$0	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.implementation.replication.ClientPublisher: org.prevayler.foundation.network.ObjectSocket _server>	org.prevayler.implementation.replication.ClientPublisher	_server	org.prevayler.foundation.network.ObjectSocket
 <org.prevayler.foundation.DeepCopier$Receiver: java.io.InputStream _inputStream>	org.prevayler.foundation.DeepCopier$Receiver	_inputStream	java.io.InputStream
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.snapshot.GenericSnapshotManager	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.PrevaylerFactory: long _journalAgeThreshold>	org.prevayler.PrevaylerFactory	_journalAgeThreshold	long
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.snapshot.GenericSnapshotManager	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.foundation.FileLocker: java.io.RandomAccessFile _stream>	org.prevayler.foundation.FileLocker	_stream	java.io.RandomAccessFile
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: org.prevayler.foundation.network.ObjectSocket _provider>	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	_provider	org.prevayler.foundation.network.ObjectSocket
 <org.prevayler.demos.scalability.ScalabilityTestRun: java.util.List connectionCache>	org.prevayler.demos.scalability.ScalabilityTestRun	connectionCache	java.util.List
@@ -90,8 +90,8 @@
 <org.prevayler.PrevaylerFactory: int _remoteServerPort>	org.prevayler.PrevaylerFactory	_remoteServerPort	int
 <org.prevayler.foundation.network.StubbornClientReceiverImpl: org.prevayler.foundation.network.ObjectReceiver _client>	org.prevayler.foundation.network.StubbornClientReceiverImpl	_client	org.prevayler.foundation.network.ObjectReceiver
 <org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.clock.PausableClock _pausableClock>	org.prevayler.implementation.publishing.CentralPublisher	_pausableClock	org.prevayler.implementation.clock.PausableClock
-<org.prevayler.foundation.Guided: org.prevayler.foundation.Turn _turn>	org.prevayler.foundation.Guided	_turn	org.prevayler.foundation.Turn
 <org.prevayler.foundation.network.NetworkSessionId: long serialVersionUID>	org.prevayler.foundation.network.NetworkSessionId	serialVersionUID	long
+<org.prevayler.foundation.Guided: org.prevayler.foundation.Turn _turn>	org.prevayler.foundation.Guided	_turn	org.prevayler.foundation.Turn
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: org.prevayler.demos.demo2.gui.AllAccountsFrame this$0>	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction	this$0	org.prevayler.demos.demo2.gui.AllAccountsFrame
 <org.prevayler.demos.scalability.prevayler.QuerySystem: java.util.Map recordsByName>	org.prevayler.demos.scalability.prevayler.QuerySystem	recordsByName	java.util.Map
 <org.prevayler.demos.demo2.business.transactions.Deposit: long serialVersionUID>	org.prevayler.demos.demo2.business.transactions.Deposit	serialVersionUID	long
@@ -101,8 +101,8 @@
 <org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.String _primarySuffix>	org.prevayler.implementation.snapshot.GenericSnapshotManager	_primarySuffix	java.lang.String
 <org.prevayler.demos.scalability.ScalabilityTestRun: long ROUND_DURATION_MILLIS>	org.prevayler.demos.scalability.ScalabilityTestRun	ROUND_DURATION_MILLIS	long
 <org.prevayler.demos.demo2.business.transactions.HolderChange: java.lang.String _newHolder>	org.prevayler.demos.demo2.business.transactions.HolderChange	_newHolder	java.lang.String
-<org.prevayler.implementation.replication.ClientPublisher: org.prevayler.implementation.Capsule _myCapsule>	org.prevayler.implementation.replication.ClientPublisher	_myCapsule	org.prevayler.implementation.Capsule
 <org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JList accountList>	org.prevayler.demos.demo2.gui.AllAccountsFrame	accountList	javax.swing.JList
+<org.prevayler.implementation.replication.ClientPublisher: org.prevayler.implementation.Capsule _myCapsule>	org.prevayler.implementation.replication.ClientPublisher	_myCapsule	org.prevayler.implementation.Capsule
 <org.prevayler.foundation.DurableInputStream: boolean _EOF>	org.prevayler.foundation.DurableInputStream	_EOF	boolean
 <org.prevayler.foundation.DeepCopier$Receiver: java.lang.RuntimeException _runtimeException>	org.prevayler.foundation.DeepCopier$Receiver	_runtimeException	java.lang.RuntimeException
 <org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: org.prevayler.demos.demo2.gui.AccountEditFrame this$0>	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction	this$0	org.prevayler.demos.demo2.gui.AccountEditFrame
@@ -170,9 +170,9 @@
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: java.io.OutputStream _stream>	org.prevayler.foundation.gzip.NonCloseableOutputStream	_stream	java.io.OutputStream
 <org.prevayler.demos.demo2.business.Account$InvalidAmount: long serialVersionUID>	org.prevayler.demos.demo2.business.Account$InvalidAmount	serialVersionUID	long
 <java.lang.System: java.io.InputStream in>	java.lang.System	in	java.io.InputStream
+<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.journal.PersistentJournal	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.demos.demo1.NumberKeeper: long serialVersionUID>	org.prevayler.demos.demo1.NumberKeeper	serialVersionUID	long
 <org.prevayler.foundation.network.StubbornClientReceiverImpl: org.prevayler.foundation.network.StubbornNetwork _stubbornNetwork>	org.prevayler.foundation.network.StubbornClientReceiverImpl	_stubbornNetwork	org.prevayler.foundation.network.StubbornNetwork
-<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.implementation.PrevaylerDirectory _directory>	org.prevayler.implementation.journal.PersistentJournal	_directory	org.prevayler.implementation.PrevaylerDirectory
 <org.prevayler.demos.demo2.business.Bank$1: org.prevayler.demos.demo2.business.Bank this$0>	org.prevayler.demos.demo2.business.Bank$1	this$0	org.prevayler.demos.demo2.business.Bank
 <org.prevayler.demos.demo2.business.transactions.Deposit: long _amount>	org.prevayler.demos.demo2.business.transactions.Deposit	_amount	long
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: long serialVersionUID>	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction	serialVersionUID	long

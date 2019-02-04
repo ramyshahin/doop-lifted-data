@@ -21,14 +21,14 @@
 <javax.microedition.media.control.RecordControl: void stopRecord()>
 <java.io.PrintStream: void println(java.lang.Object)>
 <javax.microedition.lcdui.List: void addCommand(javax.microedition.lcdui.Command)>
-<javax.microedition.lcdui.List: java.lang.String getString(int)>
 <javax.microedition.media.Player: javax.microedition.media.Control getControl(java.lang.String)>
+<javax.microedition.lcdui.List: java.lang.String getString(int)>
 <java.io.InputStream: int read(byte[])>
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)>
 <javax.microedition.rms.RecordStore: void setRecord(int,byte[],int,int)>
 <javax.microedition.lcdui.Display: javax.microedition.lcdui.Display getDisplay(javax.microedition.midlet.MIDlet)>
-<javax.microedition.lcdui.List: int getSelectedIndex()>
 <javax.microedition.media.control.RecordControl: void setRecordStream(java.io.OutputStream)>
+<javax.microedition.lcdui.List: int getSelectedIndex()>
 <java.util.Vector: void addElement(java.lang.Object)>
 <javax.microedition.media.Player: void realize()>
 <javax.wireless.messaging.MessageConnection: void close()>
@@ -41,8 +41,8 @@
 <javax.microedition.lcdui.List: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <javax.microedition.lcdui.Form: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <java.lang.String: java.lang.String substring(int,int)>
-<javax.microedition.media.control.VideoControl: java.lang.Object initDisplayMode(int,java.lang.Object)>
 <java.util.Vector: void copyInto(java.lang.Object[])>
+<javax.microedition.media.control.VideoControl: java.lang.Object initDisplayMode(int,java.lang.Object)>
 <java.lang.RuntimeException: void printStackTrace()>
 <javax.microedition.io.Connector: javax.microedition.io.Connection open(java.lang.String)>
 <java.lang.Class: java.io.InputStream getResourceAsStream(java.lang.String)>
@@ -128,8 +128,8 @@
 <javax.microedition.rms.RecordStore: java.lang.String[] listRecordStores()>
 <java.lang.StringBuilder: void <init>()>
 <java.lang.String: java.lang.String substring(int)>
-<javax.microedition.lcdui.Gauge: int getValue()>
 <java.lang.Object: java.lang.String toString()>
+<javax.microedition.lcdui.Gauge: int getValue()>
 <javax.microedition.media.control.RecordControl: void startRecord()>
 <javax.microedition.lcdui.Canvas: void addCommand(javax.microedition.lcdui.Command)>
 <javax.microedition.lcdui.Form: void <init>(java.lang.String,javax.microedition.lcdui.Item[])>

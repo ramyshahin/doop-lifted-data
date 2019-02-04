@@ -46,8 +46,8 @@ y
 >>:
 {
 1.0.2
-Press right key
 \\"1.0.2\\"
+Press right key
 /transport/icq.png
 Loading Lampiro...
 POST
@@ -324,8 +324,8 @@ Lampiro	@x_notGlider
 FORM_TYPE
 http://www.bluendo.com	@Glider
 /icons/combo.png
-invite
 9.6.0
+invite
 open
 combo2-2
 otorola
@@ -334,14 +334,14 @@ client/
 First
 \\"text-multi\\"
 illegal comment delimiter: --->
-Unsupported property
 <<\\"ERR: \\">>
+Unsupported property
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
 common
-\\\"
 \\"text-private\\"
+\\\"
 layout
 This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
 Can\'t read resources:\n
@@ -351,8 +351,8 @@ Task error
 |-)
 &gt;
 var
-:(
 version expected
+:(
 :)
 :*
 muc#roomconfig_changesubject
@@ -366,8 +366,8 @@ http://jabber.org/protocol/rosterx
 ;)
 nick
 :O
-identity
 :P
+identity
 urn:ietf:params:xml:ns:xmpp-sasl
 </{
 Error:
@@ -390,8 +390,8 @@ stream error
 http://www.w3.org/XML/1998/namespace
 \\"show\\"
 img
-error
 Lampiro (http://lampiro.bluendo.com)
+error
 muc#roomconfig_publicroom
 value
 <!--
@@ -437,9 +437,9 @@ feature-not-implemented
 \\"socket://localhost:10080\\"
 FN
 /icons/empty_avatar.png
-ABOUT
-\\"error\\"
 E-mail:
+\\"error\\"
+ABOUT
 cipher
 label
 message
@@ -464,8 +464,8 @@ sha1
 404
 END_TAG expected
 406
-/icons/unchecked.png
 407
+/icons/unchecked.png
 Nokia
 invalid window size
 /	@x_notGlider
@@ -519,8 +519,8 @@ Registration required
 apos
 http://jabber.org/protocol/caps
 name expected
-<<\\"Active Item \\">>
 features
+<<\\"Active Item \\">>
 <!DOCTYPE
 _02
 _01
@@ -537,8 +537,8 @@ Cannot registrate
 name
 _11
 _10
-_13
 next
+_13
 _12
 _15
 _14
@@ -547,8 +547,8 @@ hidden
 _16
 Yes
 show
-Forbidden
 description
+Forbidden
 jabber:x:data
 caps
 vcard-temp:x:update
@@ -561,13 +561,13 @@ Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-subscribed
 http://www.w3.org/2000/xmlns/
+subscribed
 Error creating account
 text-private
 item
-Login
 <<\\"<?xml version=\'1.0\' \\">>
+Login
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -576,8 +576,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-combo3-3
 \'
+combo3-3
 combo3-4
 combo3-5
 /icons/lag.png
@@ -606,8 +606,8 @@ Message
 <<\\"Contains d: \\">>
 relaxed
 :\'(
-emo:):(eheh:Obene
 \\"title\\"
+emo:):(eheh:Obene
 invalid distance code
 PI must not start with xml
 album
@@ -686,11 +686,11 @@ complete
 bmp
 auth
 lt
-Logging in...
 text-single
+Logging in...
 urn:xmpp:jingle:0
-/icons/lab.png
 \\"presence\\"
+/icons/lab.png
 UTF-8
 \\"value\\"
 xmldecl-version
@@ -761,8 +761,8 @@ feature
 get
 combo3
 combo2
-combo1
 :-/
+combo1
 :-@
 Unsupported method
 Lampiro
@@ -776,22 +776,22 @@ resource
 Email=
 muc#roomconfig_roomdesc
 Feature not implemented
-send
 <<\\"Lampiro \\">>
+send
 Config Error
 *******
 O:)
 note
-\\"1\\"
 list-multi
+\\"1\\"
 Screen
 bluendo:bxmlrpc:0
 Available/Total memory:
 prova button
 /emo/7.png
 /transport/transport.png
-item #
 groups
+item #
 >:)
 Exception
 boolean

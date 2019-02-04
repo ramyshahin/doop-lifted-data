@@ -74,8 +74,8 @@
 <javax.microedition.media.Manager: javax.microedition.media.Player createPlayer(java.io.InputStream,java.lang.String)>
 <javax.microedition.lcdui.Graphics: int getTranslateY()>
 <java.lang.String: java.lang.String valueOf(int)>
-<java.util.Enumeration: boolean hasMoreElements()>
 <javax.microedition.lcdui.ChoiceGroup: int append(java.lang.String,javax.microedition.lcdui.Image)>
+<java.util.Enumeration: boolean hasMoreElements()>
 <java.lang.Class: java.lang.String getName()>
 <java.io.IOException: java.lang.String getMessage()>
 <javax.microedition.io.HttpConnection: int getResponseCode()>
@@ -177,8 +177,8 @@
 <javax.microedition.lcdui.StringItem: void setText(java.lang.String)>
 <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()>
 <javax.microedition.lcdui.TextBox: void setTitle(java.lang.String)>
-<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.lang.IndexOutOfBoundsException: void <init>()>
+<javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
 <java.io.DataInputStream: void readFully(byte[])>
 <javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>
 <javax.microedition.media.Player: void start()>
@@ -308,8 +308,8 @@
 <java.lang.String: java.lang.String trim()>
 <javax.microedition.lcdui.Graphics: int getColor()>
 <java.util.Vector: void setSize(int)>
-<java.lang.StringBuffer: int length()>
 <javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>
+<java.lang.StringBuffer: int length()>
 <java.util.Calendar: void setTime(java.util.Date)>
 <java.io.DataOutputStream: void writeShort(int)>
 <javax.microedition.media.Player: void realize()>

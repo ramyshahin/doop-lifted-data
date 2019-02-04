@@ -12,20 +12,20 @@ static	<GlobalVarsWrapper: java.util.LinkedList queue>
 public	<Vertex: java.lang.String name>
 public	<Vertex: int key>
 private	<Vertex$VertexIter2: java.util.Iterator iter>
-private	<Vertex$EdgeIter1: java.util.Iterator iter>
 	<NumberWorkSpace: int vertexCounter>
+private	<Vertex$EdgeIter1: java.util.Iterator iter>
 	<WorkSpaceTranspose: int SCCCounter>
 final	<CycleWorkSpace: int GRAY>
 public	<Vertex: int strongComponentNumber>
 public	<Vertex: int VertexCycle>
 static	<Graph: long last>
-	<FinishTimeWorkSpace: int FinishCounter>
 final	<Vertex$VertexIter1: Vertex this$0>
+	<FinishTimeWorkSpace: int FinishCounter>
 public	<Vertex: java.util.LinkedList weightsList>
 private	<Vertex$VertexIter3: java.util.Iterator iter>
 public	<Vertex: java.lang.String pred>
-public	<Neighbor: Vertex neighbor>
 	<Graph: boolean edgesNotBuilt>
+public	<Neighbor: Vertex neighbor>
 public	<Vertex: Vertex representative>
 private	<Vertex$EdgeIter2: java.util.Iterator iter>
 static	<CycleWorkSpace: int GRAY>
@@ -33,8 +33,8 @@ public	<Vertex: boolean visited>
 static	<Graph: long current>
 final	<Graph$EdgeIter1: Graph this$0>
 static	<Graph: int ch>
-public	<Vertex: int vertexNumber>
 private	<Edge: Vertex end>
+public	<Vertex: int vertexNumber>
 final	<Vertex$EdgeIter1: Vertex this$0>
 static	<Main: int[] startVertices>
 final	<Graph$Comparator1: Graph this$0>
@@ -42,8 +42,8 @@ static	<Main: Vertex[] V>
 public	<Vertex: int finishTime>
 public	<Vertex: java.util.LinkedList neighbors>
 public	<CycleWorkSpace: int BLACK>
-final	<Graph$Comparator3: Graph this$0>
 final	<Vertex$VertexIter3: Vertex this$0>
+final	<Graph$Comparator3: Graph this$0>
 public	<Neighbor: Vertex end>
 final	<CycleWorkSpace: int BLACK>
 public	<Neighbor: int weight>
@@ -51,8 +51,8 @@ public	<Vertex: int VertexColor>
 final	<CycleWorkSpace: int WHITE>
 public	<Graph: java.io.Reader inFile>
 public	<Neighbor: Edge edge>
-public	<Vertex: int componentNumber>
 private	<Vertex$EdgeIter3: java.util.Iterator iter>
+public	<Vertex: int componentNumber>
 public	<CycleWorkSpace: int WHITE>
 final	<Vertex$EdgeIter2: Vertex this$0>
 	<Graph: java.util.LinkedList vertices>

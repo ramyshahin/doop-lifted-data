@@ -1,3 +1,0 @@
-java.io.IOException	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
-java.io.IOException	<Graph: void stopBenchmark()>	@Benchmark
-java.io.IOException	<Graph: int readNumber()>	@Benchmark

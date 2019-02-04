@@ -8,10 +8,10 @@ GlobalVarsWrapper
 CycleWorkSpace
 Neighbor
 Graph$EdgeIter1
-FinishTimeWorkSpace
 Vertex$EdgeIter3
-Vertex$EdgeIter2
+FinishTimeWorkSpace
 WorkSpace
+Vertex$EdgeIter2
 Vertex$EdgeIter1
 Graph
 NumberWorkSpace
@@ -19,6 +19,6 @@ WorkSpaceTranspose
 Graph$Comparator2
 Graph$Comparator3
 Graph$Comparator1
-Main
 RegionWorkSpace
 Edge
+Main

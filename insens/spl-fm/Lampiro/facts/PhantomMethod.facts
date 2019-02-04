@@ -79,8 +79,8 @@
 <java.lang.Class: java.lang.String getName()>
 <java.io.IOException: java.lang.String getMessage()>
 <javax.microedition.io.HttpConnection: int getResponseCode()>
-<javax.microedition.lcdui.StringItem: void setLayout(int)>
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordStore openRecordStore(java.lang.String,boolean)>
+<javax.microedition.lcdui.StringItem: void setLayout(int)>
 <java.util.Vector: void insertElementAt(java.lang.Object,int)>
 <javax.microedition.lcdui.Font: int stringWidth(java.lang.String)>
 <java.io.DataInputStream: int read(byte[])>
@@ -170,8 +170,8 @@
 <java.util.Calendar: java.util.Calendar getInstance()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
 <javax.microedition.lcdui.Alert: void <init>(java.lang.String,java.lang.String,javax.microedition.lcdui.Image,javax.microedition.lcdui.AlertType)>
-<org.xmlpull.v1.XmlSerializer: void flush()>
 <javax.microedition.lcdui.Form: javax.microedition.lcdui.Item get(int)>
+<org.xmlpull.v1.XmlSerializer: void flush()>
 <java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>
 <java.lang.String: java.lang.String valueOf(char)>
 <javax.microedition.lcdui.StringItem: void setText(java.lang.String)>
@@ -298,8 +298,8 @@
 <javax.microedition.media.control.RecordControl: void commit()>
 <java.lang.String: java.lang.String replace(char,char)>
 <javax.microedition.lcdui.Display: boolean vibrate(int)>
-<javax.microedition.lcdui.Image: void getRGB(int[],int,int,int,int,int,int)>
 <javax.microedition.media.control.VideoControl: void setDisplaySize(int,int)>
+<javax.microedition.lcdui.Image: void getRGB(int[],int,int,int,int,int,int)>
 <javax.microedition.lcdui.Image: javax.microedition.lcdui.Image createImage(byte[],int,int)>
 <java.util.Vector: int size()>
 <java.io.ByteArrayOutputStream: void write(byte[])>
@@ -308,8 +308,8 @@
 <java.lang.String: java.lang.String trim()>
 <javax.microedition.lcdui.Graphics: int getColor()>
 <java.util.Vector: void setSize(int)>
-<java.lang.StringBuffer: int length()>
 <javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>
+<java.lang.StringBuffer: int length()>
 <java.util.Calendar: void setTime(java.util.Date)>
 <java.io.DataOutputStream: void writeShort(int)>
 <javax.microedition.media.Player: void realize()>

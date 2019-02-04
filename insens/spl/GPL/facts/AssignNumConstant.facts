@@ -25,8 +25,8 @@
 <Graph: int readNumber()>/assign/instruction2	2	0	<Graph: int readNumber()>/index#_207	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
 <Graph: Graph kruskal()>/assign/instruction43	43	0	<Graph: Graph kruskal()>/j_$$A_1_$$A_1#_448	<Graph: Graph kruskal()>	@MSTKruskal
 <Vertex: int getWeight()>/return/instruction2	2	0	<Vertex: int getWeight()>/$numconstant0	<Vertex: int getWeight()>	@(G_NoEdges) /\ (G_NoEdges)
-<Vertex: void init_vertex(WorkSpace)>/assign/instruction3	3	0	<Vertex: void init_vertex(WorkSpace)>/$numconstant0	<Vertex: void init_vertex(WorkSpace)>	@(SearchBase) /\ (SearchBase)
 <CycleWorkSpace: void <init>()>/assign/instruction3	3	0	<CycleWorkSpace: void <init>()>/$numconstant0	<CycleWorkSpace: void <init>()>	@Cycle
+<Vertex: void init_vertex(WorkSpace)>/assign/instruction3	3	0	<Vertex: void init_vertex(WorkSpace)>/$numconstant0	<Vertex: void init_vertex(WorkSpace)>	@(SearchBase) /\ (SearchBase)
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction12	12	0	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant1	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
 <NumberWorkSpace: void <init>()>/assign/instruction3	3	0	<NumberWorkSpace: void <init>()>/$numconstant0	<NumberWorkSpace: void <init>()>	@Number
 <Graph: void <clinit>()>/assign/instruction5	5	0L	<Graph: void <clinit>()>/$numconstant2	<Graph: void <clinit>()>	@Benchmark

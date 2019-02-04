@@ -40,9 +40,9 @@
 <Graph: Graph prim(Vertex)>/if/instruction98	!=	@MSTPrim
 <Graph: Graph prim(Vertex)>/if/instruction14	!=	@MSTPrim
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	+	@Cycle
+<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8	!=	@(EdgeObjects) /\ (EdgeObjects)
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	+	@(StronglyConnected) /\ (StronglyConnected)
 <Graph: Graph kruskal()>/if/instruction148	<	@MSTKruskal
-<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8	!=	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph prim(Vertex)>/if/instruction92	!=	@MSTPrim
 <Graph: void stopProfile()>/assign/instruction7	+	@(Benchmark) /\ (Benchmark)
 <Graph: Vertex findsVertex(java.lang.String)>/if/instruction11	==
@@ -93,5 +93,5 @@
 <Graph: int readNumber()>/if/instruction25	==	@(Benchmark) /\ (Benchmark)
 <Graph: void stopProfile()>/assign/instruction6	-	@(Benchmark) /\ (Benchmark)
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction11	!=	@(MSTKruskal) /\ (MSTKruskal)
-<Vertex: void display()>/if/instruction45	!=
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction16	+	@Cycle /\ Undirected
+<Vertex: void display()>/if/instruction45	!=

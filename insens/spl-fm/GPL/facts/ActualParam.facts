@@ -36,8 +36,8 @@
 0	<Graph: void connectedComponents()>/Graph.graphSearch/0	<Graph: void connectedComponents()>/$r0	@(Connected) /\ (Connected)
 0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/Graph$Comparator1.<init>/0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l1#_0	@StronglyConnected
 0	<Graph: Graph kruskal()>/Vertex.assignName/0	<Graph: Graph kruskal()>/edgeiter_$$A_1#_485	@MSTKruskal
-0	<Neighbor: void display()>/java.io.PrintStream.print/0	<Neighbor: void display()>/$r6	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 0	<Graph: Graph prim(Vertex)>/Graph.addVertex/0	<Graph: Graph prim(Vertex)>/$r15	@MSTPrim
+0	<Neighbor: void display()>/java.io.PrintStream.print/0	<Neighbor: void display()>/$r6	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 0	<Graph: void run(Vertex)>/Graph.prim/0	<Graph: void run(Vertex)>/v#_0	@MSTPrim /\ Prog
 0	<Graph: void endProfile()>/java.lang.StringBuilder.<init>/0	<Graph: void endProfile()>/$stringconstant0	@(Benchmark) /\ (Benchmark)
 0	<Vertex: void display()>/java.lang.StringBuilder.<init>/7	<Vertex: void display()>/$stringconstant9	@MSTKruskal
@@ -47,8 +47,8 @@
 0	<Vertex: void init_vertex(WorkSpace)>/WorkSpace.init_vertex/0	<Vertex: void init_vertex(WorkSpace)>/this#_0	@(SearchBase) /\ (SearchBase)
 1	<Main: void main(java.lang.String[])>/Main.readWeights/0	<Main: void main(java.lang.String[])>/num_edges_$$A_3#_35	@(Prog) /\ (Prog)
 0	<Graph: Graph prim(Vertex)>/java.util.Set.add/0	<Graph: Graph prim(Vertex)>/$r2	@MSTPrim
-0	<Vertex: void display()>/java.io.PrintStream.print/8	<Vertex: void display()>/$r43	@Cycle
 1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator3.compare/0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$r0
+0	<Vertex: void display()>/java.io.PrintStream.print/8	<Vertex: void display()>/$r43	@Cycle
 0	<Graph: Graph prim(Vertex)>/java.util.LinkedList.remove/0	<Graph: Graph prim(Vertex)>/residue#_604	@MSTPrim
 0	<Graph: Graph prim(Vertex)>/EdgeIfc.adjustAdorns/0	<Graph: Graph prim(Vertex)>/e#_664	@MSTPrim
 1	<Vertex: void nodeSearch(WorkSpace)>/WorkSpace.checkNeighborAction/0	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_1#_208	@DFS /\ SearchBase
@@ -56,9 +56,9 @@
 0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/Vertex$VertexIter1.<init>/0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l1#_0	@G_NoEdges
 0	<Graph: void addEdge(Vertex,Neighbor)>/Vertex.addEdge/1	<Graph: void addEdge(Vertex,Neighbor)>/$r0	@(GN_OnlyNeighbors) /\ (Undirected /\ GN_OnlyNeighbors)
 0	<Main: void main(java.lang.String[])>/Main.addEdge/0	<Main: void main(java.lang.String[])>/g#_16	@(Prog) /\ (Prog)
+0	<Edge: void display()>/java.io.PrintStream.println/0	<Edge: void display()>/$r13	@(EdgeObjects) /\ (EdgeObjects)
 0	<Main: EdgeIfc addEdge(Graph,int)>/Graph.addEdge/0	<Main: EdgeIfc addEdge(Graph,int)>/v1#_87	@(Prog) /\ (Prog)
 0	<Graph: Graph prim(Vertex)>/java.util.LinkedList.add/0	<Graph: Graph prim(Vertex)>/root#_522	@MSTPrim
-0	<Edge: void display()>/java.io.PrintStream.println/0	<Edge: void display()>/$r13	@(EdgeObjects) /\ (EdgeObjects)
 0	<Graph: Graph strongComponents()>/Graph.graphSearch/0	<Graph: Graph strongComponents()>/FTWS#_324	@StronglyConnected
 1	<Graph: void addEdge(Vertex,Neighbor)>/Neighbor.<init>/0	<Graph: void addEdge(Vertex,Neighbor)>/$i0	@(GN_OnlyNeighbors) /\ (Undirected /\ Weighted /\ GN_OnlyNeighbors)
 2	<Graph: Graph kruskal()>/Graph.addEdge/0	<Graph: Graph kruskal()>/$i5	@MSTKruskal
@@ -75,11 +75,11 @@
 0	<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/1	<Vertex: void nodeSearch(WorkSpace)>/w#_0	@SearchBase /\ BFS
 0	<Graph: Graph prim(Vertex)>/Graph.findsEdge/0	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650	@MSTPrim
 0	<Vertex: EdgeIter getEdges()>/Vertex$EdgeIter1.<init>/0	<Vertex: EdgeIter getEdges()>/this#_0	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
-0	<Vertex: void addWeight(int)>/java.lang.Integer.<init>/0	<Vertex: void addWeight(int)>/weight#_0	@(Weighted) /\ (Weighted /\ G_NoEdges)
 0	<Graph$EdgeIter1: void <init>(Graph)>/Graph.access$0/0	<Graph$EdgeIter1: void <init>(Graph)>/l1#_0	@EdgeObjects
+0	<Vertex: void addWeight(int)>/java.lang.Integer.<init>/0	<Vertex: void addWeight(int)>/weight#_0	@(Weighted) /\ (Weighted /\ G_NoEdges)
 0	<Main: void main(java.lang.String[])>/Main.readWeights/0	<Main: void main(java.lang.String[])>/g#_16	@(Prog) /\ (Prog)
-0	<Graph: Graph prim(Vertex)>/java.util.Set.remove/1	<Graph: Graph prim(Vertex)>/$r10	@MSTPrim
 0	<Edge: void adjustAdorns(EdgeIfc)>/Edge.setWeight/0	<Edge: void adjustAdorns(EdgeIfc)>/$i0	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
+0	<Graph: Graph prim(Vertex)>/java.util.Set.remove/1	<Graph: Graph prim(Vertex)>/$r10	@MSTPrim
 0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator3.compare/0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$r1
 0	<Graph: void addEdge(Vertex,Neighbor)>/Vertex.addEdge/0	<Graph: void addEdge(Vertex,Neighbor)>/theNeighbor#_0	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/Graph$EdgeIter1.<init>/0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	@EdgeObjects
@@ -89,8 +89,8 @@
 0	<Vertex: void display()>/java.lang.StringBuilder.<init>/0	<Vertex: void display()>/$r7	@Weighted /\ G_NoEdges
 0	<Graph: VertexIter getVertices()>/VertexIter.<init>/0	<Graph: VertexIter getVertices()>/this#_0
 0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/Vertex.addAdjacent/1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	@Undirected /\ G_NoEdges
-0	<Vertex: void setWeight(int)>/Vertex.addWeight/0	<Vertex: void setWeight(int)>/weight#_0	@(Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)
 0	<Main: void main(java.lang.String[])>/java.lang.StringBuilder.<init>/1	<Main: void main(java.lang.String[])>/$stringconstant1	@(Prog) /\ (Prog)
+0	<Vertex: void setWeight(int)>/Vertex.addWeight/0	<Vertex: void setWeight(int)>/weight#_0	@(Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)
 1	<Graph: Graph prim(Vertex)>/Graph.addEdge/0	<Graph: Graph prim(Vertex)>/theNewVertex#_658	@MSTPrim
 0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator2.compare/0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/$r1
 1	<Vertex: EdgeIter getEdges()>/Vertex$EdgeIter1.<init>/0	<Vertex: EdgeIter getEdges()>/$null0	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
@@ -109,8 +109,8 @@
 0	<Graph: void runBenchmark(java.lang.String)>/java.lang.StringBuilder.<init>/0	<Graph: void runBenchmark(java.lang.String)>/$stringconstant0	@(Benchmark) /\ (Benchmark)
 0	<Vertex: void display()>/java.io.PrintStream.print/10	<Vertex: void display()>/$r51	@MSTKruskal
 2	<Main: EdgeIfc addEdge(Graph,int)>/Graph.addEdge/0	<Main: EdgeIfc addEdge(Graph,int)>/$numconstant0	@(Prog) /\ (Prog)
-0	<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/0	<Vertex: void nodeSearch(WorkSpace)>/w#_0	@DFS /\ SearchBase
 0	<Main: void main(java.lang.String[])>/Vertex.assignName/0	<Main: void main(java.lang.String[])>/$r9	@(Prog) /\ (Prog)
+0	<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/0	<Vertex: void nodeSearch(WorkSpace)>/w#_0	@DFS /\ SearchBase
 0	<Graph: Graph prim(Vertex)>/java.util.Set.remove/0	<Graph: Graph prim(Vertex)>/$r5	@MSTPrim
 0	<Vertex: VertexIter getNeighbors()>/Vertex$VertexIter1.<init>/0	<Vertex: VertexIter getNeighbors()>/this#_0	@(G_NoEdges) /\ (G_NoEdges)
 0	<Graph: Graph kruskal()>/Graph.findsVertex/0	<Graph: Graph kruskal()>/$r29	@MSTKruskal
@@ -120,8 +120,8 @@
 0	<Graph: void graphSearch(WorkSpace)>/Vertex.init_vertex/0	<Graph: void graphSearch(WorkSpace)>/w#_0	@SearchBase
 0	<Graph: void numberVertices()>/Graph.graphSearch/0	<Graph: void numberVertices()>/$r0	@(Number) /\ (Number)
 0	<Vertex: void display()>/java.lang.StringBuilder.<init>/5	<Vertex: void display()>/$stringconstant6	@StronglyConnected
-0	<Vertex: void nodeSearch(WorkSpace)>/WorkSpace.checkNeighborAction/0	<Vertex: void nodeSearch(WorkSpace)>/this#_0	@DFS /\ SearchBase
 0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/Graph$Comparator3.<init>/0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l1#_0	@MSTKruskal
+0	<Vertex: void nodeSearch(WorkSpace)>/WorkSpace.checkNeighborAction/0	<Vertex: void nodeSearch(WorkSpace)>/this#_0	@DFS /\ SearchBase
 0	<Main: void main(java.lang.String[])>/java.io.PrintStream.println/0	<Main: void main(java.lang.String[])>/$r21	@(Prog) /\ (Prog)
 0	<Graph: void run(Vertex)>/java.io.PrintStream.println/0	<Graph: void run(Vertex)>/$r3	@Cycle /\ Prog
 2	<Graph: Graph prim(Vertex)>/Graph.addEdge/0	<Graph: Graph prim(Vertex)>/$numconstant2	@MSTPrim
@@ -157,8 +157,8 @@
 1	<Graph: Graph strongComponents()>/Graph$Comparator1.<init>/0	<Graph: Graph strongComponents()>/$null0	@StronglyConnected
 0	<Graph: void endProfile()>/java.io.PrintStream.println/0	<Graph: void endProfile()>/$r4	@(Benchmark) /\ (Benchmark)
 0	<Graph: Graph computeTranspose(Graph)>/Graph.addEdge/0	<Graph: Graph computeTranspose(Graph)>/v_$$A_4#_381	@(Transpose) /\ (Transpose)
-1	<Graph: Graph kruskal()>/Graph.addEdge/0	<Graph: Graph kruskal()>/theNewEnd#_505	@MSTKruskal
 0	<Edge: void display()>/java.lang.StringBuilder.<init>/1	<Edge: void display()>/$stringconstant1	@(EdgeObjects) /\ (EdgeObjects)
+1	<Graph: Graph kruskal()>/Graph.addEdge/0	<Graph: Graph kruskal()>/theNewEnd#_505	@MSTKruskal
 0	<Graph: void addEdge(Vertex,Neighbor)>/Neighbor.<init>/0	<Graph: void addEdge(Vertex,Neighbor)>/start#_0	@(GN_OnlyNeighbors) /\ (Undirected /\ Weighted /\ GN_OnlyNeighbors)
 0	<Vertex: void display()>/java.io.PrintStream.print/3	<Vertex: void display()>/$r21
 0	<Graph: void sortEdges(java.util.Comparator)>/java.util.Collections.sort/0	<Graph: void sortEdges(java.util.Comparator)>/$r0	@(EdgeObjects) /\ (EdgeObjects)

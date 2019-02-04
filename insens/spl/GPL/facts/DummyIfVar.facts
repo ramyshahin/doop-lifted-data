@@ -1,5 +1,5 @@
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction30	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction30	@SearchBase /\ BFS
 <Main: void main(java.lang.String[])>/if/instruction85	<Main: void main(java.lang.String[])>/tmp<Main: void main(java.lang.String[])>/if/instruction85	@(Prog) /\ (Prog)
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction30	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction30	@SearchBase /\ BFS
 <Graph: void graphSearch(WorkSpace)>/if/instruction12	<Graph: void graphSearch(WorkSpace)>/tmp<Graph: void graphSearch(WorkSpace)>/if/instruction12	@SearchBase
 <Graph: Graph prim(Vertex)>/if/instruction113	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction113	@MSTPrim
 <Graph: Graph prim(Vertex)>/if/instruction58	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction58	@MSTPrim
@@ -12,8 +12,8 @@
 <CycleWorkSpace: void preVisitAction(Vertex)>/if/instruction4	<CycleWorkSpace: void preVisitAction(Vertex)>/tmp<CycleWorkSpace: void preVisitAction(Vertex)>/if/instruction4	@Cycle
 <Vertex: void nodeSearch(WorkSpace)>/if/instruction41	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction41	@SearchBase /\ BFS
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction11	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/tmp<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction11	@(MSTKruskal) /\ (MSTKruskal)
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	@SearchBase
 <Graph: Graph kruskal()>/if/instruction113	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction113	@MSTKruskal
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	@SearchBase
 <Graph: int readNumber()>/if/instruction12	<Graph: int readNumber()>/tmp<Graph: int readNumber()>/if/instruction12	@(Benchmark) /\ (Benchmark)
 <Graph: Graph prim(Vertex)>/if/instruction78	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction78	@MSTPrim
 <Graph: Graph kruskal()>/if/instruction42	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction42	@MSTKruskal
@@ -25,17 +25,17 @@
 <Graph: Graph prim(Vertex)>/if/instruction92	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction92	@MSTPrim
 <Edge: Vertex getOtherVertex(Vertex)>/if/instruction4	<Edge: Vertex getOtherVertex(Vertex)>/tmp<Edge: Vertex getOtherVertex(Vertex)>/if/instruction4	@(EdgeObjects) /\ (EdgeObjects)
 <Main: void main(java.lang.String[])>/if/instruction54	<Main: void main(java.lang.String[])>/tmp<Main: void main(java.lang.String[])>/if/instruction54	@(Prog) /\ (Prog)
-<Vertex: void display()>/if/instruction47	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction47	@SearchBase
 <Graph: Graph kruskal()>/if/instruction126	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction126	@MSTKruskal
+<Vertex: void display()>/if/instruction47	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction47	@SearchBase
 <Graph: void graphSearch(WorkSpace)>/if/instruction24	<Graph: void graphSearch(WorkSpace)>/tmp<Graph: void graphSearch(WorkSpace)>/if/instruction24	@SearchBase
 <Graph: Graph kruskal()>/if/instruction58	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction58	@MSTKruskal
 <Graph: Graph computeTranspose(Graph)>/if/instruction38	<Graph: Graph computeTranspose(Graph)>/tmp<Graph: Graph computeTranspose(Graph)>/if/instruction38	@(Transpose) /\ (Transpose)
 <Graph: Graph prim(Vertex)>/if/instruction40	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction40	@MSTPrim
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction7	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/tmp<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction7
-<Vertex: void display()>/if/instruction45	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction45
-<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	<NumberWorkSpace: void preVisitAction(Vertex)>/tmp<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	@Number
-<Graph: Vertex findsVertex(java.lang.String)>/if/instruction3	<Graph: Vertex findsVertex(java.lang.String)>/tmp<Graph: Vertex findsVertex(java.lang.String)>/if/instruction3
 <WorkSpaceTranspose: void preVisitAction(Vertex)>/if/instruction4	<WorkSpaceTranspose: void preVisitAction(Vertex)>/tmp<WorkSpaceTranspose: void preVisitAction(Vertex)>/if/instruction4	@(StronglyConnected) /\ (StronglyConnected)
+<Graph: Vertex findsVertex(java.lang.String)>/if/instruction3	<Graph: Vertex findsVertex(java.lang.String)>/tmp<Graph: Vertex findsVertex(java.lang.String)>/if/instruction3
+<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	<NumberWorkSpace: void preVisitAction(Vertex)>/tmp<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	@Number
+<Vertex: void display()>/if/instruction45	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction45
 <Graph: void display()>/if/instruction31	<Graph: void display()>/tmp<Graph: void display()>/if/instruction31	@GEN_Edges
 <Graph: void graphSearch(WorkSpace)>/if/instruction5	<Graph: void graphSearch(WorkSpace)>/tmp<Graph: void graphSearch(WorkSpace)>/if/instruction5	@SearchBase
 <Graph: Graph kruskal()>/if/instruction34	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction34	@MSTKruskal
@@ -48,8 +48,8 @@
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	<Graph$Comparator1: int compare(Vertex,Vertex)>/tmp<Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	@(StronglyConnected) /\ (StronglyConnected)
 <Graph: void display()>/if/instruction19	<Graph: void display()>/tmp<Graph: void display()>/if/instruction19
 <Graph: Graph prim(Vertex)>/if/instruction98	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction98	@MSTPrim
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction17	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction17	@DFS /\ SearchBase
 <Graph: Graph prim(Vertex)>/if/instruction14	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction14	@MSTPrim
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction17	<Vertex: void nodeSearch(WorkSpace)>/tmp<Vertex: void nodeSearch(WorkSpace)>/if/instruction17	@DFS /\ SearchBase
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/tmp<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	@(EdgeObjects) /\ (EdgeObjects)
 <Main: void main(java.lang.String[])>/if/instruction66	<Main: void main(java.lang.String[])>/tmp<Main: void main(java.lang.String[])>/if/instruction66	@(Prog) /\ (Prog)
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction11	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/tmp<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction11	@Cycle /\ Undirected
@@ -58,8 +58,8 @@
 <Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction11	<Graph$Comparator2: int compare(Vertex,Vertex)>/tmp<Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction11	@(MSTPrim) /\ (MSTPrim)
 <Graph: Graph kruskal()>/if/instruction91	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction91	@MSTKruskal
 <Graph: void graphSearch(WorkSpace)>/if/instruction17	<Graph: void graphSearch(WorkSpace)>/tmp<Graph: void graphSearch(WorkSpace)>/if/instruction17	@SearchBase
-<Vertex: void display()>/if/instruction23	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction23	@Weighted /\ G_NoEdges
 <Graph: Graph prim(Vertex)>/if/instruction119	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction119	@MSTPrim
+<Vertex: void display()>/if/instruction23	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction23	@Weighted /\ G_NoEdges
 <Vertex: void display()>/if/instruction94	<Vertex: void display()>/tmp<Vertex: void display()>/if/instruction94	@MSTKruskal
 <Graph: Graph kruskal()>/if/instruction64	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction64	@MSTKruskal
 <Graph: Graph prim(Vertex)>/if/instruction63	<Graph: Graph prim(Vertex)>/tmp<Graph: Graph prim(Vertex)>/if/instruction63	@MSTPrim

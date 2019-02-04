@@ -2,8 +2,8 @@ abstract	NeighborIfc
 public	RegionWorkSpace
 public	Main
 public	NeighborIfc
-public	NumberWorkSpace
 public	Edge
+public	NumberWorkSpace
 public	CycleWorkSpace
 public	Neighbor
 final	Graph$Comparator2

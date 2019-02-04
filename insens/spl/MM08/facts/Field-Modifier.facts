@@ -3,32 +3,32 @@ final	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcd
 static	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command deleteAlbumCommand>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int SHOWPHOTO>
 private	<lancs.mobilemedia.sms.SmsMessaging: java.lang.String smsSendPort>
-private	<lancs.mobilemedia.core.ui.datamodel.MediaData: int foreignRecordId>
 protected	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.util.Hashtable passwordTable>
+private	<lancs.mobilemedia.core.ui.datamodel.MediaData: int foreignRecordId>
 	<lancs.mobilemedia.core.ui.controller.PhotoViewController: lancs.mobilemedia.core.ui.screens.CaptureVideoScreen cpVideoScreen>
 	<lancs.mobilemedia.sms.NetworkScreen: javax.microedition.lcdui.Command cancel>
 final	<lancs.mobilemedia.core.util.Constants: int SCREEN_WIDTH>
-public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>
 	<lancs.mobilemedia.sms.SmsReceiverController: byte[] incomingImageData>
+public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>
 	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Gauge pitchGauge>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command viewCommand>
 public	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command addPassword>
 static	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String PHOTO>
 private	<lancs.mobilemedia.lib.exceptions.PersistenceMechanismException: java.lang.Throwable cause>
-	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.lcdui.Display display>
 private	<lancs.mobilemedia.sms.SmsSenderThread: byte[] binData>
+	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.lcdui.Display display>
 static	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command copyCommand>
 private	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: javax.microedition.rms.RecordStore passwordRS>
 private	<lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.controller.BaseController videoRootController>
 	<lancs.mobilemedia.core.ui.screens.AddMediaToAlbum: javax.microedition.lcdui.Command cancel>
 private	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: boolean fromSMS>
-private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command back>
 final	<lancs.mobilemedia.core.util.MediaUtil: java.lang.String DELIMITER>
+private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command back>
 final	<lancs.mobilemedia.core.util.Constants: java.lang.String ADDPHOTOTOALBUM_SCREEN>
 private	<lancs.mobilemedia.core.ui.datamodel.MusicMediaAccessor: lancs.mobilemedia.core.util.MusicMediaUtil converter>
 public	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command copyCommand>
-static	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command start>
 private	<lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.controller.BaseController imageRootController>
+static	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command start>
 static	<lancs.mobilemedia.core.ui.controller.ScreenSingleton: lancs.mobilemedia.core.ui.controller.ScreenSingleton instance>
 	<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData musicAlbumData>
 	<lancs.mobilemedia.core.ui.screens.AddMediaToAlbum: byte[] CapturedMedia>
@@ -37,10 +37,10 @@ private	<lancs.mobilemedia.lib.exceptions.ImageNotFoundException: java.lang.Thro
 	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Gauge tempoGauge>
 	<lancs.mobilemedia.core.ui.controller.PhotoViewController: java.lang.String imageName>
 private	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: javax.microedition.rms.RecordStore mediaRS>
-static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command captureVideoCommand>
 private	<lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.datamodel.AlbumData musicModel>
-final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command backCommand>
+static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command captureVideoCommand>
 private	<lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.datamodel.AlbumData videoModel>
+final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command backCommand>
 	<lancs.mobilemedia.core.ui.screens.AddMediaToAlbum: javax.microedition.lcdui.Command ok>
 public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int SHOWPHOTO>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command backCommand>
@@ -54,9 +54,9 @@ final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcd
 	<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.datamodel.AlbumData videoAlbumData>
 final	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command resetCommand>
 	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Gauge volGauge>
+protected	<lancs.mobilemedia.core.util.MediaUtil: int endIndex>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>
 private	<lancs.mobilemedia.core.ui.controller.VideoCaptureController: lancs.mobilemedia.core.ui.screens.AddMediaToAlbum saveVideoToAlbum>
-protected	<lancs.mobilemedia.core.util.MediaUtil: int endIndex>
 private	<lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException: java.lang.Throwable cause>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command editLabelCommand>
 protected	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String info_label>
@@ -112,8 +112,8 @@ private	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int typeOfScreen>
 private	<lancs.mobilemedia.sms.SmsMessaging: java.lang.String smsReceivePort>
 static	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command back>
 public	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command stop>
-static	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>
 	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.media.control.VolumeControl volControl>
+static	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>
 private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: int dy>
 	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Image image>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command deleteCommand>
@@ -125,16 +125,16 @@ public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lc
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command captureVideoCommand>
 	<lancs.mobilemedia.sms.NetworkScreen: java.lang.String rPort>
-private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command stop>
 private	<lancs.mobilemedia.sms.SmsSenderThread: java.lang.String destinationAddress>
+private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command stop>
 public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int PLAYVIDEO>
 final	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: int CAPTUREPHOTO>
 private	<lancs.mobilemedia.sms.SmsMessaging: javax.wireless.messaging.MessageConnection smsConn>
 public	<lancs.mobilemedia.core.util.Constants: int SCREEN_WIDTH>
 final	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command deleteAlbumCommand>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command sortCommand>
-	<lancs.mobilemedia.sms.SmsReceiverThread: java.lang.String smsPort>
 final	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command copy>
+	<lancs.mobilemedia.sms.SmsReceiverThread: java.lang.String smsPort>
 public	<lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command exitCommand>
 static	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command backCommand>
 private	<lancs.mobilemedia.core.ui.controller.ScreenSingleton: java.lang.String currentStoreName>
@@ -156,12 +156,12 @@ public	<lancs.mobilemedia.core.util.Constants: java.lang.String NEWALBUM_SCREEN>
 public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command capturePhotoCommand>
 static	<lancs.mobilemedia.core.util.Constants: java.lang.String IMAGELIST_SCREEN>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int SHOWPHOTO>
-	<lancs.mobilemedia.sms.SmsReceiverThread: lancs.mobilemedia.sms.SmsReceiverController controller>
 	<lancs.mobilemedia.core.ui.screens.AddMediaToAlbum: javax.microedition.lcdui.TextField labeltxt>
-	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: byte[] byteImage>
+	<lancs.mobilemedia.sms.SmsReceiverThread: lancs.mobilemedia.sms.SmsReceiverController controller>
 public	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command copy>
-private	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String parentAlbumName>
+	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: byte[] byteImage>
 final	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command copy>
+private	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String parentAlbumName>
 public	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>
 final	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command addPassword>
 private	<lancs.mobilemedia.core.ui.MainUIMidlet: lancs.mobilemedia.core.ui.datamodel.AlbumData imageModel>
@@ -175,15 +175,15 @@ public	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lc
 private	<lancs.mobilemedia.core.ui.datamodel.MediaData: int recordId>
 public	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.lcdui.Command copy>
 public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command viewCommand>
-public	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String VIDEO>
 final	<lancs.mobilemedia.core.util.Constants: java.lang.String CONFIRMDELETEALBUM_SCREEN>
+public	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String VIDEO>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int PLAYVIDEO>
 final	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command stop>
 static	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command selectCommand>
 private	<lancs.mobilemedia.lib.exceptions.InvalidImageDataException: java.lang.Throwable cause>
 private	<lancs.mobilemedia.core.ui.controller.PlayVideoController: lancs.mobilemedia.core.ui.screens.PlayVideoScreen pmscreen>
-final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command copyCommand>
 final	<lancs.mobilemedia.core.util.Constants: java.lang.String IMAGELIST_SCREEN>
+final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command copyCommand>
 private	<lancs.mobilemedia.core.ui.controller.AlbumController: lancs.mobilemedia.core.ui.screens.NewLabelScreen albumName>
 private	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: int typescreen>
 public	<lancs.mobilemedia.core.util.Constants: java.lang.String IMAGE_SCREEN>
@@ -195,22 +195,22 @@ public	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lc
 public	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String PHOTO>
 private	<lancs.mobilemedia.core.ui.controller.MusicPlayController: java.lang.String mediaName>
 final	<lancs.mobilemedia.core.util.Constants: java.lang.String NEWALBUM_SCREEN>
-	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: javax.microedition.lcdui.Command cancel>
 static	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.util.Hashtable passwordTable>
 private	<lancs.mobilemedia.core.ui.datamodel.ImageMediaAccessor: lancs.mobilemedia.core.util.MediaUtil converter>
+	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: javax.microedition.lcdui.Command cancel>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: int PLAYMUSIC>
 protected	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String password_label>
 private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: boolean error>
 private	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.lcdui.Command stop>
 	<lancs.mobilemedia.core.ui.screens.PasswordScreen: javax.microedition.lcdui.Command cancel>
-private	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int formType>
 	<lancs.mobilemedia.sms.SmsSenderController: lancs.mobilemedia.sms.NetworkScreen networkScreen>
+private	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int formType>
 static	<lancs.mobilemedia.core.util.Constants: java.lang.String NEWALBUM_SCREEN>
 static	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command createAlbumCommand>
-final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>
 static	<lancs.mobilemedia.core.util.Constants: java.lang.String CONFIRMDELETEALBUM_SCREEN>
-public	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String MUSIC>
+final	<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>
 public	<lancs.mobilemedia.core.util.Constants: java.lang.String IMAGELIST_SCREEN>
+public	<lancs.mobilemedia.core.ui.datamodel.MediaData: java.lang.String MUSIC>
 static	<lancs.mobilemedia.core.util.Constants: java.lang.String IMAGE_SCREEN>
 static	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command favoriteCommand>
 	<lancs.mobilemedia.sms.SmsReceiverThread: javax.wireless.messaging.MessageConnection smsconn>
@@ -237,8 +237,8 @@ static	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: int LABEL_PHOTO>
 	<lancs.mobilemedia.core.ui.screens.PasswordScreen: javax.microedition.lcdui.Command ok>
 private	<lancs.mobilemedia.sms.SmsSenderThread: java.lang.String smsPort>
 private	<lancs.mobilemedia.core.ui.controller.ScreenSingleton: java.lang.String currentScreenName>
-final	<lancs.mobilemedia.core.util.Constants: int SCREEN_HEIGHT>
 protected	<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String default_album_name>
+final	<lancs.mobilemedia.core.util.Constants: int SCREEN_HEIGHT>
 	<lancs.mobilemedia.sms.SmsReceiverThread: javax.microedition.lcdui.Command errorNotice>
 public	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command viewFavoritesCommand>
 private	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.lcdui.Command takephoto>
@@ -253,14 +253,14 @@ private	<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: javax.microedition.m
 	<lancs.mobilemedia.core.ui.controller.SelectMediaController: lancs.mobilemedia.core.ui.controller.BaseController musicController>
 private	<lancs.mobilemedia.core.ui.datamodel.MediaData: int numberOfViews>
 	<lancs.mobilemedia.sms.SmsReceiverThread: javax.wireless.messaging.Message msg>
-	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.media.Player capturePlayer>
 public	<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: javax.microedition.lcdui.Command back>
+	<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: javax.microedition.media.Player capturePlayer>
 	<lancs.mobilemedia.core.ui.screens.NewLabelScreen: javax.microedition.lcdui.Command ok>
 private	<lancs.mobilemedia.sms.SmsSenderThread: java.lang.String messageText>
 private	<lancs.mobilemedia.sms.SmsMessaging: java.lang.String destinationPhoneNumber>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command playCommand>
-final	<lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command exitCommand>
 final	<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command deleteCommand>
+final	<lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command exitCommand>
 static	<lancs.mobilemedia.core.util.Constants: java.lang.String ALBUMLIST_SCREEN>
 public	<lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command createAlbumCommand>
 private	<lancs.mobilemedia.core.ui.controller.AbstractController: lancs.mobilemedia.core.ui.datamodel.AlbumData albumData>

@@ -50,8 +50,8 @@
 <Graph: Graph prim(Vertex)>/if/instruction32	32	36	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Graph: Graph prim(Vertex)>/if/instruction14	14	6	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Vertex: void nodeSearch(WorkSpace)>/if/instruction17	17	11	<Vertex: void nodeSearch(WorkSpace)>	@DFS /\ SearchBase
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction23	23	26	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Main: void main(java.lang.String[])>/if/instruction85	85	81	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction23	23	26	<Vertex: void nodeSearch(WorkSpace)>	@SearchBase /\ BFS
 <Graph: void graphSearch(WorkSpace)>/if/instruction12	12	7	<Graph: void graphSearch(WorkSpace)>	@SearchBase
 <Graph: Graph computeTranspose(Graph)>/if/instruction21	21	11	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
 <CycleWorkSpace: void preVisitAction(Vertex)>/if/instruction4	4	11	<CycleWorkSpace: void preVisitAction(Vertex)>	@Cycle

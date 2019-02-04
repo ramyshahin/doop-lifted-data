@@ -1,8 +1,8 @@
-com.thoughtworks.xstream.XStream
 java.io.RandomAccessFile
+com.thoughtworks.xstream.XStream
 java.lang.String[]
-java.lang.Thread
 java.util.Map
+java.lang.Thread
 javax.swing.Box
 java.io.Serializable
 java.lang.ClassLoader
