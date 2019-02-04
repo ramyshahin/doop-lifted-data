@@ -1,0 +1,106 @@
+
+> Task :run
+:: loading settings :: url = jar:file:/home/ramy/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.4.0/5abe4c24bbe992a9ac07ca563d5bd3e8d569e9ed/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+New 1-type-sensitive+heap analysis
+Id       : 18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841
+Inputs   : BerkeleyDB.jar
+Libraries: 
+Using a timeout of 90 min.
+[Task FACTS...]
+-- Fact Generation --
+Using annotations file: /home/ramy/annotations.tsv
+Preprocessing application: BerkeleyDB.jar
+Adding archive: BerkeleyDB.jar
+Classes in input (application) jar(s): 297
+Classes in dependency jar(s): 0
+Total classes in Scene: 297
+Retrieved all bodies.
+Checking class heaps for missing types...
+Fact generation cores: 8
+Generated artifact-to-class map for 1 artifacts.
+Soot fact generation time: 4718
+Time to make facts unique: 517
+Caching facts in /home/ramy/doop-lifted/cache/1c258f4cbffa64d84980b0ab73730327de0db046ae7fed317dc8e7e95baab0ab
+Copying /home/ramy/doop-lifted/out/1-type-sensitive+heap/18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841/facts to /home/ramy/doop-lifted/cache/1c258f4cbffa64d84980b0ab73730327de0db046ae7fed317dc8e7e95baab0ab...
+----
+[Task FACTS Done]
+[Task Interpret...]
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/1-type-sensitive+heap/18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841/gen_8331690937587682743.dl, -j8, -F/home/ramy/doop-lifted/out/1-type-sensitive+heap/18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841/facts, -D/home/ramy/doop-lifted/out/1-type-sensitive+heap/18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841/database]
+Using Feature Model: (!Logging \/ _Logging) /\ (!_Logging \/ Logging) /\ (!NIOAccess \/ _NIO \/ _ChunkedNIO) /\ (!_NIO \/ NIOAccess) /\ (!_ChunkedNIO \/ NIOAccess) /\ (!_NIO \/ !_ChunkedNIO) /\ (!Checkpointer \/ _Checkpointer) /\ (!_Checkpointer \/ Checkpointer) /\ (!Ops \/ _Ops) /\ (!_Ops \/ Ops) /\ (!IICleaner \/ _IICleaner) /\ (!_IICleaner \/ IICleaner) /\ (!IEvictor \/ _IEvictor) /\ (!_IEvictor \/ IEvictor) /\ (!BTree \/ _BTree) /\ (!_BTree \/ BTree) /\ (!Persistance \/ _Persistance) /\ (!_Persistance \/ Persistance) /\ (!SPL \/ generatedSPL) /\ (!generatedSPL \/ SPL) /\ (!ConcurrTrans \/ _ConcurrTrans) /\ (!_ConcurrTrans \/ ConcurrTrans) /\ (!IIO \/ NewIO \/ OldIO) /\ (!NewIO \/ IIO) /\ (!OldIO \/ IIO) /\ (!NewIO \/ !OldIO) /\ (!SynchronizedIO \/ OldIO) /\ (!OldIO \/ IO) /\ (!IO \/ OldIO) /\ (!CP_Bytes \/ _Checkpointer) /\ (!CP_Time \/ _Checkpointer) /\ (!Checkpointer_Daemon \/ _Checkpointer) /\ (!INCompressor \/ _BTree) /\ (!IEvictor \/ _BTree) /\ (!Verifier \/ _BTree) /\ (!_ChunkedNIO \/ ChunkedNIO) /\ (!ChunkedNIO \/ _ChunkedNIO) /\ (!Latches \/ _ConcurrTrans) /\ (!Transactions \/ _ConcurrTrans) /\ (!CheckLeaks \/ _ConcurrTrans) /\ (!FSync \/ _ConcurrTrans) /\ (!Logging_Finer \/ _Logging) /\ (!Logging_Config \/ _Logging) /\ (!Logging_Severe \/ _Logging) /\ (!Logging_Evictor \/ _Logging) /\ (!Logging_Cleaner \/ _Logging) /\ (!Logging_Recovery \/ _Logging) /\ (!Logging_DbLogHandler \/ _Logging) /\ (!Logging_ConsoleHandler \/ _Logging) /\ (!Logging_Info \/ _Logging) /\ (!_Logging \/ Logging_Base) /\ (!Logging_Base \/ _Logging) /\ (!Logging_FileHandler \/ _Logging) /\ (!Logging_Fine \/ _Logging) /\ (!Logging_Finest \/ _Logging) /\ (!CleanerDaemon \/ _IICleaner) /\ (!_IICleaner \/ Cleaner) /\ (!Cleaner \/ _IICleaner) /\ (!LookAHEADCache \/ _IICleaner) /\ (!Logging \/ generatedSPL) /\ (!generatedSPL \/ ConcurrTrans) /\ (!ConcurrTrans \/ generatedSPL) /\ (!generatedSPL \/ Persistance) /\ (!Persistance \/ generatedSPL) /\ (!Statistics \/ generatedSPL) /\ (!generatedSPL \/ BTree) /\ (!BTree \/ generatedSPL) /\ (!generatedSPL \/ Ops) /\ (!Ops \/ generatedSPL) /\ (!Memory_Budget \/ generatedSPL) /\ (!_NIO \/ NIO) /\ (!NIO \/ _NIO) /\ (!Critical_Eviction \/ _IEvictor) /\ (!EvictorDaemon \/ _IEvictor) /\ (!_IEvictor \/ Evictor) /\ (!Evictor \/ _IEvictor) /\ (!NewIO \/ NIOAccess) /\ (!NIOAccess \/ NewIO) /\ (!DirectNIO \/ NewIO) /\ (!Checksum \/ _Persistance) /\ (!_Persistance \/ IIO) /\ (!IIO \/ _Persistance) /\ (!Environment_Locking \/ _Persistance) /\ (!_Persistance \/ Checkpointer) /\ (!Checkpointer \/ _Persistance) /\ (!DiskFullErro \/ _Persistance) /\ (!FileHandleCache \/ _Persistance) /\ (!_Persistance \/ IICleaner) /\ (!IICleaner \/ _Persistance) /\ (!DeleteOp \/ _Ops) /\ (!RenameOp \/ _Ops) /\ (!TruncateOp \/ _Ops) /\ (!Evictor \/ Memory_Budget) /\ (!EvictorDaemon \/ Memory_Budget) /\ (!LookAHEADCache \/ Memory_Budget) /\ (!Critical_Eviction \/ INCompressor) /\ (!CP_Bytes \/ CP_Time) /\ (!DeleteOp \/ Evictor) /\ (!DeleteOp \/ INCompressor) /\ (!DeleteOp \/ Memory_Budget) /\ (!Memory_Budget \/ Evictor) /\ (!Memory_Budget \/ Latches) /\ (!TruncateOp \/ DeleteOp) /\ (!Verifier \/ INCompressor) /\ (SPL)
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_8331690937587682743.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_8331690937587682743.dl at line 1381
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_8331690937587682743.dl at line 1645
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_8331690937587682743.dl at line 1892
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_8331690937587682743.dl at line 1945
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_8331690937587682743.dl at line 1959
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_8331690937587682743.dl at line 1976
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_8331690937587682743.dl at line 1987
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_8331690937587682743.dl at line 2052
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_8331690937587682743.dl at line 2119
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_8331690937587682743.dl at line 2143
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_8331690937587682743.dl at line 2196
+Warning: No rules/facts defined for relation MockObjFromField in file gen_8331690937587682743.dl at line 2835
+pcMap size:  1450
+Facts:       210529
+Facts@PCs:   49066
+Records:     483201
+Records@PCs: 483201
+Analysis compilation time (sec): 22276
+Caching analysis executable 9c1295e0268f7476dec75065087e40f9afe2f5784d00930f02075ba8dd02caa6 in /home/ramy/doop-lifted/cache/souffle-analyses/1-type-sensitive+heap
+[Task Interpret Done]
+-- Runtime metrics --
+analysis execution time (sec)                                                    22,276
+disk footprint (KB)                                                              1,859,320
+soot-fact-generation time (sec)                                                  4,718
+-- Statistics --
+var points-to (INS)                                                              69,075
+var points-to (SENS)                                                             316,387
+reachable variables (INS)                                                        21,371
+reachable variables (SENS)                                                       66,660
+reachable methods (INS)                                                          3,491
+reachable methods (SENS)                                                         11,709
+virtual call sites (statically)                                                  7,250
+reachable virtual call sites                                                     6,918
+polymorphic virtual call sites                                                   268
+null virtual call sites                                                          1,869
+empty virtual call sites                                                         1,127
+app virtual call sites (statically)                                              7,250
+app reachable virtual call sites                                                 6,918
+app polymorphic virtual call sites                                               268
+app null virtual call sites                                                      1,869
+app empty virtual call sites                                                     1,127
+array index points-to (INS)                                                      163
+array index points-to (SENS)                                                     777
+casts (statically)                                                               1,041
+reachable casts                                                                  391
+reachable casts that may fail                                                    366
+app casts (statically)                                                           1,041
+app reachable casts                                                              391
+app reachable casts that may fail                                                366
+app reachable methods                                                            3,348
+instance field points-to (INS)                                                   6,951
+instance field points-to (SENS)                                                  39,485
+static field points-to (INS)                                                     222
+static field points-to (SENS)                                                    222
+app array index points-to (INS)                                                  159
+app array index points-to (SENS)                                                 767
+Entry Points                                                                     2,242
+Mock Objects                                                                     242
+Mock Objects for Receivers                                                       229
+Mock Objects for Fields                                                          0
+Mock Objects for Arrays                                                          4
+Mock Objects for Formals                                                         87
+app instance field points-to (INS)                                               6,043
+app instance field points-to (SENS)                                              33,522
+call graph edges (INS)                                                           10,466
+call graph edges (SENS)                                                          50,823
+non-reachable app concrete methods                                               155
+Making database available at /home/ramy/doop-lifted/results/BerkeleyDB/1-type-sensitive+heap/java_7/18b5a3b8b1661b140b473d987c52727285398afe7eac79565b0bedb1bf119841
+Making database available at /home/ramy/doop-lifted/last-analysis
+
+BUILD SUCCESSFUL in 33s
+5 actionable tasks: 1 executed, 4 up-to-date

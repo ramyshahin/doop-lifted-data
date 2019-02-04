@@ -1,0 +1,22 @@
+<<\\" FinishTime -> \\">>	@StronglyConnected
+<<\\"Vertex \\">>
+<<\\" VertexCycle# \\">>	@Cycle
+<<\\"Your file \\">>	@(Benchmark) /\ (Benchmark)
+<<\\"Total Time: \\">>	@(Prog) /\ (Prog)
+<<\\"Vertices \\">>
+<<\\" Weights : \\">>	@Weighted /\ G_NoEdges
+<<\\"  visited\\">>	@SearchBase
+******************************************
+******************************************	@GEN_Edges
+<<\\" comp# \\">>	@Connected
+<<\\" Weight=\\">>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
+<<\\" # \\">>	@Number
+v	@(Prog) /\ (Prog)
+<<\\" Pred \\">>	@MSTPrim
+<<\\" Cycle? \\">>	@Cycle /\ Prog
+<<\\" Rep \\">>	@MSTKruskal
+<<\\"Edges \\">>	@GEN_Edges
+<<\\"Time elapsed: \\">>	@(Benchmark) /\ (Benchmark)
+<<\\" start=\\">>	@(EdgeObjects) /\ (EdgeObjects)
+<<\\" !visited\\">>	@SearchBase
+<<\\"Rep null \\">>	@MSTKruskal

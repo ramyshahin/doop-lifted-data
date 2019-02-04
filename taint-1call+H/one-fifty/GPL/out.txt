@@ -1,0 +1,118 @@
+
+> Task :run
+:: loading settings :: url = jar:file:/home/ramy/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.4.0/5abe4c24bbe992a9ac07ca563d5bd3e8d569e9ed/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+New 1-call-site-sensitive+heap analysis
+Id       : 786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2
+Inputs   : GPL.jar
+Libraries: 
+Using a timeout of 90 min.
+[Task FACTS...]
+-- Fact Generation --
+Preprocessing application: GPL.jar
+Adding archive: GPL.jar
+Classes in input (application) jar(s): 26
+Classes in dependency jar(s): 0
+Total classes in Scene: 26
+Retrieved all bodies.
+Checking class heaps for missing types...
+Fact generation cores: 8
+Generated artifact-to-class map for 1 artifacts.
+Soot fact generation time: 789
+Time to make facts unique: 59
+Caching facts in /home/ramy/doop-lifted/cache/a57832a978c56ee7de4ee4d5c7d043dc0c88334c7a98f47da021387d3c14a100
+Copying /home/ramy/doop-lifted/out/1-call-site-sensitive+heap/786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2/facts to /home/ramy/doop-lifted/cache/a57832a978c56ee7de4ee4d5c7d043dc0c88334c7a98f47da021387d3c14a100...
+----
+[Task FACTS Done]
+[Task Interpret...]
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/1-call-site-sensitive+heap/786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2/gen_2638849649599530708.dl, -j8, -F/home/ramy/doop-lifted/out/1-call-site-sensitive+heap/786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2/facts, -D/home/ramy/doop-lifted/out/1-call-site-sensitive+heap/786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2/database]
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_2638849649599530708.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_2638849649599530708.dl at line 1652
+Warning: No rules/facts defined for relation mainAnalysis.OptReturnAssign in file gen_2638849649599530708.dl at line 1656
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_2638849649599530708.dl at line 1899
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_2638849649599530708.dl at line 1952
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_2638849649599530708.dl at line 1966
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_2638849649599530708.dl at line 1983
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_2638849649599530708.dl at line 1994
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_2638849649599530708.dl at line 2059
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_2638849649599530708.dl at line 2126
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_2638849649599530708.dl at line 2150
+Warning: No rules/facts defined for relation LeakingSinkMethod in file gen_2638849649599530708.dl at line 2784
+Warning: No rules/facts defined for relation SanitizationMethod in file gen_2638849649599530708.dl at line 2794
+Warning: No rules/facts defined for relation BaseToParamTaintTransferMethod in file gen_2638849649599530708.dl at line 2812
+Warning: No rules/facts defined for relation ParamIndexToBaseTaintTransferMethod in file gen_2638849649599530708.dl at line 2816
+Warning: No rules/facts defined for relation ParamToRetTaintTransferMethod in file gen_2638849649599530708.dl at line 2817
+Warning: No rules/facts defined for relation MockBaseToRetTaintTransferMethod in file gen_2638849649599530708.dl at line 2818
+Warning: No rules/facts defined for relation MockParamToRetTaintTransferMethod in file gen_2638849649599530708.dl at line 2819
+Warning: No rules/facts defined for relation MockObjFromField in file gen_2638849649599530708.dl at line 3253
+pcMap size:  2
+Facts:       5564
+Facts@PCs:   0
+Records:     4450
+Records@PCs: 0
+Analysis compilation time (sec): 8795
+Caching analysis executable 8b2d3ef5ce9834b022e8e5cbffbfff4731c8ff8bf7ef07c33a6aebddaf825d83 in /home/ramy/doop-lifted/cache/souffle-analyses/1-call-site-sensitive+heap
+[Task Interpret Done]
+-- Runtime metrics --
+analysis execution time (sec)                                                    8,795
+disk footprint (KB)                                                              344
+soot-fact-generation time (sec)                                                  789
+-- Statistics --
+var points-to (INS)                                                              889
+var points-to (SENS)                                                             1,576
+reachable variables (INS)                                                        643
+reachable variables (SENS)                                                       1,293
+reachable methods (INS)                                                          150
+reachable methods (SENS)                                                         358
+virtual call sites (statically)                                                  230
+reachable virtual call sites                                                     230
+polymorphic virtual call sites                                                   1
+null virtual call sites                                                          13
+empty virtual call sites                                                         78
+app virtual call sites (statically)                                              230
+app reachable virtual call sites                                                 230
+app polymorphic virtual call sites                                               1
+app null virtual call sites                                                      13
+app empty virtual call sites                                                     78
+array index points-to (INS)                                                      2
+array index points-to (SENS)                                                     2
+casts (statically)                                                               28
+reachable casts                                                                  6
+reachable casts that may fail                                                    6
+app casts (statically)                                                           28
+app reachable casts                                                              6
+app reachable casts that may fail                                                6
+app reachable methods                                                            136
+instance field points-to (INS)                                                   54
+instance field points-to (SENS)                                                  100
+static field points-to (INS)                                                     4
+static field points-to (SENS)                                                    4
+tainted flows-to (INS)                                                           0
+tainted flows-to (SENS)                                                          0
+app tainted flows-to (INS)                                                       0
+app tainted flows-to (SENS)                                                      0
+total tainted values                                                             0
+original tainted values                                                          0
+sink variables (SENS)                                                            0
+total leaks                                                                      0
+app array index points-to (INS)                                                  1
+app array index points-to (SENS)                                                 1
+Entry Points                                                                     111
+Mock Objects                                                                     27
+Mock Objects for Receivers                                                       24
+Mock Objects for Fields                                                          0
+Mock Objects for Arrays                                                          1
+Mock Objects for Formals                                                         9
+app instance field points-to (INS)                                               43
+app instance field points-to (SENS)                                              89
+call graph edges (INS)                                                           245
+call graph edges (SENS)                                                          486
+non-reachable app concrete methods                                               4
+Making database available at /home/ramy/doop-lifted/results/GPL/1-call-site-sensitive+heap/java_7/786bd7bf1cf2d694eb093c6a104ce72f2bed3a971c32d09e0165f1fc4278c7e2
+Making database available at /home/ramy/doop-lifted/last-analysis
+
+BUILD SUCCESSFUL in 15s
+5 actionable tasks: 1 executed, 4 up-to-date

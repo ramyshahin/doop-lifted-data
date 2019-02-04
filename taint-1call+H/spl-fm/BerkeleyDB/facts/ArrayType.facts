@@ -1,0 +1,67 @@
+byte[][]	@Memory_Budget
+javax.transaction.xa.Xid[]
+com.sleepycat.je.util.DbSpace$Summary[]	@Cleaner
+com.sleepycat.je.txn.Txn$DatabaseCleanupInfo[]	@Transactions /\ DeleteOp
+java.lang.Long[]
+javax.transaction.xa.Xid[]	@Transactions
+byte[]	@Cleaner /\ Memory_Budget
+byte[]	@Statistics /\ Verifier
+com.sleepycat.je.utilint.EventTrace[]
+byte[][]
+com.sleepycat.je.txn.LockUpgrade[][]
+java.util.logging.Handler[]
+com.sleepycat.je.cleaner.LNInfo[]
+byte[]
+com.sleepycat.je.txn.LockConflict[]
+com.sleepycat.je.txn.Locker[]
+byte[]	@Transactions
+com.sleepycat.je.dbi.DbEnvState[]
+com.sleepycat.je.dbi.DatabaseId[]	@Cleaner /\ DeleteOp
+com.sleepycat.je.util.DbSpace$Summary[]
+long[]	@Memory_Budget
+int[]
+com.sleepycat.je.cleaner.FileProcessor[]	@Cleaner
+java.lang.Object[]
+com.sleepycat.je.cleaner.FileProcessor[]	@Cleaner /\ CleanerDaemon
+java.lang.Integer[]
+com.sleepycat.je.log.LogEntryType[]
+com.sleepycat.je.TransactionStats$Active[]	@Transactions /\ Statistics
+byte[]	@TruncateOp
+com.sleepycat.je.txn.LockUpgrade[]
+com.sleepycat.je.TransactionStats$Active[]
+java.lang.Integer[]	@Cleaner
+com.sleepycat.je.latch.Latch[]	@Latches
+java.util.Map[]	@Statistics
+byte[]	@INCompressor
+java.lang.Class[]
+com.sleepycat.je.Cursor[]
+com.sleepycat.je.cleaner.TrackedFileSummary[]
+long[]	@Statistics
+java.util.Set[]	@Cleaner
+com.sleepycat.je.TransactionStats$Active[]	@Transactions /\ Latches /\ Statistics
+com.sleepycat.je.cleaner.FileProcessor[]
+com.sleepycat.je.Database[]
+com.sleepycat.je.tree.Node[]
+java.util.logging.Handler[]	@Logging_Base
+com.sleepycat.je.dbi.DatabaseId[]
+byte[]	@Memory_Budget
+com.sleepycat.je.cleaner.TrackedFileSummary[]	@Cleaner
+com.sleepycat.je.Database[]	@Transactions
+short[]
+java.lang.String[]
+long[]
+java.util.Set[]
+byte[]	@Cleaner
+com.sleepycat.je.txn.LockConflict[][]
+com.sleepycat.je.cleaner.LNInfo[]	@Cleaner
+com.sleepycat.je.DatabaseEntry[]
+byte[]	@Latches
+com.sleepycat.je.txn.Locker[]	@Transactions
+java.util.Map[]
+byte[]	@(Cleaner) /\ (Cleaner)
+java.lang.String[]	@Memory_Budget
+com.sleepycat.je.txn.Txn$DatabaseCleanupInfo[]
+com.sleepycat.je.tree.Node[]	@Memory_Budget
+long[]	@Cleaner
+com.sleepycat.je.latch.Latch[]
+char[]
