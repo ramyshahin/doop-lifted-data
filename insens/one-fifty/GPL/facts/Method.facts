@@ -5,8 +5,8 @@
 <java.lang.String: java.lang.String valueOf(int)>	valueOf	(int)	java.lang.String	java.lang.String	(I)Ljava/lang/String;	1
 <java.lang.String: void <init>(char[])>	<init>	(char[])	java.lang.String	void	([C)V	1
 <Graph: void sortVertices(java.util.Comparator)>	sortVertices	(java.util.Comparator)	Graph	void	(Ljava/util/Comparator;)V	1
-<java.util.Iterator: java.lang.Object next()>	next	()	java.util.Iterator	java.lang.Object	()Ljava/lang/Object;	0
 <java.util.LinkedList: int size()>	size	()	java.util.LinkedList	int	()I	0
+<java.util.Iterator: java.lang.Object next()>	next	()	java.util.Iterator	java.lang.Object	()Ljava/lang/Object;	0
 <java.util.LinkedList: java.util.Iterator iterator()>	iterator	()	java.util.LinkedList	java.util.Iterator	()Ljava/util/Iterator;	0
 <Graph: void addVertex(Vertex)>	addVertex	(Vertex)	Graph	void	(LVertex;)V	1
 <FinishTimeWorkSpace: void postVisitAction(Vertex)>	postVisitAction	(Vertex)	FinishTimeWorkSpace	void	(LVertex;)V	1
@@ -73,8 +73,8 @@
 <Neighbor: void display()>	display	()	Neighbor	void	()V	0
 <Edge: void display()>	display	()	Edge	void	()V	0
 <Graph: void endProfile()>	endProfile	()	Graph	void	()V	0
-<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>	<init>	(Vertex,Vertex$VertexIter1)	Vertex$VertexIter1	void	(LVertex;LVertex$VertexIter1;)V	2
 <Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>	<init>	(Graph,Graph$Comparator3)	Graph$Comparator3	void	(LGraph;LGraph$Comparator3;)V	2
+<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>	<init>	(Vertex,Vertex$VertexIter1)	Vertex$VertexIter1	void	(LVertex;LVertex$VertexIter1;)V	2
 <Graph$EdgeIter1: boolean hasNext()>	hasNext	()	Graph$EdgeIter1	boolean	()Z	0
 <java.lang.Integer: int parseInt(java.lang.String,int)>	parseInt	(java.lang.String,int)	java.lang.Integer	int	(Ljava/lang/String;I)I	2
 <Main: void readWeights(Graph,int)>	readWeights	(Graph,int)	Main	void	(LGraph;I)V	2
@@ -108,8 +108,8 @@
 <Vertex: VertexIter getNeighbors()>	getNeighbors	()	Vertex	VertexIter	()LVertexIter;	0
 <java.util.LinkedList: java.lang.Object get(int)>	get	(int)	java.util.LinkedList	java.lang.Object	(I)Ljava/lang/Object;	1
 <RegionWorkSpace: void postVisitAction(Vertex)>	postVisitAction	(Vertex)	RegionWorkSpace	void	(LVertex;)V	1
-<Neighbor: void <init>(Vertex,Edge)>	<init>	(Vertex,Edge)	Neighbor	void	(LVertex;LEdge;)V	2
 <java.util.Collections: void sort(java.util.List,java.util.Comparator)>	sort	(java.util.List,java.util.Comparator)	java.util.Collections	void	(Ljava/util/List;Ljava/util/Comparator;)V	2
+<Neighbor: void <init>(Vertex,Edge)>	<init>	(Vertex,Edge)	Neighbor	void	(LVertex;LEdge;)V	2
 <Graph: boolean cycleCheck()>	cycleCheck	()	Graph	boolean	()Z	0
 <java.lang.StringBuilder: java.lang.StringBuilder append(long)>	append	(long)	java.lang.StringBuilder	java.lang.StringBuilder	(J)Ljava/lang/StringBuilder;	1
 <java.util.HashSet: void <init>()>	<init>	()	java.util.HashSet	void	()V	0

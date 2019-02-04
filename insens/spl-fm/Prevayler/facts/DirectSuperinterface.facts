@@ -8,8 +8,8 @@ org.prevayler.implementation.TransactionTimestamp	java.io.Serializable
 org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	org.prevayler.foundation.network.NetworkServerObjectReceiver
 org.prevayler.Transaction	java.io.Serializable
 org.prevayler.demos.demo2.gui.AccountEditFrame	org.prevayler.demos.demo2.business.AccountListener
-org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject	org.prevayler.demos.scalability.ScalabilityTestSubject
 org.prevayler.foundation.network.ObjectServerSocketImpl	org.prevayler.foundation.network.ObjectServerSocket
+org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject	org.prevayler.demos.scalability.ScalabilityTestSubject
 org.prevayler.foundation.network.StubbornServerReceiverImpl	org.prevayler.foundation.network.ObjectReceiver
 org.prevayler.demos.scalability.prevayler.ScalabilitySystem	java.io.Serializable
 org.prevayler.demos.demo2.business.Bank	java.io.Serializable
@@ -21,8 +21,8 @@ org.prevayler.implementation.PrevalentSystemGuard	org.prevayler.implementation.p
 org.prevayler.implementation.replication.ClientPublisher	org.prevayler.implementation.publishing.TransactionPublisher
 org.prevayler.demos.demo2.business.transactions.BankTransaction	org.prevayler.TransactionWithQuery
 org.prevayler.SureTransactionWithQuery	org.prevayler.TransactionWithQuery
-org.prevayler.implementation.clock.PausableClock	org.prevayler.Clock
 org.prevayler.foundation.network.StubbornClientReceiverImpl	org.prevayler.foundation.network.ObjectReceiver
+org.prevayler.implementation.clock.PausableClock	org.prevayler.Clock
 org.prevayler.foundation.network.ObjectSocketImpl	org.prevayler.foundation.network.ObjectSocket
 org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction	javax.swing.event.ListSelectionListener
 org.prevayler.implementation.publishing.POBox	org.prevayler.implementation.publishing.TransactionSubscriber
@@ -35,11 +35,11 @@ org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection	org.pre
 org.prevayler.foundation.network.NetworkSessionId	java.io.Serializable
 org.prevayler.demos.scalability.Record	java.io.Serializable
 org.prevayler.demos.scalability.prevayler.QuerySystem	org.prevayler.demos.scalability.prevayler.ScalabilitySystem
-org.prevayler.demos.demo2.gui.AllAccountsFrame	org.prevayler.demos.demo2.business.BankListener
 org.prevayler.foundation.monitor.NullMonitor	org.prevayler.foundation.monitor.Monitor
+org.prevayler.demos.demo2.gui.AllAccountsFrame	org.prevayler.demos.demo2.business.BankListener
 org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter	java.io.FileFilter
-org.prevayler.implementation.publishing.censorship.StrictTransactionCensor	org.prevayler.implementation.publishing.censorship.TransactionCensor
 org.prevayler.demos.scalability.prevayler.AllRecordsReplacement	org.prevayler.Transaction
+org.prevayler.implementation.publishing.censorship.StrictTransactionCensor	org.prevayler.implementation.publishing.censorship.TransactionCensor
 org.prevayler.demos.scalability.prevayler.TransactionSystem	org.prevayler.demos.scalability.prevayler.ScalabilitySystem
 org.prevayler.demos.demo1.NumberStorageTransaction	org.prevayler.Transaction
 org.prevayler.foundation.serialization.JavaSerializer	org.prevayler.foundation.serialization.Serializer
@@ -53,8 +53,8 @@ org.prevayler.foundation.network.StubbornNetworkProxy	org.prevayler.foundation.n
 org.prevayler.implementation.replication.ServerConnection	org.prevayler.implementation.publishing.TransactionSubscriber
 org.prevayler.demos.demo2.business.Bank$1	java.util.Comparator
 org.prevayler.demos.demo2.gui.MatchFrame$1	java.awt.event.ActionListener
-org.prevayler.foundation.serialization.XStreamSerializer	org.prevayler.foundation.serialization.Serializer
 org.prevayler.foundation.network.StubbornServerReceiverImpl	org.prevayler.foundation.network.StubbornNetworkClientConnector
+org.prevayler.foundation.serialization.XStreamSerializer	org.prevayler.foundation.serialization.Serializer
 org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	org.prevayler.foundation.network.ObjectReceiver
 org.prevayler.foundation.network.BaseNetworkImpl	org.prevayler.foundation.network.Network
 org.prevayler.demos.scalability.prevayler.TestTransaction	org.prevayler.Transaction

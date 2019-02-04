@@ -13,8 +13,8 @@
 <java.util.LinkedList: boolean remove(java.lang.Object)>
 <java.util.Set: boolean remove(java.lang.Object)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
-<java.lang.String: java.lang.String trim()>
 <java.util.LinkedList: java.lang.Object getLast()>
+<java.lang.String: java.lang.String trim()>
 <java.util.HashSet: void <init>()>
 <java.util.Collections: void sort(java.util.List,java.util.Comparator)>
 <java.lang.Integer: void <init>(int)>
@@ -43,6 +43,6 @@
 <java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(int)>
 <java.io.PrintStream: void println()>
-<java.util.Iterator: boolean hasNext()>
 <java.util.LinkedList: java.lang.Object removeFirst()>
+<java.util.Iterator: boolean hasNext()>
 <java.util.Iterator: java.lang.Object next()>

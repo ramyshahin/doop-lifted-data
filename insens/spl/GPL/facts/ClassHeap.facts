@@ -20,7 +20,7 @@
 <class Main>	Main
 <class EdgeIfc>	EdgeIfc
 <class NeighborIfc>	NeighborIfc
-<class Vertex$VertexIter2>	Vertex$VertexIter2
 <class NumberWorkSpace>	NumberWorkSpace
+<class Vertex$VertexIter2>	Vertex$VertexIter2
 <class RegionWorkSpace>	RegionWorkSpace
 <class WorkSpace>	WorkSpace

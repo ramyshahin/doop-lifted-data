@@ -3,18 +3,18 @@
 <<\\" VertexCycle# \\">>	@Cycle
 <<\\"Total Time: \\">>	@(Prog) /\ (Prog)
 <<\\"Your file \\">>	@(Benchmark) /\ (Benchmark)
-<<\\" Weights : \\">>	@Weighted /\ G_NoEdges
 <<\\"Vertices \\">>
+<<\\" Weights : \\">>	@Weighted /\ G_NoEdges
 <<\\"  visited\\">>	@SearchBase
-<<\\" comp# \\">>	@Connected
 ******************************************
 ******************************************	@GEN_Edges
+<<\\" comp# \\">>	@Connected
 <<\\" Weight=\\">>	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
 <<\\" # \\">>	@Number
 v	@(Prog) /\ (Prog)
 <<\\" Pred \\">>	@MSTPrim
-<<\\" Rep \\">>	@MSTKruskal
 <<\\" Cycle? \\">>	@Cycle /\ Prog
+<<\\" Rep \\">>	@MSTKruskal
 <<\\"Edges \\">>	@GEN_Edges
 <<\\"Time elapsed: \\">>	@(Benchmark) /\ (Benchmark)
 <<\\" start=\\">>	@(EdgeObjects) /\ (EdgeObjects)

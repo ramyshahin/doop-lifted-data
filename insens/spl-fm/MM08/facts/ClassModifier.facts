@@ -1,6 +1,6 @@
 abstract	lancs.mobilemedia.core.ui.controller.ControllerInterface
-public	lancs.mobilemedia.core.ui.datamodel.AlbumData
 public	lancs.mobilemedia.lib.exceptions.ImagePathNotValidException
+public	lancs.mobilemedia.core.ui.datamodel.AlbumData
 public	lancs.mobilemedia.core.ui.controller.MusicPlayController
 public	lancs.mobilemedia.lib.exceptions.InvalidArrayFormatException
 public	lancs.mobilemedia.sms.SmsMessaging
@@ -29,8 +29,8 @@ public	lancs.mobilemedia.core.ui.controller.AlbumController
 public	lancs.mobilemedia.core.ui.datamodel.MediaData
 public	lancs.mobilemedia.sms.NetworkScreen
 abstract	lancs.mobilemedia.core.ui.datamodel.MediaAccessor
-public	lancs.mobilemedia.core.ui.screens.MediaListScreen
 public	lancs.mobilemedia.sms.SmsReceiverThread
+public	lancs.mobilemedia.core.ui.screens.MediaListScreen
 public	lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException
 public	lancs.mobilemedia.core.ui.screens.AlbumListScreen
 public	lancs.mobilemedia.core.ui.controller.MediaListController
@@ -52,5 +52,5 @@ public	lancs.mobilemedia.lib.exceptions.InvalidImageFormatException
 public	lancs.mobilemedia.core.ui.screens.AddMediaToAlbum
 public	lancs.mobilemedia.lib.exceptions.InvalidImageDataException
 public	lancs.mobilemedia.core.ui.screens.CaptureVideoScreen
-abstract	lancs.mobilemedia.core.comms.BaseMessaging
 public	lancs.mobilemedia.core.ui.controller.AbstractController
+abstract	lancs.mobilemedia.core.comms.BaseMessaging

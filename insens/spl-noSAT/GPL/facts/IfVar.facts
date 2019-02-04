@@ -1,8 +1,8 @@
 <CycleWorkSpace: void preVisitAction(Vertex)>/if/instruction4	1	<CycleWorkSpace: void preVisitAction(Vertex)>/$z0	@Cycle
 <Graph: Graph kruskal()>/if/instruction148	2	<Graph: Graph kruskal()>/$i4	@MSTKruskal
 <Vertex: void nodeSearch(WorkSpace)>/if/instruction17	1	<Vertex: void nodeSearch(WorkSpace)>/$z1	@DFS /\ SearchBase
-<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z1	@(EdgeObjects) /\ (EdgeObjects)
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction11	2	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i2	@(StronglyConnected) /\ (StronglyConnected)
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z1	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph prim(Vertex)>/if/instruction78	1	<Graph: Graph prim(Vertex)>/vxiter_$$A_3#_611	@MSTPrim
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/if/instruction4	1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/$z0	@(StronglyConnected) /\ (StronglyConnected)
 <Graph: Graph kruskal()>/if/instruction126	1	<Graph: Graph kruskal()>/$z11	@MSTKruskal
@@ -32,17 +32,17 @@
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction16	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z3	@(EdgeObjects) /\ (EdgeObjects)
 <Vertex: void display()>/if/instruction45	1	<Vertex: void display()>/$z0
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction17	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i4	@Cycle /\ Undirected
-<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	1	<Vertex: void nodeSearch(WorkSpace)>/$z0	@SearchBase
 <Graph: void display()>/if/instruction19	2	<Graph: void display()>/$i0
+<Vertex: void nodeSearch(WorkSpace)>/if/instruction5	1	<Vertex: void nodeSearch(WorkSpace)>/$z0	@SearchBase
 <Graph: Graph kruskal()>/if/instruction58	1	<Graph: Graph kruskal()>/j_$$A_2#_449	@MSTKruskal
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction11	2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i3	@(MSTKruskal) /\ (MSTKruskal)
-<Vertex: void display()>/if/instruction23	1	<Vertex: void display()>/vxiter_$$A_1_$$A_1#_260	@Weighted /\ G_NoEdges
 <Graph: Graph computeTranspose(Graph)>/if/instruction21	1	<Graph: Graph computeTranspose(Graph)>/$z0	@(Transpose) /\ (Transpose)
-<Vertex: void display()>/if/instruction94	1	<Vertex: void display()>/$r44	@MSTKruskal
+<Vertex: void display()>/if/instruction23	1	<Vertex: void display()>/vxiter_$$A_1_$$A_1#_260	@Weighted /\ G_NoEdges
 <Graph: int readNumber()>/if/instruction26	1	<Graph: int readNumber()>/ch_$$A_1_$$A_3#_221	@(Benchmark) /\ (Benchmark)
 <Graph: Graph kruskal()>/if/instruction148	1	<Graph: Graph kruskal()>/i_$$A_1#_498	@MSTKruskal
-<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction12	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z0	@(EdgeObjects) /\ (EdgeObjects)
+<Vertex: void display()>/if/instruction94	1	<Vertex: void display()>/$r44	@MSTKruskal
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction11	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i3	@(StronglyConnected) /\ (StronglyConnected)
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction12	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$z0	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: void graphSearch(WorkSpace)>/if/instruction12	1	<Graph: void graphSearch(WorkSpace)>/$z1	@SearchBase
 <Main: void main(java.lang.String[])>/if/instruction85	1	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_7#_68	@(Prog) /\ (Prog)
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i1	@(StronglyConnected) /\ (StronglyConnected)

@@ -3,8 +3,8 @@ Vertex
 EdgeIfc
 Graph$EdgeIter1
 FinishTimeWorkSpace
-WorkSpace
 NeighborIfc
+WorkSpace
 Graph$Comparator2
 Graph$Comparator3
 Graph$Comparator1
@@ -12,8 +12,8 @@ RegionWorkSpace
 VertexIter
 Vertex$VertexIter3
 Vertex$VertexIter2
-Vertex$VertexIter1
 GlobalVarsWrapper
+Vertex$VertexIter1
 CycleWorkSpace
 Neighbor
 Vertex$EdgeIter3

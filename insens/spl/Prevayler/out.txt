@@ -5,7 +5,7 @@
 WARNING: Handling of Java reflection is disabled!
 
 New context-insensitive analysis
-Id       : c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57
+Id       : 44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797
 Inputs   : Prevayler.jar
 Libraries: 
 Using a timeout of 90 min.
@@ -13,7 +13,7 @@ Using a timeout of 90 min.
 [Task COMPILE...]
 -- Fact Generation --
 Compiling Datalog to C++ program and executable
-Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/gen_350223065088022198.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/facts, -D/home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/database]
+Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/gen_5015361573413119437.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/facts, -D/home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/database]
 Using annotations file: /home/ramy/annotations.tsv
 Preprocessing application: Prevayler.jar
 Adding archive: Prevayler.jar
@@ -24,61 +24,73 @@ Retrieved all bodies.
 Checking class heaps for missing types...
 Fact generation cores: 8
 Generated artifact-to-class map for 1 artifacts.
-Soot fact generation time: 1640
-Time to make facts unique: 168
+Soot fact generation time: 1634
+Time to make facts unique: 131
 Caching facts in /home/ramy/doop-lifted/cache/167781facbbeb73a38ab5668db2adb9e23bbfb6c9489c34de9baa2a2bd7405c1
-Copying /home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/facts to /home/ramy/doop-lifted/cache/167781facbbeb73a38ab5668db2adb9e23bbfb6c9489c34de9baa2a2bd7405c1...
+Copying /home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/facts to /home/ramy/doop-lifted/cache/167781facbbeb73a38ab5668db2adb9e23bbfb6c9489c34de9baa2a2bd7405c1...
 ----
 [Task FACTS Done]
 [Task COMPILE...]
 Compiling Datalog to C++ program and executable
-Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/gen_2796626705813981830.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/facts, -D/home/ramy/doop-lifted/out/context-insensitive/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57/database]
-Warning: No rules/facts defined for relation isOpaqueMethod in file gen_350223065088022198.dl at line 53
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_350223065088022198.dl at line 1376
-Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_350223065088022198.dl at line 1640
-Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_350223065088022198.dl at line 1887
-Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_350223065088022198.dl at line 1940
-Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_350223065088022198.dl at line 1954
-Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_350223065088022198.dl at line 1971
-Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_350223065088022198.dl at line 1982
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_350223065088022198.dl at line 2047
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_350223065088022198.dl at line 2114
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_350223065088022198.dl at line 2138
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_350223065088022198.dl at line 2191
-Warning: No rules/facts defined for relation MockObjFromField in file gen_350223065088022198.dl at line 2825
+Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/gen_6883438319758072679.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/facts, -D/home/ramy/doop-lifted/out/context-insensitive/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797/database]
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_5015361573413119437.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_5015361573413119437.dl at line 1640
+Warning: No rules/facts defined for relation mainAnalysis.OptReturnAssign in file gen_5015361573413119437.dl at line 1644
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_5015361573413119437.dl at line 1887
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_5015361573413119437.dl at line 1940
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_5015361573413119437.dl at line 1954
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_5015361573413119437.dl at line 1971
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_5015361573413119437.dl at line 1982
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_5015361573413119437.dl at line 2047
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_5015361573413119437.dl at line 2114
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_5015361573413119437.dl at line 2138
+Warning: No rules/facts defined for relation LeakingSinkMethod in file gen_5015361573413119437.dl at line 2767
+Warning: No rules/facts defined for relation SanitizationMethod in file gen_5015361573413119437.dl at line 2777
+Warning: No rules/facts defined for relation BaseToParamTaintTransferMethod in file gen_5015361573413119437.dl at line 2795
+Warning: No rules/facts defined for relation ParamIndexToBaseTaintTransferMethod in file gen_5015361573413119437.dl at line 2799
+Warning: No rules/facts defined for relation ParamToRetTaintTransferMethod in file gen_5015361573413119437.dl at line 2800
+Warning: No rules/facts defined for relation MockBaseToRetTaintTransferMethod in file gen_5015361573413119437.dl at line 2801
+Warning: No rules/facts defined for relation MockParamToRetTaintTransferMethod in file gen_5015361573413119437.dl at line 2802
+Warning: No rules/facts defined for relation MockObjFromField in file gen_5015361573413119437.dl at line 3236
 pcMap size:  23
 Facts:       29811
-Facts@PCs:   6510
-Records:     19808
+Facts@PCs:   6507
+Records:     19816
 Records@PCs: 7969
-Analysis compilation time (sec): 6497
-Caching analysis executable 98d361af8323adb69075964ce5cf6411de7e1a3c38f5af807f798d4bbd645611 in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
+Analysis compilation time (sec): 10558
+Caching analysis executable 44e9e8f2db0cc98c3d57c85b7dae96c6f0105de1e820737507b58d9246bc943c in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
 [Task COMPILE Done]
-Warning: No rules/facts defined for relation isOpaqueMethod in file gen_2796626705813981830.dl at line 53
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_2796626705813981830.dl at line 1376
-Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_2796626705813981830.dl at line 1640
-Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_2796626705813981830.dl at line 1887
-Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_2796626705813981830.dl at line 1940
-Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_2796626705813981830.dl at line 1954
-Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_2796626705813981830.dl at line 1971
-Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_2796626705813981830.dl at line 1982
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_2796626705813981830.dl at line 2047
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_2796626705813981830.dl at line 2114
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_2796626705813981830.dl at line 2138
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_2796626705813981830.dl at line 2191
-Warning: No rules/facts defined for relation MockObjFromField in file gen_2796626705813981830.dl at line 2825
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_6883438319758072679.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_6883438319758072679.dl at line 1640
+Warning: No rules/facts defined for relation mainAnalysis.OptReturnAssign in file gen_6883438319758072679.dl at line 1644
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_6883438319758072679.dl at line 1887
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_6883438319758072679.dl at line 1940
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_6883438319758072679.dl at line 1954
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_6883438319758072679.dl at line 1971
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_6883438319758072679.dl at line 1982
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_6883438319758072679.dl at line 2047
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_6883438319758072679.dl at line 2114
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_6883438319758072679.dl at line 2138
+Warning: No rules/facts defined for relation LeakingSinkMethod in file gen_6883438319758072679.dl at line 2767
+Warning: No rules/facts defined for relation SanitizationMethod in file gen_6883438319758072679.dl at line 2777
+Warning: No rules/facts defined for relation BaseToParamTaintTransferMethod in file gen_6883438319758072679.dl at line 2795
+Warning: No rules/facts defined for relation ParamIndexToBaseTaintTransferMethod in file gen_6883438319758072679.dl at line 2799
+Warning: No rules/facts defined for relation ParamToRetTaintTransferMethod in file gen_6883438319758072679.dl at line 2800
+Warning: No rules/facts defined for relation MockBaseToRetTaintTransferMethod in file gen_6883438319758072679.dl at line 2801
+Warning: No rules/facts defined for relation MockParamToRetTaintTransferMethod in file gen_6883438319758072679.dl at line 2802
+Warning: No rules/facts defined for relation MockObjFromField in file gen_6883438319758072679.dl at line 3236
 pcMap size:  23
 Facts:       29811
-Facts@PCs:   6510
-Records:     19808
+Facts@PCs:   6507
+Records:     19816
 Records@PCs: 7969
-Analysis compilation time (sec): 5635
-Caching analysis executable 98d361af8323adb69075964ce5cf6411de7e1a3c38f5af807f798d4bbd645611 in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
+Analysis compilation time (sec): 9866
+Caching analysis executable 44e9e8f2db0cc98c3d57c85b7dae96c6f0105de1e820737507b58d9246bc943c in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
 [Task COMPILE Done]
 -- Runtime metrics --
-analysis execution time (sec)                                                    5,635
+analysis execution time (sec)                                                    9,866
 disk footprint (KB)                                                              4,407
-soot-fact-generation time (sec)                                                  1,640
+soot-fact-generation time (sec)                                                  1,634
 -- Statistics --
 var points-to (INS)                                                              6,003
 var points-to (SENS)                                                             6,003
@@ -109,6 +121,14 @@ instance field points-to (INS)                                                  
 instance field points-to (SENS)                                                  818
 static field points-to (INS)                                                     4
 static field points-to (SENS)                                                    4
+tainted flows-to (INS)                                                           0
+tainted flows-to (SENS)                                                          0
+app tainted flows-to (INS)                                                       0
+app tainted flows-to (SENS)                                                      0
+total tainted values                                                             0
+original tainted values                                                          0
+sink variables (SENS)                                                            0
+total leaks                                                                      0
 app array index points-to (INS)                                                  1
 app array index points-to (SENS)                                                 1
 Entry Points                                                                     399
@@ -122,8 +142,8 @@ app instance field points-to (SENS)                                             
 call graph edges (INS)                                                           1,422
 call graph edges (SENS)                                                          1,422
 non-reachable app concrete methods                                               47
-Making database available at /home/ramy/doop-lifted/results/Prevayler/context-insensitive/java_7/c8b54031c935af4b5a90c685dbf7973d57d54df4895d623de73eb2b309fd8d57
+Making database available at /home/ramy/doop-lifted/results/Prevayler/context-insensitive/java_7/44ccd7a319951b108976238e44f0c9b66245bb8c150adea8d6e9bafae784797
 Making database available at /home/ramy/doop-lifted/last-analysis
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 17s
 5 actionable tasks: 1 executed, 4 up-to-date

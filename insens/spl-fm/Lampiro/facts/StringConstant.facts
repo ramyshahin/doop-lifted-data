@@ -103,8 +103,8 @@ urn:xmpp:delay
 <<\\"(empty) \\">>
 \\"jabber:x:listo\\"
 Press left key
-\\"instructions\\"
 serverEl
+\\"instructions\\"
 &apos;
 gws
 muc#roomconfig_persistentroom
@@ -260,8 +260,8 @@ Content-Length
 http://xmlpull.org/v1/doc/features.html#indent-output
 http://www.bluendo.com
 action
-dnd
 text
+dnd
 \\"x\\"
 PLAIN
 \\"boolean\\"
@@ -271,8 +271,8 @@ jid-single
 field
 oversubscribed literal/length tree
 status
-muc#roomconfig_enablelogging
 \\"executing\\"
+muc#roomconfig_enablelogging
 unknown compression method
 file
 \\"status\\"
@@ -307,8 +307,8 @@ sessionid
 qop
 session-accept
 execute
-http://jabber.org/protocol/si/profile/file-transfer
 <<\\"sel: \\">>
+http://jabber.org/protocol/si/profile/file-transfer
 \\"set\\"
 Resource Manager Error
 incomplete literal/length tree
@@ -317,8 +317,8 @@ Unsupported Feature
 roster
 \\"result\\"
 \\"text-single\\"
-http://jabber.org/protocol/muc#roomconfig
 30
+http://jabber.org/protocol/muc#roomconfig
 element stack empty
 Lampiro	@x_notGlider
 FORM_TYPE
@@ -330,18 +330,18 @@ open
 combo2-2
 otorola
 client/
-First
 50
+First
 \\"text-multi\\"
 illegal comment delimiter: --->
-<<\\"ERR: \\">>
 Unsupported property
+<<\\"ERR: \\">>
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
 common
-\\"text-private\\"
 \\\"
+\\"text-private\\"
 layout
 This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
 Can\'t read resources:\n
@@ -351,8 +351,8 @@ Task error
 |-)
 &gt;
 var
-version expected
 :(
+version expected
 :)
 :*
 muc#roomconfig_changesubject
@@ -414,8 +414,8 @@ incorrect header check
 version
 HEADER
 manual
-\\"type\\"
 <<\\"Multivector: \\">>
+\\"type\\"
 close
 In removing menu item
 \\"option\\"
@@ -424,8 +424,8 @@ instructions
 j2me
 Cannot authenticate
 <<\\"Attr.value missing f. \\">>
-finish
 oversubscribed distance tree
+finish
 ]]>
 \\"to\\"
 Cannot set default namespace for elements in no namespace
@@ -437,16 +437,16 @@ feature-not-implemented
 \\"socket://localhost:10080\\"
 FN
 /icons/empty_avatar.png
-\\"error\\"
 ABOUT
+\\"error\\"
 E-mail:
 cipher
 label
 message
 Error while saving config:\n
 Popup-B
-Popup-A
 agb
+Popup-A
 \\"yuprms\\"
 username
 \\"get\\"
@@ -464,8 +464,8 @@ sha1
 404
 END_TAG expected
 406
-407
 /icons/unchecked.png
+407
 Nokia
 invalid window size
 /	@x_notGlider
@@ -514,8 +514,8 @@ data error
 mechanism
 <<\\"Menu Item \\">>
 \\"prompt\\"
-Registration required
 unsubscribed
+Registration required
 apos
 http://jabber.org/protocol/caps
 name expected
@@ -524,8 +524,8 @@ features
 <!DOCTYPE
 _02
 _01
-_04
 http://jabber.org/protocol/disco#items
+_04
 maxValue negative for interactive mode
 _08
 _07
@@ -542,16 +542,16 @@ next
 _12
 _15
 _14
-hidden
 submit
+hidden
 _16
 Yes
 show
-description
 Forbidden
+description
 jabber:x:data
-vcard-temp:x:update
 caps
+vcard-temp:x:update
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
 An error occurred while executing the task
@@ -561,13 +561,13 @@ Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-http://www.w3.org/2000/xmlns/
 subscribed
+http://www.w3.org/2000/xmlns/
 Error creating account
 text-private
 item
-<<\\"<?xml version=\'1.0\' \\">>
 Login
+<<\\"<?xml version=\'1.0\' \\">>
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -576,8 +576,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-\'
 combo3-3
+\'
 combo3-4
 combo3-5
 /icons/lag.png
@@ -606,8 +606,8 @@ Message
 <<\\"Contains d: \\">>
 relaxed
 :\'(
-\\"title\\"
 emo:):(eheh:Obene
+\\"title\\"
 invalid distance code
 PI must not start with xml
 album
@@ -646,8 +646,8 @@ sid
 client
 /transport/yahoo.png
 incomplete distance tree
-invalid maxValue for non interactive mode
 false
+invalid maxValue for non interactive mode
 gt
 gw
 form
@@ -686,8 +686,8 @@ complete
 bmp
 auth
 lt
-text-single
 Logging in...
+text-single
 urn:xmpp:jingle:0
 /icons/lab.png
 \\"presence\\"
@@ -727,8 +727,8 @@ muc#roomconfig_moderatedroom
 X-GOOGLE-TOKEN
 query
 afterG
-muc#roomconfig_whois
 _:-1
+muc#roomconfig_whois
 failure
 afterC
 desc
@@ -776,8 +776,8 @@ resource
 Email=
 muc#roomconfig_roomdesc
 Feature not implemented
-<<\\"Lampiro \\">>
 send
+<<\\"Lampiro \\">>
 Config Error
 *******
 O:)
@@ -790,8 +790,8 @@ Available/Total memory:
 prova button
 /emo/7.png
 /transport/transport.png
-groups
 item #
+groups
 >:)
 Exception
 boolean

@@ -12,9 +12,9 @@
 <Graph: Graph prim(Vertex)>/if/instruction32	==	@MSTPrim
 <Main: void main(java.lang.String[])>/if/instruction85	<	@(Prog) /\ (Prog)
 <Graph: void endProfile()>/assign/instruction6	-	@(Benchmark) /\ (Benchmark)
+<Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	<=	@(StronglyConnected) /\ (StronglyConnected)
 <Main: void main(java.lang.String[])>/assign/instruction92	-	@(Prog) /\ (Prog)
 <Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction11	!=	@(MSTPrim) /\ (MSTPrim)
-<Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	<=	@(StronglyConnected) /\ (StronglyConnected)
 <Main: void main(java.lang.String[])>/assign/instruction82	+	@(Prog) /\ (Prog)
 <Graph: Graph kruskal()>/if/instruction85	<	@MSTKruskal
 <Graph: Vertex findsVertex(java.lang.String)>/if/instruction3	!=
@@ -93,5 +93,5 @@
 <Graph: int readNumber()>/if/instruction25	==	@(Benchmark) /\ (Benchmark)
 <Graph: void stopProfile()>/assign/instruction6	-	@(Benchmark) /\ (Benchmark)
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction11	!=	@(MSTKruskal) /\ (MSTKruskal)
-<Vertex: void display()>/if/instruction45	!=
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction16	+	@Cycle /\ Undirected
+<Vertex: void display()>/if/instruction45	!=

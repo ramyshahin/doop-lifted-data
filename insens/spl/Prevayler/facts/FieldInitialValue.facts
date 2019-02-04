@@ -8,8 +8,8 @@
 <org.prevayler.demos.demo2.business.Bank$AccountNotFound: long serialVersionUID>	5107181766636463559L
 <org.prevayler.foundation.Chunking: java.lang.String HEADER>	\\"(0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7})(;[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+=[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+)*\r\n\\"
 <org.prevayler.implementation.TransactionTimestamp: long serialVersionUID>	1L
-<org.prevayler.demos.demo2.gui.TransferFrame: long serialVersionUID>	-3037927508242313124L
 <org.prevayler.demos.demo2.gui.NewAccountFrame: long serialVersionUID>	-7766047243601388692L
+<org.prevayler.demos.demo2.gui.TransferFrame: long serialVersionUID>	-3037927508242313124L
 <org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: long serialVersionUID>	728880919739535517L
 <org.prevayler.demos.demo2.business.transactions.Transfer: long serialVersionUID>	-8656365915179217238L
 <org.prevayler.demos.demo1.NumberStorageTransaction: long serialVersionUID>	-2023934810496653301L
@@ -30,8 +30,8 @@
 <org.prevayler.implementation.replication.ServerConnection: java.lang.String REMOTE_TRANSACTION>	\\"RemoteTransaction\\"
 <org.prevayler.demos.demo2.business.Account$InvalidAmount: long serialVersionUID>	3343517565045905857L
 <org.prevayler.foundation.Chunking: java.lang.String TOKEN>	\\"[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+\\"
-<org.prevayler.demos.scalability.prevayler.TestTransaction: long serialVersionUID>	-2634307328586761351L
 <org.prevayler.demos.demo2.business.transactions.AccountDeletion: long serialVersionUID>	-3401288850388764433L
+<org.prevayler.demos.scalability.prevayler.TestTransaction: long serialVersionUID>	-2634307328586761351L
 <org.prevayler.demos.scalability.prevayler.QuerySystem: long serialVersionUID>	-8181198939095700706L
 <org.prevayler.implementation.replication.ServerConnection: java.lang.String SUBSCRIBER_UP_TO_DATE>	\\"SubscriberUpToDate\\"
 <org.prevayler.foundation.Chunking: java.lang.String SIZE>	\\"0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7}\\"

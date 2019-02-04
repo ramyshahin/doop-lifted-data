@@ -1,129 +1,119 @@
 <Graph: EdgeIter getEdges()>/assign/instruction1	1	<Graph: EdgeIter getEdges()>/@this	<Graph: EdgeIter getEdges()>/this#_0	<Graph: EdgeIter getEdges()>
 <Vertex: void adjustAdorns(Vertex,int)>/assign/instruction2	2	<Vertex: void adjustAdorns(Vertex,int)>/@parameter0	<Vertex: void adjustAdorns(Vertex,int)>/the_vertex#_0	<Vertex: void adjustAdorns(Vertex,int)>	@G_NoEdges
+<Main: void main(java.lang.String[])>/assign/instruction76	76	<Main: void main(java.lang.String[])>/$r23	<Main: void main(java.lang.String[])>/totalTime_$$A_2#_63	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: Graph prim(Vertex)>/assign/instruction38	38	<Graph: Graph prim(Vertex)>/x_$$A_3#_546	<Graph: Graph prim(Vertex)>/x_$$A_2#_551	<Graph: Graph prim(Vertex)>
-<Edge: Vertex getEnd()>/assign/instruction1	1	<Edge: Vertex getEnd()>/@this	<Edge: Vertex getEnd()>/this#_0	<Edge: Vertex getEnd()>	@EdgeObjects
 <Vertex: Vertex assignName(java.lang.String)>/assign/instruction1	1	<Vertex: Vertex assignName(java.lang.String)>/@this	<Vertex: Vertex assignName(java.lang.String)>/this#_0	<Vertex: Vertex assignName(java.lang.String)>
+<Edge: Vertex getEnd()>/assign/instruction1	1	<Edge: Vertex getEnd()>/@this	<Edge: Vertex getEnd()>/this#_0	<Edge: Vertex getEnd()>	@EdgeObjects
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction2	2	<Vertex: void nodeSearch(WorkSpace)>/@parameter0	<Vertex: void nodeSearch(WorkSpace)>/w#_0	<Vertex: void nodeSearch(WorkSpace)>
 <Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/assign/instruction2	2	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l1#_0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
-<Graph: Graph kruskal()>/assign/instruction80	80	<Graph: Graph kruskal()>/vaux_$$A_4#_461	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>
 <Vertex$VertexIter2: void <init>(Vertex)>/assign/instruction2	2	<Vertex$VertexIter2: void <init>(Vertex)>/@parameter0	<Vertex$VertexIter2: void <init>(Vertex)>/l1#_0	<Vertex$VertexIter2: void <init>(Vertex)>
-<Edge: void <init>(Vertex,Vertex,int)>/assign/instruction3	3	<Edge: void <init>(Vertex,Vertex,int)>/@parameter1	<Edge: void <init>(Vertex,Vertex,int)>/the_end#_0	<Edge: void <init>(Vertex,Vertex,int)>
-<Graph: void addVertex(Vertex)>/assign/instruction1	1	<Graph: void addVertex(Vertex)>/@this	<Graph: void addVertex(Vertex)>/this#_0	<Graph: void addVertex(Vertex)>
 <WorkSpace: void nextRegionAction(Vertex)>/assign/instruction1	1	<WorkSpace: void nextRegionAction(Vertex)>/@this	<WorkSpace: void nextRegionAction(Vertex)>/this#_0	<WorkSpace: void nextRegionAction(Vertex)>	@SearchBase
+<Graph: void addVertex(Vertex)>/assign/instruction1	1	<Graph: void addVertex(Vertex)>/@this	<Graph: void addVertex(Vertex)>/this#_0	<Graph: void addVertex(Vertex)>
+<Edge: void <init>(Vertex,Vertex,int)>/assign/instruction3	3	<Edge: void <init>(Vertex,Vertex,int)>/@parameter1	<Edge: void <init>(Vertex,Vertex,int)>/the_end#_0	<Edge: void <init>(Vertex,Vertex,int)>
 <Graph: Graph prim(Vertex)>/assign/instruction21	21	<Graph: Graph prim(Vertex)>/$r0	<Graph: Graph prim(Vertex)>/vxiter_$$A_1#_539	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction14	14	<Vertex: void nodeSearch(WorkSpace)>/v#_211	<Vertex: void nodeSearch(WorkSpace)>/v#_211	<Vertex: void nodeSearch(WorkSpace)>
 <Main: void main(java.lang.String[])>/assign/instruction5	5	<Main: void main(java.lang.String[])>/$r0	<Main: void main(java.lang.String[])>/g#_16	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: Graph kruskal()>/assign/instruction116	116	<Graph: Graph kruskal()>/$r24	<Graph: Graph kruskal()>/e1_$$A_1#_481	<Graph: Graph kruskal()>	@MSTKruskal
 <CycleWorkSpace: void <init>()>/assign/instruction1	1	<CycleWorkSpace: void <init>()>/@this	<CycleWorkSpace: void <init>()>/this#_0	<CycleWorkSpace: void <init>()>
-<Main: void main(java.lang.String[])>/assign/instruction22	22	<Main: void main(java.lang.String[])>/num_edges#_27	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_68	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction109	109	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
 <Vertex$VertexIter3: Vertex next()>/assign/instruction1	1	<Vertex$VertexIter3: Vertex next()>/@this	<Vertex$VertexIter3: Vertex next()>/this#_0	<Vertex$VertexIter3: Vertex next()>	@GEN_Edges
 <GlobalVarsWrapper: void <init>()>/assign/instruction1	1	<GlobalVarsWrapper: void <init>()>/@this	<GlobalVarsWrapper: void <init>()>/this#_0	<GlobalVarsWrapper: void <init>()>
-<Vertex: Vertex getStart()>/assign/instruction1	1	<Vertex: Vertex getStart()>/@this	<Vertex: Vertex getStart()>/this#_0	<Vertex: Vertex getStart()>	@Undirected /\ G_NoEdges
 <WorkSpace: void preVisitAction(Vertex)>/assign/instruction2	2	<WorkSpace: void preVisitAction(Vertex)>/@parameter0	<WorkSpace: void preVisitAction(Vertex)>/v#_0	<WorkSpace: void preVisitAction(Vertex)>	@SearchBase
+<Vertex: Vertex getStart()>/assign/instruction1	1	<Vertex: Vertex getStart()>/@this	<Vertex: Vertex getStart()>/this#_0	<Vertex: Vertex getStart()>	@Undirected /\ G_NoEdges
 <Graph: Graph prim(Vertex)>/assign/instruction2	2	<Graph: Graph prim(Vertex)>/@parameter0	<Graph: Graph prim(Vertex)>/r#_0	<Graph: Graph prim(Vertex)>
 <Graph$Comparator2: void <init>(Graph)>/assign/instruction1	1	<Graph$Comparator2: void <init>(Graph)>/@this	<Graph$Comparator2: void <init>(Graph)>/this#_0	<Graph$Comparator2: void <init>(Graph)>
 <CycleWorkSpace: void postVisitAction(Vertex)>/assign/instruction2	2	<CycleWorkSpace: void postVisitAction(Vertex)>/@parameter0	<CycleWorkSpace: void postVisitAction(Vertex)>/v#_0	<CycleWorkSpace: void postVisitAction(Vertex)>	@Cycle
+<Main: void main(java.lang.String[])>/assign/instruction21	21	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_1#_29	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_63	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction98	98	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <Vertex: void adjustAdorns(Vertex,int)>/assign/instruction3	3	<Vertex: void adjustAdorns(Vertex,int)>/@parameter1	<Vertex: void adjustAdorns(Vertex,int)>/index#_0	<Vertex: void adjustAdorns(Vertex,int)>	@G_NoEdges
 <Vertex: void addNeighbor(Neighbor)>/assign/instruction1	1	<Vertex: void addNeighbor(Neighbor)>/@this	<Vertex: void addNeighbor(Neighbor)>/this#_0	<Vertex: void addNeighbor(Neighbor)>	@GEN_Edges
-<Graph: void addEdge(Vertex,Neighbor)>/assign/instruction3	3	<Graph: void addEdge(Vertex,Neighbor)>/@parameter1	<Graph: void addEdge(Vertex,Neighbor)>/theNeighbor#_0	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
 <Vertex$EdgeIter3: EdgeIfc next()>/assign/instruction1	1	<Vertex$EdgeIter3: EdgeIfc next()>/@this	<Vertex$EdgeIter3: EdgeIfc next()>/this#_0	<Vertex$EdgeIter3: EdgeIfc next()>	@EdgeObjects /\ GEN_Edges
+<Graph: void addEdge(Vertex,Neighbor)>/assign/instruction3	3	<Graph: void addEdge(Vertex,Neighbor)>/@parameter1	<Graph: void addEdge(Vertex,Neighbor)>/theNeighbor#_0	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
 <Graph: Graph computeTranspose(Graph)>/assign/instruction1	1	<Graph: Graph computeTranspose(Graph)>/@this	<Graph: Graph computeTranspose(Graph)>/this#_0	<Graph: Graph computeTranspose(Graph)>	@Transpose
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/assign/instruction1	1	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@this	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l0#_0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
 <Vertex: Vertex getOtherVertex(Vertex)>/assign/instruction1	1	<Vertex: Vertex getOtherVertex(Vertex)>/@this	<Vertex: Vertex getOtherVertex(Vertex)>/this#_0	<Vertex: Vertex getOtherVertex(Vertex)>	@G_NoEdges
-<Neighbor: void <init>(Vertex,Edge)>/assign/instruction2	2	<Neighbor: void <init>(Vertex,Edge)>/@parameter0	<Neighbor: void <init>(Vertex,Edge)>/v#_0	<Neighbor: void <init>(Vertex,Edge)>
 <Main: void main(java.lang.String[])>/assign/instruction70	70	<Main: void main(java.lang.String[])>/totalTime#_55	<Main: void main(java.lang.String[])>/totalTime_$$A_1_$$A_1#_56	<Main: void main(java.lang.String[])>	@Prog
-<Graph: Graph kruskal()>/assign/instruction143	143	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_2#_498	<Graph: Graph kruskal()>
+<Neighbor: void <init>(Vertex,Edge)>/assign/instruction2	2	<Neighbor: void <init>(Vertex,Edge)>/@parameter0	<Neighbor: void <init>(Vertex,Edge)>/v#_0	<Neighbor: void <init>(Vertex,Edge)>
+<Graph: Graph kruskal()>/assign/instruction103	103	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/assign/instruction2	2	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter0	<Graph$Comparator1: int compare(Vertex,Vertex)>/v1#_0	<Graph$Comparator1: int compare(Vertex,Vertex)>	@StronglyConnected
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/assign/instruction1	1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@this	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/this#_0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@MSTKruskal
 <WorkSpaceTranspose: void preVisitAction(Vertex)>/assign/instruction1	1	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@this	<WorkSpaceTranspose: void preVisitAction(Vertex)>/this#_0	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <Main: void main(java.lang.String[])>/assign/instruction27	27	<Main: void main(java.lang.String[])>/num_edges_$$A_1#_30	<Main: void main(java.lang.String[])>/num_edges_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
-<Neighbor: void <init>(Vertex,int)>/assign/instruction3	3	<Neighbor: void <init>(Vertex,int)>/@parameter1	<Neighbor: void <init>(Vertex,int)>/aweight#_0	<Neighbor: void <init>(Vertex,int)>
 <Vertex: Vertex getOtherVertex(Vertex)>/assign/instruction2	2	<Vertex: Vertex getOtherVertex(Vertex)>/@parameter0	<Vertex: Vertex getOtherVertex(Vertex)>/vertex#_0	<Vertex: Vertex getOtherVertex(Vertex)>	@G_NoEdges
-<Graph: Graph prim(Vertex)>/assign/instruction1	1	<Graph: Graph prim(Vertex)>/@this	<Graph: Graph prim(Vertex)>/this#_0	<Graph: Graph prim(Vertex)>
+<Neighbor: void <init>(Vertex,int)>/assign/instruction3	3	<Neighbor: void <init>(Vertex,int)>/@parameter1	<Neighbor: void <init>(Vertex,int)>/aweight#_0	<Neighbor: void <init>(Vertex,int)>
 <WorkSpace: void preVisitAction(Vertex)>/assign/instruction1	1	<WorkSpace: void preVisitAction(Vertex)>/@this	<WorkSpace: void preVisitAction(Vertex)>/this#_0	<WorkSpace: void preVisitAction(Vertex)>	@SearchBase
 <Vertex$EdgeIter3: boolean hasNext()>/assign/instruction1	1	<Vertex$EdgeIter3: boolean hasNext()>/@this	<Vertex$EdgeIter3: boolean hasNext()>/this#_0	<Vertex$EdgeIter3: boolean hasNext()>	@EdgeObjects /\ GEN_Edges
-<Main: void main(java.lang.String[])>/assign/instruction76	76	<Main: void main(java.lang.String[])>/$r22	<Main: void main(java.lang.String[])>/totalTime_$$A_2#_63	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
-<Neighbor: void <init>(Vertex,int)>/assign/instruction1	1	<Neighbor: void <init>(Vertex,int)>/@this	<Neighbor: void <init>(Vertex,int)>/this#_0	<Neighbor: void <init>(Vertex,int)>
-<Graph: Graph kruskal()>/assign/instruction1	1	<Graph: Graph kruskal()>/@this	<Graph: Graph kruskal()>/this#_0	<Graph: Graph kruskal()>
-<Main: void main(java.lang.String[])>/assign/instruction69	69	<Main: void main(java.lang.String[])>/$r25	<Main: void main(java.lang.String[])>/totalTime#_55	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Graph: Graph prim(Vertex)>/assign/instruction1	1	<Graph: Graph prim(Vertex)>/@this	<Graph: Graph prim(Vertex)>/this#_0	<Graph: Graph prim(Vertex)>
 <WorkSpace: void postVisitAction(Vertex)>/assign/instruction1	1	<WorkSpace: void postVisitAction(Vertex)>/@this	<WorkSpace: void postVisitAction(Vertex)>/this#_0	<WorkSpace: void postVisitAction(Vertex)>	@SearchBase
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction2	2	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter0	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/vsource#_0	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>	@SearchBase
+<Neighbor: void <init>(Vertex,int)>/assign/instruction1	1	<Neighbor: void <init>(Vertex,int)>/@this	<Neighbor: void <init>(Vertex,int)>/this#_0	<Neighbor: void <init>(Vertex,int)>
+<Graph: Graph kruskal()>/assign/instruction1	1	<Graph: Graph kruskal()>/@this	<Graph: Graph kruskal()>/this#_0	<Graph: Graph kruskal()>
 <Vertex: java.util.LinkedList getNeighborsObj()>/assign/instruction1	1	<Vertex: java.util.LinkedList getNeighborsObj()>/@this	<Vertex: java.util.LinkedList getNeighborsObj()>/this#_0	<Vertex: java.util.LinkedList getNeighborsObj()>	@GN_OnlyNeighbors
 <Vertex: void addAdjacent(Vertex)>/assign/instruction1	1	<Vertex: void addAdjacent(Vertex)>/@this	<Vertex: void addAdjacent(Vertex)>/this#_0	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
 <Vertex: void display()>/assign/instruction1	1	<Vertex: void display()>/@this	<Vertex: void display()>/this#_0	<Vertex: void display()>
-<Main: void main(java.lang.String[])>/assign/instruction71	71	<Main: void main(java.lang.String[])>/totalTime#_55	<Main: void main(java.lang.String[])>/totalTime_$$A_1_$$A_1#_56	<Main: void main(java.lang.String[])>	@Prog
 <Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/assign/instruction1	1	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@this	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l0#_0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>
+<Main: void main(java.lang.String[])>/assign/instruction71	71	<Main: void main(java.lang.String[])>/totalTime#_55	<Main: void main(java.lang.String[])>/totalTime_$$A_1_$$A_1#_56	<Main: void main(java.lang.String[])>	@Prog
 <Vertex$VertexIter1: boolean hasNext()>/assign/instruction1	1	<Vertex$VertexIter1: boolean hasNext()>/@this	<Vertex$VertexIter1: boolean hasNext()>/this#_0	<Vertex$VertexIter1: boolean hasNext()>	@G_NoEdges
+<Graph: Graph kruskal()>/assign/instruction104	104	<Graph: Graph kruskal()>/v#_410	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
+<Main: void main(java.lang.String[])>/assign/instruction64	64	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_3#_51	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52	<Main: void main(java.lang.String[])>	@Prog
 <Vertex$VertexIter3: boolean hasNext()>/assign/instruction1	1	<Vertex$VertexIter3: boolean hasNext()>/@this	<Vertex$VertexIter3: boolean hasNext()>/this#_0	<Vertex$VertexIter3: boolean hasNext()>	@GEN_Edges
 <Graph: int readNumber()>/assign/instruction23	23	<Graph: int readNumber()>/ch_$$A_1_$$A_4#_220	<Graph: int readNumber()>/ch_$$A_1_$$A_3#_221	<Graph: int readNumber()>	@Benchmark
-<Main: void main(java.lang.String[])>/assign/instruction64	64	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_3#_51	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52	<Main: void main(java.lang.String[])>	@Prog
-<Graph: Graph kruskal()>/assign/instruction106	106	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
 <Graph: void addEdge(Vertex,Neighbor)>/assign/instruction2	2	<Graph: void addEdge(Vertex,Neighbor)>/@parameter0	<Graph: void addEdge(Vertex,Neighbor)>/start#_0	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
-<Neighbor: void <init>(Vertex,Edge)>/assign/instruction3	3	<Neighbor: void <init>(Vertex,Edge)>/@parameter1	<Neighbor: void <init>(Vertex,Edge)>/e#_0	<Neighbor: void <init>(Vertex,Edge)>
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction3	3	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter1	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/vtarget#_0	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>	@SearchBase
+<Neighbor: void <init>(Vertex,Edge)>/assign/instruction3	3	<Neighbor: void <init>(Vertex,Edge)>/@parameter1	<Neighbor: void <init>(Vertex,Edge)>/e#_0	<Neighbor: void <init>(Vertex,Edge)>
 <Vertex$VertexIter1: void <init>(Vertex)>/assign/instruction1	1	<Vertex$VertexIter1: void <init>(Vertex)>/@this	<Vertex$VertexIter1: void <init>(Vertex)>/this#_0	<Vertex$VertexIter1: void <init>(Vertex)>
-<EdgeIter: boolean hasNext()>/assign/instruction1	1	<EdgeIter: boolean hasNext()>/@this	<EdgeIter: boolean hasNext()>/this#_0	<EdgeIter: boolean hasNext()>
 <Graph: Graph computeTranspose(Graph)>/assign/instruction5	5	<Graph: Graph computeTranspose(Graph)>/$r0	<Graph: Graph computeTranspose(Graph)>/newVertices#_347	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
+<EdgeIter: boolean hasNext()>/assign/instruction1	1	<EdgeIter: boolean hasNext()>/@this	<EdgeIter: boolean hasNext()>/this#_0	<EdgeIter: boolean hasNext()>
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction2	2	<Main: EdgeIfc addEdge(Graph,int)>/@parameter1	<Main: EdgeIfc addEdge(Graph,int)>/n#_0	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
 <Vertex: void <init>()>/assign/instruction1	1	<Vertex: void <init>()>/@this	<Vertex: void <init>()>/this#_0	<Vertex: void <init>()>
 <Main: void main(java.lang.String[])>/assign/instruction65	65	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_5#_51	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52	<Main: void main(java.lang.String[])>	@Prog
-<Graph: Graph kruskal()>/assign/instruction53	53	<Graph: Graph kruskal()>/vaux_$$A_2#_449	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>
-<Graph: void sortVertices(java.util.Comparator)>/assign/instruction2	2	<Graph: void sortVertices(java.util.Comparator)>/@parameter0	<Graph: void sortVertices(java.util.Comparator)>/c#_0	<Graph: void sortVertices(java.util.Comparator)>
 <WorkSpace: void init_vertex(Vertex)>/assign/instruction1	1	<WorkSpace: void init_vertex(Vertex)>/@this	<WorkSpace: void init_vertex(Vertex)>/this#_0	<WorkSpace: void init_vertex(Vertex)>	@SearchBase
+<Graph: void sortVertices(java.util.Comparator)>/assign/instruction2	2	<Graph: void sortVertices(java.util.Comparator)>/@parameter0	<Graph: void sortVertices(java.util.Comparator)>/c#_0	<Graph: void sortVertices(java.util.Comparator)>
 <Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/assign/instruction1	1	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@this	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l0#_0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>
 <Graph: void run(Vertex)>/assign/instruction1	1	<Graph: void run(Vertex)>/@this	<Graph: void run(Vertex)>/this#_0	<Graph: void run(Vertex)>
-<Graph: Graph kruskal()>/assign/instruction141	141	<Graph: Graph kruskal()>/i#_497	<Graph: Graph kruskal()>/i_$$A_1#_498	<Graph: Graph kruskal()>
 <Graph: void graphSearch(WorkSpace)>/assign/instruction21	21	<Graph: void graphSearch(WorkSpace)>/v_$$A_3#_306	<Graph: void graphSearch(WorkSpace)>/v_$$A_2#_310	<Graph: void graphSearch(WorkSpace)>
-<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/assign/instruction1	1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
 <Vertex: Vertex assignName(java.lang.String)>/assign/instruction2	2	<Vertex: Vertex assignName(java.lang.String)>/@parameter0	<Vertex: Vertex assignName(java.lang.String)>/name#_0	<Vertex: Vertex assignName(java.lang.String)>
-<Main: void main(java.lang.String[])>/assign/instruction23	23	<Main: void main(java.lang.String[])>/num_edges_$$A_1#_30	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_68	<Main: void main(java.lang.String[])>	@Prog
+<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/assign/instruction1	1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@this	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/this#_0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
 <FinishTimeWorkSpace: void <init>()>/assign/instruction1	1	<FinishTimeWorkSpace: void <init>()>/@this	<FinishTimeWorkSpace: void <init>()>/this#_0	<FinishTimeWorkSpace: void <init>()>
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/assign/instruction1	1	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@this	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l0#_0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
-<Edge: Vertex getOtherVertex(Vertex)>/assign/instruction2	2	<Edge: Vertex getOtherVertex(Vertex)>/@parameter0	<Edge: Vertex getOtherVertex(Vertex)>/vertex#_0	<Edge: Vertex getOtherVertex(Vertex)>	@EdgeObjects
 <Graph: void display()>/assign/instruction16	16	<Graph: void display()>/edgeiter_$$A_2#_173	<Graph: void display()>/edgeiter_$$A_1_$$A_1#_174	<Graph: void display()>
+<Edge: Vertex getOtherVertex(Vertex)>/assign/instruction2	2	<Edge: Vertex getOtherVertex(Vertex)>/@parameter0	<Edge: Vertex getOtherVertex(Vertex)>/vertex#_0	<Edge: Vertex getOtherVertex(Vertex)>	@EdgeObjects
 <Vertex: void addNeighbor(Neighbor)>/assign/instruction2	2	<Vertex: void addNeighbor(Neighbor)>/@parameter0	<Vertex: void addNeighbor(Neighbor)>/n#_0	<Vertex: void addNeighbor(Neighbor)>	@GEN_Edges
 <Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/assign/instruction3	3	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@parameter1	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l2#_0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>
 <Graph$Comparator2: int compare(Vertex,Vertex)>/assign/instruction1	1	<Graph$Comparator2: int compare(Vertex,Vertex)>/@this	<Graph$Comparator2: int compare(Vertex,Vertex)>/this#_0	<Graph$Comparator2: int compare(Vertex,Vertex)>	@MSTPrim
-<Graph: void addVertex(Vertex)>/assign/instruction2	2	<Graph: void addVertex(Vertex)>/@parameter0	<Graph: void addVertex(Vertex)>/v#_0	<Graph: void addVertex(Vertex)>
 <Vertex: void addWeight(int)>/assign/instruction1	1	<Vertex: void addWeight(int)>/@this	<Vertex: void addWeight(int)>/this#_0	<Vertex: void addWeight(int)>	@Weighted
+<Graph: void addVertex(Vertex)>/assign/instruction2	2	<Graph: void addVertex(Vertex)>/@parameter0	<Graph: void addVertex(Vertex)>/v#_0	<Graph: void addVertex(Vertex)>
 <Vertex$EdgeIter1: void <init>(Vertex)>/assign/instruction1	1	<Vertex$EdgeIter1: void <init>(Vertex)>/@this	<Vertex$EdgeIter1: void <init>(Vertex)>/this#_0	<Vertex$EdgeIter1: void <init>(Vertex)>
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction1	1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@this	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/this#_0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@EdgeObjects
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction2	2	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter0	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/vsource#_0	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
 <Neighbor: int getWeight()>/assign/instruction1	1	<Neighbor: int getWeight()>/@this	<Neighbor: int getWeight()>/this#_0	<Neighbor: int getWeight()>	@Weighted /\ GN_OnlyNeighbors
 <NumberWorkSpace: void preVisitAction(Vertex)>/assign/instruction1	1	<NumberWorkSpace: void preVisitAction(Vertex)>/@this	<NumberWorkSpace: void preVisitAction(Vertex)>/this#_0	<NumberWorkSpace: void preVisitAction(Vertex)>
+<Graph: Graph kruskal()>/assign/instruction102	102	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
+<Graph: Graph prim(Vertex)>/assign/instruction95	95	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Vertex: void addAdjacent(Vertex)>/assign/instruction2	2	<Vertex: void addAdjacent(Vertex)>/@parameter0	<Vertex: void addAdjacent(Vertex)>/n#_0	<Vertex: void addAdjacent(Vertex)>	@G_NoEdges
 <Neighbor: void setWeight(int)>/assign/instruction1	1	<Neighbor: void setWeight(int)>/@this	<Neighbor: void setWeight(int)>/this#_0	<Neighbor: void setWeight(int)>	@Weighted /\ GN_OnlyNeighbors
 <Graph: void graphSearch(WorkSpace)>/assign/instruction1	1	<Graph: void graphSearch(WorkSpace)>/@this	<Graph: void graphSearch(WorkSpace)>/this#_0	<Graph: void graphSearch(WorkSpace)>
 <CycleWorkSpace: void init_vertex(Vertex)>/assign/instruction2	2	<CycleWorkSpace: void init_vertex(Vertex)>/@parameter0	<CycleWorkSpace: void init_vertex(Vertex)>/v#_0	<CycleWorkSpace: void init_vertex(Vertex)>	@Cycle
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction1	1	<Main: EdgeIfc addEdge(Graph,int)>/@parameter0	<Main: EdgeIfc addEdge(Graph,int)>/g#_0	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
 <Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/assign/instruction1	1	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@this	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l0#_0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>
-<Graph: Graph kruskal()>/assign/instruction107	107	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
-<Main: void main(java.lang.String[])>/assign/instruction20	20	<Main: void main(java.lang.String[])>/num_vertices_$$A_1#_26	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_68	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction54	54	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>
 <Edge: void <init>(Vertex,Vertex,int)>/assign/instruction1	1	<Edge: void <init>(Vertex,Vertex,int)>/@this	<Edge: void <init>(Vertex,Vertex,int)>/this#_0	<Edge: void <init>(Vertex,Vertex,int)>
 <Vertex: void adjustAdorns(EdgeIfc)>/assign/instruction2	2	<Vertex: void adjustAdorns(EdgeIfc)>/@parameter0	<Vertex: void adjustAdorns(EdgeIfc)>/the_edge#_0	<Vertex: void adjustAdorns(EdgeIfc)>	@G_NoEdges
 <Vertex$VertexIter1: void <init>(Vertex)>/assign/instruction2	2	<Vertex$VertexIter1: void <init>(Vertex)>/@parameter0	<Vertex$VertexIter1: void <init>(Vertex)>/l1#_0	<Vertex$VertexIter1: void <init>(Vertex)>
-<Main: void main(java.lang.String[])>/assign/instruction24	24	<Main: void main(java.lang.String[])>/$r23	<Main: void main(java.lang.String[])>/i#_34	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/assign/instruction2	2	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@parameter0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l1#_0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
 <Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/assign/instruction3	3	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l2#_0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
-<Graph: Graph kruskal()>/assign/instruction102	102	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
-<Graph: Graph kruskal()>/assign/instruction109	109	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <Neighbor: Vertex getOtherVertex(Vertex)>/assign/instruction2	2	<Neighbor: Vertex getOtherVertex(Vertex)>/@parameter0	<Neighbor: Vertex getOtherVertex(Vertex)>/vertex#_0	<Neighbor: Vertex getOtherVertex(Vertex)>	@GN_OnlyNeighbors
-<Graph: Graph kruskal()>/assign/instruction142	142	<Graph: Graph kruskal()>/i_$$A_2#_497	<Graph: Graph kruskal()>/i_$$A_1#_498	<Graph: Graph kruskal()>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction15	15	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_1#_208	<Vertex: void nodeSearch(WorkSpace)>/v#_211	<Vertex: void nodeSearch(WorkSpace)>
 <EdgeIter: EdgeIfc next()>/assign/instruction1	1	<EdgeIter: EdgeIfc next()>/@this	<EdgeIter: EdgeIfc next()>/this#_0	<EdgeIter: EdgeIfc next()>
+<Vertex: void adjustAdorns(Neighbor)>/assign/instruction1	1	<Vertex: void adjustAdorns(Neighbor)>/@this	<Vertex: void adjustAdorns(Neighbor)>/this#_0	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
 <Graph: void display()>/assign/instruction15	15	<Graph: void display()>/edgeiter#_173	<Graph: void display()>/edgeiter_$$A_1_$$A_1#_174	<Graph: void display()>
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction3	3	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter1	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theTarget#_0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@EdgeObjects
-<Graph: Graph kruskal()>/assign/instruction96	96	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
-<Vertex: void adjustAdorns(Neighbor)>/assign/instruction1	1	<Vertex: void adjustAdorns(Neighbor)>/@this	<Vertex: void adjustAdorns(Neighbor)>/this#_0	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
-<Main: void main(java.lang.String[])>/assign/instruction26	26	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_68	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
 <Graph: Graph computeTranspose(Graph)>/assign/instruction8	8	<Graph: Graph computeTranspose(Graph)>/$r1	<Graph: Graph computeTranspose(Graph)>/newGraph#_350	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
-<Graph: Graph kruskal()>/assign/instruction101	101	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph: Graph computeTranspose(Graph)>/assign/instruction18	18	<Graph: Graph computeTranspose(Graph)>/v#_358	<Graph: Graph computeTranspose(Graph)>/v#_358	<Graph: Graph computeTranspose(Graph)>	@Transpose
 <VertexIter: boolean hasNext()>/assign/instruction1	1	<VertexIter: boolean hasNext()>/@this	<VertexIter: boolean hasNext()>/this#_0	<VertexIter: boolean hasNext()>
-<Graph: Graph kruskal()>/assign/instruction79	79	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>
-<Graph: Graph kruskal()>/assign/instruction108	108	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <Main: void main(java.lang.String[])>/assign/instruction84	84	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_8#_67	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_7#_68	<Main: void main(java.lang.String[])>	@Prog
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction2	2	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/@parameter0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theSource#_0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@EdgeObjects
+<Graph: Graph kruskal()>/assign/instruction146	146	<Graph: Graph kruskal()>/i_$$A_2#_497	<Graph: Graph kruskal()>/i_$$A_1#_498	<Graph: Graph kruskal()>
 <Vertex: java.lang.String getName()>/assign/instruction1	1	<Vertex: java.lang.String getName()>/@this	<Vertex: java.lang.String getName()>/this#_0	<Vertex: java.lang.String getName()>
 <RegionWorkSpace: void postVisitAction(Vertex)>/assign/instruction2	2	<RegionWorkSpace: void postVisitAction(Vertex)>/@parameter0	<RegionWorkSpace: void postVisitAction(Vertex)>/v#_0	<RegionWorkSpace: void postVisitAction(Vertex)>	@Connected
 <Graph: Vertex findsVertex(java.lang.String)>/assign/instruction1	1	<Graph: Vertex findsVertex(java.lang.String)>/@this	<Graph: Vertex findsVertex(java.lang.String)>/this#_0	<Graph: Vertex findsVertex(java.lang.String)>
@@ -131,32 +121,37 @@
 <Graph: int readNumber()>/assign/instruction11	11	<Graph: int readNumber()>/ch_$$A_1_$$A_2#_213	<Graph: int readNumber()>/ch_$$A_1_$$A_1#_214	<Graph: int readNumber()>	@Benchmark
 <Graph: Graph computeTranspose(Graph)>/assign/instruction40	40	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	<Graph: Graph computeTranspose(Graph)>	@Transpose
 <Graph: int readNumber()>/assign/instruction21	21	<Graph: int readNumber()>/index_$$A_2#_219	<Graph: int readNumber()>/index_$$A_1#_221	<Graph: int readNumber()>	@Benchmark
+<Graph: Graph prim(Vertex)>/assign/instruction89	89	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_1#_579	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>
+<Main: void main(java.lang.String[])>/assign/instruction23	23	<Main: void main(java.lang.String[])>/num_edges_$$A_1#_30	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_63	<Main: void main(java.lang.String[])>	@Prog
 <Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/assign/instruction3	3	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter1	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l2#_0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>
 <Graph$Comparator3: void <init>(Graph)>/assign/instruction1	1	<Graph$Comparator3: void <init>(Graph)>/@this	<Graph$Comparator3: void <init>(Graph)>/this#_0	<Graph$Comparator3: void <init>(Graph)>
 <Graph: void stopBenchmark()>/assign/instruction1	1	<Graph: void stopBenchmark()>/@this	<Graph: void stopBenchmark()>/this#_0	<Graph: void stopBenchmark()>	@Benchmark
 <WorkSpaceTranspose: void nextRegionAction(Vertex)>/assign/instruction2	2	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@parameter0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/v#_0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>	@StronglyConnected
+<Main: void main(java.lang.String[])>/assign/instruction28	28	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_63	<Main: void main(java.lang.String[])>/num_edges_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction1	1	<CycleWorkSpace: void preVisitAction(Vertex)>/@this	<CycleWorkSpace: void preVisitAction(Vertex)>/this#_0	<CycleWorkSpace: void preVisitAction(Vertex)>
-<Graph: Graph prim(Vertex)>/assign/instruction93	93	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>
+<Graph: Graph kruskal()>/assign/instruction96	96	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction1	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@this	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/this#_0	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
-<Edge: void adjustAdorns(EdgeIfc)>/assign/instruction1	1	<Edge: void adjustAdorns(EdgeIfc)>/@this	<Edge: void adjustAdorns(EdgeIfc)>/this#_0	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
+<Graph: Graph kruskal()>/assign/instruction111	111	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
 <VertexIter: void <init>(Graph)>/assign/instruction2	2	<VertexIter: void <init>(Graph)>/@parameter0	<VertexIter: void <init>(Graph)>/g#_0	<VertexIter: void <init>(Graph)>
+<Edge: void adjustAdorns(EdgeIfc)>/assign/instruction1	1	<Edge: void adjustAdorns(EdgeIfc)>/@this	<Edge: void adjustAdorns(EdgeIfc)>/this#_0	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
+<Graph: Graph prim(Vertex)>/assign/instruction90	90	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_3#_580	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Graph: void graphSearch(WorkSpace)>/assign/instruction22	22	<Graph: void graphSearch(WorkSpace)>/v_$$A_3#_306	<Graph: void graphSearch(WorkSpace)>/v_$$A_2#_310	<Graph: void graphSearch(WorkSpace)>
 <Graph: Graph kruskal()>/assign/instruction18	18	<Graph: Graph kruskal()>/$r2	<Graph: Graph kruskal()>/vxiter_$$A_1#_415	<Graph: Graph kruskal()>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>/assign/instruction2	2	<Graph$Comparator1: void <init>(Graph)>/@parameter0	<Graph$Comparator1: void <init>(Graph)>/l1#_0	<Graph$Comparator1: void <init>(Graph)>
-<Graph: void graphSearch(WorkSpace)>/assign/instruction2	2	<Graph: void graphSearch(WorkSpace)>/@parameter0	<Graph: void graphSearch(WorkSpace)>/w#_0	<Graph: void graphSearch(WorkSpace)>
 <Vertex: void setWeight(int)>/assign/instruction2	2	<Vertex: void setWeight(int)>/@parameter0	<Vertex: void setWeight(int)>/weight#_0	<Vertex: void setWeight(int)>	@Weighted /\ G_NoEdges
+<Graph: void graphSearch(WorkSpace)>/assign/instruction2	2	<Graph: void graphSearch(WorkSpace)>/@parameter0	<Graph: void graphSearch(WorkSpace)>/w#_0	<Graph: void graphSearch(WorkSpace)>
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction3	3	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/@parameter1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/vtarget#_0	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
-<Graph: Graph kruskal()>/assign/instruction104	104	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
+<Graph: Graph kruskal()>/assign/instruction79	79	<Graph: Graph kruskal()>/j_$$A_4#_460	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>
 <Main: void main(java.lang.String[])>/assign/instruction25	25	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_1#_29	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction106	106	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph: void display()>/assign/instruction1	1	<Graph: void display()>/@this	<Graph: void display()>/this#_0	<Graph: void display()>
-<Graph: Graph prim(Vertex)>/assign/instruction94	94	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Graph: Graph prim(Vertex)>/assign/instruction111	111	<Graph: Graph prim(Vertex)>/vtx_$$A_1#_634	<Graph: Graph prim(Vertex)>/vtx#_638	<Graph: Graph prim(Vertex)>
+<Graph: Graph kruskal()>/assign/instruction55	55	<Graph: Graph kruskal()>/vaux_$$A_2#_449	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>
 <Graph: int readNumber()>/assign/instruction14	14	<Graph: int readNumber()>/index_$$A_1#_221	<Graph: int readNumber()>/$i0	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
 <Vertex: void setWeight(int)>/assign/instruction1	1	<Vertex: void setWeight(int)>/@this	<Vertex: void setWeight(int)>/this#_0	<Vertex: void setWeight(int)>	@Weighted /\ G_NoEdges
 <Graph: Graph kruskal()>/assign/instruction4	4	<Graph: Graph kruskal()>/$r0	<Graph: Graph kruskal()>/A#_401	<Graph: Graph kruskal()>	@MSTKruskal
 <Graph: Graph prim(Vertex)>/assign/instruction129	129	<Graph: Graph prim(Vertex)>/vtx#_638	<Graph: Graph prim(Vertex)>/vtx_$$A_2#_666	<Graph: Graph prim(Vertex)>
 <Graph$Comparator2: int compare(Vertex,Vertex)>/assign/instruction2	2	<Graph$Comparator2: int compare(Vertex,Vertex)>/@parameter0	<Graph$Comparator2: int compare(Vertex,Vertex)>/v1#_0	<Graph$Comparator2: int compare(Vertex,Vertex)>	@MSTPrim
-<Graph: Graph kruskal()>/assign/instruction82	82	<Graph: Graph kruskal()>/j_$$A_6#_460	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>
 <NumberWorkSpace: void preVisitAction(Vertex)>/assign/instruction2	2	<NumberWorkSpace: void preVisitAction(Vertex)>/@parameter0	<NumberWorkSpace: void preVisitAction(Vertex)>/v#_0	<NumberWorkSpace: void preVisitAction(Vertex)>
 <Graph: VertexIter getVertices()>/assign/instruction1	1	<Graph: VertexIter getVertices()>/@this	<Graph: VertexIter getVertices()>/this#_0	<Graph: VertexIter getVertices()>
 <Graph: int readNumber()>/assign/instruction31	31	<Graph: int readNumber()>/$r3	<Graph: int readNumber()>/theString#_224	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
@@ -168,50 +163,47 @@
 <Neighbor: void display()>/assign/instruction1	1	<Neighbor: void display()>/@this	<Neighbor: void display()>/this#_0	<Neighbor: void display()>	@GN_OnlyNeighbors
 <RegionWorkSpace: void init_vertex(Vertex)>/assign/instruction1	1	<RegionWorkSpace: void init_vertex(Vertex)>/@this	<RegionWorkSpace: void init_vertex(Vertex)>/this#_0	<RegionWorkSpace: void init_vertex(Vertex)>	@Connected
 <VertexIter: Vertex next()>/assign/instruction1	1	<VertexIter: Vertex next()>/@this	<VertexIter: Vertex next()>/this#_0	<VertexIter: Vertex next()>
+<Main: void main(java.lang.String[])>/assign/instruction20	20	<Main: void main(java.lang.String[])>/num_vertices_$$A_1#_26	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_63	<Main: void main(java.lang.String[])>	@Prog
 <Vertex$VertexIter2: Vertex next()>/assign/instruction1	1	<Vertex$VertexIter2: Vertex next()>/@this	<Vertex$VertexIter2: Vertex next()>/this#_0	<Vertex$VertexIter2: Vertex next()>	@GN_OnlyNeighbors
 <Graph: Graph computeTranspose(Graph)>/assign/instruction2	2	<Graph: Graph computeTranspose(Graph)>/@parameter0	<Graph: Graph computeTranspose(Graph)>/the_graph#_0	<Graph: Graph computeTranspose(Graph)>	@Transpose
+<Graph: Graph kruskal()>/assign/instruction110	110	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
 <Graph: Graph prim(Vertex)>/assign/instruction11	11	<Graph: Graph prim(Vertex)>/x#_530	<Graph: Graph prim(Vertex)>/x#_530	<Graph: Graph prim(Vertex)>
-<Graph: Graph kruskal()>/assign/instruction146	146	<Graph: Graph kruskal()>/v_$$A_5#_501	<Graph: Graph kruskal()>/v_$$A_4#_498	<Graph: Graph kruskal()>
 <Edge: void setWeight(int)>/assign/instruction1	1	<Edge: void setWeight(int)>/@this	<Edge: void setWeight(int)>/this#_0	<Edge: void setWeight(int)>	@EdgeObjects /\ Weighted
-<Graph: Graph kruskal()>/assign/instruction145	145	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>/v_$$A_4#_498	<Graph: Graph kruskal()>
 <Vertex: void init_vertex(WorkSpace)>/assign/instruction2	2	<Vertex: void init_vertex(WorkSpace)>/@parameter0	<Vertex: void init_vertex(WorkSpace)>/w#_0	<Vertex: void init_vertex(WorkSpace)>	@SearchBase
 <Main: void <init>()>/assign/instruction1	1	<Main: void <init>()>/@this	<Main: void <init>()>/this#_0	<Main: void <init>()>
 <VertexIter: void <init>(Graph)>/assign/instruction1	1	<VertexIter: void <init>(Graph)>/@this	<VertexIter: void <init>(Graph)>/this#_0	<VertexIter: void <init>(Graph)>
-<Graph: Graph prim(Vertex)>/assign/instruction95	95	<Graph: Graph prim(Vertex)>/isNeighborInQueue#_565	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>
 <Main: void readWeights(Graph,int)>/assign/instruction1	1	<Main: void readWeights(Graph,int)>/@parameter0	<Main: void readWeights(Graph,int)>/g#_0	<Main: void readWeights(Graph,int)>	@Prog
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/assign/instruction3	3	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/@parameter1	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/l2#_0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
 <Vertex$EdgeIter1: EdgeIfc next()>/assign/instruction1	1	<Vertex$EdgeIter1: EdgeIfc next()>/@this	<Vertex$EdgeIter1: EdgeIfc next()>/this#_0	<Vertex$EdgeIter1: EdgeIfc next()>	@EdgeObjects /\ G_NoEdges
 <Vertex: void adjustAdorns(Neighbor)>/assign/instruction2	2	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	<Vertex: void adjustAdorns(Neighbor)>/sourceNeighbor#_0	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
 <Graph: Graph prim(Vertex)>/assign/instruction60	60	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_3#_587	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_5#_592	<Graph: Graph prim(Vertex)>
 <RegionWorkSpace: void init_vertex(Vertex)>/assign/instruction2	2	<RegionWorkSpace: void init_vertex(Vertex)>/@parameter0	<RegionWorkSpace: void init_vertex(Vertex)>/v#_0	<RegionWorkSpace: void init_vertex(Vertex)>	@Connected
-<Graph: Graph prim(Vertex)>/assign/instruction96	96	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>
 <Graph$Comparator1: void <init>(Graph)>/assign/instruction1	1	<Graph$Comparator1: void <init>(Graph)>/@this	<Graph$Comparator1: void <init>(Graph)>/this#_0	<Graph$Comparator1: void <init>(Graph)>
 <Neighbor: void adjustAdorns(EdgeIfc)>/assign/instruction2	2	<Neighbor: void adjustAdorns(EdgeIfc)>/@parameter0	<Neighbor: void adjustAdorns(EdgeIfc)>/the_edge#_0	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
 <Vertex$VertexIter1: Vertex next()>/assign/instruction1	1	<Vertex$VertexIter1: Vertex next()>/@this	<Vertex$VertexIter1: Vertex next()>/this#_0	<Vertex$VertexIter1: Vertex next()>	@G_NoEdges
-<Main: void main(java.lang.String[])>/assign/instruction77	77	<Main: void main(java.lang.String[])>/totalTime_$$A_1_$$A_1#_56	<Main: void main(java.lang.String[])>/totalTime_$$A_3#_64	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction82	82	<Graph: Graph kruskal()>/vaux_$$A_4#_461	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction1	1	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/@this	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>/this#_0	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>	@SearchBase
+<Main: void main(java.lang.String[])>/assign/instruction77	77	<Main: void main(java.lang.String[])>/totalTime_$$A_1_$$A_1#_56	<Main: void main(java.lang.String[])>/totalTime_$$A_3#_64	<Main: void main(java.lang.String[])>	@Prog
 <Graph$EdgeIter1: EdgeIfc next()>/assign/instruction1	1	<Graph$EdgeIter1: EdgeIfc next()>/@this	<Graph$EdgeIter1: EdgeIfc next()>/this#_0	<Graph$EdgeIter1: EdgeIfc next()>	@EdgeObjects
-<Graph: Graph kruskal()>/assign/instruction144	144	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_3#_500	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_2#_498	<Graph: Graph kruskal()>
+<Graph: Graph kruskal()>/assign/instruction143	143	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>/v_$$A_4#_498	<Graph: Graph kruskal()>
 <Vertex: void display()>/assign/instruction20	20	<Vertex: void display()>/vxiter_$$A_2#_259	<Vertex: void display()>/vxiter_$$A_1_$$A_1#_260	<Vertex: void display()>
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/assign/instruction4	4	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter2	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/weight#_0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
-<Graph: Graph kruskal()>/assign/instruction111	111	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
+<Graph: Graph kruskal()>/assign/instruction53	53	<Graph: Graph kruskal()>/j_$$A_3#_448	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>
 <Graph: Graph kruskal()>/assign/instruction12	12	<Graph: Graph kruskal()>/v#_410	<Graph: Graph kruskal()>/v#_410	<Graph: Graph kruskal()>
 <WorkSpaceTranspose: void preVisitAction(Vertex)>/assign/instruction2	2	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@parameter0	<WorkSpaceTranspose: void preVisitAction(Vertex)>/v#_0	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <RegionWorkSpace: void postVisitAction(Vertex)>/assign/instruction1	1	<RegionWorkSpace: void postVisitAction(Vertex)>/@this	<RegionWorkSpace: void postVisitAction(Vertex)>/this#_0	<RegionWorkSpace: void postVisitAction(Vertex)>	@Connected
 <Graph$EdgeIter1: boolean hasNext()>/assign/instruction1	1	<Graph$EdgeIter1: boolean hasNext()>/@this	<Graph$EdgeIter1: boolean hasNext()>/this#_0	<Graph$EdgeIter1: boolean hasNext()>	@EdgeObjects
 <Graph: Graph prim(Vertex)>/assign/instruction36	36	<Graph: Graph prim(Vertex)>/x#_530	<Graph: Graph prim(Vertex)>/x_$$A_2#_551	<Graph: Graph prim(Vertex)>
-<Graph: Graph prim(Vertex)>/assign/instruction90	90	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_5#_592	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/assign/instruction2	2	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l1#_0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
-<Graph: Graph kruskal()>/assign/instruction99	99	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
 <Neighbor: void adjustAdorns(EdgeIfc)>/assign/instruction1	1	<Neighbor: void adjustAdorns(EdgeIfc)>/@this	<Neighbor: void adjustAdorns(EdgeIfc)>/this#_0	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
+<Graph: Graph kruskal()>/assign/instruction99	99	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <RegionWorkSpace: void <init>()>/assign/instruction1	1	<RegionWorkSpace: void <init>()>/@this	<RegionWorkSpace: void <init>()>/this#_0	<RegionWorkSpace: void <init>()>
 <Graph: void runBenchmark(java.lang.String)>/assign/instruction8	8	<Graph: void runBenchmark(java.lang.String)>/$r1	<Graph: void runBenchmark(java.lang.String)>/e#_197	<Graph: void runBenchmark(java.lang.String)>	@(Benchmark) /\ (Benchmark)
 <Graph: void run(Vertex)>/assign/instruction2	2	<Graph: void run(Vertex)>/@parameter0	<Graph: void run(Vertex)>/v#_0	<Graph: void run(Vertex)>
-<Graph: Graph kruskal()>/assign/instruction97	97	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/assign/instruction3	3	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/end#_0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
 <WorkSpace: void init_vertex(Vertex)>/assign/instruction2	2	<WorkSpace: void init_vertex(Vertex)>/@parameter0	<WorkSpace: void init_vertex(Vertex)>/v#_0	<WorkSpace: void init_vertex(Vertex)>	@SearchBase
-<Graph$Comparator2: void <init>(Graph)>/assign/instruction2	2	<Graph$Comparator2: void <init>(Graph)>/@parameter0	<Graph$Comparator2: void <init>(Graph)>/l1#_0	<Graph$Comparator2: void <init>(Graph)>
 <FinishTimeWorkSpace: void postVisitAction(Vertex)>/assign/instruction1	1	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@this	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/this#_0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	@StronglyConnected
+<Graph$Comparator2: void <init>(Graph)>/assign/instruction2	2	<Graph$Comparator2: void <init>(Graph)>/@parameter0	<Graph$Comparator2: void <init>(Graph)>/l1#_0	<Graph$Comparator2: void <init>(Graph)>
 <Vertex$VertexIter2: void <init>(Vertex)>/assign/instruction1	1	<Vertex$VertexIter2: void <init>(Vertex)>/@this	<Vertex$VertexIter2: void <init>(Vertex)>/this#_0	<Vertex$VertexIter2: void <init>(Vertex)>
 <Main: void readWeights(Graph,int)>/assign/instruction2	2	<Main: void readWeights(Graph,int)>/@parameter1	<Main: void readWeights(Graph,int)>/num_edges#_0	<Main: void readWeights(Graph,int)>	@Prog
 <CycleWorkSpace: void postVisitAction(Vertex)>/assign/instruction1	1	<CycleWorkSpace: void postVisitAction(Vertex)>/@this	<CycleWorkSpace: void postVisitAction(Vertex)>/this#_0	<CycleWorkSpace: void postVisitAction(Vertex)>	@Cycle
@@ -220,78 +212,84 @@
 <Graph$Comparator2: int compare(Vertex,Vertex)>/assign/instruction3	3	<Graph$Comparator2: int compare(Vertex,Vertex)>/@parameter1	<Graph$Comparator2: int compare(Vertex,Vertex)>/v2#_0	<Graph$Comparator2: int compare(Vertex,Vertex)>	@MSTPrim
 <RegionWorkSpace: void nextRegionAction(Vertex)>/assign/instruction1	1	<RegionWorkSpace: void nextRegionAction(Vertex)>/@this	<RegionWorkSpace: void nextRegionAction(Vertex)>/this#_0	<RegionWorkSpace: void nextRegionAction(Vertex)>	@Connected
 <Vertex: Vertex getEnd()>/assign/instruction1	1	<Vertex: Vertex getEnd()>/@this	<Vertex: Vertex getEnd()>/this#_0	<Vertex: Vertex getEnd()>	@G_NoEdges
+<Graph: Graph prim(Vertex)>/assign/instruction94	94	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction27	27	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_3#_219	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_2#_224	<Vertex: void nodeSearch(WorkSpace)>
-<Graph: void addEdge(Vertex,Neighbor)>/assign/instruction1	1	<Graph: void addEdge(Vertex,Neighbor)>/@this	<Graph: void addEdge(Vertex,Neighbor)>/this#_0	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
+<Graph: Graph kruskal()>/assign/instruction97	97	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
+<Graph: Graph kruskal()>/assign/instruction141	141	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_2#_498	<Graph: Graph kruskal()>
 <Vertex: void adjustAdorns(Vertex,int)>/assign/instruction1	1	<Vertex: void adjustAdorns(Vertex,int)>/@this	<Vertex: void adjustAdorns(Vertex,int)>/this#_0	<Vertex: void adjustAdorns(Vertex,int)>	@G_NoEdges
 <FinishTimeWorkSpace: void postVisitAction(Vertex)>/assign/instruction2	2	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@parameter0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/v#_0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	@StronglyConnected
+<Graph: void addEdge(Vertex,Neighbor)>/assign/instruction1	1	<Graph: void addEdge(Vertex,Neighbor)>/@this	<Graph: void addEdge(Vertex,Neighbor)>/this#_0	<Graph: void addEdge(Vertex,Neighbor)>	@GN_OnlyNeighbors
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/assign/instruction3	3	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/e2#_0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@MSTKruskal
 <Graph: Graph prim(Vertex)>/assign/instruction3	3	<Graph: Graph prim(Vertex)>/r#_0	<Graph: Graph prim(Vertex)>/root#_522	<Graph: Graph prim(Vertex)>	@MSTPrim
 <WorkSpaceTranspose: void nextRegionAction(Vertex)>/assign/instruction1	1	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/@this	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/this#_0	<WorkSpaceTranspose: void nextRegionAction(Vertex)>	@StronglyConnected
 <Vertex$EdgeIter1: void <init>(Vertex)>/assign/instruction2	2	<Vertex$EdgeIter1: void <init>(Vertex)>/@parameter0	<Vertex$EdgeIter1: void <init>(Vertex)>/l1#_0	<Vertex$EdgeIter1: void <init>(Vertex)>
-<Edge: void <init>(Vertex,Vertex,int)>/assign/instruction4	4	<Edge: void <init>(Vertex,Vertex,int)>/@parameter2	<Edge: void <init>(Vertex,Vertex,int)>/aweight#_0	<Edge: void <init>(Vertex,Vertex,int)>
 <WorkSpace: void nextRegionAction(Vertex)>/assign/instruction2	2	<WorkSpace: void nextRegionAction(Vertex)>/@parameter0	<WorkSpace: void nextRegionAction(Vertex)>/v#_0	<WorkSpace: void nextRegionAction(Vertex)>	@SearchBase
-<Graph: Graph prim(Vertex)>/assign/instruction88	88	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_3#_580	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>
+<Edge: void <init>(Vertex,Vertex,int)>/assign/instruction4	4	<Edge: void <init>(Vertex,Vertex,int)>/@parameter2	<Edge: void <init>(Vertex,Vertex,int)>/aweight#_0	<Edge: void <init>(Vertex,Vertex,int)>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction1	1	<Vertex: void nodeSearch(WorkSpace)>/@this	<Vertex: void nodeSearch(WorkSpace)>/this#_0	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: Graph strongComponents()>/assign/instruction13	13	<Graph: Graph strongComponents()>/$r2	<Graph: Graph strongComponents()>/WST#_337	<Graph: Graph strongComponents()>	@StronglyConnected
-<Graph: Graph prim(Vertex)>/assign/instruction89	89	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Vertex: void addWeight(int)>/assign/instruction2	2	<Vertex: void addWeight(int)>/@parameter0	<Vertex: void addWeight(int)>/weight#_0	<Vertex: void addWeight(int)>	@Weighted
 <WorkSpaceTranspose: void <init>()>/assign/instruction1	1	<WorkSpaceTranspose: void <init>()>/@this	<WorkSpaceTranspose: void <init>()>/this#_0	<WorkSpaceTranspose: void <init>()>
-<Graph: Graph strongComponents()>/assign/instruction1	1	<Graph: Graph strongComponents()>/@this	<Graph: Graph strongComponents()>/this#_0	<Graph: Graph strongComponents()>
 <Main: void main(java.lang.String[])>/assign/instruction83	83	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_6#_67	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_7#_68	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph strongComponents()>/assign/instruction1	1	<Graph: Graph strongComponents()>/@this	<Graph: Graph strongComponents()>/this#_0	<Graph: Graph strongComponents()>
 <Graph: Vertex findsVertex(java.lang.String)>/assign/instruction2	2	<Graph: Vertex findsVertex(java.lang.String)>/@parameter0	<Graph: Vertex findsVertex(java.lang.String)>/name#_0	<Graph: Vertex findsVertex(java.lang.String)>
+<Graph: Graph prim(Vertex)>/assign/instruction93	93	<Graph: Graph prim(Vertex)>/isNeighborInQueue#_565	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>
 <Vertex$VertexIter2: boolean hasNext()>/assign/instruction1	1	<Vertex$VertexIter2: boolean hasNext()>/@this	<Vertex$VertexIter2: boolean hasNext()>/this#_0	<Vertex$VertexIter2: boolean hasNext()>	@GN_OnlyNeighbors
-<Neighbor: void <init>(Vertex,int)>/assign/instruction2	2	<Neighbor: void <init>(Vertex,int)>/@parameter0	<Neighbor: void <init>(Vertex,int)>/theNeighbor#_0	<Neighbor: void <init>(Vertex,int)>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/assign/instruction1	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/@this	<Graph$Comparator1: int compare(Vertex,Vertex)>/this#_0	<Graph$Comparator1: int compare(Vertex,Vertex)>	@StronglyConnected
+<Neighbor: void <init>(Vertex,int)>/assign/instruction2	2	<Neighbor: void <init>(Vertex,int)>/@parameter0	<Neighbor: void <init>(Vertex,int)>/theNeighbor#_0	<Neighbor: void <init>(Vertex,int)>
 <Graph: void <init>()>/assign/instruction1	1	<Graph: void <init>()>/@this	<Graph: void <init>()>/this#_0	<Graph: void <init>()>
-<Graph: Graph kruskal()>/assign/instruction100	100	<Graph: Graph kruskal()>/v#_410	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
-<Main: void main(java.lang.String[])>/assign/instruction21	21	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_1#_29	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_68	<Main: void main(java.lang.String[])>	@Prog
+<Graph: Graph kruskal()>/assign/instruction105	105	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
 <Neighbor: void setWeight(int)>/assign/instruction2	2	<Neighbor: void setWeight(int)>/@parameter0	<Neighbor: void setWeight(int)>/weight#_0	<Neighbor: void setWeight(int)>	@Weighted /\ GN_OnlyNeighbors
+<Graph: Graph kruskal()>/assign/instruction107	107	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
+<Main: void main(java.lang.String[])>/assign/instruction22	22	<Main: void main(java.lang.String[])>/num_edges#_27	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_63	<Main: void main(java.lang.String[])>	@Prog
+<Main: void main(java.lang.String[])>/assign/instruction24	24	<Main: void main(java.lang.String[])>/$r25	<Main: void main(java.lang.String[])>/i#_34	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph$Comparator3: void <init>(Graph)>/assign/instruction2	2	<Graph$Comparator3: void <init>(Graph)>/@parameter0	<Graph$Comparator3: void <init>(Graph)>/l1#_0	<Graph$Comparator3: void <init>(Graph)>
-<Graph: Graph kruskal()>/assign/instruction52	52	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux_$$A_1#_449	<Graph: Graph kruskal()>
 <Vertex: EdgeIter getEdges()>/assign/instruction1	1	<Vertex: EdgeIter getEdges()>/@this	<Vertex: EdgeIter getEdges()>/this#_0	<Vertex: EdgeIter getEdges()>	@EdgeObjects /\ G_NoEdges
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/assign/instruction1	1	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@this	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l0#_0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>
-<Graph: Graph kruskal()>/assign/instruction110	110	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>/j#_471	<Graph: Graph kruskal()>
 <VertexIter: void <init>()>/assign/instruction1	1	<VertexIter: void <init>()>/@this	<VertexIter: void <init>()>/this#_0	<VertexIter: void <init>()>
 <Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/assign/instruction1	1	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@this	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l0#_0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
 <Vertex$EdgeIter3: void <init>(Vertex)>/assign/instruction1	1	<Vertex$EdgeIter3: void <init>(Vertex)>/@this	<Vertex$EdgeIter3: void <init>(Vertex)>/this#_0	<Vertex$EdgeIter3: void <init>(Vertex)>
-<Main: void main(java.lang.String[])>/assign/instruction28	28	<Main: void main(java.lang.String[])>/num_edges_$$A_2#_68	<Main: void main(java.lang.String[])>/num_edges_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
-<Graph: int readNumber()>/assign/instruction20	20	<Graph: int readNumber()>/index#_207	<Graph: int readNumber()>/index_$$A_1#_221	<Graph: int readNumber()>	@Benchmark
+<Graph: Graph kruskal()>/assign/instruction52	52	<Graph: Graph kruskal()>/j_$$A_1_$$A_1#_448	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>
 <Vertex: void addEdge(Neighbor)>/assign/instruction2	2	<Vertex: void addEdge(Neighbor)>/@parameter0	<Vertex: void addEdge(Neighbor)>/n#_0	<Vertex: void addEdge(Neighbor)>	@GN_OnlyNeighbors
+<Graph: int readNumber()>/assign/instruction20	20	<Graph: int readNumber()>/index#_207	<Graph: int readNumber()>/index_$$A_1#_221	<Graph: int readNumber()>	@Benchmark
+<Main: void main(java.lang.String[])>/assign/instruction26	26	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_2#_63	<Main: void main(java.lang.String[])>/num_vertices_$$A_1_$$A_3#_35	<Main: void main(java.lang.String[])>	@Prog
 <Edge: Vertex getOtherVertex(Vertex)>/assign/instruction1	1	<Edge: Vertex getOtherVertex(Vertex)>/@this	<Edge: Vertex getOtherVertex(Vertex)>/this#_0	<Edge: Vertex getOtherVertex(Vertex)>	@EdgeObjects
 <Vertex: void addEdge(Neighbor)>/assign/instruction1	1	<Vertex: void addEdge(Neighbor)>/@this	<Vertex: void addEdge(Neighbor)>/this#_0	<Vertex: void addEdge(Neighbor)>	@GN_OnlyNeighbors
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/assign/instruction3	3	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/@parameter1	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/l2#_0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+<Graph: Graph kruskal()>/assign/instruction145	145	<Graph: Graph kruskal()>/i#_497	<Graph: Graph kruskal()>/i_$$A_1#_498	<Graph: Graph kruskal()>
+<Graph: Graph prim(Vertex)>/assign/instruction87	87	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_1#_581	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <CycleWorkSpace: void init_vertex(Vertex)>/assign/instruction1	1	<CycleWorkSpace: void init_vertex(Vertex)>/@this	<CycleWorkSpace: void init_vertex(Vertex)>/this#_0	<CycleWorkSpace: void init_vertex(Vertex)>	@Cycle
 <Vertex$VertexIter3: void <init>(Vertex)>/assign/instruction2	2	<Vertex$VertexIter3: void <init>(Vertex)>/@parameter0	<Vertex$VertexIter3: void <init>(Vertex)>/l1#_0	<Vertex$VertexIter3: void <init>(Vertex)>
 <Graph: Graph strongComponents()>/assign/instruction4	4	<Graph: Graph strongComponents()>/$r0	<Graph: Graph strongComponents()>/FTWS#_324	<Graph: Graph strongComponents()>	@StronglyConnected
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/assign/instruction2	2	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l1#_0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>
-<Graph: int readNumber()>/assign/instruction22	22	<Graph: int readNumber()>/ch_$$A_1_$$A_1#_214	<Graph: int readNumber()>/ch_$$A_1_$$A_3#_221	<Graph: int readNumber()>	@Benchmark
+<Graph: Graph prim(Vertex)>/assign/instruction96	96	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>/vxiter_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Vertex: void adjustAdorns(EdgeIfc)>/assign/instruction1	1	<Vertex: void adjustAdorns(EdgeIfc)>/@this	<Vertex: void adjustAdorns(EdgeIfc)>/this#_0	<Vertex: void adjustAdorns(EdgeIfc)>	@G_NoEdges
+<Graph: int readNumber()>/assign/instruction22	22	<Graph: int readNumber()>/ch_$$A_1_$$A_1#_214	<Graph: int readNumber()>/ch_$$A_1_$$A_3#_221	<Graph: int readNumber()>	@Benchmark
 <Vertex$EdgeIter2: EdgeIfc next()>/assign/instruction1	1	<Vertex$EdgeIter2: EdgeIfc next()>/@this	<Vertex$EdgeIter2: EdgeIfc next()>/this#_0	<Vertex$EdgeIter2: EdgeIfc next()>	@EdgeObjects /\ GN_OnlyNeighbors
-<Graph: Graph prim(Vertex)>/assign/instruction87	87	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_1#_579	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Graph: Graph prim(Vertex)>/assign/instruction130	130	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650	<Graph: Graph prim(Vertex)>/vtx_$$A_2#_666	<Graph: Graph prim(Vertex)>
 <Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/assign/instruction1	1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@this	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/l0#_0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
-<Graph: Graph kruskal()>/assign/instruction81	81	<Graph: Graph kruskal()>/j_$$A_4#_460	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>
 <Graph: void graphSearch(WorkSpace)>/assign/instruction20	20	<Graph: void graphSearch(WorkSpace)>/v#_302	<Graph: void graphSearch(WorkSpace)>/v_$$A_2#_310	<Graph: void graphSearch(WorkSpace)>
-<Graph: void graphSearch(WorkSpace)>/assign/instruction9	9	<Graph: void graphSearch(WorkSpace)>/v#_302	<Graph: void graphSearch(WorkSpace)>/v#_302	<Graph: void graphSearch(WorkSpace)>
+<Graph: Graph kruskal()>/assign/instruction100	100	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/assign/instruction3	3	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter1	<Graph$Comparator1: int compare(Vertex,Vertex)>/v2#_0	<Graph$Comparator1: int compare(Vertex,Vertex)>	@StronglyConnected
+<Graph: void graphSearch(WorkSpace)>/assign/instruction9	9	<Graph: void graphSearch(WorkSpace)>/v#_302	<Graph: void graphSearch(WorkSpace)>/v#_302	<Graph: void graphSearch(WorkSpace)>
 <Graph: Graph computeTranspose(Graph)>/assign/instruction39	39	<Graph: Graph computeTranspose(Graph)>/v#_358	<Graph: Graph computeTranspose(Graph)>/v_$$A_2#_375	<Graph: Graph computeTranspose(Graph)>	@Transpose
 <Neighbor: void <init>(Vertex,Edge)>/assign/instruction1	1	<Neighbor: void <init>(Vertex,Edge)>/@this	<Neighbor: void <init>(Vertex,Edge)>/this#_0	<Neighbor: void <init>(Vertex,Edge)>
-<Graph: Graph kruskal()>/assign/instruction103	103	<Graph: Graph kruskal()>/v_$$A_3#_432	<Graph: Graph kruskal()>/v_$$A_2#_471	<Graph: Graph kruskal()>
 <WorkSpace: void <init>()>/assign/instruction1	1	<WorkSpace: void <init>()>/@this	<WorkSpace: void <init>()>/this#_0	<WorkSpace: void <init>()>
 <Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/assign/instruction2	2	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/@parameter0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>/l1#_0	<Graph$EdgeIter1: void <init>(Graph,Graph$EdgeIter1)>
 <Neighbor: Vertex getEnd()>/assign/instruction1	1	<Neighbor: Vertex getEnd()>/@this	<Neighbor: Vertex getEnd()>/this#_0	<Neighbor: Vertex getEnd()>	@GN_OnlyNeighbors
 <Graph: void connectedComponents()>/assign/instruction1	1	<Graph: void connectedComponents()>/@this	<Graph: void connectedComponents()>/this#_0	<Graph: void connectedComponents()>	@Connected
 <Graph: boolean cycleCheck()>/assign/instruction1	1	<Graph: boolean cycleCheck()>/@this	<Graph: boolean cycleCheck()>/this#_0	<Graph: boolean cycleCheck()>	@Cycle
 <Graph: Graph prim(Vertex)>/assign/instruction12	12	<Graph: Graph prim(Vertex)>/x_$$A_1#_527	<Graph: Graph prim(Vertex)>/x#_530	<Graph: Graph prim(Vertex)>
-<Vertex: void display()>/assign/instruction19	19	<Vertex: void display()>/vxiter#_259	<Vertex: void display()>/vxiter_$$A_1_$$A_1#_260	<Vertex: void display()>
 <Vertex$EdgeIter2: boolean hasNext()>/assign/instruction1	1	<Vertex$EdgeIter2: boolean hasNext()>/@this	<Vertex$EdgeIter2: boolean hasNext()>/this#_0	<Vertex$EdgeIter2: boolean hasNext()>	@EdgeObjects /\ GN_OnlyNeighbors
+<Vertex: void display()>/assign/instruction19	19	<Vertex: void display()>/vxiter#_259	<Vertex: void display()>/vxiter_$$A_1_$$A_1#_260	<Vertex: void display()>
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/assign/instruction2	2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/e1#_0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@MSTKruskal
 <Graph: Graph prim(Vertex)>/assign/instruction70	70	<Graph: Graph prim(Vertex)>/v#_584	<Graph: Graph prim(Vertex)>/residue#_604	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Vertex: int getWeight()>/assign/instruction1	1	<Vertex: int getWeight()>/@this	<Vertex: int getWeight()>/this#_0	<Vertex: int getWeight()>	@G_NoEdges
+<Graph: Graph kruskal()>/assign/instruction81	81	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux_$$A_3#_461	<Graph: Graph kruskal()>
+<Graph: Graph kruskal()>/assign/instruction101	101	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
 <Graph: void sortEdges(java.util.Comparator)>/assign/instruction2	2	<Graph: void sortEdges(java.util.Comparator)>/@parameter0	<Graph: void sortEdges(java.util.Comparator)>/c#_0	<Graph: void sortEdges(java.util.Comparator)>	@EdgeObjects
+<Main: void main(java.lang.String[])>/assign/instruction10	10	<Main: void main(java.lang.String[])>/$r22	<Main: void main(java.lang.String[])>/num_vertices#_21	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <WorkSpace: void postVisitAction(Vertex)>/assign/instruction2	2	<WorkSpace: void postVisitAction(Vertex)>/@parameter0	<WorkSpace: void postVisitAction(Vertex)>/v#_0	<WorkSpace: void postVisitAction(Vertex)>	@SearchBase
-<Graph: Graph kruskal()>/assign/instruction55	55	<Graph: Graph kruskal()>/j_$$A_3#_448	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>
-<Graph: Graph kruskal()>/assign/instruction105	105	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
+<Graph: Graph prim(Vertex)>/assign/instruction88	88	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_5#_592	<Graph: Graph prim(Vertex)>/isNeighborInQueue_$$A_2#_581	<Graph: Graph prim(Vertex)>
 <Edge: void adjustAdorns(EdgeIfc)>/assign/instruction2	2	<Edge: void adjustAdorns(EdgeIfc)>/@parameter0	<Edge: void adjustAdorns(EdgeIfc)>/the_edge#_0	<Edge: void adjustAdorns(EdgeIfc)>	@EdgeObjects
 <Main: void main(java.lang.String[])>/assign/instruction78	78	<Main: void main(java.lang.String[])>/totalTime_$$A_2#_63	<Main: void main(java.lang.String[])>/totalTime_$$A_3#_64	<Main: void main(java.lang.String[])>	@Prog
 <Graph: void sortEdges(java.util.Comparator)>/assign/instruction1	1	<Graph: void sortEdges(java.util.Comparator)>/@this	<Graph: void sortEdges(java.util.Comparator)>/this#_0	<Graph: void sortEdges(java.util.Comparator)>	@EdgeObjects
@@ -304,25 +302,26 @@
 <Main: void main(java.lang.String[])>/assign/instruction52	52	<Main: void main(java.lang.String[])>/i_$$A_2#_44	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_1#_45	<Main: void main(java.lang.String[])>	@Prog
 <Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/assign/instruction3	3	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@parameter1	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l2#_0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>
 <Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/assign/instruction2	2	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/@parameter0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l1#_0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>
+<Graph: Graph kruskal()>/assign/instruction144	144	<Graph: Graph kruskal()>/v_$$A_5#_501	<Graph: Graph kruskal()>/v_$$A_4#_498	<Graph: Graph kruskal()>
 <Graph: void runBenchmark(java.lang.String)>/assign/instruction2	2	<Graph: void runBenchmark(java.lang.String)>/@parameter0	<Graph: void runBenchmark(java.lang.String)>/FileName#_0	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
-<Vertex$VertexIter3: void <init>(Vertex)>/assign/instruction1	1	<Vertex$VertexIter3: void <init>(Vertex)>/@this	<Vertex$VertexIter3: void <init>(Vertex)>/this#_0	<Vertex$VertexIter3: void <init>(Vertex)>
 <Main: void main(java.lang.String[])>/assign/instruction53	53	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_2#_44	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_1#_45	<Main: void main(java.lang.String[])>	@Prog
 <Vertex$EdgeIter3: void <init>(Vertex)>/assign/instruction2	2	<Vertex$EdgeIter3: void <init>(Vertex)>/@parameter0	<Vertex$EdgeIter3: void <init>(Vertex)>/l1#_0	<Vertex$EdgeIter3: void <init>(Vertex)>
+<Vertex$VertexIter3: void <init>(Vertex)>/assign/instruction1	1	<Vertex$VertexIter3: void <init>(Vertex)>/@this	<Vertex$VertexIter3: void <init>(Vertex)>/this#_0	<Vertex$VertexIter3: void <init>(Vertex)>
 <Main: void main(java.lang.String[])>/assign/instruction1	1	<Main: void main(java.lang.String[])>/@parameter0	<Main: void main(java.lang.String[])>/args#_0	<Main: void main(java.lang.String[])>	@Prog
-<Graph: Graph kruskal()>/assign/instruction54	54	<Graph: Graph kruskal()>/j_$$A_1_$$A_1#_448	<Graph: Graph kruskal()>/j_$$A_2#_449	<Graph: Graph kruskal()>
-<Edge: void setWeight(int)>/assign/instruction2	2	<Edge: void setWeight(int)>/@parameter0	<Edge: void setWeight(int)>/weight#_0	<Edge: void setWeight(int)>	@EdgeObjects /\ Weighted
+<Graph: Graph kruskal()>/assign/instruction142	142	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_3#_500	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_2#_498	<Graph: Graph kruskal()>
 <Vertex$EdgeIter1: boolean hasNext()>/assign/instruction1	1	<Vertex$EdgeIter1: boolean hasNext()>/@this	<Vertex$EdgeIter1: boolean hasNext()>/this#_0	<Vertex$EdgeIter1: boolean hasNext()>	@EdgeObjects /\ G_NoEdges
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction1	1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@this	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/this#_0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	@StronglyConnected
-<EdgeIter: void <init>()>/assign/instruction1	1	<EdgeIter: void <init>()>/@this	<EdgeIter: void <init>()>/this#_0	<EdgeIter: void <init>()>
+<Edge: void setWeight(int)>/assign/instruction2	2	<Edge: void setWeight(int)>/@parameter0	<Edge: void setWeight(int)>/weight#_0	<Edge: void setWeight(int)>	@EdgeObjects /\ Weighted
 <Graph: Graph kruskal()>/assign/instruction13	13	<Graph: Graph kruskal()>/v_$$A_1#_407	<Graph: Graph kruskal()>/v#_410	<Graph: Graph kruskal()>
 <Graph: java.util.LinkedList access$0(Graph)>/assign/instruction1	1	<Graph: java.util.LinkedList access$0(Graph)>/@parameter0	<Graph: java.util.LinkedList access$0(Graph)>/l0#_0	<Graph: java.util.LinkedList access$0(Graph)>
+<EdgeIter: void <init>()>/assign/instruction1	1	<EdgeIter: void <init>()>/@this	<EdgeIter: void <init>()>/this#_0	<EdgeIter: void <init>()>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction26	26	<Vertex: void nodeSearch(WorkSpace)>/v#_211	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_2#_224	<Vertex: void nodeSearch(WorkSpace)>
 <Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/assign/instruction3	3	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter1	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l2#_0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
 <Graph: Graph prim(Vertex)>/assign/instruction101	101	<Graph: Graph prim(Vertex)>/$r13	<Graph: Graph prim(Vertex)>/residue_$$A_1#_630	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Edge: Vertex getStart()>/assign/instruction1	1	<Edge: Vertex getStart()>/@this	<Edge: Vertex getStart()>/this#_0	<Edge: Vertex getStart()>	@EdgeObjects
-<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction4	4	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theSource#_0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/v1#_278	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Vertex: VertexIter getNeighbors()>/assign/instruction1	1	<Vertex: VertexIter getNeighbors()>/@this	<Vertex: VertexIter getNeighbors()>/this#_0	<Vertex: VertexIter getNeighbors()>	@G_NoEdges
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/assign/instruction3	3	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter1	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/l2#_0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction4	4	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theSource#_0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/v1#_278	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Neighbor: Vertex getOtherVertex(Vertex)>/assign/instruction1	1	<Neighbor: Vertex getOtherVertex(Vertex)>/@this	<Neighbor: Vertex getOtherVertex(Vertex)>/this#_0	<Neighbor: Vertex getOtherVertex(Vertex)>	@GN_OnlyNeighbors
 <Graph: Graph prim(Vertex)>/assign/instruction37	37	<Graph: Graph prim(Vertex)>/x_$$A_3#_546	<Graph: Graph prim(Vertex)>/x_$$A_2#_551	<Graph: Graph prim(Vertex)>
 <Edge: int getWeight()>/assign/instruction1	1	<Edge: int getWeight()>/@this	<Edge: int getWeight()>/this#_0	<Edge: int getWeight()>	@EdgeObjects /\ Weighted
@@ -330,21 +329,22 @@
 <Graph: Graph prim(Vertex)>/assign/instruction131	131	<Graph: Graph prim(Vertex)>/vtx_$$A_3#_650	<Graph: Graph prim(Vertex)>/vtx_$$A_2#_666	<Graph: Graph prim(Vertex)>
 <Neighbor: void <init>()>/assign/instruction1	1	<Neighbor: void <init>()>/@this	<Neighbor: void <init>()>/this#_0	<Neighbor: void <init>()>
 <Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/assign/instruction2	2	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/@parameter0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/l1#_0	<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>
-<Edge: void display()>/assign/instruction1	1	<Edge: void display()>/@this	<Edge: void display()>/this#_0	<Edge: void display()>	@EdgeObjects
-<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/assign/instruction3	3	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter1	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l2#_0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>
+<Graph: Graph kruskal()>/assign/instruction108	108	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>/vaux#_471	<Graph: Graph kruskal()>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction28	28	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_3#_219	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_2#_224	<Vertex: void nodeSearch(WorkSpace)>
+<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/assign/instruction3	3	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/@parameter1	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>/l2#_0	<Graph$Comparator3: void <init>(Graph,Graph$Comparator3)>
+<Edge: void display()>/assign/instruction1	1	<Edge: void display()>/@this	<Edge: void display()>/this#_0	<Edge: void display()>	@EdgeObjects
 <Graph: int readNumber()>/assign/instruction10	10	<Graph: int readNumber()>/ch_$$A_1#_211	<Graph: int readNumber()>/ch_$$A_1_$$A_1#_214	<Graph: int readNumber()>	@Benchmark
-<Graph: Graph kruskal()>/assign/instruction98	98	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	<Graph: Graph kruskal()>/vxiter_$$A_2#_471	<Graph: Graph kruskal()>
-<Neighbor: Vertex getStart()>/assign/instruction1	1	<Neighbor: Vertex getStart()>/@this	<Neighbor: Vertex getStart()>/this#_0	<Neighbor: Vertex getStart()>	@GN_OnlyNeighbors
-<Main: void main(java.lang.String[])>/assign/instruction10	10	<Main: void main(java.lang.String[])>/$r24	<Main: void main(java.lang.String[])>/num_vertices#_21	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
-<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/assign/instruction2	2	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l1#_0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction2	2	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@parameter0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/v#_0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	@StronglyConnected
-<Graph: void runBenchmark(java.lang.String)>/assign/instruction1	1	<Graph: void runBenchmark(java.lang.String)>/@this	<Graph: void runBenchmark(java.lang.String)>/this#_0	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
+<Neighbor: Vertex getStart()>/assign/instruction1	1	<Neighbor: Vertex getStart()>/@this	<Neighbor: Vertex getStart()>/this#_0	<Neighbor: Vertex getStart()>	@GN_OnlyNeighbors
+<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/assign/instruction2	2	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/@parameter0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>/l1#_0	<Graph$Comparator2: void <init>(Graph,Graph$Comparator2)>
 <NumberWorkSpace: void <init>()>/assign/instruction1	1	<NumberWorkSpace: void <init>()>/@this	<NumberWorkSpace: void <init>()>/this#_0	<NumberWorkSpace: void <init>()>
+<Graph: void runBenchmark(java.lang.String)>/assign/instruction1	1	<Graph: void runBenchmark(java.lang.String)>/@this	<Graph: void runBenchmark(java.lang.String)>/this#_0	<Graph: void runBenchmark(java.lang.String)>	@Benchmark
 <RegionWorkSpace: void nextRegionAction(Vertex)>/assign/instruction2	2	<RegionWorkSpace: void nextRegionAction(Vertex)>/@parameter0	<RegionWorkSpace: void nextRegionAction(Vertex)>/v#_0	<RegionWorkSpace: void nextRegionAction(Vertex)>	@Connected
 <Graph: Graph computeTranspose(Graph)>/assign/instruction36	36	<Graph: Graph computeTranspose(Graph)>/v_$$A_4#_381	<Graph: Graph computeTranspose(Graph)>/v_$$A_3#_385	<Graph: Graph computeTranspose(Graph)>	@Transpose
+<Main: void main(java.lang.String[])>/assign/instruction69	69	<Main: void main(java.lang.String[])>/$r24	<Main: void main(java.lang.String[])>/totalTime#_55	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
+<Graph: Graph kruskal()>/assign/instruction80	80	<Graph: Graph kruskal()>/j_$$A_6#_460	<Graph: Graph kruskal()>/j_$$A_5#_461	<Graph: Graph kruskal()>
 <Vertex$EdgeIter2: void <init>(Vertex)>/assign/instruction1	1	<Vertex$EdgeIter2: void <init>(Vertex)>/@this	<Vertex$EdgeIter2: void <init>(Vertex)>/this#_0	<Vertex$EdgeIter2: void <init>(Vertex)>
 <Graph: int readNumber()>/assign/instruction1	1	<Graph: int readNumber()>/@this	<Graph: int readNumber()>/this#_0	<Graph: int readNumber()>	@Benchmark
+<Graph$EdgeIter1: void <init>(Graph)>/assign/instruction1	1	<Graph$EdgeIter1: void <init>(Graph)>/@this	<Graph$EdgeIter1: void <init>(Graph)>/this#_0	<Graph$EdgeIter1: void <init>(Graph)>
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction2	2	<CycleWorkSpace: void preVisitAction(Vertex)>/@parameter0	<CycleWorkSpace: void preVisitAction(Vertex)>/v#_0	<CycleWorkSpace: void preVisitAction(Vertex)>
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/assign/instruction2	2	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/start#_0	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>
-<Graph$EdgeIter1: void <init>(Graph)>/assign/instruction1	1	<Graph$EdgeIter1: void <init>(Graph)>/@this	<Graph$EdgeIter1: void <init>(Graph)>/this#_0	<Graph$EdgeIter1: void <init>(Graph)>

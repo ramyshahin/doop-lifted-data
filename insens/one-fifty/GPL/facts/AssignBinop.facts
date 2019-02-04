@@ -1,7 +1,7 @@
 <NumberWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	6	<NumberWorkSpace: void preVisitAction(Vertex)>/$i1	<NumberWorkSpace: void preVisitAction(Vertex)>
 <Graph: Graph kruskal()>/assign/instruction51	51	<Graph: Graph kruskal()>/j_$$A_3#_448	<Graph: Graph kruskal()>
-<Main: void main(java.lang.String[])>/assign/instruction92	92	<Main: void main(java.lang.String[])>/totalTime_$$A_1#_75	<Main: void main(java.lang.String[])>
 <FinishTimeWorkSpace: void preVisitAction(Vertex)>/assign/instruction6	6	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/$i1	<FinishTimeWorkSpace: void preVisitAction(Vertex)>
+<Main: void main(java.lang.String[])>/assign/instruction92	92	<Main: void main(java.lang.String[])>/totalTime_$$A_1#_75	<Main: void main(java.lang.String[])>
 <Graph: void endProfile()>/assign/instruction7	7	<Graph: void endProfile()>/$l5	<Graph: void endProfile()>
 <WorkSpaceTranspose: void nextRegionAction(Vertex)>/assign/instruction4	4	<WorkSpaceTranspose: void nextRegionAction(Vertex)>/$i1	<WorkSpaceTranspose: void nextRegionAction(Vertex)>
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/assign/instruction16	16	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i3	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>

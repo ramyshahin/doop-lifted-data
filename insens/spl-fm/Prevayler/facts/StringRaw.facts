@@ -232,8 +232,8 @@ RunJdbcQueryTest	RunJdbcQueryTest
 <<\\" you will see that nothing was lost. \\">>	<<\\" you will see that nothing was lost. \\">>
 <org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Component gap()>	<org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Component gap()>
 <org.prevayler.Prevayler: void close()>	<org.prevayler.Prevayler: void close()>
-<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>	<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>
 <org.prevayler.demos.demo2.gui.AccountFrame: void addButtons(javax.swing.JPanel)>	<org.prevayler.demos.demo2.gui.AccountFrame: void addButtons(javax.swing.JPanel)>
+<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>	<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>
 <org.prevayler.demos.demo2.business.transactions.Transfer: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>	<org.prevayler.demos.demo2.business.transactions.Transfer: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
 <org.prevayler.demos.demo2.business.transactions.HolderChange: void <init>()>	<org.prevayler.demos.demo2.business.transactions.HolderChange: void <init>()>
 <org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>	<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>
@@ -249,8 +249,8 @@ You can edit this file to configure the tests for the next run.\n	You can edit t
 TEN_MILLION	TEN_MILLION
 <org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>	<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>
 <java.net.ServerSocket: java.net.Socket accept()>	<java.net.ServerSocket: java.net.Socket accept()>
-<org.prevayler.demos.demo2.MainTransient: void <init>()>	<org.prevayler.demos.demo2.MainTransient: void <init>()>
 Balance	Balance
+<org.prevayler.demos.demo2.MainTransient: void <init>()>	<org.prevayler.demos.demo2.MainTransient: void <init>()>
 <org.prevayler.demos.demo2.business.transactions.AccountCreation: void <init>(java.lang.String)>	<org.prevayler.demos.demo2.business.transactions.AccountCreation: void <init>(java.lang.String)>
 <org.prevayler.foundation.network.StubbornNetworkProxy: void waitTillOpen()>	<org.prevayler.foundation.network.StubbornNetworkProxy: void waitTillOpen()>	@Replication
 <org.prevayler.foundation.Guided: void writeTo(java.io.OutputStream)>	<org.prevayler.foundation.Guided: void writeTo(java.io.OutputStream)>
@@ -373,8 +373,8 @@ The current implementation can only support one subscriber. Future implementatio
 <org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.StubbornNetworkProxy find(org.prevayler.foundation.network.NetworkSessionId)>	<org.prevayler.foundation.network.SessionsManager: org.prevayler.foundation.network.StubbornNetworkProxy find(org.prevayler.foundation.network.NetworkSessionId)>
 <org.prevayler.foundation.monitor.LoggingMonitor: boolean isInfoEnabled(java.lang.Class)>	<org.prevayler.foundation.monitor.LoggingMonitor: boolean isInfoEnabled(java.lang.Class)>	@Monitor
 <java.lang.Object: java.lang.Object createTestConnection()>	<java.lang.Object: java.lang.Object createTestConnection()>
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>	<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>
 <java.io.File: boolean equals(java.lang.Object)>	<java.io.File: boolean equals(java.lang.Object)>
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>	<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void delete(long)>
 <java.util.List: java.util.Iterator iterator()>	<java.util.List: java.util.Iterator iterator()>
 <java.io.ByteArrayInputStream: void <init>(byte[])>	<java.io.ByteArrayInputStream: void <init>(byte[])>
 <java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>	<java.util.HashMap: java.lang.Object put(java.lang.Object,java.lang.Object)>
@@ -637,8 +637,8 @@ Prevayler is no longer allowing access to the prevalent system due to an Error t
 <org.prevayler.foundation.Chunking: boolean validToken(java.lang.String)>	<org.prevayler.foundation.Chunking: boolean validToken(java.lang.String)>
 <java.lang.String: boolean matches(java.lang.String)>	<java.lang.String: boolean matches(java.lang.String)>
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.ObjectReceiver)>	<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.ObjectReceiver)>
-<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>	<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>
 <java.lang.String: int length()>	<java.lang.String: int length()>
+<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>	<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>
 <org.prevayler.foundation.network.NetworkSessionId: boolean equals(java.lang.Object)>	<org.prevayler.foundation.network.NetworkSessionId: boolean equals(java.lang.Object)>	@Replication
 <java.io.PipedOutputStream: void close()>	<java.io.PipedOutputStream: void close()>
 <org.prevayler.implementation.publishing.TransactionSubscriber: void receive(org.prevayler.implementation.TransactionTimestamp)>	<org.prevayler.implementation.publishing.TransactionSubscriber: void receive(org.prevayler.implementation.TransactionTimestamp)>
@@ -875,8 +875,8 @@ Invalid parameter value \'	Invalid parameter value \'
 <java.io.ByteArrayOutputStream: byte[] toByteArray()>	<java.io.ByteArrayOutputStream: byte[] toByteArray()>
 <org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int available()>	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int available()>	@GZip
 <com.skaringa.javaxml.ObjectTransformer: void serialize(java.lang.Object,javax.xml.transform.Result)>	<com.skaringa.javaxml.ObjectTransformer: void serialize(java.lang.Object,javax.xml.transform.Result)>
-<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>	<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>
 <javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>	<javax.swing.JOptionPane: java.lang.String showInputDialog(java.awt.Component,java.lang.Object,java.lang.String,int)>
+<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>	<org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection: void <init>(org.prevayler.demos.scalability.prevayler.QuerySystem)>
 <org.prevayler.demos.scalability.QueryTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>	<org.prevayler.demos.scalability.QueryTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>
 <java.io.File: boolean isDirectory()>	<java.io.File: boolean isDirectory()>
 <org.prevayler.foundation.monitor.Log4jMonitor: void <clinit>()>	<org.prevayler.foundation.monitor.Log4jMonitor: void <clinit>()>
@@ -938,8 +938,8 @@ JdbcQueryThreadsMinimum	JdbcQueryThreadsMinimum
 <javax.swing.JList: void addListSelectionListener(javax.swing.event.ListSelectionListener)>	<javax.swing.JList: void addListSelectionListener(javax.swing.event.ListSelectionListener)>
 <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>	<java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
 <com.skaringa.javaxml.ObjectTransformerFactory: com.skaringa.javaxml.ObjectTransformerFactory getInstance()>	<com.skaringa.javaxml.ObjectTransformerFactory: com.skaringa.javaxml.ObjectTransformerFactory getInstance()>
-<javax.swing.JFrame: void setVisible(boolean)>	<javax.swing.JFrame: void setVisible(boolean)>
 JdbcUser	JdbcUser
+<javax.swing.JFrame: void setVisible(boolean)>	<javax.swing.JFrame: void setVisible(boolean)>
 <<\\"Already at \\">>	<<\\"Already at \\">>
 <org.prevayler.Transaction: void executeOn(java.lang.Object,java.util.Date)>	<org.prevayler.Transaction: void executeOn(java.lang.Object,java.util.Date)>
 <java.util.Map: java.util.Collection values()>	<java.util.Map: java.util.Collection values()>
@@ -1079,8 +1079,8 @@ Prevayler Network Server Receiver	Prevayler Network Server Receiver	@Replication
 <org.prevayler.demos.demo2.gui.AllAccountsFrame: void refreshAccounts()>	<org.prevayler.demos.demo2.gui.AllAccountsFrame: void refreshAccounts()>
 <javax.swing.JInternalFrame: java.awt.Container getContentPane()>	<javax.swing.JInternalFrame: java.awt.Container getContentPane()>
 <org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>	<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>
-<java.io.ByteArrayOutputStream: void writeTo(java.io.OutputStream)>	<java.io.ByteArrayOutputStream: void writeTo(java.io.OutputStream)>
 <org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@Replication
+<java.io.ByteArrayOutputStream: void writeTo(java.io.OutputStream)>	<java.io.ByteArrayOutputStream: void writeTo(java.io.OutputStream)>
 <org.prevayler.foundation.monitor.Log4jMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>	<org.prevayler.foundation.monitor.Log4jMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>	@Monitor
 See you there.\n	See you there.\n
 <org.prevayler.demos.demo1.NumberKeeper: java.util.List numbers()>	<org.prevayler.demos.demo1.NumberKeeper: java.util.List numbers()>
@@ -1139,8 +1139,8 @@ Bank	Bank
 <org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void <init>(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void <init>(org.prevayler.implementation.snapshot.GenericSnapshotManager)>
 <org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>	<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
 <org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>
-<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>	<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>
 <org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>	<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>
+<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>	<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>
 <org.prevayler.implementation.journal.PersistentJournal: long nextTransaction()>	<org.prevayler.implementation.journal.PersistentJournal: long nextTransaction()>
 <java.util.Map$Entry: java.lang.Object getValue()>	<java.util.Map$Entry: java.lang.Object getValue()>
 <org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,int)>	<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,int)>	@Replication
@@ -1254,8 +1254,8 @@ PrevaylerQueryThreadsMaximum	PrevaylerQueryThreadsMaximum
 <java.io.OutputStream: void write(byte[])>	<java.io.OutputStream: void write(byte[])>
 Holder	Holder
 <java.sql.ResultSet: java.lang.String getString(int)>	<java.sql.ResultSet: java.lang.String getString(int)>
-JDBC	JDBC
 <<\\"Unable to start Skaringa: \\">>	<<\\"Unable to start Skaringa: \\">>
+JDBC	JDBC
 <org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	<org.prevayler.PrevaylerFactory: void configureSnapshotSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	@Snapshot
 #Entries	#Entries
 <org.prevayler.foundation.serialization.Serializer: void writeObject(java.io.OutputStream,java.lang.Object)>	<org.prevayler.foundation.serialization.Serializer: void writeObject(java.io.OutputStream,java.lang.Object)>

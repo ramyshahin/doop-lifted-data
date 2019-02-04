@@ -2,8 +2,8 @@ Delete
 Baby	@(Photo) /\ (Photo)
 Stop
 Finishing SMSReceiver run()	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
-5550001
 \\"ImageScreen\\"
+5550001
 <<\\"SmsSenderController::handleCommand: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <<\\"SmsMessaging::receiveImage: sender address = \\">>
 jad.name
@@ -21,8 +21,8 @@ MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
 Java	@(includeMMAPI) /\ (includeMMAPI)
 java.home
 <<\\"<* AlbumController.handleCommand() *>: \\">>	@NewCompound1
-Set Favorite	@includeVideo
 audio/x-wav	@(Photo) /\ (Photo)
+Set Favorite	@includeVideo
 ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
 <<\\"<* MusicPlayController.handleCommand() *> \\">>	@(x_NotPrivacy) /\ (x_NotPrivacy)
 My Music Album	@(Photo) /\ (Photo)
@@ -48,9 +48,9 @@ MobileMedia
 AlbumListScreen	@(x_MusicOrVideo) /\ (x_MusicOrVideo /\ captureVideo)
 mpp-	@NewCompound1
 AlbumListScreen	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
+Bong	@(Photo) /\ (Photo)
 <<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
 Incoming SMS Message with Payload:
-Bong	@(Photo) /\ (Photo)
 Path
 Create new Photo Album here
 /images/Gosling1.PNG	@(includeMMAPI) /\ (includeMMAPI)
@@ -102,16 +102,16 @@ Olha para a captura	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
 <<\\"<* MediaUtil.readMediaAsByteArray() *> mediaFile = \\">>
 Finishing SMSSender run()
 MediaAccessor::loadAlbums: Current store
-PhotoViewScreen::paint(): Image object was null.
 Bad fragmentation	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+PhotoViewScreen::paint(): Image object was null.
 <<\\"MediaAccessor::loadAlbums: Found: \\">>
 New photo	@x_misc
 /images/Kdvolder1.PNG	@(includeMMAPI) /\ (includeMMAPI)
 ImageListScreen
 C:\Program Files\Java\jdk1.5.0_09
-Send Photo by SMS
-Error ao criar o player:
 You have just received a bad fragmentated photo which was not possible to recovery.	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+Error ao criar o player:
+Send Photo by SMS
 <<\\"Closing connection caught: \\">>
 preprocessor.symbols
 vvp-	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
@@ -156,8 +156,8 @@ Copy to Album:	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <<\\"Pitch: \\">>
 Starting SMSReceiver::run()	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 C:\user\research\MobileMedia\Antenna
-ConfirmDeleteAlbumScreen
 AlbumListScreen	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
+ConfirmDeleteAlbumScreen
 prc.name
 Error criar or controler
 <<\\"Tempo: \\">>
@@ -177,8 +177,8 @@ Copy Photo to Album	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 Path not valid for this file:
 Ok	@x_SMSOrCapturePhotoOrCaptureVideo
 <<\\"<* BaseController.handleCommand() *> Image = \\">>	@(Media) /\ (Media)
-Save Item
 \\"ImageListScreen\\"
+Save Item
 My Photo Album	@(includeMMAPI) /\ (includeMMAPI)
 1000	@x_SMSOrCapturePhotoOrCaptureVideo
 A MobilePhoto user has sent you a Photo. Do you want to accept it?	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
@@ -197,8 +197,8 @@ Back	@x_PhotoAlbumAndVideoOrMusic
 Sort by Views	@Media
 ImageListScreen	@x_notMisc
 <<\\" \\">>	@NewCompound1
-Error ao definir a tela
 <<\\"SmsReceiverController::handleCommand: \\">>	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+Error ao definir a tela
 Error interreput	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 Starting BaseThread::run()
 My Photo Album
@@ -210,8 +210,8 @@ Applause	@(Photo) /\ (Photo)
 /images/ubcLogo.PNG	@(includeMMAPI) /\ (includeMMAPI)
 Store	@(NewCompound1) /\ (NewCompound1)
 \\"AlbumListScreen\\"
-Vai adicionar os dados	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 /images/applause.wav	@(Photo) /\ (Photo)
+Vai adicionar os dados	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 View Favorites	@includeVideo
 <<\\"<* MediaUtil.readMediaAsByteArray() *> is = \\">>
 Take photo
@@ -241,8 +241,8 @@ Password	@NewCompound1
 New Album
 jar.name
 mpi-	@(includeMMAPI) /\ (includeMMAPI)
-SmsMessaging::receiveImage() - start
 Copy to Album:	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
+SmsMessaging::receiveImage() - start
 AlbumListScreen	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
 ImageListScreen	@NewCompound1
 Capture Photo	@x_misc

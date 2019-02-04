@@ -6,8 +6,8 @@
 <Main: void main(java.lang.String[])>/new int[]/1	int[]	@(Prog) /\ (Prog)
 <Graph: boolean cycleCheck()>/new CycleWorkSpace/0	CycleWorkSpace	@(Cycle) /\ (Cycle)
 <Main: void main(java.lang.String[])>/new Vertex/0	Vertex	@(Prog) /\ (Prog)
-<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	Vertex$VertexIter1	@(G_NoEdges) /\ (G_NoEdges)
 <Graph: Graph prim(Vertex)>/new Vertex/0	Vertex	@MSTPrim
+<Vertex: VertexIter getNeighbors()>/new Vertex$VertexIter1/0	Vertex$VertexIter1	@(G_NoEdges) /\ (G_NoEdges)
 <Graph: VertexIter getVertices()>/new VertexIter/0	VertexIter
 <Vertex: void <init>()>/new java.util.LinkedList/2	java.util.LinkedList	@GEN_Edges
 <Graph: void run(Vertex)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Cycle /\ Prog
@@ -23,11 +23,11 @@
 <Vertex: void display()>/new java.lang.StringBuilder/5	java.lang.StringBuilder	@StronglyConnected
 <Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	java.io.FileReader	@(Benchmark) /\ (Benchmark)
 <Edge: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(EdgeObjects) /\ (EdgeObjects /\ Weighted)
-<Vertex: void display()>/new java.lang.StringBuilder/3	java.lang.StringBuilder	@Number
 <Graph: int readNumber()>/new char[]/0	char[]	@(Benchmark) /\ (Benchmark)
+<Vertex: void display()>/new java.lang.StringBuilder/3	java.lang.StringBuilder	@Number
 <Graph: Graph prim(Vertex)>/new Graph/0	Graph	@MSTPrim
-<Vertex: void <init>()>/new java.util.LinkedList/3	java.util.LinkedList	@Weighted /\ G_NoEdges
 <Graph: Graph strongComponents()>/new WorkSpaceTranspose/0	WorkSpaceTranspose	@StronglyConnected
+<Vertex: void <init>()>/new java.util.LinkedList/3	java.util.LinkedList	@Weighted /\ G_NoEdges
 <Graph: Graph computeTranspose(Graph)>/new Graph/0	Graph	@(Transpose) /\ (Transpose)
 <Graph: Graph kruskal()>/new java.util.LinkedList/1	java.util.LinkedList	@MSTKruskal
 <Main: void main(java.lang.String[])>/new int[]/0	int[]	@(Prog) /\ (Prog)

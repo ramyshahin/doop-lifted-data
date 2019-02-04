@@ -18,14 +18,14 @@
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction48	-
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction42	-	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction120	==
-<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction25	*
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>/if/instruction13	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
+<lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction25	*
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction9	!=
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void createNewAlbum(java.lang.String)>/if/instruction4	==
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,int)>/if/instruction100	!=
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/if/instruction40	!=	@includeVideo
-<lancs.mobilemedia.core.ui.controller.BaseController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction15	==
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction151	==	@Media
+<lancs.mobilemedia.core.ui.controller.BaseController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction15	==
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction95	==	@NewCompound1
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String getPassword(java.lang.String)>/if/instruction12	==	@NewCompound1
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: boolean updateMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData,lancs.mobilemedia.core.ui.datamodel.MediaData)>/assign/instruction17	-
@@ -33,12 +33,12 @@
 <lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction54	+
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction189	==	@NewCompound1
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction4	!=
+<lancs.mobilemedia.core.ui.controller.MediaListController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction18	!=	@NewCompound1
 <lancs.mobilemedia.core.ui.controller.VideoCaptureController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction18	==	@(includeCopyPhoto) /\ (includeCopyPhoto)
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/if/instruction31	==
-<lancs.mobilemedia.core.ui.controller.MediaListController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction18	!=	@NewCompound1
 <lancs.mobilemedia.sms.SmsMessaging: byte[] receiveImage()>/if/instruction29	!=
-<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction37	==	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/assign/instruction28	-
+<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction37	==	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction18	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>/if/instruction5	==
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction57	<=	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
@@ -46,27 +46,27 @@
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/assign/instruction72	+
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction29	==	@x_NotPrivacy
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>/if/instruction8	==
-<lancs.mobilemedia.sms.SmsMessaging: void cleanUpReceiverConnections()>/if/instruction3	==
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/assign/instruction9	+
+<lancs.mobilemedia.sms.SmsMessaging: void cleanUpReceiverConnections()>/if/instruction3	==
 <lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>/if/instruction5	==	@(Photo) /\ (Photo)
+<lancs.mobilemedia.core.ui.controller.MediaController: boolean playMultiMedia(java.lang.String)>/if/instruction13	==	@(x_NotPrivacy) /\ (x_NotPrivacy)
 <lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>/if/instruction16	<
 <lancs.mobilemedia.core.ui.controller.BaseController: boolean goToPreviousScreen()>/if/instruction15	!=
-<lancs.mobilemedia.core.ui.controller.MediaController: boolean playMultiMedia(java.lang.String)>/if/instruction13	==	@(x_NotPrivacy) /\ (x_NotPrivacy)
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,int)>/assign/instruction84	-
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction24	*
-<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction43	!=	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addMediaArrayOfBytes(java.lang.String,java.lang.String,byte[])>/assign/instruction38	-
+<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction43	!=	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction26	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 <lancs.mobilemedia.core.util.MediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>/if/instruction27	==	@includeVideo
-<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void keyPressed(int)>/assign/instruction12	+
 <lancs.mobilemedia.core.ui.screens.PasswordScreen: void <init>(java.lang.String,int)>/if/instruction30	!=	@(NewCompound1) /\ (NewCompound1)
+<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void keyPressed(int)>/assign/instruction12	+
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction5	!=
 <lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/assign/instruction12	+	@(Media) /\ (Media)
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction79	==	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ x_misc)
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>/assign/instruction67	+
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData[] loadMediaDataFromRMS(java.lang.String)>/if/instruction23	!=
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>/assign/instruction67	+
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void repaintListAlbum(java.lang.String[])>/if/instruction16	<
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData[] loadMediaDataFromRMS(java.lang.String)>/if/instruction23	!=
 <lancs.mobilemedia.core.ui.datamodel.MediaData: void increaseNumberOfViews()>/assign/instruction3	+	@(Media) /\ (Media)
 <lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/if/instruction36	<
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction159	==	@NewCompound1
@@ -78,8 +78,8 @@
 <lancs.mobilemedia.sms.SmsMessaging: byte[] receiveImage()>/if/instruction65	==
 <lancs.mobilemedia.core.util.MusicMediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMultiMediaInfoFromBytes(byte[])>/if/instruction11	!=	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,int)>/if/instruction63	!=
-<lancs.mobilemedia.sms.SmsSenderController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction42	-	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>/assign/instruction75	-
+<lancs.mobilemedia.sms.SmsSenderController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction42	-	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction43	==	@(x_NotPrivacy) /\ (x_NotPrivacy /\ captureVideo)
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/if/instruction20	==
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction36	!=
@@ -99,11 +99,11 @@
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction58	==
 <lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/assign/instruction23	+	@(Media) /\ (Media)
 <lancs.mobilemedia.core.ui.controller.BaseController: boolean goToPreviousScreen()>/if/instruction33	==	@includeMMAPI /\ x_NotPrivacy
+<lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/if/instruction15	<=	@(Media) /\ (Media)
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction38	==
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void startPlay()>/if/instruction3	==
-<lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/if/instruction15	<=	@(Media) /\ (Media)
-<lancs.mobilemedia.core.util.MusicMediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMultiMediaInfoFromBytes(byte[])>/if/instruction16	!=	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/assign/instruction6	-	@(Media) /\ (Media)
+<lancs.mobilemedia.core.util.MusicMediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMultiMediaInfoFromBytes(byte[])>/if/instruction16	!=	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/if/instruction3	==
 <lancs.mobilemedia.core.ui.screens.PasswordScreen: void <init>(java.lang.String,int)>/if/instruction22	!=	@(NewCompound1) /\ (NewCompound1)
 <lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/if/instruction28	>	@(Media) /\ (Media)
@@ -113,37 +113,37 @@
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction23	==
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction24	!=	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void pauseCapture()>/if/instruction3	==
-<lancs.mobilemedia.sms.SmsReceiverController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void deleteAll()>/assign/instruction5	+
+<lancs.mobilemedia.sms.SmsReceiverController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/if/instruction14	<
 <lancs.mobilemedia.sms.SmsSenderController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void startCapture()>/if/instruction9	!=
-<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction56	-	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction43	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo /\ captureVideo)
+<lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction56	-	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
 <lancs.mobilemedia.core.ui.controller.AbstractController: void postCommand(javax.microedition.lcdui.Command)>/if/instruction13	!=
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addPassword(java.lang.String,java.lang.String)>/assign/instruction14	-	@(NewCompound1) /\ (NewCompound1)
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction41	*
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_NotPrivacy) /\ (x_NotPrivacy)
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/if/instruction28	!=
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/if/instruction51	!=	@Media
+<lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction226	==	@NewCompound1
 <lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,java.io.InputStream,java.lang.String,lancs.mobilemedia.core.ui.controller.AbstractController)>/assign/instruction97	-
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction26	==	@(x_NotPrivacy) /\ (x_NotPrivacy)
-<lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction226	==	@NewCompound1
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void paint(javax.microedition.lcdui.Graphics)>/assign/instruction15	-
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction25	==	@(x_PhotoAlbumOrMusic) /\ (x_SMSOrCapturePhotoOrCaptureVideo /\ x_PhotoAlbumOrMusic)
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction22	==
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void <init>(lancs.mobilemedia.core.ui.MainUIMidlet,int)>/if/instruction106	!=
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction41	==	@x_MusicOrVideo
 <lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction34	+
-<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>/if/instruction3	==
 <lancs.mobilemedia.core.ui.controller.MediaListController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction48	==	@NewCompound1
+<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void stopVideo()>/if/instruction3	==
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction61	!=	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic /\ includeFavourites)
-<lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>/if/instruction13	==	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: void initMenu()>/if/instruction19	!=	@x_misc
+<lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>/if/instruction13	==	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: void deleteAll()>/assign/instruction5	+	@(MobilMedia) /\ (MobilMedia)
 <lancs.mobilemedia.core.ui.datamodel.AlbumData: void addVideoData(java.lang.String,java.lang.String,byte[])>/if/instruction7	==	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addMediaArrayOfBytes(java.lang.String,java.lang.String,byte[])>/assign/instruction22	-
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/assign/instruction25	+
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void addMediaArrayOfBytes(java.lang.String,java.lang.String,byte[])>/assign/instruction22	-
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction27	==	@(MobilMedia) /\ (x_NotPrivacy /\ MobilMedia)
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/if/instruction20	!=
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/assign/instruction47	+	@Media
@@ -159,14 +159,14 @@
 <lancs.mobilemedia.core.ui.datamodel.AlbumData: void addImageData(java.lang.String,byte[],java.lang.String)>/if/instruction7	==	@(includeFavourites) /\ (includeFavourites)
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction128	==
 <lancs.mobilemedia.core.ui.controller.SelectMediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction34	==	@(MobilMedia) /\ (x_MusicOrVideo /\ MobilMedia)
+<lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction132	!=
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void createNewAlbum(java.lang.String)>/assign/instruction22	-
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void removeRecords()>/if/instruction76	<
-<lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction132	!=
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void pausePlay()>/if/instruction3	==
-<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void startVideo()>/if/instruction3	==
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction76	<
-<lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/assign/instruction18	+
+<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void startVideo()>/if/instruction3	==
 <lancs.mobilemedia.sms.SmsReceiverController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction55	==	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
+<lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/assign/instruction18	+
 <lancs.mobilemedia.core.ui.screens.PlayMediaScreen: void itemStateChanged(javax.microedition.lcdui.Item)>/assign/instruction31	*
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/assign/instruction8	-
 <lancs.mobilemedia.sms.SmsMessaging: byte[] receiveImage()>/if/instruction53	==
@@ -188,45 +188,45 @@
 <lancs.mobilemedia.sms.SmsMessaging: void cleanUpConnections(javax.wireless.messaging.MessageConnection)>/if/instruction3	==
 <lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: void paint(javax.microedition.lcdui.Graphics)>/assign/instruction13	-
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction41	==
-<lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>/if/instruction7	==
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction162	==
+<lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>/if/instruction7	==
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/assign/instruction12	+
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: void initMenu()>/if/instruction11	!=	@x_MusicOrVideo
 <lancs.mobilemedia.sms.SmsSenderController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction70	==	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.controller.BaseController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction22	==
-<lancs.mobilemedia.core.ui.controller.BaseController: boolean goToPreviousScreen()>/if/instruction17	==
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/assign/instruction13	-
+<lancs.mobilemedia.core.ui.controller.BaseController: boolean goToPreviousScreen()>/if/instruction17	==
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: void deleteAll()>/if/instruction9	<
 <lancs.mobilemedia.core.ui.controller.AlbumController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction211	==	@NewCompound1
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction38	==	@x_MusicOrVideo
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <lancs.mobilemedia.core.util.MediaUtil: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfoFromBytes(byte[])>/assign/instruction24	+
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction59	!=
-<lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction47	-
 <lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: void deleteAll()>/if/instruction9	<	@(MobilMedia) /\ (MobilMedia)
+<lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction47	-
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction116	!=	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/assign/instruction75	-
 <lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction20	==	@includeMMAPI
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: void initMenu()>/if/instruction3	!=	@includeMMAPI
-<lancs.mobilemedia.core.ui.datamodel.ImageMediaAccessor: javax.microedition.lcdui.Image loadSingleImageFromRMS(java.lang.String,int)>/assign/instruction5	-	@(includeMMAPI) /\ (includeMMAPI)
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==
+<lancs.mobilemedia.core.ui.datamodel.ImageMediaAccessor: javax.microedition.lcdui.Image loadSingleImageFromRMS(java.lang.String,int)>/assign/instruction5	-	@(includeMMAPI) /\ (includeMMAPI)
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean playVideoMedia(java.lang.String)>/if/instruction9	!=	@(x_MusicOrVideo) /\ (x_MusicOrVideo)
 <lancs.mobilemedia.core.ui.controller.MediaListController: void bubbleSort(lancs.mobilemedia.core.ui.datamodel.MediaData[])>/assign/instruction16	+	@(Media) /\ (Media)
-<lancs.mobilemedia.sms.SmsReceiverController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction15	-	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.controller.AlbumController: void resetMediaData()>/if/instruction29	<
+<lancs.mobilemedia.sms.SmsReceiverController: boolean handleCommand(javax.microedition.lcdui.Command)>/assign/instruction15	-	@(x_SMSOrCapturePhotoOrCaptureVideo) /\ (x_SMSOrCapturePhotoOrCaptureVideo)
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction24	!=	@(x_NotPrivacy) /\ (x_NotPrivacy)
-<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void keyPressed(int)>/if/instruction10	!=
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction98	==	@x_NotPrivacy
+<lancs.mobilemedia.core.ui.screens.PlayVideoScreen: void keyPressed(int)>/if/instruction10	!=
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean playMultiMedia(java.lang.String)>/if/instruction9	!=	@(x_NotPrivacy) /\ (x_NotPrivacy)
 <lancs.mobilemedia.core.ui.controller.PhotoViewController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction118	==	@(x_PhotoAlbumOrMusic) /\ (x_PhotoAlbumOrMusic)
-<lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction37	-
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/if/instruction54	==
+<lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/assign/instruction37	-
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void loadAlbums()>/assign/instruction58	+
+<lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction67	==
+<lancs.mobilemedia.core.ui.controller.MediaController: boolean goToPreviousScreen()>/if/instruction14	==
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void createNewAlbum(java.lang.String)>/assign/instruction19	+
 <lancs.mobilemedia.core.util.MusicMediaUtil: byte[] getBytesFromMediaInfo(lancs.mobilemedia.core.ui.datamodel.MediaData)>/if/instruction9	!=	@(Photo) /\ (Photo)
 <lancs.mobilemedia.core.ui.controller.BaseController: void init(lancs.mobilemedia.core.ui.datamodel.AlbumData)>/assign/instruction15	-
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: void createNewAlbum(java.lang.String)>/assign/instruction19	+
-<lancs.mobilemedia.core.ui.controller.MediaController: boolean goToPreviousScreen()>/if/instruction14	==
-<lancs.mobilemedia.core.ui.controller.MediaListController: void showMediaList(java.lang.String,boolean,boolean)>/if/instruction67	==
 <lancs.mobilemedia.core.ui.controller.ScreenSingleton: lancs.mobilemedia.core.ui.controller.ScreenSingleton getInstance()>/if/instruction2	!=
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction65	==	@x_misc
 <lancs.mobilemedia.core.ui.controller.VideoCaptureController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction12	==	@(includeCopyPhoto) /\ (includeCopyPhoto)
@@ -247,5 +247,5 @@
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: void initMenu()>/if/instruction7	!=	@x_NotPrivacy
 <lancs.mobilemedia.core.util.MediaUtil: byte[] readMediaAsByteArray(java.lang.String)>/if/instruction57	<
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction133	==
-<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfo(java.lang.String)>/if/instruction6	!=
 <lancs.mobilemedia.core.ui.controller.MediaController: boolean handleCommand(javax.microedition.lcdui.Command)>/if/instruction36	==	@x_NotPrivacy
+<lancs.mobilemedia.core.ui.datamodel.MediaAccessor: lancs.mobilemedia.core.ui.datamodel.MediaData getMediaInfo(java.lang.String)>/if/instruction6	!=

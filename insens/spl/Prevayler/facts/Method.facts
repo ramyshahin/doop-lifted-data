@@ -16,8 +16,8 @@
 <java.lang.String: boolean endsWith(java.lang.String)>	endsWith	(java.lang.String)	java.lang.String	boolean	(Ljava/lang/String;)Z	1
 <org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	censor	(org.prevayler.implementation.snapshot.GenericSnapshotManager)	org.prevayler.PrevaylerFactory	org.prevayler.implementation.publishing.censorship.TransactionCensor	(Lorg/prevayler/implementation/snapshot/GenericSnapshotManager;)Lorg/prevayler/implementation/publishing/censorship/TransactionCensor;	1	@Censor
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: void flush()>	flush	()	org.prevayler.foundation.gzip.NonCloseableOutputStream	void	()V	0	@GZip
-<org.prevayler.implementation.Capsule: void executeOn(java.lang.Object,java.util.Date,org.prevayler.foundation.serialization.Serializer)>	executeOn	(java.lang.Object,java.util.Date,org.prevayler.foundation.serialization.Serializer)	org.prevayler.implementation.Capsule	void	(Ljava/lang/Object;Ljava/util/Date;Lorg/prevayler/foundation/serialization/Serializer;)V	3
 <org.prevayler.implementation.PrevaylerDirectory: long version(java.io.File,java.lang.String)>	version	(java.io.File,java.lang.String)	org.prevayler.implementation.PrevaylerDirectory	long	(Ljava/io/File;Ljava/lang/String;)J	2
+<org.prevayler.implementation.Capsule: void executeOn(java.lang.Object,java.util.Date,org.prevayler.foundation.serialization.Serializer)>	executeOn	(java.lang.Object,java.util.Date,org.prevayler.foundation.serialization.Serializer)	org.prevayler.implementation.Capsule	void	(Ljava/lang/Object;Ljava/util/Date;Lorg/prevayler/foundation/serialization/Serializer;)V	3
 <javax.swing.JLabel: void <init>(java.lang.String)>	<init>	(java.lang.String)	javax.swing.JLabel	void	(Ljava/lang/String;)V	1
 <java.util.LinkedList: java.lang.Object removeFirst()>	removeFirst	()	java.util.LinkedList	java.lang.Object	()Ljava/lang/Object;	0
 <org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>	receive	(org.prevayler.implementation.TransactionTimestamp)	org.prevayler.implementation.PrevalentSystemGuard	void	(Lorg/prevayler/implementation/TransactionTimestamp;)V	1
@@ -98,8 +98,8 @@
 <java.lang.Class: java.lang.String getName()>	getName	()	java.lang.Class	java.lang.String	()Ljava/lang/String;	0
 <org.prevayler.implementation.replication.ClientPublisher: void close()>	close	()	org.prevayler.implementation.replication.ClientPublisher	void	()V	0	@Replication
 <org.prevayler.demos.demo2.business.transactions.BankTransaction: void <init>()>	<init>	()	org.prevayler.demos.demo2.business.transactions.BankTransaction	void	()V	0
-<com.thoughtworks.xstream.XStream: void alias(java.lang.String,java.lang.Class)>	alias	(java.lang.String,java.lang.Class)	com.thoughtworks.xstream.XStream	void	(Ljava/lang/String;Ljava/lang/Class;)V	2
 <org.prevayler.demos.demo2.MainTransient: void out(java.lang.String)>	out	(java.lang.String)	org.prevayler.demos.demo2.MainTransient	void	(Ljava/lang/String;)V	1
+<com.thoughtworks.xstream.XStream: void alias(java.lang.String,java.lang.Class)>	alias	(java.lang.String,java.lang.Class)	com.thoughtworks.xstream.XStream	void	(Ljava/lang/String;Ljava/lang/Class;)V	2
 <org.prevayler.foundation.serialization.Serializer: java.lang.Object readObject(java.io.InputStream)>	readObject	(java.io.InputStream)	org.prevayler.foundation.serialization.Serializer	java.lang.Object	(Ljava/io/InputStream;)Ljava/lang/Object;	1
 <javax.swing.table.DefaultTableModel: void setColumnIdentifiers(java.lang.Object[])>	setColumnIdentifiers	(java.lang.Object[])	javax.swing.table.DefaultTableModel	void	([Ljava/lang/Object;)V	1
 <org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String)>	notify	(java.lang.Class,java.lang.String)	org.prevayler.foundation.monitor.LoggingMonitor	void	(Ljava/lang/Class;Ljava/lang/String;)V	2	@Monitor
@@ -142,8 +142,8 @@
 <org.prevayler.demos.demo2.business.AccountEntry: void <init>()>	<init>	()	org.prevayler.demos.demo2.business.AccountEntry	void	()V	0
 <org.prevayler.implementation.replication.ServerConnection: java.lang.Thread createClockTickSender()>	createClockTickSender	()	org.prevayler.implementation.replication.ServerConnection	java.lang.Thread	()Ljava/lang/Thread;	0	@Replication
 <net.sourceforge.javamatch.engine.MatchEngine: net.sourceforge.javamatch.engine.MatchResult executeQuery(net.sourceforge.javamatch.query.MatchQuery,java.util.List)>	executeQuery	(net.sourceforge.javamatch.query.MatchQuery,java.util.List)	net.sourceforge.javamatch.engine.MatchEngine	net.sourceforge.javamatch.engine.MatchResult	(Lnet/sourceforge/javamatch/query/MatchQuery;Ljava/util/List;)Lnet/sourceforge/javamatch/engine/MatchResult;	2
-<org.prevayler.demos.scalability.ScalabilityTestRun: boolean access$1(org.prevayler.demos.scalability.ScalabilityTestRun)>	access$1	(org.prevayler.demos.scalability.ScalabilityTestRun)	org.prevayler.demos.scalability.ScalabilityTestRun	boolean	(Lorg/prevayler/demos/scalability/ScalabilityTestRun;)Z	1
 <org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>	createConnection	()	org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject	java.sql.Connection	()Ljava/sql/Connection;	0
+<org.prevayler.demos.scalability.ScalabilityTestRun: boolean access$1(org.prevayler.demos.scalability.ScalabilityTestRun)>	access$1	(org.prevayler.demos.scalability.ScalabilityTestRun)	org.prevayler.demos.scalability.ScalabilityTestRun	boolean	(Lorg/prevayler/demos/scalability/ScalabilityTestRun;)Z	1
 <java.io.OutputStream: void flush()>	flush	()	java.io.OutputStream	void	()V	0
 <org.prevayler.PrevaylerFactory: void configureJournalFileSizeThreshold(long)>	configureJournalFileSizeThreshold	(long)	org.prevayler.PrevaylerFactory	void	(J)V	1
 <org.prevayler.foundation.Turn: void <init>(int)>	<init>	(int)	org.prevayler.foundation.Turn	void	(I)V	1
@@ -241,8 +241,8 @@
 <org.prevayler.foundation.Chunk: void setParameter(java.lang.String,java.lang.String)>	setParameter	(java.lang.String,java.lang.String)	org.prevayler.foundation.Chunk	void	(Ljava/lang/String;Ljava/lang/String;)V	2
 <org.prevayler.demos.scalability.TransactionTestRun: long spreadId(long)>	spreadId	(long)	org.prevayler.demos.scalability.TransactionTestRun	long	(J)J	1
 <org.prevayler.demos.scalability.ScalabilityTestSubject: java.lang.Object createTestConnection()>	createTestConnection	()	org.prevayler.demos.scalability.ScalabilityTestSubject	java.lang.Object	()Ljava/lang/Object;	0
-<org.prevayler.demos.demo2.gui.RobustAction: void display(java.lang.Exception)>	display	(java.lang.Exception)	org.prevayler.demos.demo2.gui.RobustAction	void	(Ljava/lang/Exception;)V	1
 <java.lang.Error: void <init>(java.lang.String,java.lang.Throwable)>	<init>	(java.lang.String,java.lang.Throwable)	java.lang.Error	void	(Ljava/lang/String;Ljava/lang/Throwable;)V	2
+<org.prevayler.demos.demo2.gui.RobustAction: void display(java.lang.Exception)>	display	(java.lang.Exception)	org.prevayler.demos.demo2.gui.RobustAction	void	(Ljava/lang/Exception;)V	1
 <javax.swing.JInternalFrame: void setBackground(java.awt.Color)>	setBackground	(java.awt.Color)	javax.swing.JInternalFrame	void	(Ljava/awt/Color;)V	1
 <org.prevayler.foundation.serialization.JavaSerializer: void <init>()>	<init>	()	org.prevayler.foundation.serialization.JavaSerializer	void	()V	0
 <java.sql.Statement: boolean execute(java.lang.String)>	execute	(java.lang.String)	java.sql.Statement	boolean	(Ljava/lang/String;)Z	1
@@ -373,8 +373,8 @@
 <org.prevayler.PrevaylerFactory: void configureJournalSerializer(org.prevayler.foundation.serialization.XStreamSerializer)>	configureJournalSerializer	(org.prevayler.foundation.serialization.XStreamSerializer)	org.prevayler.PrevaylerFactory	void	(Lorg/prevayler/foundation/serialization/XStreamSerializer;)V	1
 <org.prevayler.foundation.monitor.SimpleMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>	error	(java.lang.Class,java.lang.String,java.lang.Exception)	org.prevayler.foundation.monitor.SimpleMonitor	void	(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Exception;)V	3	@Monitor
 <java.lang.String: int hashCode()>	hashCode	()	java.lang.String	int	()I	0
-<javax.swing.JInternalFrame: void dispose()>	dispose	()	javax.swing.JInternalFrame	void	()V	0
 <org.prevayler.demos.scalability.Main: boolean isPrevaylerQueryChosen()>	isPrevaylerQueryChosen	()	org.prevayler.demos.scalability.Main	boolean	()Z	0
+<javax.swing.JInternalFrame: void dispose()>	dispose	()	javax.swing.JInternalFrame	void	()V	0
 <org.prevayler.demos.demo2.business.transactions.HolderChange: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>	executeAndQuery	(org.prevayler.demos.demo2.business.Account,java.util.Date)	org.prevayler.demos.demo2.business.transactions.HolderChange	void	(Lorg/prevayler/demos/demo2/business/Account;Ljava/util/Date;)V	2
 <java.text.DecimalFormat: java.lang.String format(double)>	format	(double)	java.text.DecimalFormat	java.lang.String	(D)Ljava/lang/String;	1
 <java.lang.Exception: java.lang.String getMessage()>	getMessage	()	java.lang.Exception	java.lang.String	()Ljava/lang/String;	0
@@ -464,8 +464,8 @@
 <org.prevayler.foundation.network.SessionsManager: void remove(org.prevayler.foundation.network.NetworkSessionId)>	remove	(org.prevayler.foundation.network.NetworkSessionId)	org.prevayler.foundation.network.SessionsManager	void	(Lorg/prevayler/foundation/network/NetworkSessionId;)V	1
 <org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>	replaceAllRecords	(int)	org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection	void	(I)V	1
 <java.util.Properties: java.lang.String getProperty(java.lang.String)>	getProperty	(java.lang.String)	java.util.Properties	java.lang.String	(Ljava/lang/String;)Ljava/lang/String;	1
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.Object createTestConnection()>	createTestConnection	()	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject	java.lang.Object	()Ljava/lang/Object;	0
 <java.lang.System: void gc()>	gc	()	java.lang.System	void	()V	0
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.Object createTestConnection()>	createTestConnection	()	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject	java.lang.Object	()Ljava/lang/Object;	0
 <java.sql.Connection: void setAutoCommit(boolean)>	setAutoCommit	(boolean)	java.sql.Connection	void	(Z)V	1
 <org.prevayler.implementation.TransactionCapsule: void justExecute(java.lang.Object,java.lang.Object,java.util.Date)>	justExecute	(java.lang.Object,java.lang.Object,java.util.Date)	org.prevayler.implementation.TransactionCapsule	void	(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/Date;)V	3
 <java.lang.Boolean: java.lang.Boolean valueOf(java.lang.String)>	valueOf	(java.lang.String)	java.lang.Boolean	java.lang.Boolean	(Ljava/lang/String;)Ljava/lang/Boolean;	1
@@ -576,8 +576,8 @@
 <org.prevayler.foundation.Chunk: java.util.Map getParameters()>	getParameters	()	org.prevayler.foundation.Chunk	java.util.Map	()Ljava/util/Map;	0
 <org.prevayler.PrevaylerFactory: java.lang.Object prevalentSystem()>	prevalentSystem	()	org.prevayler.PrevaylerFactory	java.lang.Object	()Ljava/lang/Object;	0
 <org.prevayler.foundation.Cool: void unexpected(java.lang.Exception)>	unexpected	(java.lang.Exception)	org.prevayler.foundation.Cool	void	(Ljava/lang/Exception;)V	1
-<java.lang.Error: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.Error	void	(Ljava/lang/String;)V	1
 <org.prevayler.implementation.TransactionWithQueryCapsule: org.prevayler.implementation.Capsule cleanCopy()>	cleanCopy	()	org.prevayler.implementation.TransactionWithQueryCapsule	org.prevayler.implementation.Capsule	()Lorg/prevayler/implementation/Capsule;	0
+<java.lang.Error: void <init>(java.lang.String)>	<init>	(java.lang.String)	java.lang.Error	void	(Ljava/lang/String;)V	1
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(byte[])>	write	(byte[])	org.prevayler.foundation.gzip.NonCloseableOutputStream	void	([B)V	1	@GZip
 <java.util.zip.GZIPInputStream: int read(byte[],int,int)>	read	(byte[],int,int)	java.util.zip.GZIPInputStream	int	([BII)I	3
 <java.util.ArrayList: void <init>(java.util.Collection)>	<init>	(java.util.Collection)	java.util.ArrayList	void	(Ljava/util/Collection;)V	1
@@ -597,8 +597,8 @@
 <org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void action()>	action	()	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction	void	()V	0
 <org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(int)>	write	(int)	org.prevayler.foundation.gzip.NonCloseableOutputStream	void	(I)V	1	@GZip
 <org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp cleanCopy()>	cleanCopy	()	org.prevayler.implementation.TransactionTimestamp	org.prevayler.implementation.TransactionTimestamp	()Lorg/prevayler/implementation/TransactionTimestamp;	0
-<java.util.Set: boolean add(java.lang.Object)>	add	(java.lang.Object)	java.util.Set	boolean	(Ljava/lang/Object;)Z	1
 <org.prevayler.foundation.Chunk: java.lang.String getParameter(java.lang.String)>	getParameter	(java.lang.String)	org.prevayler.foundation.Chunk	java.lang.String	(Ljava/lang/String;)Ljava/lang/String;	1
+<java.util.Set: boolean add(java.lang.Object)>	add	(java.lang.Object)	java.util.Set	boolean	(Ljava/lang/Object;)Z	1
 <org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>	<init>	(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)	org.prevayler.demos.scalability.ScalabilityTestRun	void	(Lorg/prevayler/demos/scalability/ScalabilityTestSubject;III)V	4
 <org.prevayler.implementation.PrevaylerDirectory: void <init>(java.lang.String)>	<init>	(java.lang.String)	org.prevayler.implementation.PrevaylerDirectory	void	(Ljava/lang/String;)V	1
 <org.prevayler.foundation.DurableOutputStream: int fileSyncCount()>	fileSyncCount	()	org.prevayler.foundation.DurableOutputStream	int	()I	0
@@ -930,8 +930,8 @@
 <org.prevayler.demos.scalability.Main: java.lang.String prevaylerTransactionLogDirectory()>	prevaylerTransactionLogDirectory	()	org.prevayler.demos.scalability.Main	java.lang.String	()Ljava/lang/String;	0
 <org.prevayler.demos.demo2.gui.TransferFrame: javax.swing.JTextField access$0(org.prevayler.demos.demo2.gui.TransferFrame)>	access$0	(org.prevayler.demos.demo2.gui.TransferFrame)	org.prevayler.demos.demo2.gui.TransferFrame	javax.swing.JTextField	(Lorg/prevayler/demos/demo2/gui/TransferFrame;)Ljavax/swing/JTextField;	1
 <org.prevayler.demos.scalability.jdbc.JDBCQuerySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>	<init>	(java.lang.String,java.lang.String,java.lang.String,java.lang.String)	org.prevayler.demos.scalability.jdbc.JDBCQuerySubject	void	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	4
-<org.prevayler.demos.demo2.business.Bank$1: void <init>(org.prevayler.demos.demo2.business.Bank)>	<init>	(org.prevayler.demos.demo2.business.Bank)	org.prevayler.demos.demo2.business.Bank$1	void	(Lorg/prevayler/demos/demo2/business/Bank;)V	1
 <java.lang.Thread: void yield()>	yield	()	java.lang.Thread	void	()V	0
+<org.prevayler.demos.demo2.business.Bank$1: void <init>(org.prevayler.demos.demo2.business.Bank)>	<init>	(org.prevayler.demos.demo2.business.Bank)	org.prevayler.demos.demo2.business.Bank$1	void	(Lorg/prevayler/demos/demo2/business/Bank;)V	1
 <com.skaringa.javaxml.ObjectTransformerFactory: com.skaringa.javaxml.ObjectTransformer getImplementation()>	getImplementation	()	com.skaringa.javaxml.ObjectTransformerFactory	com.skaringa.javaxml.ObjectTransformer	()Lcom/skaringa/javaxml/ObjectTransformer;	0
 <java.io.ObjectStreamClass: java.lang.String getName()>	getName	()	java.io.ObjectStreamClass	java.lang.String	()Ljava/lang/String;	0
 <org.prevayler.implementation.publishing.TransactionPublisher: void close()>	close	()	org.prevayler.implementation.publishing.TransactionPublisher	void	()V	0
@@ -964,8 +964,8 @@
 <org.prevayler.demos.demo2.business.Account: void <init>(long,java.lang.String)>	<init>	(long,java.lang.String)	org.prevayler.demos.demo2.business.Account	void	(JLjava/lang/String;)V	2
 <java.io.InputStreamReader: void <init>(java.io.InputStream,java.lang.String)>	<init>	(java.io.InputStream,java.lang.String)	java.io.InputStreamReader	void	(Ljava/io/InputStream;Ljava/lang/String;)V	2
 <java.lang.System: long currentTimeMillis()>	currentTimeMillis	()	java.lang.System	long	()J	0
-<java.util.Map$Entry: java.lang.Object setValue(java.lang.Object)>	setValue	(java.lang.Object)	java.util.Map$Entry	java.lang.Object	(Ljava/lang/Object;)Ljava/lang/Object;	1
 <java.awt.FlowLayout: void <init>(int,int,int)>	<init>	(int,int,int)	java.awt.FlowLayout	void	(III)V	3
+<java.util.Map$Entry: java.lang.Object setValue(java.lang.Object)>	setValue	(java.lang.Object)	java.util.Map$Entry	java.lang.Object	(Ljava/lang/Object;)Ljava/lang/Object;	1
 <org.prevayler.demos.demo2.business.Account: void removeAccountListener(org.prevayler.demos.demo2.business.AccountListener)>	removeAccountListener	(org.prevayler.demos.demo2.business.AccountListener)	org.prevayler.demos.demo2.business.Account	void	(Lorg/prevayler/demos/demo2/business/AccountListener;)V	1
 <java.io.OutputStreamWriter: void <init>(java.io.OutputStream,java.lang.String)>	<init>	(java.io.OutputStream,java.lang.String)	java.io.OutputStreamWriter	void	(Ljava/io/OutputStream;Ljava/lang/String;)V	2
 <org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction: void refreshEnabled()>	refreshEnabled	()	org.prevayler.demos.demo2.gui.AllAccountsFrame$SelectedAccountAction	void	()V	0
@@ -1020,8 +1020,8 @@
 <org.prevayler.implementation.snapshot.GenericSnapshotManager: java.io.File snapshotFile(long)>	snapshotFile	(long)	org.prevayler.implementation.snapshot.GenericSnapshotManager	java.io.File	(J)Ljava/io/File;	1	@Snapshot
 <org.prevayler.foundation.StopWatch: void <init>()>	<init>	()	org.prevayler.foundation.StopWatch	void	()V	0
 <org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>	<init>	(java.io.File)	org.prevayler.foundation.DurableOutputStream	void	(Ljava/io/File;)V	1
-<java.io.File: boolean mkdirs()>	mkdirs	()	java.io.File	boolean	()Z	0
 <org.prevayler.foundation.network.OldNetwork: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>	openSocket	(java.lang.String,int)	org.prevayler.foundation.network.OldNetwork	org.prevayler.foundation.network.ObjectSocket	(Ljava/lang/String;I)Lorg/prevayler/foundation/network/ObjectSocket;	2
+<java.io.File: boolean mkdirs()>	mkdirs	()	java.io.File	boolean	()Z	0
 <org.prevayler.implementation.journal.PersistentJournal: org.prevayler.foundation.DurableOutputStream createOutputJournal(long)>	createOutputJournal	(long)	org.prevayler.implementation.journal.PersistentJournal	org.prevayler.foundation.DurableOutputStream	(J)Lorg/prevayler/foundation/DurableOutputStream;	1
 <org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>	addButtons	(javax.swing.JPanel)	org.prevayler.demos.demo2.gui.NewAccountFrame	void	(Ljavax/swing/JPanel;)V	1
 <java.util.LinkedList: void <init>()>	<init>	()	java.util.LinkedList	void	()V	0
@@ -1041,8 +1041,8 @@
 <org.prevayler.demos.demo2.business.Account$InvalidHolder: void <init>(org.prevayler.demos.demo2.business.Account)>	<init>	(org.prevayler.demos.demo2.business.Account)	org.prevayler.demos.demo2.business.Account$InvalidHolder	void	(Lorg/prevayler/demos/demo2/business/Account;)V	1
 <org.prevayler.demos.scalability.prevayler.TransactionSystem: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>	performTransaction	(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)	org.prevayler.demos.scalability.prevayler.TransactionSystem	void	(Lorg/prevayler/demos/scalability/Record;Lorg/prevayler/demos/scalability/Record;J)V	3
 <org.prevayler.demos.scalability.prevayler.TransactionSystem: void <init>()>	<init>	()	org.prevayler.demos.scalability.prevayler.TransactionSystem	void	()V	0
-<org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>	listeners	()	org.prevayler.demos.demo2.business.Account	java.util.Set	()Ljava/util/Set;	0
 <org.prevayler.foundation.Cool: void sleep(long)>	sleep	(long)	org.prevayler.foundation.Cool	void	(J)V	1
+<org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>	listeners	()	org.prevayler.demos.demo2.business.Account	java.util.Set	()Ljava/util/Set;	0
 <org.prevayler.implementation.replication.ClientPublisher: org.prevayler.Clock clock()>	clock	()	org.prevayler.implementation.replication.ClientPublisher	org.prevayler.Clock	()Lorg/prevayler/Clock;	0	@Replication
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void receive(java.lang.Object)>	receive	(java.lang.Object)	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	void	(Ljava/lang/Object;)V	1	@Replication
 <org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>	<init>	(java.net.Socket)	org.prevayler.foundation.network.ObjectSocketImpl	void	(Ljava/net/Socket;)V	1

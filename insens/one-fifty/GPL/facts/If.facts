@@ -54,9 +54,9 @@
 <Vertex: void nodeSearch(WorkSpace)>/if/instruction23	23	26	<Vertex: void nodeSearch(WorkSpace)>
 <WorkSpaceTranspose: void preVisitAction(Vertex)>/if/instruction4	4	7	<WorkSpaceTranspose: void preVisitAction(Vertex)>
 <Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction6	6	9	<Graph$Comparator1: int compare(Vertex,Vertex)>
-<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	4	9	<NumberWorkSpace: void preVisitAction(Vertex)>
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction24	24	26	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>
 <Graph: Graph kruskal()>/if/instruction58	58	45	<Graph: Graph kruskal()>
+<NumberWorkSpace: void preVisitAction(Vertex)>/if/instruction4	4	9	<NumberWorkSpace: void preVisitAction(Vertex)>
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction5	5	10	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>
 <Graph: int readNumber()>/if/instruction24	24	27	<Graph: int readNumber()>
 <Graph: Graph kruskal()>/if/instruction85	85	72	<Graph: Graph kruskal()>

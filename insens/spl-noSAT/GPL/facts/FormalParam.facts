@@ -27,8 +27,8 @@
 0	<Vertex$EdgeIter2: void <init>(Vertex)>	<Vertex$EdgeIter2: void <init>(Vertex)>/@parameter0
 0	<Vertex: void addEdge(Neighbor)>	<Vertex: void addEdge(Neighbor)>/@parameter0	@GN_OnlyNeighbors
 0	<WorkSpace: void init_vertex(Vertex)>	<WorkSpace: void init_vertex(Vertex)>/@parameter0	@SearchBase
-0	<Edge: Vertex getOtherVertex(Vertex)>	<Edge: Vertex getOtherVertex(Vertex)>/@parameter0	@EdgeObjects
 0	<Vertex$EdgeIter1: void <init>(Vertex)>	<Vertex$EdgeIter1: void <init>(Vertex)>/@parameter0
+0	<Edge: Vertex getOtherVertex(Vertex)>	<Edge: Vertex getOtherVertex(Vertex)>/@parameter0	@EdgeObjects
 0	<WorkSpace: void postVisitAction(Vertex)>	<WorkSpace: void postVisitAction(Vertex)>/@parameter0	@SearchBase
 1	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter1
 1	<Graph$Comparator1: int compare(Vertex,Vertex)>	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter1	@StronglyConnected
@@ -49,10 +49,10 @@
 0	<Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>/@parameter0
 0	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/@parameter0
 0	<Graph: Graph computeTranspose(Graph)>	<Graph: Graph computeTranspose(Graph)>/@parameter0	@Transpose
-1	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter1	@G_NoEdges
 0	<CycleWorkSpace: void init_vertex(Vertex)>	<CycleWorkSpace: void init_vertex(Vertex)>/@parameter0	@Cycle
-0	<Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	@GN_OnlyNeighbors
+1	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter1	@G_NoEdges
 0	<RegionWorkSpace: void nextRegionAction(Vertex)>	<RegionWorkSpace: void nextRegionAction(Vertex)>/@parameter0	@Connected
+0	<Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>/@parameter0	@GN_OnlyNeighbors
 0	<Graph: void addEdge(Vertex,Neighbor)>	<Graph: void addEdge(Vertex,Neighbor)>/@parameter0	@GN_OnlyNeighbors
 1	<Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>/@parameter1
 1	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>	<Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/@parameter1
@@ -73,9 +73,9 @@
 0	<Vertex$VertexIter3: void <init>(Vertex)>	<Vertex$VertexIter3: void <init>(Vertex)>/@parameter0
 0	<EdgeIfc: Vertex getOtherVertex(Vertex)>	<EdgeIfc: Vertex getOtherVertex(Vertex)>/@parameter0
 0	<Edge: void adjustAdorns(EdgeIfc)>	<Edge: void adjustAdorns(EdgeIfc)>/@parameter0	@EdgeObjects
+0	<Graph$Comparator1: int compare(Vertex,Vertex)>	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter0	@StronglyConnected
 0	<FinishTimeWorkSpace: void preVisitAction(Vertex)>	<FinishTimeWorkSpace: void preVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<Vertex: void adjustAdorns(Vertex,int)>	<Vertex: void adjustAdorns(Vertex,int)>/@parameter0	@G_NoEdges
-0	<Graph$Comparator1: int compare(Vertex,Vertex)>	<Graph$Comparator1: int compare(Vertex,Vertex)>/@parameter0	@StronglyConnected
 0	<CycleWorkSpace: void preVisitAction(Vertex)>	<CycleWorkSpace: void preVisitAction(Vertex)>/@parameter0
 0	<Graph: void graphSearch(WorkSpace)>	<Graph: void graphSearch(WorkSpace)>/@parameter0
 0	<CycleWorkSpace: void postVisitAction(Vertex)>	<CycleWorkSpace: void postVisitAction(Vertex)>/@parameter0	@Cycle
@@ -87,8 +87,8 @@
 0	<Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>/@parameter0
 0	<EdgeIfc: void adjustAdorns(EdgeIfc)>	<EdgeIfc: void adjustAdorns(EdgeIfc)>/@parameter0
 1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/@parameter1	@MSTKruskal
-1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter1
 0	<RegionWorkSpace: void init_vertex(Vertex)>	<RegionWorkSpace: void init_vertex(Vertex)>/@parameter0	@Connected
+1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/@parameter1
 0	<FinishTimeWorkSpace: void postVisitAction(Vertex)>	<FinishTimeWorkSpace: void postVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>/@parameter0	@StronglyConnected
 0	<Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>/@parameter0	@Weighted /\ GN_OnlyNeighbors

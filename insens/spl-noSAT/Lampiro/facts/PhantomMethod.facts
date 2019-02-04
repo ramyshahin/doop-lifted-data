@@ -8,8 +8,8 @@
 <java.lang.Object: void notify()>
 <javax.microedition.lcdui.game.GameCanvas: int getKeyCode(int)>
 <java.lang.Math: int min(int,int)>
-<java.util.Vector: boolean contains(java.lang.Object)>
 <java.lang.System: long currentTimeMillis()>
+<java.util.Vector: boolean contains(java.lang.Object)>
 <javax.microedition.lcdui.Graphics: javax.microedition.lcdui.Font getFont()>
 <java.lang.String: int indexOf(int,int)>
 <javax.microedition.lcdui.StringItem: void <init>(java.lang.String,java.lang.String)>
@@ -79,8 +79,8 @@
 <java.lang.Class: java.lang.String getName()>
 <java.io.IOException: java.lang.String getMessage()>
 <javax.microedition.io.HttpConnection: int getResponseCode()>
-<javax.microedition.lcdui.StringItem: void setLayout(int)>
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordStore openRecordStore(java.lang.String,boolean)>
+<javax.microedition.lcdui.StringItem: void setLayout(int)>
 <java.util.Vector: void insertElementAt(java.lang.Object,int)>
 <javax.microedition.lcdui.Font: int stringWidth(java.lang.String)>
 <java.io.DataInputStream: int read(byte[])>
@@ -170,15 +170,15 @@
 <java.util.Calendar: java.util.Calendar getInstance()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
 <javax.microedition.lcdui.Alert: void <init>(java.lang.String,java.lang.String,javax.microedition.lcdui.Image,javax.microedition.lcdui.AlertType)>
-<javax.microedition.lcdui.Form: javax.microedition.lcdui.Item get(int)>
 <org.xmlpull.v1.XmlSerializer: void flush()>
+<javax.microedition.lcdui.Form: javax.microedition.lcdui.Item get(int)>
 <java.lang.ArrayIndexOutOfBoundsException: void <init>(java.lang.String)>
 <java.lang.String: java.lang.String valueOf(char)>
 <javax.microedition.lcdui.StringItem: void setText(java.lang.String)>
 <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()>
 <javax.microedition.lcdui.TextBox: void setTitle(java.lang.String)>
-<java.lang.IndexOutOfBoundsException: void <init>()>
 <javax.microedition.io.StreamConnection: java.io.InputStream openInputStream()>
+<java.lang.IndexOutOfBoundsException: void <init>()>
 <java.io.DataInputStream: void readFully(byte[])>
 <javax.microedition.lcdui.ChoiceGroup: void setSelectedFlags(boolean[])>
 <javax.microedition.media.Player: void start()>
@@ -225,8 +225,8 @@
 <java.util.Vector: int indexOf(java.lang.Object)>
 <javax.microedition.lcdui.Canvas: int getGameAction(int)>
 <java.util.Hashtable: void <init>()>
-<java.lang.Integer: java.lang.String toHexString(int)>
 <java.io.InputStream: void close()>
+<java.lang.Integer: java.lang.String toHexString(int)>
 <java.util.Timer: void schedule(java.util.TimerTask,long)>
 <java.util.Hashtable: java.lang.Object get(java.lang.Object)>
 <java.lang.String: byte[] getBytes(java.lang.String)>
@@ -245,8 +245,8 @@
 <java.lang.StringBuilder: java.lang.StringBuilder append(char)>
 <java.lang.Object: java.lang.String toString()>
 <java.io.ByteArrayOutputStream: void write(int)>
-<java.util.TimerTask: void <init>()>
 <javax.microedition.media.Manager: javax.microedition.media.Player createPlayer(java.lang.String)>
+<java.util.TimerTask: void <init>()>
 <org.bouncycastle.util.encoders.UrlBase64: byte[] decode(byte[])>
 <java.io.OutputStream: void close()>
 <javax.microedition.lcdui.Graphics: int getClipWidth()>
@@ -305,8 +305,8 @@
 <java.io.ByteArrayOutputStream: void write(byte[])>
 <java.util.Vector: java.lang.Object lastElement()>
 <javax.microedition.lcdui.Font: int substringWidth(java.lang.String,int,int)>
-<java.lang.String: java.lang.String trim()>
 <javax.microedition.lcdui.Graphics: int getColor()>
+<java.lang.String: java.lang.String trim()>
 <java.util.Vector: void setSize(int)>
 <java.lang.StringBuffer: int length()>
 <javax.microedition.lcdui.Canvas: void removeCommand(javax.microedition.lcdui.Command)>

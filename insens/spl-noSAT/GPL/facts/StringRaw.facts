@@ -80,8 +80,8 @@ v	v	@(Prog) /\ (Prog)
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>
 <CycleWorkSpace: void <init>()>	<CycleWorkSpace: void <init>()>
 <Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
-<<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 ******************************************	******************************************
+<<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
 <<\\" Rep \\">>	<<\\" Rep \\">>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>
 <Graph: int readNumber()>	<Graph: int readNumber()>	@Benchmark

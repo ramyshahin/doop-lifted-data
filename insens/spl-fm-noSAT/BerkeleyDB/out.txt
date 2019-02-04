@@ -5,7 +5,7 @@
 WARNING: Handling of Java reflection is disabled!
 
 New context-insensitive analysis
-Id       : b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e
+Id       : e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd
 Inputs   : BerkeleyDB.jar
 Libraries: 
 Using a timeout of 90 min.
@@ -13,7 +13,7 @@ Using a timeout of 90 min.
 [Task COMPILE...]
 -- Fact Generation --
 Compiling Datalog to C++ program and executable
-Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/gen_1654965383167025776.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/facts, -D/home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/database]
+Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/gen_2755100286399546208.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/facts, -D/home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/database]
 Using annotations file: /home/ramy/annotations.tsv
 Preprocessing application: BerkeleyDB.jar
 Adding archive: BerkeleyDB.jar
@@ -24,63 +24,75 @@ Retrieved all bodies.
 Checking class heaps for missing types...
 Fact generation cores: 8
 Generated artifact-to-class map for 1 artifacts.
-Soot fact generation time: 5198
-Time to make facts unique: 525
+Soot fact generation time: 5373
+Time to make facts unique: 672
 Caching facts in /home/ramy/doop-lifted/cache/1c5f1c6d0cc4162bfc606c798632c7f77c48e0b3a17295fda1fb523232e5d6b4
-Copying /home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/facts to /home/ramy/doop-lifted/cache/1c5f1c6d0cc4162bfc606c798632c7f77c48e0b3a17295fda1fb523232e5d6b4...
+Copying /home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/facts to /home/ramy/doop-lifted/cache/1c5f1c6d0cc4162bfc606c798632c7f77c48e0b3a17295fda1fb523232e5d6b4...
 ----
 [Task FACTS Done]
 [Task COMPILE...]
 Compiling Datalog to C++ program and executable
-Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/gen_9194396762041521752.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/facts, -D/home/ramy/doop-lifted/out/context-insensitive/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e/database]
+Compilation command: [souffle, /home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/gen_4599319520314773210.dl, -j8, -F/home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/facts, -D/home/ramy/doop-lifted/out/context-insensitive/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd/database]
 Using Feature Model: (!Logging \/ _Logging) /\ (!_Logging \/ Logging) /\ (!NIOAccess \/ _NIO \/ _ChunkedNIO) /\ (!_NIO \/ NIOAccess) /\ (!_ChunkedNIO \/ NIOAccess) /\ (!_NIO \/ !_ChunkedNIO) /\ (!Checkpointer \/ _Checkpointer) /\ (!_Checkpointer \/ Checkpointer) /\ (!Ops \/ _Ops) /\ (!_Ops \/ Ops) /\ (!IICleaner \/ _IICleaner) /\ (!_IICleaner \/ IICleaner) /\ (!IEvictor \/ _IEvictor) /\ (!_IEvictor \/ IEvictor) /\ (!BTree \/ _BTree) /\ (!_BTree \/ BTree) /\ (!Persistance \/ _Persistance) /\ (!_Persistance \/ Persistance) /\ (!SPL \/ generatedSPL) /\ (!generatedSPL \/ SPL) /\ (!ConcurrTrans \/ _ConcurrTrans) /\ (!_ConcurrTrans \/ ConcurrTrans) /\ (!IIO \/ NewIO \/ OldIO) /\ (!NewIO \/ IIO) /\ (!OldIO \/ IIO) /\ (!NewIO \/ !OldIO) /\ (!SynchronizedIO \/ OldIO) /\ (!OldIO \/ IO) /\ (!IO \/ OldIO) /\ (!CP_Bytes \/ _Checkpointer) /\ (!CP_Time \/ _Checkpointer) /\ (!Checkpointer_Daemon \/ _Checkpointer) /\ (!INCompressor \/ _BTree) /\ (!IEvictor \/ _BTree) /\ (!Verifier \/ _BTree) /\ (!_ChunkedNIO \/ ChunkedNIO) /\ (!ChunkedNIO \/ _ChunkedNIO) /\ (!Latches \/ _ConcurrTrans) /\ (!Transactions \/ _ConcurrTrans) /\ (!CheckLeaks \/ _ConcurrTrans) /\ (!FSync \/ _ConcurrTrans) /\ (!Logging_Finer \/ _Logging) /\ (!Logging_Config \/ _Logging) /\ (!Logging_Severe \/ _Logging) /\ (!Logging_Evictor \/ _Logging) /\ (!Logging_Cleaner \/ _Logging) /\ (!Logging_Recovery \/ _Logging) /\ (!Logging_DbLogHandler \/ _Logging) /\ (!Logging_ConsoleHandler \/ _Logging) /\ (!Logging_Info \/ _Logging) /\ (!_Logging \/ Logging_Base) /\ (!Logging_Base \/ _Logging) /\ (!Logging_FileHandler \/ _Logging) /\ (!Logging_Fine \/ _Logging) /\ (!Logging_Finest \/ _Logging) /\ (!CleanerDaemon \/ _IICleaner) /\ (!_IICleaner \/ Cleaner) /\ (!Cleaner \/ _IICleaner) /\ (!LookAHEADCache \/ _IICleaner) /\ (!Logging \/ generatedSPL) /\ (!generatedSPL \/ ConcurrTrans) /\ (!ConcurrTrans \/ generatedSPL) /\ (!generatedSPL \/ Persistance) /\ (!Persistance \/ generatedSPL) /\ (!Statistics \/ generatedSPL) /\ (!generatedSPL \/ BTree) /\ (!BTree \/ generatedSPL) /\ (!generatedSPL \/ Ops) /\ (!Ops \/ generatedSPL) /\ (!Memory_Budget \/ generatedSPL) /\ (!_NIO \/ NIO) /\ (!NIO \/ _NIO) /\ (!Critical_Eviction \/ _IEvictor) /\ (!EvictorDaemon \/ _IEvictor) /\ (!_IEvictor \/ Evictor) /\ (!Evictor \/ _IEvictor) /\ (!NewIO \/ NIOAccess) /\ (!NIOAccess \/ NewIO) /\ (!DirectNIO \/ NewIO) /\ (!Checksum \/ _Persistance) /\ (!_Persistance \/ IIO) /\ (!IIO \/ _Persistance) /\ (!Environment_Locking \/ _Persistance) /\ (!_Persistance \/ Checkpointer) /\ (!Checkpointer \/ _Persistance) /\ (!DiskFullErro \/ _Persistance) /\ (!FileHandleCache \/ _Persistance) /\ (!_Persistance \/ IICleaner) /\ (!IICleaner \/ _Persistance) /\ (!DeleteOp \/ _Ops) /\ (!RenameOp \/ _Ops) /\ (!TruncateOp \/ _Ops) /\ (!Evictor \/ Memory_Budget) /\ (!EvictorDaemon \/ Memory_Budget) /\ (!LookAHEADCache \/ Memory_Budget) /\ (!Critical_Eviction \/ INCompressor) /\ (!CP_Bytes \/ CP_Time) /\ (!DeleteOp \/ Evictor) /\ (!DeleteOp \/ INCompressor) /\ (!DeleteOp \/ Memory_Budget) /\ (!Memory_Budget \/ Evictor) /\ (!Memory_Budget \/ Latches) /\ (!TruncateOp \/ DeleteOp) /\ (!Verifier \/ INCompressor) /\ (SPL)
-Warning: No rules/facts defined for relation isOpaqueMethod in file gen_1654965383167025776.dl at line 53
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_1654965383167025776.dl at line 1376
-Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_1654965383167025776.dl at line 1640
-Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_1654965383167025776.dl at line 1887
-Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_1654965383167025776.dl at line 1940
-Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_1654965383167025776.dl at line 1954
-Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_1654965383167025776.dl at line 1971
-Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_1654965383167025776.dl at line 1982
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_1654965383167025776.dl at line 2047
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_1654965383167025776.dl at line 2114
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_1654965383167025776.dl at line 2138
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_1654965383167025776.dl at line 2191
-Warning: No rules/facts defined for relation MockObjFromField in file gen_1654965383167025776.dl at line 2825
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_2755100286399546208.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_2755100286399546208.dl at line 1640
+Warning: No rules/facts defined for relation mainAnalysis.OptReturnAssign in file gen_2755100286399546208.dl at line 1644
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_2755100286399546208.dl at line 1887
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_2755100286399546208.dl at line 1940
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_2755100286399546208.dl at line 1954
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_2755100286399546208.dl at line 1971
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_2755100286399546208.dl at line 1982
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_2755100286399546208.dl at line 2047
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_2755100286399546208.dl at line 2114
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_2755100286399546208.dl at line 2138
+Warning: No rules/facts defined for relation LeakingSinkMethod in file gen_2755100286399546208.dl at line 2767
+Warning: No rules/facts defined for relation SanitizationMethod in file gen_2755100286399546208.dl at line 2777
+Warning: No rules/facts defined for relation BaseToParamTaintTransferMethod in file gen_2755100286399546208.dl at line 2795
+Warning: No rules/facts defined for relation ParamIndexToBaseTaintTransferMethod in file gen_2755100286399546208.dl at line 2799
+Warning: No rules/facts defined for relation ParamToRetTaintTransferMethod in file gen_2755100286399546208.dl at line 2800
+Warning: No rules/facts defined for relation MockBaseToRetTaintTransferMethod in file gen_2755100286399546208.dl at line 2801
+Warning: No rules/facts defined for relation MockParamToRetTaintTransferMethod in file gen_2755100286399546208.dl at line 2802
+Warning: No rules/facts defined for relation MockObjFromField in file gen_2755100286399546208.dl at line 3236
 pcMap size:  624
 Facts:       210529
-Facts@PCs:   49057
-Records:     200655
-Records@PCs: 200655
-Analysis compilation time (sec): 24367
-Caching analysis executable 98d361af8323adb69075964ce5cf6411de7e1a3c38f5af807f798d4bbd645611 in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
+Facts@PCs:   49066
+Records:     200663
+Records@PCs: 200663
+Analysis compilation time (sec): 28499
+Caching analysis executable 44e9e8f2db0cc98c3d57c85b7dae96c6f0105de1e820737507b58d9246bc943c in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
 [Task COMPILE Done]
 Using Feature Model: (!Logging \/ _Logging) /\ (!_Logging \/ Logging) /\ (!NIOAccess \/ _NIO \/ _ChunkedNIO) /\ (!_NIO \/ NIOAccess) /\ (!_ChunkedNIO \/ NIOAccess) /\ (!_NIO \/ !_ChunkedNIO) /\ (!Checkpointer \/ _Checkpointer) /\ (!_Checkpointer \/ Checkpointer) /\ (!Ops \/ _Ops) /\ (!_Ops \/ Ops) /\ (!IICleaner \/ _IICleaner) /\ (!_IICleaner \/ IICleaner) /\ (!IEvictor \/ _IEvictor) /\ (!_IEvictor \/ IEvictor) /\ (!BTree \/ _BTree) /\ (!_BTree \/ BTree) /\ (!Persistance \/ _Persistance) /\ (!_Persistance \/ Persistance) /\ (!SPL \/ generatedSPL) /\ (!generatedSPL \/ SPL) /\ (!ConcurrTrans \/ _ConcurrTrans) /\ (!_ConcurrTrans \/ ConcurrTrans) /\ (!IIO \/ NewIO \/ OldIO) /\ (!NewIO \/ IIO) /\ (!OldIO \/ IIO) /\ (!NewIO \/ !OldIO) /\ (!SynchronizedIO \/ OldIO) /\ (!OldIO \/ IO) /\ (!IO \/ OldIO) /\ (!CP_Bytes \/ _Checkpointer) /\ (!CP_Time \/ _Checkpointer) /\ (!Checkpointer_Daemon \/ _Checkpointer) /\ (!INCompressor \/ _BTree) /\ (!IEvictor \/ _BTree) /\ (!Verifier \/ _BTree) /\ (!_ChunkedNIO \/ ChunkedNIO) /\ (!ChunkedNIO \/ _ChunkedNIO) /\ (!Latches \/ _ConcurrTrans) /\ (!Transactions \/ _ConcurrTrans) /\ (!CheckLeaks \/ _ConcurrTrans) /\ (!FSync \/ _ConcurrTrans) /\ (!Logging_Finer \/ _Logging) /\ (!Logging_Config \/ _Logging) /\ (!Logging_Severe \/ _Logging) /\ (!Logging_Evictor \/ _Logging) /\ (!Logging_Cleaner \/ _Logging) /\ (!Logging_Recovery \/ _Logging) /\ (!Logging_DbLogHandler \/ _Logging) /\ (!Logging_ConsoleHandler \/ _Logging) /\ (!Logging_Info \/ _Logging) /\ (!_Logging \/ Logging_Base) /\ (!Logging_Base \/ _Logging) /\ (!Logging_FileHandler \/ _Logging) /\ (!Logging_Fine \/ _Logging) /\ (!Logging_Finest \/ _Logging) /\ (!CleanerDaemon \/ _IICleaner) /\ (!_IICleaner \/ Cleaner) /\ (!Cleaner \/ _IICleaner) /\ (!LookAHEADCache \/ _IICleaner) /\ (!Logging \/ generatedSPL) /\ (!generatedSPL \/ ConcurrTrans) /\ (!ConcurrTrans \/ generatedSPL) /\ (!generatedSPL \/ Persistance) /\ (!Persistance \/ generatedSPL) /\ (!Statistics \/ generatedSPL) /\ (!generatedSPL \/ BTree) /\ (!BTree \/ generatedSPL) /\ (!generatedSPL \/ Ops) /\ (!Ops \/ generatedSPL) /\ (!Memory_Budget \/ generatedSPL) /\ (!_NIO \/ NIO) /\ (!NIO \/ _NIO) /\ (!Critical_Eviction \/ _IEvictor) /\ (!EvictorDaemon \/ _IEvictor) /\ (!_IEvictor \/ Evictor) /\ (!Evictor \/ _IEvictor) /\ (!NewIO \/ NIOAccess) /\ (!NIOAccess \/ NewIO) /\ (!DirectNIO \/ NewIO) /\ (!Checksum \/ _Persistance) /\ (!_Persistance \/ IIO) /\ (!IIO \/ _Persistance) /\ (!Environment_Locking \/ _Persistance) /\ (!_Persistance \/ Checkpointer) /\ (!Checkpointer \/ _Persistance) /\ (!DiskFullErro \/ _Persistance) /\ (!FileHandleCache \/ _Persistance) /\ (!_Persistance \/ IICleaner) /\ (!IICleaner \/ _Persistance) /\ (!DeleteOp \/ _Ops) /\ (!RenameOp \/ _Ops) /\ (!TruncateOp \/ _Ops) /\ (!Evictor \/ Memory_Budget) /\ (!EvictorDaemon \/ Memory_Budget) /\ (!LookAHEADCache \/ Memory_Budget) /\ (!Critical_Eviction \/ INCompressor) /\ (!CP_Bytes \/ CP_Time) /\ (!DeleteOp \/ Evictor) /\ (!DeleteOp \/ INCompressor) /\ (!DeleteOp \/ Memory_Budget) /\ (!Memory_Budget \/ Evictor) /\ (!Memory_Budget \/ Latches) /\ (!TruncateOp \/ DeleteOp) /\ (!Verifier \/ INCompressor) /\ (SPL)
-Warning: No rules/facts defined for relation isOpaqueMethod in file gen_9194396762041521752.dl at line 53
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_9194396762041521752.dl at line 1376
-Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_9194396762041521752.dl at line 1640
-Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_9194396762041521752.dl at line 1887
-Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_9194396762041521752.dl at line 1940
-Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_9194396762041521752.dl at line 1954
-Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_9194396762041521752.dl at line 1971
-Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_9194396762041521752.dl at line 1982
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_9194396762041521752.dl at line 2047
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_9194396762041521752.dl at line 2114
-Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_9194396762041521752.dl at line 2138
-Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_9194396762041521752.dl at line 2191
-Warning: No rules/facts defined for relation MockObjFromField in file gen_9194396762041521752.dl at line 2825
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_4599319520314773210.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_4599319520314773210.dl at line 1640
+Warning: No rules/facts defined for relation mainAnalysis.OptReturnAssign in file gen_4599319520314773210.dl at line 1644
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_4599319520314773210.dl at line 1887
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_4599319520314773210.dl at line 1940
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_4599319520314773210.dl at line 1954
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_4599319520314773210.dl at line 1971
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_4599319520314773210.dl at line 1982
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_4599319520314773210.dl at line 2047
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_4599319520314773210.dl at line 2114
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_4599319520314773210.dl at line 2138
+Warning: No rules/facts defined for relation LeakingSinkMethod in file gen_4599319520314773210.dl at line 2767
+Warning: No rules/facts defined for relation SanitizationMethod in file gen_4599319520314773210.dl at line 2777
+Warning: No rules/facts defined for relation BaseToParamTaintTransferMethod in file gen_4599319520314773210.dl at line 2795
+Warning: No rules/facts defined for relation ParamIndexToBaseTaintTransferMethod in file gen_4599319520314773210.dl at line 2799
+Warning: No rules/facts defined for relation ParamToRetTaintTransferMethod in file gen_4599319520314773210.dl at line 2800
+Warning: No rules/facts defined for relation MockBaseToRetTaintTransferMethod in file gen_4599319520314773210.dl at line 2801
+Warning: No rules/facts defined for relation MockParamToRetTaintTransferMethod in file gen_4599319520314773210.dl at line 2802
+Warning: No rules/facts defined for relation MockObjFromField in file gen_4599319520314773210.dl at line 3236
 pcMap size:  624
 Facts:       210529
-Facts@PCs:   49057
-Records:     200655
-Records@PCs: 200655
-Analysis compilation time (sec): 33833
-Caching analysis executable 98d361af8323adb69075964ce5cf6411de7e1a3c38f5af807f798d4bbd645611 in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
+Facts@PCs:   49066
+Records:     200663
+Records@PCs: 200663
+Analysis compilation time (sec): 46817
+Caching analysis executable 44e9e8f2db0cc98c3d57c85b7dae96c6f0105de1e820737507b58d9246bc943c in /home/ramy/doop-lifted/cache/souffle-analyses/context-insensitive
 [Task COMPILE Done]
 -- Runtime metrics --
-analysis execution time (sec)                                                    33,833
-disk footprint (KB)                                                              1,578,260
-soot-fact-generation time (sec)                                                  5,198
+analysis execution time (sec)                                                    46,817
+disk footprint (KB)                                                              1,599,268
+soot-fact-generation time (sec)                                                  5,373
 -- Statistics --
 var points-to (INS)                                                              75,602
 var points-to (SENS)                                                             75,602
@@ -111,6 +123,14 @@ instance field points-to (INS)                                                  
 instance field points-to (SENS)                                                  10,038
 static field points-to (INS)                                                     222
 static field points-to (SENS)                                                    222
+tainted flows-to (INS)                                                           0
+tainted flows-to (SENS)                                                          0
+app tainted flows-to (INS)                                                       0
+app tainted flows-to (SENS)                                                      0
+total tainted values                                                             0
+original tainted values                                                          0
+sink variables (SENS)                                                            0
+total leaks                                                                      0
 app array index points-to (INS)                                                  159
 app array index points-to (SENS)                                                 159
 Entry Points                                                                     2,242
@@ -124,8 +144,8 @@ app instance field points-to (SENS)                                             
 call graph edges (INS)                                                           10,599
 call graph edges (SENS)                                                          10,599
 non-reachable app concrete methods                                               147
-Making database available at /home/ramy/doop-lifted/results/BerkeleyDB/context-insensitive/java_7/b8778d440fe85209a17e09acce3cbfc033406ba5581133b972abe29f4ebea51e
+Making database available at /home/ramy/doop-lifted/results/BerkeleyDB/context-insensitive/java_7/e2c846bbfa30a7a03006cb30d9207109a944d9c0808b00c67d6b4098376d3cdd
 Making database available at /home/ramy/doop-lifted/last-analysis
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 58s
 5 actionable tasks: 1 executed, 4 up-to-date

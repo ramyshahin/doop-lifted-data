@@ -61,8 +61,8 @@
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction11	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i6
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction17	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i4
 <Edge: Vertex getOtherVertex(Vertex)>/if/instruction4	1	<Edge: Vertex getOtherVertex(Vertex)>/vertex#_0
-<Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction11	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i3
 <Main: void main(java.lang.String[])>/if/instruction66	1	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_4#_52
+<Graph$Comparator1: int compare(Vertex,Vertex)>/if/instruction11	1	<Graph$Comparator1: int compare(Vertex,Vertex)>/$i3
 <Graph: void graphSearch(WorkSpace)>/if/instruction12	1	<Graph: void graphSearch(WorkSpace)>/$z1
 <Graph: void graphSearch(WorkSpace)>/if/instruction17	1	<Graph: void graphSearch(WorkSpace)>/$z2
 <CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/if/instruction5	1	<CycleWorkSpace: void checkNeighborAction(Vertex,Vertex)>/$i0

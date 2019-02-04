@@ -1,460 +1,460 @@
-<org.prevayler.demos.scalability.Main: void <clinit>()>/new java.util.Properties/0	java.util.Properties
-<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.network.StubbornServerReceiverImpl: void <init>(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.SessionsManager)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@Replication
-<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.RandomAccessFile/0	java.io.RandomAccessFile
-<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.demos.scalability.Main: void main(java.lang.String[])>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.FileLocker: java.lang.String propertyName()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.Main: void main(java.lang.String[])>/new java.io.FileInputStream/0	java.io.FileInputStream
-<org.prevayler.demos.scalability.Main: void runPrevaylerQuery()>/new org.prevayler.demos.scalability.QueryTestRun/0	org.prevayler.demos.scalability.QueryTestRun
-<org.prevayler.demos.scalability.Main: void runPrevaylerQuery()>/new org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject/0	org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject
-<org.prevayler.foundation.network.StubbornServerReceiverImpl: org.prevayler.foundation.network.StubbornNetworkProxy establishNewSession()>/new org.prevayler.foundation.network.StubbornNetworkProxy/0	org.prevayler.foundation.network.StubbornNetworkProxy	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject/0	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject
-<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new org.prevayler.demos.scalability.TransactionTestRun/0	org.prevayler.demos.scalability.TransactionTestRun
-<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.Main: void runJdbcQuery()>/new org.prevayler.demos.scalability.QueryTestRun/0	org.prevayler.demos.scalability.QueryTestRun
-<org.prevayler.demos.scalability.Main: void runJdbcQuery()>/new org.prevayler.demos.scalability.jdbc.JDBCQuerySubject/0	org.prevayler.demos.scalability.jdbc.JDBCQuerySubject
-<org.prevayler.demos.scalability.Main: void runJdbcTransaction()>/new org.prevayler.demos.scalability.TransactionTestRun/0	org.prevayler.demos.scalability.TransactionTestRun
-<org.prevayler.demos.scalability.Main: void runJdbcTransaction()>/new org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject/0	org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject
-<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.foundation.serialization.SkaringaSerializer/0	org.prevayler.foundation.serialization.SkaringaSerializer	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.scalability.Main: java.io.File propertiesFile()>/new java.io.File/0	java.io.File
-<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.io.PrintStream/0	java.io.PrintStream
-<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream
-<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void <init>()>/new java.awt.Color/0	java.awt.Color
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void <init>(java.io.InputStream)>/new org.prevayler.foundation.gzip.ContinuableGZIPInputStream/0	org.prevayler.foundation.gzip.ContinuableGZIPInputStream	@GZip
 <org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void addLine(java.lang.String)>/new javax.swing.JLabel/0	javax.swing.JLabel
-<org.prevayler.demos.scalability.prevayler.QuerySystem: void <init>()>/new java.util.HashMap/0	java.util.HashMap
-<org.prevayler.demos.scalability.prevayler.QuerySystem: void put(org.prevayler.demos.scalability.Record)>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read()>/new byte[]/0	byte[]	@(GZip) /\ (GZip)
-<org.prevayler.demos.scalability.Main: int numberOfObjects()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read(byte[],int,int)>/new org.prevayler.foundation.gzip.ContinuableGZIPInputStream/0	org.prevayler.foundation.gzip.ContinuableGZIPInputStream	@(GZip) /\ (GZip)
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void close()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
-<org.prevayler.demos.scalability.Main: java.lang.String prevaylerTransactionLogDirectory()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void reset()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
-<org.prevayler.demos.scalability.Main: java.lang.String prevaylerJournalSerializer()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void mark(int)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
-<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: long skip(long)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
-<org.prevayler.implementation.replication.ServerConnection: void run()>/new org.prevayler.implementation.publishing.POBox/0	org.prevayler.implementation.publishing.POBox	@(Replication) /\ (Replication)
-<org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void action()>/new org.prevayler.demos.demo2.gui.TransferFrame/0	org.prevayler.demos.demo2.gui.TransferFrame
-<org.prevayler.demos.scalability.Main: java.lang.String property(java.lang.String)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.scalability.Main: java.lang.String property(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.replication.ServerConnection: java.lang.Thread createClockTickSender()>/new org.prevayler.implementation.replication.ServerConnection$1/0	org.prevayler.implementation.replication.ServerConnection$1	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.Main: int intProperty(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.Main: boolean booleanProperty(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.demos.demo2.MainXStream$1/0	org.prevayler.demos.demo2.MainXStream$1	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Snapshot) /\ (Snapshot)
-<org.prevayler.implementation.replication.ServerConnection: void receive(org.prevayler.implementation.TransactionTimestamp)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp	@Replication
-<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: java.io.InputStream remainingInput()>/new java.io.SequenceInputStream/0	java.io.SequenceInputStream	@(GZip) /\ (GZip)
-<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: java.io.InputStream remainingInput()>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream	@(GZip) /\ (GZip)
-<org.prevayler.foundation.network.ObjectServerSocketImpl: void <init>(int)>/new java.net.ServerSocket/0	java.net.ServerSocket	@Replication
-<org.prevayler.foundation.serialization.XStreamSerializer: void <init>()>/new org.prevayler.foundation.serialization.XStreamSerializer$1/0	org.prevayler.foundation.serialization.XStreamSerializer$1
-<org.prevayler.foundation.network.ObjectServerSocketImpl: org.prevayler.foundation.network.ObjectSocket accept()>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.serialization.XStreamSerializer: void <init>(java.lang.String)>/new org.prevayler.foundation.serialization.XStreamSerializer$1/0	org.prevayler.foundation.serialization.XStreamSerializer$1
-<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.OutputStreamWriter/0	java.io.OutputStreamWriter
-<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.OutputStreamWriter/1	java.io.OutputStreamWriter
-<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: void action(org.prevayler.demos.demo2.business.Account)>/new org.prevayler.demos.demo2.business.transactions.AccountDeletion/0	org.prevayler.demos.demo2.business.transactions.AccountDeletion
-<org.prevayler.foundation.network.StubbornNetworkImpl: void <init>()>/new java.util.HashMap/0	java.util.HashMap	@(Replication) /\ (Replication)
-<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.InputStreamReader/0	java.io.InputStreamReader
-<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.InputStreamReader/1	java.io.InputStreamReader
-<org.prevayler.foundation.serialization.XStreamSerializer: com.thoughtworks.xstream.XStream createXStream()>/new com.thoughtworks.xstream.XStream/0	com.thoughtworks.xstream.XStream
-<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.StubbornClientReceiverImpl/0	org.prevayler.foundation.network.StubbornClientReceiverImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>/new org.prevayler.foundation.network.StubbornServerReceiverImpl/0	org.prevayler.foundation.network.StubbornServerReceiverImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.SessionsManager getSessionManager(org.prevayler.foundation.network.Service)>/new org.prevayler.foundation.network.SessionsManagerImpl/0	org.prevayler.foundation.network.SessionsManagerImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectSocket newInstance(java.lang.String,int)>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
-<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/0	javax.swing.JTextField
-<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/1	javax.swing.JTextField
-<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/2	javax.swing.JTextField
-<org.prevayler.demos.demo2.gui.TransferFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.TransferFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.TransferFrame$OKAction/0	org.prevayler.demos.demo2.gui.TransferFrame$OKAction
-<org.prevayler.implementation.TransactionWithQueryCapsule: org.prevayler.implementation.Capsule cleanCopy()>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
-<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.util.LinkedList/0	java.util.LinkedList
-<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.lang.Object/0	java.lang.Object
-<org.prevayler.demos.demo2.gui.AccountFrame: void <init>(java.lang.String,org.prevayler.Prevayler,java.awt.Container)>/new javax.swing.JTextField/0	javax.swing.JTextField
-<org.prevayler.demos.demo2.gui.AccountFrame: void <init>(java.lang.String,org.prevayler.Prevayler,java.awt.Container)>/new java.awt.Color/0	java.awt.Color
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection/0	org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection
-<org.prevayler.demos.demo2.gui.AccountFrame: javax.swing.JPanel buttonPanel()>/new javax.swing.JPanel/0	javax.swing.JPanel
-<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: void action()>/new org.prevayler.demos.demo2.business.transactions.AccountCreation/0	org.prevayler.demos.demo2.business.transactions.AccountCreation
-<org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Container labelContainer(java.lang.String)>/new javax.swing.JLabel/0	javax.swing.JLabel
-<org.prevayler.foundation.FileManager: java.io.File produceDirectory(java.lang.String)>/new java.io.File/0	java.io.File
-<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.demos.demo2.gui.AccountFrame: long parse(java.lang.String)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
-<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.util.LinkedList/0	java.util.LinkedList
-<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
-<org.prevayler.foundation.network.BaseNetworkImpl: void <init>()>/new java.util.HashMap/0	java.util.HashMap	@Replication
-<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.IllegalArgumentException/1	java.lang.IllegalArgumentException
-<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.foundation.network.BaseNetworkImpl: void markPortAsUsed(int,org.prevayler.foundation.network.NetworkServerObjectReceiver)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/2	java.lang.StringBuilder
-<org.prevayler.foundation.network.BaseNetworkImpl: void checkPortNotUsed(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.BaseNetworkImpl: void checkPortNotUsed(int)>/new java.io.IOException/0	java.io.IOException	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.BaseNetworkImpl: void releasePortForReuse(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.ScalabilityTestRun: void startThread(long,int)>/new org.prevayler.demos.scalability.ScalabilityTestRun$1/0	org.prevayler.demos.scalability.ScalabilityTestRun$1
-<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver createService(org.prevayler.foundation.network.Service,int)>/new org.prevayler.foundation.network.NetworkServerObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>/new java.io.IOException/0	java.io.IOException	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String toResultString(double,int)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
-<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String toResultString(double,int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void focusLost(java.awt.event.FocusEvent)>/new org.prevayler.demos.demo2.business.transactions.HolderChange/0	org.prevayler.demos.demo2.business.transactions.HolderChange
-<org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Deposit/0	org.prevayler.demos.demo2.business.transactions.Deposit
-<org.prevayler.demos.scalability.prevayler.AllRecordsReplacement: void executeOn(java.lang.Object,java.util.Date)>/new org.prevayler.demos.scalability.RecordIterator/0	org.prevayler.demos.scalability.RecordIterator
-<org.prevayler.demos.demo2.business.Bank$AccountNotFound: void <init>(org.prevayler.demos.demo2.business.Bank,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.Capsule: void <init>(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
-<org.prevayler.implementation.Capsule: void <init>(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.implementation.TransactionTimestamp: java.util.Date executionTime()>/new java.util.Date/0	java.util.Date
-<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp cleanCopy()>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
-<org.prevayler.implementation.Capsule: java.lang.Object deserialize(org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream
-<org.prevayler.implementation.Capsule: java.lang.Object deserialize(org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
-<org.prevayler.implementation.Capsule: org.prevayler.foundation.Chunk toChunk()>/new org.prevayler.foundation.Chunk/0	org.prevayler.foundation.Chunk
-<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,int)>/new org.prevayler.foundation.network.ObjectServerSocketImpl/0	org.prevayler.foundation.network.ObjectServerSocketImpl	@(Replication) /\ (Replication)
-<org.prevayler.implementation.Capsule: org.prevayler.implementation.Capsule fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
-<org.prevayler.implementation.Capsule: org.prevayler.implementation.Capsule fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionCapsule/0	org.prevayler.implementation.TransactionCapsule
-<org.prevayler.demos.scalability.Record: void <clinit>()>/new java.util.Random/0	java.util.Random
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.math.BigDecimal/0	java.math.BigDecimal
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.math.BigDecimal/1	java.math.BigDecimal
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.util.Date/0	java.util.Date
-<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.util.Date/1	java.util.Date
-<org.prevayler.demos.demo2.MainReplica: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Replication) /\ (Replication)
-<org.prevayler.demos.demo2.MainReplica: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.Record: java.util.Date getDate1()>/new java.util.Date/0	java.util.Date
-<org.prevayler.demos.scalability.Record: java.util.Date getDate2()>/new java.util.Date/0	java.util.Date
-<org.prevayler.demos.scalability.Record: int hashCode()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>/new char[]/0	char[]
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer
-<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>/new java.lang.String/0	java.lang.String
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.PipedOutputStream/0	java.io.PipedOutputStream
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.PipedInputStream/0	java.io.PipedInputStream
-<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.foundation.DeepCopier$Receiver/0	org.prevayler.foundation.DeepCopier$Receiver
-<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void <init>(java.io.OutputStream)>/new org.prevayler.foundation.gzip.NonCloseableOutputStream/0	org.prevayler.foundation.gzip.NonCloseableOutputStream	@GZip
-<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(int)>/new byte[]/0	byte[]	@(GZip) /\ (GZip)
-<org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[],int,int)>/new java.util.zip.GZIPOutputStream/0	java.util.zip.GZIPOutputStream	@(GZip) /\ (GZip)
-<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void close()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
-<org.prevayler.demos.demo2.business.Bank: void <init>()>/new java.util.HashMap/0	java.util.HashMap
-<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account createAccount(java.lang.String)>/new org.prevayler.demos.demo2.business.Account/0	org.prevayler.demos.demo2.business.Account
-<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account createAccount(java.lang.String)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
-<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>/new org.prevayler.demos.scalability.Record/1	org.prevayler.demos.scalability.Record
-<org.prevayler.demos.demo2.business.Bank: void deleteAccount(long)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.demo2.business.Bank: java.util.List accounts()>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.demos.demo2.business.Bank: java.util.List accounts()>/new org.prevayler.demos.demo2.business.Bank$1/0	org.prevayler.demos.demo2.business.Bank$1
-<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account findAccount(long)>/new org.prevayler.demos.demo2.business.Bank$AccountNotFound/0	org.prevayler.demos.demo2.business.Bank$AccountNotFound
-<org.prevayler.demos.demo2.business.Bank: void transfer(long,long,long,java.util.Date)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account searchAccount(long)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new org.prevayler.demos.scalability.prevayler.AllRecordsReplacement/0	org.prevayler.demos.scalability.prevayler.AllRecordsReplacement
-<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.monitor.SimpleMonitor: void info(java.lang.Class,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
-<org.prevayler.foundation.monitor.SimpleMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
-<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction/0	org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction
-<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.Chunking: void <clinit>()>/new byte[]/0	byte[]
-<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
-<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void update(org.prevayler.demos.scalability.Record)>/new java.sql.Date/0	java.sql.Date
-<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void update(org.prevayler.demos.scalability.Record)>/new java.sql.Date/1	java.sql.Date
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.util.StringTokenizer/0	java.util.StringTokenizer
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.util.LinkedHashMap/0	java.util.LinkedHashMap
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new byte[]/0	byte[]
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.EOFException/0	java.io.EOFException
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.EOFException/1	java.io.EOFException
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new org.prevayler.foundation.Chunk/0	org.prevayler.foundation.Chunk
-<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new org.prevayler.implementation.clock.BrokenClock/0	org.prevayler.implementation.clock.BrokenClock	@Replication
-<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new java.lang.Object/0	java.lang.Object	@Replication
-<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new java.lang.Object/1	java.lang.Object	@Replication
-<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
-<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>/new java.io.EOFException/0	java.io.EOFException
-<org.prevayler.implementation.replication.ClientPublisher: void startListening()>/new org.prevayler.implementation.replication.ClientPublisher$1/0	org.prevayler.implementation.replication.ClientPublisher$1	@(Replication) /\ (Replication)
-<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@Replication
-<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.Long/0	java.lang.Long	@(Replication) /\ (Replication)
-<org.prevayler.implementation.replication.ClientPublisher: void cancelSubscription(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(Replication) /\ (Replication)
-<org.prevayler.implementation.replication.ClientPublisher: void publish(org.prevayler.implementation.Capsule)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException	@Replication
-<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new javax.swing.JDesktopPane/0	javax.swing.JDesktopPane
-<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.AllAccountsFrame/0	org.prevayler.demos.demo2.gui.AllAccountsFrame
-<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame/0	org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame
-<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.MatchFrame/0	org.prevayler.demos.demo2.gui.MatchFrame
-<org.prevayler.demos.demo2.gui.BankFrame: void refreshClock()>/new org.prevayler.demos.demo2.gui.BankFrame$1/0	org.prevayler.demos.demo2.gui.BankFrame$1
-<org.prevayler.demos.demo2.MainTransient: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank
-<org.prevayler.implementation.replication.ClientPublisher: void receiveTransactionFromServer()>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp	@(Replication) /\ (Replication)
-<org.prevayler.implementation.replication.ClientPublisher: void receiveTransactionFromServer()>/new org.prevayler.implementation.TransactionTimestamp/1	org.prevayler.implementation.TransactionTimestamp	@(Replication) /\ (Replication)
-<org.prevayler.implementation.replication.ClientPublisher: void wait(java.lang.Object)>/new java.lang.RuntimeException/0	java.lang.RuntimeException	@(Replication) /\ (Replication)
-<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new javax.xml.transform.stream.StreamResult/0	javax.xml.transform.stream.StreamResult
-<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/1	java.lang.RuntimeException
-<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/2	java.lang.RuntimeException
-<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new javax.xml.transform.stream.StreamSource/0	javax.xml.transform.stream.StreamSource
-<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.clock.PausableClock: void <init>(org.prevayler.Clock)>/new org.prevayler.implementation.clock.BrokenClock/0	org.prevayler.implementation.clock.BrokenClock
-<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.clock.BrokenClock: void <init>()>/new java.util.Date/0	java.util.Date
-<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: void action(org.prevayler.demos.demo2.business.Account)>/new org.prevayler.demos.demo2.gui.AccountEditFrame/0	org.prevayler.demos.demo2.gui.AccountEditFrame
-<org.prevayler.demos.demo2.Main: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank
-<org.prevayler.demos.demo2.Main: void startGui(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.BankFrame/0	org.prevayler.demos.demo2.gui.BankFrame
-<org.prevayler.implementation.PrevaylerDirectory: void <init>(java.lang.String)>/new java.io.File/0	java.io.File
-<org.prevayler.implementation.replication.ServerListener: void run()>/new org.prevayler.implementation.replication.ServerConnection/0	org.prevayler.implementation.replication.ServerConnection	@(Replication) /\ (Replication)
-<org.prevayler.implementation.PrevaylerDirectory: void checkValidSnapshotSuffix(java.lang.String)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
-<org.prevayler.implementation.PrevaylerDirectory: void checkValidSnapshotSuffix(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Replication) /\ (Replication)
-<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Replication) /\ (Replication)
-<org.prevayler.implementation.PrevaylerDirectory: void checkValidJournalSuffix(java.lang.String)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
-<org.prevayler.implementation.PrevaylerDirectory: void checkValidJournalSuffix(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.lang.String,int)>/new java.net.Socket/0	java.net.Socket	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>/new java.io.ObjectOutputStream/0	java.io.ObjectOutputStream	@Replication
-<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>/new java.io.ObjectInputStream/0	java.io.ObjectInputStream	@Replication
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.io.File/0	java.io.File
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.implementation.PrevaylerDirectory$1: int compare(java.lang.Object,java.lang.Object)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.implementation.PrevaylerDirectory$1: int compare(java.lang.Object,java.lang.Object)>/new java.lang.Long/1	java.lang.Long
-<org.prevayler.demos.demo1.Main: void main(java.lang.String[])>/new org.prevayler.demos.demo1.NumberKeeper/0	org.prevayler.demos.demo1.NumberKeeper
 <org.prevayler.demos.demo1.Main: void main(java.lang.String[])>/new org.prevayler.demos.demo1.PrimeCalculator/0	org.prevayler.demos.demo1.PrimeCalculator
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo1.Main: void printMessage()>/new java.io.BufferedReader/0	java.io.BufferedReader
-<org.prevayler.demos.demo1.Main: void printMessage()>/new java.io.InputStreamReader/0	java.io.InputStreamReader
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/new org.prevayler.implementation.PrevaylerDirectory$FileFilter1/0	org.prevayler.implementation.PrevaylerDirectory$FileFilter1
-<org.prevayler.demos.demo1.NumberKeeper: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/new org.prevayler.implementation.PrevaylerDirectory$1/0	org.prevayler.implementation.PrevaylerDirectory$1
-<org.prevayler.demos.demo1.NumberKeeper: void keep(int)>/new java.lang.Integer/0	java.lang.Integer
-<org.prevayler.implementation.PrevaylerDirectory: void renameUnusedFile(java.io.File)>/new java.io.File/0	java.io.File
-<org.prevayler.implementation.PrevaylerDirectory: void renameUnusedFile(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.StopWatch: org.prevayler.foundation.StopWatch start()>/new org.prevayler.foundation.StopWatch/0	org.prevayler.foundation.StopWatch
+<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <org.prevayler.demos.demo2.gui.AllAccountsFrame: void <init>(org.prevayler.Prevayler,java.awt.Container)>/new javax.swing.JList/0	javax.swing.JList
-<org.prevayler.demos.demo2.business.Account: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: void <init>(org.prevayler.Prevayler,java.awt.Container)>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
-<org.prevayler.demos.demo2.business.Account: void <init>(long,java.lang.String)>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.demos.demo2.business.Account: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.business.Account: java.lang.String numberString(long)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JPanel/0	javax.swing.JPanel
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/0	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/1	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction
-<org.prevayler.demos.demo2.business.Account: void register(long,java.util.Date)>/new org.prevayler.demos.demo2.business.AccountEntry/0	org.prevayler.demos.demo2.business.AccountEntry
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/2	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction
-<org.prevayler.demos.demo2.business.Account: void verify(long)>/new org.prevayler.demos.demo2.business.Account$InvalidAmount/0	org.prevayler.demos.demo2.business.Account$InvalidAmount
-<org.prevayler.demos.demo2.business.Account: void verify(long)>/new org.prevayler.demos.demo2.business.Account$InvalidAmount/1	org.prevayler.demos.demo2.business.Account$InvalidAmount
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException	@Snapshot
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Snapshot
-<org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>/new java.util.HashSet/0	java.util.HashSet
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard	@Snapshot
-<org.prevayler.demos.demo2.business.Account: void verify(java.lang.String)>/new org.prevayler.demos.demo2.business.Account$InvalidHolder/0	org.prevayler.demos.demo2.business.Account$InvalidHolder
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer	@Snapshot
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard	@Snapshot
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/1	org.prevayler.foundation.serialization.JavaSerializer	@Snapshot
-<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.lang.String)>/new java.io.File/0	java.io.File
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.io.IOException/0	java.io.IOException	@Snapshot
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void deleteDirectoryContents(java.io.File)>/new org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter/0	org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Withdrawal/0	org.prevayler.demos.demo2.business.transactions.Withdrawal
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.io.IOException/0	java.io.IOException	@(Snapshot) /\ (Snapshot)
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
-<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.io.FileInputStream/0	java.io.FileInputStream	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: void actionPerformed(java.awt.event.ActionEvent)>/new org.prevayler.demos.demo2.gui.NewAccountFrame/0	org.prevayler.demos.demo2.gui.NewAccountFrame
-<org.prevayler.implementation.publishing.AbstractPublisher: void <init>(org.prevayler.Clock)>/new java.util.LinkedList/0	java.util.LinkedList
-<org.prevayler.demos.scalability.prevayler.TransactionSystem: void <init>()>/new java.util.HashMap/0	java.util.HashMap
-<org.prevayler.demos.scalability.prevayler.TransactionSystem: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.scalability.prevayler.TransactionSystem: java.lang.Object put(org.prevayler.demos.scalability.Record)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new org.prevayler.implementation.clock.PausableClock/0	org.prevayler.implementation.clock.PausableClock
-<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new java.lang.Object/0	java.lang.Object
-<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new java.lang.Object/1	java.lang.Object
-<org.prevayler.implementation.journal.PersistentJournal: void append(org.prevayler.implementation.TransactionGuide)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.TransactionGuide approve(org.prevayler.implementation.Capsule)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
-<org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.TransactionGuide approve(org.prevayler.implementation.Capsule)>/new org.prevayler.implementation.TransactionGuide/0	org.prevayler.implementation.TransactionGuide
-<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.foundation.DurableOutputStream createOutputJournal(long)>/new org.prevayler.foundation.DurableOutputStream/0	org.prevayler.foundation.DurableOutputStream
-<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new org.prevayler.foundation.DurableInputStream/0	org.prevayler.foundation.DurableInputStream	@Monitor
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void insert(org.prevayler.demos.scalability.Record)>/new java.sql.Date/0	java.sql.Date
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void insert(org.prevayler.demos.scalability.Record)>/new java.sql.Date/1	java.sql.Date
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: java.sql.PreparedStatement prepare(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new org.prevayler.foundation.DurableInputStream/1	org.prevayler.foundation.DurableInputStream	@Monitor
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new org.prevayler.demos.scalability.RecordIterator/0	org.prevayler.demos.scalability.RecordIterator
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: void handle(java.io.IOException,java.io.File,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void dealWithSQLException(java.sql.SQLException,java.lang.String)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void dealWithSQLException(java.sql.SQLException,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.journal.PersistentJournal: long nextTransaction()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new java.io.File/0	java.io.File
-<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
-<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new org.prevayler.demos.scalability.prevayler.QuerySystem/0	org.prevayler.demos.scalability.prevayler.QuerySystem
-<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection/0	org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection
-<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String timestampString()>/new java.text.SimpleDateFormat/0	java.text.SimpleDateFormat
-<org.prevayler.demos.scalability.RecordIterator: void <init>(int)>/new java.util.Random/0	java.util.Random
-<org.prevayler.demos.scalability.RecordIterator: org.prevayler.demos.scalability.Record next()>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
-<org.prevayler.demos.scalability.RecordIterator: void indicateProgress()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.RecordIterator: void indicateProgress()>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.implementation.clock.MachineClock: void update()>/new java.util.Date/0	java.util.Date
-<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
-<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectServerSocket openObjectServerSocket(int)>/new org.prevayler.foundation.network.ObjectServerSocketImpl/0	org.prevayler.foundation.network.ObjectServerSocketImpl	@(Replication) /\ (Replication)
-<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object prevalentSystem()>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener/0	org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener
-<org.prevayler.implementation.PrevalentSystemGuard: void takeSnapshot(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new java.lang.Error/0	java.lang.Error	@(Snapshot) /\ (Snapshot)
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JList/0	javax.swing.JList
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/0	javax.swing.JTextField
-<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
-<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction
-<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/1	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/2	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction
-<org.prevayler.demos.demo2.gui.AccountEditFrame: java.lang.Number enterAmount(java.lang.String)>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.demo2.gui.TransferFrame$OKAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Transfer/0	org.prevayler.demos.demo2.business.transactions.Transfer
-<org.prevayler.demos.scalability.jdbc.JDBCQuerySubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.jdbc.JDBCQueryConnection/0	org.prevayler.demos.scalability.jdbc.JDBCQueryConnection
-<org.prevayler.demos.demo1.PrimeCalculator: void start()>/new org.prevayler.demos.demo1.NumberStorageTransaction/0	org.prevayler.demos.demo1.NumberStorageTransaction
-<org.prevayler.demos.demo1.PrimeCalculator: void start()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.PrevaylerFactory: void <init>()>/new java.util.HashMap/0	java.util.HashMap
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable,java.lang.String)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable)>/new org.prevayler.implementation.snapshot.NullSnapshotManager/0	org.prevayler.implementation.snapshot.NullSnapshotManager	@Snapshot
-<org.prevayler.implementation.snapshot.NullSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.io.IOException/0	java.io.IOException	@(Snapshot) /\ (Snapshot)
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createCheckpointPrevayler(java.io.Serializable,java.lang.String)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
-<org.prevayler.PrevaylerFactory: org.prevayler.Clock clock()>/new org.prevayler.implementation.clock.MachineClock/0	org.prevayler.implementation.clock.MachineClock
-<org.prevayler.implementation.PrevaylerImpl: void execute(org.prevayler.Transaction)>/new org.prevayler.implementation.TransactionCapsule/0	org.prevayler.implementation.TransactionCapsule
-<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.TransactionWithQuery)>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
-<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.SureTransactionWithQuery)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.PrevaylerFactory: void configureJournalSerializer(java.lang.String,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>/new java.io.BufferedInputStream/0	java.io.BufferedInputStream
-<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>/new java.io.FileInputStream/0	java.io.FileInputStream
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>/new org.prevayler.implementation.replication.ServerListener/0	org.prevayler.implementation.replication.ServerListener	@Replication
-<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>/new org.prevayler.implementation.PrevaylerImpl/0	org.prevayler.implementation.PrevaylerImpl	@Snapshot
-<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>/new java.io.EOFException/0	java.io.EOFException
-<org.prevayler.PrevaylerFactory: java.lang.Object prevalentSystem()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>/new java.io.EOFException/1	java.io.EOFException
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.replication.ClientPublisher/0	org.prevayler.implementation.replication.ClientPublisher	@(Snapshot) /\ (Replication /\ Snapshot)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.CentralPublisher/0	org.prevayler.implementation.publishing.CentralPublisher	@(Snapshot) /\ (Snapshot /\ Censor)
-<org.prevayler.implementation.journal.TransientJournal: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher()>/new org.prevayler.implementation.replication.ClientPublisher/0	org.prevayler.implementation.replication.ClientPublisher	@Replication
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher()>/new org.prevayler.implementation.publishing.CentralPublisher/0	org.prevayler.implementation.publishing.CentralPublisher
-<org.prevayler.implementation.journal.TransientJournal: void append(org.prevayler.implementation.TransactionGuide)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.censorship.StrictTransactionCensor/0	org.prevayler.implementation.publishing.censorship.StrictTransactionCensor	@(Censor) /\ (Censor)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor/0	org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor	@(Censor) /\ (Censor)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.journal.TransientJournal/0	org.prevayler.implementation.journal.TransientJournal	@Snapshot
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.PrevaylerDirectory/0	org.prevayler.implementation.PrevaylerDirectory	@Snapshot
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.journal.PersistentJournal/0	org.prevayler.implementation.journal.PersistentJournal	@Monitor /\ Snapshot
-<org.prevayler.PrevaylerFactory: org.prevayler.foundation.serialization.Serializer journalSerializer()>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.PrevaylerFactory: org.prevayler.foundation.network.OldNetwork network()>/new org.prevayler.foundation.network.OldNetworkImpl/0	org.prevayler.foundation.network.OldNetworkImpl	@(Replication) /\ (Replication)
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/1	java.io.IOException
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.PrevaylerDirectory/0	org.prevayler.implementation.PrevaylerDirectory	@(Snapshot) /\ (Snapshot)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.snapshot.GenericSnapshotManager/0	org.prevayler.implementation.snapshot.GenericSnapshotManager	@(Snapshot) /\ (Snapshot)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer	@(Snapshot) /\ (Snapshot)
-<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.snapshot.GenericSnapshotManager/1	org.prevayler.implementation.snapshot.GenericSnapshotManager	@(Snapshot) /\ (Snapshot)
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/2	java.io.IOException
-<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/2	java.lang.StringBuilder
-<org.prevayler.PrevaylerFactory: org.prevayler.foundation.monitor.Monitor monitor()>/new org.prevayler.foundation.monitor.SimpleMonitor/0	org.prevayler.foundation.monitor.SimpleMonitor	@(Monitor) /\ (Monitor)
-<org.prevayler.implementation.journal.TransientJournal: long nextTransaction()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
-<org.prevayler.foundation.Cool: void unexpected(java.lang.Exception)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.foundation.Chunk: void <init>(byte[])>/new java.util.LinkedHashMap/0	java.util.LinkedHashMap
-<org.prevayler.foundation.Cool: void startDaemon(java.lang.Runnable)>/new java.lang.Thread/0	java.lang.Thread
-<org.prevayler.demos.demo2.MainXStream$1: com.thoughtworks.xstream.XStream createXStream()>/new com.thoughtworks.xstream.XStream/0	com.thoughtworks.xstream.XStream	@(Snapshot) /\ (Snapshot)
-<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Monitor
-<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File,java.lang.Exception)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
-<org.prevayler.demos.scalability.QueryTestRun: void executeOperation(java.lang.Object,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <org.prevayler.demos.demo2.gui.BankFrame$1: void run()>/new java.text.SimpleDateFormat/0	java.text.SimpleDateFormat
-<org.prevayler.demos.demo2.gui.BankFrame$1: void run()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.TransactionGuide approve(org.prevayler.implementation.Capsule)>/new org.prevayler.implementation.TransactionGuide/0	org.prevayler.implementation.TransactionGuide
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
+<org.prevayler.implementation.Capsule: void <init>(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.foundation.serialization.XStreamSerializer: com.thoughtworks.xstream.XStream createXStream()>/new com.thoughtworks.xstream.XStream/0	com.thoughtworks.xstream.XStream
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo1.Main: void main(java.lang.String[])>/new org.prevayler.demos.demo1.NumberKeeper/0	org.prevayler.demos.demo1.NumberKeeper
+<org.prevayler.demos.scalability.Main: boolean booleanProperty(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.Chunk: void <init>(byte[])>/new java.util.LinkedHashMap/0	java.util.LinkedHashMap
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/2	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>/new org.prevayler.implementation.PrevaylerImpl/0	org.prevayler.implementation.PrevaylerImpl	@Snapshot
+<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.Main: void runJdbcQuery()>/new org.prevayler.demos.scalability.QueryTestRun/0	org.prevayler.demos.scalability.QueryTestRun
+<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.io.PrintStream/0	java.io.PrintStream
+<org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener: void focusLost(java.awt.event.FocusEvent)>/new org.prevayler.demos.demo2.business.transactions.HolderChange/0	org.prevayler.demos.demo2.business.transactions.HolderChange
+<org.prevayler.demos.demo1.Main: void printMessage()>/new java.io.InputStreamReader/0	java.io.InputStreamReader
+<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>/new java.io.EOFException/0	java.io.EOFException
+<org.prevayler.demos.scalability.Main: void runJdbcTransaction()>/new org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject/0	org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject
+<org.prevayler.foundation.network.NetworkServerObjectReceiverImpl: void <init>(org.prevayler.foundation.network.NetworkReceiverFactory,org.prevayler.foundation.network.Service,int)>/new org.prevayler.foundation.network.ObjectServerSocketImpl/0	org.prevayler.foundation.network.ObjectServerSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.business.Account: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidJournalSuffix(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void <init>(java.lang.String,java.lang.String)>/new java.io.File/0	java.io.File
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection/0	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/new java.io.File/0	java.io.File
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>/new org.prevayler.demos.scalability.prevayler.TransactionSystem/0	org.prevayler.demos.scalability.prevayler.TransactionSystem
-<org.prevayler.foundation.serialization.JavaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.ObjectOutputStream/0	java.io.ObjectOutputStream
-<org.prevayler.foundation.serialization.JavaSerializer: java.lang.Object readObject(java.io.InputStream)>/new org.prevayler.foundation.ObjectInputStreamWithClassLoader/0	org.prevayler.foundation.ObjectInputStreamWithClassLoader
-<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.StubbornNetwork,java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.NetworkSessionId/0	org.prevayler.foundation.network.NetworkSessionId	@Replication
-<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.StubbornNetwork,java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Replication
-<org.prevayler.foundation.network.SessionsManagerImpl: void <init>(long)>/new java.util.HashMap/0	java.util.HashMap	@Replication
-<org.prevayler.foundation.network.SessionsManagerImpl: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>/new org.prevayler.foundation.network.NetworkSessionId/0	org.prevayler.foundation.network.NetworkSessionId	@(Replication) /\ (Replication)
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.awt.BorderLayout/0	java.awt.BorderLayout
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JPanel/0	javax.swing.JPanel
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.awt.FlowLayout/0	java.awt.FlowLayout
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JButton/0	javax.swing.JButton
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new org.prevayler.demos.demo2.gui.MatchFrame$1/0	org.prevayler.demos.demo2.gui.MatchFrame$1
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.table.DefaultTableModel/0	javax.swing.table.DefaultTableModel
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.lang.String[]/0	java.lang.String[]
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JTable/0	javax.swing.JTable
-<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.engine.MatchEngine/0	net.sourceforge.javamatch.engine.MatchEngine
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.QuerySet/0	net.sourceforge.javamatch.query.QuerySet
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.Maximum/0	net.sourceforge.javamatch.query.Maximum
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.Maximum/1	net.sourceforge.javamatch.query.Maximum
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Object[]/0	java.lang.Object[]
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Float/0	java.lang.Float
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Long/0	java.lang.Long
-<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Integer/0	java.lang.Integer
-<org.prevayler.foundation.network.NetworkSessionId: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Replication) /\ (Replication)
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new org.prevayler.demos.scalability.prevayler.TestTransaction/0	org.prevayler.demos.scalability.prevayler.TestTransaction
-<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame: void <init>()>/new java.awt.Color/0	java.awt.Color
+<org.prevayler.demos.demo1.NumberKeeper: void keep(int)>/new java.lang.Integer/0	java.lang.Integer
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.censorship.StrictTransactionCensor/0	org.prevayler.implementation.publishing.censorship.StrictTransactionCensor	@(Censor) /\ (Censor)
+<org.prevayler.foundation.Chunking: void <clinit>()>/new byte[]/0	byte[]
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener/0	org.prevayler.demos.demo2.gui.AccountEditFrame$HolderListener
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver createService(org.prevayler.foundation.network.Service,int)>/new org.prevayler.foundation.network.NetworkServerObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkServerObjectReceiverImpl	@(Replication) /\ (Replication)
 <org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn first()>/new org.prevayler.foundation.Turn/0	org.prevayler.foundation.Turn
-<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn next()>/new org.prevayler.foundation.Turn/0	org.prevayler.foundation.Turn
-<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void produceNewFoodTaster(long)>/new java.lang.RuntimeException/0	java.lang.RuntimeException	@(Censor) /\ (Censor)
+<org.prevayler.implementation.replication.ServerConnection: void receive(org.prevayler.implementation.TransactionTimestamp)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp	@Replication
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account createAccount(java.lang.String)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>/new java.lang.String/0	java.lang.String
+<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.InputStreamReader/0	java.io.InputStreamReader
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[],int,int)>/new java.util.zip.GZIPOutputStream/0	java.util.zip.GZIPOutputStream	@(GZip) /\ (GZip)
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new org.prevayler.foundation.Chunk/0	org.prevayler.foundation.Chunk
+<org.prevayler.implementation.journal.TransientJournal: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.demos.scalability.RecordIterator: org.prevayler.demos.scalability.Record next()>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
+<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.foundation.network.BaseNetworkImpl: void checkPortNotUsed(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevaylerDirectory$1: int compare(java.lang.Object,java.lang.Object)>/new java.lang.Long/1	java.lang.Long
+<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.Long/0	java.lang.Long	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.AccountFrame: long parse(java.lang.String)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
+<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new javax.xml.transform.stream.StreamSource/0	javax.xml.transform.stream.StreamSource
+<org.prevayler.foundation.serialization.XStreamSerializer: void <init>()>/new org.prevayler.foundation.serialization.XStreamSerializer$1/0	org.prevayler.foundation.serialization.XStreamSerializer$1
+<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@Replication
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void close()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new java.io.File/0	java.io.File
+<org.prevayler.demos.demo2.business.Bank: void <init>()>/new java.util.HashMap/0	java.util.HashMap
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new org.prevayler.demos.scalability.RecordIterator/0	org.prevayler.demos.scalability.RecordIterator
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new org.prevayler.demos.scalability.Record/0	org.prevayler.demos.scalability.Record
+<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>/new java.io.ObjectOutputStream/0	java.io.ObjectOutputStream	@Replication
+<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.MatchFrame/0	org.prevayler.demos.demo2.gui.MatchFrame
+<org.prevayler.implementation.replication.ClientPublisher: void cancelSubscription(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void <init>()>/new java.util.HashMap/0	java.util.HashMap
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectSocket newInstance(java.lang.String,int)>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/2	java.lang.StringBuilder
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.EOFException/0	java.io.EOFException
+<org.prevayler.implementation.Capsule: java.lang.Object deserialize(org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer
+<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException	@Snapshot
+<org.prevayler.implementation.clock.MachineClock: void update()>/new java.util.Date/0	java.util.Date
+<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>/new java.io.FileInputStream/0	java.io.FileInputStream
+<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
 <org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
-<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
-<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.lang.Object/0	java.lang.Object
-<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.lang.Object/1	java.lang.Object
-<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
-<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.ByteArrayOutputStream/1	java.io.ByteArrayOutputStream
-<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File,java.lang.Exception)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.PrevaylerDirectory/0	org.prevayler.implementation.PrevaylerDirectory	@Snapshot
 <org.prevayler.foundation.DurableOutputStream: int writeObject(org.prevayler.foundation.Guided)>/new java.io.IOException/0	java.io.IOException
-<org.prevayler.foundation.DurableOutputStream: void waitUntilSynced(int)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void reset()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer	@Snapshot
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void dealWithSQLException(java.sql.SQLException,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.journal.TransientJournal: long nextTransaction()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection/0	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection
+<org.prevayler.foundation.network.ObjectServerSocketImpl: org.prevayler.foundation.network.ObjectSocket accept()>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.implementation.replication.ClientPublisher: void publish(org.prevayler.implementation.Capsule)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException	@Replication
+<org.prevayler.foundation.Cool: void startDaemon(java.lang.Runnable)>/new java.lang.Thread/0	java.lang.Thread
+<org.prevayler.demos.scalability.Main: void main(java.lang.String[])>/new java.io.FileInputStream/0	java.io.FileInputStream
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>/new java.io.EOFException/0	java.io.EOFException
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.serialization.Serializer journalSerializer()>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/1	javax.swing.JButton
+<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new byte[]/0	byte[]
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation: void actionPerformed(java.awt.event.ActionEvent)>/new org.prevayler.demos.demo2.gui.NewAccountFrame/0	org.prevayler.demos.demo2.gui.NewAccountFrame
+<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.RecordIterator: void <init>(int)>/new java.util.Random/0	java.util.Random
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
+<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new java.lang.Object/1	java.lang.Object
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.foundation.DeepCopier$Receiver/0	org.prevayler.foundation.DeepCopier$Receiver
+<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.lang.Object/0	java.lang.Object
+<org.prevayler.demos.scalability.Record: java.util.Date getDate1()>/new java.util.Date/0	java.util.Date
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.io.FileInputStream/0	java.io.FileInputStream	@(Snapshot) /\ (Snapshot)
+<org.prevayler.foundation.network.BaseNetworkImpl: void releasePortForReuse(int)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Integer/0	java.lang.Integer
+<org.prevayler.PrevaylerFactory: org.prevayler.Clock clock()>/new org.prevayler.implementation.clock.MachineClock/0	org.prevayler.implementation.clock.MachineClock
+<org.prevayler.demos.demo2.business.Account: void <init>(long,java.lang.String)>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
+<org.prevayler.implementation.journal.PersistentJournal: org.prevayler.foundation.DurableOutputStream createOutputJournal(long)>/new org.prevayler.foundation.DurableOutputStream/0	org.prevayler.foundation.DurableOutputStream
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.AccountFrame: java.awt.Container labelContainer(java.lang.String)>/new javax.swing.JLabel/0	javax.swing.JLabel
+<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.util.Date/0	java.util.Date
+<org.prevayler.implementation.journal.PersistentJournal: long nextTransaction()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.demo1.PrimeCalculator: void start()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.replication.ClientPublisher: void receiveTransactionFromServer()>/new org.prevayler.implementation.TransactionTimestamp/1	org.prevayler.implementation.TransactionTimestamp	@(Replication) /\ (Replication)
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>/new org.prevayler.foundation.network.StubbornServerReceiverImpl/0	org.prevayler.foundation.network.StubbornServerReceiverImpl	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.io.File/0	java.io.File
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.QuerySet/0	net.sourceforge.javamatch.query.QuerySet
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void <init>(java.io.InputStream)>/new org.prevayler.foundation.gzip.ContinuableGZIPInputStream/0	org.prevayler.foundation.gzip.ContinuableGZIPInputStream	@GZip
+<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.OutputStreamWriter/0	java.io.OutputStreamWriter
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Snapshot
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.lang.String[]/0	java.lang.String[]
+<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Snapshot) /\ (Snapshot)
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.SessionsManager getSessionManager(org.prevayler.foundation.network.Service)>/new org.prevayler.foundation.network.SessionsManagerImpl/0	org.prevayler.foundation.network.SessionsManagerImpl	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection/0	org.prevayler.demos.scalability.prevayler.PrevaylerQueryConnection
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void mark(int)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new org.prevayler.implementation.clock.BrokenClock/0	org.prevayler.implementation.clock.BrokenClock	@Replication
+<org.prevayler.demos.scalability.Main: void runJdbcTransaction()>/new org.prevayler.demos.scalability.TransactionTestRun/0	org.prevayler.demos.scalability.TransactionTestRun
+<org.prevayler.foundation.StopWatch: org.prevayler.foundation.StopWatch start()>/new org.prevayler.foundation.StopWatch/0	org.prevayler.foundation.StopWatch
+<org.prevayler.PrevaylerFactory: void configureJournalSerializer(java.lang.String,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidJournalSuffix(java.lang.String)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
+<org.prevayler.implementation.replication.ClientPublisher: void receiveTransactionFromServer()>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp	@(Replication) /\ (Replication)
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
+<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.lang.String,int)>/new java.net.Socket/0	java.net.Socket	@(Replication) /\ (Replication)
+<org.prevayler.foundation.Cool: void unexpected(java.lang.Exception)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/2	javax.swing.JButton
+<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new org.prevayler.demos.scalability.TransactionTestRun/0	org.prevayler.demos.scalability.TransactionTestRun
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.util.Date/1	java.util.Date
+<org.prevayler.demos.scalability.RecordIterator: void indicateProgress()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>/new org.prevayler.implementation.replication.ServerListener/0	org.prevayler.implementation.replication.ServerListener	@Replication
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JPanel/0	javax.swing.JPanel
+<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void produceNewFoodTaster(long)>/new java.lang.RuntimeException/0	java.lang.RuntimeException	@(Censor) /\ (Censor)
+<org.prevayler.demos.demo2.business.Account: void verify(long)>/new org.prevayler.demos.demo2.business.Account$InvalidAmount/1	org.prevayler.demos.demo2.business.Account$InvalidAmount
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: long skip(long)>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
+<org.prevayler.demos.demo2.gui.AccountFrame: void <init>(java.lang.String,org.prevayler.Prevayler,java.awt.Container)>/new java.awt.Color/0	java.awt.Color
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.lang.Object/1	java.lang.Object
+<org.prevayler.demos.demo2.gui.BankFrame: void refreshClock()>/new org.prevayler.demos.demo2.gui.BankFrame$1/0	org.prevayler.demos.demo2.gui.BankFrame$1
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction: void action(org.prevayler.demos.demo2.business.Account)>/new org.prevayler.demos.demo2.business.transactions.AccountDeletion/0	org.prevayler.demos.demo2.business.transactions.AccountDeletion
+<org.prevayler.demos.demo2.business.Account: void verify(long)>/new org.prevayler.demos.demo2.business.Account$InvalidAmount/0	org.prevayler.demos.demo2.business.Account$InvalidAmount
+<org.prevayler.implementation.publishing.POBox: void <init>(org.prevayler.implementation.publishing.TransactionSubscriber)>/new java.util.LinkedList/0	java.util.LinkedList
+<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/1	java.lang.RuntimeException
+<org.prevayler.demos.scalability.Main: void runJdbcQuery()>/new org.prevayler.demos.scalability.jdbc.JDBCQuerySubject/0	org.prevayler.demos.scalability.jdbc.JDBCQuerySubject
+<org.prevayler.demos.demo2.MainTransient: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank
+<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void dealWithSQLException(java.sql.SQLException,java.lang.String)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.scalability.Record: java.lang.String generateLargeString()>/new char[]/0	char[]
+<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>/new org.prevayler.foundation.network.ObjectSocketImpl/0	org.prevayler.foundation.network.ObjectSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.Main: java.lang.String prevaylerTransactionLogDirectory()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Deposit/0	org.prevayler.demos.demo2.business.transactions.Deposit
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Object[]/0	java.lang.Object[]
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void update(org.prevayler.demos.scalability.Record)>/new java.sql.Date/1	java.sql.Date
+<org.prevayler.implementation.PrevaylerDirectory$1: int compare(java.lang.Object,java.lang.Object)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.implementation.PrevaylerDirectory: void <init>(java.lang.String)>/new java.io.File/0	java.io.File
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: org.prevayler.foundation.network.StubbornNetworkProxy establishNewSession()>/new org.prevayler.foundation.network.StubbornNetworkProxy/0	org.prevayler.foundation.network.StubbornNetworkProxy	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.Main: java.lang.String property(java.lang.String)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectServerSocket openObjectServerSocket(int)>/new org.prevayler.foundation.network.ObjectServerSocketImpl/0	org.prevayler.foundation.network.ObjectServerSocketImpl	@(Replication) /\ (Replication)
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.snapshot.GenericSnapshotManager/1	org.prevayler.implementation.snapshot.GenericSnapshotManager	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.scalability.prevayler.AllRecordsReplacement: void executeOn(java.lang.Object,java.util.Date)>/new org.prevayler.demos.scalability.RecordIterator/0	org.prevayler.demos.scalability.RecordIterator
+<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new java.lang.Object/0	java.lang.Object	@Replication
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read()>/new byte[]/0	byte[]	@(GZip) /\ (GZip)
+<org.prevayler.demos.demo2.gui.TransferFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
+<org.prevayler.demos.demo2.business.Bank: void deleteAccount(long)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new javax.swing.JDesktopPane/0	javax.swing.JDesktopPane
+<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.implementation.journal.TransientJournal: void append(org.prevayler.implementation.TransactionGuide)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.PrevaylerDirectory/0	org.prevayler.implementation.PrevaylerDirectory	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.TransactionTimestamp: java.util.Date executionTime()>/new java.util.Date/0	java.util.Date
+<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.demo2.MainReplica: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Replication) /\ (Replication)
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.journal.TransientJournal/0	org.prevayler.implementation.journal.TransientJournal	@Snapshot
+<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/1	javax.swing.JTextField
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new org.prevayler.foundation.DurableInputStream/0	org.prevayler.foundation.DurableInputStream	@Monitor
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream
+<org.prevayler.foundation.DurableInputStream: org.prevayler.foundation.Chunk readChunk()>/new java.io.EOFException/1	java.io.EOFException
+<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.foundation.serialization.SkaringaSerializer/0	org.prevayler.foundation.serialization.SkaringaSerializer	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.math.BigDecimal/1	java.math.BigDecimal
+<org.prevayler.demos.scalability.prevayler.QuerySystem: void put(org.prevayler.demos.scalability.Record)>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.foundation.FileLocker: void <init>(java.io.File)>/new java.io.RandomAccessFile/0	java.io.RandomAccessFile
+<org.prevayler.demos.demo2.business.Bank: void transfer(long,long,long,java.util.Date)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.CentralPublisher/0	org.prevayler.implementation.publishing.CentralPublisher	@(Snapshot) /\ (Snapshot /\ Censor)
+<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: java.io.InputStream remainingInput()>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream	@(GZip) /\ (GZip)
+<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.AllAccountsFrame/0	org.prevayler.demos.demo2.gui.AllAccountsFrame
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$DepositAction
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.ByteArrayOutputStream/1	java.io.ByteArrayOutputStream
+<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object prevalentSystem()>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void update(org.prevayler.demos.scalability.Record)>/new java.sql.Date/0	java.sql.Date
+<org.prevayler.foundation.network.StubbornNetworkImpl: void <init>()>/new java.util.HashMap/0	java.util.HashMap	@(Replication) /\ (Replication)
+<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.OutputStreamWriter/1	java.io.OutputStreamWriter
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.Main: void main(java.lang.String[])>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction
+<org.prevayler.implementation.snapshot.NullSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.io.IOException/0	java.io.IOException	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account searchAccount(long)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.demo2.MainXStream$1: com.thoughtworks.xstream.XStream createXStream()>/new com.thoughtworks.xstream.XStream/0	com.thoughtworks.xstream.XStream	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.demo2.Main: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.TransactionWithQuery)>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
+<org.prevayler.demos.scalability.Record: int hashCode()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.RecordIterator: void indicateProgress()>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>/new java.io.BufferedInputStream/0	java.io.BufferedInputStream
+<org.prevayler.demos.scalability.prevayler.PrevaylerScalabilitySubject: void replaceAllRecords(int)>/new org.prevayler.demos.scalability.prevayler.AllRecordsReplacement/0	org.prevayler.demos.scalability.prevayler.AllRecordsReplacement
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(int)>/new byte[]/0	byte[]	@(GZip) /\ (GZip)
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void delete(java.lang.String)>/new java.io.File/0	java.io.File
+<org.prevayler.demos.demo2.business.Account: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.demos.demo2.MainXStream$1/0	org.prevayler.demos.demo2.MainXStream$1	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.clock.BrokenClock: void <init>()>/new java.util.Date/0	java.util.Date
+<org.prevayler.foundation.monitor.SimpleMonitor: void error(java.lang.Class,java.lang.String,java.lang.Exception)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.implementation.replication.ClientPublisher: void startListening()>/new org.prevayler.implementation.replication.ClientPublisher$1/0	org.prevayler.implementation.replication.ClientPublisher$1	@(Replication) /\ (Replication)
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void reportResourcesUsed(java.io.PrintStream)>/new java.io.File/0	java.io.File
+<org.prevayler.demos.scalability.Main: int intProperty(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.implementation.snapshot.GenericSnapshotManager/0	org.prevayler.implementation.snapshot.GenericSnapshotManager	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: java.sql.PreparedStatement prepare(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.gzip.ContinuableGZIPInputStream: java.io.InputStream remainingInput()>/new java.io.SequenceInputStream/0	java.io.SequenceInputStream	@(GZip) /\ (GZip)
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountCreation
+<org.prevayler.demos.scalability.Main: java.io.File propertiesFile()>/new java.io.File/0	java.io.File
+<org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Float/0	java.lang.Float
+<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard	@Snapshot
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.Main: void createPropertiesFile(java.io.File)>/new java.io.FileOutputStream/0	java.io.FileOutputStream
+<org.prevayler.demos.scalability.ScalabilityTestRun: double performRound(int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: java.sql.Connection createConnection()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction: void action()>/new org.prevayler.demos.demo2.business.transactions.AccountCreation/0	org.prevayler.demos.demo2.business.transactions.AccountCreation
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JButton/0	javax.swing.JButton
+<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/new org.prevayler.implementation.PrevaylerDirectory$1/0	org.prevayler.implementation.PrevaylerDirectory$1
+<org.prevayler.demos.scalability.ScalabilityTestRun: void startThread(long,int)>/new org.prevayler.demos.scalability.ScalabilityTestRun$1/0	org.prevayler.demos.scalability.ScalabilityTestRun$1
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account findAccount(long)>/new org.prevayler.demos.demo2.business.Bank$AccountNotFound/0	org.prevayler.demos.demo2.business.Bank$AccountNotFound
+<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String timestampString()>/new java.text.SimpleDateFormat/0	java.text.SimpleDateFormat
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.PipedInputStream/0	java.io.PipedInputStream
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.IllegalArgumentException/1	java.lang.IllegalArgumentException
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidSnapshotSuffix(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.DeepCopier$Receiver: java.lang.Object getResult()>/new java.lang.RuntimeException/2	java.lang.RuntimeException
+<org.prevayler.implementation.clock.PausableClock: void <init>(org.prevayler.Clock)>/new org.prevayler.implementation.clock.BrokenClock/0	org.prevayler.implementation.clock.BrokenClock
+<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File findInitialJournalFile(long)>/new org.prevayler.implementation.PrevaylerDirectory$FileFilter1/0	org.prevayler.implementation.PrevaylerDirectory$FileFilter1
+<org.prevayler.demos.demo2.gui.AccountFrame: void <init>(java.lang.String,org.prevayler.Prevayler,java.awt.Container)>/new javax.swing.JTextField/0	javax.swing.JTextField
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.replication.ClientPublisher/0	org.prevayler.implementation.replication.ClientPublisher	@(Snapshot) /\ (Replication /\ Snapshot)
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void writeSnapshot(java.lang.Object,long)>/new java.io.IOException/0	java.io.IOException	@Snapshot
+<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new java.lang.Object/0	java.lang.Object
 <org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void startReading()>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl$1	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo1.NumberKeeper: void <init>()>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.network.SessionsManagerImpl: org.prevayler.foundation.network.NetworkSessionId add(org.prevayler.foundation.network.StubbornNetworkProxy)>/new org.prevayler.foundation.network.NetworkSessionId/0	org.prevayler.foundation.network.NetworkSessionId	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void insert(org.prevayler.demos.scalability.Record)>/new java.sql.Date/0	java.sql.Date
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void close()>/new java.lang.UnsupportedOperationException/0	java.lang.UnsupportedOperationException	@(GZip) /\ (GZip)
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new org.prevayler.demos.demo2.gui.MatchFrame$1/0	org.prevayler.demos.demo2.gui.MatchFrame$1
+<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.implementation.PrevalentSystemGuard: void receive(org.prevayler.implementation.TransactionTimestamp)>/new java.lang.Error/0	java.lang.Error
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/0	javax.swing.JTextField
+<org.prevayler.demos.demo2.business.Account: java.util.Set listeners()>/new java.util.HashSet/0	java.util.HashSet
+<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn first()>/new org.prevayler.foundation.Turn/0	org.prevayler.foundation.Turn
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.journal.Journal journal()>/new org.prevayler.implementation.journal.PersistentJournal/0	org.prevayler.implementation.journal.PersistentJournal	@Monitor /\ Snapshot
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher()>/new org.prevayler.implementation.publishing.CentralPublisher/0	org.prevayler.implementation.publishing.CentralPublisher
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
+<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void <init>(java.io.OutputStream)>/new org.prevayler.foundation.gzip.NonCloseableOutputStream/0	org.prevayler.foundation.gzip.NonCloseableOutputStream	@GZip
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.demo2.gui.AccountEditFrame: java.lang.Number enterAmount(java.lang.String)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.foundation.serialization.SkaringaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new javax.xml.transform.stream.StreamResult/0	javax.xml.transform.stream.StreamResult
+<org.prevayler.implementation.Capsule: org.prevayler.implementation.Capsule fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionCapsule/0	org.prevayler.implementation.TransactionCapsule
+<org.prevayler.implementation.journal.PersistentJournal: void handle(java.io.IOException,java.io.File,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.censorship.TransactionCensor censor(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor/0	org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor	@(Censor) /\ (Censor)
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: void <init>()>/new java.util.HashMap/0	java.util.HashMap
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/2	javax.swing.JButton
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.StubbornNetwork,java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Replication
+<org.prevayler.implementation.journal.PersistentJournal: long recoverPendingTransactions(org.prevayler.implementation.publishing.TransactionSubscriber,long,java.io.File)>/new org.prevayler.foundation.DurableInputStream/1	org.prevayler.foundation.DurableInputStream	@Monitor
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.network.OldNetwork network()>/new org.prevayler.foundation.network.OldNetworkImpl/0	org.prevayler.foundation.network.OldNetworkImpl	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addFields(javax.swing.Box)>/new javax.swing.JList/0	javax.swing.JList
+<org.prevayler.implementation.Capsule: void <init>(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createCheckpointPrevayler(java.io.Serializable,java.lang.String)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/1	javax.swing.JButton
+<org.prevayler.demos.scalability.Record: void <clinit>()>/new java.util.Random/0	java.util.Random
+<org.prevayler.foundation.monitor.LoggingMonitor: void notify(java.lang.Class,java.lang.String,java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@Monitor
+<org.prevayler.foundation.network.BaseNetworkImpl: void <init>()>/new java.util.HashMap/0	java.util.HashMap	@Replication
+<org.prevayler.foundation.Turn: org.prevayler.foundation.Turn next()>/new org.prevayler.foundation.Turn/0	org.prevayler.foundation.Turn
+<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.table.DefaultTableModel/0	javax.swing.table.DefaultTableModel
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new javax.swing.JButton/0	javax.swing.JButton
+<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>/new java.lang.Object/1	java.lang.Object	@Replication
+<org.prevayler.foundation.network.StubbornServerReceiverImpl: void <init>(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket,org.prevayler.foundation.network.SessionsManager)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@Replication
+<org.prevayler.demos.scalability.Record: java.util.Date getDate2()>/new java.util.Date/0	java.util.Date
+<org.prevayler.demos.scalability.jdbc.JDBCQuerySubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.jdbc.JDBCQueryConnection/0	org.prevayler.demos.scalability.jdbc.JDBCQueryConnection
+<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/0	javax.swing.JTextField
+<org.prevayler.implementation.replication.ServerConnection: void run()>/new org.prevayler.implementation.publishing.POBox/0	org.prevayler.implementation.publishing.POBox	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.foundation.serialization.JavaSerializer: java.lang.Object readObject(java.io.InputStream)>/new org.prevayler.foundation.ObjectInputStreamWithClassLoader/0	org.prevayler.foundation.ObjectInputStreamWithClassLoader
+<org.prevayler.demos.demo2.MainReplica: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JPanel/0	javax.swing.JPanel
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.lang.Object)>/new org.prevayler.foundation.serialization.JavaSerializer/1	org.prevayler.foundation.serialization.JavaSerializer	@Snapshot
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.awt.BorderLayout/0	java.awt.BorderLayout
+<org.prevayler.foundation.monitor.SimpleMonitor: void info(java.lang.Class,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Monitor) /\ (Monitor)
+<org.prevayler.demos.scalability.Record: void <init>(long,java.util.Random)>/new java.math.BigDecimal/0	java.math.BigDecimal
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopy(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream
+<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.Main: java.lang.String property(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.FileManager: java.io.File produceDirectory(java.lang.String)>/new java.io.File/0	java.io.File
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.network.BaseNetworkImpl: void markPortAsUsed(int,org.prevayler.foundation.network.NetworkServerObjectReceiver)>/new java.lang.Integer/0	java.lang.Integer	@(Replication) /\ (Replication)
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.io.ByteArrayOutputStream/0	java.io.ByteArrayOutputStream
+<org.prevayler.foundation.network.ObjectSocketImpl: void <init>(java.net.Socket)>/new java.io.ObjectInputStream/0	java.io.ObjectInputStream	@Replication
+<org.prevayler.PrevaylerFactory: java.lang.Object prevalentSystem()>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.demo2.gui.BankFrame: void <init>(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame/0	org.prevayler.demos.demo2.gui.BankFrame$RobustnessFrame
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction/0	org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>/new org.prevayler.demos.scalability.prevayler.TransactionSystem/0	org.prevayler.demos.scalability.prevayler.TransactionSystem
+<org.prevayler.implementation.replication.ServerListener: void run()>/new org.prevayler.implementation.replication.ServerConnection/0	org.prevayler.implementation.replication.ServerConnection	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File file(long,java.lang.String)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>/new java.io.PipedOutputStream/0	java.io.PipedOutputStream
+<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction/0	org.prevayler.demos.demo2.gui.NewAccountFrame$OKAction
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilitySubject: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.BankFrame$1: void run()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.replication.ServerConnection: java.lang.Thread createClockTickSender()>/new org.prevayler.implementation.replication.ServerConnection$1/0	org.prevayler.implementation.replication.ServerConnection$1	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.business.Bank: java.util.List accounts()>/new org.prevayler.demos.demo2.business.Bank$1/0	org.prevayler.demos.demo2.business.Bank$1
+<org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountEditAction: void action(org.prevayler.demos.demo2.business.Account)>/new org.prevayler.demos.demo2.gui.AccountEditFrame/0	org.prevayler.demos.demo2.gui.AccountEditFrame
+<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.io.InputStreamReader/1	java.io.InputStreamReader
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: void <init>(org.prevayler.Prevayler,java.awt.Container)>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.journal.PersistentJournal: void append(org.prevayler.implementation.TransactionGuide)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.io.IOException/1	java.io.IOException
+<org.prevayler.demos.demo2.gui.AccountEditFrame: void <init>(org.prevayler.demos.demo2.business.Account,org.prevayler.Prevayler,java.awt.Container)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.publishing.CentralPublisher: org.prevayler.implementation.TransactionGuide approve(org.prevayler.implementation.Capsule)>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
+<org.prevayler.demos.demo2.business.Bank$AccountNotFound: void <init>(org.prevayler.demos.demo2.business.Bank,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo1.PrimeCalculator: void start()>/new org.prevayler.demos.demo1.NumberStorageTransaction/0	org.prevayler.demos.demo1.NumberStorageTransaction
+<org.prevayler.foundation.network.ObjectServerSocketImpl: void <init>(int)>/new java.net.ServerSocket/0	java.net.ServerSocket	@Replication
+<org.prevayler.demos.demo2.gui.TransferFrame: void addFields(javax.swing.Box)>/new javax.swing.JTextField/2	javax.swing.JTextField
+<org.prevayler.demos.scalability.prevayler.PrevalenceTest: void deleteDirectoryContents(java.io.File)>/new org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter/0	org.prevayler.demos.scalability.prevayler.PrevalenceTest$PrevalenceFilter
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void insert(org.prevayler.demos.scalability.Record)>/new java.sql.Date/1	java.sql.Date
+<org.prevayler.foundation.network.SessionsManagerImpl: void <init>(long)>/new java.util.HashMap/0	java.util.HashMap	@Replication
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void replaceAllRecords(int)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>/new org.prevayler.demos.scalability.prevayler.QuerySystem/0	org.prevayler.demos.scalability.prevayler.QuerySystem
+<org.prevayler.PrevaylerFactory: void <init>()>/new java.util.HashMap/0	java.util.HashMap
+<org.prevayler.demos.scalability.Main: void <clinit>()>/new java.util.Properties/0	java.util.Properties
+<org.prevayler.implementation.PrevaylerDirectory: void renameUnusedFile(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.serialization.XStreamSerializer: void <init>(java.lang.String)>/new org.prevayler.foundation.serialization.XStreamSerializer$1/0	org.prevayler.foundation.serialization.XStreamSerializer$1
+<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.DurableOutputStream: void waitUntilSynced(int)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.Main: void runPrevaylerQuery()>/new org.prevayler.demos.scalability.QueryTestRun/0	org.prevayler.demos.scalability.QueryTestRun
+<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read(byte[],int,int)>/new org.prevayler.foundation.gzip.ContinuableGZIPInputStream/0	org.prevayler.foundation.gzip.ContinuableGZIPInputStream	@(GZip) /\ (GZip)
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.util.LinkedHashMap/0	java.util.LinkedHashMap
+<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.SureTransactionWithQuery)>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.demo2.business.Bank: java.util.List accounts()>/new java.util.ArrayList/0	java.util.ArrayList
+<org.prevayler.implementation.replication.ClientPublisher: void wait(java.lang.Object)>/new java.lang.RuntimeException/0	java.lang.RuntimeException	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevaylerImpl: void execute(org.prevayler.Transaction)>/new org.prevayler.implementation.TransactionCapsule/0	org.prevayler.implementation.TransactionCapsule
+<org.prevayler.demos.demo2.gui.AccountEditFrame$TransferAction: void action()>/new org.prevayler.demos.demo2.gui.TransferFrame/0	org.prevayler.demos.demo2.gui.TransferFrame
+<org.prevayler.demos.scalability.jdbc.JDBCTransactionSubject: java.lang.Object createTestConnection()>/new org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection/0	org.prevayler.demos.scalability.jdbc.JDBCTransactionConnection
+<org.prevayler.demos.scalability.prevayler.TransactionSystem: java.lang.Object put(org.prevayler.demos.scalability.Record)>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.scalability.jdbc.JDBCQueryConnection: java.util.List queryByName(java.lang.String)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.Capsule: org.prevayler.foundation.Chunk toChunk()>/new org.prevayler.foundation.Chunk/0	org.prevayler.foundation.Chunk
+<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account createAccount(java.lang.String)>/new org.prevayler.demos.demo2.business.Account/0	org.prevayler.demos.demo2.business.Account
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.util.StringTokenizer/0	java.util.StringTokenizer
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.lang.StringBuilder/1	java.lang.StringBuilder
+<org.prevayler.foundation.network.StubbornClientReceiverImpl: void <init>(org.prevayler.foundation.network.StubbornNetwork,java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.NetworkSessionId/0	org.prevayler.foundation.network.NetworkSessionId	@Replication
+<org.prevayler.demos.demo2.Main: void startGui(org.prevayler.Prevayler)>/new org.prevayler.demos.demo2.gui.BankFrame/0	org.prevayler.demos.demo2.gui.BankFrame
+<org.prevayler.implementation.TransactionGuide: void checkSystemVersion(long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>/new org.prevayler.foundation.serialization.JavaSerializer/0	org.prevayler.foundation.serialization.JavaSerializer	@(Snapshot) /\ (Snapshot)
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JTable/0	javax.swing.JTable
+<org.prevayler.demos.demo1.Main: void printMessage()>/new java.io.BufferedReader/0	java.io.BufferedReader
+<org.prevayler.implementation.PrevaylerDirectory: void renameUnusedFile(java.io.File)>/new java.io.File/0	java.io.File
+<org.prevayler.foundation.network.NetworkSessionId: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder	@(Replication) /\ (Replication)
+<org.prevayler.implementation.PrevaylerDirectory: void checkValidSnapshotSuffix(java.lang.String)>/new java.lang.IllegalArgumentException/0	java.lang.IllegalArgumentException
+<org.prevayler.foundation.serialization.JavaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>/new java.io.ObjectOutputStream/0	java.io.ObjectOutputStream
+<org.prevayler.PrevaylerFactory: org.prevayler.foundation.monitor.Monitor monitor()>/new org.prevayler.foundation.monitor.SimpleMonitor/0	org.prevayler.foundation.monitor.SimpleMonitor	@(Monitor) /\ (Monitor)
+<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.Main: int numberOfObjects()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.Maximum/0	net.sourceforge.javamatch.query.Maximum
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new java.lang.Long/0	java.lang.Long
+<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new java.lang.RuntimeException/0	java.lang.RuntimeException
+<org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Withdrawal/0	org.prevayler.demos.demo2.business.transactions.Withdrawal
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new javax.swing.JScrollPane/0	javax.swing.JScrollPane
+<org.prevayler.implementation.publishing.CentralPublisher: void <init>(org.prevayler.Clock,org.prevayler.implementation.journal.Journal)>/new org.prevayler.implementation.clock.PausableClock/0	org.prevayler.implementation.clock.PausableClock
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/2	java.io.IOException
+<org.prevayler.demos.scalability.TransactionTestRun: void executeOperation(java.lang.Object,long)>/new org.prevayler.demos.scalability.Record/1	org.prevayler.demos.scalability.Record
+<org.prevayler.demos.scalability.QueryTestRun: void executeOperation(java.lang.Object,long)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>/new org.prevayler.demos.demo2.business.Bank/0	org.prevayler.demos.demo2.business.Bank	@(Replication) /\ (Replication)
+<org.prevayler.foundation.FileLocker: java.lang.String propertyName()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.AccountFrame: javax.swing.JPanel buttonPanel()>/new javax.swing.JPanel/0	javax.swing.JPanel
+<org.prevayler.demos.scalability.Main: java.lang.String prevaylerJournalSerializer()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory	@(Replication) /\ (Replication)
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String toResultString(double,int)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.implementation.TransactionTimestamp: org.prevayler.implementation.TransactionTimestamp cleanCopy()>/new org.prevayler.implementation.TransactionTimestamp/0	org.prevayler.implementation.TransactionTimestamp
+<org.prevayler.demos.demo2.gui.AllAccountsFrame: javax.swing.JPanel accountButtons()>/new org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction/0	org.prevayler.demos.demo2.gui.AllAccountsFrame$AccountDeleteAction
+<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.business.Account: java.lang.String numberString(long)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
+<org.prevayler.PrevaylerFactory: org.prevayler.implementation.publishing.TransactionPublisher publisher()>/new org.prevayler.implementation.replication.ClientPublisher/0	org.prevayler.implementation.replication.ClientPublisher	@Replication
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createTransientPrevayler(java.io.Serializable)>/new org.prevayler.implementation.snapshot.NullSnapshotManager/0	org.prevayler.implementation.snapshot.NullSnapshotManager	@Snapshot
+<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>/new java.io.EOFException/1	java.io.EOFException
+<org.prevayler.implementation.Capsule: org.prevayler.implementation.Capsule fromChunk(org.prevayler.foundation.Chunk)>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
+<org.prevayler.implementation.journal.TransientJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>/new java.io.IOException/0	java.io.IOException
+<org.prevayler.demos.scalability.ScalabilityTestRun: void <init>(org.prevayler.demos.scalability.ScalabilityTestSubject,int,int,int)>/new java.util.LinkedList/0	java.util.LinkedList
+<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>/new org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject/0	org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>/new java.io.IOException/0	java.io.IOException	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.TransactionWithQueryCapsule: org.prevayler.implementation.Capsule cleanCopy()>/new org.prevayler.implementation.TransactionWithQueryCapsule/0	org.prevayler.implementation.TransactionWithQueryCapsule
+<org.prevayler.implementation.publishing.AbstractPublisher: void <init>(org.prevayler.Clock)>/new java.util.LinkedList/0	java.util.LinkedList
+<org.prevayler.implementation.journal.PersistentJournal: void initializeNextTransaction(long,long)>/new java.lang.IllegalStateException/0	java.lang.IllegalStateException
+<org.prevayler.demos.demo2.business.AccountEntry: java.lang.String toString()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionConnection: void performTransaction(org.prevayler.demos.scalability.Record,org.prevayler.demos.scalability.Record,long)>/new org.prevayler.demos.scalability.prevayler.TestTransaction/0	org.prevayler.demos.scalability.prevayler.TestTransaction
+<org.prevayler.demos.demo2.gui.MatchFrame: void initUI()>/new java.awt.FlowLayout/0	java.awt.FlowLayout
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.engine.MatchEngine/0	net.sourceforge.javamatch.engine.MatchEngine
+<org.prevayler.demos.scalability.Main: void runPrevaylerQuery()>/new org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject/0	org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject
+<org.prevayler.implementation.Capsule: java.lang.Object deserialize(org.prevayler.foundation.serialization.Serializer)>/new java.io.ByteArrayInputStream/0	java.io.ByteArrayInputStream
+<org.prevayler.foundation.DurableOutputStream: void <init>(java.io.File)>/new java.lang.Object/0	java.lang.Object
+<org.prevayler.demos.demo2.gui.NewAccountFrame: void addButtons(javax.swing.JPanel)>/new javax.swing.JButton/0	javax.swing.JButton
+<org.prevayler.demos.scalability.ScalabilityTestRun: java.lang.String toResultString(double,int)>/new java.text.DecimalFormat/0	java.text.DecimalFormat
+<org.prevayler.implementation.PrevalentSystemGuard: void takeSnapshot(org.prevayler.implementation.snapshot.GenericSnapshotManager)>/new java.lang.Error/0	java.lang.Error	@(Snapshot) /\ (Snapshot)
+<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.gui.TransferFrame$OKAction: void action()>/new org.prevayler.demos.demo2.business.transactions.Transfer/0	org.prevayler.demos.demo2.business.transactions.Transfer
+<org.prevayler.demos.demo2.gui.MatchFrame: void refreshTable()>/new net.sourceforge.javamatch.query.Maximum/1	net.sourceforge.javamatch.query.Maximum
+<org.prevayler.demos.scalability.jdbc.JDBCScalabilityConnection: void <init>(java.sql.Connection)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.demos.demo2.business.Account: void register(long,java.util.Date)>/new org.prevayler.demos.demo2.business.AccountEntry/0	org.prevayler.demos.demo2.business.AccountEntry
+<org.prevayler.demos.demo2.business.Account: void verify(java.lang.String)>/new org.prevayler.demos.demo2.business.Account$InvalidHolder/0	org.prevayler.demos.demo2.business.Account$InvalidHolder
+<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>/new java.lang.StringBuilder/0	java.lang.StringBuilder
+<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(org.prevayler.foundation.network.Service,org.prevayler.foundation.network.ObjectSocket)>/new org.prevayler.foundation.network.NetworkClientObjectReceiverImpl/0	org.prevayler.foundation.network.NetworkClientObjectReceiverImpl	@(Replication) /\ (Replication)
+<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver locateService(int)>/new java.io.IOException/0	java.io.IOException	@(Replication) /\ (Replication)
+<org.prevayler.foundation.network.BaseNetworkImpl: void checkPortNotUsed(int)>/new java.io.IOException/0	java.io.IOException	@(Replication) /\ (Replication)
+<org.prevayler.demos.demo2.gui.TransferFrame: void addButtons(javax.swing.JPanel)>/new org.prevayler.demos.demo2.gui.TransferFrame$OKAction/0	org.prevayler.demos.demo2.gui.TransferFrame$OKAction
+<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>/new org.prevayler.implementation.PrevalentSystemGuard/0	org.prevayler.implementation.PrevalentSystemGuard	@Snapshot
+<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable,java.lang.String)>/new org.prevayler.PrevaylerFactory/0	org.prevayler.PrevaylerFactory
+<org.prevayler.foundation.network.StubbornNetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>/new org.prevayler.foundation.network.StubbornClientReceiverImpl/0	org.prevayler.foundation.network.StubbornClientReceiverImpl	@(Replication) /\ (Replication)

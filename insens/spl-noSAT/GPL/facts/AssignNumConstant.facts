@@ -16,8 +16,8 @@
 <Main: void main(java.lang.String[])>/assign/instruction36	36	0	<Main: void main(java.lang.String[])>/i_$$A_2#_44	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
 <Graph: Graph prim(Vertex)>/assign/instruction126	126	0	<Graph: Graph prim(Vertex)>/$numconstant2	<Graph: Graph prim(Vertex)>	@MSTPrim
 <Graph: void <clinit>()>/assign/instruction3	3	0L	<Graph: void <clinit>()>/$numconstant1	<Graph: void <clinit>()>	@Benchmark
-<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction14	14	1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@(MSTKruskal) /\ (MSTKruskal)
 <CycleWorkSpace: void preVisitAction(Vertex)>/assign/instruction9	9	1	<CycleWorkSpace: void preVisitAction(Vertex)>/$numconstant0	<CycleWorkSpace: void preVisitAction(Vertex)>	@Cycle
+<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction14	14	1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@(MSTKruskal) /\ (MSTKruskal)
 <RegionWorkSpace: void init_vertex(Vertex)>/assign/instruction3	3	-1	<RegionWorkSpace: void init_vertex(Vertex)>/$numconstant0	<RegionWorkSpace: void init_vertex(Vertex)>	@(Connected) /\ (Connected)
 <Graph: void display()>/assign/instruction8	8	0	<Graph: void display()>/edgeiter#_173	<Graph: void display()>
 <Main: void main(java.lang.String[])>/assign/instruction55	55	0	<Main: void main(java.lang.String[])>/i_$$A_2_$$A_3#_51	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
@@ -25,9 +25,9 @@
 <Graph: int readNumber()>/assign/instruction2	2	0	<Graph: int readNumber()>/index#_207	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
 <Graph: Graph kruskal()>/assign/instruction43	43	0	<Graph: Graph kruskal()>/j_$$A_1_$$A_1#_448	<Graph: Graph kruskal()>	@MSTKruskal
 <Vertex: int getWeight()>/return/instruction2	2	0	<Vertex: int getWeight()>/$numconstant0	<Vertex: int getWeight()>	@(G_NoEdges) /\ (G_NoEdges)
-<Vertex: void init_vertex(WorkSpace)>/assign/instruction3	3	0	<Vertex: void init_vertex(WorkSpace)>/$numconstant0	<Vertex: void init_vertex(WorkSpace)>	@(SearchBase) /\ (SearchBase)
-<CycleWorkSpace: void <init>()>/assign/instruction3	3	0	<CycleWorkSpace: void <init>()>/$numconstant0	<CycleWorkSpace: void <init>()>	@Cycle
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction12	12	0	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant1	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
+<CycleWorkSpace: void <init>()>/assign/instruction3	3	0	<CycleWorkSpace: void <init>()>/$numconstant0	<CycleWorkSpace: void <init>()>	@Cycle
+<Vertex: void init_vertex(WorkSpace)>/assign/instruction3	3	0	<Vertex: void init_vertex(WorkSpace)>/$numconstant0	<Vertex: void init_vertex(WorkSpace)>	@(SearchBase) /\ (SearchBase)
 <NumberWorkSpace: void <init>()>/assign/instruction3	3	0	<NumberWorkSpace: void <init>()>/$numconstant0	<NumberWorkSpace: void <init>()>	@Number
 <Graph: void <clinit>()>/assign/instruction5	5	0L	<Graph: void <clinit>()>/$numconstant2	<Graph: void <clinit>()>	@Benchmark
 <CycleWorkSpace: void init_vertex(Vertex)>/assign/instruction5	5	0	<CycleWorkSpace: void init_vertex(Vertex)>/$numconstant1	<CycleWorkSpace: void init_vertex(Vertex)>	@(Cycle) /\ (Cycle)

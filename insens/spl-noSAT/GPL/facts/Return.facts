@@ -7,8 +7,8 @@
 <Graph: boolean cycleCheck()>/return/instruction7	7	<Graph: boolean cycleCheck()>/$z0	<Graph: boolean cycleCheck()>	@(Cycle) /\ (Cycle)
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
 <Vertex$VertexIter1: Vertex next()>/return/instruction5	5	<Vertex$VertexIter1: Vertex next()>/$r2	<Vertex$VertexIter1: Vertex next()>	@(G_NoEdges) /\ (G_NoEdges)
-<Vertex$VertexIter1: boolean hasNext()>/return/instruction4	4	<Vertex$VertexIter1: boolean hasNext()>/$z0	<Vertex$VertexIter1: boolean hasNext()>	@(G_NoEdges) /\ (G_NoEdges)
 <Vertex$VertexIter3: Vertex next()>/return/instruction6	6	<Vertex$VertexIter3: Vertex next()>/$r3	<Vertex$VertexIter3: Vertex next()>	@(GEN_Edges) /\ (GEN_Edges)
+<Vertex$VertexIter1: boolean hasNext()>/return/instruction4	4	<Vertex$VertexIter1: boolean hasNext()>/$z0	<Vertex$VertexIter1: boolean hasNext()>	@(G_NoEdges) /\ (G_NoEdges)
 <Edge: Vertex getOtherVertex(Vertex)>/return/instruction6	6	<Edge: Vertex getOtherVertex(Vertex)>/$r3	<Edge: Vertex getOtherVertex(Vertex)>	@(EdgeObjects) /\ (EdgeObjects)
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/return/instruction8	8	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$numconstant0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: Graph strongComponents()>/return/instruction15	15	<Graph: Graph strongComponents()>/gaux#_334	<Graph: Graph strongComponents()>	@StronglyConnected
@@ -20,8 +20,8 @@
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
 <Graph$EdgeIter1: EdgeIfc next()>/return/instruction5	5	<Graph$EdgeIter1: EdgeIfc next()>/$r2	<Graph$EdgeIter1: EdgeIfc next()>	@(EdgeObjects) /\ (EdgeObjects)
 <Neighbor: Vertex getEnd()>/return/instruction3	3	<Neighbor: Vertex getEnd()>/$r0	<Neighbor: Vertex getEnd()>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
-<Neighbor: Vertex getOtherVertex(Vertex)>/return/instruction4	4	<Neighbor: Vertex getOtherVertex(Vertex)>/$r0	<Neighbor: Vertex getOtherVertex(Vertex)>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction8	8	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant0	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
+<Neighbor: Vertex getOtherVertex(Vertex)>/return/instruction4	4	<Neighbor: Vertex getOtherVertex(Vertex)>/$r0	<Neighbor: Vertex getOtherVertex(Vertex)>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <VertexIter: Vertex next()>/return/instruction5	5	<VertexIter: Vertex next()>/$r2	<VertexIter: Vertex next()>
 <Graph: Graph computeTranspose(Graph)>/return/instruction43	43	<Graph: Graph computeTranspose(Graph)>/newGraph#_350	<Graph: Graph computeTranspose(Graph)>	@(Transpose) /\ (Transpose)
 <Vertex: java.lang.String getName()>/return/instruction3	3	<Vertex: java.lang.String getName()>/$r0	<Vertex: java.lang.String getName()>
@@ -38,8 +38,8 @@
 <Graph: Graph kruskal()>/return/instruction149	149	<Graph: Graph kruskal()>/e1_$$A_1#_481	<Graph: Graph kruskal()>	@MSTKruskal
 <Neighbor: int getWeight()>/return/instruction3	3	<Neighbor: int getWeight()>/$i0	<Neighbor: int getWeight()>	@(Weighted /\ GN_OnlyNeighbors) /\ (Weighted /\ GN_OnlyNeighbors)
 <Vertex$EdgeIter1: EdgeIfc next()>/return/instruction5	5	<Vertex$EdgeIter1: EdgeIfc next()>/$r2	<Vertex$EdgeIter1: EdgeIfc next()>	@(EdgeObjects /\ G_NoEdges) /\ (EdgeObjects /\ G_NoEdges)
-<Vertex$VertexIter3: boolean hasNext()>/return/instruction4	4	<Vertex$VertexIter3: boolean hasNext()>/$z0	<Vertex$VertexIter3: boolean hasNext()>	@(GEN_Edges) /\ (GEN_Edges)
 <Graph$Comparator1: int compare(Vertex,Vertex)>/return/instruction15	15	<Graph$Comparator1: int compare(Vertex,Vertex)>/$numconstant2	<Graph$Comparator1: int compare(Vertex,Vertex)>	@(StronglyConnected) /\ (StronglyConnected)
+<Vertex$VertexIter3: boolean hasNext()>/return/instruction4	4	<Vertex$VertexIter3: boolean hasNext()>/$z0	<Vertex$VertexIter3: boolean hasNext()>	@(GEN_Edges) /\ (GEN_Edges)
 <Vertex: Vertex getEnd()>/return/instruction3	3	<Vertex: Vertex getEnd()>/$null0	<Vertex: Vertex getEnd()>	@(G_NoEdges) /\ (G_NoEdges)
 <Vertex$VertexIter2: Vertex next()>/return/instruction6	6	<Vertex$VertexIter2: Vertex next()>/$r3	<Vertex$VertexIter2: Vertex next()>	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph: Vertex findsVertex(java.lang.String)>/return/instruction5	5	<Graph: Vertex findsVertex(java.lang.String)>/$null0	<Graph: Vertex findsVertex(java.lang.String)>

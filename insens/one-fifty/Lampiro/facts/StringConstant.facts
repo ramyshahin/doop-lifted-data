@@ -5,8 +5,8 @@ unavailable
 xml
 ricsson
 Cannot find suitable mechanism for authentication
-%
 \\"/httpb\\"
+%
 &
 \\"probe\\"
 *
@@ -25,8 +25,8 @@ size
 @
 <<\\"Invalid byte received on text stream: \\">>
 result
-muc#roomconfig_membersonly
 jpeg
+muc#roomconfig_membersonly
 [
 headline
 _
@@ -47,11 +47,11 @@ y
 >>:
 {
 1.0.2
-\\"1.0.2\\"
 Press right key
+\\"1.0.2\\"
 /transport/icq.png
-Loading Lampiro...
 POST
+Loading Lampiro...
 EMAIL
 gineprando2
 \\"dnd\\"
@@ -100,8 +100,8 @@ jabber:iq:roster
 entity replacement text must be defined after setInput!
 Jabber Server
 urn:xmpp:delay
-<<\\"(empty) \\">>
 \\"jabber:x:listo\\"
+<<\\"(empty) \\">>
 Press left key
 \\"instructions\\"
 serverEl
@@ -185,8 +185,8 @@ unknown
 (whitespace)
 bad jid
 <username>
-attr name expected
 \\"list-multi\\"
+attr name expected
 capture://audio?encoding=
 cannot bind resource
 \\"2\\"
@@ -271,8 +271,8 @@ jid-single
 field
 oversubscribed literal/length tree
 status
-muc#roomconfig_enablelogging
 \\"executing\\"
+muc#roomconfig_enablelogging
 unknown compression method
 file
 Can\'t open URL:
@@ -316,13 +316,13 @@ Unsupported Feature
 roster
 \\"result\\"
 \\"text-single\\"
-http://jabber.org/protocol/muc#roomconfig
 30
+http://jabber.org/protocol/muc#roomconfig
 element stack empty
 FORM_TYPE
 /icons/combo.png
-invite
 9.6.0
+invite
 open
 combo2-2
 otorola
@@ -331,8 +331,8 @@ client/
 First
 \\"text-multi\\"
 illegal comment delimiter: --->
-<<\\"ERR: \\">>
 Unsupported property
+<<\\"ERR: \\">>
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
@@ -348,13 +348,13 @@ Task error
 |-)
 &gt;
 var
-version expected
 :(
+version expected
 :)
 :*
 muc#roomconfig_changesubject
-anyone
 expected: /
+anyone
 <<HASH:-935196850>>
 <<\\"unsupported feature: \\">>
 Big:
@@ -366,8 +366,8 @@ nick
 :P
 identity
 urn:ietf:params:xml:ns:xmpp-sasl
-</{
 Error:
+</{
 :d
 </
 :o
@@ -387,8 +387,8 @@ stream error
 http://www.w3.org/XML/1998/namespace
 \\"show\\"
 img
-error
 Lampiro (http://lampiro.bluendo.com)
+error
 muc#roomconfig_publicroom
 value
 <!--
@@ -435,8 +435,8 @@ feature-not-implemented
 FN
 /icons/empty_avatar.png
 \\"error\\"
-ABOUT
 E-mail:
+ABOUT
 cipher
 label
 message
@@ -461,8 +461,8 @@ sha1
 404
 END_TAG expected
 406
-407
 /icons/unchecked.png
+407
 Nokia
 invalid window size
 Image button
@@ -519,8 +519,8 @@ features
 <!DOCTYPE
 _02
 _01
-_04
 http://jabber.org/protocol/disco#items
+_04
 maxValue negative for interactive mode
 _08
 _07
@@ -537,16 +537,16 @@ _13
 _12
 _15
 _14
-submit
 hidden
+submit
 _16
 Yes
 show
 description
 Forbidden
 jabber:x:data
-vcard-temp:x:update
 caps
+vcard-temp:x:update
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
 \\"headline\\"
@@ -556,13 +556,13 @@ Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-http://www.w3.org/2000/xmlns/
 subscribed
+http://www.w3.org/2000/xmlns/
 Error creating account
 text-private
 item
-<<\\"<?xml version=\'1.0\' \\">>
 Login
+<<\\"<?xml version=\'1.0\' \\">>
 invalid bit length repeat
 <<\\"Undefined Prefix: \\">>
 \\"label\\"
@@ -571,8 +571,8 @@ phone
 illegal xmldecl
 combo3-1
 combo3-2
-\'
 combo3-3
+\'
 combo3-4
 combo3-5
 /icons/lag.png
@@ -583,8 +583,8 @@ muc#roomconfig_allowinvites
 http://bluendo.com/midp#platform
 \\"jabber:iq:register\\"
 muc#roomconfig_roomsecret
-\n
 \\"http://services.bluendo.com/srv/?domain=\\"
+\n
 preprocess.symbols
 \t
 \\"unsubscribe\\"
@@ -640,8 +640,8 @@ sid
 client
 /transport/yahoo.png
 incomplete distance tree
-invalid maxValue for non interactive mode
 false
+invalid maxValue for non interactive mode
 gt
 gw
 form
@@ -656,8 +656,8 @@ prompt
 Jabber
 Internal server error
 /icons/radio_unchecked.png
-Mobile test, don\'t send me messages!
 id
+Mobile test, don\'t send me messages!
 /emo/3.png
 in
 iq
@@ -673,16 +673,16 @@ creator
 snd
 http://jabber.org/protocol/ibb
 (c) 2007-2008 Bluendo srl
-need dictionary
 (c) 2007-2009 Bluendo srl
+need dictionary
 MENU
 complete
 \\"jabber:x:data\\"
 bmp
 auth
 lt
-text-single
 Logging in...
+text-single
 urn:xmpp:jingle:0
 /icons/lab.png
 \\"presence\\"
@@ -722,8 +722,8 @@ muc#roomconfig_moderatedroom
 X-GOOGLE-TOKEN
 query
 afterG
-muc#roomconfig_whois
 _:-1
+muc#roomconfig_whois
 failure
 afterC
 desc
@@ -773,8 +773,8 @@ muc#roomconfig_roomdesc
 Feature not implemented
 send
 <<\\"Lampiro \\">>
-*******
 Config Error
+*******
 O:)
 note
 list-multi

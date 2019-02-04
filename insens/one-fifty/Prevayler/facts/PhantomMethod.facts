@@ -40,8 +40,8 @@
 <java.io.File: java.io.File[] listFiles()>
 <com.skaringa.javaxml.ObjectTransformer: void serialize(java.lang.Object,javax.xml.transform.Result)>
 <java.lang.Object: void notify()>
-<java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>
 <java.io.RandomAccessFile: void close()>
+<java.util.regex.Pattern: java.util.regex.Pattern compile(java.lang.String)>
 <java.io.EOFException: void <init>()>
 <javax.swing.JTextField: java.lang.String getText()>
 <java.sql.PreparedStatement: boolean execute()>
@@ -61,8 +61,8 @@
 <java.io.ByteArrayInputStream: void <init>(byte[])>
 <java.util.Map$Entry: java.lang.Object setValue(java.lang.Object)>
 <java.util.Map$Entry: java.lang.Object getValue()>
-<java.net.Socket: java.io.InputStream getInputStream()>
 <java.lang.Long: long longValue()>
+<java.net.Socket: java.io.InputStream getInputStream()>
 <java.net.Socket: void <init>(java.lang.String,int)>
 <net.sourceforge.javamatch.engine.MatchResult: java.util.Iterator getResultIterator()>
 <java.io.IOException: void <init>(java.lang.String)>
@@ -78,8 +78,8 @@
 <java.lang.Thread: void <init>()>
 <com.thoughtworks.xstream.XStream: java.lang.Object fromXML(java.io.Reader)>
 <javax.swing.JInternalFrame: void setBounds(int,int,int,int)>
-<java.lang.Integer: java.lang.String toHexString(int)>
 <java.io.InputStream: void close()>
+<java.lang.Integer: java.lang.String toHexString(int)>
 <javax.swing.JTextField: void setText(java.lang.String)>
 <javax.xml.transform.stream.StreamResult: void <init>(java.io.OutputStream)>
 <java.util.Random: void <init>(long)>
@@ -101,8 +101,8 @@
 <java.io.BufferedReader: void <init>(java.io.Reader)>
 <java.sql.DriverManager: java.sql.Connection getConnection(java.lang.String,java.lang.String,java.lang.String)>
 <java.io.File: boolean mkdirs()>
-<java.lang.UnsupportedOperationException: void <init>()>
 <java.io.FileOutputStream: java.io.FileDescriptor getFD()>
+<java.lang.UnsupportedOperationException: void <init>()>
 <java.sql.PreparedStatement: void setLong(int,long)>
 <java.io.ByteArrayInputStream: void <init>(byte[],int,int)>
 <java.io.OutputStream: void write(byte[],int,int)>
@@ -145,8 +145,8 @@
 <javax.swing.JTextField: void requestFocus()>
 <java.util.Map: boolean isEmpty()>
 <javax.swing.JList: void addListSelectionListener(javax.swing.event.ListSelectionListener)>
-<java.util.Random: void <init>()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(int)>
+<java.util.Random: void <init>()>
 <java.lang.Integer: java.lang.Integer valueOf(java.lang.String)>
 <javax.swing.JFrame: void setTitle(java.lang.String)>
 <java.lang.Integer: int parseInt(java.lang.String,int)>
@@ -171,8 +171,8 @@
 <java.io.RandomAccessFile: void <init>(java.io.File,java.lang.String)>
 <java.lang.Object: java.lang.Class getClass()>
 <java.io.OutputStream: void close()>
-<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>
 <java.io.ObjectOutputStream: void <init>(java.io.OutputStream)>
+<java.text.SimpleDateFormat: java.lang.String format(java.util.Date)>
 <java.io.PrintStream: void <init>(java.io.OutputStream)>
 <javax.swing.JDesktopPane: void <init>()>
 <java.util.HashMap: void <init>()>
@@ -214,8 +214,8 @@
 <javax.swing.JTextField: void addFocusListener(java.awt.event.FocusListener)>
 <java.util.Collections: void sort(java.util.List,java.util.Comparator)>
 <java.util.zip.GZIPOutputStream: void write(byte[],int,int)>
-<java.io.PrintStream: void println(java.lang.Object)>
 <java.lang.Exception: void printStackTrace(java.io.PrintStream)>
+<java.io.PrintStream: void println(java.lang.Object)>
 <javax.swing.table.DefaultTableModel: void addRow(java.lang.Object[])>
 <javax.swing.JButton: void <init>(javax.swing.Action)>
 <java.util.List: int size()>

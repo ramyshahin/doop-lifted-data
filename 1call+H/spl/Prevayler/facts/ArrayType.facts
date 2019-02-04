@@ -1,0 +1,9 @@
+byte[]	@GZip
+java.lang.String[]	@Snapshot
+java.lang.String[]
+java.lang.Object[]
+java.lang.String[]	@Replication
+java.io.File[]
+byte[]	@(GZip) /\ (GZip)
+char[]
+byte[]

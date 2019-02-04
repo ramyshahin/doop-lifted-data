@@ -5,6 +5,6 @@ java.lang.String[]
 Vertex[]	@(Prog) /\ (Prog)
 int[]
 Vertex[]
-char[]	@(Benchmark) /\ (Benchmark)
 int[]	@(Prog) /\ (Prog)
+char[]	@(Benchmark) /\ (Benchmark)
 int[]	@Prog

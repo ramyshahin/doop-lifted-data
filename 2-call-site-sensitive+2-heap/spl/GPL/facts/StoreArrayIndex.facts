@@ -1,5 +1,0 @@
-<Graph: int readNumber()>/assign/instruction17	17	<Graph: int readNumber()>/$c1	<Graph: int readNumber()>/word#_208	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
-<Graph: int readNumber()>/assign/instruction28	28	<Graph: int readNumber()>/$numconstant0	<Graph: int readNumber()>/word#_208	<Graph: int readNumber()>	@(Benchmark) /\ (Benchmark)
-<Main: void main(java.lang.String[])>/assign/instruction47	47	<Main: void main(java.lang.String[])>/$r10	<Main: void main(java.lang.String[])>/$r6	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
-<Main: void main(java.lang.String[])>/assign/instruction59	59	<Main: void main(java.lang.String[])>/$i3	<Main: void main(java.lang.String[])>/$r13	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)
-<Main: void main(java.lang.String[])>/assign/instruction62	62	<Main: void main(java.lang.String[])>/$i4	<Main: void main(java.lang.String[])>/$r14	<Main: void main(java.lang.String[])>	@(Prog) /\ (Prog)

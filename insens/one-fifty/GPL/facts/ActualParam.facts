@@ -40,8 +40,8 @@
 1	<Graph: Graph prim(Vertex)>/java.util.LinkedList.add/3	<Graph: Graph prim(Vertex)>/v#_584
 1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator3.compare/0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$r0
 0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/EdgeIfc.getOtherVertex/0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/v1#_278
-0	<Neighbor: void display()>/java.lang.StringBuilder.<init>/0	<Neighbor: void display()>/$r4
 0	<Graph: Graph kruskal()>/Graph.addEdge/0	<Graph: Graph kruskal()>/j_$$A_1#_504
+0	<Neighbor: void display()>/java.lang.StringBuilder.<init>/0	<Neighbor: void display()>/$r4
 0	<Graph: void sortEdges(java.util.Comparator)>/java.util.Collections.sort/0	<Graph: void sortEdges(java.util.Comparator)>/$r0
 1	<Graph: Graph prim(Vertex)>/Graph.addEdge/0	<Graph: Graph prim(Vertex)>/theNewVertex#_658
 0	<Vertex: void display()>/java.io.PrintStream.print/6	<Vertex: void display()>/$r32
@@ -118,8 +118,8 @@
 0	<Graph: Graph prim(Vertex)>/java.util.Set.add/2	<Graph: Graph prim(Vertex)>/$r12
 0	<Main: void main(java.lang.String[])>/Graph.findsVertex/0	<Main: void main(java.lang.String[])>/$r16
 0	<Main: void main(java.lang.String[])>/Main.readWeights/0	<Main: void main(java.lang.String[])>/g#_16
-0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/Vertex$EdgeIter1.<init>/0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l1#_0
 0	<Graph: Graph kruskal()>/java.util.LinkedList.add/5	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431
+0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/Vertex$EdgeIter1.<init>/0	<Vertex$EdgeIter1: void <init>(Vertex,Vertex$EdgeIter1)>/l1#_0
 0	<Main: void main(java.lang.String[])>/Main.addEdge/0	<Main: void main(java.lang.String[])>/g#_16
 0	<Vertex: void adjustAdorns(Vertex,int)>/java.lang.Integer.<init>/0	<Vertex: void adjustAdorns(Vertex,int)>/the_weight#_97
 0	<Vertex: void nodeSearch(WorkSpace)>/WorkSpace.checkNeighborAction/0	<Vertex: void nodeSearch(WorkSpace)>/this#_0

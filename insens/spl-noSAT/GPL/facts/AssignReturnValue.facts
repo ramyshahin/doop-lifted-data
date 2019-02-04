@@ -26,8 +26,8 @@
 <Main: void main(java.lang.String[])>/Vertex.assignName/0	<Main: void main(java.lang.String[])>/$r10	@(Prog) /\ (Prog)
 <Graph: void display()>/EdgeIter.next/0	<Graph: void display()>/$r8	@GEN_Edges
 <Graph: Graph computeTranspose(Graph)>/Graph.getVertices/2	<Graph: Graph computeTranspose(Graph)>/vxiter_$$A_1_$$A_1#_367	@(Transpose) /\ (Transpose)
-<Vertex: void nodeSearch(WorkSpace)>/VertexIter.hasNext/0	<Vertex: void nodeSearch(WorkSpace)>/$z1	@DFS /\ SearchBase
 <Graph: Graph computeTranspose(Graph)>/Vertex.getNeighbors/0	<Graph: Graph computeTranspose(Graph)>/neighbors#_374	@(Transpose) /\ (Transpose)
+<Vertex: void nodeSearch(WorkSpace)>/VertexIter.hasNext/0	<Vertex: void nodeSearch(WorkSpace)>/$z1	@DFS /\ SearchBase
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/EdgeIfc.getWeight/1	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i1	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: Graph prim(Vertex)>/VertexIter.next/0	<Graph: Graph prim(Vertex)>/x_$$A_1#_527	@MSTPrim
 <Edge: void display()>/Vertex.getName/0	<Edge: void display()>/$r7	@(EdgeObjects) /\ (EdgeObjects)
@@ -47,8 +47,8 @@
 <Graph: Graph computeTranspose(Graph)>/Graph.getVertices/1	<Graph: Graph computeTranspose(Graph)>/newvxiter#_366	@(Transpose) /\ (Transpose)
 <Graph: Graph kruskal()>/VertexIter.hasNext/1	<Graph: Graph kruskal()>/$z11	@MSTKruskal
 <Graph: Graph kruskal()>/EdgeIfc.getStart/1	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_3#_500	@MSTKruskal
-<Vertex: void display()>/VertexIter.next/0	<Vertex: void display()>/v#_266
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/EdgeIter.next/0	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/theEdge#_280	@(EdgeObjects) /\ (EdgeObjects)
+<Vertex: void display()>/VertexIter.next/0	<Vertex: void display()>/v#_266
 <Graph: Graph kruskal()>/Graph.getVertices/0	<Graph: Graph kruskal()>/vxiter#_406	@MSTKruskal
 <Graph: Graph prim(Vertex)>/VertexIter.hasNext/0	<Graph: Graph prim(Vertex)>/$z0	@MSTPrim
 <Graph: Graph prim(Vertex)>/Graph.getVertices/2	<Graph: Graph prim(Vertex)>/vxiter_$$A_2_$$A_4#_633	@MSTPrim
@@ -77,17 +77,17 @@
 <Graph: void display()>/EdgeIter.hasNext/0	<Graph: void display()>/$z0	@GEN_Edges
 <Graph: Graph prim(Vertex)>/EdgeIter.next/0	<Graph: Graph prim(Vertex)>/en#_582	@MSTPrim
 <Vertex: void display()>/VertexIter.hasNext/0	<Vertex: void display()>/$z0
-<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/1	<Vertex: void nodeSearch(WorkSpace)>/vxiter_$$A_1#_218	@SearchBase /\ BFS
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/Vertex.getName/2	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r6	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph computeTranspose(Graph)>/VertexIter.next/1	<Graph: Graph computeTranspose(Graph)>/vxiter_$$A_1#_370	@(Transpose) /\ (Transpose)
+<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/1	<Vertex: void nodeSearch(WorkSpace)>/vxiter_$$A_1#_218	@SearchBase /\ BFS
 <Graph: Graph kruskal()>/EdgeIfc.getStart/0	<Graph: Graph kruskal()>/vxiter_$$A_2_$$A_1#_431	@MSTKruskal
 <Graph: Graph prim(Vertex)>/Vertex.getName/6	<Graph: Graph prim(Vertex)>/$r12	@MSTPrim
 <Graph: Graph kruskal()>/Vertex.assignName/0	<Graph: Graph kruskal()>/$r27	@MSTKruskal
 <Main: void main(java.lang.String[])>/Graph.readNumber/6	<Main: void main(java.lang.String[])>/$i4	@(Prog) /\ (Prog)
 <Graph: Graph prim(Vertex)>/VertexIter.hasNext/3	<Graph: Graph prim(Vertex)>/$z13	@MSTPrim
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/Vertex.getName/5	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r3	@(EdgeObjects) /\ (EdgeObjects)
-<Vertex: void nodeSearch(WorkSpace)>/VertexIter.next/0	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_1#_208	@DFS /\ SearchBase
 <Graph: void graphSearch(WorkSpace)>/VertexIter.next/0	<Graph: void graphSearch(WorkSpace)>/v_$$A_1#_300	@SearchBase
+<Vertex: void nodeSearch(WorkSpace)>/VertexIter.next/0	<Vertex: void nodeSearch(WorkSpace)>/v_$$A_1#_208	@DFS /\ SearchBase
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/EdgeIfc.getWeight/0	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i0	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: void graphSearch(WorkSpace)>/Graph.getVertices/0	<Graph: void graphSearch(WorkSpace)>/vxiter#_293	@SearchBase
 <Graph: Graph prim(Vertex)>/Graph.findsEdge/0	<Graph: Graph prim(Vertex)>/e#_664	@MSTPrim
@@ -108,8 +108,8 @@
 <Graph: void run(Vertex)>/Graph.strongComponents/0	<Graph: void run(Vertex)>/gaux2#_271	@Prog /\ StronglyConnected
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/EdgeIfc.getWeight/2	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/$i2	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: Vertex findsVertex(java.lang.String)>/Graph.getVertices/0	<Graph: Vertex findsVertex(java.lang.String)>/vxiter#_161
-<Vertex: void display()>/Vertex.getName/1	<Vertex: void display()>/$r48	@MSTKruskal
 <Graph: Graph prim(Vertex)>/Graph.getVertices/3	<Graph: Graph prim(Vertex)>/vxiter_$$A_3_$$A_1#_646	@MSTPrim
+<Vertex: void display()>/Vertex.getName/1	<Vertex: void display()>/$r48	@MSTKruskal
 <Graph: Graph kruskal()>/Graph.getEdges/1	<Graph: Graph kruskal()>/edgeiter#_428	@MSTKruskal
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/Vertex.getName/3	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/$r7	@(EdgeObjects) /\ (EdgeObjects)
 <Graph: Graph kruskal()>/Vertex.getName/0	<Graph: Graph kruskal()>/$r5	@MSTKruskal

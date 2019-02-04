@@ -10,10 +10,10 @@ private	<Edge: Vertex start>
 final	<Vertex$EdgeIter3: Vertex this$0>
 static	<GlobalVarsWrapper: java.util.LinkedList queue>
 public	<Vertex: java.lang.String name>
-private	<Vertex$VertexIter2: java.util.Iterator iter>
 public	<Vertex: int key>
-	<WorkSpaceTranspose: int SCCCounter>
+private	<Vertex$VertexIter2: java.util.Iterator iter>
 	<NumberWorkSpace: int vertexCounter>
+	<WorkSpaceTranspose: int SCCCounter>
 private	<Vertex$EdgeIter1: java.util.Iterator iter>
 final	<CycleWorkSpace: int GRAY>
 public	<Vertex: int strongComponentNumber>
@@ -31,8 +31,8 @@ private	<Vertex$EdgeIter2: java.util.Iterator iter>
 static	<CycleWorkSpace: int GRAY>
 public	<Vertex: boolean visited>
 static	<Graph: long current>
-final	<Graph$EdgeIter1: Graph this$0>
 static	<Graph: int ch>
+final	<Graph$EdgeIter1: Graph this$0>
 public	<Vertex: int vertexNumber>
 private	<Edge: Vertex end>
 static	<Main: int[] startVertices>
@@ -51,8 +51,8 @@ public	<Vertex: int VertexColor>
 final	<CycleWorkSpace: int WHITE>
 public	<Graph: java.io.Reader inFile>
 public	<Neighbor: Edge edge>
-private	<Vertex$EdgeIter3: java.util.Iterator iter>
 public	<Vertex: int componentNumber>
+private	<Vertex$EdgeIter3: java.util.Iterator iter>
 public	<CycleWorkSpace: int WHITE>
 final	<Vertex$EdgeIter2: Vertex this$0>
 	<Graph: java.util.LinkedList vertices>
@@ -63,8 +63,8 @@ private	<Graph$EdgeIter1: java.util.Iterator iter>
 public	<GlobalVarsWrapper: java.util.LinkedList queue>
 public	<Vertex: java.util.LinkedList adjacentVertices>
 static	<CycleWorkSpace: int BLACK>
-private	<Edge: int weight>
 	<RegionWorkSpace: int counter>
+private	<Edge: int weight>
 final	<Vertex$VertexIter2: Vertex this$0>
 public	<CycleWorkSpace: int counter>
 public	<Vertex: java.util.LinkedList adjacentNeighbors>

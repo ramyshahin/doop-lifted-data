@@ -1,9 +1,9 @@
-abstract	NeighborIfc
 public	RegionWorkSpace
+abstract	NeighborIfc
 public	Main
 public	NeighborIfc
-public	NumberWorkSpace
 public	Edge
+public	NumberWorkSpace
 public	CycleWorkSpace
 public	Neighbor
 final	Graph$Comparator2
@@ -22,5 +22,5 @@ public	EdgeIter
 final	Vertex$VertexIter3
 public	FinishTimeWorkSpace
 public	WorkSpaceTranspose
-public	EdgeIfc
 final	Vertex$EdgeIter1
+public	EdgeIfc

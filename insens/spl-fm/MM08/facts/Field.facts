@@ -60,8 +60,8 @@
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command addCommand>	lancs.mobilemedia.core.ui.screens.MediaListScreen	addCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command selectCommand>	lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia	selectCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.screens.MediaListScreen: int PLAYMUSIC>	lancs.mobilemedia.core.ui.screens.MediaListScreen	PLAYMUSIC	int
-<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	smscopyCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.SmsSenderController: java.lang.String imageName>	lancs.mobilemedia.sms.SmsSenderController	imageName	java.lang.String
+<lancs.mobilemedia.core.ui.screens.PhotoViewScreen: javax.microedition.lcdui.Command smscopyCommand>	lancs.mobilemedia.core.ui.screens.PhotoViewScreen	smscopyCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.SmsMessaging: java.lang.String destinationPhoneNumber>	lancs.mobilemedia.sms.SmsMessaging	destinationPhoneNumber	java.lang.String
 <lancs.mobilemedia.core.util.Constants: java.lang.String NEWALBUM_SCREEN>	lancs.mobilemedia.core.util.Constants	NEWALBUM_SCREEN	java.lang.String
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command resetCommand>	lancs.mobilemedia.core.ui.screens.AlbumListScreen	resetCommand	javax.microedition.lcdui.Command
@@ -96,8 +96,8 @@
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String[] albumNames>	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	albumNames	java.lang.String[]
 <lancs.mobilemedia.core.ui.screens.AlbumListScreen: javax.microedition.lcdui.Command selectCommand>	lancs.mobilemedia.core.ui.screens.AlbumListScreen	selectCommand	javax.microedition.lcdui.Command
 <javax.microedition.lcdui.AlertType: javax.microedition.lcdui.AlertType INFO>	javax.microedition.lcdui.AlertType	INFO	javax.microedition.lcdui.AlertType
-<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command capturePhotoCommand>	lancs.mobilemedia.core.ui.screens.MediaListScreen	capturePhotoCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.SmsReceiverThread: javax.wireless.messaging.Message msg>	lancs.mobilemedia.sms.SmsReceiverThread	msg	javax.wireless.messaging.Message
+<lancs.mobilemedia.core.ui.screens.MediaListScreen: javax.microedition.lcdui.Command capturePhotoCommand>	lancs.mobilemedia.core.ui.screens.MediaListScreen	capturePhotoCommand	javax.microedition.lcdui.Command
 <lancs.mobilemedia.sms.NetworkScreen: javax.microedition.lcdui.Command ok>	lancs.mobilemedia.sms.NetworkScreen	ok	javax.microedition.lcdui.Command
 <lancs.mobilemedia.core.ui.controller.PlayVideoController: java.lang.String mediaName>	lancs.mobilemedia.core.ui.controller.PlayVideoController	mediaName	java.lang.String
 <lancs.mobilemedia.core.ui.datamodel.MediaAccessor: java.lang.String info_label>	lancs.mobilemedia.core.ui.datamodel.MediaAccessor	info_label	java.lang.String
@@ -179,6 +179,6 @@
 <lancs.mobilemedia.core.util.Constants: int SCREEN_HEIGHT>	lancs.mobilemedia.core.util.Constants	SCREEN_HEIGHT	int
 <lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException: java.lang.Throwable cause>	lancs.mobilemedia.lib.exceptions.UnavailablePhotoAlbumException	cause	java.lang.Throwable
 <lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia: javax.microedition.lcdui.Command exitCommand>	lancs.mobilemedia.core.ui.screens.SelectTypeOfMedia	exitCommand	javax.microedition.lcdui.Command
-<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: java.io.ByteArrayOutputStream byteOfArray>	lancs.mobilemedia.core.ui.screens.CaptureVideoScreen	byteOfArray	java.io.ByteArrayOutputStream
 <lancs.mobilemedia.core.util.Constants: java.lang.String CONFIRMDELETEALBUM_SCREEN>	lancs.mobilemedia.core.util.Constants	CONFIRMDELETEALBUM_SCREEN	java.lang.String
+<lancs.mobilemedia.core.ui.screens.CaptureVideoScreen: java.io.ByteArrayOutputStream byteOfArray>	lancs.mobilemedia.core.ui.screens.CaptureVideoScreen	byteOfArray	java.io.ByteArrayOutputStream
 <lancs.mobilemedia.core.ui.controller.MusicPlayController: lancs.mobilemedia.core.ui.screens.PlayMediaScreen pmscreen>	lancs.mobilemedia.core.ui.controller.MusicPlayController	pmscreen	lancs.mobilemedia.core.ui.screens.PlayMediaScreen

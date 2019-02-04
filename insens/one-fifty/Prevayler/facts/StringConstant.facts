@@ -1,13 +1,13 @@
-Delete
 <<\\"Account \\">>
 <<\\"insert into \\">>
 withQuery
+Delete
 \n\n\n
 demo2Replica
 Edit
 setting AutoCommit to false
-<<\\"\nMemory used: \\">>
 Amount maximum (10000) exceeded.
+<<\\"\nMemory used: \\">>
 bank
 Transaction log consistency check failed.
 \nYou can publish your best results by mail to:
@@ -20,8 +20,8 @@ Journal.update() has to be called at least once before Journal.append().
 <<\\"Error reading file list from directory \\">>
 <<\\"Temporary snapshot file generated: \\">>
 Klaus Wuestefeld and Daniel Santos.\n\n
-creating
 Transfer
+creating
 transactionHistory().size()
 <<\\"Disk space used: \\">>
 East
@@ -57,8 +57,8 @@ xstreamjournal
 Query Test
 Interesting accounts
 Chunk header corrupted
-\n\nOutOfMemoryError.\n===========================================================\nThe VM must be started with a sufficient maximum heap size.\nExample for Linux and Windows:  java -Xmx512000000 ...\n\n
 <<\\"\n\nPrevayler Journal Serializer: \\">>
+\n\nOutOfMemoryError.\n===========================================================\nThe VM must be started with a sufficient maximum heap size.\nExample for Linux and Windows:  java -Xmx512000000 ...\n\n
 Unexpected end of stream in chunk data
 <<\\"\n----------- BEST ROUND: \\">>
 To publish a transaction, this ClientPublisher needs a registered subscriber.
@@ -83,8 +83,8 @@ NAME
 <<\\"Unexpected Exception: \\">>
 Checking transaction log consistency.
 Port In Service
-Chunk trailer corrupted
 \\"\\d{19}\\.[a-zA-Z0-9]*[Ss]napshot\\"
+Chunk trailer corrupted
 New Account
 NumberOfObjects
 Error during deserialization
@@ -109,34 +109,34 @@ Holder
 Prevayler is no longer allowing snapshots due to an Error thrown from an earlier transaction.
 <<\\"Directory doesn\'t exist and could not be created: \\">>
 If you have any trouble running the tests, just write to
-\\"[a-zA-Z0-9]*[Jj]ournal\\"
 executionTime
-<<\\"\n\n========= Running \\">>
+\\"[a-zA-Z0-9]*[Jj]ournal\\"
 ONE_HUNDRED_THOUSAND
 RunPrevaylerQueryTest
 Already locked internally
+<<\\"\n\n========= Running \\">>
 Prevayler Network Client Receiver
 Invalid holder name.
 PrevaylerTransactionThreadsMaximum
 PrevaylerQueryThreadsMaximum
-Account
 The replication logic is still under development.
+Account
 <<\\"Property \\">>
 Removing subscribers is not yet supported by the current implementation.
-TRANSACTION_TEST
 Journal filename suffix must match /[a-zA-Z0-9]*[Jj]ournal/, but \'
+TRANSACTION_TEST
 Prevayler
 <<\\"select ID,STRING1,BIGDECIMAL1,BIGDECIMAL2,DATE1,DATE2 from \\">>
 Already locked externally
 commiting transaction
 <<\\"Creating \\">>
-<<\\"Seconds ellapsed: \\">>
 closing
+<<\\"Seconds ellapsed: \\">>
 <<\\"\n\nPrevayler TransactionLog Directory: \\">>
 Unexpected InterruptedException
 demo1
-TransactionTestCheckConsistency
 demo2
+TransactionTestCheckConsistency
 <<\\"NumberFormatException reading property \\">>
 From Account
 Runtime Exception simulated for rollback demonstration purposes.
@@ -156,8 +156,8 @@ ScalabilityTest.properties
 Unexpected end of stream in chunk trailer
 <<\\"Prevayler Stubborn Client \\">>
 \\"US-ASCII\\"
-<<\\"There are transactions needing to be recovered from \\">>
 ONE_MILLION
+<<\\"There are transactions needing to be recovered from \\">>
 <<HASH:1156460636>>
 Refresh
 Primary suffix \'
@@ -186,8 +186,8 @@ demo2XStream
 prevayler-scalability@lists.sourceforge.net and we will be glad to help.\n
 demo2Skaringa
 <<\\"--------- Round Result: \\">>
-writing to
 TWENTY_MILLION
+writing to
 <<\\"Bank - \\">>
 SubscriberUpToDate
 This demo shows how your application can be replicated\nwithout changing ONE SINGLE LINE OF CODE in the\nbusiness classes or GUI. This enables query load-\nbalancing and system fault-tolerance.\n\n
@@ -201,12 +201,12 @@ Deposit
 <<\\"All transaction processing is now blocked. An IOException was thrown while \\">>
 \\"[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+\\"
 <<\\"delete from \\">>
-\\"QueryTest\\"
 Reading the properties file:\n
+\\"QueryTest\\"
 deleting record
 hh:mm:ss
-You can edit this file to configure the tests for the next run.\n
 Amount must be greater than zero.
+You can edit this file to configure the tests for the next run.\n
 <<\\"The transaction log has not yet reached transaction \\">>
 Unable to serialize transaction
 already closed
@@ -217,22 +217,22 @@ JdbcConnectionURL
 \\d{19}\\.[a-zA-Z0-9]*[Ss]napshot
 skaringasnapshot
 Scalability test results are published on www.prevayler.org.
-Journal.update() has to be called at least once before Journal.journal().
 Balance
+Journal.update() has to be called at least once before Journal.journal().
 <<\\"Exception while trying to connect: \\">>
 A snapshot using XStream\'s XML serialization will be taken every 20 seconds...
 =============================================================\n
 PrevalenceBase
 <<\\"Already at \\">>
-Port Not in Service
 processors (quantity, type, speed), compiler, VM, operating system and DBMS.
+Port Not in Service
 skaringajournal
 Match
 <<\\"Attempted to apply transaction \\">>
 Create
 Unexpected InterruptedException.
-<<\\"Expected \\">>
 accountEntry
+<<\\"Expected \\">>
 \\"(0|[1-9A-F][0-9A-F]{0,6}|[1-7][0-9A-F]{7})(;[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+=[^\u0000- ()<>@,;:\\\\\\\"/\\[\\]?={}\u007f-\uffff]+)*\r\n\\"
 OK
 PrevaylerTransactionThreadsMinimum

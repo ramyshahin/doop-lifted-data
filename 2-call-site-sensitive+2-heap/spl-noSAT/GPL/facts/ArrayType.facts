@@ -1,36 +1,10 @@
+Vertex[]	@Prog
+java.lang.String[]	@Prog
 char[]	@Benchmark
-char[]	@(Benchmark) /\ (Benchmark)
-Vertex[]
-Vertex[]
-int[]
-int[]
-int[]
-int[]
 java.lang.String[]
-java.lang.String[]	@Prog
-java.lang.String[]	@Prog
-Vertex[]	@Prog
-int[]	@Prog
-int[]	@Prog
-Vertex[]	@Prog
-Vertex[]	@Prog
-int[]	@Prog
-int[]	@Prog
 Vertex[]	@(Prog) /\ (Prog)
+int[]
 Vertex[]
 int[]	@(Prog) /\ (Prog)
-int[]
-int[]	@(Prog) /\ (Prog)
-int[]
-Vertex[]
-Vertex[]
-int[]
-int[]
+char[]	@(Benchmark) /\ (Benchmark)
 int[]	@Prog
-Vertex[]	@Prog
-int[]	@Prog
-Vertex[]	@Prog
-Vertex[]
-int[]
-Vertex[]
-int[]

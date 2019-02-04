@@ -5,8 +5,8 @@ unavailable
 xml
 ricsson
 Cannot find suitable mechanism for authentication
-\\"/httpb\\"
 %
+\\"/httpb\\"
 &
 \\"probe\\"
 *
@@ -24,8 +24,8 @@ size
 >
 @
 result
-jpeg
 muc#roomconfig_membersonly
+jpeg
 [
 headline
 _
@@ -176,8 +176,8 @@ destroy
 DIGEST-MD5
 priority
 /icons/radio_checked.png
-quot
 audio/
+quot
 Item not found
 \\"_*\\"
 /icons/rag.png
@@ -307,8 +307,8 @@ sessionid
 qop
 session-accept
 execute
-http://jabber.org/protocol/si/profile/file-transfer
 <<\\"sel: \\">>
+http://jabber.org/protocol/si/profile/file-transfer
 \\"set\\"
 Resource Manager Error
 incomplete literal/length tree
@@ -330,12 +330,12 @@ open
 combo2-2
 otorola
 client/
-First
 50
+First
 \\"text-multi\\"
 illegal comment delimiter: --->
-<<\\"ERR: \\">>
 Unsupported property
+<<\\"ERR: \\">>
 my String
 http://services.bluendo.com/srv/?domain=
 Phone hold on, please don\'t send messages
@@ -356,8 +356,8 @@ version expected
 :)
 :*
 muc#roomconfig_changesubject
-expected: /
 anyone
+expected: /
 <<HASH:-935196850>>
 <<\\"unsupported feature: \\">>
 Big:
@@ -421,11 +421,11 @@ In removing menu item
 \\"option\\"
 BINVAL
 instructions
-j2me
 Cannot authenticate
+j2me
 <<\\"Attr.value missing f. \\">>
-finish
 oversubscribed distance tree
+finish
 ]]>
 \\"to\\"
 Cannot set default namespace for elements in no namespace
@@ -437,16 +437,16 @@ feature-not-implemented
 \\"socket://localhost:10080\\"
 FN
 /icons/empty_avatar.png
+E-mail:
 \\"error\\"
 ABOUT
-E-mail:
 cipher
 label
 message
 Error while saving config:\n
 Popup-B
-Popup-A
 agb
+Popup-A
 \\"yuprms\\"
 username
 \\"get\\"
@@ -464,8 +464,8 @@ sha1
 404
 END_TAG expected
 406
-407
 /icons/unchecked.png
+407
 Nokia
 invalid window size
 /	@x_notGlider
@@ -514,8 +514,8 @@ data error
 mechanism
 <<\\"Menu Item \\">>
 \\"prompt\\"
-Registration required
 unsubscribed
+Registration required
 apos
 http://jabber.org/protocol/caps
 name expected
@@ -524,8 +524,8 @@ features
 <!DOCTYPE
 _02
 _01
-_04
 http://jabber.org/protocol/disco#items
+_04
 maxValue negative for interactive mode
 _08
 _07
@@ -537,21 +537,21 @@ Cannot registrate
 name
 _11
 _10
-_13
 next
+_13
 _12
 _15
 _14
-hidden
 submit
+hidden
 _16
 Yes
 show
 description
 Forbidden
 jabber:x:data
-vcard-temp:x:update
 caps
+vcard-temp:x:update
 bluendo:http:publish:0
 http://jabber.org/protocol/muc
 An error occurred while executing the task
@@ -561,8 +561,8 @@ Error while loading config:\n
 Not enough memory for completing the authentication
 jid
 connection lost
-http://www.w3.org/2000/xmlns/
 subscribed
+http://www.w3.org/2000/xmlns/
 Error creating account
 text-private
 item
@@ -588,8 +588,8 @@ muc#roomconfig_allowinvites
 http://bluendo.com/midp#platform
 \\"jabber:iq:register\\"
 muc#roomconfig_roomsecret
-\\"http://services.bluendo.com/srv/?domain=\\"
 \n
+\\"http://services.bluendo.com/srv/?domain=\\"
 preprocess.symbols
 \t
 \\"unsubscribe\\"
@@ -646,15 +646,15 @@ sid
 client
 /transport/yahoo.png
 incomplete distance tree
-invalid maxValue for non interactive mode
 false
+invalid maxValue for non interactive mode
 gt
 gw
 form
 500
 501
-503
 Connection with the server lost
+503
 realm
 prompt
 \\"subject\\"
@@ -686,8 +686,8 @@ complete
 bmp
 auth
 lt
-text-single
 Logging in...
+text-single
 urn:xmpp:jingle:0
 /icons/lab.png
 \\"presence\\"
@@ -761,13 +761,13 @@ feature
 get
 combo3
 combo2
-combo1
 :-/
+combo1
 :-@
 Unsupported method
 Lampiro
-urn:ietf:params:xml:ns:xmpp-session
 oversubscribed dynamic bit lengths tree
+urn:ietf:params:xml:ns:xmpp-session
 :-S
 data
 Test midlet
@@ -776,14 +776,14 @@ resource
 Email=
 muc#roomconfig_roomdesc
 Feature not implemented
-<<\\"Lampiro \\">>
 send
+<<\\"Lampiro \\">>
 Config Error
 *******
 O:)
 note
-\\"1\\"
 list-multi
+\\"1\\"
 Screen
 bluendo:bxmlrpc:0
 Available/Total memory:

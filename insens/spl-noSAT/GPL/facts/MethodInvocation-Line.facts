@@ -30,16 +30,16 @@
 <Vertex: void nodeSearch(WorkSpace)>/VertexIter.hasNext/1	218	@SearchBase /\ BFS
 <Vertex: void display()>/java.io.PrintStream.print/4	271	@SearchBase
 <Graph: Graph kruskal()>/Graph.findsVertex/0	504	@MSTKruskal
+<Graph$Comparator1: void <init>(Graph)>/java.lang.Object.<init>/0	40	@StronglyConnected
 <Graph: void run(Vertex)>/Graph.connectedComponents/0	255	@Prog /\ Connected
 <Graph: Graph kruskal()>/java.util.LinkedList.add/3	457	@MSTKruskal
-<Graph$Comparator1: void <init>(Graph)>/java.lang.Object.<init>/0	40	@StronglyConnected
 <Vertex: void nodeSearch(WorkSpace)>/VertexIter.hasNext/0	207	@DFS /\ SearchBase
 <Graph: Graph kruskal()>/Vertex.getName/0	434	@MSTKruskal
 <Vertex$EdgeIter2: void <init>(Vertex)>/EdgeIter.<init>/0	17	@EdgeObjects /\ GN_OnlyNeighbors
 <Graph: void graphSearch(WorkSpace)>/VertexIter.hasNext/2	305	@SearchBase
-<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/1	232	@SearchBase /\ BFS
 <Graph: Vertex findsVertex(java.lang.String)>/Vertex.getName/0	163
 <Graph: Graph computeTranspose(Graph)>/VertexIter.next/2	372	@(Transpose) /\ (Transpose)
+<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/1	232	@SearchBase /\ BFS
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/Vertex.getEdges/0	279	@(EdgeObjects) /\ (EdgeObjects)
 <RegionWorkSpace: void <init>()>/WorkSpace.<init>/0	8	@Connected
 <Graph: Graph prim(Vertex)>/java.util.Set.remove/1	608	@MSTPrim
@@ -55,12 +55,12 @@
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/EdgeIfc.getWeight/1	32	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: void <init>()>/java.util.LinkedList.<init>/1	69	@GEN_Edges
 <Main: void main(java.lang.String[])>/Graph.startProfile/0	71	@(Prog) /\ (Prog)
-<Vertex: void display()>/java.io.PrintStream.print/9	281	@MSTKruskal
 <Graph: void graphSearch(WorkSpace)>/WorkSpace.nextRegionAction/0	308	@SearchBase
+<Vertex: void display()>/java.io.PrintStream.print/9	281	@MSTKruskal
 <Graph: Graph kruskal()>/VertexIter.hasNext/0	406	@MSTKruskal
 <Graph: Graph kruskal()>/Graph.addEdge/0	511	@MSTKruskal
-<Vertex: void <init>()>/java.util.LinkedList.<init>/2	145	@GEN_Edges
 <Graph: void runBenchmark(java.lang.String)>/java.lang.StringBuilder.<init>/0	198	@(Benchmark) /\ (Benchmark)
+<Vertex: void <init>()>/java.util.LinkedList.<init>/2	145	@GEN_Edges
 <Vertex: void display()>/java.io.PrintStream.print/6	276	@Connected
 <Main: void main(java.lang.String[])>/Graph.readNumber/2	31	@(Prog) /\ (Prog)
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/Vertex.addWeight/0	124	@Undirected /\ Weighted /\ G_NoEdges
@@ -78,9 +78,9 @@
 <Graph: Graph kruskal()>/EdgeIter.next/0	430	@MSTKruskal
 <Graph: Graph strongComponents()>/Graph.graphSearch/1	338	@StronglyConnected
 <Graph: Graph prim(Vertex)>/Vertex.getName/6	622	@MSTPrim
-<Vertex$VertexIter1: void <init>(Vertex)>/VertexIter.<init>/0	65	@G_NoEdges
 <Main: void <init>()>/java.lang.Object.<init>/0	3	@Prog
 <Graph: Graph kruskal()>/Vertex.getName/1	435	@MSTKruskal
+<Vertex$VertexIter1: void <init>(Vertex)>/VertexIter.<init>/0	65	@G_NoEdges
 <Graph: Graph kruskal()>/java.util.LinkedList.add/5	467	@MSTKruskal
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/EdgeIfc.getWeight/2	34	@(MSTKruskal) /\ (MSTKruskal)
 <Graph: void graphSearch(WorkSpace)>/Vertex.nodeSearch/0	309	@SearchBase
@@ -118,14 +118,14 @@
 <Graph: void run(Vertex)>/Graph.display/0	261	@MSTKruskal /\ Prog
 <Graph: boolean cycleCheck()>/Graph.graphSearch/0	394	@(Cycle) /\ (Cycle)
 <Main: void main(java.lang.String[])>/Graph.run/0	72	@(Prog) /\ (Prog)
+<Graph: void graphSearch(WorkSpace)>/VertexIter.hasNext/1	299	@SearchBase
 <Vertex: void addWeight(int)>/java.lang.Integer.<init>/0	173	@(Weighted) /\ (Weighted /\ G_NoEdges)
 <Vertex: void nodeSearch(WorkSpace)>/WorkSpace.preVisitAction/0	196	@SearchBase
-<Graph: void graphSearch(WorkSpace)>/VertexIter.hasNext/1	299	@SearchBase
 <Vertex: void display()>/java.io.PrintStream.print/10	283	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>/Graph$Comparator1.<init>/0	40	@StronglyConnected
 <Vertex: void display()>/Vertex.getName/0	267
-<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/0	210	@DFS /\ SearchBase
 <Graph: Graph prim(Vertex)>/java.util.HashSet.<init>/0	540	@MSTPrim
+<Vertex: void nodeSearch(WorkSpace)>/Vertex.nodeSearch/0	210	@DFS /\ SearchBase
 <Vertex: void display()>/Vertex.getNeighbors/0	265
 <Graph: Graph prim(Vertex)>/EdgeIter.hasNext/0	580	@MSTPrim
 <Vertex$VertexIter3: void <init>(Vertex)>/VertexIter.<init>/0	41	@GEN_Edges
@@ -164,11 +164,11 @@
 <Graph: void connectedComponents()>/Graph.graphSearch/0	319	@(Connected) /\ (Connected)
 <Graph: Graph prim(Vertex)>/Vertex.getName/5	608	@MSTPrim
 <Graph: void run(Vertex)>/Graph.stopProfile/2	272	@Prog /\ StronglyConnected
-<Vertex: void display()>/java.lang.StringBuilder.<init>/2	267
 <Graph: void addEdge(Vertex,Neighbor)>/Vertex.addEdge/0	147	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
+<Vertex: void display()>/java.lang.StringBuilder.<init>/2	267
 <Graph: Vertex findsVertex(java.lang.String)>/VertexIter.next/0	162
-<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/Vertex$VertexIter1.<init>/0	65	@G_NoEdges
 <Vertex: void setWeight(int)>/Vertex.addWeight/0	178	@(Weighted /\ G_NoEdges) /\ (Weighted /\ G_NoEdges)
+<Vertex$VertexIter1: void <init>(Vertex,Vertex$VertexIter1)>/Vertex$VertexIter1.<init>/0	65	@G_NoEdges
 <Main: void main(java.lang.String[])>/Graph.resumeProfile/0	77	@(Prog) /\ (Prog)
 <Graph: Graph computeTranspose(Graph)>/Graph.addEdge/0	384	@(Transpose) /\ (Transpose)
 <Main: void main(java.lang.String[])>/Graph.stopBenchmark/0	62	@(Prog) /\ (Prog)
@@ -187,21 +187,21 @@
 <Neighbor: void display()>/java.io.PrintStream.print/0	22	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph: Graph strongComponents()>/WorkSpaceTranspose.<init>/0	337	@StronglyConnected
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/EdgeIfc.getOtherVertex/0	281	@(EdgeObjects) /\ (EdgeObjects)
-<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/0	207	@DFS /\ SearchBase
 <Graph: void display()>/java.io.PrintStream.println/4	180	@GEN_Edges
+<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/0	207	@DFS /\ SearchBase
 <Graph: EdgeIfc addEdge(Vertex,Vertex,int)>/Vertex.addAdjacent/1	122	@Undirected /\ G_NoEdges
 <Graph: Graph computeTranspose(Graph)>/Vertex.getName/1	381	@(Transpose) /\ (Transpose)
 <Graph: Graph computeTranspose(Graph)>/java.util.Map.put/0	357	@(Transpose) /\ (Transpose)
 <Vertex: void display()>/java.io.PrintStream.print/11	285	@MSTPrim
-<Vertex: void nodeSearch(WorkSpace)>/VertexIter.next/0	208	@DFS /\ SearchBase
 <Graph: Graph prim(Vertex)>/VertexIter.next/0	527	@MSTPrim
+<Vertex: void nodeSearch(WorkSpace)>/VertexIter.next/0	208	@DFS /\ SearchBase
 <Graph: void display()>/java.io.PrintStream.println/3	176	@GEN_Edges
 <Graph: void <init>()>/java.lang.Object.<init>/0	67
 <Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator2.compare/0	1
-<Vertex: void addEdge(Neighbor)>/java.util.LinkedList.add/0	138	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph: void connectedComponents()>/RegionWorkSpace.<init>/0	319	@(Connected) /\ (Connected)
-<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/1	218	@SearchBase /\ BFS
+<Vertex: void addEdge(Neighbor)>/java.util.LinkedList.add/0	138	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Graph: void run(Vertex)>/Graph.stopProfile/1	265	@MSTPrim /\ Prog
+<Vertex: void nodeSearch(WorkSpace)>/Vertex.getNeighbors/1	218	@SearchBase /\ BFS
 <Vertex: void display()>/java.io.PrintStream.print/0	258	@Weighted /\ G_NoEdges
 <Graph: Graph prim(Vertex)>/EdgeIfc.getOtherVertex/0	584	@MSTPrim
 <Main: void main(java.lang.String[])>/Graph.readNumber/4	33	@(Prog) /\ (Prog)
@@ -223,8 +223,8 @@
 <Graph: void graphSearch(WorkSpace)>/VertexIter.next/0	300	@SearchBase
 <Main: void main(java.lang.String[])>/Vertex.assignName/0	45	@(Prog) /\ (Prog)
 <Vertex: void addAdjacent(Vertex)>/java.util.LinkedList.add/0	93	@(G_NoEdges) /\ (G_NoEdges)
-<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/EdgeIter.hasNext/0	279	@(EdgeObjects) /\ (EdgeObjects)
 <Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator1.compare/0	1
+<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/EdgeIter.hasNext/0	279	@(EdgeObjects) /\ (EdgeObjects)
 <NumberWorkSpace: void <init>()>/WorkSpace.<init>/0	4	@Number
 <Graph: Graph prim(Vertex)>/VertexIter.hasNext/2	633	@MSTPrim
 <Neighbor: void <init>(Vertex,int)>/java.lang.Object.<init>/0	14	@GN_OnlyNeighbors
@@ -252,8 +252,8 @@
 <Graph: void addEdge(Vertex,Neighbor)>/Neighbor.<init>/0	150	@(GN_OnlyNeighbors) /\ (Undirected /\ Weighted /\ GN_OnlyNeighbors)
 <Vertex: void <init>()>/java.util.LinkedList.<init>/0	88	@G_NoEdges
 <Vertex: void display()>/VertexIter.hasNext/0	265
-<Vertex: void display()>/java.lang.StringBuilder.<init>/1	263
 <Graph: Graph prim(Vertex)>/Vertex.getEdges/0	580	@MSTPrim
+<Vertex: void display()>/java.lang.StringBuilder.<init>/1	263
 <Graph: Graph kruskal()>/EdgeIfc.getWeight/0	512	@MSTKruskal
 <Main: void main(java.lang.String[])>/Graph.display/0	76	@(Prog) /\ (Prog)
 <Graph: void sortEdges(java.util.Comparator)>/java.util.Collections.sort/0	113	@(EdgeObjects) /\ (EdgeObjects)
@@ -281,8 +281,8 @@
 <Vertex: void <init>()>/java.util.LinkedList.<init>/1	90	@GN_OnlyNeighbors
 <Vertex: void display()>/java.lang.StringBuilder.<init>/3	275	@Number
 <Graph: Graph prim(Vertex)>/Graph.findsEdge/0	664	@MSTPrim
-<Vertex: void <init>()>/java.util.LinkedList.<init>/3	170	@Weighted /\ G_NoEdges
 <Graph: Graph prim(Vertex)>/Graph.getVertices/2	633	@MSTPrim
+<Vertex: void <init>()>/java.util.LinkedList.<init>/3	170	@Weighted /\ G_NoEdges
 <Graph: Graph computeTranspose(Graph)>/Graph.getVertices/2	367	@(Transpose) /\ (Transpose)
 <Main: void main(java.lang.String[])>/java.io.PrintStream.println/0	82	@(Prog) /\ (Prog)
 <Main: EdgeIfc addEdge(Graph,int)>/Graph.addEdge/0	89	@(Prog) /\ (Prog)
@@ -301,8 +301,8 @@
 <Vertex: void display()>/Vertex.getName/1	283	@MSTKruskal
 <Neighbor: void display()>/java.lang.StringBuilder.<init>/0	22	@(GN_OnlyNeighbors) /\ (GN_OnlyNeighbors)
 <Main: void main(java.lang.String[])>/Graph.addVertex/0	46	@(Prog) /\ (Prog)
-<Vertex: void display()>/java.lang.StringBuilder.<init>/5	277	@StronglyConnected
 <Graph: void addVertex(Vertex)>/java.util.LinkedList.add/0	184
+<Vertex: void display()>/java.lang.StringBuilder.<init>/5	277	@StronglyConnected
 <Graph: Graph computeTranspose(Graph)>/VertexIter.next/1	370	@(Transpose) /\ (Transpose)
 <Graph: void runBenchmark(java.lang.String)>/java.io.FileReader.<init>/0	196	@(Benchmark) /\ (Benchmark)
 <Graph: Graph computeTranspose(Graph)>/Graph.getVertices/1	366	@(Transpose) /\ (Transpose)

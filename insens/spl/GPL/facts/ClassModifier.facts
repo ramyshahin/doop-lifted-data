@@ -12,8 +12,8 @@ final	Graph$Comparator3
 public	GlobalVarsWrapper
 public	VertexIter
 final	Vertex$EdgeIter2
-final	Graph$EdgeIter1
 final	Vertex$EdgeIter3
+final	Graph$EdgeIter1
 public	WorkSpace
 abstract	EdgeIfc
 final	Vertex$VertexIter2

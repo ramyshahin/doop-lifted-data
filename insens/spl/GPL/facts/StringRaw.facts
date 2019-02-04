@@ -33,8 +33,8 @@
 <java.lang.String: java.lang.String trim()>	<java.lang.String: java.lang.String trim()>
 <Vertex$EdgeIter2: void <init>(Vertex)>	<Vertex$EdgeIter2: void <init>(Vertex)>
 <Graph: void resumeProfile()>	<Graph: void resumeProfile()>	@Benchmark
-<java.lang.StringBuilder: java.lang.StringBuilder append(long)>	<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
 <java.io.PrintStream: void println(java.lang.String)>	<java.io.PrintStream: void println(java.lang.String)>
+<java.lang.StringBuilder: java.lang.StringBuilder append(long)>	<java.lang.StringBuilder: java.lang.StringBuilder append(long)>
 <Graph: void addVertex(Vertex)>	<Graph: void addVertex(Vertex)>
 <Neighbor: void adjustAdorns(EdgeIfc)>	<Neighbor: void adjustAdorns(EdgeIfc)>	@GN_OnlyNeighbors
 <<\\"Time elapsed: \\">>	<<\\"Time elapsed: \\">>	@(Benchmark) /\ (Benchmark)
@@ -79,9 +79,9 @@ v	v	@(Prog) /\ (Prog)
 <WorkSpaceTranspose: void preVisitAction(Vertex)>	<WorkSpaceTranspose: void preVisitAction(Vertex)>	@StronglyConnected
 <Neighbor: void <init>(Vertex,Edge)>	<Neighbor: void <init>(Vertex,Edge)>
 <CycleWorkSpace: void <init>()>	<CycleWorkSpace: void <init>()>
-<Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
-******************************************	******************************************
 <<\\" Pred \\">>	<<\\" Pred \\">>	@MSTPrim
+******************************************	******************************************
+<Main: EdgeIfc addEdge(Graph,int)>	<Main: EdgeIfc addEdge(Graph,int)>	@Prog
 <<\\" Rep \\">>	<<\\" Rep \\">>	@MSTKruskal
 <Graph$Comparator1: void <init>(Graph)>	<Graph$Comparator1: void <init>(Graph)>
 <Graph: int readNumber()>	<Graph: int readNumber()>	@Benchmark
@@ -141,8 +141,8 @@ v	v	@(Prog) /\ (Prog)
 <java.lang.System: long currentTimeMillis()>	<java.lang.System: long currentTimeMillis()>
 <Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>	@GN_OnlyNeighbors
 <java.util.HashSet: void <init>()>	<java.util.HashSet: void <init>()>
-<EdgeIfc: Vertex getStart()>	<EdgeIfc: Vertex getStart()>
 <Vertex: void display()>	<Vertex: void display()>
+<EdgeIfc: Vertex getStart()>	<EdgeIfc: Vertex getStart()>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>	<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>
 <java.util.LinkedList: java.util.Iterator iterator()>	<java.util.LinkedList: java.util.Iterator iterator()>
 <Graph$Comparator1: int compare(Vertex,Vertex)>	<Graph$Comparator1: int compare(Vertex,Vertex)>	@StronglyConnected

@@ -2,12 +2,12 @@ java.io.IOException	<org.prevayler.foundation.FileLocker: java.lang.String prope
 java.io.IOException	<org.prevayler.foundation.FileLocker: void release()>
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[])>	@GZip
 java.lang.ClassNotFoundException	<org.prevayler.implementation.journal.Journal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
-java.io.IOException	<org.prevayler.foundation.serialization.Serializer: java.lang.Object readObject(java.io.InputStream)>
 org.prevayler.demos.demo2.business.Account$InvalidHolder	<org.prevayler.demos.demo2.business.transactions.AccountCreation: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+java.io.IOException	<org.prevayler.foundation.serialization.Serializer: java.lang.Object readObject(java.io.InputStream)>
 java.io.IOException	<org.prevayler.implementation.snapshot.NullSnapshotManager: void writeSnapshot(java.lang.Object,long)>	@Snapshot
 java.lang.Exception	<org.prevayler.demos.demo2.gui.AccountEditFrame: java.lang.Number enterAmount(java.lang.String)>
-java.io.IOException	<org.prevayler.foundation.network.ObjectSocketImpl: void writeObject(java.lang.Object)>
 java.lang.ClassNotFoundException	<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>
+java.io.IOException	<org.prevayler.foundation.network.ObjectSocketImpl: void writeObject(java.lang.Object)>
 java.lang.Exception	<org.prevayler.demos.demo1.Main: void main(java.lang.String[])>
 java.io.IOException	<org.prevayler.foundation.network.OldNetwork: org.prevayler.foundation.network.ObjectServerSocket openObjectServerSocket(int)>
 java.io.IOException	<org.prevayler.foundation.Chunking: java.lang.String readLine(java.io.InputStream)>
@@ -35,9 +35,9 @@ java.lang.ClassNotFoundException	<org.prevayler.implementation.PrevaylerImpl: vo
 java.io.IOException	<org.prevayler.foundation.DurableOutputStream: int writeObject(org.prevayler.foundation.Guided)>
 java.lang.ClassNotFoundException	<org.prevayler.foundation.network.ObjectSocketImpl: java.lang.Object readObject()>	@Replication
 java.io.IOException	<org.prevayler.foundation.DurableInputStream: void <init>(java.io.File)>
+java.io.IOException	<org.prevayler.implementation.journal.Journal: void close()>
 java.io.IOException	<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.ObjectReceiver findServer(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@Replication
 java.io.IOException	<org.prevayler.implementation.PrevalentSystemGuard: void takeSnapshot(org.prevayler.implementation.snapshot.GenericSnapshotManager)>	@Snapshot
-java.io.IOException	<org.prevayler.implementation.journal.Journal: void close()>
 java.lang.RuntimeException	<org.prevayler.implementation.publishing.censorship.LiberalTransactionCensor: void approve(org.prevayler.implementation.TransactionTimestamp)>	@Censor
 java.io.IOException	<org.prevayler.foundation.network.BaseNetworkImpl: void startService(org.prevayler.foundation.network.Service,int)>	@Replication
 java.io.IOException	<org.prevayler.foundation.network.OldNetworkImpl: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>	@Replication
@@ -62,8 +62,8 @@ java.io.IOException	<org.prevayler.foundation.network.BaseNetworkImpl: void stop
 java.io.IOException	<org.prevayler.implementation.PrevaylerDirectory: java.io.File createTempFile(java.lang.String,java.lang.String)>
 java.io.IOException	<org.prevayler.foundation.serialization.SkaringaSerializer: com.skaringa.javaxml.ObjectTransformer createTransformer()>
 java.lang.Exception	<org.prevayler.demos.demo2.MainReplicaServer: void main(java.lang.String[])>	@Replication
-java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>	@Snapshot
 java.io.IOException	<org.prevayler.foundation.network.StubbornClientReceiverImpl: void sendSessionKey()>	@Replication
+java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>	@Snapshot
 java.io.IOException	<org.prevayler.implementation.replication.ClientPublisher: void <init>(org.prevayler.foundation.network.OldNetwork,java.lang.String,int)>
 java.io.IOException	<org.prevayler.foundation.Chunking: org.prevayler.foundation.Chunk readChunk(java.io.InputStream)>
 java.io.IOException	<org.prevayler.foundation.serialization.Serializer: void writeObject(java.io.OutputStream,java.lang.Object)>
@@ -102,9 +102,9 @@ java.io.IOException	<org.prevayler.foundation.network.NetworkClientObjectReceive
 java.io.IOException	<org.prevayler.foundation.network.StubbornClientReceiverImpl: void receive(java.lang.Object)>	@Replication
 java.io.IOException	<org.prevayler.foundation.serialization.JavaSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
 java.lang.Exception	<org.prevayler.demos.demo2.MainSkaringa: void main(java.lang.String[])>	@Snapshot
-java.io.IOException	<org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String)>
 java.lang.ClassNotFoundException	<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>
 org.prevayler.demos.demo2.business.Account$InvalidAmount	<org.prevayler.demos.demo2.business.Account: void deposit(long,java.util.Date)>
+java.io.IOException	<org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String)>
 java.io.IOException	<org.prevayler.foundation.gzip.NonCloseableOutputStream: void write(int)>	@GZip
 java.io.IOException	<org.prevayler.implementation.PrevaylerImpl: void close()>
 java.io.IOException	<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable,java.lang.String)>
@@ -141,13 +141,13 @@ java.io.IOException	<org.prevayler.implementation.journal.TransientJournal: void
 java.lang.ClassNotFoundException	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void <init>(java.lang.String,java.lang.String)>
 java.lang.ClassNotFoundException	<org.prevayler.implementation.publishing.TransactionPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read(byte[],int,int)>	@GZip
-java.io.IOException	<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>
 java.io.IOException	<org.prevayler.demos.scalability.prevayler.PrevaylerQuerySubject: void <init>()>
-java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable)>
+java.io.IOException	<org.prevayler.implementation.TransactionGuide: void writeTo(java.io.OutputStream)>
 java.io.IOException	<org.prevayler.foundation.network.StubbornClientReceiverImpl: void networkRequestToReceive(java.lang.Object)>	@Replication
+java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler createPrevayler(java.io.Serializable)>
 java.io.IOException	<org.prevayler.foundation.network.StubbornNetworkProxy: void close()>	@Replication
-java.io.IOException	<org.prevayler.implementation.PrevaylerImpl: void takeSnapshot()>	@Snapshot
 java.lang.Exception	<org.prevayler.demos.demo2.business.transactions.BankTransaction: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
+java.io.IOException	<org.prevayler.implementation.PrevaylerImpl: void takeSnapshot()>	@Snapshot
 java.io.IOException	<org.prevayler.Prevayler: void close()>
 java.lang.ClassNotFoundException	<org.prevayler.implementation.replication.ClientPublisher: void subscribe(org.prevayler.implementation.publishing.TransactionSubscriber,long)>	@Replication
 java.io.IOException	<org.prevayler.foundation.FileManager: void produceDirectory(java.io.File)>
@@ -161,8 +161,8 @@ java.lang.Exception	<org.prevayler.demos.scalability.prevayler.PrevaylerTransact
 java.lang.Exception	<org.prevayler.Prevayler: java.lang.Object execute(org.prevayler.Query)>
 java.lang.Exception	<org.prevayler.demos.demo2.MainXStream: void main(java.lang.String[])>	@Snapshot
 java.lang.Exception	<org.prevayler.implementation.PrevalentSystemGuard: java.lang.Object executeQuery(org.prevayler.Query,org.prevayler.Clock)>
-java.io.IOException	<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>
 java.io.IOException	<org.prevayler.implementation.journal.Journal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
+java.io.IOException	<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>
 java.lang.ClassNotFoundException	<org.prevayler.foundation.serialization.SkaringaSerializer: java.lang.Object readObject(java.io.InputStream)>
 java.io.IOException	<org.prevayler.foundation.network.NetworkImpl: org.prevayler.foundation.network.ObjectReceiver newReceiver(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@Replication
 java.io.IOException	<org.prevayler.foundation.network.ObjectSocket: void writeObject(java.lang.Object)>
@@ -171,10 +171,10 @@ java.lang.Exception	<org.prevayler.demos.demo2.gui.AccountEditFrame$WithdrawActi
 java.lang.Exception	<org.prevayler.demos.demo2.business.transactions.AccountTransaction: void executeAndQuery(org.prevayler.demos.demo2.business.Account,java.util.Date)>
 org.prevayler.demos.demo2.business.Bank$AccountNotFound	<org.prevayler.demos.demo2.business.transactions.AccountDeletion: java.lang.Object executeAndQuery(org.prevayler.demos.demo2.business.Bank,java.util.Date)>
 java.lang.ClassNotFoundException	<org.prevayler.foundation.ObjectInputStreamWithClassLoader: java.lang.Class resolveClass(java.io.ObjectStreamClass)>
-java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: long skip(long)>	@GZip
 java.io.IOException	<org.prevayler.implementation.PrevaylerDirectory: void produceDirectory()>
-java.io.IOException	<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>
+java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: long skip(long)>	@GZip
 java.io.IOException	<org.prevayler.foundation.Chunking: void writeChunk(java.io.OutputStream,org.prevayler.foundation.Chunk)>
+java.io.IOException	<org.prevayler.implementation.PrevaylerDirectory: java.io.File latestSnapshot()>
 java.io.IOException	<org.prevayler.foundation.network.ObjectSocket: void close()>
 java.lang.Exception	<org.prevayler.demos.demo2.Main: void startSnapshots(org.prevayler.Prevayler)>
 org.prevayler.demos.demo2.business.Account$InvalidAmount	<org.prevayler.demos.demo2.business.Account: void withdraw(long,java.util.Date)>
@@ -183,21 +183,21 @@ java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: i
 java.io.IOException	<org.prevayler.implementation.journal.PersistentJournal: void <init>(org.prevayler.implementation.PrevaylerDirectory,long,long,java.lang.String,org.prevayler.foundation.monitor.Monitor)>	@Monitor
 java.io.IOException	<org.prevayler.foundation.DurableInputStream: void close()>
 java.io.IOException	<org.prevayler.foundation.network.OldNetwork: org.prevayler.foundation.network.ObjectSocket openSocket(java.lang.String,int)>
-java.io.IOException	<org.prevayler.foundation.DurableOutputStream: void sync(org.prevayler.foundation.Guided)>
 java.io.IOException	<org.prevayler.foundation.DeepCopier: java.lang.Object deepCopyParallel(java.lang.Object,org.prevayler.foundation.serialization.Serializer)>
+java.io.IOException	<org.prevayler.foundation.DurableOutputStream: void sync(org.prevayler.foundation.Guided)>
 java.io.IOException	<org.prevayler.implementation.snapshot.GenericSnapshotManager: void <init>(java.util.Map,java.lang.String,java.lang.Object,org.prevayler.implementation.PrevaylerDirectory,org.prevayler.foundation.serialization.Serializer)>
 java.io.IOException	<org.prevayler.implementation.journal.PersistentJournal: void update(org.prevayler.implementation.publishing.TransactionSubscriber,long)>
 java.io.IOException	<org.prevayler.foundation.network.StubbornNetwork: org.prevayler.foundation.network.ObjectSocket newInstance(java.lang.String,int)>
 java.io.IOException	<org.prevayler.foundation.network.NetworkClientObjectReceiverImpl: void <init>(java.lang.String,int,org.prevayler.foundation.network.ObjectReceiver)>	@Replication
 java.io.IOException	<org.prevayler.foundation.serialization.XStreamSerializer: void writeObject(java.io.OutputStream,java.lang.Object)>
 java.lang.IllegalAccessException	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>
-java.io.IOException	<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>	@Snapshot
 java.io.IOException	<org.prevayler.foundation.serialization.XStreamSerializer: java.lang.Object readObject(java.io.InputStream)>
-java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>
+java.io.IOException	<org.prevayler.PrevaylerFactory: org.prevayler.implementation.snapshot.GenericSnapshotManager snapshotManager()>	@Snapshot
 java.io.IOException	<org.prevayler.foundation.network.StubbornServerReceiverImpl: void close()>	@Replication
+java.lang.ClassNotFoundException	<org.prevayler.PrevaylerFactory: org.prevayler.Prevayler create()>
 java.io.IOException	<org.prevayler.implementation.journal.PersistentJournal: void close()>
-java.lang.RuntimeException	<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void approve(org.prevayler.implementation.TransactionTimestamp)>	@Censor
 java.io.IOException	<org.prevayler.implementation.replication.ServerConnection: void publishRemoteTransaction()>	@Replication
+java.lang.RuntimeException	<org.prevayler.implementation.publishing.censorship.StrictTransactionCensor: void approve(org.prevayler.implementation.TransactionTimestamp)>	@Censor
 java.io.IOException	<org.prevayler.implementation.publishing.TransactionPublisher: void close()>
 java.lang.Exception	<org.prevayler.Prevayler: java.lang.Object execute(org.prevayler.TransactionWithQuery)>
 java.lang.ClassNotFoundException	<org.prevayler.implementation.snapshot.GenericSnapshotManager: java.lang.Object readSnapshot(java.io.File)>	@Snapshot
@@ -218,8 +218,8 @@ java.io.IOException	<org.prevayler.foundation.serialization.SkaringaSerializer: 
 java.lang.ClassNotFoundException	<org.prevayler.implementation.PrevalentSystemGuard: void subscribeTo(org.prevayler.implementation.publishing.TransactionPublisher)>
 java.lang.Exception	<org.prevayler.implementation.PrevaylerImpl: java.lang.Object execute(org.prevayler.Query)>	@Snapshot
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void flush()>	@GZip
-java.io.IOException	<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver createService(org.prevayler.foundation.network.Service,int)>	@Replication
 java.lang.InstantiationException	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void initializePrevayler()>
+java.io.IOException	<org.prevayler.foundation.network.BaseNetworkImpl: org.prevayler.foundation.network.NetworkServerObjectReceiver createService(org.prevayler.foundation.network.Service,int)>	@Replication
 java.io.IOException	<org.prevayler.demos.scalability.Main: java.io.File propertiesFile()>
 java.lang.ClassNotFoundException	<org.prevayler.implementation.replication.ClientPublisher: void access$0(org.prevayler.implementation.replication.ClientPublisher)>
 java.lang.Exception	<org.prevayler.demos.demo1.Main: void printMessage()>
@@ -231,16 +231,16 @@ java.io.IOException	<org.prevayler.foundation.ObjectInputStreamWithClassLoader: 
 java.lang.InstantiationException	<org.prevayler.demos.scalability.prevayler.PrevaylerTransactionSubject: void <init>(java.lang.String,java.lang.String)>
 java.lang.ClassNotFoundException	<org.prevayler.implementation.PrevalentSystemGuard: org.prevayler.implementation.PrevalentSystemGuard deepCopy(long,org.prevayler.foundation.serialization.Serializer)>
 java.io.IOException	<org.prevayler.foundation.network.StubbornServerReceiverImpl: void receive(java.lang.Object)>	@Replication
-java.io.IOException	<org.prevayler.foundation.network.ObjectSocketImpl: java.lang.Object readObject()>	@Replication
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(byte[],int,int)>	@GZip
+java.io.IOException	<org.prevayler.foundation.network.ObjectSocketImpl: java.lang.Object readObject()>	@Replication
 java.io.IOException	<org.prevayler.implementation.PrevalentSystemGuard: void subscribeTo(org.prevayler.implementation.publishing.TransactionPublisher)>
-java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void close()>	@GZip
 java.io.IOException	<org.prevayler.foundation.network.Network: void startService(org.prevayler.foundation.network.Service,int)>
+java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: void close()>	@GZip
 java.io.IOException	<org.prevayler.foundation.network.ObjectSocket: java.lang.Object readObject()>
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPInputStream: int read()>	@GZip
 java.io.IOException	<org.prevayler.foundation.gzip.MultiMemberGZIPOutputStream: void write(int)>	@GZip
 java.io.IOException	<org.prevayler.foundation.network.ObjectReceiver: void receive(java.lang.Object)>
-java.io.IOException	<org.prevayler.foundation.DurableOutputStream: void close()>
 java.lang.Exception	<org.prevayler.demos.scalability.Main: void runPrevaylerTransaction()>
-org.prevayler.demos.demo2.business.Bank$AccountNotFound	<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account findAccount(long)>
+java.io.IOException	<org.prevayler.foundation.DurableOutputStream: void close()>
 org.prevayler.demos.demo2.business.Account$InvalidHolder	<org.prevayler.demos.demo2.business.Account: void <init>(long,java.lang.String)>
+org.prevayler.demos.demo2.business.Bank$AccountNotFound	<org.prevayler.demos.demo2.business.Bank: org.prevayler.demos.demo2.business.Account findAccount(long)>

@@ -10,10 +10,10 @@
 <java.util.Iterator: boolean hasNext()>	<java.util.Iterator: boolean hasNext()>
 <<\\" Pred \\">>	<<\\" Pred \\">>
 <Vertex: void setWeight(int)>	<Vertex: void setWeight(int)>
-<EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>
 <java.lang.Integer: int parseInt(java.lang.String,int)>	<java.lang.Integer: int parseInt(java.lang.String,int)>
-<<\\"Total Time: \\">>	<<\\"Total Time: \\">>
+<EdgeIfc: void setWeight(int)>	<EdgeIfc: void setWeight(int)>
 <Edge: Vertex getStart()>	<Edge: Vertex getStart()>
+<<\\"Total Time: \\">>	<<\\"Total Time: \\">>
 <RegionWorkSpace: void init_vertex(Vertex)>	<RegionWorkSpace: void init_vertex(Vertex)>
 <Vertex: void init_vertex(WorkSpace)>	<Vertex: void init_vertex(WorkSpace)>
 <Neighbor: void setWeight(int)>	<Neighbor: void setWeight(int)>
@@ -59,8 +59,8 @@
 <Neighbor: Vertex getStart()>	<Neighbor: Vertex getStart()>
 <<\\"Vertex \\">>	<<\\"Vertex \\">>
 <Vertex: void adjustAdorns(Neighbor)>	<Vertex: void adjustAdorns(Neighbor)>
-<Vertex$EdgeIter3: boolean hasNext()>	<Vertex$EdgeIter3: boolean hasNext()>
 <Main: void <init>()>	<Main: void <init>()>
+<Vertex$EdgeIter3: boolean hasNext()>	<Vertex$EdgeIter3: boolean hasNext()>
 <java.lang.Integer: int intValue()>	<java.lang.Integer: int intValue()>
 <Vertex: void addWeight(int)>	<Vertex: void addWeight(int)>
 <Graph: void addEdge(Vertex,Neighbor)>	<Graph: void addEdge(Vertex,Neighbor)>
@@ -120,8 +120,8 @@
 <Graph: void graphSearch(WorkSpace)>	<Graph: void graphSearch(WorkSpace)>
 <<\\"Vertices \\">>	<<\\"Vertices \\">>
 <Vertex$VertexIter3: Vertex next()>	<Vertex$VertexIter3: Vertex next()>
-<EdgeIfc: void display()>	<EdgeIfc: void display()>
 <<\\" Cycle? \\">>	<<\\" Cycle? \\">>
+<EdgeIfc: void display()>	<EdgeIfc: void display()>
 <EdgeIter: void <init>()>	<EdgeIter: void <init>()>
 <Vertex: void nodeSearch(WorkSpace)>	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: void endProfile()>	<Graph: void endProfile()>
@@ -171,8 +171,8 @@
 v	v
 <Vertex: void addAdjacent(Vertex)>	<Vertex: void addAdjacent(Vertex)>
 <Graph$Comparator3: void <init>(Graph)>	<Graph$Comparator3: void <init>(Graph)>
-<Graph$EdgeIter1: boolean hasNext()>	<Graph$EdgeIter1: boolean hasNext()>
 <java.util.Collections: void sort(java.util.List,java.util.Comparator)>	<java.util.Collections: void sort(java.util.List,java.util.Comparator)>
+<Graph$EdgeIter1: boolean hasNext()>	<Graph$EdgeIter1: boolean hasNext()>
 <java.lang.String: java.lang.String valueOf(int)>	<java.lang.String: java.lang.String valueOf(int)>
 <WorkSpace: void checkNeighborAction(Vertex,Vertex)>	<WorkSpace: void checkNeighborAction(Vertex,Vertex)>
 <Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>	<Graph$Comparator1: void <init>(Graph,Graph$Comparator1)>

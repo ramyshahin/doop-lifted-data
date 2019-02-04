@@ -49,8 +49,8 @@
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction24	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/tmp<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction24
 <Graph: Graph kruskal()>/if/instruction148	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction148
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/tmp<Graph: EdgeIfc findsEdge(Vertex,Vertex)>/if/instruction20
-<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8	<Edge: Vertex getOtherVertex(Vertex)>/tmp<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8
 <Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction6	<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/tmp<Graph$Comparator3: int compare(EdgeIfc,EdgeIfc)>/if/instruction6
+<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8	<Edge: Vertex getOtherVertex(Vertex)>/tmp<Edge: Vertex getOtherVertex(Vertex)>/if/instruction8
 <Graph: Graph kruskal()>/if/instruction42	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction42
 <Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction6	<Graph$Comparator2: int compare(Vertex,Vertex)>/tmp<Graph$Comparator2: int compare(Vertex,Vertex)>/if/instruction6
 <Graph: Graph kruskal()>/if/instruction91	<Graph: Graph kruskal()>/tmp<Graph: Graph kruskal()>/if/instruction91

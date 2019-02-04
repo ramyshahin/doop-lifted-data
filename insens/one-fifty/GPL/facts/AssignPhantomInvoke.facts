@@ -26,8 +26,8 @@
 <Vertex$EdgeIter3: boolean hasNext()>/assign/instruction3	3	<Vertex$EdgeIter3: boolean hasNext()>
 <Vertex: void display()>/assign/instruction12	12	<Vertex: void display()>
 <Vertex$VertexIter1: boolean hasNext()>/assign/instruction3	3	<Vertex$VertexIter1: boolean hasNext()>
-<Vertex$EdgeIter1: EdgeIfc next()>/assign/instruction3	3	<Vertex$EdgeIter1: EdgeIfc next()>
 <Graph: Graph prim(Vertex)>/assign/instruction43	43	<Graph: Graph prim(Vertex)>
+<Vertex$EdgeIter1: EdgeIfc next()>/assign/instruction3	3	<Vertex$EdgeIter1: EdgeIfc next()>
 <Graph: Graph computeTranspose(Graph)>/assign/instruction31	31	<Graph: Graph computeTranspose(Graph)>
 <Neighbor: void display()>/assign/instruction6	6	<Neighbor: void display()>
 <Vertex$EdgeIter1: boolean hasNext()>/assign/instruction3	3	<Vertex$EdgeIter1: boolean hasNext()>
@@ -38,10 +38,10 @@
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction40	40	<Vertex: void nodeSearch(WorkSpace)>
 <Graph: EdgeIfc findsEdge(Vertex,Vertex)>/assign/instruction15	15	<Graph: EdgeIfc findsEdge(Vertex,Vertex)>
 <Vertex: void addWeight(int)>/assign/instruction8	8	<Vertex: void addWeight(int)>
-<Vertex$VertexIter3: boolean hasNext()>/assign/instruction3	3	<Vertex$VertexIter3: boolean hasNext()>
 <VertexIter: void <init>(Graph)>/assign/instruction5	5	<VertexIter: void <init>(Graph)>
-<Vertex$EdgeIter2: EdgeIfc next()>/assign/instruction3	3	<Vertex$EdgeIter2: EdgeIfc next()>
+<Vertex$VertexIter3: boolean hasNext()>/assign/instruction3	3	<Vertex$VertexIter3: boolean hasNext()>
 <Graph: Graph kruskal()>/assign/instruction41	41	<Graph: Graph kruskal()>
+<Vertex$EdgeIter2: EdgeIfc next()>/assign/instruction3	3	<Vertex$EdgeIter2: EdgeIfc next()>
 <Vertex: void nodeSearch(WorkSpace)>/assign/instruction33	33	<Vertex: void nodeSearch(WorkSpace)>
 <Vertex: void display()>/assign/instruction42	42	<Vertex: void display()>
 <Vertex: void display()>/assign/instruction90	90	<Vertex: void display()>

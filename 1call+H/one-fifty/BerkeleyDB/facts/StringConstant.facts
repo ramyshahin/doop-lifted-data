@@ -1,0 +1,892 @@
+Delete
+<<\\" lnLsn=\\">>
+<<\\"Found unfinished prepare record: id: \\">>
+No value after -overhead
+<<\\"No transaction found for \\">>
+Stats for internal and leaf nodes (after insert)
+<<\\"Can\'t find \\">>
+\\"</in>\\"
+DupRootSplit:
+There are open cursors against the database.\n
+-c requires an argument
+<<\\"Usage: \\">>
+Sequences not supported in databases configured for duplicates
+\\"INDelReplay:\\"
+#
+RootSplit:
+\\"CleanIN:\\"
+je.lck
+</txn>
+(
+)
+Recovery w/no files.
+,
+-
+.
+0
+SecondaryDatabase.getSearchBoth
+1
+<dbTree lastDbId =\\\"
+<<\\"can\'t find database \\">>
+<pendingDeleted val=\\\"
+<DbLsn val=\\\"0x
+type=btree
+<dupkey>
+<
+<<\\" open Database in the Environment.\n\\">>
+>
+usage: java <utility> [options...]
+The sequence record has been deleted while it is open.
+SET
+couldn\'t instantiate class comparator
+<entries numEntries=\\\"
+1000
+Database.getSearchBoth
+\\".bad\\"
+manual
+<<\\"Tree contains obsolete lsn \\">>
+Maximum, internal nodes and leaf nodes
+lastUsed=
+]
+close
+READ_COMMITTED
+Secondary corrupt
+<<\\" ForeignKeyDeleteAction\n\\">>
+DENIED
+SUCCESS
+numBottomInternalNodes=
+<<\\" waits for \\">>
+\\"_jeIdMap\\"
+DIN
+<<\\"Cursor.getPrevDup: \\">>
+Delete:
+allowDuplicates passed to insert but database doesn\'t have allow duplicates set.
+TxnPrepare
+<<\\"SecondaryCursor.getNext: \\">>
+NULLIFY
+r
+DelDupLN
+\nPer checkpoint interval info:
+\\\" baseFileNumber=\\\"
+<<\\"Logged item entrySize= \\">>
+VERSION=3
+No value after -key
+<<\\"Invalid header parameter: \\">>
+Must supply a database name if -l not supplied.
+No value after -measure
+<<\\"SecondaryCursor.getPrev: \\">>
+\\"je.info\\"
+<<\\" Transactional\n\\">>
+<<\\"CleanerRun \\">>
+Attempt to use a Environment that has been closed.
+<LockInfo locker=\\\"
+numInternalNodes=
+ABORT
+<database id=\\\"
+<<\\" TOTALS \\">>
+<<\\" dupRootLsn=\\">>
+<<\\"Sequence overflow \\">>
+<<\\"java { \\">>
+ForeignKeyNullifier or ForeignMultiKeyNullifier must be non-null when ForeignKeyDeleteAction is NULLIFY
+</root>
+]\n
+deleteSafeToDeleteFiles
+<<\\"Problem parsing parameter \\">>
+Inputs: records=
+<<\\" parent=\\">>
+CURSOR_NOT_INITIALIZED
+putCurrent
+single writer
+redoLns
+end-end
+<<\\"  -a <clean|compress|evict|checkpoint|removedb>\\">>
+<<\\" -s  <start file number, in hex>\\">>
+remove
+idkey is null
+Abort
+\\\" totalINSize=\\\"
+CURSOR_CLOSED
+<<\\"Corruption begins at LSN:\n   \\">>
+Couldn\'t recover
+INDelReplay:
+\\\" childLsn=\\\"
+putNoDupData
+BIN
+-h is a required argument
+Unexpected interrupt while waiting for fsync
+Checking obsolete offsets ...
+RecoveryManager
+_jeIdMap
+<<\\"Already saw dupSort entry for dbId: \\">>
+InsD:
+<<\\" ckptEnd=\\">>
+<FileHeader num=\\\"0x
+<Dbg time=\\\"
+RANGE_READ
+\\\" obsoleteINCount=\\\"
+<<\\" newLnLsn=\\">>
+SecondaryDatabase open
+\\\"/>
+<<\\"Database is Read Only: \\">>
+dupsort=
+Can\'t call Database.truncate
+<<\\"Cursor.getPrevNoDup: \\">>
+IN
+<<\\"<LatchWaiter: \\">>
+ckptEnd
+</dbin>
+<<\\"SecondaryCursor.getPrevDup: \\">>
+NEXT_DUP
+<<\\"FileReader read invalid log entry type: \\">>
+Btree
+<<\\"There are \\">>
+Minimum, internal nodes only
+Sequence.get value=
+CASCADE
+<<\\" Btree Comparator\n\\">>
+Lock, transaction, or latch left behind at environment close
+\\"RootSplit:\\"
+<ln>
+<tree>
+\\"</dupCountLN>\\"
+\\"CleanPendingLN:\\"
+<<\\"Cursor.putNoDupData: \\">>
+Lsn mismatch
+numDuplicateInternalNodes=
+Lock
+Non-blocking lock was denied.
+Can\'t call Database.verify
+-s requires an argument
+LN
+<<\\"SecondaryCursor.getSearchBothRange: \\">>
+----\n
+<<\\"-c: \\">>
+Already closed
+<<\\"processing file \\">>
+<<\\"Dup Offset \\">>
+as % of log
+</database>
+Only one may be specified: ReadCommitted or ReadUncommitted
+Cleaner.addToQueue should never be called.
+<<\\" found=\\">>
+Mac OS X
+<key/>
+LatchImpl
+\\"_jeUtilization\\"
+<<\\" inserted=\\">>
+<<\\"Duplicates must not be allowed for a foreign key  database: \\">>
+idKey=
+<<\\" newSibling=\\">>
+lsnFromLog=
+READ
+Transaction
+Write after RunRecoveryException
+<<\\" lastUsed=\\">>
+<<\\"Cannot read backward over cleaned file from \\">>
+!\\\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+matchLNByNodeId called on non DIN/DBIN
+<<\\"Load end: \\">>
+CacheSize=
+evict time=
+<<\\"Cursor.getNextNoDup: \\">>
+</ln>
+<<\\" -tx <targetted txn ids, comma separated>\\">>
+All arguments are optional
+<<\\"DatabaseEntry \\">>
+<<\\"fetchTarget of \\">>
+<<\\"Close of environment \\">>
+\\"Delete:\\"
+FileManager would overwrite non-empty file 0x
+<fileSummaryLN>
+<<\\"Cursor.delete: \\">>
+<<\\" Duplicate Comparator\n\\">>
+com.sleepycat.je.util.
+<<\\"failed adding in \\">>
+File Flip
+Database.delete
+Randomly generated for testing
+<<\\"SecondaryCursor.getPrevNoDup: \\">>
+</dbtree>
+Preload starting
+<<\\"Database \\">>
+mapLN
+start-end
+Trace list:
+<<\\"SecondaryCursor.getNextDup: \\">>
+secConfig.getForeignKeyNullifier() and getForeignMultiKeyNullifier() may not both be non-null
+Txn undo for node=
+UNKNOWN
+renamed
+<<\\" ForeignMultiKeyNullifier\n\\">>
+<DatabaseEntry
+\\"Mod:\\"
+Log file 0x
+<<\\"*** \\">>
+<<\\"\nBtree levels: \\">>
+Ins:
+<<\\" IN type=\\">>
+<<\\"Cursor.getCurrent: \\">>
+Corrupted file
+PREV
+<<\\"\nPreloading with cache size: \\">>
+api
+CleanIN:
+<<\\"Unknown cursor status: \\">>
+<knownDeleted val=\\\"
+LN_TX
+Can\'t call Database.putNoOverWrite
+Can\'t call Database.putNoDupData
+DBIN
+<<\\"  \\">>
+<<\\"Cursor.putNoOverwrite: \\">>
+<<\\"Database.close: \\">>
+<<\\"Cursor.getLast: \\">>
+<<\\"                 -h <environment home>\\">>
+envHome
+OperationStatus.
+Evictor: pass=
+Txn
+INVALID
+<<\\" index=\\">>
+<<\\" existingLn=\\">>
+Cleaner duplicate key sequence file=0x
+\\"</dbin>\\"
+-v requires an argument
+<TreeLocation bin=\\\"
+<<\\"Problem in fillReadBuffer, readBufferFileNum = \\">>
+Database.put
+The SecondaryConfig argument is null.
+<<\\"Data field for DatabaseEntry \\">>
+<<\\"Problem: \\">>
+<dbtree lastId = \\\"
+</CkptEnd>
+<<\\" dbin=\\">>
+<<\\" existing transactions opened against\\">>
+Can\'t call Database.openSequence:
+\\"<nameLN>\\"
+<<\\"Cursor.getNext: \\">>
+</entry>
+<<\\" replaced=\\">>
+allowCreate=
+A checksum error was found in the log.
+\\"Ins:\\"
+<<\\"Preloaded \\">>
+sync
+Continuing
+<<\\"Attempted to open Database \\">>
+<<\\"SecondaryCursor.getSearchBoth: \\">>
+<<\\" ddinLsn=\\">>
+\\"Mut:\\"
+<btcf name=\\\"
+Recovery underway, found end of log
+\\\" totalLNCount=\\\"
+\\"</node>\\"
+\\\" lnKey=\\\"
+</offsets>
+Can\'t set \'je.env.isNoLocking\' and \'je.env.isTransactional\';
+<database>
+<<\\"Exit status = \\">>
+DupRootRecover:
+</Dbg>
+avg
+BIN must be latched before evicting LNs
+\\".jdb\\"
+Database.putNoOverwrite
+<<\\"Can\'t truncate database \\">>
+At least one cursor is required.
+INDupDelete
+NEXT
+numDuplicateBottomInternalNodes=
+<mapLN>
+Cleaner
+getLastNode passed null root
+<<\\" lastCkpt=\\">>
+<<\\"Couldn\'t rename \\">>
+BIN cursorSet is inconsistent.
+PROMOTION
+NULL_LSN without KnownDeleted
+\\"CleanMigrateLN:\\"
+<<\\"DbDump.dump of \\">>
+<<\\"Commit of transaction \\">>
+<<\\"Cursor.getSearchKeyRange: \\">>
+</lastFullLsn>
+<<\\" -q  if specified, concise version is printed\\">>
+<txn id=\\\"
+<<\\"Could not insert secondary key in \\">>
+<<\\" the Environment.\n\\">>
+Database.truncate: txnId=
+<<\\"Location \\">>
+<<\\"Pass 2: \\">>
+\\"</din>\\"
+preload
+put
+<<\\"Invalid value of searchType: \\">>
+PREV_DUP
+neither LN or DIN found in BIN
+truncate
+Can\'t close Database:
+<<\\"maxBytes parameter to Database.preload() was specified as \\">>
+Cleaner deleted file 0x
+<<\\" -S  show Summary of log entries\\">>
+\\"INCompress:\\"
+<<\\" Waiters:\\">>
+All cursors must use the same transaction.
+<<\\" child=\\">>
+</nameDb>
+KEYEXIST
+\\"<mapLN>\\"
+\\"</nameLN>\\"
+ForeignKeyNullifier may not be used with SecondaryMultiKeyCreator -- use ForeignMultiKeyNullifier instead
+<<\\" newSiblingLsn = \\">>
+\\"<din>\\"
+\\"LNRedo:\\"
+</bin>
+<<\\"JoinCursor.getNext(key): \\">>
+replaceOrInsert
+Can\'t call SecondaryDatabase.getSearchBoth:
+<<\\"SecondaryCursor.getCurrent: \\">>
+The cache size is larger than the sequence range
+\\"  File    Size (KB)  % Used\n--------  ---------  ------\\"
+DATA=END
+doClean
+java.util.concurrent.locks.ReentrantReadWriteLock
+\'
+WRITE
+INCompressor.addToQueue should never be called.
+Can\'t call Database.delete:
+<offsets size=\\\"0\\\"/>
+RootRecover:
+<<\\"Load start: \\">>
+<<\\"SecondaryCursor.getFirst: \\">>
+<<\\"JoinCursor.getNext(key,data): \\">>
+Primary and secondary databases must be in the same environment
+unknown GetMode
+<node>
+<<\\"] \\">>
+Usage: EnvironmentParams <samplePropertyFile>
+fsyncLatch
+\\"DupRootRecover:\\"
+.jdb
+<<\\" -ty <targetted entry types, comma separated>\\">>
+<in/>
+<<\\"Cursor.getPrev: \\">>
+<<\\"Not Exception or Error: \\">>
+<<\\"-Warning: Out of sync. Should be \\">>
+<level val=\\\"
+No value after -records
+<<\\" ckptStart=\\">>
+++++++++++ end lock table dump ++++++++++
+db=
+\\"RootRecover:\\"
+<<\\"Error in \\">>
+++++++++++ begin lock table dump ++++++++++
+\\"    Cache Size      Btree Size  Description\n--------------  --------------  -----------\\"
+<<\\"Abort:id = \\">>
+<<\\"  -ro (read-only - defaults to read-write)\\">>
+<dbId id=\\\"
+<<\\"usage:\njava \\">>
+\n
+\\\" type=\\\"
+<<\\"A je.lckfile exists in \\">>
+BOTH
+\\";\\"
+<<\\"Can\'t go from environment state \\">>
+\\"INRecover:\\"
+LNUndo
+<<\\"latches held = \\">>
+<<\\" -h  <envHomeDir>\\">>
+<<\\"Enviroment creation isn\'t allowed,  but there is no pre-existing  environment in \\">>
+lnTxn
+<dbin>
+BOTH_RANGE
+TxnCommit
+<<\\"\nException shutting down daemon threads: \\">>
+<dupCountLN/>
+LNRedo:
+\\"CleanLN:\\"
+<<\\" bin=\\">>
+putNoOverwrite
+CLOSED
+critical
+MapLN_TX
+<<\\" replacedLsn=\\">>
+NameLN
+\\\" totalINCount=\\\"
+UNKNOWN (
+MapLN
+No value after -nodemax
+<firstActive>
+*** All records did not fit in the cache ***
+<DbPrintLog>
+</din>
+java.util.concurrent.locks.ReentrantLock
+waitTarget.active but not owner
+\\"InsD:\\"
+\n</Cursor>
+<<\\" lsn=\\">>
+INCompressor
+<<\\" node=\\">>
+<<\\"You can\'t open a Database with a duplicatesAllowed configuration of \\">>
+\\"je.disable.java.adler32\\"
+<<\\" parentLsn = \\">>
+<<\\"Already name mapped for dbId: \\">>
+<<\\"You can\'t open a Database with a transactional configuration of \\">>
+Environment.open:  name=
+<<\\"  -s <dbName> (for preloading of evict or db remove)\\">>
+Duplicate
+EXCEEDED_TIME
+MapTreeRoot
+<<\\"Couldn\'t find lock for Node \\">>
+\\"<bin>\\"
+nGets=
+</in>
+<<\\"Key exists: \\">>
+<<\\"\nMeasuring with cache size: \\">>
+<lastFullLsn>
+-d requires an argument
+Cannot write file summary in a read-only environment
+<<\\"Environment invalid because of previous exception: \\">>
+\\"RootDelete:\\"
+</firstActive>
+</tree>
+mutableConfig
+<<\\"Last known good record before corruption is at LSN:\n   \\">>
+INDelete
+\\"com.sleepycat.je.util.\\"
+mapLNTxn
+<<\\" childIdx=\\">>
+Operation not allowed on a secondary
+<<\\"\\">>
+Aborting open transactions ...\n
+<dupcf name=\\\"
+\\"<node>\\"
+<root>
+<Transaction id=\\\"
+<<\\"Can\'t \\">>
+SecondaryDatabase.delete
+SearchMode.
+put passed a null DatabaseEntry arg
+ExclusiveCreate=true and the sequence record already exists.
+-f requires an argument
+<<\\"txnId = \\">>
+>\n
+1.4 based 64 bit JVM not supported
+\\"</bin>\\"
+<<\\"Exception while trying to load \\">>
+Missing utility name
+<<\\"Recovery finished: \\">>
+RANGE_INSERT
+NEXT_NODUP
+<<\\"Node \\">>
+<<\\"null buffer given to checksum validation, probably  result of 0\'s in log file. \\">>
+Random key already exists -- retrying
+<<\\"Read non-valid log entry type: \\">>
+<<\\" -k  <binary|text> (format for dumping the key)\\">>
+<din>
+NOTFOUND
+<<\\" node \\">>
+deleted
+<<\\"Recovery Pass \\">>
+subtree did not have a BIN for leaf
+\\"<dupCountLN>\\"
+<null>
+<<\\" SecondaryKeyCreator\n\\">>
+<<\\"Cursor.getFirst: \\">>
+db
+\\"                                                                                                                                \\"
+exactParentFound=
+<<\\" nothing\\">>
+Database.openSequence
+<<\\"Remove of \\">>
+\\"<in>\\"
+TriggerLatch
+<<HASH:-870535562>>
+beginTransaction called,  but Environment was not opened with transactional cpabilities
+<<\\" ForeignKeyDelete\n\\">>
+\\"!\\\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\\"
+count
+<<\\"Error Key \\">>
+<<\\" exists = \\\"\\">>
+No value after -density
+Cursor has been closed.
+<<\\"    Cache Size      Btree Size  Description\n--------------  --------------  -----------\\">>
+last LSN=
+<<\\"action time = \\">>
+<<\\"A transaction was not supplied when opening this cursor: \\">>
+</nameLN>
+secConfig.getKeyCreator() and getMultiKeyCreator() may not both be non-null
+Can\'t call Database.get:
+primaryDatabase
+foo
+\\"daemon\\"
+readMapIns
+RootLatch
+<<\\"environmentImpl is null for target db \\">>
+<<\\"XA Transaction \\">>
+CleanMigrateLN:
+\\"</ln>\\"
+Attempt to use non-open Environment object().
+<dupCountLN>
+READ_UNCOMMITTED
+(optional)
+Prepare
+<<\\" logLsn=\\">>
+Minimum sequence value must be less than the maximum
+<<\\"DbLoad.load of \\">>
+CURSOR_INITIALIZED
+<<\\" lsnFromLog:\\">>
+false
+openSequence
+<<\\"Attempt to \\">>
+cursors
+</ckptStart>
+</DbPrintLog>
+<<\\"                 -f <file number, in hex>\\">>
+RootDelete:
+DEFAULT
+.bad
+DatabaseConfig.setReadOnly() must be set to false when creating a Database
+\\\" isProvisional=\\\"true
+.del
+<<\\" Sorted Duplicates\n\\">>
+<<\\"Found non-deletable IN \\">>
+couldn\'t find database - truncate
+Database.openCursor
+</idDb><nameDb>
+<<\\"Transfer, lock \\">>
+<<\\" nextAvail=\\">>
+<<\\" (\\">>
+ForeignKeyDeleteAction.
+Root
+<<\\" oldLnLsn=\\">>
+<entries nEntries=\\\"
+-v requires a positive argument
+<bin>
+<<\\"Duplicates must not be allowed for a primary database: \\">>
+<<\\"SecondaryCursor.getLast: \\">>
+Exiting
+invalid
+<<\\"Couldn\'t open file \\">>
+<<\\"Cursor.getSearchKey: \\">>
+<ckptStart>
+The following SecondaryConfig parameters for the\ncached Database do not match the parameters for the\nrequested Database:\n
+<<\\" ln=\\">>
+PreloadStatus.
+<<\\"Secondary is already associated with a different primary: \\">>
+\\"Delete\\"
+<<\\"     \\">>
+<<\\" dbinLsn=\\">>
+<<\\" splitIdx=\\">>
+\\\" logVersion=\\\"0x
+CleanPendingLN:
+<<\\" btc=\\\"\\">>
+\\\" length=\\\"
+<<\\" dupCountLN=\\">>
+lsn=
+max
+</idkey>
+<<\\"Secondary \\">>
+<<\\"are \\">>
+undoLNs
+NameLN_TX
+RMW
+NEW
+,-
+ln
+\\".cif\\"
+<<\\"File \\">>
+<<\\" lnIdx=\\">>
+key=
+je.disable.java5.latches
+<key v=\\\"
+<<\\" SecondaryMultiKeyCreator\n\\">>
+<<\\"No data to match key \\">>
+CkptEnd
+INRecover:
+</data>
+-h requires an argument
+This statement would have triggered an Exception: virtualinvoke searchResult#1.<com.sleepycat.je.tree.IN: void releaseLatchIfOwner()>()
+-records not specified
+Minimum, internal nodes and leaf nodes
+\\\" totalLNSize=\\\"
+HEADER=END
+UTF-8
+<<\\" [waiters: \\">>
+<<\\"Next known good record after corruption is at LSN:\n   \\">>
+EXISTING
+BINDelta
+<lsn/>
+AllowCreate=false and the sequence record does not exist.
+entries
+activeTxns=[
+newName
+null
+<<\\"Cursor.getSearchBoth: \\">>
+<<\\"Usage: \n \\">>
+true
+<<\\"locker \\">>
+Txnl access to UP db not allowed
+<<\\"Expected log version 3 or earlier but found \\">>
+<<\\" ImmutableSecondaryKey\n\\">>
+Mod:
+<<\\"  File    Size (KB)  % Used\n--------  ---------  ------\\">>
+NONE_NEEDED
+<<\\"usage: \\">>
+<<\\".jdb  \\">>
+<<\\"SecondaryCursor.getNextNoDup: \\">>
+delete
+Can\'t call Database.preload
+total
+<<\\" Owners:\\">>
+-key not specified
+Cursor Not Initialized.
+RESTART
+putNoDupData() called, but database is not configured for duplicate data.
+<<\\" \\">>
+<<\\"Cursor.putCurrent: \\">>
+FileHeader
+<<\\"  -h <environment home> \\">>
+is 1 open Database in the Environment.\n
+<in>
+\\"manual\\"
+<<\\"Cache percent is not a valid integer: \\">>
+<<\\" Read-Only\n\\">>
+recover
+<<\\"CleanAddPendingDB \\">>
+\\\" lastEntryInPrevFileOffset=\\\"0x
+/>
+Trace
+<idDb>
+<<\\"Both \\">>
+Commit
+unknown PutMode
+bytes
+\\"LatchImpl\\"
+<<\\"prepare() has already been called for Transaction \\">>
+Sequence delta is larger than the range
+<<\\"Cursor.put: \\">>
+databaseName
+<<\\"Pass 1: \\">>
+<<\\"DbVerify.verify of \\">>
+<<\\" A configuration parameter name can\'t be null or 0 length\\">>
+commit
+Log statistics:
+\\\" obsoleteLNCount=\\\"
+<<\\"Files cleaned: \\">>
+Sequence delta must be greater than zero
+<<\\"loaded \\">>
+<<\\" lock taken at: \\">>
+SecondaryDatabase.get
+<<\\"last LSN = \\">>
+Database.putNoDupData
+<<\\"SecondaryCursor.getSearchKey: \\">>
+Some latches held at env close.
+<<\\"Recovery checkpoint search, \\">>
+non LogEntryType passed to LogEntryType.compare
+A partial key DatabaseEntry is not allowed
+Mut:
+Sequence record removed during openSequence.
+Log file is truncated at position starting at and inclusive of the offset. Beware, not  for general purpose use yet!
+WAIT_PROMOTION
+format=bytevalue
+remaining=
+<<\\" name=\\\"\\">>
+<idkey>
+shared
+TxnAbort
+rw
+File closed, may be due to thread interrupt
+0x
+\\"critical\\"
+<<\\"Env \\">>
+<<\\"Wrong filenum in header for file \\">>
+<<\\"<LATCH \\">>
+min
+getParentNode passed null
+<<\\"Cursor.getSearchBothRange: \\">>
+cleanedCount=
+is 1 existing transaction opened against
+key
+\\"_jeNameMap\\"
+stat
+The following DatabaseConfig parameters for the\ncached Database do not match the parameters for the\nrequested Database:\n
+</INDeleteEntry>
+key/data
+\\"LNUndo\\"
+Initial sequence value is out of range
+DupCountLN
+<<\\"Couldn\'t delete \\">>
+OPEN
+A Transaction cannot be used because the environment was opened non-transactionally
+<<\\"There \\">>
+: waited for lock
+<<\\"SecondaryCursor.getSearchKeyRange: \\">>
+closed
+open
+</node>
+copy.remaining=
+####################################################\n# Example Berkeley DB, Java Edition property file\n# Each parameter is set to its default value\n####################################################\n\n
+\\"Split:\\"
+<<\\" abortLsn=\\">>
+<<\\"\nTotal bytes in portion of log read: \\">>
+<<\\" dupc=\\\"\\">>
+----- Event Dump -----
+maxLNReplay
+Can\'t open a cursor
+<<\\" firstActive=\\">>
+KEYEMPTY
+Closing the following databases:\n
+Can\'t call Database.put
+</fileSummaryLN>
+<<\\"Cleaner has \\">>
+Evictor.addToQueue should never be called.
+Evictor
+daemon
+\\"je.forceJVMArch\\"
+\\\" gTxnId=\\\"
+<entry id=\\\"
+searchSubTree passed key and left/right search
+WAIT_RESTART
+Can\'t call Database.join
+<<\\"Version \\">>
+<<\\"Total number of entries: \\">>
+<<\\" ForeignKeyNullifier\n\\">>
+Channel closed, may be due to thread interrupt
+INDupDelReplay:
+<<\\"Failed while attempting to commit transaction \\">>
+SET_RANGE
+<target/>
+\\\" totalSize=\\\"
+<summary totalCount=\\\"
+</ref>
+<<\\"DbStat.stats of \\">>
+<<\\" name=\\">>
+</entries>
+size=
+<<\\"\nrecovery time = \\">>
+<<\\"\nException clearing file manager: \\">>
+Database.get
+CleanLN:
+<<\\"An error occurred when reading \\">>
+_jeNameMap
+<<\\"A per-thread transaction was created in \\">>
+<<\\"Attempted to \\">>
+\\"usage: java <utility> [options...]\\"
+<<\\"Cursor.count: \\">>
+Can\'t call SecondaryDatabase.get:
+<<\\"During close: \\">>
+Can\'t replace a duplicate with different data.
+FILLED_CACHE
+<<\\" childLsn = \\">>
+\\\"
+WAIT_NEW
+They will be closed.\n
+<<\\"Unknown arg: \\">>
+<msg val=\\\"
+je.properties
+\\\" index=\\\"
+_jeUtilization
+DupCountLN_TX
+\\\">
+foreignKeyDeleteAction
+PREV_NODUP
+<<\\"Environment home \\">>
+This statement would have triggered an Exception: $stack45 = result#4.<com.sleepycat.je.dbi.CursorImpl$KeyChangeStatus: com.sleepycat.je.OperationStatus status>
+readNonMapIns
+<data>
+type
+File 0x
+DupBINDelta
+\\\" bqual=\\\"
+Can\'t call Database.getSearchBoth:
+<<\\"The Environment directory \\">>
+NONE
+<isRoot val=\\\"
+provisional
+Nested transactions are not supported yet.
+<<\\"lsn \\">>
+nodeId=
+\\".lck\\"
+\\\" prev=\\\"0x
+\\".del\\"
+<<\\"Cursor.getNextDup: \\">>
+</dupkey>
+No value after -data
+<<\\"SubtreeRemoval: subtreeRoot = \\">>
+<<\\"Couldn\'t recover: \\">>
+Checkpointer
+\\"sun.arch.data.model\\"
+<<\\" useRoot=\\">>
+Can\'t call SecondaryDatabase.delete:
+CkptStart
+\\"</mapLN>\\"
+-s is a required argument
+<<\\" (none)\\">>
+RANGE_WRITE
+<<\\"Lock Table \\">>
+<offsets size=\\\"
+initialized
+verify
+<<\\" idKeyIdx=\\">>
+\\"<fileSummaryLN>\\"
+\\"<dbin>\\"
+LockMode.
+<<\\"Transaction \\">>
+secConfig and getKeyCreator()/getMultiKeyCreator() may be null only if the primary database is read-only
+Bad value for timeout:
+rename
+0000000000000000
+txnId=
+\\"</fileSummaryLN>\\"
+<<\\"IN \\">>
+Split:
+data
+Maximum, internal nodes only
+generated for testing
+<<\\"                                                                                                                                \\">>
+</dupCountLN>
+Can\'t call Database.stat
+-v requires -f
+<<\\"IOException caught: \\">>
+All nodes should have been loaded
+<<\\"                 -o <offset, in hex>\\">>
+format=print
+\\"INDupDelReplay:\\"
+All cursors must use the same environment.
+Transactions can not be used in a non-transactional environment
+\nTo get leaf node sizing specify -data
+getFirstNode passed null root
+<<\\"SecondaryCursor.delete: \\">>
+<<\\"Directory is not empty: \\">>
+<<\\"Error Data \\">>
+<<\\"*** Ran out of cache memory at record \\">>
+\\"DupRootSplit:\\"
+<nameLN>
+FileSummaryLN
+*** Key doesn\'t fit value=
+<<\\"Obsolete lsns contains valid lsn \\">>
+This statement would have triggered an Exception: virtualinvoke dupRoot#4.<com.sleepycat.je.tree.DIN: void releaseLatch()>()
+</mapLN>
+Recovery Info
+No \\\"DATA=END\\\"
+Can\'t use as primary:
+recovery
+<<\\"     Default is verbose version.)\\">>
+\\"<ln>\\"
+<<\\" newLn=\\">>
+DbState.
+<<\\"End: \\">>
+DelDupLN_TX
+Only one may be specified: SerializableIsolation, ReadCommitted or ReadUncommitted
+<<\\" -e  <end file number, in hex>\\">>
+SEVERE
+</INDupDeleteEntry>
+null lsn
+<<\\"Shutting down \\">>
+<<\\"InCompress.doCompress called, queue size: \\">>
+\\"je.properties\\"
+end-start
+<<\\" rootdin=\\">>
+A Transaction cannot be used because the database was opened non-transactionally
+Stats for internal nodes only (after preload)
+pKey

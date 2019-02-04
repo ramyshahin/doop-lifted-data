@@ -5,8 +5,8 @@
 <java.lang.String: void <init>(byte[])>
 <java.io.PrintStream: void print(java.lang.String)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)>
-<java.lang.Exception: void <init>()>
 <javax.microedition.lcdui.List: int size()>
+<java.lang.Exception: void <init>()>
 <java.lang.String: int indexOf(java.lang.String,int)>
 <javax.microedition.lcdui.List: int append(java.lang.String,javax.microedition.lcdui.Image)>
 <javax.microedition.media.control.VideoControl: byte[] getSnapshot(java.lang.String)>
@@ -21,8 +21,8 @@
 <javax.microedition.media.control.RecordControl: void stopRecord()>
 <java.io.PrintStream: void println(java.lang.Object)>
 <javax.microedition.lcdui.List: void addCommand(javax.microedition.lcdui.Command)>
-<javax.microedition.media.Player: javax.microedition.media.Control getControl(java.lang.String)>
 <javax.microedition.lcdui.List: java.lang.String getString(int)>
+<javax.microedition.media.Player: javax.microedition.media.Control getControl(java.lang.String)>
 <java.io.InputStream: int read(byte[])>
 <javax.microedition.rms.RecordStore: javax.microedition.rms.RecordEnumeration enumerateRecords(javax.microedition.rms.RecordFilter,javax.microedition.rms.RecordComparator,boolean)>
 <javax.microedition.rms.RecordStore: void setRecord(int,byte[],int,int)>
@@ -83,8 +83,8 @@
 <javax.microedition.lcdui.Canvas: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <javax.microedition.lcdui.Graphics: void drawImage(javax.microedition.lcdui.Image,int,int,int)>
 <javax.microedition.rms.RecordStore: byte[] getRecord(int)>
-<java.lang.String: byte[] getBytes()>
 <javax.microedition.io.PushRegistry: java.lang.String[] listConnections(boolean)>
+<java.lang.String: byte[] getBytes()>
 <javax.microedition.lcdui.game.GameCanvas: int getGameAction(int)>
 <java.lang.StringBuilder: java.lang.StringBuilder append(boolean)>
 <javax.microedition.media.control.VideoControl: void setDisplayLocation(int,int)>
@@ -95,8 +95,8 @@
 <java.lang.StringBuffer: java.lang.String toString()>
 <javax.microedition.lcdui.game.GameCanvas: void setCommandListener(javax.microedition.lcdui.CommandListener)>
 <java.lang.String: int length()>
-<javax.microedition.lcdui.game.GameCanvas: void <init>(boolean)>
 <javax.microedition.media.control.VolumeControl: int setLevel(int)>
+<javax.microedition.lcdui.game.GameCanvas: void <init>(boolean)>
 <javax.wireless.messaging.MessageConnection: javax.wireless.messaging.Message newMessage(java.lang.String)>
 <javax.microedition.media.control.VideoControl: void setDisplayFullScreen(boolean)>
 <javax.microedition.rms.RecordStore: void closeRecordStore()>
@@ -141,8 +141,8 @@
 <java.lang.Object: java.lang.Class getClass()>
 <javax.microedition.rms.RecordStore: void deleteRecordStore(java.lang.String)>
 <javax.wireless.messaging.MessageConnection: int numberOfSegments(javax.wireless.messaging.Message)>
-<javax.microedition.lcdui.game.GameCanvas: int getWidth()>
 <javax.microedition.lcdui.TextField: void <init>(java.lang.String,java.lang.String,int,int)>
+<javax.microedition.lcdui.game.GameCanvas: int getWidth()>
 <java.lang.StringBuffer: void <init>()>
 <javax.microedition.rms.RecordStore: int getNextRecordID()>
 <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>

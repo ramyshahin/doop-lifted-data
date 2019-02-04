@@ -1,0 +1,16 @@
+<Graph: void startProfile()>/assign/instruction6	6	<Graph: void startProfile()>/$l1	<Graph: long last>	<Graph: void startProfile()>
+<Graph: void <clinit>()>/assign/instruction6	6	<Graph: void <clinit>()>/$numconstant2	<Graph: long accum>	<Graph: void <clinit>()>
+<Graph: void <clinit>()>/assign/instruction4	4	<Graph: void <clinit>()>/$numconstant1	<Graph: long current>	<Graph: void <clinit>()>
+<Graph: void startProfile()>/assign/instruction2	2	<Graph: void startProfile()>/$numconstant0	<Graph: long accum>	<Graph: void startProfile()>
+<Graph: void resumeProfile()>/assign/instruction4	4	<Graph: void resumeProfile()>/$l1	<Graph: long last>	<Graph: void resumeProfile()>
+<Graph: void endProfile()>/assign/instruction2	2	<Graph: void endProfile()>/$l0	<Graph: long current>	<Graph: void endProfile()>
+<Graph: void resumeProfile()>/assign/instruction2	2	<Graph: void resumeProfile()>/$l0	<Graph: long current>	<Graph: void resumeProfile()>
+<Graph: void stopProfile()>/assign/instruction2	2	<Graph: void stopProfile()>/$l0	<Graph: long current>	<Graph: void stopProfile()>
+<Main: void main(java.lang.String[])>/assign/instruction34	34	<Main: void main(java.lang.String[])>/$r4	<Main: int[] endVertices>	<Main: void main(java.lang.String[])>
+<Graph: void endProfile()>/assign/instruction8	8	<Graph: void endProfile()>/$l5	<Graph: long accum>	<Graph: void endProfile()>
+<Graph: void stopProfile()>/assign/instruction8	8	<Graph: void stopProfile()>/$l5	<Graph: long accum>	<Graph: void stopProfile()>
+<Graph: void <clinit>()>/assign/instruction2	2	<Graph: void <clinit>()>/$numconstant0	<Graph: long last>	<Graph: void <clinit>()>
+<Main: void main(java.lang.String[])>/assign/instruction30	30	<Main: void main(java.lang.String[])>/$r2	<Main: Vertex[] V>	<Main: void main(java.lang.String[])>
+<Main: void main(java.lang.String[])>/assign/instruction32	32	<Main: void main(java.lang.String[])>/$r3	<Main: int[] startVertices>	<Main: void main(java.lang.String[])>
+<GlobalVarsWrapper: void <clinit>()>/assign/instruction3	3	<GlobalVarsWrapper: void <clinit>()>/$r0	<GlobalVarsWrapper: java.util.LinkedList queue>	<GlobalVarsWrapper: void <clinit>()>
+<Graph: void startProfile()>/assign/instruction4	4	<Graph: void startProfile()>/$l0	<Graph: long current>	<Graph: void startProfile()>

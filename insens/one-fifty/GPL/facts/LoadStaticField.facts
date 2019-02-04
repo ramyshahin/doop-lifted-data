@@ -13,8 +13,8 @@
 <Vertex: void display()>/assign/instruction48	48	<Vertex: void display()>/$r62	<java.lang.System: java.io.PrintStream out>	<Vertex: void display()>
 <Main: void main(java.lang.String[])>/assign/instruction48	48	<Main: void main(java.lang.String[])>/$r11	<Main: Vertex[] V>	<Main: void main(java.lang.String[])>
 <Main: EdgeIfc addEdge(Graph,int)>/assign/instruction7	7	<Main: EdgeIfc addEdge(Graph,int)>/$r3	<Main: Vertex[] V>	<Main: EdgeIfc addEdge(Graph,int)>
-<Neighbor: void display()>/assign/instruction2	2	<Neighbor: void display()>/$r3	<java.lang.System: java.io.PrintStream out>	<Neighbor: void display()>
 <Graph: void run(Vertex)>/assign/instruction4	4	<Graph: void run(Vertex)>/$r1	<java.lang.System: java.io.PrintStream out>	<Graph: void run(Vertex)>
+<Neighbor: void display()>/assign/instruction2	2	<Neighbor: void display()>/$r3	<java.lang.System: java.io.PrintStream out>	<Neighbor: void display()>
 <Graph: void runBenchmark(java.lang.String)>/assign/instruction9	9	<Graph: void runBenchmark(java.lang.String)>/$r3	<java.lang.System: java.io.PrintStream out>	<Graph: void runBenchmark(java.lang.String)>
 <Main: void main(java.lang.String[])>/assign/instruction96	96	<Main: void main(java.lang.String[])>/$r19	<java.lang.System: java.io.PrintStream out>	<Main: void main(java.lang.String[])>
 <Graph: void display()>/assign/instruction5	5	<Graph: void display()>/$r1	<java.lang.System: java.io.PrintStream out>	<Graph: void display()>

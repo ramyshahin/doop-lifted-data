@@ -7,8 +7,8 @@
 <Vertex$EdgeIter2: java.util.Iterator iter>	Vertex$EdgeIter2	iter	java.util.Iterator
 <Vertex$EdgeIter3: Vertex this$0>	Vertex$EdgeIter3	this$0	Vertex
 <Graph: long accum>	Graph	accum	long
-<Graph$EdgeIter1: Graph this$0>	Graph$EdgeIter1	this$0	Graph
 <Edge: Vertex end>	Edge	end	Vertex
+<Graph$EdgeIter1: Graph this$0>	Graph$EdgeIter1	this$0	Graph
 <Vertex: int key>	Vertex	key	int
 <Vertex$VertexIter2: java.util.Iterator iter>	Vertex$VertexIter2	iter	java.util.Iterator
 <java.lang.System: java.io.PrintStream out>	java.lang.System	out	java.io.PrintStream
@@ -21,8 +21,8 @@
 <RegionWorkSpace: int counter>	RegionWorkSpace	counter	int
 <Graph: boolean edgesNotBuilt>	Graph	edgesNotBuilt	boolean
 <Vertex$EdgeIter2: Vertex this$0>	Vertex$EdgeIter2	this$0	Vertex
-<Graph$Comparator1: Graph this$0>	Graph$Comparator1	this$0	Graph
 <CycleWorkSpace: int GRAY>	CycleWorkSpace	GRAY	int
+<Graph$Comparator1: Graph this$0>	Graph$Comparator1	this$0	Graph
 <VertexIter: java.util.Iterator iter>	VertexIter	iter	java.util.Iterator
 <Vertex: boolean visited>	Vertex	visited	boolean
 <Vertex: int componentNumber>	Vertex	componentNumber	int

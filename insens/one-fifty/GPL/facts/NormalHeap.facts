@@ -40,8 +40,8 @@
 <Main: void main(java.lang.String[])>/new Graph/0	Graph
 <Graph: Graph computeTranspose(Graph)>/new Vertex/0	Vertex
 <Graph: Graph strongComponents()>/new FinishTimeWorkSpace/0	FinishTimeWorkSpace
-<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	java.io.FileReader
 <GlobalVarsWrapper: void <clinit>()>/new java.util.LinkedList/0	java.util.LinkedList
+<Graph: void runBenchmark(java.lang.String)>/new java.io.FileReader/0	java.io.FileReader
 <Edge: void display()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
 <Graph: Graph computeTranspose(Graph)>/new Graph/0	Graph
 <Graph: void endProfile()>/new java.lang.StringBuilder/0	java.lang.StringBuilder
