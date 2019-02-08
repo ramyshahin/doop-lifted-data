@@ -1,0 +1,137 @@
+<<\\"Pitch: \\">>
+Delete
+C:\user\research\MobileMedia\Antenna
+Stop
+5550001
+\\"ImageScreen\\"
+ConfirmDeleteAlbumScreen
+prc.name
+Error criar or controler
+<<\\"Tempo: \\">>
+<<\\"SmsMessaging::receiveImage: sender address = \\">>
+jad.name
+Back
+The provided data are not valid
+lancs.mobilemedia.core.ui.MainUIMidlet
+Screen size:176:205
+Delete Album
+Send Now
+<<\\"\\">>
+MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
+java.home
+ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
+Path not valid for this file:
+Save Item
+\\"ImageListScreen\\"
+Edit Label Item
+No - Delete
+Volume: 50
+Cancel
+<* BaseController.goToPreviousScreen() **>
+1000
+Item label
+Finishing Baseathread::run()
+<<\\"Would you like to remove the album \\">>
+SmsMessaging::receiveImage() - Finish
+<<\\"Passing to next controller in chain: \\">>
+Add new Photo Album
+<<\\"SmsMessaging::receiveImage: buffer length = \\">>
+default
+MobileMedia
+<* PhotoController.goToPreviousScreen() *>
+<<\\"<* AlbumController.handleCommand() *>: \\">>
+Error ao definir a tela
+<<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
+Starting BaseThread::run()
+Incoming SMS Message with Payload:
+Path
+My Photo Album
+Create new Photo Album here
+EStou aqui 2222...........................
+\\"ConfirmDeleteAlbumScreen\\"
+<<\\"The file \\">>
+Error:
+MIDI Player
+C:\WTK2.5.1
+Phone #
+MobileMedia.prc
+AddPhotoToAlbum
+<<\\"<* PhotoController.handleCommand() *> Save Photo Label = \\">>
+Edit Label
+Tempo: 120
+\\"*\\"
+<<\\"Ignoring Exception: \\">>
+Select
+DEBUG 2: after smsConn.receive()
+midlet.name
+\\"AlbumListScreen\\"
+BaseThread:: 0 Param Constructor used: Using default values
+Add
+Start
+<<\\"<* MediaUtil.readMediaAsByteArray() *> is = \\">>
+<* AlbumController.goToPreviousScreen() *>
+Take photo
+The mobile database is full
+EStou aqui 11...........................
+<<\\"...or...No record store named \\">>
+Name
+Delete Photo Album
+\\"AddPhotoToAlbum\\"
+Reset
+<<\\"SmsSenderThread::run: Sending message: \\">>
+<<\\"Send caught: \\">>
+antenna.home
+main.class
+<<\\"<* MediaUtil.readMediaAsByteArray() *> mediaFile = \\">>
+Finishing SMSSender run()
+MediaAccessor::loadAlbums: Current store
+PhotoViewScreen::paint(): Image object was null.
+<<\\"MediaAccessor::loadAlbums: Found: \\">>
+Copy
+Delete Photo Album here
+ImageListScreen
+New Album
+C:\Program Files\Java\jdk1.5.0_09
+Send Photo by SMS
+Error ao criar o player:
+<<\\"Closing connection caught: \\">>
+preprocessor.symbols
+jar.name
+SmsMessaging::receiveImage() - start
+Can\'t go back here...Should never reach this spot
+Choose Items
+Pitch: 0
+\\"NewLabelScreen\\"
+<* BaseController.handleCommand() *> Reset Photo Album
+Path not valid for this media:
+wtk.home
+<<\\"SmsSenderThread: setBinaryData of length: \\">>
+Crio os comandos e vai iniciar o display
+DEBUG 1: before smsConn.receive():
+sms://
+<<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
+<<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
+<<\\"<* PhotoController.handleCommand() *> \\">>
+<<\\"From: \\">>
+Add new item to Album
+MM08.jar
+Select Album
+No Video Control for capturing!
+<<\\"AbstractController::postCommand - Current controller is: \\">>
+NewLabelScreen
+Yes - Delete
+<<\\"SmsMessaging::sendImage() num segments to send is: \\">>
+Error
+<<\\"Volume: \\">>
+Incoming Binary SMS Message...
+No RecordControl found!
+Current List from display is NULL!
+<<\\"device_screen_132x176, includePhotoAlbum,  includeFavourites , includeSorting, includePhotoAlbum, includeMMAPI, includeSmsFeature, capturePhoto, simulatePlayVideo, includeVideo, captureVideo, includePrivacy  \\">>
+MobileMedia.jar
+MobileMedia.jad
+ALBUM
+<<\\"<* BaseController.handleCommand() *> Image = \\">>
+<<\\"No record store named \\">>
+AlbumListScreen
+<<\\"Waiting for SMS on \\">>
+<<\\"SmsSenderThread:: 3 Param Constructor: \\">>

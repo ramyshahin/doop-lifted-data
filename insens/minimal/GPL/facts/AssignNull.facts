@@ -1,0 +1,4 @@
+<EdgeIter: EdgeIfc next()>/return/instruction2	2	<EdgeIter: EdgeIfc next()>/$null0	<EdgeIter: EdgeIfc next()>
+<Graph: Vertex findsVertex(java.lang.String)>/return/instruction4	4	<Graph: Vertex findsVertex(java.lang.String)>/$null0	<Graph: Vertex findsVertex(java.lang.String)>
+<Graph: Vertex findsVertex(java.lang.String)>/return/instruction15	15	<Graph: Vertex findsVertex(java.lang.String)>/$null1	<Graph: Vertex findsVertex(java.lang.String)>
+<Vertex: void <init>()>/assign/instruction3	3	<Vertex: void <init>()>/$null0	<Vertex: void <init>()>
