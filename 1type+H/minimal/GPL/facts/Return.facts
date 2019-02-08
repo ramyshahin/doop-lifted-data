@@ -1,0 +1,13 @@
+<Graph: VertexIter getVertices()>/return/instruction4	4	<Graph: VertexIter getVertices()>/$r0	<Graph: VertexIter getVertices()>
+<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>
+<VertexIter: Vertex next()>/return/instruction5	5	<VertexIter: Vertex next()>/$r2	<VertexIter: Vertex next()>
+<EdgeIter: EdgeIfc next()>/return/instruction3	3	<EdgeIter: EdgeIfc next()>/$null0	<EdgeIter: EdgeIfc next()>
+<Vertex: java.lang.String getName()>/return/instruction3	3	<Vertex: java.lang.String getName()>/$r0	<Vertex: java.lang.String getName()>
+<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+<Graph: Vertex findsVertex(java.lang.String)>/return/instruction5	5	<Graph: Vertex findsVertex(java.lang.String)>/$null0	<Graph: Vertex findsVertex(java.lang.String)>
+<Vertex: Vertex assignName(java.lang.String)>/return/instruction4	4	<Vertex: Vertex assignName(java.lang.String)>/this#_0	<Vertex: Vertex assignName(java.lang.String)>
+<EdgeIter: boolean hasNext()>/return/instruction3	3	<EdgeIter: boolean hasNext()>/$numconstant0	<EdgeIter: boolean hasNext()>
+<Graph: Vertex findsVertex(java.lang.String)>/return/instruction16	16	<Graph: Vertex findsVertex(java.lang.String)>/$null1	<Graph: Vertex findsVertex(java.lang.String)>
+<Graph: Vertex findsVertex(java.lang.String)>/return/instruction12	12	<Graph: Vertex findsVertex(java.lang.String)>/theVertex#_162	<Graph: Vertex findsVertex(java.lang.String)>
+<VertexIter: boolean hasNext()>/return/instruction4	4	<VertexIter: boolean hasNext()>/$z0	<VertexIter: boolean hasNext()>
+<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/return/instruction7	7	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$i0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>

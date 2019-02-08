@@ -1,0 +1,4 @@
+<Graph: void <init>()>/assign/instruction7	7	<Graph: void <init>()>/$r0	<Graph: void <init>()>/this#_0	<Graph: java.util.LinkedList vertices>	<Graph: void <init>()>
+<Vertex: Vertex assignName(java.lang.String)>/assign/instruction3	3	<Vertex: Vertex assignName(java.lang.String)>/name#_0	<Vertex: Vertex assignName(java.lang.String)>/this#_0	<Vertex: java.lang.String name>	<Vertex: Vertex assignName(java.lang.String)>
+<VertexIter: void <init>(Graph)>/assign/instruction6	6	<VertexIter: void <init>(Graph)>/$r1	<VertexIter: void <init>(Graph)>/this#_0	<VertexIter: java.util.Iterator iter>	<VertexIter: void <init>(Graph)>
+<Vertex: void <init>()>/assign/instruction4	4	<Vertex: void <init>()>/$null0	<Vertex: void <init>()>/this#_0	<Vertex: java.lang.String name>	<Vertex: void <init>()>

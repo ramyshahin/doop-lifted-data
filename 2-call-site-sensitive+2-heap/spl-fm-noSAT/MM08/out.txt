@@ -1,0 +1,131 @@
+
+> Task :run
+:: loading settings :: url = jar:file:/home/ramy/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.4.0/5abe4c24bbe992a9ac07ca563d5bd3e8d569e9ed/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+New 2-call-site-sensitive+2-heap analysis
+Id       : da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74
+Inputs   : MM08.jar
+Libraries: 
+Using a timeout of 90 min.
+[Task FACTS...]
+[Task COMPILE...]
+-- Fact Generation --
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/gen_5092243375922928571.dl, -j8, -F/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/facts, -D/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/database]
+Using annotations file: /home/ramy/annotations.tsv
+Preprocessing application: MM08.jar
+Adding archive: MM08.jar
+Classes in input (application) jar(s): 51
+Classes in dependency jar(s): 0
+Total classes in Scene: 51
+Retrieved all bodies.
+Checking class heaps for missing types...
+Fact generation cores: 8
+Generated artifact-to-class map for 1 artifacts.
+Soot fact generation time: 1667
+Time to make facts unique: 274
+Caching facts in /home/ramy/doop-lifted/cache/e115d36427d4b5024d142d94fa0d0e4c482586251253d8b59a08d582d1031cf4
+Copying /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/facts to /home/ramy/doop-lifted/cache/e115d36427d4b5024d142d94fa0d0e4c482586251253d8b59a08d582d1031cf4...
+----
+[Task FACTS Done]
+[Task COMPILE...]
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/gen_197986642841799412.dl, -j8, -F/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/facts, -D/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74/database]
+Using Feature Model: (!NewCompound1 \/ MobilMedia) /\ (!MobilMedia \/ NewCompound1) /\ (!Media \/ Video \/ _includeMMAPI \/ Photo) /\ (!Video \/ Media) /\ (!_includeMMAPI \/ Media) /\ (!Photo \/ Media) /\ (!Derivatives \/ _Derivatives) /\ (!_Derivatives \/ Derivatives) /\ (!Video \/ includeVideo) /\ (!includeVideo \/ Video) /\ (!captureVideo \/ Video) /\ (!simulatePlayVideo \/ Video) /\ (!_includeMMAPI \/ includeMMAPI) /\ (!includeMMAPI \/ _includeMMAPI) /\ (!Photo \/ includePhotoAlbum) /\ (!includePhotoAlbum \/ Photo) /\ (!includeSmsFeature \/ Photo) /\ (!capturePhoto \/ Photo) /\ (!MobilMedia \/ Media) /\ (!Media \/ MobilMedia) /\ (!includeSorting \/ MobilMedia) /\ (!includeFavourites \/ MobilMedia) /\ (!includeCopyPhoto \/ MobilMedia) /\ (!MobilMedia \/ Derivatives) /\ (!Derivatives \/ MobilMedia) /\ (!includePrivacy \/ MobilMedia) /\ (!x_CopyPhotoOrSMS \/ _Derivatives) /\ (!x_PhotoAlbumOrMusic \/ _Derivatives) /\ (!x_NotPhotoAlbum \/ _Derivatives) /\ (!x_notMisc \/ _Derivatives) /\ (!x_MusicAndVideo \/ _Derivatives) /\ (!x_NotMusic \/ _Derivatives) /\ (!x_PhotoAlbumAndVideoOrMusic \/ _Derivatives) /\ (!x_CapturePhotoOrVideo \/ _Derivatives) /\ (!x_NotPrivacy \/ _Derivatives) /\ (!x_SMSOrCapturePhoto \/ _Derivatives) /\ (!x_misc \/ _Derivatives) /\ (!x_MusicOrVideo \/ _Derivatives) /\ (!x_SMSOrCapturePhotoOrCaptureVideo \/ _Derivatives) /\ (!x_PhotoAlbumOrMusicOrVideo \/ _Derivatives) /\ (!x_CopyPhotoOrSMSOrCapturePhoto \/ _Derivatives) /\ (!x_notSimulatePlayVideo \/ _Derivatives) /\ (!x_CopyPhotoOrSMS \/ includeCopyPhoto \/ includeSmsFeature) /\ (!includeCopyPhoto \/ x_CopyPhotoOrSMS) /\ (!includeSmsFeature \/ x_CopyPhotoOrSMS) /\ (!x_PhotoAlbumOrMusic \/ includePhotoAlbum \/ includeMMAPI) /\ (!includePhotoAlbum \/ x_PhotoAlbumOrMusic) /\ (!includeMMAPI \/ x_PhotoAlbumOrMusic) /\ (!x_NotPhotoAlbum \/ !includePhotoAlbum) /\ (includePhotoAlbum \/ x_NotPhotoAlbum) /\ (!x_NotMusic \/ !includeMMAPI) /\ (includeMMAPI \/ x_NotMusic) /\ (!x_misc \/ includeMMAPI \/ includeMMAPI \/ includeVideo) /\ (!x_misc \/ includeMMAPI \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_misc \/ includeMMAPI \/ includeVideo \/ includeVideo) /\ (!x_misc \/ includeMMAPI \/ includeVideo \/ includePhotoAlbum) /\ (!x_misc \/ includePhotoAlbum \/ includeMMAPI \/ includeVideo) /\ (!x_misc \/ includePhotoAlbum \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_misc \/ includePhotoAlbum \/ includeVideo \/ includeVideo) /\ (!x_misc \/ includePhotoAlbum \/ includeVideo \/ includePhotoAlbum) /\ (!includeMMAPI \/ !includePhotoAlbum \/ x_misc) /\ (!includeMMAPI \/ !includeVideo \/ x_misc) /\ (!includeVideo \/ !includePhotoAlbum \/ x_misc) /\ (!x_notMisc \/ !x_misc) /\ (x_misc \/ x_notMisc) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includeMMAPI \/ includeVideo) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includePhotoAlbum \/ includePhotoAlbum) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includePhotoAlbum \/ includeVideo) /\ (!includeMMAPI \/ !includePhotoAlbum \/ x_PhotoAlbumAndVideoOrMusic) /\ (!includePhotoAlbum \/ !includeVideo \/ x_PhotoAlbumAndVideoOrMusic) /\ (!x_CapturePhotoOrVideo \/ capturePhoto \/ captureVideo) /\ (!capturePhoto \/ x_CapturePhotoOrVideo) /\ (!captureVideo \/ x_CapturePhotoOrVideo) /\ (!x_NotPrivacy \/ !includePrivacy) /\ (includePrivacy \/ x_NotPrivacy) /\ (!x_MusicOrVideo \/ includeMMAPI \/ includeVideo) /\ (!includeMMAPI \/ x_MusicOrVideo) /\ (!includeVideo \/ x_MusicOrVideo) /\ (!x_SMSOrCapturePhotoOrCaptureVideo \/ includeSmsFeature \/ capturePhoto \/ captureVideo) /\ (!includeSmsFeature \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!capturePhoto \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!captureVideo \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!x_PhotoAlbumOrMusicOrVideo \/ includePhotoAlbum \/ includeMMAPI \/ includeVideo) /\ (!includePhotoAlbum \/ x_PhotoAlbumOrMusicOrVideo) /\ (!includeMMAPI \/ x_PhotoAlbumOrMusicOrVideo) /\ (!includeVideo \/ x_PhotoAlbumOrMusicOrVideo) /\ (!x_CopyPhotoOrSMSOrCapturePhoto \/ includeCopyPhoto \/ includeSmsFeature \/ capturePhoto) /\ (!includeCopyPhoto \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!includeSmsFeature \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!capturePhoto \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!x_notSimulatePlayVideo \/ !simulatePlayVideo) /\ (simulatePlayVideo \/ x_notSimulatePlayVideo) /\ (!x_MusicAndVideo \/ includeMMAPI) /\ (!x_MusicAndVideo \/ includeVideo) /\ (!includeMMAPI \/ !includeVideo \/ x_MusicAndVideo) /\ (!x_SMSOrCapturePhoto \/ includeSmsFeature \/ capturePhoto) /\ (!includeSmsFeature \/ x_SMSOrCapturePhoto) /\ (!capturePhoto \/ x_SMSOrCapturePhoto) /\ (NewCompound1)
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_5092243375922928571.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_5092243375922928571.dl at line 1388
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_5092243375922928571.dl at line 1652
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_5092243375922928571.dl at line 1899
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_5092243375922928571.dl at line 1952
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_5092243375922928571.dl at line 1966
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_5092243375922928571.dl at line 1983
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_5092243375922928571.dl at line 1994
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_5092243375922928571.dl at line 2059
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_5092243375922928571.dl at line 2126
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_5092243375922928571.dl at line 2150
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_5092243375922928571.dl at line 2203
+Warning: No rules/facts defined for relation MockObjFromField in file gen_5092243375922928571.dl at line 2850
+pcMap size:  229
+Facts:       18174
+Facts@PCs:   6811
+Records:     54231
+Records@PCs: 54231
+Analysis compilation time (sec): 8013
+Caching analysis executable 3dfdf60092eb01f5cdddce48a7638891d0fb587a6f083d6b0c905b8aa6ea2b22 in /home/ramy/doop-lifted/cache/souffle-analyses/2-call-site-sensitive+2-heap
+[Task COMPILE Done]
+Using Feature Model: (!NewCompound1 \/ MobilMedia) /\ (!MobilMedia \/ NewCompound1) /\ (!Media \/ Video \/ _includeMMAPI \/ Photo) /\ (!Video \/ Media) /\ (!_includeMMAPI \/ Media) /\ (!Photo \/ Media) /\ (!Derivatives \/ _Derivatives) /\ (!_Derivatives \/ Derivatives) /\ (!Video \/ includeVideo) /\ (!includeVideo \/ Video) /\ (!captureVideo \/ Video) /\ (!simulatePlayVideo \/ Video) /\ (!_includeMMAPI \/ includeMMAPI) /\ (!includeMMAPI \/ _includeMMAPI) /\ (!Photo \/ includePhotoAlbum) /\ (!includePhotoAlbum \/ Photo) /\ (!includeSmsFeature \/ Photo) /\ (!capturePhoto \/ Photo) /\ (!MobilMedia \/ Media) /\ (!Media \/ MobilMedia) /\ (!includeSorting \/ MobilMedia) /\ (!includeFavourites \/ MobilMedia) /\ (!includeCopyPhoto \/ MobilMedia) /\ (!MobilMedia \/ Derivatives) /\ (!Derivatives \/ MobilMedia) /\ (!includePrivacy \/ MobilMedia) /\ (!x_CopyPhotoOrSMS \/ _Derivatives) /\ (!x_PhotoAlbumOrMusic \/ _Derivatives) /\ (!x_NotPhotoAlbum \/ _Derivatives) /\ (!x_notMisc \/ _Derivatives) /\ (!x_MusicAndVideo \/ _Derivatives) /\ (!x_NotMusic \/ _Derivatives) /\ (!x_PhotoAlbumAndVideoOrMusic \/ _Derivatives) /\ (!x_CapturePhotoOrVideo \/ _Derivatives) /\ (!x_NotPrivacy \/ _Derivatives) /\ (!x_SMSOrCapturePhoto \/ _Derivatives) /\ (!x_misc \/ _Derivatives) /\ (!x_MusicOrVideo \/ _Derivatives) /\ (!x_SMSOrCapturePhotoOrCaptureVideo \/ _Derivatives) /\ (!x_PhotoAlbumOrMusicOrVideo \/ _Derivatives) /\ (!x_CopyPhotoOrSMSOrCapturePhoto \/ _Derivatives) /\ (!x_notSimulatePlayVideo \/ _Derivatives) /\ (!x_CopyPhotoOrSMS \/ includeCopyPhoto \/ includeSmsFeature) /\ (!includeCopyPhoto \/ x_CopyPhotoOrSMS) /\ (!includeSmsFeature \/ x_CopyPhotoOrSMS) /\ (!x_PhotoAlbumOrMusic \/ includePhotoAlbum \/ includeMMAPI) /\ (!includePhotoAlbum \/ x_PhotoAlbumOrMusic) /\ (!includeMMAPI \/ x_PhotoAlbumOrMusic) /\ (!x_NotPhotoAlbum \/ !includePhotoAlbum) /\ (includePhotoAlbum \/ x_NotPhotoAlbum) /\ (!x_NotMusic \/ !includeMMAPI) /\ (includeMMAPI \/ x_NotMusic) /\ (!x_misc \/ includeMMAPI \/ includeMMAPI \/ includeVideo) /\ (!x_misc \/ includeMMAPI \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_misc \/ includeMMAPI \/ includeVideo \/ includeVideo) /\ (!x_misc \/ includeMMAPI \/ includeVideo \/ includePhotoAlbum) /\ (!x_misc \/ includePhotoAlbum \/ includeMMAPI \/ includeVideo) /\ (!x_misc \/ includePhotoAlbum \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_misc \/ includePhotoAlbum \/ includeVideo \/ includeVideo) /\ (!x_misc \/ includePhotoAlbum \/ includeVideo \/ includePhotoAlbum) /\ (!includeMMAPI \/ !includePhotoAlbum \/ x_misc) /\ (!includeMMAPI \/ !includeVideo \/ x_misc) /\ (!includeVideo \/ !includePhotoAlbum \/ x_misc) /\ (!x_notMisc \/ !x_misc) /\ (x_misc \/ x_notMisc) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includeMMAPI \/ includePhotoAlbum) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includeMMAPI \/ includeVideo) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includePhotoAlbum \/ includePhotoAlbum) /\ (!x_PhotoAlbumAndVideoOrMusic \/ includePhotoAlbum \/ includeVideo) /\ (!includeMMAPI \/ !includePhotoAlbum \/ x_PhotoAlbumAndVideoOrMusic) /\ (!includePhotoAlbum \/ !includeVideo \/ x_PhotoAlbumAndVideoOrMusic) /\ (!x_CapturePhotoOrVideo \/ capturePhoto \/ captureVideo) /\ (!capturePhoto \/ x_CapturePhotoOrVideo) /\ (!captureVideo \/ x_CapturePhotoOrVideo) /\ (!x_NotPrivacy \/ !includePrivacy) /\ (includePrivacy \/ x_NotPrivacy) /\ (!x_MusicOrVideo \/ includeMMAPI \/ includeVideo) /\ (!includeMMAPI \/ x_MusicOrVideo) /\ (!includeVideo \/ x_MusicOrVideo) /\ (!x_SMSOrCapturePhotoOrCaptureVideo \/ includeSmsFeature \/ capturePhoto \/ captureVideo) /\ (!includeSmsFeature \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!capturePhoto \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!captureVideo \/ x_SMSOrCapturePhotoOrCaptureVideo) /\ (!x_PhotoAlbumOrMusicOrVideo \/ includePhotoAlbum \/ includeMMAPI \/ includeVideo) /\ (!includePhotoAlbum \/ x_PhotoAlbumOrMusicOrVideo) /\ (!includeMMAPI \/ x_PhotoAlbumOrMusicOrVideo) /\ (!includeVideo \/ x_PhotoAlbumOrMusicOrVideo) /\ (!x_CopyPhotoOrSMSOrCapturePhoto \/ includeCopyPhoto \/ includeSmsFeature \/ capturePhoto) /\ (!includeCopyPhoto \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!includeSmsFeature \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!capturePhoto \/ x_CopyPhotoOrSMSOrCapturePhoto) /\ (!x_notSimulatePlayVideo \/ !simulatePlayVideo) /\ (simulatePlayVideo \/ x_notSimulatePlayVideo) /\ (!x_MusicAndVideo \/ includeMMAPI) /\ (!x_MusicAndVideo \/ includeVideo) /\ (!includeMMAPI \/ !includeVideo \/ x_MusicAndVideo) /\ (!x_SMSOrCapturePhoto \/ includeSmsFeature \/ capturePhoto) /\ (!includeSmsFeature \/ x_SMSOrCapturePhoto) /\ (!capturePhoto \/ x_SMSOrCapturePhoto) /\ (NewCompound1)
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_197986642841799412.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_197986642841799412.dl at line 1388
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_197986642841799412.dl at line 1652
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_197986642841799412.dl at line 1899
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_197986642841799412.dl at line 1952
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_197986642841799412.dl at line 1966
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_197986642841799412.dl at line 1983
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_197986642841799412.dl at line 1994
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_197986642841799412.dl at line 2059
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_197986642841799412.dl at line 2126
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_197986642841799412.dl at line 2150
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_197986642841799412.dl at line 2203
+Warning: No rules/facts defined for relation MockObjFromField in file gen_197986642841799412.dl at line 2850
+pcMap size:  229
+Facts:       18174
+Facts@PCs:   6811
+Records:     54231
+Records@PCs: 54231
+Analysis compilation time (sec): 14135
+Caching analysis executable 3dfdf60092eb01f5cdddce48a7638891d0fb587a6f083d6b0c905b8aa6ea2b22 in /home/ramy/doop-lifted/cache/souffle-analyses/2-call-site-sensitive+2-heap
+[Task COMPILE Done]
+-- Runtime metrics --
+analysis execution time (sec)                                                    14,135
+disk footprint (KB)                                                              769,265
+soot-fact-generation time (sec)                                                  1,667
+-- Statistics --
+var points-to (INS)                                                              3,416
+var points-to (SENS)                                                             41,854
+reachable variables (INS)                                                        2,243
+reachable variables (SENS)                                                       10,368
+reachable methods (INS)                                                          331
+reachable methods (SENS)                                                         2,392
+virtual call sites (statically)                                                  842
+reachable virtual call sites                                                     837
+polymorphic virtual call sites                                                   6
+null virtual call sites                                                          76
+empty virtual call sites                                                         191
+app virtual call sites (statically)                                              842
+app reachable virtual call sites                                                 837
+app polymorphic virtual call sites                                               6
+app null virtual call sites                                                      76
+app empty virtual call sites                                                     191
+array index points-to (INS)                                                      2
+array index points-to (SENS)                                                     2
+casts (statically)                                                               119
+reachable casts                                                                  83
+reachable casts that may fail                                                    72
+app casts (statically)                                                           119
+app reachable casts                                                              83
+app reachable casts that may fail                                                72
+app reachable methods                                                            279
+instance field points-to (INS)                                                   448
+instance field points-to (SENS)                                                  825
+static field points-to (INS)                                                     33
+static field points-to (SENS)                                                    106
+app array index points-to (INS)                                                  0
+app array index points-to (SENS)                                                 0
+Entry Points                                                                     253
+Mock Objects                                                                     51
+Mock Objects for Receivers                                                       46
+Mock Objects for Fields                                                          0
+Mock Objects for Arrays                                                          2
+Mock Objects for Formals                                                         17
+app instance field points-to (INS)                                               269
+app instance field points-to (SENS)                                              641
+call graph edges (INS)                                                           981
+call graph edges (SENS)                                                          3,352
+non-reachable app concrete methods                                               2
+Making database available at /home/ramy/doop-lifted/results/MM08/2-call-site-sensitive+2-heap/java_7/da6124f705615730b26182a27f2aac11c5ce46fcab891961fefc7c1290f44b74
+Making database available at /home/ramy/doop-lifted/last-analysis
+
+BUILD SUCCESSFUL in 23s
+5 actionable tasks: 1 executed, 4 up-to-date

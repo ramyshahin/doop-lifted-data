@@ -1,0 +1,105 @@
+
+> Task :run
+:: loading settings :: url = jar:file:/home/ramy/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.4.0/5abe4c24bbe992a9ac07ca563d5bd3e8d569e9ed/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+New 1-type-sensitive+heap analysis
+Id       : 9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627
+Inputs   : BerkeleyDB.jar
+Libraries: 
+Using a timeout of 90 min.
+[Task FACTS...]
+-- Fact Generation --
+Using annotations file: /home/ramy/annotations.tsv
+Preprocessing application: BerkeleyDB.jar
+Adding archive: BerkeleyDB.jar
+Classes in input (application) jar(s): 297
+Classes in dependency jar(s): 0
+Total classes in Scene: 297
+Retrieved all bodies.
+Checking class heaps for missing types...
+Fact generation cores: 8
+Generated artifact-to-class map for 1 artifacts.
+Soot fact generation time: 5265
+Time to make facts unique: 512
+Caching facts in /home/ramy/doop-lifted/cache/1c258f4cbffa64d84980b0ab73730327de0db046ae7fed317dc8e7e95baab0ab
+Copying /home/ramy/doop-lifted/out/1-type-sensitive+heap/9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627/facts to /home/ramy/doop-lifted/cache/1c258f4cbffa64d84980b0ab73730327de0db046ae7fed317dc8e7e95baab0ab...
+----
+[Task FACTS Done]
+[Task Interpret...]
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/1-type-sensitive+heap/9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627/gen_1829436588122967341.dl, -j8, -F/home/ramy/doop-lifted/out/1-type-sensitive+heap/9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627/facts, -D/home/ramy/doop-lifted/out/1-type-sensitive+heap/9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627/database]
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_1829436588122967341.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_1829436588122967341.dl at line 1381
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_1829436588122967341.dl at line 1645
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_1829436588122967341.dl at line 1892
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_1829436588122967341.dl at line 1945
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_1829436588122967341.dl at line 1959
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_1829436588122967341.dl at line 1976
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_1829436588122967341.dl at line 1987
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_1829436588122967341.dl at line 2052
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_1829436588122967341.dl at line 2119
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_1829436588122967341.dl at line 2143
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_1829436588122967341.dl at line 2196
+Warning: No rules/facts defined for relation MockObjFromField in file gen_1829436588122967341.dl at line 2835
+pcMap size:  2
+Facts:       161475
+Facts@PCs:   0
+Records:     153491
+Records@PCs: 0
+Analysis compilation time (sec): 10010
+Caching analysis executable 9c1295e0268f7476dec75065087e40f9afe2f5784d00930f02075ba8dd02caa6 in /home/ramy/doop-lifted/cache/souffle-analyses/1-type-sensitive+heap
+[Task Interpret Done]
+-- Runtime metrics --
+analysis execution time (sec)                                                    10,010
+disk footprint (KB)                                                              29,725
+soot-fact-generation time (sec)                                                  5,265
+-- Statistics --
+var points-to (INS)                                                              25,322
+var points-to (SENS)                                                             82,364
+reachable variables (INS)                                                        12,594
+reachable variables (SENS)                                                       33,467
+reachable methods (INS)                                                          2,465
+reachable methods (SENS)                                                         6,875
+virtual call sites (statically)                                                  3,520
+reachable virtual call sites                                                     2,868
+polymorphic virtual call sites                                                   52
+null virtual call sites                                                          547
+empty virtual call sites                                                         613
+app virtual call sites (statically)                                              3,520
+app reachable virtual call sites                                                 2,868
+app polymorphic virtual call sites                                               52
+app null virtual call sites                                                      547
+app empty virtual call sites                                                     613
+array index points-to (INS)                                                      97
+array index points-to (SENS)                                                     163
+casts (statically)                                                               730
+reachable casts                                                                  184
+reachable casts that may fail                                                    167
+app casts (statically)                                                           730
+app reachable casts                                                              184
+app reachable casts that may fail                                                167
+app reachable methods                                                            2,346
+instance field points-to (INS)                                                   2,625
+instance field points-to (SENS)                                                  8,483
+static field points-to (INS)                                                     214
+static field points-to (SENS)                                                    214
+app array index points-to (INS)                                                  94
+app array index points-to (SENS)                                                 155
+Entry Points                                                                     1,784
+Mock Objects                                                                     230
+Mock Objects for Receivers                                                       216
+Mock Objects for Fields                                                          0
+Mock Objects for Arrays                                                          3
+Mock Objects for Formals                                                         81
+app instance field points-to (INS)                                               2,160
+app instance field points-to (SENS)                                              6,197
+call graph edges (INS)                                                           4,657
+call graph edges (SENS)                                                          18,107
+non-reachable app concrete methods                                               557
+Making database available at /home/ramy/doop-lifted/results/BerkeleyDB/1-type-sensitive+heap/java_7/9f2d16b8a799827955e86b1b27e2e190eefd87cb8fae42960199cabb775d627
+Making database available at /home/ramy/doop-lifted/last-analysis
+
+BUILD SUCCESSFUL in 21s
+5 actionable tasks: 1 executed, 4 up-to-date

@@ -1,0 +1,129 @@
+
+> Task :run
+:: loading settings :: url = jar:file:/home/ramy/.gradle/caches/modules-2/files-2.1/org.apache.ivy/ivy/2.4.0/5abe4c24bbe992a9ac07ca563d5bd3e8d569e9ed/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+WARNING: Handling of Java reflection is disabled!
+
+New 2-call-site-sensitive+2-heap analysis
+Id       : 8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431
+Inputs   : MM08.jar
+Libraries: 
+Using a timeout of 90 min.
+[Task FACTS...]
+[Task COMPILE...]
+-- Fact Generation --
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/gen_1445308677525569528.dl, -j8, -F/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/facts, -D/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/database]
+Using annotations file: /home/ramy/annotations.tsv
+Preprocessing application: MM08.jar
+Adding archive: MM08.jar
+Classes in input (application) jar(s): 51
+Classes in dependency jar(s): 0
+Total classes in Scene: 51
+Retrieved all bodies.
+Checking class heaps for missing types...
+Fact generation cores: 8
+Generated artifact-to-class map for 1 artifacts.
+Soot fact generation time: 1464
+Time to make facts unique: 250
+Caching facts in /home/ramy/doop-lifted/cache/e115d36427d4b5024d142d94fa0d0e4c482586251253d8b59a08d582d1031cf4
+Copying /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/facts to /home/ramy/doop-lifted/cache/e115d36427d4b5024d142d94fa0d0e4c482586251253d8b59a08d582d1031cf4...
+----
+[Task FACTS Done]
+[Task COMPILE...]
+Compiling Datalog to C++ program and executable
+Compilation command: [souffle, /home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/gen_7780821905188648843.dl, -j8, -F/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/facts, -D/home/ramy/doop-lifted/out/2-call-site-sensitive+2-heap/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431/database]
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_1445308677525569528.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_1445308677525569528.dl at line 1388
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_1445308677525569528.dl at line 1652
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_1445308677525569528.dl at line 1899
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_1445308677525569528.dl at line 1952
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_1445308677525569528.dl at line 1966
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_1445308677525569528.dl at line 1983
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_1445308677525569528.dl at line 1994
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_1445308677525569528.dl at line 2059
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_1445308677525569528.dl at line 2126
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_1445308677525569528.dl at line 2150
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_1445308677525569528.dl at line 2203
+Warning: No rules/facts defined for relation MockObjFromField in file gen_1445308677525569528.dl at line 2850
+pcMap size:  516
+Facts:       18174
+Facts@PCs:   6811
+Records:     54231
+Records@PCs: 41245
+Analysis compilation time (sec): 6182
+Caching analysis executable 3dfdf60092eb01f5cdddce48a7638891d0fb587a6f083d6b0c905b8aa6ea2b22 in /home/ramy/doop-lifted/cache/souffle-analyses/2-call-site-sensitive+2-heap
+[Task COMPILE Done]
+Warning: No rules/facts defined for relation isOpaqueMethod in file gen_7780821905188648843.dl at line 53
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVarPointsTo in file gen_7780821905188648843.dl at line 1388
+Warning: No rules/facts defined for relation mainAnalysis.OptInterproceduralAssign in file gen_7780821905188648843.dl at line 1652
+Warning: No rules/facts defined for relation mainAnalysis.HeapAllocation_Keep in file gen_7780821905188648843.dl at line 1899
+Warning: No rules/facts defined for relation mainAnalysis.ReflectionSubstringObject in file gen_7780821905188648843.dl at line 1952
+Warning: No rules/facts defined for relation mainAnalysis.PreClassNameMatchingStringConstantInexact_Type in file gen_7780821905188648843.dl at line 1966
+Warning: No rules/facts defined for relation mainAnalysis.PreMethodNameMatchingStringConstantInexact_Signature in file gen_7780821905188648843.dl at line 1983
+Warning: No rules/facts defined for relation mainAnalysis.PreFieldNameMatchingStringConstantInexact_Signature in file gen_7780821905188648843.dl at line 1994
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerClass in file gen_7780821905188648843.dl at line 2059
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedPerPackage in file gen_7780821905188648843.dl at line 2126
+Warning: No rules/facts defined for relation mainAnalysis.AllocationShouldBeMergedGlobally in file gen_7780821905188648843.dl at line 2150
+Warning: No rules/facts defined for relation mainAnalysis.StringFactoryVar in file gen_7780821905188648843.dl at line 2203
+Warning: No rules/facts defined for relation MockObjFromField in file gen_7780821905188648843.dl at line 2850
+pcMap size:  516
+Facts:       18174
+Facts@PCs:   6811
+Records:     54231
+Records@PCs: 41245
+Analysis compilation time (sec): 5311
+Caching analysis executable 3dfdf60092eb01f5cdddce48a7638891d0fb587a6f083d6b0c905b8aa6ea2b22 in /home/ramy/doop-lifted/cache/souffle-analyses/2-call-site-sensitive+2-heap
+[Task COMPILE Done]
+-- Runtime metrics --
+analysis execution time (sec)                                                    5,311
+disk footprint (KB)                                                              17,185
+soot-fact-generation time (sec)                                                  1,464
+-- Statistics --
+var points-to (INS)                                                              3,416
+var points-to (SENS)                                                             41,854
+reachable variables (INS)                                                        2,243
+reachable variables (SENS)                                                       10,368
+reachable methods (INS)                                                          331
+reachable methods (SENS)                                                         2,392
+virtual call sites (statically)                                                  842
+reachable virtual call sites                                                     837
+polymorphic virtual call sites                                                   6
+null virtual call sites                                                          76
+empty virtual call sites                                                         191
+app virtual call sites (statically)                                              842
+app reachable virtual call sites                                                 837
+app polymorphic virtual call sites                                               6
+app null virtual call sites                                                      76
+app empty virtual call sites                                                     191
+array index points-to (INS)                                                      2
+array index points-to (SENS)                                                     2
+casts (statically)                                                               119
+reachable casts                                                                  83
+reachable casts that may fail                                                    72
+app casts (statically)                                                           119
+app reachable casts                                                              83
+app reachable casts that may fail                                                72
+app reachable methods                                                            279
+instance field points-to (INS)                                                   448
+instance field points-to (SENS)                                                  825
+static field points-to (INS)                                                     33
+static field points-to (SENS)                                                    106
+app array index points-to (INS)                                                  0
+app array index points-to (SENS)                                                 0
+Entry Points                                                                     253
+Mock Objects                                                                     51
+Mock Objects for Receivers                                                       46
+Mock Objects for Fields                                                          0
+Mock Objects for Arrays                                                          2
+Mock Objects for Formals                                                         17
+app instance field points-to (INS)                                               269
+app instance field points-to (SENS)                                              641
+call graph edges (INS)                                                           981
+call graph edges (SENS)                                                          3,352
+non-reachable app concrete methods                                               2
+Making database available at /home/ramy/doop-lifted/results/MM08/2-call-site-sensitive+2-heap/java_7/8932d5e7e7f9e9433416947167b8c5585599dea7ae3dc0dce7020db24de1c431
+Making database available at /home/ramy/doop-lifted/last-analysis
+
+BUILD SUCCESSFUL in 13s
+5 actionable tasks: 1 executed, 4 up-to-date

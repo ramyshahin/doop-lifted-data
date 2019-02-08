@@ -1,0 +1,2218 @@
+Lampiro.jar
+preprocess.symbols
+<<\\"\\">>
+Lampiro.jar
+exclude-list
+exclude-list-native
+Screen
+<<\\"\\">>
+/icons/lag.png
+/icons/rag.png
+<<\\"\\">>
+<<\\"\\">>
+chat
+from
+from
+<<\\"Invalid menu pos: \\">>
+common
+en
+<<\\"Invalid itemList pos: \\">>
+<<\\"\\">>
+<<\\"\\">>
+30
+<<\\"\\">>
+EXPAND
+<<\\"\\">>
+<<\\"\\">>
+common
+en
+message
+body
+<<\\"\\">>
+from
+<<\\"\\">>
+headline
+from
+<<\\"\\">>
+<<\\"\\">>
+[
+xmlns
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Cannot set default namespace for elements in no namespace
+=\\\"
+<<\\" />\\">>
+>
+&#
+&amp;
+&gt;
+&lt;
+&quot;
+&apos;
+&#
+<<\\"\\">>
+<!DOCTYPE
+>
+<<\\"\\">>
+<<\\"\\">>
+Can\'t open URL:
+URL Error
+http://xmlpull.org/v1/doc/features.html#indent-output
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+n
+<<\\"\\">>
+Unsupported property
+from
+http://xmlpull.org/v1/doc/features.html#indent-output
+Unsupported Feature
+Unsupported Property:
+audio/
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+xml
+http://www.w3.org/XML/1998/namespace
+<<\\"\\">>
+<<\\"<?xml version=\'1.0\' \\">>
+encoding=\'
+common
+en
+<<\\"\' \\">>
+standalone=\'
+yes
+no
+<<\\"\' \\">>
+?>
+\r\n
+<<\\"  \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Cannot set default namespace for elements in no namespace
+<<\\"\\">>
+<<\\"\\">>
+illegal position for attribute
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+</{
+\r\n
+<<\\"  \\">>
+</
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<![CDATA[
+]]>
+<!--
+-->
+<?
+/icons/menuarrow.png
+?>
+maxValue negative for interactive mode
+invalid maxValue for non interactive mode
+invalid initValue for non interactive mode
+Negative argument
+invalid value for non interactive mode
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+quot
+\\\"
+<?xml version=\\\"1.0\\\"?>\n
+<stream:stream xmlns:stream=\\\"http://etherx.jabber.org/streams\\\" version=\\\"1.0\\\" xmlns=\\\"jabber:client\\\" xml:lang=\\\"en\\\" xmlns:xml=\\\"http://www.w3.org/XML/1998/namespace\\\"
+<<\\" to=\\\"\\">>
+id
+features
+<<\\"\\">>
+from
+from
+sha1
+xmlns
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Cannot set default namespace for elements in no namespace
+=\\\"
+<<\\" />\\">>
+>
+query
+<<\\"\\">>
+from
+identity
+type
+category
+name
+feature
+<<\\"\\">>
+category
+&#
+var
+&amp;
+/transport/
+&gt;
+&lt;
+&quot;
+&apos;
+&#
+<!DOCTYPE
+>
+x
+field
+var
+value
+var
+value
+http://xmlpull.org/v1/doc/features.html#indent-output
+Added label
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+n
+<<\\" \\">>
+amr
+Unsupported property
+capture://audio?encoding=
+http://xmlpull.org/v1/doc/features.html#indent-output
+Unsupported Feature
+Unsupported Property:
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+xml
+http://www.w3.org/XML/1998/namespace
+<<\\"<?xml version=\'1.0\' \\">>
+encoding=\'
+<<\\"\' \\">>
+standalone=\'
+yes
+no
+<<\\"\' \\">>
+?>
+\r\n
+<<\\"  \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Cannot set default namespace for elements in no namespace
+<<\\"\\">>
+illegal position for attribute
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Connecting server
+Login
+<<\\"\\">>
+automatic
+manual
+Login
+<<\\"\\">>
+<<\\"\\">>
+@jabber.bluendo.com
+<<\\"\\">>
+<<\\"\\">>
+</{
+\r\n
+<<\\"  \\">>
+</
+<<\\"\\">>
+Logging in...
+connection failed
+connection lost
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+<![CDATA[
+]]>
+<!--
+-->
+<?
+?>
+common
+en
+http://services.bluendo.com/srv/?domain=
+_:-1
+invalid bit length repeat
+<<\\"\\">>
+bad jid
+common
+en
+from
+from
+type
+result
+jabber:client
+Test midlet
+Bytes
+offline
+a
+b
+c
+d
+e
+f
+g
+h
+i
+e
+e
+h
+c
+afterC
+g
+afterG
+i
+instead-of-I
+a
+i
+a
+i
+<<\\"Contains d: \\">>
+d
+d
+<<\\"Last index of d: \\">>
+c
+c
+0
+<<\\"\\">>
+<<\\"\\">>
+jabber:x:data
+x
+No title
+cancel
+submit
+iq
+message
+from
+type
+jabber:client
+thread
+iq
+from
+set
+to
+<<\\" \\">>
+from
+jpeg
+jabber:x:data
+x
+[
+from
+Unsupported method
+Unsupported method
+>>:
+<<\\"Invalid byte received on text stream: \\">>	@Compression
+common
+en
+<<\\"\\">>
+50
+1
+group
+name
+helpMePlease@jabber.bluendo.com
+groups
+groups
+group
+name
+chat
+<<\\"sel: \\">>	@x_notTiming
+<<\\"\\">>
+<<\\"\\">>
+chat
+online
+dnd
+away
+xa
+success
+unavailable
+challenge
+failure
+not-authorized
+Cannot authenticate
+Cannot registrate
+Cannot authenticate
+type
+result
+<<\\"\\">>
+<<\\"\\">>
+none
+/icons/radio_checked.png
+/icons/radio_unchecked.png
+item
+jid
+name
+subscription
+group
+/icons/radio_unchecked.png
+/icons/radio_checked.png
+from
+type
+normal
+get
+http://jabber.org/protocol/disco#items
+query
+node
+http://jabber.org/protocol/commands
+/icons/radio_unchecked.png
+/icons/radio_checked.png
+/icons/downimage.png
+to
+from
+error
+code
+text
+from
+subject
+<<\\"\\">>
+0
+<<\\"\\">>
+0
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+from
+<<\\"\\">>
+from
+x
+nickname
+unavailable
+type
+from
+from
+from
+from
+c
+node
+\\"*\\"
+\\"_*\\"
+ver
+c
+node
+ver
+identity
+name
+c
+node
+ver
+Lampiro
+c
+from
+get
+query
+node
+ver
+node
+Loading Lampiro...
+from
+from
+lampiro@golem.jabber.bluendo.com
+both
+lampiro@golem.jabber.bluendo.com
+Lampiro Agent
+from
+<<\\"\\">>
+<<\\"\\">>
+online
+query
+node
+common
+en
+common
+en
+c
+ext
+<<\\"\\">>
+feature
+var
+common
+en
+OK
+CANCEL
+<
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+/icons/empty_avatar.png
+E-mail:
+JID:
+Subscription:
+Resources
+from
+get
+\n
+*******
+<<\\"\\">>
+<<\\" / \\">>
+\n
+<<\\"\\">>
+\\"get\\"
+\\"set\\"
+\\"result\\"
+\\"error\\"
+\\"iq\\"
+\\"query\\"
+\\"prompt\\"
+iq
+_
+from
+set
+to
+from
+query
+submit
+query
+from
+error
+result
+code
+id
+id
+node
+query
+identity
+category
+client
+type
+phone
+name
+Lampiro
+feature
+var
+node
+x
+type
+result
+from
+field
+var
+microedition.platform
+value
+node
+success
+Cannot authenticate
+:-S
+B-)
+:D
+:O
+O:)
+>:)
+|-)
+;-)
+:-/
+:-@
+:-&
+:\'(
+:(
+:)
+:*
+:P
+;)
+:d
+:o
+o:)
+:p
+/emo/
+/emo/7.png
+/emo/2.png
+/emo/3.png
+/emo/4.png
+/emo/15.png
+from
+result
+id
+id
+both
+<<\\"\\">>
+type
+normal
+unavailable
+type
+from
+from
+from
+Nokia
+ricsson
+iemens
+otorola
+harp
+from
+j2me
+SunMicrosystems_wtk
+/icons/rag.png
+/icons/lag.png
+/icons/rab.png
+/icons/lab.png
+Motorola
+_*
+Error:
+common
+en
+Type
+Subject
+<<\\"\\">>
+Message
+<<\\"\\">>
+Send
+message
+chat
+<<\\"\\">>
+<<\\"\\">>
+jabber:client
+subject
+chat
+<<\\"\\">>
+message
+xmlns
+x
+type
+set
+iq
+common
+en
+<<\\"\\">>
+Connected using Lampiro: http://lampiro.bluendo.com
+unavailable
+groupchat
+<<\\"\\">>
+<<\\"\\">>
+error
+/	@x_notGlider
+Can\'t read resources:\n
+Resource Manager Error
+This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
+This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
+This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
+This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
+This statement would have triggered an Exception: virtualinvoke tempRs#1.<javax.microedition.rms.RecordStore: void closeRecordStore()>()
+<<\\"\\">>
+<<\\"\\">>
+OK
+<<\\"Impossible to get : \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+from
+from
+from
+from
+chat
+common
+en
+<<\\"\\">>
+from
+chat
+<<\\"online, bytes: \\">>
+dnd
+Mobile test, don\'t send me messages!
+common
+en
+to
+from
+type
+subscribed
+type
+subscribe
+type
+unsubscribed
+group
+common
+en
+query
+jabber:x:data
+x
+username
+album
+common
+en
+img
+snd
+common
+en
+<<\\"\\">>
+query
+instructions
+<<\\"\\">>
+username
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+file
+id
+name
+desc
+type
+from
+set
+query
+username
+password
+<<\\"\\">>
+<<\\"\\">>
+http://jabber.org/protocol/disco#info
+http://jabber.org/protocol/disco#items
+http://jabber.org/protocol/commands
+http://jabber.org/protocol/caps
+http://bluendo.com/protocol/caps
+bluendo:http:publish:0
+http://jabber.org/protocol/ibb
+http://jabber.org/protocol/muc
+http://jabber.org/protocol/rosterx
+http://jabber.org/protocol/muc#user
+http://jabber.org/protocol/muc#owner
+vcard-temp:x:update
+http://jabber.org/protocol/nick
+http://bluendo.com/midp#platform
+jabber:x:data
+jabber:iq:gateway
+jabber:iq:register
+urn:xmpp:jingle:0
+urn:xmpp:jingle:apps:file-transfer:1
+http://jabber.org/protocol/si/profile/file-transfer
+urn:xmpp:jingle:transports:ibb:0
+bluendo:http:publish:0
+USERID
+vcard-temp
+vCard
+BINVAL
+NICKNAME
+PHOTO
+FN
+EMAIL
+file
+bluendo:bxmlrpc:0
+bluendo:register:0
+urn:xmpp:delay
+delay
+400
+Bad request
+401
+Not authorized
+403
+Forbidden
+404
+Item not found
+406
+Not acceptable
+407
+Registration required
+500
+Internal server error
+501
+Feature not implemented
+503
+Service unavailable
+id
+type
+name
+/icons/mic.png
+id
+file
+id
+name
+desc
+type
+img
+snd
+1
+/icons/presence_
+/icons/presence_
+/icons/presence_
+/icons/presence_
+/icons/presence_
+/icons/presence_
+/icons/presence_
+/icons/presence_
+file
+/icons/presence_
+id
+/icons/presence_
+/icons/presence_
+/icons/presence_
+id
+1
+socket://	@not_plain_socket
+Lampiro
+oversubscribed dynamic bit lengths tree
+incomplete dynamic bit lengths tree
+oversubscribed literal/length tree
+incomplete literal/length tree
+oversubscribed distance tree
+incomplete distance tree
+empty distance tree with lengths
+message
+body
+presence
+type
+get
+iq
+xmlns
+query
+message
+xmlns
+jabber:x:data
+x
+iq
+xmlns
+jabber:x:data
+x
+presence
+xmlns
+http://jabber.org/protocol/disco#items
+query
+from
+online
+0
+c
+node
+hash
+sha-1
+ver
+rstr_
+from
+groupchat
+from
+<<\\"\\">>
+from
+set
+client/
+phone/
+/
+<<\\"Lampiro \\">>
+<
+<<\\"\\">>
+sha1
+from
+type
+from
+set
+iq
+xmlns
+from
+type
+from
+set
+iq
+xmlns
+from
+from
+type
+unavailable
+from
+c
+result
+id
+id
+unavailable
+type
+from
+set
+from
+http://jabber.org/protocol/disco#items
+query
+http://jabber.org/protocol/disco#items
+item
+node
+name
+invalid literal/length code
+invalid distance code
+<<\\"\\">>
+text-single
+var
+type
+label
+desc
+required
+value
+option
+jabber:x:data
+value
+label
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"Invalid menu pos: \\">>
+<<\\"\\">>
+<<\\"\\">>
+In removing menu item
+<<\\"Invalid itemList pos: \\">>
+<<\\"\\">>
+<<\\" \\">>
+common
+en
+invalid distance code
+invalid literal/length code
+UTF-8
+<<\\"\\">>
+\\"1\\"
+\\"2\\"
+_01
+_02
+_04
+_07
+_08
+_09
+_10
+_11
+_12
+_13
+_14
+_15
+_16
+<<\\"\\">>
+<<\\"\\">>
+Group chat name
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+xmlns
+50
+1
+<<\\"\\">>
+/icons/message.png
+/icons/gear.png
+/icons/task.png
+<<\\"\\">>
+<<\\"\\">>
+type
+from
+to
+from
+type
+error
+error
+type
+cancel
+urn:ietf:params:xml:ns:xmpp-stanzas
+feature-not-implemented
+<<\\"sel: \\">>
+<<\\"\\">>
+common
+en
+common
+en
+common
+en
+from
+<<\\"\\">>
+Jabber
+<<\\"\\">>
+/transport/
+get
+query
+<<\\"\\">>
+set
+query
+prompt
+bad jid
+from
+Connection lost
+Connection with the server lost
+urn:ietf:params:xml:ns:xmpp-session
+set
+session
+id
+<<\\"\\">>
+id
+iq
+<<\\"\\">>
+result
+type
+common
+en
+cannot start session
+\\"executing\\"
+\\"completed\\"
+\\"canceled\\"
+set
+command
+node
+action
+execute
+id
+id
+iq
+command
+sessionid
+jabber:x:data
+x
+status
+canceled
+completed
+message
+executing
+body
+type
+http://jabber.org/protocol/commands
+note
+cancel
+prev
+submit
+next
+submit
+execute
+to
+x
+set
+query
+destroy
+\n
+\r\n
+<<\\" \\">>
+set
+\t
+http://jabber.org/protocol/commands
+command
+node
+sessionid
+to
+\n
+action
+type
+\r\n
+unavailable
+<<\\"\\">>
+get
+query
+command
+actions
+actions
+complete
+next
+prev
+complete
+Command Info
+Data submitted: awaiting a response from the server
+Command Info
+Command canceled: awaiting a response from the server
+<<\\"The task \\">>
+Task canceled
+Task finished
+Task finished
+An error occurred while executing the task
+error
+code
+Can\'t open URL:
+URL Error
+Task error
+Note
+[
+\\"presence\\"
+\\"priority\\"
+\\"resource\\"
+get
+\\"status\\"
+\\"show\\"
+\\"chat\\"
+\\"dnd\\"
+\\"away\\"
+query
+\\"xa\\"
+\\"online\\"
+node
+\\"subscribe\\"
+http://jabber.org/protocol/commands
+\\"subscribed\\"
+\\"unsubscribe\\"
+\\"unsubscribed\\"
+\\"probe\\"
+\\"unavailable\\"
+presence
+presence
+show
+jabber:client
+show
+to
+jabber:client
+x
+show
+priority
+get
+query
+jabber:client
+priority
+<<\\"\\">>
+jabber:client
+priority
+jabber:client
+resource
+Lampiro
+status
+jabber:client
+status
+jabber:client
+status
+from
+from
+from
+from
+from
+get
+query
+type
+set
+iq
+xmlns
+common
+en
+1
+from
+type
+from
+set
+iq
+from
+50
+from
+socket://jabber.bluendo.com:5222
+_*
+message
+test_ff@jabber.bluendo.com/pippa
+test_ff
+<<\\"\\">>
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Press left key
+Press right key
+Press any key to continue
+Not a valid key
+Not a valid key
+from
+type
+subject
+from
+x
+invite
+from
+<<\\"\\">>
+&#
+&amp;
+&gt;
+&lt;
+&quot;
+&apos;
+&#
+<
+<<\\" xmlns=\'\\">>
+<<\\" \\">>
+de
+in
+<<\\" ns\\">>
+<<\\"\\">>
+<<\\"\\">>
+>
+</
+de
+in
+/>
+error
+feature-not-implemented
+<<\\"\\">>
+jabber.bluendo.com
+<<\\"\\">>
+message
+xmlns
+x
+invite
+<<\\"\\">>
+jabber:client
+presence
+subject
+xmlns
+chat
+x
+item
+type
+groupchat
+message
+subject
+\\"jabber:client\\"
+\\"to\\"
+\\"from\\"
+\\"type\\"
+\\"id\\"
+jabber:client
+to
+type
+id
+query
+item
+jid
+get
+query
+<<\\"\\">>
+<<\\"\\">>
+Mobile Messaging
+<<\\"\\">>
+(c) 2007-2009 Bluendo srl	@Glider
+http://www.bluendo.com	@Glider
+/transport/msn.png
+<<\\"\\">>
+Available/Total memory:
+OK
+ABOUT
+/transport/icq.png
+/transport/aim.png
+/transport/yahoo.png
+/transport/transport.png
+<<\\"\\">>
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+from
+x
+item
+name
+jid
+Configuration
+group
+action
+<<\\"\\">>
+<<\\"\\">>
+to
+from
+type
+from
+to
+result
+<<\\"\\">>
+<<\\"\\">>
+agb
+<<\\" \\">>
+<<\\"\\">>
+<<\\" \\">>
+<<\\" \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+jabber.bluendo.com
+UTF-8
+<<\\"\\">>
+<<\\"\\">>
+subscribed
+to
+subscribe
+to
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Yes
+1
+true
+<<\\"\\">>
+Select
+\\"1.0.2\\"
+1.0.2
+PLAIN
+DIGEST-MD5
+X-GOOGLE-TOKEN
+urn:ietf:params:xml:ns:xmpp-sasl
+<<\\"Multivector: \\">>
+auth
+true
+false
+common
+en
+mechanism
+*
+mechanism
+*
+mechanism
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+0
+0
+<<\\"\\">>
+*
+Cannot find suitable mechanism for authentication
+<<\\"\\">>
+Connected using Lampiro: http://lampiro.bluendo.com
+unavailable
+common
+en
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+nonce
+00000001
+nc
+md5
+cnonce
+auth
+qop
+/icons/contact_delete.png
+/icons/contact_add_all.png
+/icons/contact_add_always.png
+md5
+set
+:
+query
+item
+jid
+xmpp/
+name
+AUTHENTICATE:
+md5
+set
+md5
+group
+md5
+response
+charset
+utf-8
+digest-uri
+username
+realm
+response
+*
+<<\\"\\">>
+query
+desc
+Not enough memory for completing the authentication
+type
+normal
+username
+<<\\"\\">>
+realm
+x
+<<\\"\\">>
+cnonce
+invite
+<<\\"\\">>
+nonce
+from
+<<\\"\\">>
+digest-uri
+<<\\"\\">>
+group
+authzid
+<<\\"\\">>
+cipher
+<<\\"\\">>
+<<\\"\\">>
+name
+to
+subscription
+type
+unsubscribed
+,
+<<\\"\\">>
+<<\\"\\">>
+agb
+agw
+/icons/unchecked.png
+/icons/checked.png
+/icons/unchecked.png
+type
+error
+iq
+type
+result
+iq
+id
+Email=
+POST
+Content-Type
+application/x-www-form-urlencoded
+Content-Length
+id
+%
+common
+en
+CANCEL
+SELECT
+ACTIONS
+MENU
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+need dictionary
+stream end
+<<\\"\\">>
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+from
+groupchat
+subject
+<<\\"\\">>
+from
+from
+avail_out=
+headline
+from
+from
+<<\\"\\">>
+<<\\" \\">>
+to
+common
+en
+x
+<<\\"\\">>
+invite
+to
+Type
+Subject
+<<\\"\\">>
+Message
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+send
+message
+chat
+from
+<<\\"\\">>
+[
+<<\\"\\">>
+jabber:client
+subject
+chat
+<<\\"\\">>
+urn:ietf:params:xml:ns:xmpp-bind
+set
+bind
+resource
+common
+en
+id
+id
+iq
+result
+type
+bind
+jid
+cannot bind resource
+type
+unavailable
+from
+type
+x
+unknown
+subscribe
+1
+from
+both
+to
+lampiro@golem.jabber.bluendo.com
+to
+type
+subscribed
+0
+nick
+0
+0
+50
+from
+type
+30
+common
+en
+<<\\"\\">>
+<<\\"\\">>
+chat
+from
+set
+reason
+success
+\\"x\\"
+\\"jabber:x:data\\"
+\\"jabber:x:listo\\"
+\\"title\\"
+\\"instructions\\"
+\\"field\\"
+\\"desc\\"
+\\"required\\"
+\\"value\\"
+\\"option\\"
+\\"reported\\"
+\\"var\\"
+\\"DIRECT_SOCKET\\"
+\\"type\\"
+\\"label\\"
+\\"form\\"
+\\"result\\"
+\\"cancel\\"
+\\"submit\\"
+\\"boolean\\"
+\\"fixed\\"
+\\"hidden\\"
+\\"jid-multi\\"
+\\"jid-single\\"
+\\"list-multi\\"
+\\"list-single\\"
+\\"text-multi\\"
+\\"text-private\\"
+\\"text-single\\"
+DIRECT_SOCKET
+boolean
+fixed
+hidden
+jid-multi
+jid-single
+list-multi
+list-single
+text-multi
+text-private
+text-single
+type
+form
+form
+result
+result
+jabber:x:data
+reported
+item
+<<\\"\\">>
+field
+var
+jabber:x:data
+value
+success
+Cannot authenticate
+field
+_fixed_
+test
+instructions
+test01
+title
+gineprando2
+gineprando
+gineprando2
+<<\\"\\">>
+jabber:x:data
+x
+type
+jabber:x:data
+field
+type
+var
+jabber:x:data
+value
+jabber:x:data
+value
+<<\\"\\">>
+jabber:x:data
+value
+Error!!!
+Error!!!
+session-initiate
+session-accept
+session-terminate
+action
+data
+jingle
+decline
+content
+description
+desc
+offer
+name
+block-size
+creator
+initiator
+sid
+seq
+file
+open
+close
+transport
+size
+feature
+my String
+var
+my String
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Error!!!
+Error!!!
+set
+Error!!!
+sha1
+a-file-transfer
+sha1
+from
+type
+set
+iq
+type
+set
+iq
+xmlns
+set
+Error!!!
+Error!!!
+set
+set
+from
+type
+set
+iq
+xmlns
+from
+set
+query
+query
+x
+field
+x
+type
+submit
+FORM_TYPE
+http://jabber.org/protocol/muc#roomconfig
+muc#roomconfig_roomname
+temp
+muc#roomconfig_roomdesc
+temp
+muc#roomconfig_roomsecret
+<<\\" \\">>
+muc#roomconfig_enablelogging
+0
+muc#roomconfig_publicroom
+0
+muc#roomconfig_persistentroom
+0
+muc#roomconfig_changesubject
+1
+muc#roomconfig_allowinvites
+1
+muc#roomconfig_moderatedroom
+0
+muc#roomconfig_whois
+anyone
+muc#roomconfig_membersonly
+1
+var
+var
+value
+value
+value
+0
+a
+<<\\"\\">>
+gino
+gino
+stringa-lunga-senza-sensostringa-lunga-senza-sensostringa-lunga-senza-senso
+-lunga-senza-sensostringa-lunga-senza-sensostringa-lunga-senza-senso
+pino
+pino
+tino
+tino
+peristalsi
+peristalsi
+rino
+rino
+longBytes
+7
+start
+>
+common
+en
+finish
+\\"Unexpected EOF\\"
+\\"Wrong event type\\"
+<<\\"\\">>
+Lampiro	@x_notGlider
+Loading Lampiro...	@x_notGlider
+<<\\"\\">>
+illegal empty namespace
+<<\\"\\">>
+<<\\"illegal attribute name: \\">>
+<<\\"\\">>
+<<\\"Undefined Prefix: \\">>
+<<\\"illegal tag name: \\">>
+<<\\"undefined prefix: \\">>
+<<\\"\\">>
+/icons/combo.png
+<<\\"\\">>
+from
+<<\\"\\">>
+<<\\"ERR: \\">>
+common
+en
+<<\\"\\">>
+No Input specified
+missing end tag /
+<<\\"\\">>
+<<\\"\\">>
+EXPAND
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+PI must not start with xml
+version
+version expected
+encoding
+standalone
+yes
+no
+<<\\"illegal standalone value: \\">>
+illegal xmldecl
+--
+[CDATA[
+DOCTYPE
+illegal: <
+Unexpected EOF
+illegal comment delimiter: --->
+Unexpected EOF
+jabber:iq:roster
+element stack empty
+expected: /
+0
+1
+true
+type
+set
+iq
+xmlns
+query
+<<\\"\\">>
+roster
+ver
+0
+group
+<<\\"\\">>
+item
+Error reading roster fromstorage:\n
+Exception
+Unexpected EOF
+attr name expected
+<<\\"\\">>
+<<\\"Attr.value missing f. \\">>
+1
+roster
+0
+attr value delimiter missing!
+ver
+group
+roster
+Error saving roster to storage:\n
+Exception
+<<\\"\\">>
+query
+item
+ver
+get
+query
+ver
+unterminated entity ref
+unresolved: &
+set
+query
+item
+jid
+name
+group
+<<\\"\\">>
+<<\\"\\">>
+Illegal: ]]>
+group
+expected: \'
+set
+query
+item
+jid
+subscription
+remove
+name expected
+true
+false
+query
+ver
+item
+\n
+jid
+<<\\"\\">>
+unsupported
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+relaxed
+<<\\"\\">>
+serverEl
+to
+jid
+name
+subscription
+Jabber Server
+both
+entity replacement text must be defined after setInput!
+subscribed
+online
+Jabber Server
+from
+xmldecl-version
+xmldecl-standalone
+location
+jid
+group
+name
+subscription
+subscription
+name
+subscription
+xml
+http://www.w3.org/XML/1998/namespace
+xmlns
+http://www.w3.org/2000/xmlns/
+query
+prompt
+jid
+<<\\"\\">>
+from
+type
+name
+common
+en
+<<\\"\\">>
+gws
+gw
+from
+type
+name
+unknown
+<<\\"(empty) \\">>
+{
+get
+{
+query
+(whitespace)
+@
+<<\\" in \\">>
+<<\\" in \\">>
+Contact Info
+close
+JID
+Wrong event type
+Nick
+Subscription
+Resources
+<<\\"\\">>
+from
+<<\\"\\">>
+Status
+close
+Wrong event type
+CDATA
+prova
+prova2
+<<\\"Active Item \\">>
+<<\\"\\">>
+Server type
+unexpected type
+<<\\"\\">>
+<<\\"\\">>
+<username>
+<example.org>
+Lampiro
+<<\\"\\">>
+<<\\"expected: \\">>
+<<\\"\\">>
+precondition: START_TAG
+<<\\"\\">>
+<<\\"\\">>
+END_TAG expected
+automatic
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+manual
+relaxed
+<<\\"\\">>
+<<\\"unsupported feature: \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+location
+<<\\"unsupported property: \\">>
+utf-8
+<<\\"\\">>
+amp
+&
+apos
+\'
+gt
+>
+lt
+<
+<<\\"\\">>
+UTF-8
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+emo:):(eheh:Obene
+MENU
+<<\\"Menu Item \\">>
+label
+text
+Popup-A
+Popup-A
+Popup-B
+Popup-B
+Popup img
+<<\\"Menu Item Img \\">>
+Popup Ac
+<<\\"Accordion Menu \\">>
+<<\\"veryLongLabel \\">>
+title
+<<\\"veryLongLabel \\">>
+Mylabel
+_*
+http://
+<<\\"veryShortLabel \\">>
+H*W=
+<<\\"\\">>
+text
+<<\\"veryLongLabel \\">>
+<<\\"\\">>
+<<\\"\\">>
+prova button
+LabelPicture:
+Cont2
+FIRST
+SECOND
+Horizontal
+Cont
+First
+UTF-8
+Second
+layout
+button2
+buttona
+buttonb
+Combo0
+combo1
+combo2
+combo3
+A very long text button
+Normal button
+Image button
+Vertical
+layout
+check1
+check2
+check3
+Big:
+Big:
+Big:
+Big:
+Big:
+Big:
+Big:
+Horizontal
+Combo1
+combobig1
+combobig2
+combobig3
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+from
+result
+id
+id
+Big:
+Big:
+Big:
+Combo2
+combo1-2
+combo2-2
+common
+combo3-2
+en
+Combo3
+combo3-1
+combo2-2longlonglonglonglonglonglonglonglonglonglonglong
+combo3-3
+combo3-4
+combo3-5
+This is a very long string that is not wrapped and hence SHOULD finish with thre full stops!!!!
+<<\\"The quick brown fox jumps over the lazy dog. And this is a_very_long_word. \\">>
+LabelPicture:
+HEADER
+item #
+Popup-B
+/icons/mic.png
+Bigmenu2-
+<
+Popup-A
+<<\\"\\">>
+Bigmenu1
+<<\\"\\">>
+<<\\"\\">>
+<<\\"ContMenu has been pressed: \\">>
+Mobile Messaging
+<<\\"\\">>
+(c) 2007-2008 Bluendo srl
+http://www.bluendo.com
+<<\\"\\">>
+version 1.0
+OK
+http://services.bluendo.com/srv/?domain=
+_:-1
+<<\\"\\">>
+<<\\"\\">>
+About
+<<\\"\\">>
+Lampiro
+Lampiro
+<<\\"\\">>
+<<\\"\\">>
+query
+from
+identity
+type
+category
+name
+common
+en
+Debug
+-
+-
+logging
+-
+unknown compression method
+invalid window size
+incorrect header check
+need dictionary
+test
+<<\\"\\">>
+incorrect data check
+de
+in
+<<\\"\\">>
+<<\\"\\">>
+\n
+<<\\" \\">>
+<<\\" \\">>
+<<\\"\\">>
+<<\\" \\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+Phone hold on, please don\'t send messages
+\\"lampirorms\\"
+\\"yuprms\\"
+\\"socket://localhost:10080\\"
+\\"bosh.bluendo.com\\"
+\\"/httpb\\"
+\\"http://services.bluendo.com/srv/?domain=\\"
+\\"jabber.bluendo.com\\"
+\\"lampiro@golem.jabber.bluendo.com\\"
+9.6.0
+t
+f
+config
+known_caps
+caps
+reg_gateways
+groups_position
+amr
+amr-xb
+pcm
+ulaw
+gsm
+wav
+au
+raw
+jpeg
+png
+jfif
+bmp
+lampirorms
+lampirorms
+lampirorms
+yuprms
+yuprms
+yuprms
+yuprms
+Error while loading config:\n
+Config Error
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+<<\\"\\">>
+y
+0
+300000
+Lampiro (http://lampiro.bluendo.com)
+online
+Error while saving config:\n
+Config Error
+<<\\"\\">>
+challenge
+Cannot authenticate
+\\"message\\"
+\\"body\\"
+\\"subject\\"
+\\"thread\\"
+\\"error\\"
+\\"chat\\"
+\\"groupchat\\"
+\\"normal\\"
+\\"headline\\"
+message
+jabber:client
+body
+jabber:client
+body
+jabber:client
+body
+jabber:client
+error
+urn:ietf:params:xml:ns:xmpp-stanzas
+text
+utf-8
+utf-8
+\\"jabber:iq:register\\"
+http://jabber.org/features/iq-register
+set
+jabber:iq:register
+query
+jabber:iq:register
+username
+jabber:iq:register
+password
+id
+id
+iq
+type
+Error creating account
+error
+debug
+Test midlet
+Bytes
+offline
+<<HASH:-935196850>>
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+start:
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+\\"Unexpected EOF\\"
+\\"Wrong event type\\"
+illegal empty namespace
+<<\\"illegal attribute name: \\">>
+<<\\"Undefined Prefix: \\">>
+<<\\"illegal tag name: \\">>
+<<\\"undefined prefix: \\">>
+<<\\"\\">>
+<<\\"ERR: \\">>
+No Input specified
+missing end tag /
+<<\\"\\">>
+PI must not start with xml
+version
+version expected
+encoding
+standalone
+yes
+no
+<<\\"illegal standalone value: \\">>
+illegal xmldecl
+--
+[CDATA[
+DOCTYPE
+illegal: <
+Unexpected EOF
+illegal comment delimiter: --->
+Unexpected EOF
+element stack empty
+expected: /
+Unexpected EOF
+attr name expected
+<<\\"\\">>
+<<\\"Attr.value missing f. \\">>
+1
+attr value delimiter missing!
+<<\\"\\">>
+unterminated entity ref
+unresolved: &
+Illegal: ]]>
+expected: \'
+name expected
+unsupported
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+relaxed
+entity replacement text must be defined after setInput!
+xmldecl-version
+xmldecl-standalone
+location
+xml
+http://www.w3.org/XML/1998/namespace
+xmlns
+http://www.w3.org/2000/xmlns/
+unknown
+<<\\"(empty) \\">>
+{
+{
+(whitespace)
+@
+<<\\" in \\">>
+<<\\" in \\">>
+Wrong event type
+Wrong event type
+CDATA
+unexpected type
+<<\\"expected: \\">>
+precondition: START_TAG
+<<\\"\\">>
+END_TAG expected
+http://xmlpull.org/v1/doc/features.html#process-namespaces
+relaxed
+<<\\"unsupported feature: \\">>
+location
+<<\\"unsupported property: \\">>
+utf-8
+amp
+&
+apos
+\'
+gt
+>
+lt
+<

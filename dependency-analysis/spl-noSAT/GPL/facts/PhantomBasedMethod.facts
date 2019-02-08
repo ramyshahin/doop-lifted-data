@@ -1,0 +1,14 @@
+<Vertex: Vertex assignName(java.lang.String)>
+<Vertex: java.lang.String getName()>
+<Vertex: java.util.LinkedList getNeighborsObj()>	@GN_OnlyNeighbors
+<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>
+<Main: void main(java.lang.String[])>	@Prog
+<Graph: void sortVertices(java.util.Comparator)>
+<Graph: void sortEdges(java.util.Comparator)>	@EdgeObjects
+<Graph: Vertex findsVertex(java.lang.String)>
+<Graph: void runBenchmark(java.lang.String)>	@Benchmark
+<Graph: void stopBenchmark()>	@Benchmark
+<Graph: int readNumber()>	@Benchmark
+<Graph: java.util.LinkedList access$0(Graph)>
+<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>
+<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>

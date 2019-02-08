@@ -1,0 +1,123 @@
+byte[]	@GZip
+byte[]	@(GZip) /\ (GZip)
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+java.io.File[]
+java.io.File[]
+char[]
+char[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+java.lang.String[]	@Replication
+java.lang.String[]	@Replication
+byte[]
+byte[]
+java.io.File[]
+java.io.File[]
+java.io.File[]
+java.io.File[]
+byte[]	@GZip
+byte[]
+byte[]
+byte[]
+byte[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]
+java.lang.String[]	@Replication
+java.lang.String[]	@Replication
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+java.lang.String[]
+java.lang.String[]
+java.lang.Object[]
+java.lang.Object[]
+java.io.File[]
+java.io.File[]
+java.lang.String[]	@Snapshot
+java.lang.String[]	@Snapshot
+byte[]	@GZip
+byte[]	@(GZip) /\ (GZip)
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+byte[]	@GZip
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+java.lang.Object[]
+java.lang.Object[]
+byte[]
+byte[]
+java.lang.Object[]
+java.lang.Object[]
+java.lang.String[]	@Snapshot
+java.lang.String[]	@Snapshot
+java.lang.String[]
+java.lang.String[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]
+byte[]

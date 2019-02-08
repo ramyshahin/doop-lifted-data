@@ -1,0 +1,17 @@
+0	<Graph: void display()>/java.io.PrintStream.println/0	<Graph: void display()>/$stringconstant0
+0	<Graph: void addVertex(Vertex)>/java.util.LinkedList.add/0	<Graph: void addVertex(Vertex)>/v#_0
+1	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator1.compare/0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/$r0
+0	<Vertex: void display()>/java.io.PrintStream.print/2	<Vertex: void display()>/$r15
+0	<Vertex: void display()>/java.io.PrintStream.print/3	<Vertex: void display()>/$r21
+1	<Graph: void sortVertices(java.util.Comparator)>/java.util.Collections.sort/0	<Graph: void sortVertices(java.util.Comparator)>/c#_0
+1	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator2.compare/0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/$r0
+0	<Graph: void display()>/java.io.PrintStream.println/1	<Graph: void display()>/$stringconstant1
+0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator3.compare/0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$r1
+0	<Graph: void sortVertices(java.util.Comparator)>/java.util.Collections.sort/0	<Graph: void sortVertices(java.util.Comparator)>/$r0
+0	<Vertex: void display()>/java.lang.StringBuilder.<init>/2	<Vertex: void display()>/$r19
+0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator1.compare/0	<Graph$Comparator1: int compare(java.lang.Object,java.lang.Object)>/$r1
+0	<Graph: VertexIter getVertices()>/VertexIter.<init>/0	<Graph: VertexIter getVertices()>/this#_0
+0	<Graph: void display()>/java.io.PrintStream.println/2	<Graph: void display()>/$stringconstant2
+0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator2.compare/0	<Graph$Comparator2: int compare(java.lang.Object,java.lang.Object)>/$r1
+0	<Vertex: void display()>/java.lang.StringBuilder.<init>/1	<Vertex: void display()>/$stringconstant1
+1	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/Graph$Comparator3.compare/0	<Graph$Comparator3: int compare(java.lang.Object,java.lang.Object)>/$r0

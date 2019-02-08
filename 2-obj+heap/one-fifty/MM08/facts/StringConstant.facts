@@ -1,0 +1,247 @@
+Delete
+Stop
+/images/jump.wav
+Store
+\\"ImageScreen\\"
+5550001
+Gregor
+/images/Gosling1.PNG
+Copy to Album:
+<<\\"SmsMessaging::receiveImage: sender address = \\">>
+jad.name
+The provided data are not valid
+You have just received a bad fragmentated photo which was not possible to recovery.
+lancs.mobilemedia.core.ui.MainUIMidlet
+Screen size:176:205
+vvpi-
+Send Now
+Error Incoming Photo
+<<\\"\\">>
+MediaAccessor::loadAlbums: 0 record stores exist. Creating default one.
+java.home
+/images/Tucan.png
+ImageAccessor::resetVideoRecordStore: albumNames array was null. Nothing to delete.
+Edit Label Item
+<<\\"<* SelectMediaController.handleCommand() *>: \\">>
+Volume: 50
+<<\\"<* PhotoViewController.handleCommand() *> \\">>
+/images/Gregor1.PNG
+1000
+Obteve a imagem
+vvp-
+Finishing Baseathread::run()
+<<\\"Would you like to remove the album \\">>
+Crio a screen
+SmsMessaging::receiveImage() - Finish
+<<\\"Passing to next controller in chain: \\">>
+Add new Photo Album
+default
+MobileMedia
+Reject Photo
+Fish
+<<\\"SmsController::handleCommand - Sending bytes for image \\">>
+Definiu a imagem
+Incoming SMS Message with Payload:
+<<\\"<* ImageAccessor.resetVideoRecordStore() *> delete \\">>
+Path
+Java
+Create new Photo Album here
+My Video Album
+EStou aqui 2222...........................
+Add Password
+<<\\"The file \\">>
+MIDI Player
+C:\WTK2.5.1
+Phone #
+MobileMedia.prc
+Jump
+AddPhotoToAlbum
+<<\\"<* PhotoController.handleCommand() *> Save Photo Label = \\">>
+Edit Label
+video/mpeg
+Tempo: 120
+New picture
+\\"*\\"
+Music
+<<\\"Ignoring Exception: \\">>
+Select
+DEBUG 2: after smsConn.receive()
+midlet.name
+Sorting by BubbleSort...
+SmsController::Starting SMSReceiver Thread
+BaseThread:: 0 Param Constructor used: Using default values
+/images/ubcLogo.PNG
+Add
+<<\\"SmsReceiverController::handleCommand: \\">>
+Start
+<<\\"SmsController:handleCommand() - Info from Network Screen is: \\">>
+<* AlbumController.goToPreviousScreen() *>
+Name
+J. Gosling
+Reject Photo command
+mpp-
+\\"AddPhotoToAlbum\\"
+Capture video
+Linux Penguin
+Duke (Sun)
+<<\\"Send caught: \\">>
+main.class
+<<\\"<* VideoCaptureController.handleCommand() *> \\">>
+Tucan Sam
+<<\\"<* MediaUtil.readMediaAsByteArray() *> mediaFile = \\">>
+Finishing SMSSender run()
+MediaAccessor::loadAlbums: Current store
+PhotoViewScreen::paint(): Image object was null.
+<<\\"MediaAccessor::loadAlbums: Found: \\">>
+Applause
+Select the media to Use
+ImageListScreen
+C:\Program Files\Java\jdk1.5.0_09
+Error ao criar o player:
+Send Photo by SMS
+<<\\"Closing connection caught: \\">>
+preprocessor.symbols
+Yes
+Can\'t go back here...Should never reach this spot
+Pitch: 0
+\\"NewLabelScreen\\"
+<* BaseController.handleCommand() *> Reset Photo Album
+Photos
+Path not valid for this media:
+wtk.home
+Type of media
+Kris
+DEBUG 1: before smsConn.receive():
+<<\\"AbstractController::postCommand - Reached top of chain. No more handlers for command: \\">>
+<<\\"SmsMessaging::sendImage: Sending binary message to: \\">>
+<<\\"From: \\">>
+<<\\"<* MusicPlayController.handleCommand() *> \\">>
+Password
+No Video Control for capturing!
+<<\\"AbstractController::postCommand - Current controller is: \\">>
+image/png
+Accept Photo
+<<\\"SmsMessaging::sendImage() num segments to send is: \\">>
+/images/Gail1.PNG
+Baby
+Incoming Binary SMS Message...
+View
+Current List from display is NULL!
+Copy Media to Album
+Play Video
+MobileMedia.jar
+/images/bong.wav
+MobileMedia.jad
+Starting SMSReceiver::run()
+<<\\"<* BaseController.handleCommand() *> Image = \\">>
+Bong
+/images/baby.wav
+mpa-
+<<\\"SmsSenderThread:: 3 Param Constructor: \\">>
+Set Favorite
+<<\\"Pitch: \\">>
+C:\user\research\MobileMedia\Antenna
+ConfirmDeleteAlbumScreen
+prc.name
+BEFORE ALERT CODE
+UBC Logo
+Error criar or controler
+<<\\"Tempo: \\">>
+/images/Kdvolder1.PNG
+Back
+/images/Java.png
+Save to Album:
+Capture Photo
+Delete Album
+Exit
+<<\\"<* PlayVideoController.handleCommand() *> \\">>
+Define a Password
+Path not valid for this file:
+Save Item
+\\"ImageListScreen\\"
+Capture Video
+New photo
+View Favorites
+No - Delete
+Cancel
+<* BaseController.goToPreviousScreen() **>
+/images/applause.wav
+Confirm
+Item label
+Cancel sending of SMS message
+<<\\"SmsMessaging::receiveImage: buffer length = \\">>
+<* PhotoController.goToPreviousScreen() *>
+NoName
+done.
+<<\\"<* AlbumController.handleCommand() *>: \\">>
+Error ao definir a tela
+Finishing SMSReceiver run()
+New Incoming Photo
+Starting BaseThread::run()
+My Photo Album
+\\"ConfirmDeleteAlbumScreen\\"
+Error:
+A MobilePhoto user has sent you a Photo. Do you want to accept it?
+/images/Penguin.png
+mmp-
+Reciever Details
+Play
+Would you like to define a password to this Album
+Error interreput
+\\"AlbumListScreen\\"
+Binary Message (No Text)
+<<\\"<* MediaUtil.readMediaAsByteArray() *> is = \\">>
+mmpi-
+Take photo
+The mobile database is full
+EStou aqui 11...........................
+Printer
+<<\\"...or...No record store named \\">>
+Delete Photo Album
+<<\\"SmsSenderController::handleCommand: \\">>
+My Music Album
+audio/x-wav
+Olha para a captura
+Reset
+<<\\"SmsSenderThread::run: Sending message: \\">>
+antenna.home
+ImageScreen
+Vai adicionar os dados
+Copy
+Delete Photo Album here
+New Album
+Save
+Gail
+Bad fragmentation
+jar.name
+Invalid Password
+SmsMessaging::receiveImage() - start
+/images/Duke1.PNG
+Choose Items
+Videos
+<<\\"SmsSenderThread: setBinaryData of length: \\">>
+Crio os comandos e vai iniciar o display
+sms://
+<<\\"<* PhotoController.handleCommand() *> \\">>
+Add new item to Album
+<<\\" \\">>
+MM08.jar
+Select Album
+OK
+Sort by Views
+No
+NewLabelScreen
+/images/printer.wav
+Yes - Delete
+Error
+<<\\"Volume: \\">>
+No RecordControl found!
+mpi-
+<<\\"device_screen_132x176, includePhotoAlbum,  includeFavourites , includeSorting, includePhotoAlbum, includeMMAPI, includeSmsFeature, capturePhoto, simulatePlayVideo, includeVideo, captureVideo, includePrivacy  \\">>
+ALBUM
+<<\\"No record store named \\">>
+Ok
+AlbumListScreen
+<<\\"Waiting for SMS on \\">>
+Save Video
+Copy Photo to Album

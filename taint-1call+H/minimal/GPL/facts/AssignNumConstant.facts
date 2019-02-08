@@ -1,0 +1,2 @@
+<Graph: void display()>/assign/instruction8	8	0	<Graph: void display()>/edgeiter#_173	<Graph: void display()>
+<EdgeIter: boolean hasNext()>/return/instruction2	2	0	<EdgeIter: boolean hasNext()>/$numconstant0	<EdgeIter: boolean hasNext()>

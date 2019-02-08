@@ -1,0 +1,16 @@
+<com.sleepycat.je.tree.FileSummaryLN: void <init>(com.sleepycat.je.cleaner.FileSummary)>/new byte[]/0	@(Cleaner) /\ (Cleaner)
+<com.sleepycat.je.cleaner.Cleaner: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,java.lang.String)>/new com.sleepycat.je.cleaner.FileProcessor[]/0	@Cleaner
+<com.sleepycat.util.FastOutputStream: void <clinit>()>/new byte[]/0
+<com.sleepycat.je.tree.Key: void <clinit>()>/new byte[]/0
+<com.sleepycat.je.log.LogUtils: void <clinit>()>/new byte[]/0
+<com.sleepycat.je.tree.Tree: com.sleepycat.je.tree.BIN findBinForInsert(byte[],com.sleepycat.je.log.LogManager,com.sleepycat.je.dbi.INList,com.sleepycat.je.dbi.CursorImpl)>/new byte[]/0	@Latches
+<com.sleepycat.je.dbi.DbTree$RewriteMapLN: com.sleepycat.je.tree.IN doWork(com.sleepycat.je.tree.ChildReference)>/new byte[]/0
+<com.sleepycat.je.dbi.DbTree: long truncate(com.sleepycat.je.txn.Locker,java.lang.String,boolean)>/new byte[]/0	@TruncateOp
+<com.sleepycat.je.cleaner.UtilizationTracker: void <init>(com.sleepycat.je.dbi.EnvironmentImpl,com.sleepycat.je.cleaner.Cleaner)>/new com.sleepycat.je.cleaner.TrackedFileSummary[]/0	@Cleaner
+<com.sleepycat.je.dbi.DbTree: com.sleepycat.je.dbi.TruncateResult truncate(com.sleepycat.je.txn.Locker,com.sleepycat.je.dbi.DatabaseImpl,boolean)>/new byte[]/0	@TruncateOp
+<com.sleepycat.je.dbi.SortedLSNTreeWalker: void <init>(com.sleepycat.je.dbi.DatabaseImpl,boolean,boolean,long,com.sleepycat.je.dbi.SortedLSNTreeWalker$TreeNodeProcessor)>/new long[]/0
+<com.sleepycat.je.tree.DupCountLN: void <init>(int)>/new byte[]/0
+<com.sleepycat.util.UtfOps: void <clinit>()>/new byte[]/0
+<com.sleepycat.je.tree.MapLN: void <init>(com.sleepycat.je.dbi.DatabaseImpl)>/new byte[]/0
+<com.sleepycat.je.tree.NameLN: void <init>(com.sleepycat.je.dbi.DatabaseId)>/new byte[]/0
+<com.sleepycat.je.recovery.RecoveryManager$RootUpdater: com.sleepycat.je.tree.IN doWork(com.sleepycat.je.tree.ChildReference)>/new byte[]/0
